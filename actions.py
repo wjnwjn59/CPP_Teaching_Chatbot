@@ -33,10 +33,10 @@ class AnswerCppDefineQuestion(Action):
 
          return [SlotSet("cplusplus_content_answer",cplusplus_content_answer)]
 
-class CPlusPlusContentForm(FormAction):
+class CppContentForm(FormAction):
     def name(self) -> Text:
         """identifier của form """
-        return 'cplusplus_content_form'
+        return 'cpp_content_form'
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:

@@ -1,6 +1,7 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
   - greet
   - goodbye
@@ -19,6 +20,7 @@ intents:
   - c++_why_asking
   - c++_when_asking
   - c++_where_asking
+  - out_of_scope
 
 actions:
   - utter_reply_feeling_good
@@ -44,7 +46,7 @@ entities:
   - c++_content
 
 forms:
-  - cplusplus_content_form
+  - cpp_content_form
 
 slots:
   c++_content:

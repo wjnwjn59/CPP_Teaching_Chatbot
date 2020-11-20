@@ -557,6 +557,56 @@
 - ok h để t hỏi m cái này
 - ok h hỏi câu này đi
 
+## intent:out_of_scope
+- mấy giờ rồi?
+- cho tui hỏi mấy giờ rồi vậy?
+- tui k biết phải hỏi gì hết
+- hôm nay ngày mấy?
+- thời tiết hôm nay là gì
+- thời tiết hôm nay tại thủ đức
+- ?
+- cho hỏi mấy giờ rồi
+- t đánh mày bây giờ
+- cho tui hỏi các kiếm người yêu 
+- làm sao để kiếm người iu ạ
+- nay có họp k
+- nay họp team ở đâu v 
+- làm sao để làm trùm trường
+- thích coi phim k
+- làm bạn gái a nha
+- làm bạn trai e nha
+- iu nhau k
+- hải quay xe
+- 16 typh on the mic
+- làm sao để làm trùm lập trình
+- cách để thành trùm lập trình 
+- làm sao để thành lập trình viên giỏi
+- bao giờ thì có bồ
+- hát cho tui nghe đi
+- chở tui đi chơi với nha
+- cách lái xe máy
+- thi bằng lái xe ở đâu
+- ngày mai t có tiết lúc mấy giờ nhỉ
+- ngày mai có tiết k ta
+- tin tức hôm nay
+- thời sự hôm nay
+- bầu cử tổng thống mỹ 2020
+- corona virus
+- covid-19
+- covid
+- hát cho t nghe đi
+- biết kiếm tiền k
+- biết hát auto tune k
+- đánh nhau ko
+- dạy t làm AI đi
+- chỉ t machine learning đi
+- làm sao để thành kỹ sư AI
+- cách hết nợ môn 
+- làm sao để hết nợ môn
+- cách qua môn 
+- chỉ t cách qua môn
+- ăn kem thủ đức ở quán nào thì ngon
+
 ## intent:c++_what_asking
 - [library](c++_content:library) là gì thế?
 - khái niệm về [library](c++_content:library) trong c++?
@@ -942,14 +992,14 @@ _ ê mài chỉ t cách xài [continue](c++_content) coi
 - funcs
 
 ## synonym:parameter
-- tham trị
+- tham số 
 - parameter
 - parameters
 - para
 - paras
 
 ## synonym:argument
-- tham chiếu
+- đối số
 - argument
 - arguments
 - arg

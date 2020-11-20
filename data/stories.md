@@ -66,8 +66,8 @@
 
 ## c++ what asking 1
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -78,8 +78,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -90,8 +90,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -100,8 +100,8 @@
 * greet
   - utter_greet
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -110,8 +110,8 @@
 
 ## c++ what asking 5
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -120,8 +120,8 @@
 
 ## c++ what asking 6
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -131,24 +131,24 @@
 
 ## c++ what asking 7
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 * continue_asking
   - utter_accept_questions
 * c++_what_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 
 ## c++ why asking 1
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -160,8 +160,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_why_asking{"c++_content": "c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -172,8 +172,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -182,8 +182,8 @@
 * greet
   - utter_greet
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -192,8 +192,8 @@
 
 ## c++ why asking 5
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -202,8 +202,8 @@
 
 ## c++ why asking 6
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -213,24 +213,24 @@
 
 ## c++ why asking 7
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 * continue_asking
   - utter_accept_questions
 * c++_why_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 
 ## c++ how asking 1
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -241,8 +241,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -253,8 +253,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -263,8 +263,8 @@
 * greet
   - utter_greet
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -273,8 +273,8 @@
 
 ## c++ how asking 5
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -283,8 +283,8 @@
 
 ## c++ how asking 6
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -294,24 +294,24 @@
 
 ## c++ how asking 7
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 * continue_asking
   - utter_accept_questions
 * c++_how_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 
 ## c++ when asking 1
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -322,8 +322,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -334,8 +334,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -344,8 +344,8 @@
 * greet
   - utter_greet
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -354,8 +354,8 @@
 
 ## c++ when asking 5
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -364,8 +364,8 @@
 
 ## c++ when asking 6
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -375,24 +375,24 @@
 
 ## c++ when asking 7
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 * continue_asking
   - utter_accept_questions
 * c++_when_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 
 ## c++ where asking 1
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -403,8 +403,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -415,8 +415,8 @@
 * want_to_ask
   - utter_accept_questions
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -425,8 +425,8 @@
 * greet
   - utter_greet
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -435,8 +435,8 @@
 
 ## c++ where asking 5
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -445,8 +445,8 @@
 
 ## c++ where asking 6
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
@@ -456,16 +456,16 @@
 
 ## c++ where asking 7
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
 * continue_asking
   - utter_accept_questions
 * c++_where_asking{"c++_content":"c++"}
-  - cplusplus_content_form
-  - form{"name": "c++_content"}
+  - cpp_content_form
+  - form{"name": "cpp_content_form"}
   - form{"name": null}
   - action_c++_content_answer
   - utter_ask_anything_else
