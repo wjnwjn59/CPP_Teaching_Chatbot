@@ -1,0 +1,122 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - compliment
+  - thanks
+  - health_inquire
+  - feeling_good
+  - feeling_bad
+  - want_to_ask
+  - continue_asking
+  - stop_asking
+  - c++_what_asking
+  - c++_how_asking
+  - c++_why_asking
+  - c++_when_asking
+  - c++_where_asking
+
+actions:
+  - utter_reply_feeling_good
+  - utter_reply_feeling_bad
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_who_i_am
+  - utter_accept_questions
+  - utter_reply_stop_asking
+  - utter_answer_c++_questions
+  - utter_reply_compliment
+  - utter_reply_thanks
+  - utter_ask_anything_else
+  - utter_ok
+  - utter_thanks
+  - utter_sorry
+  - action_c++_content_answer
+
+entities:
+  - c++_content
+
+forms:
+  - cplusplus_content_form
+
+slots:
+  c++_content:
+    type: text
+  cplusplus_content_answer:
+    type: text
+    
+responses:
+  utter_reply_stop_asking:
+  - text: "Ok bạn nha, có gì thì cứ hỏi mình"
+  - text: "Ừa ok bạn, bạn có thể trở lại hỏi bất cứ khi nào nha"
+
+  utter_reply_health_inquire:
+  - text: Dạo này mình vẫn ổn nha bạn, cảm ơn đã hỏi thăm mình nha
+  - text: Mình vẫn ổn nha, cảm ơn bạn nhiều
+
+  utter_reply_feeling_bad:
+  - text: ' Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. '
+  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng
+      - Abraham Lincoln.'
+      
+  utter_reply_feeling_good:
+  - text: Bạn ổn là mình vui rồi <3
+  - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
+  
+  utter_greet:
+  - text: Xin chào! Bạn khỏe không?
+  - text: Chào bạn, hôm nay bạn thế nào?
+  
+  utter_did_that_help:
+  - text: Vừa rồi có giúp ích được gì cho bạn không?
+  
+  utter_happy:
+  - text: Tuyệt vời, cố gắng phát huy nhé!
+  - text: Bạn giỏi thật đó!
+  - text: Hoàn hảo luôn
+  
+  utter_goodbye:
+  - text: Tạm biệt, hẹn gặp lại bạn sau
+  - text: Chào bạn nha
+  - text: Vâng, hẹn hôm khác nói chuyện tiếp nha
+  
+  utter_who_i_am:
+  - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
+      trình với ngôn ngữ C++!
+      
+  utter_accept_questions:
+  - text: "Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++"
+  - text: "Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++"
+  - text: "Mình có thể trả lời các câu hỏi liên quan đến C++, bạn cứ việc hỏi đi ạ"
+
+  utter_answer_c++_questions:
+  - text: 'Đây là câu trả lời của bạn:'
+  
+  utter_reply_compliment:
+  - text: Hihi ngại quá
+  
+  utter_reply_thanks:
+  - text: Không có gì đâu nè ^^
+  - text: Có gì đâu hihi
+  
+  utter_ask_anything_else:
+  - text: Bạn có muốn hỏi thêm gì không?
+  - text: Bạn có cần hỏi thêm gì không?
+  
+  utter_ok:
+  - text: Ok bạn nha
+  - text: Ừa ok bạn
+  
+  utter_thanks:
+  - text: Cảm ơn bạn đã sử dụng dịch vụ
+  
+  utter_sorry:
+  - text: Xin lỗi bạn
+  
