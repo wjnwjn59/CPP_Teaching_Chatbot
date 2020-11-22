@@ -16,17 +16,13 @@ pipeline:
 - name: "EmbeddingIntentClassifier"
   batch_strategy: sequence
   
-policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolic
-
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
     max_history: 5
   - name: TEDPolicy
+  - name: KerasPolicy
     max_history: 5
     epochs: 200
   - name: MappingPolicy
