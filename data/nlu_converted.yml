@@ -1,0 +1,1071 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào
+    - hello
+    - hiii
+    - hi
+    - ê
+    - e
+    - eeee
+    - này
+    - nihao
+    - ní hạo
+    - hế lô
+    - alo
+    - à lố
+    - a lô
+    - hey
+    - heyyy
+    - yo
+    - yooo
+    - yo wtf
+    - yo ưtf
+    - chào bạn
+    - chào cậu
+    - chào đồng chí
+    - chào em
+    - chào anh
+    - chào mày
+    - hello mày
+    - alo mày
+    - alo bạn eiii
+    - này bạn eii
+    - ê thằng kia
+    - ê mày
+    - ê mài
+    - ê bạn eii
+    - ee banj eeii
+    - ê bạn êii
+    - này thằng kia
+    - bạn ei
+- intent: health_inquire
+  examples: |
+    - cho em hỏi, dạo này bạn khỏe k?
+    - cho em xin được phép hỏi, dạo này bạn thế nào rồi?
+    - cho em hỏi dạo này sống tốt k
+    - mình hỏi cái nè, dạo này sống tốt hong
+    - vừa rồi khỏe k
+    - vừa rồi m sao r
+    - vừa rồi cuộc sống thế nào
+    - tuần vừa rồi sống sao r em
+    - tuần vừa rồi khỏe chứ hả
+    - tuần vừa rồi có mệt mỏi lắm k
+    - tuần vừa qua vẫn ổn chứ
+    - khỏe k
+    - khỏe không
+    - khỏe hong
+    - khỏe chứ mày
+    - khỏe k bot
+    - sống tốt chứ bot
+    - sống tốt chứ hả
+    - sống tốt k
+    - sống tốt k th em
+    - sống tốt k thằng em
+    - sống tốt không thằng em
+    - sống tốt không mày
+    - sống tốt k bot
+    - sống ổn áp k bot
+    - sống ổn chứ em iu
+    - ê dạo này sao r
+    - dạo này sao rồi
+    - dạo này mày thế nào?
+    - dạo này sao rồi th l
+    - dạo này mày sao
+    - nè dạo này sống sao r
+    - ei dạo này sống tốt chứ
+    - eee dạo này còn ổn áp k v
+    - dạo này em iu ổn hơm
+    - dạo này em iu của a khỏe hong
+    - dạo này crush của tui khỏe hong nà
+    - dạo này có sao k
+    - dạo này ổn chứ
+    - dạo này tốt k
+    - dạo này cuộc sống vẫn ok chứ hả chú e
+    - dạo này cuộc sống vẫn tốt chứ hả
+    - dạo này mọi thứ vẫn ok mà phải hem
+    - dạo này ổn áp không
+    - dạo này công việc ổn thỏa chứ hả
+    - dạo này cuộc sống vẫn ổn định chứ
+    - dạo này thằng bot của a khỏe k
+    - dạo này bot khỏe k
+    - dạo này bot của a sống thế nào?
+    - dạo này thằng e của chị ổn k
+    - dạo này bạn mình vẫn khỏe chứ hả
+    - dạo này khỏe hong bạn tui
+    - bữa giờ ổn không
+    - bữa giờ sống tốt k
+    - bữa giờ sao rồi m
+    - bữa giờ ổn áp k m
+    - bữa giờ sống sao r
+    - bữa giờ sống chết sao r
+    - bữa giờ ok k chú e
+    - bữa giờ m sao r kể t nghe
+    - kể t nghe bữa giờ sống sao r hèm
+    - bữa giờ vẫn ok chứ hả
+    - bữa giờ cuộc sống sao r, vẫn thế chứ hả
+    - bữa giờ vẫn ok mà phải k?
+    - bữa h ok k
+    - bữa h tốt k
+    - bữa h công việc ổn thỏa hết chứ hả
+    - bữa h công việc mày sao r
+    - bữa h sức khỏe m sao r
+    - bữa h khỏe k
+    - bữa h học hành sao r
+    - ê bữa h sao r
+    - hổm rày ổn không
+    - hổm rày khỏe không
+    - hổm rày ok không
+    - hổm rày sống tốt không
+    - hổm rày sức khỏe ổn chứ
+    - hổm rày có vấn đề gì k
+    - hổm rày vẫn ok chứ hả
+    - hổm rày chú em thế nào
+    - hổm rày thằng em tui sao r
+    - hổm rày thằng đệ a vẫn ổn chứ
+    - hổm rày có khó khăn gì không thằng e
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - tạm biệt
+    - hẹn gặp lại
+    - tao đi đây con trai
+    - bai bai
+    - hẹn lần khác
+    - tạm biệt nha
+    - cút đi
+    - biến
+    - good bye
+    - hẹn ngày mai
+    - để khi khác hỏi tiếp
+    - hẹn dịp khác
+    - để dịp khác nói tiếp nha
+    - tao bận rồi, bye
+    - pp
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - chính xác
+    - dĩ nhiên
+    - chứ còn gì nữa
+    - đương nhiên
+    - rõ ràng
+    - quá đúng
+    - chuẩn xác luôn
+    - không thể chính xác hơn được nữa
+    - hoàn toàn đúng
+    - đúng
+    - ok
+    - oke
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - không hẳn
+    - không
+    - không bao giờ
+    - hoàn toàn không
+    - không đời nào
+    - chắc chắn là không rồi
+    - tao lại không nghĩ như vậy
+    - chưa đúng
+    - không phải
+    - sai bét
+    - trật lất
+    - trật rồi
+    - sai tè le
+    - không hề
+- intent: compliment
+  examples: |
+    - perfect
+    - very good
+    - great
+    - amazing
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+    - tuyệt vời
+    - tuyet voi
+    - quá đã
+    - xuất sắc
+    - tuyệt hảo
+    - tuyệt cú mèo
+    - chuẩn
+    - quá giỏi
+    - làm tốt lắm
+    - ghê
+    - hay
+    - rất hay
+    - giỏi thiệt sự
+    - ngoan lắm
+    - biết điều đấy
+    - cũng khá phết đấy chứ
+    - khá
+    - được
+    - tốt
+    - sao mày hay thế
+- intent: thanks
+  examples: |
+    - cảm ơn
+    - tks
+    - thanks
+    - many thanks
+    - cảm ơn nhiều
+    - cảm ơn nhìu nha
+    - đội ơn
+    - thank you
+    - cảm ơn rất nhiều
+    - mang ơn cậu nhiều
+    - cảm ơn mày nha
+    - cảm ơn bot nha
+    - thanks bot nha
+    - cảm ơn cậu nha
+    - mình cảm ơn nhiều
+    - mình xin cảm ơn
+    - xin cảm ơn
+    - đa tạ
+    - arigatou
+    - mơn nha
+    - em cảm ơn ạ
+    - mình cảm ơn ạ
+    - tao cảm ơn
+    - thank nhiều
+- intent: feeling_good
+  examples: |
+    - tao khoẻ
+    - tui ổn cảm ơn
+    - bố mày khỏe lắm
+    - t đang sung sức lắm
+    - t đang cực kì ổn
+    - mình ổn lắm
+    - mình khỏe cảm ơn
+    - cảm ơn mình khỏe lắm
+    - mình fine lắm nha
+    - hihi mình ổn cảm ơn bot
+    - hehe t vẫn ổn nha
+    - khỏe cảm ơn
+    - chị m còn khỏe lắm
+    - chị còn khỏe nha em
+    - anh khỏe cảm ơn em
+    - a khỏe
+    - em khỏe
+    - bố m khỏe lắm
+    - chị vẫn tốt nha
+    - mình vẫn great
+    - mình vẫn ok
+    - ok lắm
+    - cũng tạm ổn
+    - khá là ok
+    - dạo này thì mình vẫn ok
+    - cứ tạm gọi là ổn đi
+    - ổn
+    - khỏe
+    - không những khỏe mà còn đang rất sung sức
+    - cực kì khỏe nha
+    - mình còn khỏe lắm nha bồ
+    - ui giời mình ok lắm cảm ơn nha
+    - ui tui vẫn còn ngon zai lắm nha cảm ơn
+    - mình vẫn ổn chán nha bạn ơi
+    - mình khỏe cảm ơn bạn rất nhiều
+    - cảm ơn bạn bot nhiều nha mình vẫn khỏe
+    - ông đây vẫn ổn nhé
+    - bà m vẫn khỏe cảm ơn
+    - ông m vẫn còn ok lắm nha
+    - bà đây khỏe cảm ơn
+- intent: insult
+  examples: |
+    - cc
+    - cmm
+    - cđcmm
+    - thằng l
+    - thằng lồn
+    - thằng lon`
+    - th lon
+    - th lon`
+    - th lồn
+    - con cặc
+    - con cac
+    - con mẹ mày
+    - con đĩ mẹ mày
+    - đcmm
+    - đcm
+    - đmm
+    - dmm
+    - dm
+    - duma
+    - dume
+    - dumemay
+    - đụ mẹ mày
+    - đụ mẹ mài
+    - vcl
+    - vc
+    - vkl
+    - vcc
+    - ngu như con chó
+    - ngu như chó
+    - sủa lên
+    - con chó ngu
+    - con đĩ ngu
+    - con đĩ
+    - con di~
+    - con di~ bot
+    - con chó bot ngu
+    - bot ngu
+    - bot gà
+    - bot ga`
+    - bot dốt
+    - bot ngáo
+    - bot ngao'
+    - bot cặc
+    - bot cac
+    - bot lồn
+    - bot l
+    - lồn bot
+    - cặc bot
+    - chó bot
+    - ngu bot
+    - thằng ngu bot này
+    - óc cặc bot
+    - óc bot
+    - óc loz bot
+    - loz bot
+    - loz
+    - lol
+    - lol má m
+    - loz mẹ m
+    - láo lz
+    - lz
+    - láo l
+    - láo chó
+    - láo cá chó
+    - th l đầu cắt moi
+    - th chó ngu bot
+    - t đang chửi m đấy
+    - bố m đang chửi m đấy
+    - bố mày đang chửi mày đấy
+    - a m đang chửi m đấy
+    - anh mày đang chửi mày đấy
+    - tao chuẩn bị chửi mày nè
+    - chuẩn bị nghe bố m chửi m nè
+    - ê nghe t chửi nè
+- intent: feeling_bad
+  examples: |
+    - sad
+    - very sad
+    - unhappy
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - extremely sad
+    - so sad
+    - buồn quá
+    - buồn thật sự
+    - nản quá
+    - chán quá
+    - buồn
+    - thật sự thất vọng
+    - quá chán
+    - không thể tệ hơn được nữa
+    - tệ hại
+    - buồn bã
+    - buồn hiu luôn
+    - nay tao buồn quá bot ơi
+    - nay tao chán nản quá
+    - hôm nay thật buồn
+    - hôm nay thật sự tẻ nhạt
+    - thật là một ngày tồi tệ
+    - tao sad quá
+    - tao đang rất buồn
+    - tao thật sự chỉ muốn khóc
+    - mình thật sự muốn khóc
+    - sao tui ngu quá vậy
+    - tui dở thật sự
+    - tao đang không ổn chút nào
+    - tui không ổn tí nào luôn á ông ơi
+    - mình cảm thấy k ổn lắm
+    - t đang không ổn lắm
+    - bố m đang k ổn ok?
+    - cảm thấy hơi không ổn lắm
+    - mình đang cảm thấy không ổn lắm
+    - không ổn tí nào luôn á bot
+    - tui đang rất không ổn luôn á
+    - a m thấy không ổn lắm
+    - k vui lắm được chưa
+    - bà đây không ổn lắm
+    - ông đây không ổn lắm
+- intent: stop_asking
+  examples: |
+    - à thôi khỏi đi
+    - à thôi không có gì
+    - à thôi
+    - thôi k có gì
+    - à thôi k có gì
+    - à thôi đc r
+    - à thôi được rồi
+    - à thôi khỏi
+    - à không có gì
+    - à k có gì đâu
+    - à k có gì hết
+    - ak k có gj` đâu
+    - ak k có gì hết
+    - ak thôi k có gì
+    - ah k có gì đâu
+    - ah không có gì đâu nha
+    - ah thôi k có gì đâu
+    - thôi bỏ đi
+    - thôi bỏ cmn đi
+    - thôi nghỉ đi
+    - thôi bỏ qua đi
+    - thôi t k muốn hỏi nữa
+    - thôi tao không muốn hỏi nữa
+    - thôi t đổi ý rồi không hỏi đâu
+    - thôi được rồi t k hỏi nữa đâu
+    - thôi được r nghỉ thôi k hỏi nữa
+    - thôi bỏ đi t k hỏi nữa
+    - thôi dẹp k hỏi
+    - thôi dẹp hết đi t k hỏi gì đâu
+    - thôi t k hỏi gì nữa đâu
+    - nghỉ cmm đi
+    - thôi dẹp hết
+    - thôi được r k cần nữa
+    - thôi được r k muốn hỏi gì nữa hết
+    - thôi t k cần hỏi nữa
+    - thôi t k hỏi đâu, đi đây
+    - thôi dẹp t k cần hỏi nữa
+    - thôi nghỉ nha t k hỏi nữa đâu
+    - thôi em không hỏi anh đâu
+    - thôi được rồi em không hỏi gì đâu
+    - t test m thôi chứ t k hỏi đâu
+    - t tính thử lòng m thôi chứ chưa cần hỏi gì hết
+    - t chưa cần hỏi gì m hết
+    - t chưa tính hỏi gì hết
+    - hiện t chưa có câu hỏi nào dành cho m hết á
+    - tao chưa có câu hỏi nào đâu
+    - tao chưa muốn hỏi gì hết á
+    - tao chưa cần hỏi gì đâu
+    - t k muốn hỏi han gì hết
+    - t chưa nghĩ ra câu hỏi nào cho m hết á
+    - từ từ đi t chưa muốn hỏi
+    - từ từ rồi hỏi sau
+    - từ từ đi lát t hỏi
+    - từ từ bình tĩnh đi lát r hỏi m sau
+    - từ từ lát em hỏi a sau nha
+    - từ từ một tí nữa e hỏi a sau
+    - từ từ lát e hỏi nha
+    - từ từ rồi t hỏi m
+    - từ từ đi lát hỏi
+    - từ từ đợi tí suy nghĩ câu hỏi đã
+    - từ từ nha đợi có gì t suy nghĩ câu hỏi r quay lại sau
+    - chờ đó lát t hỏi m tiếp
+    - chờ đó để lát t hỏi m sau
+    - chờ đó đi lát bố m hỏi m sau
+    - chờ đó đi lát t tra khảo m tiếp
+    - chờ cmm đi lát bố m hỏi m lại
+    - chờ đó t hỏi m
+    - chờ đi lát mình hỏi bạn sau nha
+    - chờ đó đi lát bố m quay lại hỏi m sau
+    - chờ đó lát hỏi tiếp
+- intent: continue_asking
+  examples: |
+    - tiếp tục này
+    - tiếp theo nè
+    - tiếp theo này
+    - chiến tiếp này
+    - chiến tiếp nè
+    - tiếp nè
+    - tiếp này
+    - hỏi tiếp này
+    - hỏi tiếp nè
+    - hỏi nữa nè
+    - hỏi lần nữa nè
+    - hỏi thêm cái nữa nè
+    - hỏi thêm 1 câu nữa nè
+    - hỏi thêm một câu nữa nà
+    - hỏi nhẹ thêm 1 câu nữa nà
+    - hỏi cái nhẹ 1 câu nữa xem sao nha
+    - hỏi tiếp 1 câu nha
+    - hỏi thêm cái nhẹ nè
+    - hỏi tiếp tục 1 câu nữa nha
+    - hỏi nhè nhẹ thêm 1 câu nữa nà
+    - ok để t hỏi tiếp
+    - ok tiếp tục này
+    - ok hỏi tiếp này
+    - ok tiếp tục nè
+    - ok để bố hỏi m tiếp
+    - ok giờ để hỏi tiếp
+    - ok tiếp tục thôi
+    - ok để bố m hỏi m tiếp
+    - ok chiến luôn, để bố hỏi m tiếp
+    - ok continue nè
+    - ok tiếp theo nè
+    - ok câu tiếp theo nè
+    - được rồi để bố hỏi câu khác
+    - được rồi để t hỏi m câu khác
+    - được rồi để giờ hỏi m câu khác nha
+    - được rồi giờ để t hỏi m tiếp
+    - được để t hỏi m tiếp
+    - được r để hỏi m câu tiếp theo nè
+- intent: want_to_ask
+  examples: |
+    - ê cho tao hỏi cái
+    - tao hỏi cái này tí được không?
+    - này hỏi tí
+    - hỏi này nè
+    - tao hỏi cái nha
+    - trả lời giúp tao câu này
+    - hỏi cái
+    - hi bot tao hỏi tí
+    - hello bot tao hỏi cái này cái
+    - giúp tao một chút được không?
+    - cho tao hỏi một chút về C++
+    - nghe câu hỏi của tao nè
+    - mình hỏi bạn tí nha
+    - giúp mình một số câu hỏi C++ được không
+    - yo hỏi này coi
+    - nghe tao hỏi nè
+    - hey bot tao nói nghe
+    - tao nói nghe nè
+    - giúp tao cái
+    - ê bot giúp tao cái
+    - ê bot t hỏi cái
+    - ê t hỏi này cái
+    - ok để t hỏi m cái này nha
+    - được r giờ t hỏi m cái này nè
+    - ok để t hỏi cái này
+    - ok luôn để t tìm câu hỏi này
+    - ok để t hỏi m cái này
+    - chiến luôn giờ để t hỏi m này nha
+    - ok h t hỏi m câu này này
+    - ok h để t hỏi m cái này
+    - ok h hỏi câu này đi
+- intent: out_of_scope
+  examples: |
+    - mấy giờ rồi?
+    - cho tui hỏi mấy giờ rồi vậy?
+    - tui k biết phải hỏi gì hết
+    - hôm nay ngày mấy?
+    - thời tiết hôm nay là gì
+    - thời tiết hôm nay tại thủ đức
+    - ?
+    - cho hỏi mấy giờ rồi
+    - t đánh mày bây giờ
+    - cho tui hỏi các kiếm người yêu
+    - làm sao để kiếm người iu ạ
+    - nay có họp k
+    - nay họp team ở đâu v
+    - làm sao để làm trùm trường
+    - thích coi phim k
+    - làm bạn gái a nha
+    - làm bạn trai e nha
+    - iu nhau k
+    - hải quay xe
+    - 16 typh on the mic
+    - làm sao để làm trùm lập trình
+    - cách để thành trùm lập trình
+    - làm sao để thành lập trình viên giỏi
+    - bao giờ thì có bồ
+    - hát cho tui nghe đi
+    - chở tui đi chơi với nha
+    - cách lái xe máy
+    - thi bằng lái xe ở đâu
+    - ngày mai t có tiết lúc mấy giờ nhỉ
+    - ngày mai có tiết k ta
+    - tin tức hôm nay
+    - thời sự hôm nay
+    - bầu cử tổng thống mỹ 2020
+    - corona virus
+    - covid-19
+    - covid
+    - hát cho t nghe đi
+    - biết kiếm tiền k
+    - biết hát auto tune k
+    - đánh nhau ko
+    - dạy t làm AI đi
+    - chỉ t machine learning đi
+    - làm sao để thành kỹ sư AI
+    - cách hết nợ môn
+    - làm sao để hết nợ môn
+    - cách qua môn
+    - chỉ t cách qua môn
+    - ăn kem thủ đức ở quán nào thì ngon
+- intent: c++_what_asking
+  examples: |
+    - [library](c++_content) là gì thế?
+    - khái niệm về [library](c++_content) trong c++?
+    - [thư viện]{"entity": "c++_content", "value": "library"} là gì?
+    - thế nào là một [thư viện]{"entity": "c++_content", "value": "library"}?
+    - từ khóa [inclue]{"entity": "c++_content", "value": "library"} là gì?
+    - trong c++ có từ [include](c++_content) là sao v m?
+    - m biết gì về từ [include](c++_content)?
+    - khái niệm về [include](c++_content)?
+    - [namespace]{"entity": "c++_content", "value": "namepsace"} là gì?
+    - thế nào là [namespace]{"entity": "c++_content", "value": "namepsace"}?
+    - kể tao nghe về [namespace](c++_content) đi
+    - khái niệm về [namespace](c++_content)
+    - [c++]{"entity": "c++_content", "value": "cplusplus"} là gì vậy?
+    - thế nào là [c++]{"entity": "c++_content", "value": "cplusplus"}?
+    - [c++]{"entity": "c++_content", "value": "cplusplus"} là cái quái gì vậy?
+    - ngôn ngữ lập trình [c++]{"entity": "c++_content", "value": "cplusplus"} là gì?
+    - định nghĩa của [c++]{"entity": "c++_content", "value": "cplusplus"}?
+    - ngôn ngữ [c++]{"entity": "c++_content", "value": "cplusplus"} là gì?
+    - nói cho tao biết [c++]{"entity": "c++_content", "value": "cplusplus"} là gì được không?
+    - [comment](c++_content) trong C++ là gì vậy?
+    - [comment](c++_content) trong C++ là gì?
+    - [comment](c++_content) là gì?
+    - thế nào là [comment](c++_content)?
+    - [i/o](c++_content) trong c++ là gì?
+    - thế nào là [i/o](c++_content)?
+    - [input/output](c++_content) trong c++
+    - [cout](c++_content) là gì?
+    - [cin](c++_content) là gì?
+    - thế nào là [cout](c++_content) trong c++?
+    - thế nào là [cin](c++_content) trong c++?
+    - [biến]{"entity": "c++_content", "value": "variable"} là gì?
+    - [biến]{"entity": "c++_content", "value": "variable"} là cái quái gì thế?
+    - trong c++ [biến]{"entity": "c++_content", "value": "variable"} là gì?
+    - thế nào là [biến]{"entity": "c++_content", "value": "variable"}?
+    - [variable](c++_content) là gì vậy bot?
+    - trong c++ [varaible]{"entity": "c++_content", "value": "variable"} được định nghĩa như thế nào?
+    - thế nào là [variable](c++_content)?
+    - [toán tử]{"entity": "c++_content", "value": "operator"} là gì?
+    - như thế nào là [toán tử]{"entity": "c++_content", "value": "operator"}?
+    - [operators]{"entity": "c++_content", "value": "operator"} là gì?
+    - [operators]{"entity": "c++_content", "value": "operator"} trong c++ là gì?
+    - câu lệnh [điều kiện]{"entity": "c++_content", "value": "if"} trong c++ là gi?
+    - lệnh [điều kiện]{"entity": "c++_content", "value": "if"} là gì?
+    - [if](c++_content) else là gi?
+    - câu lệnh [if](c++_content) là gì?
+    - khối lệnh [điều kiện]{"entity": "c++_content", "value": "if"} trong c++ là gì?
+    - [vòng lặp]{"entity": "c++_content", "value": "loop"} là gì?
+    - trong c++ [vòng lặp]{"entity": "c++_content", "value": "loop"} được định nghĩa ra sao?
+    - vòng lặp [for](c++_content) là gì?
+    - định nghĩa vòng [for](c++_content) trong c++ là gì vậy m?
+    - [for](c++_content) loop là gì?
+    - vòng lặp [while](c++_content) là gì v th kia?
+    - [while](c++_content) loop là như thế nào v m?
+    - vòng [while](c++_content)?
+    - [do while](c++_content) là gì?
+    - thế nào là [do while](c++_content)?
+    - từ khóa [break](c++_content)?
+    - từ khóa [continue](c++_content)?
+    - thế nào là [break](c++_content)?
+    - thế nào là [continue](c++_content)?
+    - [break](c++_content) trong c++ là gì?
+    - [continue](c++_content) trong c+++ là gì?
+    - từ khóa [break](c++_content) và [continue](c++_content) là gì?
+    - [switch](c++_content) statement là gì?
+    - thế nào là [switch](c++_content)?
+    - [switch](c++_content) trong c++?
+    - định nghĩa của [switch](c++_content)?
+    - [goto](c++_content) là gì?
+    - thế nào là [goto](c++_content)?
+    - [goto](c++_content) trong c++ là gì?
+    - [goto](c++_content) statement là gì?
+    - [function](c++_content) là gì?
+    - [hàm]{"entity": "c++_content", "value": "function"} là gì?
+    - thế nào là một [function](c++_content) trong c++?
+    - định nghĩa [hàm]{"entity": "c++_content", "value": "function"} trong c++ là s v m?
+    - nói gì về [hàm]{"entity": "c++_content", "value": "function"} t nghe xem
+    - những kiến thức cơ bản về [hàm]{"entity": "c++_content", "value": "function"}
+    - nói t nghe về những kiến thức về phần [hàm]{"entity": "c++_content", "value": "function"} đi
+    - [tham trị]{"entity": "c++_content", "value": "parameter"} là gì?
+    - [tham chiếu]{"entity": "c++_content", "value": "argument"} là gì?
+    - thế nào là [tham trị]{"entity": "c++_content", "value": "parameter"} và [tham chiếu]{"entity": "c++_content", "value": "argument"} trong c++?
+    - [parameter](c++_content) là như thế nào v?
+    - [argument](c++_content) là gì?
+    - định nghĩa [parameter](c++_content)?
+    - [return](c++_content) là gì?
+    - như thế nào là [return](c++_content)?
+    - [return](c++_content) trong 1 hàm là gì?
+    - [đệ quy]{"entity": "c++_content", "value": "recursion"} là gì?
+    - thế nào là [đệ quy]{"entity": "c++_content", "value": "recursion"}?
+    - [đệ quy]{"entity": "c++_content", "value": "recursion"} được định nghĩa ntn?
+    - [recursion](c++_content) là gì?
+    - thế nào là [recursion](c++_content)?
+    - khái niệm về [recursion](c++_content)?
+    - definition của [recursion](c++_content)?
+    - [mảng]{"entity": "c++_content", "value": "array"} là gì?
+    - khái niệm về [mảng]{"entity": "c++_content", "value": "array"}?
+    - [mảng]{"entity": "c++_content", "value": "array"} là cái vẹo gì v?
+    - [mảng]{"entity": "c++_content", "value": "array"} một chiều là gì?
+    - [mảng]{"entity": "c++_content", "value": "array"} hai chiều là gì?
+    - thế nào là [array](c++_content)?
+    - một [array](c++_content) là gì?
+    - khái niệm về [array](c++_content)?
+    - [string](c++_content) là gì?
+    - thế nào là [string](c++_content)?
+    - [chuỗi]{"entity": "c++_content", "value": "string"} là gì?
+    - khái niệm về [chuỗi]{"entity": "c++_content", "value": "string"}?
+    - định nghĩa về [chuỗi]{"entity": "c++_content", "value": "string"} trong c++?
+    - nói t nghe về [chuỗi]{"entity": "c++_content", "value": "string"} xem
+    - nói những gì m biết về [chuỗi]{"entity": "c++_content", "value": "string"} t nghe xem
+    - [structure](c++_content) là gì?
+    - thế nào một [structure](c++_content)?
+    - khái niệm về [structure](c++_content)?
+    - kể t nghe về [structure](c++_content) coi
+    - nói t nghe về [cấu trúc]{"entity": "c++_content", "value": "structure"} trong c++ đi
+    - nói về [cấu trúc]{"entity": "c++_content", "value": "structure"} đi bạn eii
+    - biết gì về [cấu trúc]{"entity": "c++_content", "value": "structure"} k bạn ei
+    - [cấu trúc]{"entity": "c++_content", "value": "structure"} là gì?
+    - thế nào một [cấu trúc]{"entity": "c++_content", "value": "structure"}?
+    - nói gì về [cấu trúc]{"entity": "c++_content", "value": "structure"} xem
+    - [class](c++_content) là gì?
+    - thế nào là một [class](c++_content) trong c++?
+    - nói về [class](c++_content) đi bạn
+    - bạn nói về [class](c++_content) đi
+    - [lớp]{"entity": "c++_content", "value": "class"} trong c++?
+    - m nói t nghe về [lớp]{"entity": "c++_content", "value": "class"} đi
+    - [lớp]{"entity": "c++_content", "value": "class"} là gì?
+    - như lào là một [lớp]{"entity": "c++_content", "value": "class"} trong c++?
+    - [pointer](c++_content)?
+    - thế nào là một [pointer](c++_content)?
+    - khái niệm về [pointer](c++_content)?
+    - nói gì về [con trỏ]{"entity": "c++_content", "value": "pointer"} đi?
+    - khái niệm về [con trỏ]{"entity": "c++_content", "value": "pointer"}?
+    - thử nói về [con trỏ]{"entity": "c++_content", "value": "pointer"} xem
+    - kể nghe về [con trỏ]{"entity": "c++_content", "value": "pointer"} đi
+    - [con trỏ]{"entity": "c++_content", "value": "pointer"} là gì?
+    - [con trỏ]{"entity": "c++_content", "value": "pointer"} được định nghĩa như thế nào v th kia?
+    - ê bot [con trỏ]{"entity": "c++_content", "value": "pointer"} là gì thế?
+    - [enumeration](c++_content) là gì v bot?
+    - [enumeration](c++_content) là clgt?
+    - thế nào là [enumeration](c++_content)?
+    - [enum]{"entity": "c++_content", "value": "enumeration"} là cái gì ?
+    - [enum]{"entity": "c++_content", "value": "enumeration"} là gì tml?
+    - [enum]{"entity": "c++_content", "value": "enumeration"} là gì thế bot ei?
+    - [enum]{"entity": "c++_content", "value": "enumeration"} là qq gì zay bot?
+    - nói t nghe về [enum]{"entity": "c++_content", "value": "enumeration"} đi bot
+    - thế nào là kiểu [số nguyên]{"entity": "c++_content", "value": "integer"} vậy bot?
+    - kiểu [số nguyên]{"entity": "c++_content", "value": "integer"} trong c++ là như nào vậy bot?
+    - định nghĩa về [integer](c++_content) đi
+    - khái niệm về [integer](c++_content)?
+    - kiểu [int]{"entity": "c++_content", "value": "integer"} trong c++ là gì
+    - [int]{"entity": "c++_content", "value": "integer"} là gì
+    - [float]{"entity": "c++_content", "value": "floating_point"} là gì
+    - kiểu [float]{"entity": "c++_content", "value": "floating_point"} là gì
+    - [float]{"entity": "c++_content", "value": "floating_point"} là clgt
+    - thế nào là [float]{"entity": "c++_content", "value": "floating_point"}?
+    - kiểu [floating point]{"entity": "c++_content", "value": "floating_point"} là gì vậy
+    - kiểu dữ liệu [floating-point]{"entity": "c++_content", "value": "floating_point"} là gì vậy
+    - kiểu [số thực]{"entity": "c++_content", "value": "floating_point"} là gì
+    - kiểu [số thực]{"entity": "c++_content", "value": "floating_point"} trong c++ là sao
+    - [số thực]{"entity": "c++_content", "value": "floating_point"} trong c++ được định nghĩa thế nào v m
+    - [char]{"entity": "c++_content", "value": "character"} trong c++ là gì?
+    - kiểu [char]{"entity": "c++_content", "value": "character"} trong c++ là sao
+    - kiểu dữ liệu [char]{"entity": "c++_content", "value": "character"} là gì thế
+    - người ta hay viết từ [char]{"entity": "c++_content", "value": "character"}, nó có nghĩa là sao vậy?
+    - thế nào là kiểu [character](c++_content) trong c++
+    - thế nào là kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++
+    - kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++ là gì?
+- intent: c++_how_asking
+  examples: |
+    - làm sao để khai báo một [biến]{"entity": "c++_content", "value": "variable"} trong c++ ?
+    - cách nào để tạo một [biến]{"entity": "c++_content", "value": "variable"} vậy ?
+    - làm cách nào khởi tạo [biến]{"entity": "c++_content", "value": "variable"} trong c++ vậy bạn ơi ?
+    - tôi không biết cách tạo một [biến]{"entity": "c++_content", "value": "variable"} trong c++
+    - có cách nào để tôi tạo một [biến]{"entity": "c++_content", "value": "variable"} không
+    - nói cho tôi biết cách tạo một [biến]{"entity": "c++_content", "value": "variable"} như thế nào không
+    - làm sao tôi có thể khai báo một [biến]{"entity": "c++_content", "value": "variable"} được ?
+    - tôi không biết làm sao để tạo một [biến]{"entity": "c++_content", "value": "variable"}
+    - mình không biết khai báo một [biến]{"entity": "c++_content", "value": "variable"}
+    - làm s để tạo 1 [variable](c++_content) v?
+    - làm s để tao khai báo một [variable](c++_content) đây?
+    - làm thế nào để t khai báo một [variable](c++_content)?
+    - bằng cách nào t có thể tạo một [variable](c++_content)?
+    - sử dụng các nào để có thể khai báo một [variable](c++_content) vậy?
+    - làm sao để khai báo một [thư viện]{"entity": "c++_content", "value": "library"} trong c++ ?
+    - cách nào để khai báo một [thư viện]{"entity": "c++_content", "value": "library"} vậy ?
+    - làm cách nào khai báo [thư viện]{"entity": "c++_content", "value": "library"} trong c++ vậy bạn ơi ?
+    - tôi không biết cách khai báo một [thư viện]{"entity": "c++_content", "value": "library"} trong c++
+    - có cách nào để tôi khai báo một [thư viện]{"entity": "c++_content", "value": "library"} không
+    - nói cho tôi biết cách khai báo một [thư viện]{"entity": "c++_content", "value": "library"} như thế nào không
+    - làm sao tôi có thể khai báo một [thư viện]{"entity": "c++_content", "value": "library"} được ?
+    - tôi không biết làm sao để khai báo một [thư viện]{"entity": "c++_content", "value": "library"}
+    - mình không biết khai báo một [thư viện]{"entity": "c++_content", "value": "library"}
+    - làm sao để khai báo một một [struct]{"entity": "c++_content", "value": "structure"} trong c++ ?
+    - cách nào để tạo một [struct]{"entity": "c++_content", "value": "structure"} vậy ?
+    - làm cách nào khởi tạo [struct]{"entity": "c++_content", "value": "structure"} trong c++ vậy bạn ơi ?
+    - tôi không biết cách tạo một [struct]{"entity": "c++_content", "value": "structure"} trong c++
+    - có cách nào để tôi tạo một [struct]{"entity": "c++_content", "value": "structure"} không
+    - nói cho tôi biết cách tạo một [struct]{"entity": "c++_content", "value": "structure"} như thế nào không
+    - làm sao tôi có thể khai báo một [struct]{"entity": "c++_content", "value": "structure"} được ?
+    - tôi không biết làm sao để tạo một [struct]{"entity": "c++_content", "value": "structure"}
+    - mình không biết tạo một [struct]{"entity": "c++_content", "value": "structure"}
+    - làm sao để khai báo một [mảng]{"entity": "c++_content", "value": "array"} trong c++ ?
+    - cách nào để tạo một [mảng]{"entity": "c++_content", "value": "array"} vậy ?
+    - làm cách nào khởi tạo [mảng]{"entity": "c++_content", "value": "array"} trong c++ vậy bạn ơi ?
+    - tôi không biết cách tạo một [mảng]{"entity": "c++_content", "value": "array"} trong c++
+    - có cách nào để tôi tạo một [mảng]{"entity": "c++_content", "value": "array"} không
+    - nói cho tôi biết cách tạo một [mảng]{"entity": "c++_content", "value": "array"} như thế nào không
+    - làm sao tôi có thể khai báo một [mảng]{"entity": "c++_content", "value": "array"} được ?
+    - tôi không biết làm sao để tạo một [mảng]{"entity": "c++_content", "value": "array"}
+    - tạo [mảng]{"entity": "c++_content", "value": "array"} kiểu gì vậy ?
+    - làm thế quái nào để tạo ra một [array](c++_content) v?
+    - ê làm sao để t tạo thêm 1 một [array](c++_content) đây?
+    - làm thế nào để tạo ra được một [array](c++_content) v?
+    - làm s để t có thể tạo ra một [array](c++_content) đây m?
+    - làm s để t có thể tạo ra một [arr]{"entity": "c++_content", "value": "array"}?
+    - how to tạo một [arr]{"entity": "c++_content", "value": "array"}?
+    - làm cách nào để tạo ra một câu lệnh [if](c++_content)?
+    - giờ tao muốn tạo một cái [if](c++_content) thì phải làm s?
+    - giờ t muốn tạo ra một cái [if](c++_content) thì nên làm s đây bot?
+    - chỉ tui cách viết một câu [if](c++_content) đi bạn ui
+    - làm thế quái nào để tạo ra một câu [điều kiện]{"entity": "c++_content", "value": "if"} bây giờ?
+    - chỉ mình cách để viết một câu [điều kiện]{"entity": "c++_content", "value": "if"} đi bạn
+    - chỉ mình cách viết một câu [điều kiện]{"entity": "c++_content", "value": "if"} đi bạn hiền
+    - chỉ mình cách tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} với
+    - chỉ tui cách tạo một [vòng lặp]{"entity": "c++_content", "value": "loop"} với bạn
+    - làm sao để tui tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} đây
+    - làm thế nào để tui tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} v
+    - chỉ bố m cách viết một [loop](c++_content) coi
+    - bày t cách tạo ra một [loop](c++_content) xem nào
+    - chỉ iem cách viết một [loop](c++_content) đi
+    - chỉ iem cách viết một [loop](c++_content) với
+    - bày iem cách viết tạo ra [loop](c++_content) đi ianh
+    - làm s để t viết vòng lặp [for](c++_content) đây m
+    - làm thế nào để t tạo ra một vòng [for](c++_content) đây
+    - how to tạo ra một vòng [for](c++_content) v m
+    - cách tạo ra vòng [for](c++_content) như thế nào đây
+    - chỉ bố m viết ra một vòng [for](c++_content) coi
+    - chỉ bố m cách tạo ra một vòng [for](c++_content) đi
+    - cách nào để t tạo ra một vòng [while](c++_content) v m
+    - làm thế nào để t tạo ra một vòng [while](c++_content) đây mày
+    - bằng cách nào t có thể viết ra dc một vòng [while](c++_content)?
+    - làm s để t implement được một vòng [while](c++_content) đây?
+    - làm s để tạo ra được một vòng [do while](c++_content) đây ta
+    - làm cách nào để t có thể khai báo được một cái [do while](c++_content) v?
+    - làm cách nào để t viết ra đc một câu [do while](c++_content) đây
+    - như thế nào để có thể viết dc một câu [break](c++_content) v
+    - làm sao để sử dụng [break](c++_content) đây ta
+    - làm sao để mình có thể sử dụng được [break](c++_content)?
+    - bây giờ làm sao để t có thể sử dụng được từ khóa [break](c++_content) đây?
+    - làm sao để sử dụng từ khóa [continue](c++_content) đây nhỉ
+    - how to tạo ra từ khóa [continue](c++_content) đây
+    - làm thế nào để có thể sử dụng tốt từ khóa [continue](c++_content)?
+    - ê bot chỉ t cách sử dụng từ khóa [continue](c++_content)
+    - chỉ t cách sử dụng từ khóa [continue](c++_content) đi
+- intent: c++_why_asking
+  examples: |
+    - tại sao ta lại phải sử dụng [biến]{"entity": "c++_content", "value": "variable"} khi lập trình?
+    - tại sao lại cần sử dụng [variable](c++_content) khi viết code
+    - ê m sao t phải sử dụng [biến]{"entity": "c++_content", "value": "variable"} khi t viết code v?
+    - vì sao lại cần phải sử dụng [variable](c++_content) trong lập trình?
+    - tại sao lại cần phải [comment](c++_content) khi lập trình?
+    - tại sao lại phải cần viết [comment](c++_content)?
+    - vì sao ta cần lại phải sử dụng [namespace](c++_content)?
+    - vì sao lại phải có dòng using [namespace](c++_content) std; khi viết c++?
+    - tại sao ta cần lại phải sử dụng [hàm]{"entity": "c++_content", "value": "function"} trong lập trình?
+    - tại sao ta cần xài [hàm]{"entity": "c++_content", "value": "function"}?
+    - vì sao lại cần phải sử dụng [function](c++_content)?
+    - vì sao lại cần sử dụng [function](c++_content) vậy?
+    - vì sao tao lại cần phải viết [hàm]{"entity": "c++_content", "value": "function"} vậy mày?
+    - ê vì sao ta cần phải viết chữ [include](c++_content) vậy ?
+    - vì sao tao cần lại phải khai báo [thư viện]{"entity": "c++_content", "value": "library"} thế?
+    - vì sao tụi mình cần lại phải khai báo [library](c++_content) v m?
+    - why tao cần phải đi khai báo [thư viện]{"entity": "c++_content", "value": "library"} làm gì thế???
+    - why t cần phải sử dụng [library](c++_content)?
+- intent: c++_when_asking
+  examples: |
+    - khi nào thì cần khai báo một [biến]{"entity": "c++_content", "value": "variable"}?
+    - khi nào thì ta cần phải khởi tạo một [biến]{"entity": "c++_content", "value": "variable"}?
+    - khi nào thì cần tạo một [variable](c++_content)?
+    - lúc nào thì sẽ cần phải tạo [biến]{"entity": "c++_content", "value": "variable"}?
+    - lúc nào thì ta cần khai báo một [variable](c++_content)?
+    - lúc nào thì sẽ cần phải khai báo một [variable](c++_content)?
+    - khi nào thì ta cần viết [comment](c++_content)?
+    - khi nào thì tao cần phải thêm [comment](c++_content) vậy ?
+    - khi nào thì t cần thêm [comment](c++_content) vô code của t đây?
+    - lúc nào thì mình cần thêm [comment](c++_content) vào code của mình vậy m?
+    - lúc nào thì nên viết thêm [comment](c++_content) khi viết code?
+    - khi nào ta cần phải sử dụng [comment](c++_content)?
+    - lúc nào thì mình nên sử dụng [thư viện]{"entity": "c++_content", "value": "library"} đây bot
+    - tao nên sử dụng [thư viện]{"entity": "c++_content", "value": "library"} vào thời điểm nào v?
+    - tao nên include [library](c++_content) lúc nào đây m?
+    - nên sử dụng [library](c++_content) lúc nào?
+    - tao nên sử dụng tính năng [library](c++_content) khi nào v bot?
+    - khi nào thì cần sử dụng [namespace](c++_content)?
+    - cần sử dụng cái [namespace](c++_content) khi nào v th kia?
+    - khi nào thì t cần sử dụng cái [không gian tên]{"entity": "c++_content", "value": "namespace"} vậy?
+    - cần sử dụng [không gian tên]{"entity": "c++_content", "value": "namespace"} lúc nào thế??
+- intent: c++_where_asking
+  examples: |
+    - ta khai báo [variable](c++_content) ở đây đây?
+    - ta cần khai báo một [biến]{"entity": "c++_content", "value": "variable"} ở đâu?
+    - tao phải khai báo một [biến]{"entity": "c++_content", "value": "variable"} ở chỗ nào vậy?
+    - ta cần khai báo [biến]{"entity": "c++_content", "value": "variable"} ở where?
+    - mình phải viết [comment](c++_content) ở đâu đây?
+    - tao phải viết [comment](c++_content) chỗ nào?
+    - t cần để [comment](c++_content) ở đâu?
+    - t nên viết [comment](c++_content) ở where đây?
+    - mình khai báo [thư viện]{"entity": "c++_content", "value": "library"} ở đâu vậy?
+    - khai báo [thư viện]{"entity": "c++_content", "value": "library"} ở đâu?
+    - t nên khai báo [thư viện]{"entity": "c++_content", "value": "library"} ở đâu?
+    - t phải khai báo [library](c++_content) ở đâu?
+    - tao nên khai báo [library](c++_content) ở chỗ nào?
+    - giờ tao viết dòng khai báo [library](c++_content) ở chỗ nào đây m?
+- synonym: library
+  examples: |
+    - thư viện
+    - inclue
+    - library
+    - libraries
+    - lib
+    - libs
+- synonym: namespace
+  examples: |
+    - namespace
+    - không gian tên
+    - namespaces
+    - name space
+- synonym: cplusplus
+  examples: |
+    - c++
+    - c cộng cộng
+    - C++
+    - c plus plus
+    - cplusplus
+- synonym: variable
+  examples: |
+    - biến
+    - varaible
+    - variable
+    - variables
+    - var
+    - vars
+- synonym: operator
+  examples: |
+    - toán tử
+    - operators
+    - operator
+- synonym: if
+  examples: |
+    - điều kiện
+    - nếu
+    - if
+    - ifs
+- synonym: loop
+  examples: |
+    - vòng lặp
+    - lặp
+    - vòng
+    - loop
+    - loops
+- synonym: function
+  examples: |
+    - hàm
+    - function
+    - functions
+    - func
+    - funcs
+- synonym: parameter
+  examples: |
+    - tham trị
+    - tham số
+    - parameter
+    - parameters
+    - para
+    - paras
+- synonym: argument
+  examples: |
+    - tham chiếu
+    - đối số
+    - argument
+    - arguments
+    - arg
+    - args
+- synonym: recursion
+  examples: |
+    - đệ quy
+    - recursion
+    - recursions
+- synonym: array
+  examples: |
+    - mảng
+    - arr
+    - array
+    - arrays
+    - arrs
+- synonym: string
+  examples: |
+    - chuỗi
+    - chuỗi kí tự
+    - string
+    - strings
+    - str
+    - strs
+- synonym: structure
+  examples: |
+    - cấu trúc
+    - struct
+    - structure
+    - structures
+    - structs
+- synonym: class
+  examples: |
+    - lớp
+    - class
+    - classes
+- synonym: pointer
+  examples: |
+    - con trỏ
+    - trỏ
+    - pointer
+    - pointers
+- synonym: enumeration
+  examples: |
+    - enum
+    - liệt kê
+    - enums
+    - enumeration
+- synonym: integer
+  examples: |
+    - số nguyên
+    - int
+    - kiểu số nguyên
+    - integer
+    - integers
+    - ints
+- synonym: floating_point
+  examples: |
+    - float
+    - floating point
+    - floating-point
+    - số thực
+    - kiểu số thực
+    - floats
+    - floating points
+    - floating-points
+- synonym: character
+  examples: |
+    - char
+    - kí tự
+    - kiểu kí tự
+    - chars
+    - character
+    - characters
+- synonym: comment
+  examples: |
+    - bình luận
+    - comment
+    - comments
+    - cmt
+    - cmts
+- synonym: include
+  examples: |
+    - include
+    - includes
