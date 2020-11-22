@@ -1,10 +1,9 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: "vi"
+language: "en"
 
 pipeline:
-- name: "VietnameseTokenizer"
-- name: "sentiment_analysis.SentimentAnalyzer"
+- name: "WhitespaceTokenizer"
 - name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
 - name: "EntitySynonymMapper"
@@ -14,7 +13,7 @@ pipeline:
   min_ngram: 1
   max_ngram: 4
 - name: "EmbeddingIntentClassifier"
-  batch_strategy: sequence
+
   
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
