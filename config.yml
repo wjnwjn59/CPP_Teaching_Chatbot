@@ -14,8 +14,6 @@ pipeline:
   # Text will be processed with case sensitive as default
   "case_sensitive": True
 #- name: "CRFEntityExtractor"
-- name: "DIETClassifier"
-- name: "EntitySynonymMapper"
 - name: "CountVectorsFeaturizer"
   # Analyzer to use, either 'word', 'char', or 'char_wb'
   "analyzer": "char_wb"
@@ -26,6 +24,8 @@ pipeline:
   "OOV_token": "_oov_"
   # Whether to use a shared vocab
   "use_shared_vocab": True
+- name: "DIETClassifier"
+- name: "EntitySynonymMapper"
 
   
 # Configuration for Rasa Core.
