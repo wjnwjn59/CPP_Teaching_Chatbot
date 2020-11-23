@@ -11,6 +11,8 @@ pipeline:
   # Regular expression to detect tokens
   "token_pattern": None
 - name: "RegexFeaturizer"
+  # Text will be processed with case sensitive as default
+  "case_sensitive": True
 #- name: "CRFEntityExtractor"
 - name: "DIETClassifier"
 - name: "EntitySynonymMapper"
