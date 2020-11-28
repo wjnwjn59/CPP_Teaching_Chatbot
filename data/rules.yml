@@ -1,28 +1,32 @@
 version: "2.0"
 
 rules:
-- rule: Greet
-  # This rule only applies to the start of a session.
-  conversation_start: True
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_who_i_am
-  wait_for_user_input: false
-
-- rule: Activate form
+- rule: Activate form asking what
   steps:
   - intent: c++_what_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
-- rule: User decides to stop
+- rule: Activate form asking why
   steps:
-  - intent: stop_asking
-  - action: utter_reply_stop_asking
+  - intent: c++_why_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
 
-- rule: User decides to continue
+- rule: Activate form asking how
   steps:
-  - action: utter_ask_anything_else
-  - intent: affirm
-  - action: utter_accept_questions
+  - intent: c++_how_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+
+- rule: Activate form asking when
+  steps:
+  - intent: c++_when_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+
+- rule: Activate form asking where
+  steps:
+  - intent: c++_where_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
