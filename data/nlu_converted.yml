@@ -618,6 +618,12 @@ nlu:
     - 232131255468787690
     - 1234567890
     - qwerty
+    - anh yêu em
+    - em muốn lái chị
+    - ianh iu iem
+    - em iu anh
+    - em iu em
+    - t iu ma 
 - intent: c++_what_asking
   examples: |
     - [library](c++_content) là gì thế?

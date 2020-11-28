@@ -53,7 +53,7 @@ entities:
 
 forms:
   cpp_content_form:
-    cpp_content:
+    c++_content:
       - type: from_entity
         entity: c++_content
 
