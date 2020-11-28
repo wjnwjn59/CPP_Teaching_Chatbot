@@ -31,7 +31,8 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: FallbackPolicy
   - name: MemoizationPolicy
+  - name: TEDPolicy
     max_history: 5
+    random_seed: 42
   - name: RulePolicy
