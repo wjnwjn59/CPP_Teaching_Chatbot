@@ -603,6 +603,21 @@ nlu:
     - cách qua môn
     - chỉ t cách qua môn
     - ăn kem thủ đức ở quán nào thì ngon
+    - .
+    - ò ó o o
+    - ăn kem ko
+    - babe 
+    - em ăn cơm chưa?
+    - bạn ăn cơm chưa?
+    - đánh liên quân đê
+    - tốc chiến đê
+    - như bạn đã thấy tôi với bạn đều là dân chơi
+    - show trình đi
+    - ngày ăn được mấy chén cơm
+    - solo yasuo k
+    - 232131255468787690
+    - 1234567890
+    - qwerty
 - intent: c++_what_asking
   examples: |
     - [library](c++_content) là gì thế?
@@ -772,6 +787,7 @@ nlu:
     - thế nào là kiểu [character](c++_content) trong c++
     - thế nào là kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++
     - kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++ là gì?
+
 - intent: c++_how_asking
   examples: |
     - làm sao để khai báo một [biến]{"entity": "c++_content", "value": "variable"} trong c++ ?
@@ -939,6 +955,89 @@ nlu:
     - C++
     - c plus plus
     - cplusplus
+- synonym: comment
+  examples: |
+    - bình luận
+    - comment
+    - comments
+    - cmt
+    - cmts
+- synonym: include
+  examples: |
+    - include
+    - includes
+- synonym: pseudo code
+  examples: |
+    - pseudo code
+    - pseduocode
+    - pseudo codes
+    - mã giả
+    - pseudocodes
+# Các từ đồng nghĩa cho phần data type / var
+- synonym: unsinged
+  examples: |
+    - unsinged
+    - unsigneds
+    - không dấu
+    - ko dấu
+    - 0 dấu
+- synonym: signed
+  examples: |
+    - signed
+    - signeds
+    - có dấu
+    - dấu
+- synonym: short
+  examples: |
+    - short
+    - shorts
+    - ngắn
+- synonym: long
+  examples: |
+    - long
+    - longs
+    - dài
+- synonym: type modifier
+  examples: |
+    - type modifers
+    - typemodifier
+    - type modifier
+    - type of modifers
+    - data modifiers
+- synonym: typedef
+  examples: |
+    - typedef
+- synonym: constant
+  examples: |
+    - constant
+    - constants
+    - const
+    - consts 
+    - hằng 
+    - hằng số
+- synonym: macro
+  examples: |
+    - hàm macro
+    - macros
+    - macro
+    - #define
+- synonym: wchar_t
+  examples: |
+    - wchar_t
+- synonym: boolean
+  examples: |
+    - bool
+    - boolean
+    - bôl
+    - bôlean
+    - kiểu luận lý
+- synonym: data type
+  examples: |
+    - kiểu dữ liệu
+    - data types
+    - dât type
+    - datatype
+    - datatypes
 - synonym: variable
   examples: |
     - biến
@@ -947,52 +1046,6 @@ nlu:
     - variables
     - var
     - vars
-- synonym: operator
-  examples: |
-    - toán tử
-    - operators
-    - operator
-- synonym: if
-  examples: |
-    - điều kiện
-    - nếu
-    - if
-    - ifs
-- synonym: loop
-  examples: |
-    - vòng lặp
-    - lặp
-    - vòng
-    - loop
-    - loops
-- synonym: function
-  examples: |
-    - hàm
-    - function
-    - functions
-    - func
-    - funcs
-- synonym: parameter
-  examples: |
-    - tham trị
-    - tham số
-    - parameter
-    - parameters
-    - para
-    - paras
-- synonym: argument
-  examples: |
-    - tham chiếu
-    - đối số
-    - argument
-    - arguments
-    - arg
-    - args
-- synonym: recursion
-  examples: |
-    - đệ quy
-    - recursion
-    - recursions
 - synonym: array
   examples: |
     - mảng
@@ -1000,14 +1053,14 @@ nlu:
     - array
     - arrays
     - arrs
-- synonym: string
+    - mảng một chiều
+- synonym: 2d array
   examples: |
-    - chuỗi
-    - chuỗi kí tự
-    - string
-    - strings
-    - str
-    - strs
+    - 2d array
+    - 2d-array
+    - mảng hai chiều
+    - two demensionals array
+    - two-demensional array
 - synonym: structure
   examples: |
     - cấu trúc
@@ -1020,6 +1073,12 @@ nlu:
     - lớp
     - class
     - classes
+- synonym: union
+  examples: |
+    - union
+    - unions
+    - hợp nhất
+    - liên hiệp
 - synonym: pointer
   examples: |
     - con trỏ
@@ -1050,6 +1109,11 @@ nlu:
     - floats
     - floating points
     - floating-points
+- synonym: double
+  examples: |
+    - double
+    - gấp đôi
+    - doubles
 - synonym: character
   examples: |
     - char
@@ -1058,14 +1122,363 @@ nlu:
     - chars
     - character
     - characters
-- synonym: comment
+- synonym: string
   examples: |
-    - bình luận
-    - comment
-    - comments
-    - cmt
-    - cmts
-- synonym: include
+    - chuỗi
+    - chuỗi kí tự
+    - string
+    - strings
+    - str
+    - strs
+- synonym: local variable
   examples: |
-    - include
-    - includes
+    - local
+    - locals
+    - local var 
+    - local vars
+    - local variables
+    - biến cục bộ
+    - localvar
+    - locavars
+    - localvariable
+    - localvariables
+- synonym: global variable
+  examples: |
+    - global
+    - globals
+    - global variable
+    - global variables 
+    - globalvariable
+    - globalvariables
+    - biến toàn cục
+- synonym: auto
+  examples: |
+    - auto
+    - auto variable
+    - auto variables
+    - autovariable
+    - autovariables
+    - auto var 
+    - auto vars
+    - autovar 
+    - autovars
+    - biến auto
+    - biến kiểu auto
+    - kiểu auto
+- synonym: external
+  examples: |
+    - external 
+    - externals
+    - external variable
+    - external variables
+    - external var 
+    - external vars 
+    - externalvars
+    - externalvar
+- synonym: static
+  examples: |
+    - static
+    - statics 
+    - static variable
+    - static variables 
+    - static var 
+    - static vars 
+    - staticvariable 
+    - staticvariables 
+    - staticvar
+    - staticvars
+    - biến tĩnh
+- synonym: vector
+  examples: |
+    - vector
+    - vectors
+# Các từ đồng nghĩa cho phần toán tử
+- synonym: dereference operator
+  examples: |
+    - dereference operator
+    - dereference operators
+    - indirection operator
+    - indirection operators
+    - toán tử trỏ 
+    - toán tử trỏ đến
+    - toán tử *
+- synonym: reference operator
+  examples: |
+    - reference operator
+    - reference operators
+    - toán tử tham chiếu
+    - toán tử &
+- synonym: comma operator
+  examples: |
+    - comma operator
+    - comma operators
+    - toán tử phẩy
+- synonym: ternary operator
+  examples: |
+    - ternary
+    - ternaries
+    - ternarys
+    - ternary operator
+    - ternary operators
+    - toán tử ba ngôi
+- synonym: binary operator
+  examples: |
+    - binary
+    - binaries
+    - binarys
+    - toán tử hai ngôi
+    - binary operator
+    - binary operators
+- synonym: unary operator
+  examples: |
+    - unary
+    - unaries
+    - unarys
+    - toán tử một ngôi
+    - unary operator
+    - unary operators
+- synonym: shift operator
+  examples: |
+    - shift operators
+    - shift operator 
+    - shift
+    - toán tử thao tác bit
+- synonym: bitwise operator
+  examples: |
+    - bitwise
+    - bitwise operators
+    - bitwise operator 
+- synonym: logical operator
+  examples: |
+    - logical operator
+    - logical operators
+    - toán tử logic 
+    - toán tử logical
+    - toán tử tư duy
+- synonym: comparison operator
+  examples: |
+    - comparison operators
+    - relational operators
+    - relational operator
+    - toán tử quan hệ 
+    - toán tử so sánh
+- synonym: arithmetic operator
+  examples: |
+    - arithmetic operators
+    - arithmetic
+    - mathemetical operator
+    - mathemetical operators
+    - mathemetical
+    - toán tử số học
+    - toán tử toán học
+- synonym: assignment operator
+  examples: |
+    - assignment
+    - assign
+    - assignment operators
+    - toán tử gán
+- synonym: operator
+  examples: |
+    - toán tử
+    - operators
+    - operator
+# Các từ đồng nghĩa cho phần control flow
+- synonym: if
+  examples: |
+    - điều kiện
+    - nếu
+    - if
+    - ifs
+- synonym: loop
+  examples: |
+    - vòng lặp
+    - lặp
+    - vòng
+    - loop
+    - loops
+- synonym: control flow
+  examples: |
+    - control flow
+    - control flows
+    - controlflow
+    - controlflows
+    - cấu trúc điều khiển
+    - flow điều khiển
+- synonym: control statement
+  examples: |
+    - control statement
+    - control statements
+    - controlstatement
+    - controlstatements
+    - câu lệnh điều khiển
+    - lệnh điều khiển
+- synonym: selection statement
+  examples: |
+    - selection statement
+    - selection statements
+    - selectionstatement
+    - selectionstatements
+    - câu lệnh chọn
+    - lệnh chọn
+    - lệnh lựa chọn
+    - câu lệnh lựa chọn
+    - lệnh chọn
+- synonym: iteration statement
+  examples: |
+    - iteration statements
+    - iteration statement
+    - iterationstatement
+    - iterationstatements
+    - lệnh lặp
+    - câu lệnh lặp
+    - lệnh loop
+    - câu lệnh loop
+- synonym: jump statement
+  examples: |
+    - jump statement
+    - jump statements
+    - jumpstatement
+    - jumpstatements
+    - lệnh nhảy
+    - câu lệnh nhảy
+    - câu lệnh jump
+    - lệnh jump
+- synonym: for
+  examples: |
+    - for
+    - fors
+- synonym: while
+  examples: |
+    - while
+    - whiles
+- synonym: do while
+  examples: |
+    - do while
+    - do whiles
+    - dowhile
+    - dowhiles
+- synonym: switch
+  examples: |
+    - switch
+    - switchs
+    - switchcase
+    - switchcases
+- synonym: break
+  examples: |
+    - break
+    - breaks
+- synonym: continue
+  examples: |
+    - continue
+    - continues 
+- synonym: goto
+  examples: |
+    - goto
+    - gotos
+- synonym: if else
+  examples: |
+    - if else
+    - ifelse
+    - nếu không thì
+- synonym: if else if ladder
+  examples: |
+    - if else if
+    - nếu không thì nếu
+    - cầu thang if else
+    - if else if ladder
+- synonym: nested if
+  examples: |
+    - nested if 
+    - if lồng if 
+    - if lồng trong if 
+    - nested ifs
+# Các từ đồng nghĩa cho phần hàm
+- synonym: function
+  examples: |
+    - hàm
+    - function
+    - functions
+    - func
+    - funcs
+- synonym: parameter
+  examples: |
+    - tham số
+    - parameter
+    - parameters
+    - para
+    - paras
+- synonym: argument
+  examples: |
+    - tham chiếu
+    - đối số
+    - argument
+    - arguments
+    - arg
+    - args
+- synonym: recursion
+  examples: |
+    - đệ quy
+    - recursion
+    - recursions
+    - recursive
+- synonym: pass by value
+  examples: |
+    - pass by value
+    - truyền tham trị
+    - tham trị
+- synonym: pass by reference
+  examples: |
+    - pass by reference
+    - truyền tham chiếu
+    - tham chiếu
+- synonym: return
+  examples: |
+    - return
+    - returns
+    - trả về
+- synonym: return type
+  examples: |
+    - return type
+    - return types
+    - kiểu trả về
+- synonym: function type
+  examples: |
+    - function type
+    - function types
+    - functiontype
+    - loại hàm
+    - kiểu 
+- synonym: const reference
+  examples: |
+    - const reference
+    - constant reference
+    - const references
+    - constreference
+    - tham chiếu hằng
+- synonym: inline function
+  examples: |
+    - inline function
+    - inline functions
+    - hàm inline
+    - hàm nội tuyến
+- synonym: default value
+  examples: |
+    - default value
+    - default values
+    - tham số mặc định
+    - tham số mặc nhiên
+- synonym: main function
+  examples: |
+    - main
+    - hàm chính
+    - mains
+- synonym: built in function
+  examples: |
+    - hàm dựng sẵn
+    - hàm có sẵn
+    - built-in function
+    - built_in function
+    - built in function
+    - library function
+
+    
