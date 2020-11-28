@@ -2,17 +2,22 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - compliment
-  - thanks
   - health_inquire
+  - goodbye
+  - affirm:
+      use_entities: []
+  - deny
+  - compliment:
+      use_entities: []
+  - thanks
   - feeling_good
+  - insult
   - feeling_bad
-  - want_to_ask
-  - continue_asking
   - stop_asking
+  - continue_asking:
+      use_entities: []
+  - want_to_ask:
+      use_entities: []
   - c++_what_asking
   - c++_how_asking
   - c++_why_asking
@@ -38,19 +43,28 @@ actions:
   - utter_ok
   - utter_thanks
   - utter_sorry
+  - utter_wtf
+  - utter_reply_insult
+  - utter_reply_deny
   - action_c++_content_answer
+  - validate_cpp_content_form
 
 entities:
   - c++_content
 
 forms:
-  - cpp_content_form
+  cpp_content_form:
+    cpp_content:
+      - type: from_entity
+        entity: c++_content
 
 slots:
   c++_content:
-    type: text
+    type: any
+    influence_conversation: false
   cplusplus_content_answer:
-    type: text
+    type: any
+    influence_conversation: false
     
 responses:
   utter_reply_stop_asking:
@@ -119,7 +133,19 @@ responses:
   
   utter_sorry:
   - text: Xin lỗi bạn
+
+  utter_wtf:
+  - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
+  - text: Bạn có thể nói lại rõ hơn được không? Mình chưa hiểu ý bạn lắm ><
+
+  utter_reply_insult:
+  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
+  - text: Sao bạn lại chửi mình zayy TT 
+  - text: Đừng chửi tuii, tuii có làm gì sai đâu ><
+
+  utter_reply_deny:
+  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
   
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: false
