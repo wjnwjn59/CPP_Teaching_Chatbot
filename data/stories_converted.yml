@@ -2,14 +2,10 @@ version: "2.0"
 stories:
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: feeling_good
   - action: utter_reply_feeling_good
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: feeling_bad
   - action: utter_reply_feeling_bad
   - action: utter_did_that_help
@@ -17,8 +13,6 @@ stories:
   - action: utter_happy
 - story: sad path 2
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: feeling_bad
   - action: utter_reply_feeling_bad
   - action: utter_did_that_help
@@ -26,14 +20,10 @@ stories:
   - action: utter_sorry
 - story: normal conversation 1
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: health_inquire
   - action: utter_reply_health_inquire
 - story: normal conversation 2
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: health_inquire
   - action: utter_reply_health_inquire
   - intent: goodbye
@@ -42,13 +32,22 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: goodbye
   - action: utter_goodbye
-- story: say hello
+- story: normal conversation 4
   steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_who_i_am
+    - intent: out_of_scope
+    - action: utter_wtf
+    - action: utter_who_i_am
+- story: insult 
+  steps:
+    - intent: insult
+    - action: utter_reply_insult
+- story: thanks
+  steps:
+    - intent: thanks
+    - action: utter_reply_thanks
 - story: say goodbye
   steps:
   - intent: goodbye
@@ -80,6 +79,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: c++_what_asking
@@ -108,6 +108,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: c++_what_asking
     entities:
     - c++_content: c++
@@ -163,6 +164,18 @@ stories:
   - active_loop: null
   - action: action_c++_content_answer
   - action: utter_ask_anything_else
+- story: c++ what asking 8
+  steps:
+  - intent: c++_what_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - intent: deny
+  - action: utter_reply_deny  
+  - action: utter_ask_anything_else
 - story: c++ why asking 1
   steps:
   - intent: c++_why_asking
@@ -177,6 +190,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: c++_why_asking
@@ -205,6 +219,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: c++_why_asking
     entities:
     - c++_content: c++
@@ -260,6 +275,18 @@ stories:
   - active_loop: null
   - action: action_c++_content_answer
   - action: utter_ask_anything_else
+- story: c++ why asking 8
+  steps:
+  - intent: c++_why_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - intent: deny
+  - action: utter_reply_deny  
+  - action: utter_ask_anything_else
 - story: c++ how asking 1
   steps:
   - intent: c++_how_asking
@@ -274,6 +301,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: c++_how_asking
@@ -302,6 +330,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -357,6 +386,18 @@ stories:
   - active_loop: null
   - action: action_c++_content_answer
   - action: utter_ask_anything_else
+- story: c++ how asking 8
+  steps:
+  - intent: c++_how_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - intent: deny
+  - action: utter_reply_deny  
+  - action: utter_ask_anything_else
 - story: c++ when asking 1
   steps:
   - intent: c++_when_asking
@@ -371,6 +412,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: c++_when_asking
@@ -399,6 +441,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: c++_when_asking
     entities:
     - c++_content: c++
@@ -454,6 +497,18 @@ stories:
   - active_loop: null
   - action: action_c++_content_answer
   - action: utter_ask_anything_else
+- story: c++ when asking 8
+  steps:
+  - intent: c++_when_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - intent: deny
+  - action: utter_reply_deny  
+  - action: utter_ask_anything_else
 - story: c++ where asking 1
   steps:
   - intent: c++_where_asking
@@ -468,6 +523,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: c++_where_asking
@@ -496,6 +552,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_who_i_am
   - intent: c++_where_asking
     entities:
     - c++_content: c++
@@ -551,14 +608,36 @@ stories:
   - active_loop: null
   - action: action_c++_content_answer
   - action: utter_ask_anything_else
+- story: c++ where asking 8
+  steps:
+  - intent: c++_where_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - intent: deny
+  - action: utter_reply_deny  
+  - action: utter_ask_anything_else
 - story: anything else? - yes
   steps:
   - action: utter_ask_anything_else
   - intent: affirm
   - action: utter_accept_questions
-- story: anything else? - no
+- story: anything else? - no / pos
   steps:
   - action: utter_ask_anything_else
   - intent: deny
   - action: utter_ok
+  - action: utter_did_that_help
+  - intent: affirm
   - action: utter_thanks
+- story: anything else? - no / neg
+  steps:
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_ok
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_sorry
