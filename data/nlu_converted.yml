@@ -1198,7 +1198,32 @@ nlu:
   examples: |
     - vector
     - vectors
+- synonym: reference variable
+  examples: |
+    - reference variable
+    - reference
+    - reference vars
+    - reference variables
+    - biến tham chiếu
 # Các từ đồng nghĩa cho phần toán tử
+- synonym: decrement operator
+  examples: |
+    - toán tử giảm
+    - toán tử --
+    - --
+    - decrement operator
+    - decrement operators
+    - decrementoperator
+    - decrementoperators
+- synonym: increment operator
+  examples: |
+    - toán tử tăng
+    - toán tử ++
+    - ++
+    - increment operator
+    - increment operators
+    - incrementoperator
+    - incrementoperators
 - synonym: dereference operator
   examples: |
     - dereference operator
@@ -1208,11 +1233,14 @@ nlu:
     - toán tử trỏ 
     - toán tử trỏ đến
     - toán tử *
-- synonym: reference operator
+- synonym: address_of operator
   examples: |
-    - reference operator
-    - reference operators
-    - toán tử tham chiếu
+    - address of operator
+    - address operator
+    - adress_of operator
+    - address operators
+    - address of operators
+    - toán tử địa chỉ
     - toán tử &
 - synonym: comma operator
   examples: |
@@ -1447,13 +1475,6 @@ nlu:
     - return type
     - return types
     - kiểu trả về
-- synonym: function type
-  examples: |
-    - function type
-    - function types
-    - functiontype
-    - loại hàm
-    - kiểu 
 - synonym: const reference
   examples: |
     - const reference
