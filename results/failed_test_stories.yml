@@ -1,47 +1,62 @@
 version: "2.0"
 stories:
-- story: happy path 1 (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+- story: happy path 1 (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_listen  # predicted: action_default_fallback
   - intent: mood_great  # predicted: compliment: amazing
   - action: utter_happy  # predicted: action_default_fallback
-- story: happy path 2 (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+  - action: action_listen  # predicted: action_default_fallback
+- story: happy path 2 (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_listen  # predicted: action_default_fallback
   - intent: mood_great  # predicted: compliment: amazing
   - action: utter_happy  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
   - intent: goodbye
-  - action: utter_goodbye
-- story: sad path 1 (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+  - action: utter_goodbye  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+- story: sad path 1 (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_listen  # predicted: action_default_fallback
   - intent: mood_unhappy  # predicted: feeling_bad: not good
   - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
   - intent: affirm
-  - action: utter_happy  # predicted: utter_accept_questions
-- story: sad path 2 (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+  - action: utter_happy  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+- story: sad path 2 (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_listen  # predicted: action_default_fallback
   - intent: mood_unhappy  # predicted: feeling_bad: not good
   - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
   - intent: deny
-  - action: utter_goodbye  # predicted: utter_ok
-- story: sad path 3 (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+  - action: utter_goodbye  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+- story: sad path 3 (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_listen  # predicted: action_default_fallback
   - intent: mood_unhappy  # predicted: feeling_bad: very terrible
   - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
   - intent: deny
-  - action: utter_goodbye  # predicted: utter_ok
-- story: bot challenge (/tmp/tmp3v3k2w0u/4f0f8562765745899e7d40d7e67a4a54_conversation_tests.md)
+  - action: utter_goodbye  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+- story: bot challenge (C:\Users\pupou\AppData\Local\Temp\tmpmc_0xjta\8a77c617c84e4f4a915966948dac540c_conversation_tests.md)
   steps:
   - intent: bot_challenge  # predicted: thanks: are you a bot?
   - action: utter_iamabot  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
