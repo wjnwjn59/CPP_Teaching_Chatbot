@@ -26,6 +26,7 @@ pipeline:
   "use_shared_vocab": True
 - name: "DIETClassifier"
 - name: "EntitySynonymMapper"
+- name: "ResponseSelector"
 
   
 # Configuration for Rasa Core.
