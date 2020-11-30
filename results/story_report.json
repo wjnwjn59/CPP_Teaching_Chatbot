@@ -1,15 +1,21 @@
 {
-  "utter_greet": {
+  "utter_goodbye": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4
   },
-  "greet": {
+  "bot_challenge": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "action_listen": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
+    "recall": 0.0625,
+    "f1-score": 0.11764705882352941,
+    "support": 16
   },
   "mood_great": {
     "precision": 0.0,
@@ -17,11 +23,17 @@
     "f1-score": 0.0,
     "support": 2
   },
-  "action_listen": {
+  "utter_iamabot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "goodbye": {
     "precision": 1.0,
-    "recall": 0.0625,
-    "f1-score": 0.11764705882352941,
-    "support": 16
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
   },
   "utter_cheer_up": {
     "precision": 0.0,
@@ -35,35 +47,23 @@
     "f1-score": 0.0,
     "support": 3
   },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
   "utter_did_that_help": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 3
-  },
-  "affirm": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1
-  },
-  "utter_iamabot": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1
-  },
-  "bot_challenge": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2
   },
   "deny": {
     "precision": 1.0,
@@ -77,11 +77,11 @@
     "f1-score": 0.0,
     "support": 3
   },
-  "utter_goodbye": {
+  "affirm": {
     "precision": 1.0,
-    "recall": 0.25,
-    "f1-score": 0.4,
-    "support": 4
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
   },
   "micro avg": {
     "precision": 1.0,
