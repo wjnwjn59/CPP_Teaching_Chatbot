@@ -25,6 +25,8 @@ pipeline:
   # Whether to use a shared vocab
   "use_shared_vocab": True
 - name: "DIETClassifier"
+- name: FallbackClassifier
+  threshold: 0.7
 - name: "EntitySynonymMapper"
 - name: "ResponseSelector"
 
