@@ -166,12 +166,33 @@ class AnswerCppDefineQuestion(Action):
         all_answers_why = {
             'comment': "Trong bất cứ ngành nghề nào, chắc chắn bạn không chỉ làm việc một mình, đặc biệt trong lập trình, bạn muốn đồng nghiệp hoặc những thế hệ sau có thể dễ dàng hiểu được và kế thừa những dòng code của bạn viết ra,\n hoặc để vài năm sau đọc lại bạn vẫn đảm bảo hiểu được mình viết gì trong đó.\n Để làm được chuyện đó, ngoài việc tuân thủ các coding convention, naming convention, ... thì một trong những cách truyền đạt ý nghĩa đoạn code của bạn cho mọi người \n đó chính là COMMENT.",
             'cplusplus': '''
-            `
+            - Vai trò đặc biệt quan trọng của bộ đôi 2 ngôn ngữ lập trình C và C++ là phục vụ cho học lập trình cơ bản. Hầu hết các trường đào tạo công nghệ thông tin ở Việt Nam đều dùng 2 ngôn ngữ này làm môn cơ sở ngành. 
+            - Môn lập trình C giúp bạn có nền tảng với kỹ thuật lập trình, các kiến thức cơ bản và tư duy lập trình. Môn lập trình C++ cung cấp kiến thức về lập trình hướng đối tượng. Cả 2 ngôn ngữ này cũng được sử dụng để học các môn học về cấu trúc dữ liệu và giải thuật.
+            - Nếu bạn có kiến thức tốt về 2 ngôn ngữ này, thêm với kiến thức về cấu trúc dữ liệu và giải thuật. Việc học các kiến thức lập trình mới của bạn sẽ trở nên đơn giản hơn rất nhiều. Kiến thức mới ở đây có thể là công nghệ mới, ngôn ngữ lập trình mới,…
+            - Ưu điểm vượt trội của C/C++ là tốc độ xử lý, hiệu năng cao. Do đó, nó thường được sử dụng trong các hệ thống lớn. Nơi mà hiệu năng, tốc độ là yếu tố then chốt của sản phẩm.
+            - Ngoài ra C++ còn được ứng dụng vào các lĩnh vực khác nhau trong đời sống, ta có thể kể đến như:
+                - Games:
+                    + C++ là sự lựa chọn tốt để phát triển các nền tảng game 3D. Cho phép tối ưu hóa việc quản lý tài nguyên và mượt mà trong nền tảng nhiều người chơi trên cùng mạng – multi-player. 
+                    + C++ cho phép can thiệp sâu vào CPU cũng như phần cứng. Đó cũng là yếu tố quan trọng trong việc phát triển các game engines.
+                - Ứng dụng có giao diện người dùng (GUI):
+                    + Có rất nhiều ứng dụng giao diện mà phía sau nó được viết bằng C++. Một số ứng dụng phổ biến có thể kể tới là: Image Ready, Adobe Premier, Photoshop và Illustrator.
+                - Trình duyệt web:
+                    + Tốc độ và độ tin cậy là yếu tố cần phải có với các trình duyệt web. Khi đó, C++ sẽ là ngôn ngữ được ưu tiên sử dụng. Một phần của trình duyệt Google chrome và một số web browsers mã nguồn mở như Moliza Firefox, 
+                    ứng dụng email Mozilla Thunderbird có sự đóng góp của ngôn ngữ C++.
+                - Ứng dụng tính toán và đồ họa:
+                    + Ngôn ngữ lập trình C++ cho phép triển khai các ứng dụng đòi hỏi yếu tố thời gian thực. Chẳng hạn như các ứng dụng mô phỏng 3D, xử lý hình ảnh hiệu năng cao hay các ứng dụng cảm biến trên thiết bị di động. 
+                    Hay các ứng dụng xử lý, mô phỏng 3D, hiệu ứng và hoạt ảnh đều được xây dựng bằng C++.
+                - Phần mềm quản trị cơ sở dữ liệu:
+                    + C và C++ được sử dụng cho hệ quản trị cơ sở dữ liệu MySQL. Đây là một trong các hệ quản trị cơ sở dữ liệu phổ biến nhất. Nó là xương sống cho nhiều phần mềm của các doanh nghiệp lớn như Google, Yahoo, Youtube, Wikipedia,…
+                - Hệ điều hành:
+                    + C++ là một phần không thể thiếu trong nhiều hệ điều hành phổ biến như Apple OSX và MS Windows.
+                - Phần mềm doanh nghiệp:
+                    + C++ thường được sử dụng trong các ứng dụng lớn của các doanh nghiệp. Nơi mà yêu tố hiệu năng và tốc độ luôn được đặt lên hàng đầu.
              ''',
-            'include': 'Include (Tạm dịch: Bao gồm) là một từ khóa trong C++ dùng để chỉ cho trình biên dịch biết rằng chúng ta cần sử dụng thư viện được khai báo và nó sẽ tự động thêm vào cho chúng ta. Cú pháp: #include <library_name>',
-            'library': 'Library (Tạm dịch: Thư viện) là một tập mã nguồn đã được đóng gói, có thể được tái sử dụng trong nhiều chương trình khác nhau.',
-            'namespace': 'Namespace (Tạm dịch: Không gian tên) là một từ khóa trong C++ được sử dụng để định nghĩa một phạm vi nhằm mục đích phân biệt các hàm, lớp, biến, ... cùng tên trong các thư viện khác nhau.',
-            'pseudo code': 'Pseudo code (Tạm dịch: Mã giả) là một bản mô tả giải thuật lập trình máy tính ngắn gọn và không chính thức cấp cao, trong đó sử dụng những quy ước có cấu trúc của một số ngôn ngữ lập trình, nhưng thường bỏ đi những chi tiết không cần thiết để giúp hiểu rõ giải thuật hơn.',
+            'include': 'Để có thể sử dụng một số hàm built-in cần thiết ta cần phải khai báo thư viện chứa các hàm đó để chương trình có thể thực thi.',
+            'library': 'Một số thư viện cung cấp sẵn các hàm, các chức năng có sẵn để giúp chúng ta tiết kiệm thời gian coding hơn.',
+            'namespace': 'Namespace được thiết kế để rút bớt thời gian khai báo  để std là chữ viết tắt của tiêu chuẩn. std là namespace tiêu chuẩn. cout, cin và rất nhiều thứ khác được định nghĩa trong đó. bạn cũng có thể gọi các hàm này bằng cách sử dụng std :: cout, std :: cin, v.v.',
+            'pseudo code': '',
             # Câu trả lời về các kiểu dữ liệu và biến
             'variable': "Variable (Tạm dịch: Biến) trong C++ là là tên của một vùng trong bộ nhớ RAM, được sử dụng để lưu trữ thông tin. Bạn có thể gán thông tin cho một biến, và có thể lấy thông tin đó ra để sử dụng. Khi một biến được khai báo, một vùng trong bộ nhớ sẽ dành cho các biến.",
             'unsigned': '''Unsigned (Tạm dịch: Không dấu) trong C++ là một kiểu dữ liệu số nguyên không dấu, chỉ cho phép ta chứa các số nguyên không âm. Điểm khác biệt giữa unsigned và int đó là miền giá trị của chúng!
@@ -286,19 +307,19 @@ class AnswerCppDefineQuestion(Action):
                 }\n
              }''',
             # Câu trả lời về function
-            'function': 'Function (Tạm dịch: Hàm) là một đoạn các câu lệnh có thể tái sử dụng. Function cho phép lập trình viên cấu trúc chương trình thành những phân đoạn khác nhau để thực hiện những công việc khác nhau.',
-            'parameter': 'Parameters (Tạm dịch: Tham số) là những gì chúng ta gọi khi định nghĩa một hàm. Parameter sẽ đại diện cho một giá trị mà hàm của bạn sẽ nhận được khi được gọi.',
-            'argument': 'Arguments (Tạm dịch: Đối số) là đại diện cho giá trị truyền cho parameter khi chúng ta thực hiện lời gọi hàm. Mỗi argument sẽ tương ứng với một parameter khi khai báo.',
+            'function': 'Function cho phép lập trình viên cấu trúc chương trình thành những phân đoạn khác nhau để thực hiện những công việc khác nhau. Ta có thể tái sử dụng hàm ở nhiều nơi trong đoạn code của mình.',
+            'parameter': 'Parameter sẽ đại diện cho một giá trị mà hàm của bạn sẽ nhận được khi được gọi.',
+            'argument': 'Mỗi argument sẽ tương ứng với một parameter khi khai báo.',
             'recursion': 'Recursion (Tạm dịch: Đệ quy) là một hàm tự gọi lại chính nó.',
             'pass by value': 'Pass by value (Tạm dich: Truyền tham trị) có thể được hiểu là giá trị của biến sẽ không bị thay đổi khi ta truyền biến này vào một hàm mà trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
             'pass by reference': 'Pass by reference (Tạm dịch: Truyền tham chiếu) có thể được hiểu là giá trị của biến sẽ bị thay đổi khi ta truyền biến này vào một hàm trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
             'return': 'Return keyword (Tạm dịch: Trả về) trong C++ là một từ khóa dùng để trả về một giá trị cho nơi gọi hàm, đây từ khóa bắt buộc đối với bất kì hàm nào được khai báo có giá trị trả về, và có thể có hoặc không đối với hàm khai báo kiểu void.',
-            'return type': 'Return type (Tạm dịch: Kiểu trả về của hàm) trong C++ là việc định nghĩa kiểu giá trị mà hàm đó sẽ trả về cho nơi gọi hàm, giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
-            'const reference': 'Const reference (Tạm dịch: Tham chiếu hằng) trong C++ là việc ta định nghĩa tham số truyền vào là tham chiếu với từ khóa const - tức là sẽ không thể thay đổi được giá trị của biến truyền vào hàm mặc dù đó là tham chiếu. Hiệu quả của việc sử dụng tham chiếu hằng chỉ thể hiện rõ khi làm việc với các đối tượng struct/class.',
-            'inline function': 'Inline functions (Tạm dịch: Hàm nội tuyến) là một loại hàm trong ngôn ngữ lập trình C++. Từ khoá inline được sử dụng để đề nghị (không phải là bắt buộc) compiler (trình biên dịch) thực hiện inline expansion (khai triển nội tuyến) với hàm đó hay nói cách khác là chèn code của hàm đó tại địa chỉ mà nó được gọi.',
-            'default value': 'Default values (Tạm dịch: Tham số mặc nhiên) là khi ta mặc định gán sẵn giá trị bất kì cho một tham số truyền vào khi thực hiện khai báo hàm. Điều đó đồng nghĩa, khi thực hiện lời gọi hàm mà không truyền vào đối số tương ứng, trình biên dịch sẽ sử dụng giá trị đã được gán sẵn cho tham số đó khi thực thi hàm.',
-            'main function': 'Main function (Tạm dịch: Hàm main) trong C++ là một trường hợp của hàm, đây là nơi sẽ được thực thi đầu tiên khi chạy một chương trình C++.',
-            'built in function': 'Built in functions (Tạm dịch: Hàm dựng sẵn) hay còn có tên gọi khác là Library functions, là các hàm ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,...'
+            'return type': 'giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
+            'const reference': 'Hiệu quả của việc sử dụng tham chiếu hằng chỉ thể hiện rõ khi làm việc với các đối tượng struct/class. Bạn có thể tìm đọc tại đây: https://stackoverflow.com/questions/7420780/what-is-a-constant-reference-not-a-reference-to-a-constant/7432351',
+            'inline function': '',
+            'default value': 'Vì khi thực hiện lời gọi hàm mà không truyền vào đối số tương ứng, trình biên dịch sẽ sử dụng giá trị đã được gán sẵn cho tham số đó khi thực thi hàm.',
+            'main function': 'Mỗi khi chương trình biên dịch, nó sẽ chỉ thực thi các lệnh mà bạn khai báo trong hàm main, chính vì vậy, việc khai báo hàm main cực kỳ quan trọng',
+            'built in function': 'Vì các hàm này ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,... Ta có thể tiết kiệm được thời gian code bằng các hàm bulit-in có sẵn, thay vì bạn phải khởi tạo lại một hàm có chức năng là tìm số nhỏ nhất hoặc lớn nhất, bạn có thể sử dụng hàm built-in min_element trong thư viện vector để thực hiện, điều này sẽ giúp cho bạn tiết kiệm được thời gian cũng như rút gọn bớt code của bạn đi.'
         }
 
         if cplusplus_content in all_answers_what and curr_intent == 'c++_what_asking':
