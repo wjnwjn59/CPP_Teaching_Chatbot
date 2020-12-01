@@ -35,8 +35,36 @@ rules:
   steps:
   - intent: out_of_scope
   - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+
+- rule: greeting
+  steps:
+  - intent: greet 
+  - actions: utter_greet
+  - actions: utter_who_i_am
+
+- rule: thanks
+  steps:
+  - intent: thanks
+  - actions: utter_reply_thanks
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - actions: utter_goodbye
+  - actions: utter_thanks
+
+- rule: health_inquire
+  steps:
+  - intent: health_inquire
+  - actions: utter_reply_health_inquire
+
+- rule: insult_bot
+  steps:
+  - intent: insult
+  - actions: utter_reply_insult
