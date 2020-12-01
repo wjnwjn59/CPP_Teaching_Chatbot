@@ -34,7 +34,6 @@ intents:
   - c++_why_asking
   - c++_when_asking
   - c++_where_asking
-  - nlu_fallback
   - out_of_scope
   - corona
 
