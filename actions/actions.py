@@ -73,7 +73,7 @@ class AnswerCppDefineQuestion(Action):
             'increment-operator': '''Increment operators (Tạm dịch: Toán tử tăng, Ký hiệu: ++) là loại toán tử tăng giá trị của biến lên 1 đơn vị, có thể đứng trước hoặc sau một biến và ở mỗi vị trí khác nhau sẽ có một số điểm khác biệt:\n
              _ Prefix increment (Đứng trước biến): tăng giá trị của biến lên trước rồi cập nhật giá trị mới vào x ngay lập tức.\n
              _ Postfix increment (Đứng sau biến): sử dụng giá trị cũ của biến tại thời điểm dòng code đang thực thi cho đến khi tới dòng code tiếp theo thì mới cập nhật giá trị mới của biến (tức đã tăng 1)''',
-            'deference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
+            'dereference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
             'address_of-operator': '''Address_of operators (Tạm dịch: Toán tử địa chỉ, Ký hiệu : &) là loại toán tử cho phép chúng ta lấy địa chỉ bộ nhớ của một biến.''',
             'comma-operator': '''Comma operator (Tạm dịch: Toán tử phẩy, Ký hiệu : ,) là một loại toán tử cho phép ta kết nối các biểu thức lại với nhau, thực thi theo trình tự từ trái sang phải. Giả sử ta có đoạn code sau:\n
              int a = 0;\n
@@ -234,7 +234,7 @@ class AnswerCppDefineQuestion(Action):
             'increment-operator': '''Increment operators (Tạm dịch: Toán tử tăng, Ký hiệu: ++) là loại toán tử tăng giá trị của biến lên 1 đơn vị, có thể đứng trước hoặc sau một biến và ở mỗi vị trí khác nhau sẽ có một số điểm khác biệt:\n
              _ Prefix increment (Đứng trước biến): tăng giá trị của biến lên trước rồi cập nhật giá trị mới vào x ngay lập tức.\n
              _ Postfix increment (Đứng sau biến): sử dụng giá trị cũ của biến tại thời điểm dòng code đang thực thi cho đến khi tới dòng code tiếp theo thì mới cập nhật giá trị mới của biến (tức đã tăng 1)''',
-            'deference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
+            'dereference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
             'address_of-operator': '''Address_of operators (Tạm dịch: Toán tử địa chỉ, Ký hiệu : &) là loại toán tử cho phép chúng ta lấy địa chỉ bộ nhớ của một biến.''',
             'comma-operator': '''Comma operator (Tạm dịch: Toán tử phẩy, Ký hiệu : ,) là một loại toán tử cho phép ta kết nối các biểu thức lại với nhau, thực thi theo trình tự từ trái sang phải. Giả sử ta có đoạn code sau:\n
              int a = 0;\n
@@ -323,8 +323,13 @@ class AnswerCppDefineQuestion(Action):
             'built-in-function': 'Vì các hàm này ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,... Ta có thể tiết kiệm được thời gian code bằng các hàm bulit-in có sẵn, thay vì bạn phải khởi tạo lại một hàm có chức năng là tìm số nhỏ nhất hoặc lớn nhất, bạn có thể sử dụng hàm built-in min_element trong thư viện vector để thực hiện, điều này sẽ giúp cho bạn tiết kiệm được thời gian cũng như rút gọn bớt code của bạn đi.'
         }
 
+
         if cplusplus_content in all_answers_what and curr_intent == 'c++_what_asking':
             cplusplus_content_answer = all_answers_what[cplusplus_content]
+
+        print(curr_intent)
+        print(cplusplus_content)
+        print(cplusplus_content_answer)
         dispatcher.utter_message(text=cplusplus_content_answer)
 
         return [SlotSet("cplusplus_content_answer", cplusplus_content_answer)]
