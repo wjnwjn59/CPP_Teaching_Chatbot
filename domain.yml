@@ -23,29 +23,31 @@ intents:
   - c++_why_asking
   - c++_when_asking
   - c++_where_asking
+  - nlu_fallback
   - out_of_scope
 
 actions:
   - utter_reply_feeling_good
   - utter_reply_feeling_bad
+  - utter_reply_health_inquire
+  - utter_reply_stop_asking
+  - utter_reply_compliment
+  - utter_reply_insult
+  - utter_reply_thanks
+  - utter_reply_deny
+  - utter_reply_out_of_scope
   - utter_greet
   - utter_did_that_help
   - utter_happy
   - utter_goodbye
   - utter_who_i_am
   - utter_accept_questions
-  - utter_reply_stop_asking
   - utter_answer_c++_questions
-  - utter_reply_compliment
-  - utter_reply_thanks
   - utter_ask_anything_else
   - utter_ok
   - utter_thanks
   - utter_sorry
   - utter_wtf
-  - utter_reply_insult
-  - utter_reply_deny
-  - utter_reply_out_of_scope
   - utter_please_rephrase
   - action_c++_content_answer
   - validate_cpp_content_form
@@ -84,6 +86,24 @@ responses:
   utter_reply_feeling_good:
   - text: Bạn ổn là mình vui rồi <3
   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
+
+  utter_reply_compliment:
+  - text: Hihi ngại quá
+  
+  utter_reply_thanks:
+  - text: Không có gì đâu nè ^^
+  - text: Có gì đâu hihi
+
+  utter_reply_insult:
+  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
+  - text: Sao bạn lại chửi mình zayy TT 
+  - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
+
+  utter_reply_deny:
+  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
+
+  utter_reply_out_of_scope:
+  - text: Xin lỗi, mình không hiểu ý bạn!
   
   utter_greet:
   - text: Xin chào! Bạn khỏe không?
@@ -114,13 +134,6 @@ responses:
   utter_answer_c++_questions:
   - text: 'Đây là câu trả lời của bạn:'
   
-  utter_reply_compliment:
-  - text: Hihi ngại quá
-  
-  utter_reply_thanks:
-  - text: Không có gì đâu nè ^^
-  - text: Có gì đâu hihi
-  
   utter_ask_anything_else:
   - text: Bạn có muốn hỏi thêm gì không?
   - text: Bạn có cần hỏi thêm gì không?
@@ -139,20 +152,9 @@ responses:
   - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
   - text: Bạn có thể nói lại rõ hơn được không? Mình chưa hiểu ý bạn lắm ><
 
-  utter_reply_insult:
-  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
-  - text: Sao bạn lại chửi mình zayy TT 
-  - text: Đừng chửi tuii, tuii có làm gì sai đâu ><
-
-  utter_reply_deny:
-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
-
-  utter_reply_out_of_scope:
-  - text: Xin lỗi, mình không hiểu ý bạn!
-
   utter_please_rephrase:
   - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
   
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 60
   carry_over_slots_to_new_session: false
