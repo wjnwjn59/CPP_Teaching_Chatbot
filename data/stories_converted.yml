@@ -37,17 +37,9 @@ stories:
   steps:
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -63,17 +55,9 @@ stories:
   - action: utter_accept_questions
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -87,17 +71,9 @@ stories:
   steps:
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -113,17 +89,9 @@ stories:
   steps:
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -140,17 +108,9 @@ stories:
   steps:
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -163,17 +123,9 @@ stories:
   - action: utter_accept_questions
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -187,17 +139,9 @@ stories:
   steps:
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -214,17 +158,9 @@ stories:
   - intent: attention
   - or:
     - intent: c++_what_asking
-    entities:
-    - c++_content: c++
     - intent: c++_why_asking
-    entities:
-    - c++_content: c++
     - intent: c++_when_asking
-    entities:
-    - c++_content: c++
     - intent: c++_where_asking
-    entities:
-    - c++_content: c++
     - intent: c++_how_asking
     entities:
     - c++_content: c++
@@ -258,26 +194,34 @@ stories:
   - intent: deny
   - action: utter_sorry
 
-- story: anything else - dive into 
-  steps:
-  - action: utter_ask_anything_else
-  - or:
-    - intent: c++_what_asking
-    entities:
-    - c++_content: c++
-    - intent: c++_why_asking
-    entities:
-    - c++_content: c++
-    - intent: c++_when_asking
-    entities:
-    - c++_content: c++
-    - intent: c++_where_asking
-    entities:
-    - c++_content: c++
-    - intent: c++_how_asking
-    entities:
-    - c++_content: c++
-  - action: cpp_content_form
-  - active_loop: cpp_content_form
-  - active_loop: null
-  - action: action_c++_content_answer
+ - story: anything else - dive into 
+   steps:
+   - action: utter_ask_anything_else
+   - or:
+     - intent: c++_what_asking
+     - intent: c++_why_asking
+     - intent: c++_when_asking
+     - intent: c++_where_asking
+     - intent: c++_how_asking
+     entities:
+      - c++_content: c++
+   - action: cpp_content_form
+   - active_loop: cpp_content_form
+   - active_loop: null
+   - action: action_c++_content_answer
+
+ - story: anything else - dive into 
+   steps:
+   - action: utter_ask_anything_else
+   - or:
+     - intent: c++_what_asking
+     - intent: c++_why_asking
+     - intent: c++_when_asking
+     - intent: c++_where_asking
+     - intent: c++_how_asking
+     entities:
+      - c++_content: c++
+   - action: cpp_content_form
+   - active_loop: cpp_content_form
+   - active_loop: null
+   - action: action_c++_content_answer
