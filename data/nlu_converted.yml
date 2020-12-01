@@ -420,6 +420,19 @@ nlu:
     - đcm
     - đmm
     - dmm
+    - dcmm
+    - dclmm
+    - cái lz me may 
+    - dit cu may 
+    - địt cụ mày
+    - đụ má mày luôn 
+    - dcmm luon 
+    - lz má mày luong
+    - câm mẹ mồm vào con chó ngu 
+    - lz mẹ mày ngu như cặc
+    - óc vật 
+    - súc sinh ngu học 
+    - dịt cụ m
     - dm
     - duma
     - dume
@@ -689,6 +702,9 @@ nlu:
     - ok h hỏi câu này đi
 - intent: out_of_scope
   examples: |
+    - ư ư ư 
+    - ó ó ó 
+    - bố ơi mình đi đâu thế 
     - mấy giờ rồi?
     - cho tui hỏi mấy giờ rồi vậy?
     - tui k biết phải hỏi gì hết
@@ -722,9 +738,6 @@ nlu:
     - tin tức hôm nay
     - thời sự hôm nay
     - bầu cử tổng thống mỹ 2020
-    - corona virus
-    - covid-19
-    - covid
     - hát cho t nghe đi
     - biết kiếm tiền k
     - biết hát auto tune k
@@ -889,6 +902,7 @@ nlu:
     - kể t nghe về [struct]{"entity": "c++_content", "value": "structure"} coi
     - nói t nghe về [cấu trúc]{"entity": "c++_content", "value": "structure"} trong c++ đi
     - nói về [struct]{"entity": "c++_content", "value": "structure"} đi bạn eii
+    - cu phap [struct]{"entity": "c++_content", "value": "structure"} la gi 
     - biết gì về [cấu trúc]{"entity": "c++_content", "value": "structure"} k bạn ei
     - minh muon biet ve cau truc [struct]{"entity": "c++_content", "value": "structure"}
     - chi minh mot ti ve kieu [struct]{"entity": "c++_content", "value": "structure"} di babe
@@ -901,6 +915,8 @@ nlu:
     - nói về [class]{"entity": "c++_content", "value": "class"} đi bạn
     - bạn nói về [class]{"entity": "c++_content", "value": "class"} đi
     - [lớp]{"entity": "c++_content", "value": "class"} trong c++?
+    - khai niem ve [lop]{"entity": "c++_content", "value": "class"} trong c++?
+    - cu phap [lop]{"entity": "c++_content", "value": "class"} la gi 
     - m nói t nghe về [lớp]{"entity": "c++_content", "value": "class"} đi
     - [lớp]{"entity": "c++_content", "value": "class"} là gì?
     - như lào là một [lớp]{"entity": "c++_content", "value": "class"} trong c++?
@@ -943,9 +959,18 @@ nlu:
     - thế nào là [float]{"entity": "c++_content", "value": "floating-point"}?
     - kieu [float]{"entity": "c++_content", "value": "floating-point"}?
     - the nao la [kieu so thuc]{"entity": "c++_content", "value": "floating-point"} v?
+    - [kiểu dấu chấm động]{"entity": "c++_content", "value": "floating-point"} trong c++ là gì
+    - thế nào là khái niệm [dấu chấm động]{"entity": "c++_content", "value": "floating-point"}???
+    - tui nghe bảo về [dấu chấm động]{"entity": "c++_content", "value": "floating-point"}, nó là gì v 
+    - the nao la kieu [dau cham dong]{"entity": "c++_content", "value": "floating-point"}
+    - mot [kieu dau cham dong]{"entity": "c++_content", "value": "floating-point"} la gi
+    - [kieu so thuc]{"entity": "c++_content", "value": "floating-point"} trong c++ la gi 
+    - [float]{"entity": "c++_content", "value": "floating-point"} trong c++ la gi
     - noi cho tui nghe ve [kieu so thuc]{"entity": "c++_content", "value": "floating-point"} dii
     - kiểu [double]{"entity": "c++_content", "value": "double"} là gì?
-    - thế nào là kiểu [double]{"entity": "c++_content", "value": "floating-point"}
+    - thế nào là kiểu [double]{"entity": "c++_content", "value": "double"}
+    - kiểu [double]{"entity": "c++_content", "value": "double"} trong c++ là gì thế
+    - kieu [double]{"entity": "c++_content", "value": "double"} la nhu the nao trong c++ vay 
     - kiểu [floating point]{"entity": "c++_content", "value": "floating-point"} là gì vậy
     - kiểu dữ liệu [floating-point]{"entity": "c++_content", "value": "floating-point"} là gì vậy
     - kiểu [số thực]{"entity": "c++_content", "value": "floating-point"} là gì
@@ -1293,6 +1318,56 @@ nlu:
     - t phải khai báo [library](c++_content) ở đâu?
     - tao nên khai báo [library](c++_content) ở chỗ nào?
     - giờ tao viết dòng khai báo [library](c++_content) ở chỗ nào đây m?
+- intent: nlu_fallback
+  examples: |
+  - ???
+  - !!!
+  - ádwfw
+  - rtweq
+  - tyuhg
+  - qưeqws
+  - treyryuuiiop?54636
+  - 12446475634
+  - 3123125436
+  - 5476586
+  - 2453464578
+  - rowekroewkvn,mxzmczxc
+  - eqwewq[ơqorASDFFDS
+  - gfdgƯQERPQWKODMSKNVZXC
+  - dsadqwe
+  - 41244365bcvew
+- intent: corona 
+  examples: |
+    - corona 
+    - tình hình corona 
+    - covid-19
+    - tình hình dịch corona 
+    - phòng ngừa corona 
+    - cách phòng chống corona 
+    - sars-ncov
+    - ncov
+    - SARS-NCOV
+    - đại dịch corona 
+    - corona pandemic 
+    - corona virus 
+    - corona vi rút 
+    - con corona 
+    - covid-19 tình hình 
+    - covid 19 hiện nay 
+    - dịch covid tại tphcm 
+    - dịch covid 19 tphcm
+    - dịch bệnh covid 19
+    - tình hình covid tại việt nam
+    - covid 19 tình hình tại việt nam 
+    - ngăn chặn corona 
+    - covid 19
+    - sars_ncov 
+    - sars ncov 2019 
+    - đại dịch covid 19 
+    - con đĩ corona 
+    - cồ râu nà 
+    - cô vít 
+    - cô vít 19 
 - synonym: library
   examples: |
     - thư viện
@@ -1489,6 +1564,8 @@ nlu:
 - synonym: floating-point
   examples: |
     - float
+    - kiểu dấm chấm động
+    - dấu chấm động
     - floating point
     - floating-point
     - số thực
@@ -1498,6 +1575,8 @@ nlu:
     - floating-points
     - kieu so thuc
     - so thuc
+    - kieu dau cham dong 
+    - dau cham dong
 - synonym: double
   examples: |
     - double
