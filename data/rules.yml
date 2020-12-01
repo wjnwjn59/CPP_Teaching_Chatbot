@@ -36,6 +36,7 @@ rules:
   - intent: out_of_scope
   - action: utter_reply_out_of_scope
   - action: utter_who_i_am
+  wait_for_user_input: false
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
@@ -47,24 +48,29 @@ rules:
   - intent: greet 
   - action: utter_greet
   - action: utter_who_i_am
+  wait_for_user_input: false
 
 - rule: thanks
   steps:
   - intent: thanks
   - action: utter_reply_thanks
+  wait_for_user_input: false
 
 - rule: goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
   - action: utter_thanks
+  wait_for_user_input: false
 
 - rule: health_inquire
   steps:
   - intent: health_inquire
   - action: utter_reply_health_inquire
+  wait_for_user_input: false
 
 - rule: insult_bot
   steps:
   - intent: insult
   - action: utter_reply_insult
+  wait_for_user_input: false
