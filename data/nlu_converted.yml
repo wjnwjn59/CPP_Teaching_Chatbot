@@ -1105,7 +1105,7 @@ nlu:
     - nhu nao la mot [mang hai chieu]{"entity": "c++_content", "value": "2d-array"}?
     - ban luan ve [mang hai chieu]{"entity": "c++_content", "value": "2d-array"} xem sao nao 
     - [mảng hai chiều]{"entity": "c++_content", "value": "2d-array"} là gì thế 
- - intent: c++_how_asking
+- intent: c++_how_asking
   examples: |
     - làm sao để khai báo một [biến]{"entity": "c++_content", "value": "variable"} trong c++ ?
     - cách nào để tạo một [biến]{"entity": "c++_content", "value": "variable"} vậy ?
