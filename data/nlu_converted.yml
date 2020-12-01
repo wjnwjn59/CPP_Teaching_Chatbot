@@ -57,6 +57,48 @@ nlu:
     - hi sir 
     - yo yo yo
     - yo
+- intent: attention
+  examples: |
+    - êii
+    - eeeeeeee
+    - ê 
+    - eee
+    - nè 
+    - nè nè 
+    - nè nè nè 
+    - ê duma
+    - ê dcm 
+    - ê th lz 
+    - hey 
+    - hú 
+    - cúc cu 
+    - hei 
+    - yo 
+    - yo yo yo 
+    - này 
+    - này này
+    - này dcm 
+    - này dume
+    - quây 
+    - lô lô 
+    - lô 
+    - yô
+    - yô yô
+    - à lô 
+    - à lố 
+    - alo 
+    - cốc cốc 
+    - e hèm 
+    - a hèm 
+    - e hem 
+    - buzzz 
+    - buzz buzz 
+    - ring ring 
+    - knock knock
+    - cộc cộc 
+    - cough
+    - heeyy yo
+    - hey yo wtf 
 - intent: health_inquire
   examples: |
     - cho em hỏi, dạo này bạn khỏe k?
