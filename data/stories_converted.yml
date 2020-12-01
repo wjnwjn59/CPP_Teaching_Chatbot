@@ -21,6 +21,16 @@ stories:
   - intent: deny
   - action: utter_sorry
 
+- story: stop asking
+  steps:
+  - intent: stop_asking
+  - action: utter_reply_stop_asking
+
+- story: pay attention to me plz
+  steps:
+  - intent: attention
+  - action: utter_may_i_help_u
+
 - story: unknown asking 1
   steps:
   - intent: want_to_ask
