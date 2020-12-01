@@ -1,6 +1,14 @@
 version: "2.0"
 
 rules:
+- rule: Ask for covid-19 information
+  steps:
+  - intent: corona
+  - action: utter_covid_symptom
+  - action: utter_covid_precautions
+  - action: utter_covid_treatment
+  wait_for_user_input: false
+
 - rule: Activate form asking what
   steps:
   - intent: c++_what_asking
