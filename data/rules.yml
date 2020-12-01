@@ -45,26 +45,26 @@ rules:
 - rule: greeting
   steps:
   - intent: greet 
-  - actions: utter_greet
-  - actions: utter_who_i_am
+  - action: utter_greet
+  - action: utter_who_i_am
 
 - rule: thanks
   steps:
   - intent: thanks
-  - actions: utter_reply_thanks
+  - action: utter_reply_thanks
 
 - rule: goodbye
   steps:
   - intent: goodbye
-  - actions: utter_goodbye
-  - actions: utter_thanks
+  - action: utter_goodbye
+  - action: utter_thanks
 
 - rule: health_inquire
   steps:
   - intent: health_inquire
-  - actions: utter_reply_health_inquire
+  - action: utter_reply_health_inquire
 
 - rule: insult_bot
   steps:
   - intent: insult
-  - actions: utter_reply_insult
+  - action: utter_reply_insult
