@@ -1,19 +1,30 @@
 version: "2.0"
 
 intents:
-  - greet
-  - health_inquire
-  - goodbye
+  - greet:
+      use_entities: []
+  - attention:
+      use_entities: []
+  - health_inquire:
+      use_entities: []
+  - goodbye:
+      use_entities: []
   - affirm:
       use_entities: []
-  - deny
+  - deny:
+      use_entities: []
   - compliment:
       use_entities: []
-  - thanks
-  - feeling_good
-  - insult
-  - feeling_bad
-  - stop_asking
+  - thanks:
+      use_entities: []
+  - feeling_good:
+      use_entities: []
+  - insult:
+      use_entities: []
+  - feeling_bad:
+      use_entities: []
+  - stop_asking:
+      use_entities: []
   - continue_asking:
       use_entities: []
   - want_to_ask:
@@ -24,27 +35,35 @@ intents:
   - c++_when_asking
   - c++_where_asking
   - out_of_scope
+  - corona
 
 actions:
   - utter_reply_feeling_good
   - utter_reply_feeling_bad
+  - utter_reply_health_inquire
+  - utter_reply_stop_asking
+  - utter_reply_compliment
+  - utter_reply_insult
+  - utter_reply_thanks
+  - utter_reply_deny
+  - utter_reply_out_of_scope
   - utter_greet
+  - utter_may_i_help_u
   - utter_did_that_help
   - utter_happy
   - utter_goodbye
   - utter_who_i_am
   - utter_accept_questions
-  - utter_reply_stop_asking
   - utter_answer_c++_questions
-  - utter_reply_compliment
-  - utter_reply_thanks
   - utter_ask_anything_else
   - utter_ok
   - utter_thanks
   - utter_sorry
   - utter_wtf
-  - utter_reply_insult
-  - utter_reply_deny
+  - utter_covid_symptom
+  - utter_covid_precautions
+  - utter_covid_treatment
+  - utter_please_rephrase
   - action_c++_content_answer
   - validate_cpp_content_form
 
@@ -66,6 +85,15 @@ slots:
     influence_conversation: false
     
 responses:
+  utter_covid_symptom:
+  - text: "COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện.\n\nCác triệu chứng thường gặp nhất:\n_ sốt\n_ ho khan\n_ mệt mỏi\n\nCác triệu chứng ít gặp hơn:\n_ đau nhức\n_ đau họng\n_ tiêu chảy\n_ viêm kết mạc\n_ đau đầu\n_ mất vị giác hoặc khứu giác\n_ da nổi mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái\n\nCác triệu chứng nghiêm trọng:\n_ khó thở\n_ đau hoặc tức ngực\n_ mất khả năng nói hoặc cử động\n\nHãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng. Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế."
+
+  utter_covid_precautions:
+  - text: "Để ngăn chặn COVID-19 lây lan, hãy:\n_ Đeo khâu trang ở nơi công cộng\n_ Thường xuyên rửa tay. Dùng xà phòng và nước hoặc dung dịch rửa tay chứa cồn.\n_ Giữ khoảng cách an toàn với những người đang ho hoặc hắt hơi.\n_ Khi không thể giữ khoảng cách, hãy đeo khẩu trang.\n_ Không chạm vào mắt, mũi hoặc miệng.\n_ Khi ho hoặc hắt hơi, hãy dùng khăn giấy hoặc gập khuỷu tay lại để che mũi và miệng.\n_ Hãy ở nhà khi bạn cảm thấy không khỏe.\n_ Hãy đi khám nếu bạn bị sốt, ho và khó thở."
+
+  utter_covid_treatment:
+  - text: "Cho đến nay, vẫn chưa có vắc-xin hoặc thuốc đặc hiệu cho COVID-19. Các nhà khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua thử nghiệm lâm sàng."
+
   utter_reply_stop_asking:
   - text: "Ok bạn nha, có gì thì cứ hỏi mình"
   - text: "Ừa ok bạn, bạn có thể trở lại hỏi bất cứ khi nào nha"
@@ -82,6 +110,24 @@ responses:
   utter_reply_feeling_good:
   - text: Bạn ổn là mình vui rồi <3
   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
+
+  utter_reply_compliment:
+  - text: Hihi ngại quá
+  
+  utter_reply_thanks:
+  - text: Không có gì đâu nè ^^
+  - text: Có gì đâu hihi
+
+  utter_reply_insult:
+  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
+  - text: Sao bạn lại chửi mình zayy TT 
+  - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
+
+  utter_reply_deny:
+  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
+
+  utter_reply_out_of_scope:
+  - text: Xin lỗi, mình không hiểu ý bạn!
   
   utter_greet:
   - text: Xin chào! Bạn khỏe không?
@@ -112,13 +158,6 @@ responses:
   utter_answer_c++_questions:
   - text: 'Đây là câu trả lời của bạn:'
   
-  utter_reply_compliment:
-  - text: Hihi ngại quá
-  
-  utter_reply_thanks:
-  - text: Không có gì đâu nè ^^
-  - text: Có gì đâu hihi
-  
   utter_ask_anything_else:
   - text: Bạn có muốn hỏi thêm gì không?
   - text: Bạn có cần hỏi thêm gì không?
@@ -137,14 +176,13 @@ responses:
   - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
   - text: Bạn có thể nói lại rõ hơn được không? Mình chưa hiểu ý bạn lắm ><
 
-  utter_reply_insult:
-  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
-  - text: Sao bạn lại chửi mình zayy TT 
-  - text: Đừng chửi tuii, tuii có làm gì sai đâu ><
-
-  utter_reply_deny:
-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
+  utter_please_rephrase:
+  - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
   
+  utter_may_i_help_u:
+  - text: Vâng, mình đang nghe đây 
+  - text: Mình đây bạn
+  - text: Tui đây tui đây
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 60
   carry_over_slots_to_new_session: false
