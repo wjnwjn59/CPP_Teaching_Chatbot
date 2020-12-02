@@ -1,79 +1,9 @@
 {
-  "out_of_scope": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 69,
-    "confused_with": {}
-  },
-  "c++_why_asking": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "thanks": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "feeling_good": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40,
-    "confused_with": {}
-  },
-  "c++_when_asking": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21,
-    "confused_with": {}
-  },
   "goodbye": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 18,
-    "confused_with": {}
-  },
-  "compliment": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28,
-    "confused_with": {}
-  },
-  "stop_asking": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 70,
-    "confused_with": {}
-  },
-  "c++_what_asking": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 167,
-    "confused_with": {}
-  },
-  "feeling_bad": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 45,
-    "confused_with": {}
-  },
-  "health_inquire": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 83,
     "confused_with": {}
   },
   "greet": {
@@ -83,18 +13,11 @@
     "support": 39,
     "confused_with": {}
   },
-  "insult": {
+  "c++_why_asking": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 74,
-    "confused_with": {}
-  },
-  "want_to_ask": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 31,
+    "support": 18,
     "confused_with": {}
   },
   "deny": {
@@ -104,6 +27,34 @@
     "support": 20,
     "confused_with": {}
   },
+  "compliment": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 69,
+    "confused_with": {}
+  },
+  "insult": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 74,
+    "confused_with": {}
+  },
+  "c++_what_asking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 167,
+    "confused_with": {}
+  },
   "c++_where_asking": {
     "precision": 1.0,
     "recall": 1.0,
@@ -111,11 +62,32 @@
     "support": 14,
     "confused_with": {}
   },
-  "continue_asking": {
+  "stop_asking": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 38,
+    "support": 70,
+    "confused_with": {}
+  },
+  "thanks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "health_inquire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 83,
+    "confused_with": {}
+  },
+  "want_to_ask": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
     "confused_with": {}
   },
   "c++_how_asking": {
@@ -130,6 +102,34 @@
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 17,
+    "confused_with": {}
+  },
+  "c++_when_asking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "feeling_bad": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45,
+    "confused_with": {}
+  },
+  "continue_asking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "feeling_good": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
     "confused_with": {}
   },
   "accuracy": 1.0,

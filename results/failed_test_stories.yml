@@ -1,6 +1,6 @@
 version: "2.0"
 stories:
-- story: happy path 1 (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: happy path 1 (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
@@ -8,7 +8,7 @@ stories:
   - intent: mood_great  # predicted: compliment: amazing
   - action: utter_happy  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback
-- story: happy path 2 (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: happy path 2 (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
@@ -19,7 +19,7 @@ stories:
   - intent: goodbye
   - action: utter_goodbye  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback
-- story: sad path 1 (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: sad path 1 (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
@@ -31,7 +31,7 @@ stories:
   - intent: affirm
   - action: utter_happy  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback
-- story: sad path 2 (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: sad path 2 (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
@@ -43,7 +43,7 @@ stories:
   - intent: deny
   - action: utter_goodbye  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback
-- story: sad path 3 (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: sad path 3 (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
@@ -55,8 +55,8 @@ stories:
   - intent: deny
   - action: utter_goodbye  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback
-- story: bot challenge (/tmp/tmpr1ukmzmw/dff65dceaf7e42f59410afacf2c6772f_conversation_tests.md)
+- story: bot challenge (/tmp/tmp8qj915lr/6eaef46bf9194c85904c0efc3f7da536_conversation_tests.md)
   steps:
-  - intent: bot_challenge  # predicted: thanks: are you a bot?
+  - intent: bot_challenge  # predicted: want_to_ask: are you a bot?
   - action: utter_iamabot  # predicted: action_default_fallback
   - action: action_listen  # predicted: action_default_fallback

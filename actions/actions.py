@@ -5,13 +5,12 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
 
-
 class AnswerCppDefineQuestion(Action):
 
     def name(self) -> Text:
         return "action_c++_content_answer"
 
-    def run(self, dispatcher: CollectingDispatcher,
+    async def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
@@ -49,6 +48,7 @@ class AnswerCppDefineQuestion(Action):
             'data-type': 'Data type (Tạm dịch: Kiểu dữ liệu) trong C++ là một hệ thống dùng để phân biệt sự khác nhau về lượng tài nguyên chiếm trong bộ nhớ và cách diễn giải mẫu bit của các biến hoặc các hàm.',
             '2d-array':'Two dimensional array (Tạm dịch: Mảng hai chiều) là một cấu trúc dữ liệu có dạng là một bảng các số - tức là một ma trận (tìm hiểu thêm về Đại số tuyến tính để hiểu rõ hơn nhé) bao gồm n hàng và n cột.\nCú pháp: <data_type> <variable_name>[<row_size>][<column_size>];',
             'array':'Array (Tạm dịch: Mảng) trong C++ là một kiểu dữ liệu, gồm một tập hợp các phần tử có cùng kiểu dữ liệu với nhau, được phân biệt bởi số thứ tự (index) bên trong mảng, bắt đầu từ vị trí 0.\nCú pháp: <data_type> <variable_name>[<size_of_array>];',
+            'array': 'Array (Tạm dịch: Mảng) trong C++ là một kiểu dữ liệu, gồm một tập hợp các phần tử có cùng kiểu dữ liệu với nhau, được phân biệt bởi số thứ tự (index) bên trong mảng, bắt đầu từ vị trí 0.\nCú pháp: <data_type> <variable_name>[<size_of_array>];',
             'structure': 'Structure hay struct (Tạm dịch: Cấu trúc) trong C++ là một cú pháp dùng để biểu diễn một kiểu dữ liệu mới dựa vào việc tập hợp các biến cần thiết với nhau.\nCú pháp: struct <name>{\n//some variables;\n};',
             'class': 'Class (Tạm dịch: Lớp) trong C++ là một kiến thức liên quan đến Lập trình hướng đối tượng (Object Oriented Programming), là một bản thiết kế của các đối tượng có cùng chung các đặc điểm, tính chất, hành vi... Trong lập trình, một class có thể chứa các Biến - Thuộc tính (Attributes) và các Hàm - Phương thức (Methods).\nCú pháp: class <class_name>{\n//Some attributes\n//Some methods\n};\nĐể có thể hiểu rõ hơn về Class, bạn hãy tìm hiểu thêm về Lập trình hướng đối tượng nhé!',
             'union': 'Union (Tạm dịch: Hợp nhất) trong C++ là một cú pháp về cơ bản giống với struct, dùng để gom nhóm các biến lại với nhau để từ đó hình thành một kiểu dữ liệu mới.\nCú pháp: union <union_name>{\n//some variables\n};',
@@ -191,146 +191,77 @@ class AnswerCppDefineQuestion(Action):
              ''',
             'include': 'Để có thể sử dụng một số hàm built-in cần thiết ta cần phải khai báo thư viện chứa các hàm đó để chương trình có thể thực thi.',
             'library': 'Một số thư viện cung cấp sẵn các hàm, các chức năng có sẵn để giúp chúng ta tiết kiệm thời gian coding hơn.',
-            'namespace': 'Namespace được thiết kế để rút bớt thời gian khai báo  để std là chữ viết tắt của tiêu chuẩn. std là namespace tiêu chuẩn. cout, cin và rất nhiều thứ khác được định nghĩa trong đó. bạn cũng có thể gọi các hàm này bằng cách sử dụng std :: cout, std :: cin, v.v.',
-            'pseudo-code': '',
+            'namespace': 'Namespace được thiết kế để rút bớt thời gian khai báo các lệnh trong thư viện std. Các lệnh cout, cin và rất nhiều thứ khác được định nghĩa trong đó chính vì vậy bạn cũng có thể gọi các hàm này bằng cách sử dụng std :: cout, std :: cin, v.v.\n Chính vì vậy namespace được sinh ra để rút gọn thời gian khai báo các đầu chuẩn thư viện cho lập trình viên.',
             # Câu trả lời về các kiểu dữ liệu và biến
-            'variable': "Variable (Tạm dịch: Biến) trong C++ là là tên của một vùng trong bộ nhớ RAM, được sử dụng để lưu trữ thông tin. Bạn có thể gán thông tin cho một biến, và có thể lấy thông tin đó ra để sử dụng. Khi một biến được khai báo, một vùng trong bộ nhớ sẽ dành cho các biến.",
-            'unsigned': '''Unsigned (Tạm dịch: Không dấu) trong C++ là một kiểu dữ liệu số nguyên không dấu, chỉ cho phép ta chứa các số nguyên không âm. Điểm khác biệt giữa unsigned và int đó là miền giá trị của chúng!
-              Việc khai báo unsigned <var_name> cũng sẽ tương tự như việc khai báo unsigned int <var_name>''',
-            'signed': '''Signed (Tạm dịch: Có dấu) trong C++ là một kiểu dữ liệu số nguyên có dấu, cho phép ta chứa các giá trị âm hoặc dương!\n
-             Việc khai báo signed <var_name> cũng sẽ tương tự như việc khai báo int <var_name>, signed int <var_name>.''',
-            'short': '''Short (Tạm dịch: Ngắn) trong C++ là một kiểu dữ liệu số nguyên cho phép ta lưu trữ các số -2,-1,0,1,2,... tương tự với kiểu int. Điểm khác biệt của short so với int nằm ở việc có miền giá trị nhỏ hơn!''',
-            'long': 'Long (Tạm dịch: Dài) trong C++ là một kiểu dữ liệu số nguyên cho phép ta lưu trữ các giá trị -2,-1,0,1,2,... tương tự với kiểu int. Điểm khác biệt của long so với int nằm ở việc có miền giá trị to hơn!',
-            'type-modififer': 'Type modifiers hay Modifers (Tạm dịch: Công cụ chỉnh sửa kiểu dữ liệu) trong C++ là các từ khóa đứng trước các kiểu dữ liệu cơ bản, làm thay đổi các tính chất mặc định của chúng như miền giá trị,... Trong C++ gồm có 4 modifers đó là: unsigned, signed, short và long.',
-            'typedef': 'Typedef (Tạm dịch: Định nghĩa kiểu dữ liệu) trong C++ là một từ khóa cho phép ta định nghĩa thêm tên mới cho các kiểu dữ liệu có sẵn\nCú pháp như sau: typedef <data_type> <new_name>',
+            'variable': "Để lưu trữ một dữ liệu, bạn có thể gán thông tin cho một biến, và có thể lấy thông tin đó ra để sử dụng. Khi một biến được khai báo, một vùng trong bộ nhớ sẽ dành cho các biến.",
+            'unsigned': '''Định nghĩa kiểu dữ liệu chỉ cho phép ta chứa các số nguyên không âm.''',
+            'signed': '''Định nghĩa kiểu dữ liệu chỉ cho phép ta chứa các giá trị âm hoặc dương!''',
+            'short': '''Điểm khác biệt của short so với int nằm ở việc có miền giá trị nhỏ hơn!''',
+            'long': 'Điểm khác biệt của long so với int nằm ở việc có miền giá trị to hơn!',
+            'type modififer': 'Làm thay đổi các tính chất mặc định của chúng như miền giá trị,... Trong C++ gồm có 4 modifers đó là: unsigned, signed, short và long.',
             'constant': 'Constant hay const (Tạm dịch: Hằng số) trong C++ là một từ khóa dùng để chỉ định một biến hay một đối tượng (trong OOP) là một hằng - tức không thể làm thay đổi giá trị của nó kể từ sau khi khai báo từ khóa const.',
-            'macro': 'Macro trong C++ là một trong các chỉ thị trong bộ tiền xử lý (Preprocessing), dùng để đặt lại tên của một chức năng, khối lệnh, giá trị,... theo ý của mình.\nCú pháp: #define <new_name> <a syntax, code block,...>\n Mình cũng có ví dụ như sau, giả sử mình muốn định nghĩa giá trị 3.14 có tên gọi là PI, mình có thể sử dụng macro như sau: #define PI 3.14',
-            'wchar_t': 'wchar_t trong C++ là một kiểu dữ liệu wide character. Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
-            'boolean': 'Boolean hay bool (Tạm dịch: Kiểu luận lý) trong C++ là một kiểu dữ liệu đại số luận lý chỉ gồm có hai giá trị là 0 (false) và 1 (true).',
-            'data-type': 'Data type (Tạm dịch: Kiểu dữ liệu) trong C++ là một hệ thống dùng để phân biệt sự khác nhau về lượng tài nguyên chiếm trong bộ nhớ và cách diễn giải mẫu bit của các biến hoặc các hàm.',
-            'array': 'Array (Tạm dịch: Mảng) trong C++ là một kiểu dữ liệu, gồm một tập hợp các phần tử có cùng kiểu dữ liệu với nhau, được phân biệt bởi số thứ tự (index) bên trong mảng, bắt đầu từ vị trí 0.\nCú pháp: <data_type> <variable_name>[<size_of_array>];',
-            '2d-array':'Two dimensional array (Tạm dịch: Mảng hai chiều) là một cấu trúc dữ liệu có dạng là một bảng các số - tức là một ma trận (tìm hiểu thêm về Đại số tuyến tính để hiểu rõ hơn nhé) bao gồm n hàng và n cột.\nCú pháp: <data_type> <variable_name>[<row_size>][<column_size>];',
-            'structure': 'Structure hay struct (Tạm dịch: Cấu trúc) trong C++ là một cú pháp dùng để biểu diễn một kiểu dữ liệu mới dựa vào việc tập hợp các biến cần thiết với nhau.\nCú pháp: struct <name>{\n//some variables;\n};',
-            'class': 'Class (Tạm dịch: Lớp) trong C++ là một kiến thức liên quan đến Lập trình hướng đối tượng (Object Oriented Programming), là một bản thiết kế của các đối tượng có cùng chung các đặc điểm, tính chất, hành vi... Trong lập trình, một class có thể chứa các Biến - Thuộc tính (Attributes) và các Hàm - Phương thức (Methods).\nCú pháp: class <class_name>{\n//Some attributes\n//Some methods\n};\nĐể có thể hiểu rõ hơn về Class, bạn hãy tìm hiểu thêm về Lập trình hướng đối tượng nhé!',
-            'union': 'Union (Tạm dịch: Hợp nhất) trong C++ là một cú pháp về cơ bản giống với struct, dùng để gom nhóm các biến lại với nhau để từ đó hình thành một kiểu dữ liệu mới.\nCú pháp: union <union_name>{\n//some variables\n};',
-            'pointer': 'Pointer (Tạm dịch: Con trỏ) trong C++ là một biến chứa địa c hỉ của một biến khác với cùng kiểu dữ liệu đã được khai báo.\nCú pháp: <data_type>* <variable_name>;',
+            'macro': 'Dùng để đặt lại tên của một chức năng, khối lệnh, giá trị,... theo ý của mình. Mình cũng có ví dụ như sau, giả sử mình muốn định nghĩa giá trị 3.14 có tên gọi là PI, mình có thể sử dụng macro như sau: #define PI 3.14',
+            'wchar_t': 'Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
+            'array': 'Cấu trúc dữ liệu Mảng sẽ giúp bạn lưu trữ danh sách các phần tử. Mình ví dụ như bạn sẽ cần lưu danh sách các sinh viên. Danh sách này sẽ được tổ chức sao cho bạn có thể truy xuất ngẫu nhiên nhanh chóng đến từng phần tử con. Chẳng hạn bạn muốn lấy thông tin sinh viên ở vị trí thứ 10.\n Pùm! Có ngay!.\n Danh sách này có thể được sắp xếp lại trật tự theo một tiêu chí nào đó, do đó bạn có thể nhanh chóng đọc ra top 10 sinh viên có điểm số cao nhất.\n Hay một lợi thế nữa của Mảng đó là với việc tổ chức các phần tử có kiểu dữ liệu tương tự nhau như vậy sẽ làm cho code của chúng ta tường minh và dễ quản lý hơn, giúp tối ưu code.',
+            'structure': 'Kiểu dữ liệu structure được tạo thành từ một hoặc một nhóm kiểu dữ liệu xây dựng sẵn để tạo ra một tập hợp các biến thuộc cùng nhóm, những biến cùng nhóm này dùng để lưu trữ các dữ liệu có liên quan với nhau trong kiểu dữ liệu mới.\nCác bạn có thể tham khảo thêm tại : https://cpp.daynhauhoc.com/9/1-structs/',
+            'class': 'Bạn tạo ra 1 class với những thuộc tính (property) và hành vi (method) của nó. Một object được tạo từ 1 class sẽ mang những đặc tính của class đó (với những thuộc tính, hành vi và quan hệ với các đối tượng khác được định nghĩa trong class).Class thường được xem như bộ khung (prototype) của object. Mình thì hiểu nó như 1 công cụ để nhóm các object ta sẽ tạo ra, ràng buộc các object đó phải có 1 số đặc tính nào đó. Mọi object tạo thành từ 1 class thì có những đặc tính giống nhau, đó là ý nghĩa của class.',
+            'union': 'Dùng để gom nhóm các biến lại với nhau để từ đó hình thành một kiểu dữ liệu mới.',
+            'pointer': 'Khi bạn muốn sử dụng một biến thì bạn phải cấp phát cho nó một bộ nhớ nhất định để có thể hoạt động.\nVí dụ như bạn tạo một mảng mà không cho biết số phần tử(tức là máy tính sẽ không biết cấp phát bao nhiêu ô nhớ) thì mảng đó không hợp lệ - sysnax error.\nĐể làm được điều đó thì ta dùng con trỏ để cấp phát động.',
             'enumeration': 'Enumeration hay enum (Tạm dịch: Kiểu liệt kê) là một kiểu dữ liệu trong C++ dùng để định nghĩa một tập các hằng số cố định,',
-            'integer': 'Integer hay int (Tạm dịch: Kiểu số nguyên) trong C++ là một kiểu dữ liệu cho phép lưu trữ những giá trị là số nguyên như -2,-1,0,1,...\nCú pháp: int <variable_name>;',
-            'floating-point': 'Floating point hay float (Tạm dịch: Kiểu dấu chấm động/kiểu số thực) trong C++ là một kiểu dữ liệu cho phép lưu trữ các số có dạng -1.1234, 5.5467, 3.14,... Nói cách khác, kiểu dấu chấm động cho phép ta lưu trữ cả phần thập phân của một số.\nCú pháp: float <variable_name>;',
-            'double': 'Double trong C++ là một kiểu dữ liệu ctrong C++ là một kiểu dữ liệu cho phép lưu trữ các số có dạng -1.1234, 5.5467, 3.14,... giống như kiểu float. Điểm khác biệt của double so với float nằm ở việc có miền giá trị lớn hơn.\nCú pháp: double <variable_name>;',
-            'character': 'Character hay char (Tạm dịch: Kiểu kí tự) trong C++ là một kiểu dữ liệu dùng để lưu trữ một ký tự trong bảng mã ASCII như 1,2,3,a,b,c,d,... Kiểu char còn đặc biệt ở chỗ, nó vừa là kiểu kí tự nhưng cũng vừa là kiểu số nguyên (integer), chính vì thế ta cũng thể sử dụng số để đại diện cho các kí tự theo bảng mã ASCII khi làm việc với kiểu char.\nCú pháp: char <variable_name>;',
-            'string': 'String (Tạm dịch: Kiểu chuỗi kí tự) trong C++ là một kiểu dữ liệu tập hợp các kí tự được đặt trong dấu ngoặc kép, dùng để biểu diễn một đoạn văn bản,... Lưu ý rằng kiểu string không phải là một kiểu dữ liệu được dựng sẵn trong C++ mà nó được cài đặt trong thư viện STL, vì vậy để sử dụng được string trước tiên các bạn cần phải khai báo: #include <string> cái đã nha!\nCú pháp: std::string <variable_name>;',
-            'local-variable': 'Local variables (Tạm dịch: Biến cục bộ) trong C++ là một biến được định nghĩa bên trong một khối lệnh. ',
-            'global-variable': 'Global variables (Tạm dịch: Biến toàn cục) trong C++ rheo quy ước được khai báo ở đầu của một tập tin, bên dưới #include. Chính vì được khai báo ngay đầu tập tin mà không nằm trong phạm vi của một khối lệnh nào nên biến toàn cục - đúng với tên gọi của nó sẽ có phạm vi hoạt động là toàn bộ tập tin code, tức là ta có thể sử dụng nó ở bất kì đâu mà ta muốn.',
-            'auto': 'Auto (Tạm dịch: Tự động) trong C++ 11 là một kiểu dữ liệu cho phép nhận diện kiểu dữ liệu của một biến thông qua giá trị ta khởi tạo nó, ví dụ nếu ta khai báo: auto aStr = 10; thì kiểu dữ liệu của aStr lúc này sẽ là kiểu int',
-            'external': 'External Variables (Tạm dịch: Biến ngoại) là biến mà có thể dùng chung ở các sourcefile khác nhau. Để có thể khai báo external variables, ta cần phải sử dụng từ khóa extern khi khai báo biến, và việc khai báo các external variables nên được thực hiện ở các header file (file .h) để tiện sử dụng.',
-            'static': 'Static (Tạm dịch: Tĩnh) trong C++ là một từ khóa có thể sử dụng để khai báo chung với biến, hàm hoặc các thuộc tính, phương thức trong một class (OOP). Với biến static, dù đặt bên trong hay bên ngoài khối lệnh thì nó vẫn sẽ có hiệu lực - tức bất kì sự thay đổi giá trị ở đâu cũng làm biến static cập nhật đúng với giá trị đó - giống với Biến toàn cục (Global variable).',
-            'vector': 'Vector trong C++ là một đối tượng có thể chứa một chuỗi các vùng nhớ liên tiếp nằm trong thư viện STL, đại diện cho kiểu Mảng (Array) thông thường.\nKhá giống với kiểu Mảng về chức năng, nhưng bên cạnh đó Vector còn cho thấy thêm một số điểm ưu việt hơn so với Array như việc không cần phải khai báo kích thước vì Vector có thể tự động tăng kích thước của nó lên, có thể biết được số lượng phần tử đang lưu bên trong nó hay có thể dùng được số phần tử âm,...',
-            'reference-variable': 'Reference variables (Tạm dịch: Biến tham chiếu) là một biến có các đặc điểm sau đây:\n_Biến tham chiếu không được cấp phát bộ nhớ, không có địa chỉ riêng.\n_Nó dùng làm bí danh cho một biến (kiểu giá trị) nào đó và nó sử dụng vùng nhớ của biến này.\nCú pháp: <data_type> &<variable_name> = <any_declared_variable>;',
+            'floating_point': 'Kiểu dấu chấm động cho phép ta lưu trữ cả phần thập phân của một số.',
+            'double': 'Điểm khác biệt của double so với float nằm ở việc có miền giá trị lớn hơn.',
+            'character': 'Kiểu char còn đặc biệt ở chỗ, nó vừa là kiểu kí tự nhưng cũng vừa là kiểu số nguyên (integer), chính vì thế ta cũng thể sử dụng số để đại diện cho các kí tự theo bảng mã ASCII khi làm việc với kiểu char.\nCú pháp: char <variable_name>;',
+            'string': 'Kiểu string không phải là một kiểu dữ liệu được dựng sẵn trong C++ mà nó được cài đặt trong thư viện STL, vì vậy để sử dụng được string trước tiên các bạn cần phải khai báo: #include <string> cái đã nha!\nCú pháp: std::string <variable_name>;',
+            'local variable': 'Là biến được định nghĩa bên trong một khối lệnh. ',
+            'global variable': 'Chính vì được khai báo ngay đầu tập tin mà không nằm trong phạm vi của một khối lệnh nào nên biến toàn cục - đúng với tên gọi của nó sẽ có phạm vi hoạt động là toàn bộ tập tin code, tức là ta có thể sử dụng nó ở bất kì đâu mà ta muốn.',
+            'auto': 'Ví dụ nếu ta khai báo: auto aStr = 10; thì kiểu dữ liệu của aStr lúc này sẽ là kiểu int',
+            'static': 'Với biến static, dù đặt bên trong hay bên ngoài khối lệnh thì nó vẫn sẽ có hiệu lực - tức bất kì sự thay đổi giá trị ở đâu cũng làm biến static cập nhật đúng với giá trị đó - giống với Biến toàn cục (Global variable).',
+            'vector': 'Khá giống với kiểu Mảng về chức năng, nhưng bên cạnh đó Vector còn cho thấy thêm một số điểm ưu việt hơn so với Array như việc không cần phải khai báo kích thước vì Vector có thể tự động tăng kích thước của nó lên, có thể biết được số lượng phần tử đang lưu bên trong nó hay có thể dùng được số phần tử âm,...',
             # Câu trả lời về các toán tử
-            'decrement-operator': '''Decrement operators (Tạm dịch: Toán tử giảm, Ký hiệu: --) là loại toán tử giảm giá trị của biến xuống 1 đơn vị, có thể đứng trước hoặc sau một biến và ở mỗi vị trí khác nhau sẽ có một số điểm khác biệt:\n
-             _ Prefix decrement (Đứng trước biến): giảm giá trị của biến lên trước rồi cập nhật giá trị mới vào biến ngay lập tức.\n
-             _ Postfix decrement (Đứng sau biến): sử dụng giá trị cũ của biến tại thời điểm dòng code đang thực thi cho đến khi tới dòng code tiếp theo thì mới cập nhật giá trị mới của biến (tức đã giảm 1)''',
-            'increment-operator': '''Increment operators (Tạm dịch: Toán tử tăng, Ký hiệu: ++) là loại toán tử tăng giá trị của biến lên 1 đơn vị, có thể đứng trước hoặc sau một biến và ở mỗi vị trí khác nhau sẽ có một số điểm khác biệt:\n
-             _ Prefix increment (Đứng trước biến): tăng giá trị của biến lên trước rồi cập nhật giá trị mới vào x ngay lập tức.\n
-             _ Postfix increment (Đứng sau biến): sử dụng giá trị cũ của biến tại thời điểm dòng code đang thực thi cho đến khi tới dòng code tiếp theo thì mới cập nhật giá trị mới của biến (tức đã tăng 1)''',
-            'dereference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
-            'address_of-operator': '''Address_of operators (Tạm dịch: Toán tử địa chỉ, Ký hiệu : &) là loại toán tử cho phép chúng ta lấy địa chỉ bộ nhớ của một biến.''',
-            'comma-operator': '''Comma operator (Tạm dịch: Toán tử phẩy, Ký hiệu : ,) là một loại toán tử cho phép ta kết nối các biểu thức lại với nhau, thực thi theo trình tự từ trái sang phải. Giả sử ta có đoạn code sau:\n
-             int a = 0;\n
-             int b = (a + 100, a++, a + 100);\n
-             cout << b << endl ; // Kết quả là 201\n''',
-            'ternary-operator': 'Ternary operators (Tạm dịch: Toán tử ba ngôi, Ký hiệu: ? :) là toán tử có 3 toán hạng trong biểu thức. Cú pháp: (<condition_expression>) ? <value_if_true> : <value_if_false);\nTrong đó:\n_condition_expression: là một biểu thức điều kiện kiểu bool, thứ sẽ quyết định kết quả của phép toán.\n_value_if_true: Nếu biểu thức điều kiện trả về true, đây là sẽ là kết quả của phép toán.\n_value_if_false: Nếu biểu thức điều kiện trả về false, đây là sẽ kết quả của phép toán.',
-            'binary-operator': 'Binary operators (Tạm dịch: Toán tử hai ngôi) là toán tử có 2 toán hạng trong biểu thức. Có 5 toán tử số học 2 ngôi trong C++ đó là: Cộng (Addition : +), Trừ (Subtraction : -), Nhân (Multiplication : *), Chia lấy nguyên (Division : /), Chia lấy dư (Modulus : %)',
-            'unary-operator': 'Unary operators (Tạm dịch: Toán tử một ngôi) là toán tử chỉ có 1 toán hạng trong biểu thức. Ví dụ như việc bạn sử dụng dấu - để biểu diễn số âm kiểu -11, -60,...',
-            'shift-operator': 'Shift operators (Tạm dịch: Toán tử dời bit) bao gồm toán tử dời qua phải (right-shift - >>) và toán tử dời qua trái (left-shift - <<).',
-            'bitwise-operator': '''Bitwise operators (Tạm dịch: Toán tử bit) là toán tử họa động trên các bits và thực hiện các phép toán liên quan đến bit như &(AND), |(OR), ^(XOR), ~(One's complement), <<(Left shift), >>(Right shift).''',
-            'logical-operator': 'Logical operators (Tạm dịch: Toán tử logic) là loại toán tử dùng để kết hợp hai hay nhiều điều kiện lại với nhau để đánh giá và đưa ra kết quả cuối cùng. Ta có toán tử AND (&& - chỉ đúng khi tất cả điều kiện đều đúng), toán tử OR (|| - chỉ đúng khi một trong các điều kiện là đúng) và toán tử NOT(! - chỉ đúng khi kết quả cuối cùng của biểu thức là sai)',
-            'comparison-operator': 'Comparison operators hay Relational operators (Tạm dịch: Toán tử so sánh) là loại toán tử cho phép thực hiện các phép toán so sánh như so sánh hơn, so sánh bằng,...',
-            'arithmetic-operator': 'Arithmetic operators (Tạm dịch: Toán tử số học) là loại toán tử dùng để biểu diễn các phép toán số học như +,-,*,/,%...',
-            'assignment-operator': 'Assignment Operators (Tạm dịch: Toán tử gán, Ký hiệu: =) là một loại toán tử dùng để cấp phát giá trị',
-            'operator': 'Operators (Tạm dịch: Toán tử) trong lập trình là một biểu tượng đại diện cho các phép toán số học như cộng trừ nhân chia hay các phép toán logic,... và trả về một kết quả. Trong C++, có rất nhiều loại toán tử nhưng cơ bản và chung nhất, ta có thể chia toán tử làm ba loại: Toán tử một ngôi (Unary Operator), Toán tử hai ngôi (Binary Operator) và Toán tử ba ngôi (Ternary Operator).',
+            'comma operator': '''Sử dụng dấu phẩy để khai báo đồng thời nhiêu biến khác nhau. Tiết kiệm được thời gian và làm code của bạn dễ nhìn và dễ đọc hơn.''',
+            'ternary operator': 'Một dạng rút gọn của if else tuy nhiên sẽ có kết quả trả về là False hoặc True.',
+            'binary operator': ' Có 5 toán tử số học 2 ngôi trong C++ đó là: Cộng (Addition : +), Trừ (Subtraction : -), Nhân (Multiplication : *), Chia lấy nguyên (Division : /), Chia lấy dư (Modulus : %)',
+            'unary operator': 'Ví dụ như việc bạn sử dụng dấu - để biểu diễn số âm kiểu -11, -60,...',
+            'shift operator': 'Shift Operators gồm hai loại là Left Shift và Right Shift, Left Shift sẽ dời dịch chuyển trái các bit của toán hạng đầu tiên, toán hạng thứ hai quyết định số vị trí cần dịch chuyển, hay nói cách khác  việc chuyển trái một số nguyên “x” với một số nguyên “y” (x << y) tương đương với việc nhân x với 2 ^ y và ngược lại với Right Shift.',
+            'bitwise operator': '''Bitwise khá mạnh trong việc xử lý các bài toán phức tạp, đây là một công cụ rất được ưa thích của các bạn tham gia Competitive Programming''',
+            'logical operator': 'Biểu diễn các biểu thức True hoặc False',
+            'operator': 'Sử dụng toán tử (Operators) để biểu diễn các phép toán cơ bản.',
             # Câu trả lời về control flow
-            'if': 'If hay If statements (Tạm dịch: Lệnh if) là một lệnh được dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.\n Cú pháp: if(<boolean_expression>){\n//some codes here...\n}\nChi tiết hơn, Lệnh if còn được phân loại thành 4 loại: if, if else, if else if Ladder và nested if',
-            'loop': 'Loop (Tạm dịch: Sự lặp) trong lập trình là một khái niệm dùng để chỉ sự lặp đi lặp lại một tập các chỉ thị (một khối lệnh) cho đến khi thỏa mãn điều kiện để dừng vòng lặp cho trước. Trong C++, một vòng lặp được đại diện bởi các từ khóa for (for loop), while (while loop) và do while(do while loop).',
-            'control-flow': 'Control flow hay Flow of control (Tạm dịch: Cấu trúc điều khiển) trong lập trình là một khái niệm dùng để chỉ một tập các chỉ thị, các lệnh hay các lời gọi hàm được thực thi khi chạy chương trình.',
-            'selection-statement': 'Selection statements (Tạm dịch: Lệnh lựa chọn) trong lập trình là một khái niệm dùng để chỉ sự quyết định thực thi một tập các chỉ thị hay một khối lệnh dựa dựa trên một điều kiện cho trước. Trong C++, ta có thể dùng lệnh if hoặc lệnh switch để có thể sử dụng lệnh lựa chọn.',
-            'iteration-statement': 'Iteration statements hay Loop (Tạm dịch: Lệnh lặp) trong lập trình là một khái niệm dùng để chỉ sự lặp đi lặp lại một tập các chỉ thị (một khối lệnh) cho đến khi thỏa mãn điều kiện để dừng vòng lặp cho trước. Trong C++, một vòng lặp được đại diện bởi các từ khóa for (for loop), while (while loop) và do while(do while loop)',
-            'jump-statement': 'Jump statements (Tạm dịch: Lệnh nhảy) trong lập trình là một khái niệm dùng để chỉ sự làm thay đổi đột ngột hướng thực thi code một cách vô điều kiện sang một tập chỉ khác ở một nơi nào đó trong tập tin code của chúng ta. Trong C++, ta có thể biểu diễn Lệnh nhảy bằng các lệnh gồm Lệnh break, Lệnh continue, Lệnh goto và Lệnh return.',
-            'for': '''For hay For loops (Tạm dịch: Vòng lặp for) trong C++ là một cấu trúc vòng lặp với chức năng tương tự như vòng while nhưng khác về cú pháp. Cấu trúc của một vòng for như sau:\nfor(<loop_variable_declaration>;<stop_condition_expression>;<update_loop_variable_expression>){\n//Some codes here...\n
-             }\nVới:\n
-             _ loop_variable_declation: là nơi khởi tạo biến lặp, biến lặp được sử dụng như là một máy đếm số lần đã lặp của vòng for.\n
-             _ stop_condition_expression: là nơi khởi tạo một biểu thức kiểu bool cho biến lặp, khi không còn thỏa mãn biểu thức này (false) thì vòng lặp sẽ kết thúc.\n
-             _ update_loop_variable_expression: là nơi khởi tạo một biểu thức để cập nhật giá trị cho biến lặp sau mỗi lần lặp.''',
-            'while': 'While hay While loops (Tạm dịch: Vòng lặp while) trong C++ là một vòng lặp với chức năng tương tự như vòng for nhưng khác về cú pháp. Cấu trúc của một vòng while như sau:\nwhile(<condition_expression>){\n//some codes here...\n}\nMình thể hiểu đơn giản cấu trúc đó như sau: trong khi điều kiện <condition_expression> vẫn trả về kết quả đúng (true), thì các đoạn code bên trong dấu { } vẫn sẽ được thực thi.',
-            'do-while': '''do while (Tạm dịch: Vòng lặp do while) trong C++ là một vòng lặp khá giống với vòng lặp while, điểm khác biệt ở do while so với while là nó sẽ đảm bảo vòng lặp sẽ được lặp ít nhất một lần.Cú pháp:\n
-             do {\n
-                // Some codes here;\n
-            } while (<condition_expression>);''',
-            'switch': '''Switch statements (Tạm dịch: Lệnh chuyển mạch) trong C++ giống như là một chuỗi các câu lệnh if else với việc so sánh một biến với các số nguyên. Cú pháp:\n
-             switch (n)\n
-            {\n
-                case 1: // Sẽ thực thi khối lệnh ở đây nếu n == 1;\n
-                        break;\n
-                case 2: // Sẽ thực thi khối lệnh ở đây nếu n == 2;\n
-                        break;\n
-                default: // Nếu n không bằng với bất kì case nào thì sẽ thực thi khối lệnh ở đây;
-            }''',
-            'break': 'Break statements (Tạm dịch: Lệnh chấm dứt) trong C++ là một trong các lệnh nhảy, dùng để kết thúc một vòng lặp ngay lập tức kể cả khi nó vẫn còn có thể tiếp tục lặp.',
-            'continue': 'Continue statements (Tạm dịch: Lệnh tiếp tục) trong C++ là một trong các lệnh nhảy, dùng để ép buộc trình biên dịch phải nhảy đến lần lặp kế tiếp của một vòng lặp.',
-            'goto': '''Goto statements (Tạm dịch: Lệnh goto) trong C++ là một trong các lệnh nhảy, dùng để thực hiện việc đẩy trình biên dịch đến một đoạn code khác (label) và thực thi chúng. Cú pháp:\n
-             // some code heres...;\n
-             goto <label_name>;\n
-            
-             <label_name>:\n
-             // some codes here;''',
-            'if-else': '''if else (Tạm dịch: Nếu không thì...) là một dạng đặc biệt của lệnh if khi mà ta có thể định nghĩa thêm một khối lệnh cho trường hợp biểu thức điều kiện sai.Ví dụ như sau:\n
-             if(a == 1){\n
-                // Some codes here;\n
-             }\n
-             else { // Nếu a != 1 thì sẽ thực thi đoạn code ở đây\n
-                // Some code here;\n
-             }''',
-            'if-else-if-ladder': '''if else if Ladder (Tạm dịch: Cầu thang if else) là một dạng đặc biệt của lệnh if khi ta định nghĩa thêm nhiều lệnh if hơn sau mỗi else. Ví dụ như sau:\n
-             if(a == 1){\n
-                // Some code heres;\n
-             }\n
-             else if (a == 2){\n
-                // Some code heres;\n
-             }\n
-             else if (a == 3){\n
-                // Some code heres;\n
-             }''',
-            'nested-if': '''Nested if (Tạm dịch: if lồng if) là một dạng đặc biệt của lệnh if khi bên trong khối lệnh if lại có thêm một khối if khác nữa.Ví dụ như sau:\n
-             if(a == 1){\n
-                if(b == 2){ // Thêm một khối if nữa\n 
-                    //Some codes here\n
-                }\n
-             }''',
+            'if': 'Dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.',
+            'loop': 'Sử dụng một vòng lặp để thực hiện các thao tác lặp đi lặp lại nhiều lần theo một ngữ cảnh nhất định, giảm thời gian thực hiện và biểu hiện code cho người lập trình.',
+            'control flow': 'Sử dụng Control Flow trong lập trình giúp ta thực hiện một tập các chỉ thị, các lệnh hay các lời gọi hàm được thực thi khi chạy chương trình.',
+            'jump statement': 'Trong C++, ta có thể biểu diễn Lệnh nhảy bằng các lệnh gồm Lệnh break, Lệnh continue, Lệnh goto và Lệnh return để thực hiện việc nhảy theo yêu cầu của thuật toán.',
+            'for': "Sử dụng vòng lặp for cho các trường hợp vòng lặp có điều kiện về đầu cuối và bước nhảy cụ thể.",
+            'break': 'Dùng để kết thúc một vòng lặp ngay lập tức kể cả khi nó vẫn còn có thể tiếp tục lặp.',
+            'continue': 'Sử dụng continue khi bạn muốn bỏ qua một lần lặp trong vòng lặp.',
+            'goto': "Dùng goto để giúp ta nhảy đến những vị trí được đấu dánh trong chương trình, tuy nhiên hạn chế sử dụng goto trong các trường hợp vì có thể gây ra memory leak nếu làm việc với con trỏ.",
             # Câu trả lời về function
             'function': 'Function cho phép lập trình viên cấu trúc chương trình thành những phân đoạn khác nhau để thực hiện những công việc khác nhau. Ta có thể tái sử dụng hàm ở nhiều nơi trong đoạn code của mình.',
             'parameter': 'Parameter sẽ đại diện cho một giá trị mà hàm của bạn sẽ nhận được khi được gọi.',
             'argument': 'Mỗi argument sẽ tương ứng với một parameter khi khai báo.',
-            'recursion': 'Recursion (Tạm dịch: Đệ quy) là một hàm tự gọi lại chính nó.',
-            'pass-by-value': 'Pass by value (Tạm dich: Truyền tham trị) có thể được hiểu là giá trị của biến sẽ không bị thay đổi khi ta truyền biến này vào một hàm mà trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
-            'pass-by-reference': 'Pass by reference (Tạm dịch: Truyền tham chiếu) có thể được hiểu là giá trị của biến sẽ bị thay đổi khi ta truyền biến này vào một hàm trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
-            'return': 'Return keyword (Tạm dịch: Trả về) trong C++ là một từ khóa dùng để trả về một giá trị cho nơi gọi hàm, đây từ khóa bắt buộc đối với bất kì hàm nào được khai báo có giá trị trả về, và có thể có hoặc không đối với hàm khai báo kiểu void.',
-            'return-type': 'giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
-            'const-reference': 'Hiệu quả của việc sử dụng tham chiếu hằng chỉ thể hiện rõ khi làm việc với các đối tượng struct/class. Bạn có thể tìm đọc tại đây: https://stackoverflow.com/questions/7420780/what-is-a-constant-reference-not-a-reference-to-a-constant/7432351',
-            'inline-function': '',
-            'default-value': 'Vì khi thực hiện lời gọi hàm mà không truyền vào đối số tương ứng, trình biên dịch sẽ sử dụng giá trị đã được gán sẵn cho tham số đó khi thực thi hàm.',
-            'main-function': 'Mỗi khi chương trình biên dịch, nó sẽ chỉ thực thi các lệnh mà bạn khai báo trong hàm main, chính vì vậy, việc khai báo hàm main cực kỳ quan trọng',
-            'built-in-function': 'Vì các hàm này ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,... Ta có thể tiết kiệm được thời gian code bằng các hàm bulit-in có sẵn, thay vì bạn phải khởi tạo lại một hàm có chức năng là tìm số nhỏ nhất hoặc lớn nhất, bạn có thể sử dụng hàm built-in min_element trong thư viện vector để thực hiện, điều này sẽ giúp cho bạn tiết kiệm được thời gian cũng như rút gọn bớt code của bạn đi.'
+            'recursion': 'Đệ quy (Recursion) giúp ta giải quyết các vấn đề bằng cách chia nhỏ nó thành phần nhỏ hoặc những vấn đề lặp đi lặp lại nhiều lần.\nĐệ quy thể hiện cực kì tốt khi làm việc với những vấn đề lặp đi lặp lại nhiều lần những có hướng tiếp cận quá phức tạp ',
+            'pass by value': 'Pass by value (Tạm dich: Truyền tham trị) có thể được hiểu là giá trị của biến sẽ không bị thay đổi khi ta truyền biến này vào một hàm mà trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
+            'pass by reference': 'Pass by reference (Tạm dịch: Truyền tham chiếu) có thể được hiểu là giá trị của biến sẽ bị thay đổi khi ta truyền biến này vào một hàm trong lúc thực thi đoạn code bên trong hàm có làm thay đổi giá trị của biến.',
+            'return': 'Giúp ta trả về một kiểu dữ liệu mong muốn trong một hàm',
+            'const reference': 'Hiệu quả của việc sử dụng tham chiếu hằng chỉ thể hiện rõ khi làm việc với các đối tượng struct/class. Bạn có thể tìm đọc tại đây: https://stackoverflow.com/questions/7420780/what-is-a-constant-reference-not-a-reference-to-a-constant/7432351',
+            'default value': 'Vì khi thực hiện lời gọi hàm mà không truyền vào đối số tương ứng, trình biên dịch sẽ sử dụng giá trị đã được gán sẵn cho tham số đó khi thực thi hàm.',
+            'main function': 'Mỗi khi chương trình biên dịch, nó sẽ chỉ thực thi các lệnh mà bạn khai báo trong hàm main, chính vì vậy, việc khai báo hàm main cực kỳ quan trọng',
+            'built in function': 'Vì các hàm này ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,... Ta có thể tiết kiệm được thời gian code bằng các hàm bulit-in có sẵn, thay vì bạn phải khởi tạo lại một hàm có chức năng là tìm số nhỏ nhất hoặc lớn nhất, bạn có thể sử dụng hàm built-in min_element trong thư viện vector để thực hiện, điều này sẽ giúp cho bạn tiết kiệm được thời gian cũng như rút gọn bớt code của bạn đi.',
+            'return-type': 'Giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
+            'inline-function': 'Việc sử dụng Inline function (Hàm nội tuyến) sẽ giúp ta:\n1. Tiết kiệm chi phí gọi hàm.\n2. Tiết kiệm chi phí của các biến trên ngăn xếp khi hàm được gọi.\n3. Tiết kiệm chi phí cuộc gọi trả về từ một hàm.\n4. Có thể đặt định nghĩa hàm nội tuyến (inline functions) trong file tiêu đề (*.h) (nghĩa là nó có thể được include trong nhiều đơn vị biên dịch, hàm thông thường sẽ gây ra lỗi).'
         }
 
 
         if cplusplus_content in all_answers_what and curr_intent == 'c++_what_asking':
             cplusplus_content_answer = all_answers_what[cplusplus_content]
-
-        print(curr_intent)
-        print(cplusplus_content)
-        print(cplusplus_content_answer)
+        else if cplusplus_content in all_answers_why and curr_intent == 'c++_why_asking':
+            cplusplus_content_answer = all_answers_why[cplusplus_content]
+        else:
+            cplusplus_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+            
         dispatcher.utter_message(text=cplusplus_content_answer)
+        # else:
+        #     dispatcher.utter_message("Xin lỗi, bot hiện tại chưa thể trả lời được câu hỏi mà bạn mong muốn.:(\n")
 
         return [SlotSet("cplusplus_content_answer", cplusplus_content_answer)]
 
@@ -438,40 +369,3 @@ class ValidateCppContentForm(FormValidationAction):
             # validation failed, set this slot to None so that the
             # user will be asked for the slot again
             return {"c++_content": None}
-
-
-'''
-class CppContentForm(FormValidationAction):
-    def name(self) -> Text:
-        """identifier của form """
-        return 'cpp_content_form_validation'
-
-    @staticmethod
-    def required_slots(tracker: Tracker) -> List[Text]:
-        """Danh sách các slots mà form cần phải có"""
-        return ['c++_content']
-
-    def slot_mapping(self) -> Dict[Text, Any]:
-        return {'c++_content' : self.from_entity(entity='c++_content',
-                                                  intent=['c++_what_asking', 'c++_why_asking', 'c++_how_asking',
-                                                           'c++_when_asking', 'c++_where_asking'])
-        }
-    
-    def submit(self,
-               dispatcher: CollectingDispatcher,
-               tracker: Tracker,
-               domain: Dict[Text, Any] 
-               ) -> List[Dict]:
-        """Sau khi đã có đủ các slots yêu cầu, sẽ pull câu trả lời từ db"""
-
-        cplusplus_content = tracker.get_slot('c++_content')
-        intent = tracker.latest_message['intent'].get('name')
-
-        answer = ""
-
-        if len(answer == 0):
-            dispatcher.utter_message(
-                "Xin lỗi bạn, mình hiện chưa thể trả lời được câu hỏi này >< Để mình ôn lại kiến thức tí nha :<"
-            )
-        return []
-'''

@@ -773,29 +773,24 @@ nlu:
     - t iu ma 
 - intent: c++_what_asking
   examples: |
-    - [library]{"entity":"c++_content", "value":"library"} là gì thế?
-    - khái niệm về [library]{"entity":"c++_content", "value":"library"} trong c++?
+    - [library](c++_content) là gì thế?
+    - khái niệm về [library](c++_content) trong c++?
     - [thư viện]{"entity": "c++_content", "value": "library"} là gì?
     - thế nào là một [thư viện]{"entity": "c++_content", "value": "library"}?
     - từ khóa [inclue]{"entity": "c++_content", "value": "library"} là gì?
-    - trong c++ có từ [include]{"entity":"c++_content", "value":"include"} là sao v m?
-    - m biết gì về từ [include]{"entity":"c++_content", "value":"include"}?
-    - khái niệm về [include]{"entity":"c++_content", "value":"include"}?
+    - trong c++ có từ [include](c++_content) là sao v m?
+    - m biết gì về từ [include](c++_content)?
+    - khái niệm về [include](c++_content)?
     - [namespace]{"entity": "c++_content", "value": "namepsace"} là gì?
     - thế nào là [namespace]{"entity": "c++_content", "value": "namepsace"}?
-    - kể tao nghe về [namespace]{"entity": "c++_content", "value": "namepsace"} đi
-    - khái niệm về [namespace]{"entity": "c++_content", "value": "namepsace"}
+    - kể tao nghe về [namespace](c++_content) đi
+    - khái niệm về [namespace](c++_content)
     - [c++]{"entity": "c++_content", "value": "cplusplus"} là gì vậy?
     - thế nào là [c++]{"entity": "c++_content", "value": "cplusplus"}?
     - [c++]{"entity": "c++_content", "value": "cplusplus"} là cái quái gì vậy?
     - ngôn ngữ lập trình [c++]{"entity": "c++_content", "value": "cplusplus"} là gì?
     - định nghĩa của [c++]{"entity": "c++_content", "value": "cplusplus"}?
     - ngôn ngữ [c++]{"entity": "c++_content", "value": "cplusplus"} là gì?
-    - ngôn ngữ lập trình [cplusplus]{"entity": "c++_content", "value": "cplusplus"} là gì?
-    - ngon ngu lap trinh [cplusplus]{"entity": "c++_content", "value": "cplusplus"} la gi the ban
-    - noi cho minh biet [c++]{"entity": "c++_content", "value": "cplusplus"} la gi dc k a 
-    - minh muon hoc ve [c++]{"entity": "c++_content", "value": "cplusplus"}, ban hay noi cho minh biet do la gi dc k a
-    - i really want to learn [c++]{"entity": "c++_content", "value": "cplusplus"}, can you tell me a little bit about it?
     - nói cho tao biết [c++]{"entity": "c++_content", "value": "cplusplus"} là gì được không?
     - [comment]{"entity": "c++_content", "value": "comment"} trong C++ là gì vậy?
     - [comment]{"entity": "c++_content", "value": "comment"} trong C++ là gì?
@@ -812,17 +807,17 @@ nlu:
     - [biến]{"entity": "c++_content", "value": "variable"} là cái quái gì thế?
     - trong c++ [biến]{"entity": "c++_content", "value": "variable"} là gì?
     - thế nào là [biến]{"entity": "c++_content", "value": "variable"}?
-    - [variable]{"entity": "c++_content", "value": "variable"} là gì vậy bot?
+    - [variable](c++_content) là gì vậy bot?
     - trong c++ [varaible]{"entity": "c++_content", "value": "variable"} được định nghĩa như thế nào?
-    - thế nào là [variable]{"entity": "c++_content", "value": "variable"}?
+    - thế nào là [variable](c++_content)?
     - [toán tử]{"entity": "c++_content", "value": "operator"} là gì?
     - như thế nào là [toán tử]{"entity": "c++_content", "value": "operator"}?
     - [operators]{"entity": "c++_content", "value": "operator"} là gì?
     - [operators]{"entity": "c++_content", "value": "operator"} trong c++ là gì?
     - câu lệnh [điều kiện]{"entity": "c++_content", "value": "if"} trong c++ là gi?
     - lệnh [điều kiện]{"entity": "c++_content", "value": "if"} là gì?
-    - [if]{"entity": "c++_content", "value": "if"} else là gi?
-    - câu lệnh [if]{"entity": "c++_content", "value": "if"} là gì?
+    - [if](c++_content) else là gi?
+    - câu lệnh [if](c++_content) là gì?
     - khối lệnh [điều kiện]{"entity": "c++_content", "value": "if"} trong c++ là gì?
     - [vòng lặp]{"entity": "c++_content", "value": "loop"} là gì?
     - trong c++ [vòng lặp]{"entity": "c++_content", "value": "loop"} được định nghĩa ra sao?
@@ -853,103 +848,86 @@ nlu:
     - the nao la [goto]{"entity": "c++_content", "value": "goto"}?
     - [function]{"entity": "c++_content", "value": "function"} là gì?
     - [hàm]{"entity": "c++_content", "value": "function"} là gì?
-    - thế nào là một [function]{"entity": "c++_content", "value": "function"} trong c++?
+    - thế nào là một [function](c++_content) trong c++?
     - định nghĩa [hàm]{"entity": "c++_content", "value": "function"} trong c++ là s v m?
     - nói gì về [hàm]{"entity": "c++_content", "value": "function"} t nghe xem
     - những kiến thức cơ bản về [hàm]{"entity": "c++_content", "value": "function"}
     - nói t nghe về những kiến thức về phần [hàm]{"entity": "c++_content", "value": "function"} đi
-    - [tham số]{"entity": "c++_content", "value": "parameter"} là gì?
-    - [đối số]{"entity": "c++_content", "value": "argument"} là gì?
-    - thế nào là [tham số]{"entity": "c++_content", "value": "parameter"} và [đối số]{"entity": "c++_content", "value": "argument"} trong c++?
-    - [parameter]{"entity": "c++_content", "value": "parameter"} là như thế nào v?
-    - [argument]{"entity": "c++_content", "value": "argument"} là gì?
-    - định nghĩa [parameter]{"entity": "c++_content", "value": "parameter"}?
-    - [return]{"entity": "c++_content", "value": "return"} là gì?
-    - như thế nào là [return]{"entity": "c++_content", "value": "return"}?
-    - [return]{"entity": "c++_content", "value": "return"} trong 1 hàm là gì?
+    - [tham trị]{"entity": "c++_content", "value": "parameter"} là gì?
+    - [tham chiếu]{"entity": "c++_content", "value": "argument"} là gì?
+    - thế nào là [tham trị]{"entity": "c++_content", "value": "parameter"} và [tham chiếu]{"entity": "c++_content", "value": "argument"} trong c++?
+    - [parameter](c++_content) là như thế nào v?
+    - [argument](c++_content) là gì?
+    - định nghĩa [parameter](c++_content)?
+    - [return](c++_content) là gì?
+    - như thế nào là [return](c++_content)?
+    - [return](c++_content) trong 1 hàm là gì?
     - [đệ quy]{"entity": "c++_content", "value": "recursion"} là gì?
-    - [de quy]{"entity": "c++_content", "value": "recursion"} la gi vay a, em hoang mang ve no qua :(( 
-    - cho em hoi mot chut ve [de quy]{"entity": "c++_content", "value": "recursion"} di a 
-    - em that su muon biet [de quy]{"entity": "c++_content", "value": "recursion"} la gi
     - thế nào là [đệ quy]{"entity": "c++_content", "value": "recursion"}?
     - [đệ quy]{"entity": "c++_content", "value": "recursion"} được định nghĩa ntn?
-    - [recursion]{"entity": "c++_content", "value": "recursion"} là gì?
-    - thế nào là [recursion]{"entity": "c++_content", "value": "recursion"}?
-    - khái niệm về [recursion]{"entity": "c++_content", "value": "recursion"}?
-    - definition của [recursion]{"entity": "c++_content", "value": "recursion"}?
+    - [recursion](c++_content) là gì?
+    - thế nào là [recursion](c++_content)?
+    - khái niệm về [recursion](c++_content)?
+    - definition của [recursion](c++_content)?
     - [mảng]{"entity": "c++_content", "value": "array"} là gì?
     - khái niệm về [mảng]{"entity": "c++_content", "value": "array"}?
     - [mảng]{"entity": "c++_content", "value": "array"} là cái vẹo gì v?
     - [mảng]{"entity": "c++_content", "value": "array"} một chiều là gì?
-    - [mảng]{"entity": "c++_content", "value": "array"} là?
-    - thế nào là [array]{"entity": "c++_content", "value": "array"}?
-    - một [array]{"entity": "c++_content", "value": "array"} là gì?
-    - khái niệm về [array]{"entity": "c++_content", "value": "array"}?
-    - [string]{"entity": "c++_content", "value": "string"} là gì?
-    - thế nào là [string]{"entity": "c++_content", "value": "string"}?
-    - [chuoi]{"entity": "c++_content", "value": "string"} la gi
-    - mot [chuoi ki tu]{"entity": "c++_content", "value": "string"} la sao
-    - the nao kieu [string]{"entity": "c++_content", "value": "string"}?
-    - [string]{"entity": "c++_content", "value": "string"}
+    - [mảng]{"entity": "c++_content", "value": "array"} hai chiều là gì?
+    - thế nào là [array](c++_content)?
+    - một [array](c++_content) là gì?
+    - khái niệm về [array](c++_content)?
+    - [string](c++_content) là gì?
+    - thế nào là [string](c++_content)?
     - [chuỗi]{"entity": "c++_content", "value": "string"} là gì?
     - khái niệm về [chuỗi]{"entity": "c++_content", "value": "string"}?
     - định nghĩa về [chuỗi]{"entity": "c++_content", "value": "string"} trong c++?
     - nói t nghe về [chuỗi]{"entity": "c++_content", "value": "string"} xem
     - nói những gì m biết về [chuỗi]{"entity": "c++_content", "value": "string"} t nghe xem
-    - [structure]{"entity": "c++_content", "value": "structure"} là gì?
-    - thế nào một [structure]{"entity": "c++_content", "value": "structure"}?
-    - khái niệm về [struct]{"entity": "c++_content", "value": "structure"}?
-    - kể t nghe về [struct]{"entity": "c++_content", "value": "structure"} coi
+    - [structure](c++_content) là gì?
+    - thế nào một [structure](c++_content)?
+    - khái niệm về [structure](c++_content)?
+    - kể t nghe về [structure](c++_content) coi
     - nói t nghe về [cấu trúc]{"entity": "c++_content", "value": "structure"} trong c++ đi
     - nói về [struct]{"entity": "c++_content", "value": "structure"} đi bạn eii
     - cu phap [struct]{"entity": "c++_content", "value": "structure"} la gi 
     - biết gì về [cấu trúc]{"entity": "c++_content", "value": "structure"} k bạn ei
-    - minh muon biet ve cau truc [struct]{"entity": "c++_content", "value": "structure"}
-    - chi minh mot ti ve kieu [struct]{"entity": "c++_content", "value": "structure"} di babe
-    - the nao la mot [struct]{"entity": "c++_content", "value": "structure"} v 
     - [cấu trúc]{"entity": "c++_content", "value": "structure"} là gì?
     - thế nào một [cấu trúc]{"entity": "c++_content", "value": "structure"}?
     - nói gì về [cấu trúc]{"entity": "c++_content", "value": "structure"} xem
-    - [class]{"entity": "c++_content", "value": "class"} là gì?
-    - thế nào là một [class]{"entity": "c++_content", "value": "class"} trong c++?
-    - nói về [class]{"entity": "c++_content", "value": "class"} đi bạn
-    - bạn nói về [class]{"entity": "c++_content", "value": "class"} đi
+    - [class](c++_content) là gì?
+    - thế nào là một [class](c++_content) trong c++?
+    - nói về [class](c++_content) đi bạn
+    - bạn nói về [class](c++_content) đi
     - [lớp]{"entity": "c++_content", "value": "class"} trong c++?
     - khai niem ve [lop]{"entity": "c++_content", "value": "class"} trong c++?
     - cu phap [lop]{"entity": "c++_content", "value": "class"} la gi 
     - m nói t nghe về [lớp]{"entity": "c++_content", "value": "class"} đi
     - [lớp]{"entity": "c++_content", "value": "class"} là gì?
     - như lào là một [lớp]{"entity": "c++_content", "value": "class"} trong c++?
-    - [pointer]{"entity": "c++_content", "value": "pointer"}?
-    - thế nào là một [pointer]{"entity": "c++_content", "value": "pointer"}?
-    - khái niệm về [pointer]{"entity": "c++_content", "value": "pointer"}?
+    - [pointer](c++_content)?
+    - thế nào là một [pointer](c++_content)?
+    - khái niệm về [pointer](c++_content)?
     - nói gì về [con trỏ]{"entity": "c++_content", "value": "pointer"} đi?
     - khái niệm về [con trỏ]{"entity": "c++_content", "value": "pointer"}?
     - thử nói về [con trỏ]{"entity": "c++_content", "value": "pointer"} xem
     - kể nghe về [con trỏ]{"entity": "c++_content", "value": "pointer"} đi
     - [con trỏ]{"entity": "c++_content", "value": "pointer"} là gì?
-    - [con tro]{"entity": "c++_content", "value": "pointer"} la gi the
-    - em oi [con tro]{"entity": "c++_content", "value": "pointer"} la sao 
-    - the nao la mot [con tro]{"entity": "c++_content", "value": "pointer"}
     - [con trỏ]{"entity": "c++_content", "value": "pointer"} được định nghĩa như thế nào v th kia?
     - ê bot [con trỏ]{"entity": "c++_content", "value": "pointer"} là gì thế?
-    - [enumeration]{"entity": "c++_content", "value": "enumeration"} là gì v bot?
-    - [enumeration]{"entity": "c++_content", "value": "enumeration"} là clgt?
-    - thế nào là [enumeration]{"entity": "c++_content", "value": "enumeration"}?
+    - [enumeration](c++_content) là gì v bot?
+    - [enumeration](c++_content) là clgt?
+    - thế nào là [enumeration](c++_content)?
     - [enum]{"entity": "c++_content", "value": "enumeration"} là cái gì ?
-    - the nao la kieu [liet ke]{"entity": "c++_content", "value": "enumeration"}
-    - kieu [liet ke]{"entity": "c++_content", "value": "enumeration"} la gi v 
-    - the nao la kieu [enum]{"entity": "c++_content", "value": "enumeration"}
     - [enum]{"entity": "c++_content", "value": "enumeration"} là gì tml?
     - [enum]{"entity": "c++_content", "value": "enumeration"} là gì thế bot ei?
     - [enum]{"entity": "c++_content", "value": "enumeration"} là qq gì zay bot?
     - nói t nghe về [enum]{"entity": "c++_content", "value": "enumeration"} đi bot
     - thế nào là kiểu [số nguyên]{"entity": "c++_content", "value": "integer"} vậy bot?
     - kiểu [số nguyên]{"entity": "c++_content", "value": "integer"} trong c++ là như nào vậy bot?
-    - định nghĩa về [integer]{"entity": "c++_content", "value": "integer"} đi
-    - khái niệm về [integer]{"entity": "c++_content", "value": "integer"}?
+    - định nghĩa về [integer](c++_content) đi
+    - khái niệm về [integer](c++_content)?
     - kiểu [int]{"entity": "c++_content", "value": "integer"} trong c++ là gì
-    - the nao la [int]{"entity": "c++_content", "value": "integer"}
     - [int]{"entity": "c++_content", "value": "integer"} là gì
     - [kieu so nguyen]{"entity": "c++_content", "value": "integer"} la sao
     - cho em mot ti thong tin ve [kieu so nguyen]{"entity": "c++_content", "value": "integer"} di nguoi oi
@@ -979,10 +957,8 @@ nlu:
     - [char]{"entity": "c++_content", "value": "character"} trong c++ là gì?
     - kiểu [char]{"entity": "c++_content", "value": "character"} trong c++ là sao
     - kiểu dữ liệu [char]{"entity": "c++_content", "value": "character"} là gì thế
-    - kieu [ki tu]{"entity": "c++_content", "value": "character"} la gi
-    - the nao mot kieu [ki tu]{"entity": "c++_content", "value": "character"}
     - người ta hay viết từ [char]{"entity": "c++_content", "value": "character"}, nó có nghĩa là sao vậy?
-    - thế nào là kiểu [character]{"entity": "c++_content", "value": "character"} trong c++
+    - thế nào là kiểu [character](c++_content) trong c++
     - thế nào là kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++
     - kiểu [kí tự]{"entity": "c++_content", "value": "character"} trong c++ là gì?
     - [macro]{"entity": "c++_content", "value": "macro"} là wtf
@@ -1358,14 +1334,12 @@ nlu:
     - libraries
     - lib
     - libs
-    - thu vien 
 - synonym: namespace
   examples: |
     - namespace
     - không gian tên
     - namespaces
     - name space
-    - khong gian ten 
 - synonym: cplusplus
   examples: |
     - c++
@@ -1380,7 +1354,6 @@ nlu:
     - comments
     - cmt
     - cmts
-    - binh luan 
 - synonym: include
   examples: |
     - include
@@ -1405,14 +1378,12 @@ nlu:
     - không dấu
     - ko dấu
     - 0 dấu
-    - unsigned variable
 - synonym: signed
   examples: |
     - signed
     - signeds
     - có dấu
     - dấu
-    - signed variable
 - synonym: short
   examples: |
     - short
@@ -1441,14 +1412,12 @@ nlu:
     - consts 
     - hằng 
     - hằng số
-    - hang so 
 - synonym: macro
   examples: |
     - hàm macro
     - macros
     - macro
     - #define
-    - ham macro 
 - synonym: wchar_t
   examples: |
     - wchar_t
@@ -1478,7 +1447,6 @@ nlu:
     - variables
     - var
     - vars
-    - bien 
 - synonym: array
   examples: |
     - mảng
@@ -1495,7 +1463,6 @@ nlu:
     - mảng hai chiều
     - two demensionals array
     - two-demensional array
-    - mang hai chieu 
 - synonym: structure
   examples: |
     - cấu trúc
@@ -1503,36 +1470,29 @@ nlu:
     - structure
     - structures
     - structs
-    - cau truc 
 - synonym: class
   examples: |
     - lớp
     - class
     - classes
-    - lop 
 - synonym: union
   examples: |
     - union
     - unions
     - hợp nhất
     - liên hiệp
-    - lien hiep 
-    - hop nhat 
 - synonym: pointer
   examples: |
     - con trỏ
     - trỏ
     - pointer
     - pointers
-    - con tro
 - synonym: enumeration
   examples: |
     - enum
     - liệt kê
     - enums
     - enumeration
-    - kieu liet ke 
-    - kiểu liệt kê 
 - synonym: integer
   examples: |
     - số nguyên
@@ -1571,7 +1531,6 @@ nlu:
     - kiểu kí tự
     - chars
     - character
-    - kieu ki tu 
     - characters
 - synonym: string
   examples: |
@@ -1605,7 +1564,6 @@ nlu:
     - globalvariable
     - globalvariables
     - biến toàn cục
-    - bien toan cuc 
 - synonym: auto
   examples: |
     - auto
@@ -1619,7 +1577,6 @@ nlu:
     - autovars
     - biến auto
     - biến kiểu auto
-    - bien auto 
     - kiểu auto
 - synonym: external
   examples: |
@@ -1644,7 +1601,6 @@ nlu:
     - staticvar
     - staticvars
     - biến tĩnh
-    - bien tinh 
 - synonym: vector
   examples: |
     - vector
@@ -1656,17 +1612,12 @@ nlu:
     - reference vars
     - reference variables
     - biến tham chiếu
-    - bien tham chieu 
 # Các từ đồng nghĩa cho phần toán tử
 - synonym: decrement-operator
   examples: |
     - toán tử giảm
     - toán tử --
     - --
-    - toan tu giam 
-    - toan tu -- 
-    - dấu --
-    - dau --
     - decrement operator
     - decrement operators
     - decrementoperator
@@ -1674,12 +1625,8 @@ nlu:
 - synonym: increment-operator
   examples: |
     - toán tử tăng
-    - toan tu tang 
-    - toan tu ++ 
     - toán tử ++
     - ++
-    - dấu ++
-    - dau ++
     - increment operator
     - increment operators
     - incrementoperator
@@ -1726,7 +1673,6 @@ nlu:
     - binaries
     - binarys
     - toán tử hai ngôi
-    - toan tu hai ngoi
     - binary operator
     - binary operators
 - synonym: unary-operator
@@ -1735,7 +1681,6 @@ nlu:
     - unaries
     - unarys
     - toán tử một ngôi
-    - toan tu hai ngoi
     - unary operator
     - unary operators
 - synonym: shift-operator
@@ -1785,13 +1730,11 @@ nlu:
     - assign
     - assignment operators
     - toán tử gán
-    - toan tu gan 
 - synonym: operator
   examples: |
     - toán tử
     - operators
     - operator
-    - toan tu 
 # Các từ đồng nghĩa cho phần control flow
 - synonym: if
   examples: |
@@ -1799,12 +1742,9 @@ nlu:
     - nếu
     - if
     - ifs
-    - neu
-    - dieu kien 
 - synonym: loop
   examples: |
     - vòng lặp
-    - vong lap 
     - lặp
     - vòng
     - loop
@@ -1860,7 +1800,6 @@ nlu:
     - câu lệnh nhảy
     - câu lệnh jump
     - lệnh jump
-    - lenh nhay 
 - synonym: for
   examples: |
     - for
@@ -1910,7 +1849,6 @@ nlu:
     - if lồng if 
     - if lồng trong if 
     - nested ifs
-    - if long if
 # Các từ đồng nghĩa cho phần hàm
 - synonym: function
   examples: |
@@ -1919,12 +1857,9 @@ nlu:
     - functions
     - func
     - funcs
-    - ham
-    - ham` 
 - synonym: parameter
   examples: |
     - tham số
-    - tham so 
     - parameter
     - parameters
     - para
@@ -1932,7 +1867,6 @@ nlu:
 - synonym: argument
   examples: |
     - tham chiếu
-    - tham chieu 
     - đối số
     - argument
     - arguments
@@ -1941,7 +1875,6 @@ nlu:
 - synonym: recursion
   examples: |
     - đệ quy
-    - de quy 
     - recursion
     - recursions
     - recursive
@@ -1957,8 +1890,6 @@ nlu:
     - pass by reference
     - truyền tham chiếu
     - tham chiếu
-    - truyen tham chieu 
-    - tham chieu 
 - synonym: return
   examples: |
     - return
@@ -2009,8 +1940,3 @@ nlu:
     - built_in function
     - built in function
     - library function
-    - ham dung san
-    - ham thu vien 
-    - hàm thư viện 
-
-    
