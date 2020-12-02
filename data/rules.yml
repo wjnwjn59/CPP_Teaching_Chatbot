@@ -1,6 +1,14 @@
 version: "2.0"
 
 rules:
+- rule: Ask for covid-19 information
+  steps:
+  - intent: corona
+  - action: utter_covid_symptom
+  - action: utter_covid_precautions
+  - action: utter_covid_treatment
+  wait_for_user_input: false
+
 - rule: Activate form asking what
   steps:
   - intent: c++_what_asking
@@ -30,3 +38,46 @@ rules:
   - intent: c++_where_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+- rule: out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
+  wait_for_user_input: false
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+- rule: greeting
+  steps:
+  - intent: greet 
+  - action: utter_greet
+  - action: utter_who_i_am
+  wait_for_user_input: false
+
+- rule: thanks
+  steps:
+  - intent: thanks
+  - action: utter_reply_thanks
+  wait_for_user_input: false
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: utter_thanks
+  wait_for_user_input: false
+
+- rule: health_inquire
+  steps:
+  - intent: health_inquire
+  - action: utter_reply_health_inquire
+  wait_for_user_input: false
+
+- rule: insult_bot
+  steps:
+  - intent: insult
+  - action: utter_reply_insult
+  wait_for_user_input: false
