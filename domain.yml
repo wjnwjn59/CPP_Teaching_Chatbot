@@ -80,7 +80,7 @@ slots:
   c++_content:
     type: any
     influence_conversation: false
-  cplusplus_content_answer:
+  cpp_content_answer:
     type: any
     influence_conversation: false
     
