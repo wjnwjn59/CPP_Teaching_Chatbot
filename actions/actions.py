@@ -14,9 +14,11 @@ class AnswerCppDefineQuestion(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        cplusplus_content = tracker.get_slot("c++_content")
+        cpp_content = tracker.get_slot("c++_content")
 
         curr_intent = tracker.latest_message['intent'].get('name')
+
+        # Dict for answers what
 
         all_answers_what = {
             'comment': "Comment là một dòng hoặc nhiều dòng văn bản, được chèn vào source code chương trình, nhằm làm cho source code trở nên dễ hiểu hơn với người đọc, được bỏ qua bởi compiler và interpreter.",
@@ -159,7 +161,8 @@ class AnswerCppDefineQuestion(Action):
             'inline-function': 'Inline functions (Tạm dịch: Hàm nội tuyến) là một loại hàm trong ngôn ngữ lập trình C++. Từ khoá inline được sử dụng để đề nghị (không phải là bắt buộc) compiler (trình biên dịch) thực hiện inline expansion (khai triển nội tuyến) với hàm đó hay nói cách khác là chèn code của hàm đó tại địa chỉ mà nó được gọi.',
             'default-value': 'Default values (Tạm dịch: Tham số mặc nhiên) là khi ta mặc định gán sẵn giá trị bất kì cho một tham số truyền vào khi thực hiện khai báo hàm. Điều đó đồng nghĩa, khi thực hiện lời gọi hàm mà không truyền vào đối số tương ứng, trình biên dịch sẽ sử dụng giá trị đã được gán sẵn cho tham số đó khi thực thi hàm.',
             'main-function': 'Main function (Tạm dịch: Hàm main) trong C++ là một trường hợp của hàm, đây là nơi sẽ được thực thi đầu tiên khi chạy một chương trình C++.',
-            'built-in-function': 'Built in functions (Tạm dịch: Hàm dựng sẵn) hay còn có tên gọi khác là Library functions, là các hàm ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,...'
+            'built-in-function': 'Built in functions (Tạm dịch: Hàm dựng sẵn) hay còn có tên gọi khác là Library functions, là các hàm ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,...',
+            'lambda':'Lambda function (Tạm dịch: Hàm vô danh) là hàm dùng để truyền vào 1 hàm khác và sử dụng 1 lần.'
         }
 
         # Dict for answer why
@@ -248,23 +251,35 @@ class AnswerCppDefineQuestion(Action):
             'main-function': 'Mỗi khi chương trình biên dịch, nó sẽ chỉ thực thi các lệnh mà bạn khai báo trong hàm main, chính vì vậy, việc khai báo hàm main cực kỳ quan trọng',
             'built-in-function': 'Vì các hàm này ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,... Ta có thể tiết kiệm được thời gian code bằng các hàm bulit-in có sẵn, thay vì bạn phải khởi tạo lại một hàm có chức năng là tìm số nhỏ nhất hoặc lớn nhất, bạn có thể sử dụng hàm built-in min_element trong thư viện vector để thực hiện, điều này sẽ giúp cho bạn tiết kiệm được thời gian cũng như rút gọn bớt code của bạn đi.',
             'return-type': 'Giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
-            'inline-function': 'Việc sử dụng Inline function (Hàm nội tuyến) sẽ giúp ta:\n1. Tiết kiệm chi phí gọi hàm.\n2. Tiết kiệm chi phí của các biến trên ngăn xếp khi hàm được gọi.\n3. Tiết kiệm chi phí cuộc gọi trả về từ một hàm.\n4. Có thể đặt định nghĩa hàm nội tuyến (inline functions) trong file tiêu đề (*.h) (nghĩa là nó có thể được include trong nhiều đơn vị biên dịch, hàm thông thường sẽ gây ra lỗi).'
+            'inline-function': 'Việc sử dụng Inline function (Hàm nội tuyến) sẽ giúp ta:\n1. Tiết kiệm chi phí gọi hàm.\n2. Tiết kiệm chi phí của các biến trên ngăn xếp khi hàm được gọi.\n3. Tiết kiệm chi phí cuộc gọi trả về từ một hàm.\n4. Có thể đặt định nghĩa hàm nội tuyến (inline functions) trong file tiêu đề (*.h) (nghĩa là nó có thể được include trong nhiều đơn vị biên dịch, hàm thông thường sẽ gây ra lỗi).',
+            'lambda':'Lợi ích của lambda là không nhất thiết phải khai báo tên hàm ở 1 nơi khác, mà có thể tạo ngay 1 hàm (dùng 1 lần hay hiểu chính xác hơn là chỉ có 1 chỗ gọi 1 số tác vụ nhỏ). Như vậy sẽ giảm được thời gian khai báo 1 hàm.'
         }
-        
-        print(type(cplusplus_content))
 
-        if cplusplus_content in all_answers_what and curr_intent == 'c++_what_asking':
-            cplusplus_content_answer = all_answers_what[cplusplus_content]
-        else if cplusplus_content in all_answers_why and curr_intent == 'c++_why_asking':
-            cplusplus_content_answer = all_answers_why[cplusplus_content]
-        else:
-            cplusplus_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+        cpp_content_answer = str()
+
+        def pull_answer(x):
+            if curr_intent == 'c++_what_asking':
+                cpp_content_answer = all_answers_what[x]
+            elif curr_intent == 'c++_why_asking':
+                cpp_content_answer = all_answers_why[x]
+            elif curr_intent == 'c++_when_asking':
+                cpp_content_answer = "Invalid at the moment"
+            elif curr_intent == 'c++_how_asking':
+                cpp_content_answer = "Invalid at the moment"
+            elif curr_intent == 'c++_where_asking':
+                cpp_content_answer = "Invalid at the moment"
+            else:
+                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
             
-        dispatcher.utter_message(text=cplusplus_content_answer)
-        # else:
-        #     dispatcher.utter_message("Xin lỗi, bot hiện tại chưa thể trả lời được câu hỏi mà bạn mong muốn.:(\n")
+            return cpp_content_answer
+        
+        if(type(cpp_content) == list):
+            for entity in cpp_content:
+                dispatcher.utter_message(text=pull_answer(entity))
+        else:
+                dispatcher.utter_message(text=pull_answer(cpp_content))
 
-        return [SlotSet("cplusplus_content_answer", cplusplus_content_answer)]
+        return [SlotSet("cpp_content_answer", cpp_content_answer)]
 
 
 class ValidateCppContentForm(FormValidationAction):
@@ -352,7 +367,8 @@ class ValidateCppContentForm(FormValidationAction):
                 'inline-function',
                 'default-value',
                 'main-function',
-                'built-in-function']
+                'built-in-function',
+                'lambda']
 
     def validate_cpp_content(
         self,
