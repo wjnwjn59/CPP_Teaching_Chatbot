@@ -1237,24 +1237,211 @@ nlu:
     - chỉ t cách sử dụng từ khóa [continue](c++_content) đi
 - intent: c++_why_asking
   examples: |
-    - tại sao ta lại phải sử dụng [biến]{"entity": "c++_content", "value": "variable"} khi lập trình?
-    - tại sao lại cần sử dụng [variable](c++_content) khi viết code
-    - ê m sao t phải sử dụng [biến]{"entity": "c++_content", "value": "variable"} khi t viết code v?
-    - vì sao lại cần phải sử dụng [variable](c++_content) trong lập trình?
-    - tại sao lại cần phải [comment](c++_content) khi lập trình?
-    - tại sao lại phải cần viết [comment](c++_content)?
-    - vì sao ta cần lại phải sử dụng [namespace](c++_content)?
-    - vì sao lại phải có dòng using [namespace](c++_content) std; khi viết c++?
-    - tại sao ta cần lại phải sử dụng [hàm]{"entity": "c++_content", "value": "function"} trong lập trình?
-    - tại sao ta cần xài [hàm]{"entity": "c++_content", "value": "function"}?
-    - vì sao lại cần phải sử dụng [function](c++_content)?
-    - vì sao lại cần sử dụng [function](c++_content) vậy?
-    - vì sao tao lại cần phải viết [hàm]{"entity": "c++_content", "value": "function"} vậy mày?
-    - ê vì sao ta cần phải viết chữ [include](c++_content) vậy ?
-    - vì sao tao cần lại phải khai báo [thư viện]{"entity": "c++_content", "value": "library"} thế?
-    - vì sao tụi mình cần lại phải khai báo [library](c++_content) v m?
-    - why tao cần phải đi khai báo [thư viện]{"entity": "c++_content", "value": "library"} làm gì thế???
-    - why t cần phải sử dụng [library](c++_content)?
+    - vì sao lại phải sử dụng [comment]{"entity": "c++_content", "value": "comment"}?
+    - tại sao bố mày lại phải xài [comment]{"entity": "c++_content", "value": "comment"}???
+    - sao lúc lập trình thì lại phải xài [comment]{"entity": "c++_content", "value": "comment"} là chi cực zayy?
+    - sao tao phải [comment]{"entity": "c++_content", "value": "comment"} khi lập trình
+    - ủa xài [comment]{"entity": "c++_content", "value": "comment"} chi?
+    - wtf sao bố m lại phải xài [comment]{"entity": "c++_content", "value": "comment"} chứ?
+    - dm tại sao t lại cần phải xài [comment]{"entity": "c++_content", "value": "comment"} khi code?
+    - dm [comment]{"entity": "c++_content", "value": "comment"} khi code để làm cái lz gì
+    - [comment]{"entity": "c++_content", "value": "comment"} khi lập trình c++ để làm cái lz gì v?
+    - ê, tại sao lúc lập trình, t lại nên sử dụng [comment]{"entity": "c++_content", "value": "comment"} v bot?
+    - này bot, sao người ta khuyên tao là, khi lập trình thì nên sử dụng [comment]{"entity": "c++_content", "value": "comment"}?
+    - tại sao t nên chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để học lập trình?
+    - vì sao tôi lại nên chọn [cpp]{"entity": "c++_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
+    - tại sao [c++]{"entity": "c++_content", "value": "cplusplus"} lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
+    - nè bot, sao nhà trường lại chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để dạy mình học v, nó có điểm mạnh gì à?
+    - ê bot, lý do gì mà [c++]{"entity": "c++_content", "value": "cplusplus"} lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
+    - yo bot, vì cái lz gì mà người ta lại chọn [cplusplus]{"entity": "c++_content", "value": "cplusplus"} để học đầu tiên thế?
+    - nè nè, vì lý do gì mà t nên học [c plus plus]{"entity": "c++_content", "value": "cplusplus"} trước?
+    - m cho t một lý do vì s t nên học [c++]{"entity": "c++_content", "value": "cplusplus"} được k bot?
+    - giải thích cho t vì sao t nên đặt niềm tin vào [c++]{"entity": "c++_content", "value": "cplusplus"} đi bot
+    - hãy cho t 1 vài lý do nên học [c++]{"entity": "c++_content", "value": "cplusplus"} đi bot ngu 
+    - m có lời biện hộ nào cho việc vì sao lại phải học [c++]{"entity": "c++_content", "value": "cplusplus"} trước mà không phải những ngôn ngữ khác k?
+    - tại sao có rất nhiều ngôn ngữ lập trình đang hot hiện nay như python, javascript, R,... mà t lại phải học [c++]{"entity": "c++_content", "value": "cplusplus"} trước v bot
+    - s bố m lại bị ép buộc phải học [c++]{"entity": "c++_content", "value": "cplusplus"} trước tiên v bot
+    - có thể cho t 1 lời giải thích vì sao lại phải học cái [c++]{"entity": "c++_content", "value": "cplusplus"} này trước thay vì là những ngôn ngữ xịn xò khác...
+    - ngoài kia có rất nhiều ngôn ngữ lập trình khác được cho là phổ biến và hot hơn như python, js, ruby,... tại sao m lại chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để làm base ?
+    - vì sao lại chọn [c++]{"entity": "c++_content", "value": "cplusplus"} làm ngôn ngữ base?
+    - tại sao m lại chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để học nhập môn lập trình?
+    - vì sao tml m lại chọn [cpp]{"entity": "c++_content", "value": "cplusplus"} để dạy môn nhập môn v ?
+    - bạn có thể cho tôi biết vì sao lại chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để học môn nhập môn lập trình được không?
+    - bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c++]{"entity": "c++_content", "value": "cplusplus"} dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
+    - vì sao lại phải để cái [include]{"entity": "c++_content", "value": "include"} mỗi lần viết code v?
+    - vì sao t lại phải xài cái từ [include]{"entity": "c++_content", "value": "include"} thế bot 
+    - vì sao mỗi khi viết code là phải có cái #[include]{"entity": "c++_content", "value": "include"} v bot
+    - sao mỗi lần t viết code đều phải xài cái từ [include]{"entity": "c++_content", "value": "include"} đó hết v m 
+    - ê bot, t k hiểu sao mỗi lần viết code là lại cứ phải thêm cái [include]{"entity": "c++_content", "value": "include"} ngay trên đầu làm gì nhỉ
+    - ê m, t k hiểu, vì sao lại cứ phải xài [include]{"entity": "c++_content", "value": "include"} mỗi lần viết code c++ thế @@
+    - nè bot, sao t cứ phải xài #[include]{"entity": "c++_content", "value": "include"} mỗi khi viết c++ thế, không xài thì sao
+    - cho t 1 lý do vì s lại cứ phải xài [include]{"entity": "c++_content", "value": "include"} mỗi lần bắt đầu một project mới dc k bot 
+    - ê duma t đ hiểu gì về cái [include]{"entity": "c++_content", "value": "include"} luôn á, tại sao t lại phải xài nó v?
+    - clm t đéo hiểu sao lại cần [include]{"entity": "c++_content", "value": "include"} mỗi lần viết code luôn á m, giải thích cho t với
+    - má ơi sao mỗi lần code là lại phải [include]{"entity": "c++_content", "value": "include"} v, dm explain cho t cái
+    - tao muốn biết lý do vì sao lại phải [include]{"entity": "c++_content", "value": "include"} mỗi lần viết code 
+    - cho tôi hỏi lý do vì sao ta lại cần xài syntax #[include]{"entity": "c++_content", "value": "include"} mỗi khi viết code C được không?
+    - vì sao lại phải dùng [thư viện]{"entity": "c++_content", "value": "library"} khi viết code ạ
+    - vì sao mỗi lần viết code là phải khai báo [thư viện]{"entity": "c++_content", "value": "library"} thế bot 
+    - sao tao phải sử dụng [library]{"entity": "c++_content", "value": "library"} mỗi lần viết code thế 
+    - trong c++ ấy, nó bắt mình phải xài mấy cái [libs]{"entity": "c++_content", "value": "library"} là vì sao v m?
+    - vì sao bố m lại phải sử dụng [libs]{"entity": "c++_content", "value": "library"} v 
+    - [library]{"entity": "c++_content", "value": "library"} là cái cc gì mà tại s t lại phải sử dụng nó 
+    - ê dm t k biết vì sao t lại phải cứ sử dụng cái using [namespace]{"entity": "c++_content", "value": "namespace"} luôn á m, giải thích cho t nghe dc k 
+    - nè m, vì s mỗi lần viết code c++, t lại phải ghi cái dòng using [namespace]{"entity": "c++_content", "value": "namespace"} chi cho cực v?
+    - ê duma tính ra tao không hiểu vì sao mỗi lần viết code c++ là cứ phải xài cái dòng using [namespace]{"entity": "c++_content", "value": "namespace"} sau khi viết include luôn á 
+    - ê m, vì sao lại phải sử dụng [namepsace]{"entity": "c++_content", "value": "namespace"} chi 
+    - vì sao trong c++ lại có thêm khái niệm [namespace]{"entity": "c++_content", "value": "namespace"} để làm gì thế m 
+    - ê bot, tao đọc trên mạng thì trong c++ nó có một cái khái niệm là [không gian tên]{"entity": "c++_content", "value": "namespace"} ấy, vì sao lại phải cần nó v m? 
+    - nè nè nè, tại sao mình lại phải dùng [không gian tên]{"entity": "c++_content", "value": "namespace"} khi viết code c++ vậy bạn ha?
+    - vì sao lại phải sử dụng [không gian tên]{"entity": "c++_content", "value": "namespace"}?
+    - ê m, hỏi ngu tí, sao mình lại phải xài [biến]{"entity": "c++_content", "value": "variable"} khi lập trình vậy?
+    - ê bot, tao hỏi này nè, tại sao mình lại phải sử dụng [variable]{"entity": "c++_content", "value": "variable"} khi viết code?
+    - tại sao lại cần có [variable]{"entity": "c++_content", "value": "variable"} khi lập trình?
+    - ê mày, tại sao lại cần có [biến]{"entity": "c++_content", "value": "variable"} khi lập trình?
+    - tại sao lại có khái niệm [variable]{"entity": "c++_content", "value": "variable"} khi lập trình thế mày?
+    - tại sao lại có từ khóa [unsigned]{"entity": "c++_content", "value": "unsigned"} thế m?
+    - ê duma bot ơi, nãy mò mò trên google tao mới phát hiện ra là mỗi lần khai báo biến int mình cũng có thể ghi thêm chữ [unsigned]{"entity": "c++_content", "value": "unsigned"} vào nữa đó m, vì sao người ta thêm từ đó vào thế bot?
+    - ê mài, vì s người ta lại xài thêm cái từ [signed]{"entity": "c++_content", "value": "signed"} mỗi lần khai báo biến thế ???
+    - ê tính ra tao thấy người ta rảnh lz lắm luôn á bot, tự nhiên ghi thêm cái từ [signed]{"entity": "c++_content", "value": "signed"} khi khai báo chi zẫy?
+    - vì sao lại xài [short]{"entity": "c++_content", "value": "short"} v bot lz què 
+    - yo wtf, sao lại phải xài [long]{"entity": "c++_content", "value": "long"} nữa zay 
+    - ê bot, tại sao tôi lại phải dùng [type modifer]{"entity": "c++_content", "value": "type-modifier"} khi viết code thế?
+    - ê bot, sao người ta khuyên là nếu muốn viết code hay thì phải dùng [type modifier]{"entity": "c++_content", "value": "type modifier"} cho tốt zay?
+    - ê thằng lồn bot, sao bố mày cần phải xài [type modifiers]{"entity": "c++_content", "value": "type-modifier"}?
+    - có một lý do hợp lý nào để thuyết phục tao xài [type modifiers]{"entity": "c++_content", "value": "type-modifier"} mỗi lần viết code c++ không?
+    - ê mày, tại sao lại nên dùng [hằng số]{"entity": "c++_content", "value": "constant"}?
+    - vì sao cần dùng [hằng số]{"entity": "c++_content", "value": "constant"}?
+    - một lý do vì sao nên dùng [const]{"entity": "c++_content", "value": "constant"} khi khai báo biến?
+    - vì sao lại có thêm từ khóa [const]{"entity": "c++_content", "value": "constant"} khi khai báo biến thế bot ?
+    - vì sao lại nên dùng [const]{"entity": "c++_content", "value": "constant"} khi viết code thế bot 
+    - tao đọc code của người ta thấy có biến có chứa thêm từ [const]{"entity": "c++_content", "value": "constant"} là vì sao vậy mày?
+    - tại sao tao thấy người ta lúc định nghĩa hàm có xài cái từ [const]{"entity": "c++_content", "value": "constant"} ghi trước tham số, đó là sao thế mày?
+    - vì sao lại nên xài hàm [macro]{"entity": "c++_content", "value": "macro"}
+    - tao đọc sách thấy người ta bảo nên xài hàm [macro]{"entity": "c++_content", "value": "macro"}, vì sao thế?
+    - đọc trong sách thấy người ta bảo mình nên xài hàm [macro]{"entity": "c++_content", "value": "macro"} mỗi khi viết code?
+    - vì sao lại nên xài hàm [macro]{"entity": "c++_content", "value": "macro"} khi viết code c++ thế bot? 
+    - hãy cho t một lý do vì sao lại nên xài hàm [macro]{"entity": "c++_content", "value": "macro"} mỗi khi viết code c được không? 
+    - nè mày, có thể nào nói cho tao biết lý do vì sao lại nên xài [macro]{"entity": "c++_content", "value": "macro"} không ?
+    - tại sao lại sử dụng kiểu [wchar_t]{"entity": "c++_content", "value": "wchar_t"}?
+    - đụ mẹ sao giờ còn có thêm kiểu [wchar_t]{"entity": "c++_content", "value": "wchar_t"} vậy bot, sao ngta xài nó chi zẩy?
+    - cho tao một lý do vì sao lại xài thêm kiểu [wchar_t]{"entity": "c++_content", "value": "wchar_t"} được không bot ngu óc cặc?
+    - tại sao cần xài [array]{"entity": "c++_content", "value": "array"}
+    - sao lại có khái niệm [array]{"entity": "c++_content", "value": "array"}?
+    - vì gì mà cần phải xài [mảng một chiều]{"entity": "c++_content", "value": "array"}?
+    - tại sao lại có khái niệm [array]{"entity": "c++_content", "value": "array"} trong lập trình vậy?
+    - [mảng một chiều]{"entity": "c++_content", "value": "array"}, vì sao dùng?
+    - [arrays]{"entity": "c++_content", "value": "array"}, vì sao dùng nó?
+    - đéo hiểu sao mà người ta lại sinh ra kiểu dữ liệu [array]{"entity": "c++_content", "value": "array"} làm gì vậy bot?
+    - tại sao lại dùng [struct]{"entity": "c++_content", "value": "structure"}
+    - [structure]{"entity": "c++_content", "value": "structure"}, vì sao dùng?
+    - [struct]{"entity": "c++_content", "value": "structure"}, vì sao lại dùng nó?
+    - [struct]{"entity": "c++_content", "value": "structure"}, lý do gì có nó?
+    - [struct]{"entity": "c++_content", "value": "structure"}, nguyên cơ nào mà phải có nó?
+    - tại sao lại cần biết về [class]{"entity": "c++_content", "value": "class"} trong c++?
+    - sao lại phải biết về khái niệm [lớp]{"entity": "c++_content", "value": "class"} trong c++?
+    - vì sao lại cần học về khái niệm [lớp]{"entity": "c++_content", "value": "class"} đối tượng trong c++
+    - tao có biết qua về OOP, trong đó có khái niệm [class]{"entity": "c++_content", "value": "class"} tao thấy nó khá giống với struct, vì sao lại dùng nó vậy bot?
+    - có một khái niệm khá giống với struct đó là [class]{"entity": "c++_content", "value": "class"}, vì sao lại có nó vậy m?
+    - [class]{"entity": "c++_content", "value": "class"} là lz què gì và vì sao mình lại phải cần học về nó v?
+    - why tao phải học về [class]{"entity": "c++_content", "value": "class"} thế?
+    - tell me why, tại sao tui cần phải học cái [class]{"entity": "c++_content", "value": "class"} chết tiệt đó vậy
+    - đumẹ tại sao lại phải học về [pointer]{"entity": "c++_content", "value": "pointer"}
+    - tại sao lại cần biết về [con trỏ]{"entity": "c++_content", "value": "pointer"}?
+    - sao tao lại học về [con trỏ]{"entity": "c++_content", "value": "pointer"}?
+    - [con trỏ]{"entity": "c++_content", "value": "pointer"}, vì sao học?
+    - [pointer]{"entity": "c++_content", "value": "pointer"}, vì sao cần biết?
+    - kiểu [enum]{"entity": "c++_content", "value": "enumeration"} có cc gì mà tao cần phải học về nó?
+    - giải thích sao lại có kiểu [enum]{"entity": "c++_content", "value": "enumeration"} coi bot
+    - [kiểu số thực]{"entity": "c++_content", "value": "floating-point"}, sao lại phải học nó?
+    - [kiểu float]{"entity": "c++_content", "value": "floating-point"} sao lại học nó
+    - cho tôi lý do vì sao lại có kiểu [float]{"entity": "c++_content", "value": "floating-point"} được không?
+    - sao có kiểu float rồi mà lại có thêm kiểu [double]{"entity": "c++_content", "value": "double"} chi vậy mày?
+    - tại sao bình thường có kiểu float rồi, giờ lại có thêm kiểu [double]{"entity": "c++_content", "value": "double"} với cùng chức năng biểu đạt để chi vậy?
+    - vì sao lại xài kiểu [double]{"entity": "c++_content", "value": "double"}?
+    - tại sao lại xài kiểu [double]{"entity": "c++_content", "value": "double"}
+    - kiểu dữ liệu [double]{"entity": "c++_content", "value": "double"}, vì sao lại xài?
+    - kiểu [char]{"entity": "c++_content", "value": "character"}, vì sao dùng?
+    - vì sao tao nên dùng kiểu [char]{"entity": "c++_content", "value": "character"} thế ?
+    - tại sao lại có [kiểu kí tự]{"entity": "c++_content", "value": "character"} v bot ngu óc cứt?
+    - kiểu [character]{"entity": "c++_content", "value": "character"}, vì sao học?
+    - tại sao lại có thêm kiểu [string]{"entity": "c++_content", "value": "string"} trong khi đã có mảng kí tự rồi?
+    - vì sao lại nên dùng kiểu [string]{"entity": "c++_content", "value": "string"} thay vì dùng một mảng các kí tự?
+    - tại sao nên học [kiểu chuỗi]{"entity": "c++_content", "value": "string"}?
+    - tại sao giờ còn có thêm khái niệm [union]{"entity": "c++_content", "value": "union"} v?
+    - vì sao lại có khái niệm [local variable]{"entity": "c++_content", "value": "local-variable"}
+    - sao lại có thêm nội dung về [local variable]{"entity": "c++_content", "value": "local-variable"} nữa v lz
+    - tại sao lại có khái niệm về [biến cục bộ]{"entity": "c++_content", "value": "local-variable"} vậy m, khái niệm về biến chưa đủ hả?
+    - tại sao lại có def về [biến cục bộ]{"entity": "c++_content", "value": "local-variable"} thế
+    - [biến cục bộ]{"entity": "c++_content", "value": "local-variable"}, vì sao học?
+    - vì sao lại học [biến toàn cục]{"entity": "c++_content", "value": "global-variable"}
+    - [global variable]{"entity": "c++_content", "value": "global-variable"}, vì sao học???
+    - vì sao lại sinh ra khái niệm [global variable]{"entity": "c++_content", "value": "global-variable"} thế mày?
+    - sao người ta lại phát minh thêm khái niệm về [biến toàn cục]{"entity": "c++_content", "value": "global-variable"} thế?
+    - sao có thêm kiểu [auto]{"entity": "c++_content", "value": "auto"} chi v?
+    - sao lên c++ 11 người ta có thêm kiểu dữ liệu [auto]{"entity": "c++_content", "value": "auto"} chi vậy bot?
+    - ở bản c++11, sao người ta lại có thêm kiểu dữ liệu [auto]{"entity": "c++_content", "value": "auto"} v bot ngu?
+    - dùng [biến tĩnh]{"entity": "c++_content", "value": "static"} chi v m 
+    - sao lại có thêm biến [static]{"entity": "c++_content", "value": "static"} để làm chi rứa?
+    - tại sao người ta lại xài [biến tĩnh]{"entity": "c++_content", "value": "static"} v em iu?
+    - sao trong c++ còn có thêm biến [static]{"entity": "c++_content", "value": "static"} vậy? vì sao xài nó thế?
+    - dm kiểu [vector]{"entity": "c++_content", "value": "vector"}, sao lại phải học?
+    - tại sao đã có kiểu array rồi mà giờ còn có kiểu [vector]{"entity": "c++_content", "value": "vector"} nữa vậy mày?
+    - vì sao lại nên dùng [vector]{"entity": "c++_content", "value": "vector"} hơn là mảng?
+    - vì sao người ta khuyên nên dùng [vector]{"entity": "c++_content", "value": "vector"} hơn là dùng array?
+    - tại sao lại nên học thư viện [vector]{"entity": "c++_content", "value": "vector"} v? xài array là ổn rồi mà?
+    - sao lại cần dùng [toán tử phẩy]{"entity": "c++_content", "value": "comma-operator"}?
+    - tại sao lại cần dùng [comma operator]{"entity": "c++_content", "value": "comma-operator"} khi lập trình?
+    - [toán tử phẩy]{"entity": "c++_content", "value": "comma-operator"}, vì sao cần nó?
+    - tại sao phải dùng [dấu phẩy]{"entity": "c++_content", "value": "comma-operator"} khi lập trình?
+    - tại sao lại phải học [ternary operator]{"entity": "c++_content", "value": "ternary-operator"}
+    - sao tao phải ngồi học [toán tử ba ngôi]- tại sao lại phải học [ternary operator]{"entity": "c++_content", "value": "ternary-operator"} v, nhìn phức tạp vãi loz
+    - tại sao lại có [toán tử hai ngôi]- tại sao lại phải học [ternary operator]{"entity": "c++_content", "value": "binary-operator"} thế?
+    - vì sao lại nên học [binary operator]{"entity": "c++_content", "value": "binary-operator"}?
+    - tại sao lại có [toán tử một ngôi]{"entity": "c++_content", "value": "unary-operator"}?
+    - lý do gì mà lại có [unary operator]{"entity": "c++_content", "value": "unary-operator"} thế?
+    - vì sao người ta lại sinh ra [toán tử một ngôi]{"entity": "c++_content", "value": "unary-operator"} làm gì vậy?
+    - [toán tử dời bit]{"entity": "c++_content", "value": "shift-operator"}, vì sao dùng?
+    - tại sao lại nên xài [logical operator]{"entity": "c++_content", "value": "logical-operator"}?
+    - sao lại phải xài [toán tử quan hệ]{"entity": "c++_content", "value": "logical-operator"}?
+    - vì sao con người ta lại nên xài [toán tử so sánh]{"entity": "c++_content", "value": "logical-operator"} thế?
+    - sao lại cần xài [toán tử]{"entity": "c++_content", "value": "operator"} khi lập trình
+    - ê mày, sao trong lập trình, người ta lại sinh ra khái niệm [toán tử]{"entity": "c++_content", "value": "operator"} để làm gì vậy
+    - [operator]{"entity": "c++_content", "value": "operator"} trong lập trình dùng để làm cái vẹo gì?
+    - tại sao có khái niệm [if]{"entity": "c++_content", "value": "if"} trong lập trình?
+    - vì sao lại sản sinh ra khái niệm [if]{"entity": "c++_content", "value": "if"} trong code làm gì thế ?
+    - tại sao lại có khái niệm [loop]{"entity": "c++_content", "value": "loop"}?
+    - tao không hiểu sao người ta lại tạo ra khái niệm [vòng lặp]{"entity": "c++_content", "value": "loop"} để làm gì luôn á bot?
+    - ê bot ơi, tại sao trong code, lại có khái niệm về [vòng lặp]{"entity": "c++_content", "value": "loop"} vậy mày?
+    - tại sao lại có khái niệm về [cấu trúc điều khiển]{"entity": "c++_content", "value": "control-flow"} thế?
+    - trong lập trình, vì sao lại có khái niệm [flow of control]{"entity": "c++_content", "value": "control-flow"} v?
+    - tại vì làm sao mà lại có khái niệm [flow controls]{"entity": "c++_content", "value": "control-flow"} v bot ơi
+    - vì sao lại có vòng [for]{"entity": "c++_content", "value": "for"} trog lập trình?
+    - tại sao lại cần câu lệnh [break]{"entity": "c++_content", "value": "break"}
+    - vì sao con người ta khi code lại cần lệnh [continue]{"entity": "c++_content", "value": "continue"}
+    - ê mày, sao tao lại cần cái lệnh [goto]{"entity": "c++_content", "value": "goto"} làm gì thế?
+    - ê ê ê, bot ơi, sao lại sử dụng lệnh [goto]{"entity": "c++_content", "value": "goto"} vậy bot?
+    - bot ơi bot à, sao tao lại cần sử dụng [hàm]{"entity": "c++_content", "value": "function"} khi viết code thế bot?
+    - bot ơi bot ơi, tại sao lại cần học [function]{"entity": "c++_content", "value": "function"} để viết code cho ngon thế
+    - vì sao muốn viết code tốt lại cần phải học [function]{"entity": "c++_content", "value": "function"} vậy mày?
+    - tại sao lại có khái niệm [tham số]{"entity": "c++_content", "value": "parameter"}
+    - vì sao lại có khái niệm [parameter]{"entity": "c++_content", "value": "parameter"}
+    - sao lại sinh ra thêm khái niệm [đối số]{"entity": "c++_content", "value": "argument"} là shaoooo
+    - tại sao trong c++ ngừi ta lại dùng khái niệm [argument]{"entity": "c++_content", "value": "argument"} thế 
+    - tại sao trong lập trình, người ta lại sinh ra khái niệm [đệ quy]{"entity": "c++_content", "value": "recursion"} vậy?
+    - lồn má, lập trình đã khó rồi mà sao người ta còn làm thêm cái [đệ quy]{"entity": "c++_content", "value": "recursion"} chi vậy bot ơi huhu
+    - bot ơi tại sao lại phải biết dùng [recursion]{"entity": "c++_content", "value": "recursion"} vậy bot 
+    - ê bot, tao không hiểu vì sao lại có khái niệm [truyền tham trị]{"entity": "c++_content", "value": "pass-by-value"} luôn á 
+    - nè bot, m có biết vì sao lại có vụ [truyền tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} ko?
+    - ê bot ơi, m có thể giải thích cho tao vì sao có vụ [pass by reference]{"entity": "c++_content", "value": "pass-by-reference"} được k?
+    - bạn ơi, bạn có thể giải thích cho mình vì sao lại sử dụng [pass by value]{"entity": "c++_content", "value": "pass-by-value"} được không ạ?
+    - dạ anh ơi, anh có thể cho biết vì sao mình lại dùng [tham chiếu hằng]{"entity": "c++_content", "value": "const-reference"} được không ạ?
+    - anh ơi anh, anh cho em biết vì sao lại dùng [constant reference]{"entity": "c++_content", "value": "const-reference"} đc không ạ?
+    - eeeee, vì sao lại... dùng hàm [main]{"entity": "c++_content", "value": "main-function"} thế :))
+    - tại sao lại nên sử dụng các [hàm dựng sẵn]{"entity": "c++_content", "value": "built-in-function"} vậy mày?
+    - ê, tại sao trong lập trình lại nên dùng các [built in functions]{"entity": "c++_content", "value": "built-in-function"} thế bot?
+    - ê bot, tại sao nên học về [hàm nội tuyến]{"entity": "c++_content", "value": "inline-function"}?
+    - tại sao lại cần học [inline functions]{"entity": "c++_content", "value": "inline-function"}?
 - intent: c++_when_asking
   examples: |
     - khi nào thì cần khai báo một [biến]{"entity": "c++_content", "value": "variable"}?
@@ -1535,13 +1722,14 @@ nlu:
 - synonym: string
   examples: |
     - chuỗi
-    - chuỗi kí tự
     - string
     - strings
     - str
     - strs
     - chuoi 
-    - chuoi ki tu 
+    - chuoi ki tu
+    - kiểu chuỗi
+    - kieu chuoi 
 - synonym: local-variable
   examples: |
     - local
@@ -1658,6 +1846,8 @@ nlu:
     - comma operators
     - toán tử phẩy
     - toan tu phay
+    - dấu phẩy
+    - dau phay
 - synonym: ternary-operator
   examples: |
     - ternary
