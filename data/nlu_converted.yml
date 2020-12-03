@@ -1148,6 +1148,20 @@ nlu:
     - nhu nao la mot [mang hai chieu]{"entity": "c++_content", "value": "2d-array"}?
     - ban luan ve [mang hai chieu]{"entity": "c++_content", "value": "2d-array"} xem sao nao 
     - [mảng hai chiều]{"entity": "c++_content", "value": "2d-array"} là gì thế 
+    - thế nào là [kiểu số nguyên]{"entity": "c++_content", "value": "integer"}, [kiểu số thực]{"entity": "c++_content", "value": "floating-point"} và [kiểu double]{"entity": "c++_content", "value": "double"}?
+    - như nào là [hàm nặc danh]{"entity": "c++_content", "value": "lambda"} vậy bot ?
+    - nhu the nao la mot [ham nac danh]{"entity": "c++_content", "value": "lambda"} the bot?
+    - the nao la mot [ham khong ten]{"entity": "c++_content", "value": "lambda"} vay bot?
+    - khai niem ve [ham vo danh]{"entity": "c++_content", "value": "lambda"}?
+    - điểm khác nhau giữa kiểu [float]{"entity": "c++_content", "value": "floating-point"} và kiểu [double]{"entity": "c++_content", "value": "double"} là?
+    - cho t biết khái niệm về [mảng]{"entity": "c++_content", "value": "array"}, [pointer]{"entity": "c++_content", "value": "pointer"} đi 
+    - hãy cho tao biết thế nào là kiểu [int]{"entity": "c++_content", "value": "integer"}, kiểu [float]{"entity": "c++_content", "value": "floating-point"}, kiểu [char]{"entity": "c++_content", "value": "character"} và kiểu [bool]{"entity": "c++_content", "value": "boolean"}
+    - nêu khái niệm về [operator]{"entity": "c++_content", "value": "operator"}, [toán tử số học]{"entity": "c++_content", "value": "arithmetic-operator"}, [toán tử logic]{"entity": "c++_content", "value": "logical-operator"} đi 
+    - sự khác nhau giữa việc [truyền tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} và [truyền tham trị]{"entity": "c++_content", "value": "pass-by-value"} là gì?
+    - cho tôi biết các khái niệm sau: [hàm]{"entity": "c++_content", "value": "function"}, [kiểu trả về]{"entity": "c++_content", "value": "return type"} của hàm và [đệ quy]{"entity": "c++_content", "value": "recursion"} 
+    - nêu cho mình các khái niệm về [cấu trúc điều khiển]{"entity": "c++_content", "value": "control-flow"}, [vòng lặp]{"entity": "c++_content", "value": "loop"} và [lệnh nhảy]{"entity": "c++_content", "value": "jump-statement"} được không?
+    - nói gì về [đối số]{"entity": "c++_content", "value": "argument"}, [tham số]{"entity": "c++_content", "value": "parameter"}, [tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} với [tham trị]{"entity": "c++_content", "value": "pass-by-value"} coi
+    - sự khác biệt thật sự giữa [struct]{"entity": "c++_content", "value": "structure"} và [union]{"entity": "c++_content", "value": "union"} là gì v bot?
 - intent: c++_how_asking
   examples: |
     - làm sao để khai báo một [biến]{"entity": "c++_content", "value": "variable"} trong c++ ?
@@ -1442,6 +1456,11 @@ nlu:
     - ê, tại sao trong lập trình lại nên dùng các [built in functions]{"entity": "c++_content", "value": "built-in-function"} thế bot?
     - ê bot, tại sao nên học về [hàm nội tuyến]{"entity": "c++_content", "value": "inline-function"}?
     - tại sao lại cần học [inline functions]{"entity": "c++_content", "value": "inline-function"}?
+    - vì sao lại sinh ra thêm hàm [lambda]{"entity": "c++_content", "value": "lambda"} chi cực v?
+    - vì sao có hàm [lambda]{"entity": "c++_content", "value": "lambda"}?
+    - vì sao lại nên phân biệt [biến cục bộ]{"entity": "c++_content", "value": "local-variable"} và [biến toàn cục]{"entity": "c++_content", "value": "global-variable"} ra chi v?
+    - vì sao lại có khái niệm về [local variable]{"entity": "c++_content", "value": "local-variable"} và [global variable]{"entity": "c++_content", "value": "global- variable"}?
+    - vì sao lại có các khái niệm về [truyền tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} hay [truyền tham trị]{"entity": "c++_content", "value": "pass-by-value"} v?
 - intent: c++_when_asking
   examples: |
     - khi nào thì cần khai báo một [biến]{"entity": "c++_content", "value": "variable"}?
@@ -2130,3 +2149,12 @@ nlu:
     - built_in function
     - built in function
     - library function
+- synonym: lambda
+  examples: |
+    - hàm lambda
+    - hàm nặc danh
+    - hàm vô danh
+    - hàm ko tên
+    - hàm không tên
+    - lambda function
+    - anonymous function
