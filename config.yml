@@ -19,12 +19,11 @@ pipeline:
   "analyzer": "char_wb"
   # Set the lower and upper boundaries for the n-grams
   "min_ngram": 1
-  "max_ngram": 4
-  # Set the out-of-vocabulary token
-  "OOV_token": "_oov_"
+  "max_ngram": 5
   # Whether to use a shared vocab
   "use_shared_vocab": True
 - name: "DIETClassifier"
+  epochs: 400
 - name: FallbackClassifier
   threshold: 0.7
 - name: "EntitySynonymMapper"
@@ -38,4 +37,5 @@ policies:
   - name: TEDPolicy
     max_history: 5
     random_seed: 42
+    epochs: 200
   - name: RulePolicy
