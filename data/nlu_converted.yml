@@ -1532,10 +1532,14 @@ nlu:
     - cồ râu nà 
     - cô vít 
     - cô vít 19 
+- intent: first_name
+  examples: |
+- intent: last_name
+  examples: |
 - synonym: library
   examples: |
     - thư viện
-    - inclue
+    - include
     - library
     - libraries
     - lib
@@ -1546,6 +1550,7 @@ nlu:
     - không gian tên
     - namespaces
     - name space
+    - name spaces
 - synonym: cplusplus
   examples: |
     - c++
@@ -1553,6 +1558,7 @@ nlu:
     - C++
     - c plus plus
     - cplusplus
+    - c
 - synonym: comment
   examples: |
     - bình luận
@@ -1576,6 +1582,7 @@ nlu:
   examples: |
     - i/o
     - intput output 
+    - input/output
 # Các từ đồng nghĩa cho phần data type / var
 - synonym: unsinged
   examples: |
