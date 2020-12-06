@@ -60,8 +60,6 @@ actions:
   - utter_thanks
   - utter_sorry
   - utter_wtf
-  - utter_reply_insult
-  - utter_reply_deny
   - utter_covid_symptom
   - utter_covid_precautions
   - utter_covid_treatment
@@ -178,13 +176,6 @@ responses:
   - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
   - text: Bạn có thể nói lại rõ hơn được không? Mình chưa hiểu ý bạn lắm ><
 
-  utter_reply_insult:
-  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
-  - text: Sao bạn lại chửi mình zayy TT 
-  - text: Đừng chửi tuii, tuii có làm gì sai đâu ><
-
-  utter_reply_deny:
-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
   utter_please_rephrase:
   - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
   
