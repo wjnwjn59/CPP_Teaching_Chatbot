@@ -1536,6 +1536,135 @@ nlu:
   examples: |
 - intent: last_name
   examples: |
+- intent: who_are_you
+  examples: |
+    - bạn tên gì
+    - bạn là ai 
+    - bạn tên là gì nhỉ?
+    - bạn tên gì thế 
+    - cho mình hỏi bạn tên là gì thế
+    - mày tên gì
+    - mày tên gì nhỉ?
+    - tên gì
+    - tên của mày là ?
+    - tên mi là?
+    - tên của mi là?
+    - mi tên gì nhỉ?
+    - tên mày là gì 
+    - nói tao nghe tên mày
+    - nói bố m nghe tên của m xem nào
+    - nói cho ta biết tên nhà người là gì
+    - mày là gì
+    - mày là ai
+    - ai là mày 
+    - ai là bạn 
+    - mày rốt cuộc là gì vậy
+    - mày rốt cuộc là gì
+    - mày là ai
+    - mày là thằng nào
+    - mày là cái lz què gì zay 
+    - mày là lz què nào v
+    - mày là con nào 
+    - mày là thể loại gì vậy
+    - mày là thực thể gì thế 
+    - mày rốt cuộc là cái quái gì vậy
+    - m là th nào
+    - m là cái gì
+    - m là cái wtf gì thế
+    - bản chất của m là gì
+    - m tên gì
+    - bn tên gì
+    - banj teen gif
+    - bố m hỏi m tên gì
+    - m là th lz nào
+    - bot tên gì 
+    - bạn bot tên gì 
+    - chatbot tên gì vậy nhỉ
+    - bạn chatbot đây tên là gì nhỉ 
+    - bạn chatbot đây là cái gì đây nhỉ 
+    - mình có thể biết tên của bạn chatbot đây được k nhỉ 
+    - nhân tiện đây cho mình hỏi bạn chatbot đây là gì dc k 
+    - m là tml nào
+    - ủa m là cc gì thế
+    - m là cc gì v
+    - cho tôi hỏi bạn là ai
+    - cho tôi được hỏi bạn là gì
+    - mày là cái giống loài gì vậy
+    - m là cái thể loại cl gì v dcm
+    - m là cc gì
+    - bợn là ai zị
+    - bạn là ai zịi
+    - iem là aii
+    - em là ai
+    - anh là ai
+    - chị là ai
+    - ông là ai
+    - bà là ai
+    - cậu là ai
+    - chú là ai
+    - cô là ai 
+    - thầy là ai
+    - giáo sư là ai
+    - cho hỏi vị huynh đài đây tên gì nhỉ
+    - vị huynh đài tên gì
+    - nickname của m là gì
+    - sư huynh tên gì
+    - tiểu muội tên gì 
+    - sư đệ tên gì
+    - you tên gì 
+    - đại nhân tên gì
+    - lãng khách tên gì
+    - quý nhân tên gì
+    - yo wtf m là ai thế 
+    - ban ten gi
+    - ban ten la gi
+    - ban la ai
+    - ban la the loai gi v 
+    - ban ten la gi nhi 
+    - may ten gi 
+    - may ten la gi 
+    - may la ai 
+    - may ten la gi nhi 
+    - may la cai quai gi vay 
+    - m la cc gi v 
+    - m la th lz nao 
+    - m la cai cc gi 
+    - cc m la ai 
+    - ccc m la cai cc gi 
+    - mi ten gi 
+    - mi la ai 
+    - mi la cai wtf gi the 
+    - cho toi hoi ban la ai 
+    - cho minh hoi ban bot day ten la gi nhi 
+    - who are you
+    - who are u 
+    - who r u 
+    - who are you really then?
+    - what exactly are you?
+- intent: cpp_practice
+  examples: |
+    - tao muốn ôn tập về c++
+    - tao muốn được ôn bài về con trỏ
+    - tao muốn ôn tập các kiến thức về toán tử
+    - tui cần ôn tập về toán tử
+    - bố m cần luyện hàm
+    - tao cần luyện 1 số skill về pointer 
+    - luyện tập về vòng lặp
+    - luyện if
+    - luyện tập for
+    - các bài tập về for
+    - các bài tập về while 
+    - các bài toán về loop
+    - cho các bài tập về cấu trúc điều khiển
+    - đưa bố m các bài về switch đây m
+    - tao cần các bài tập về if else
+    - luyện tập về biến 
+    - các bài giúp nâng cao trình về biến
+    - bài toán về biến 
+    - bài tập dùng toán tử 3 ngôi
+    - bài tập về toán tử 2 ngôi 
+    - các bài toán về toán tử nói chung 
+    - một số bài ôn tập về c++
 - synonym: library
   examples: |
     - thư viện
