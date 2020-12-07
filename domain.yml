@@ -89,10 +89,10 @@ forms:
 
 slots:
   c++_content:
-    type: any
+    type: text
     influence_conversation: false
   cpp_content_answer:
-    type: any
+    type: text
     influence_conversation: true
   firstN: 
     type: text
