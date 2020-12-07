@@ -419,7 +419,7 @@ stories:
   - action: action_c++_content_answer
   - intent: continue_asking
   - action: utter_accept_questions
-  - intent: c++_where_askin
+  - intent: c++_where_asking
     entities:
     - c++_content: c++
   - action: cpp_content_form
