@@ -92,10 +92,10 @@ slots:
     type: any
     influence_conversation: false
   firstN: 
-    type: any 
+    type: text
     influence_conversation: true 
   lastN:
-    type: any
+    type: text
     influence_conversation: true
 
     
