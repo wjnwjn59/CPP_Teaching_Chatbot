@@ -72,6 +72,8 @@ actions:
   - validate_cpp_content_form
   - utter_ask_first_name
   - utter_ask_last_name
+  - action_first_name
+  - action_last_name
 
 entities:
   - c++_content
