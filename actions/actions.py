@@ -398,7 +398,7 @@ class ActionFirstName(Action):
                         tracker: Tracker, 
                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
         dispatcher.utter_message(template="utter_ask_first_name") 
-        return [SlotSet('firstN',tracker.latest_message['text'])]
+        return [SlotSet("firstN","abc")]
 
 class ActionLastName(Action):
     def name(self) -> Text: 
@@ -408,4 +408,4 @@ class ActionLastName(Action):
                         tracker: Tracker, 
                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
         dispatcher.utter_message(template="utter_ask_last_name") 
-        return [SlotSet('lastN',tracker.latest_message['text'])]
+        return [SlotSet("lastN","abc")]
