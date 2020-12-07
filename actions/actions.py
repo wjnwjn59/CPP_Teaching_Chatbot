@@ -403,5 +403,5 @@ class ActionLastName(Action):
         return "action_last_name"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        dispatcher.utter_message(template="utter_lasst_name") 
+        dispatcher.utter_message(template="utter_last_name") 
         return [SlotSet('lastN',tracker.latest_message['text'])]
