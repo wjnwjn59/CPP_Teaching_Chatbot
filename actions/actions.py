@@ -4,6 +4,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
+from database_connectivity import DataUpdate
 
 class AnswerCppDefineQuestion(Action):
 
@@ -386,3 +387,21 @@ class ValidateCppContentForm(FormValidationAction):
             # validation failed, set this slot to None so that the
             # user will be asked for the slot again
             return {"c++_content": None}
+
+
+# Use database to store user's information
+class ActionFirstName(Action):
+    def name(self) -> Text: 
+        return "action_first_name"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+        dispatcher.utter_message(template="utter_first_name") 
+        return [SlotSet('firstN',tracker.latest_message['text'])]
+
+class ActionLastName(Action):
+    def name(self) -> Text: 
+        return "action_last_name"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+        dispatcher.utter_message(template="utter_lasst_name") 
+        return [SlotSet('lastN',tracker.latest_message['text'])]
