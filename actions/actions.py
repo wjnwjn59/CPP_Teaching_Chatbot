@@ -51,7 +51,6 @@ class AnswerCppDefineQuestion(Action):
             'data-type': 'Data type (Tạm dịch: Kiểu dữ liệu) trong C++ là một hệ thống dùng để phân biệt sự khác nhau về lượng tài nguyên chiếm trong bộ nhớ và cách diễn giải mẫu bit của các biến hoặc các hàm.',
             '2d-array':'Two dimensional array (Tạm dịch: Mảng hai chiều) là một cấu trúc dữ liệu có dạng là một bảng các số - tức là một ma trận (tìm hiểu thêm về Đại số tuyến tính để hiểu rõ hơn nhé) bao gồm n hàng và n cột.\nCú pháp: <data_type> <variable_name>[<row_size>][<column_size>];',
             'array':'Array (Tạm dịch: Mảng) trong C++ là một kiểu dữ liệu, gồm một tập hợp các phần tử có cùng kiểu dữ liệu với nhau, được phân biệt bởi số thứ tự (index) bên trong mảng, bắt đầu từ vị trí 0.\nCú pháp: <data_type> <variable_name>[<size_of_array>];',
-            'array': 'Array (Tạm dịch: Mảng) trong C++ là một kiểu dữ liệu, gồm một tập hợp các phần tử có cùng kiểu dữ liệu với nhau, được phân biệt bởi số thứ tự (index) bên trong mảng, bắt đầu từ vị trí 0.\nCú pháp: <data_type> <variable_name>[<size_of_array>];',
             'structure': 'Structure hay struct (Tạm dịch: Cấu trúc) trong C++ là một cú pháp dùng để biểu diễn một kiểu dữ liệu mới dựa vào việc tập hợp các biến cần thiết với nhau.\nCú pháp: struct <name>{\n//some variables;\n};',
             'class': 'Class (Tạm dịch: Lớp) trong C++ là một kiến thức liên quan đến Lập trình hướng đối tượng (Object Oriented Programming), là một bản thiết kế của các đối tượng có cùng chung các đặc điểm, tính chất, hành vi... Trong lập trình, một class có thể chứa các Biến - Thuộc tính (Attributes) và các Hàm - Phương thức (Methods).\nCú pháp: class <class_name>{\n//Some attributes\n//Some methods\n};\nĐể có thể hiểu rõ hơn về Class, bạn hãy tìm hiểu thêm về Lập trình hướng đối tượng nhé!',
             'union': 'Union (Tạm dịch: Hợp nhất) trong C++ là một cú pháp về cơ bản giống với struct, dùng để gom nhóm các biến lại với nhau để từ đó hình thành một kiểu dữ liệu mới.\nCú pháp: union <union_name>{\n//some variables\n};',
@@ -79,9 +78,9 @@ class AnswerCppDefineQuestion(Action):
             'dereference-operator': '''Dereference operators (Tạm dịch: Toán tử trỏ, Ký hiệu: *) là loại toán tử cho phép chúng ta truy cập vào giá trị tại một địa chỉ cụ thể.''',
             'address_of-operator': '''Address_of operators (Tạm dịch: Toán tử địa chỉ, Ký hiệu : &) là loại toán tử cho phép chúng ta lấy địa chỉ bộ nhớ của một biến.''',
             'comma-operator': '''Comma operator (Tạm dịch: Toán tử phẩy, Ký hiệu : ,) là một loại toán tử cho phép ta kết nối các biểu thức lại với nhau, thực thi theo trình tự từ trái sang phải. Giả sử ta có đoạn code sau:\n
-             int a = 0;\n
-             int b = (a + 100, a++, a + 100);\n
-             cout << b << endl ; // Kết quả là 201\n''',
+             int a = 0;
+             int b = (a + 100, a++, a + 100);
+             cout << b << endl ; // Kết quả là 201''',
             'ternary-operator': 'Ternary operators (Tạm dịch: Toán tử ba ngôi, Ký hiệu: ? :) là toán tử có 3 toán hạng trong biểu thức. Cú pháp: (<condition_expression>) ? <value_if_true> : <value_if_false);\nTrong đó:\n_condition_expression: là một biểu thức điều kiện kiểu bool, thứ sẽ quyết định kết quả của phép toán.\n_value_if_true: Nếu biểu thức điều kiện trả về true, đây là sẽ là kết quả của phép toán.\n_value_if_false: Nếu biểu thức điều kiện trả về false, đây là sẽ kết quả của phép toán.',
             'binary-operator': 'Binary operators (Tạm dịch: Toán tử hai ngôi) là toán tử có 2 toán hạng trong biểu thức. Có 5 toán tử số học 2 ngôi trong C++ đó là: Cộng (Addition : +), Trừ (Subtraction : -), Nhân (Multiplication : *), Chia lấy nguyên (Division : /), Chia lấy dư (Modulus : %)',
             'unary-operator': 'Unary operators (Tạm dịch: Toán tử một ngôi) là toán tử chỉ có 1 toán hạng trong biểu thức. Ví dụ như việc bạn sử dụng dấu - để biểu diễn số âm kiểu -11, -60,...',
@@ -93,29 +92,38 @@ class AnswerCppDefineQuestion(Action):
             'assignment-operator': 'Assignment Operators (Tạm dịch: Toán tử gán, Ký hiệu: =) là một loại toán tử dùng để cấp phát giá trị',
             'operator': 'Operators (Tạm dịch: Toán tử) trong lập trình là một biểu tượng đại diện cho các phép toán số học như cộng trừ nhân chia hay các phép toán logic,... và trả về một kết quả. Trong C++, có rất nhiều loại toán tử nhưng cơ bản và chung nhất, ta có thể chia toán tử làm ba loại: Toán tử một ngôi (Unary Operator), Toán tử hai ngôi (Binary Operator) và Toán tử ba ngôi (Ternary Operator).',
             # Câu trả lời về control flow
-            'if': 'If hay If statements (Tạm dịch: Lệnh if) là một lệnh được dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.\n Cú pháp: if(<boolean_expression>){\n//some codes here...\n}\nChi tiết hơn, Lệnh if còn được phân loại thành 4 loại: if, if else, if else if Ladder và nested if',
+            'if': '''If hay If statements (Tạm dịch: Lệnh if) là một lệnh được dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.\n
+            Cú pháp: 
+            if(<boolean_expression>){
+                //some codes here...
+            }\n
+            Chi tiết hơn, Lệnh if còn được phân loại thành 4 loại: if, if else, if else if Ladder và nested if''',
             'loop': 'Loop (Tạm dịch: Sự lặp) trong lập trình là một khái niệm dùng để chỉ sự lặp đi lặp lại một tập các chỉ thị (một khối lệnh) cho đến khi thỏa mãn điều kiện để dừng vòng lặp cho trước. Trong C++, một vòng lặp được đại diện bởi các từ khóa for (for loop), while (while loop) và do while(do while loop).',
             'control-flow': 'Control flow hay Flow of control (Tạm dịch: Cấu trúc điều khiển) trong lập trình là một khái niệm dùng để chỉ một tập các chỉ thị, các lệnh hay các lời gọi hàm được thực thi khi chạy chương trình.',
             'selection-statement': 'Selection statements (Tạm dịch: Lệnh lựa chọn) trong lập trình là một khái niệm dùng để chỉ sự quyết định thực thi một tập các chỉ thị hay một khối lệnh dựa dựa trên một điều kiện cho trước. Trong C++, ta có thể dùng lệnh if hoặc lệnh switch để có thể sử dụng lệnh lựa chọn.',
             'iteration-statement': 'Iteration statements hay Loop (Tạm dịch: Lệnh lặp) trong lập trình là một khái niệm dùng để chỉ sự lặp đi lặp lại một tập các chỉ thị (một khối lệnh) cho đến khi thỏa mãn điều kiện để dừng vòng lặp cho trước. Trong C++, một vòng lặp được đại diện bởi các từ khóa for (for loop), while (while loop) và do while(do while loop)',
             'jump-statement': 'Jump statements (Tạm dịch: Lệnh nhảy) trong lập trình là một khái niệm dùng để chỉ sự làm thay đổi đột ngột hướng thực thi code một cách vô điều kiện sang một tập chỉ khác ở một nơi nào đó trong tập tin code của chúng ta. Trong C++, ta có thể biểu diễn Lệnh nhảy bằng các lệnh gồm Lệnh break, Lệnh continue, Lệnh goto và Lệnh return.',
-            'for': '''For hay For loops (Tạm dịch: Vòng lặp for) trong C++ là một cấu trúc vòng lặp với chức năng tương tự như vòng while nhưng khác về cú pháp. Cấu trúc của một vòng for như sau:\nfor(<loop_variable_declaration>;<stop_condition_expression>;<update_loop_variable_expression>){\n//Some codes here...\n
-             }\nVới:\n
-             _ loop_variable_declation: là nơi khởi tạo biến lặp, biến lặp được sử dụng như là một máy đếm số lần đã lặp của vòng for.\n
-             _ stop_condition_expression: là nơi khởi tạo một biểu thức kiểu bool cho biến lặp, khi không còn thỏa mãn biểu thức này (false) thì vòng lặp sẽ kết thúc.\n
+            'for': '''For hay For loops (Tạm dịch: Vòng lặp for) trong C++ là một cấu trúc vòng lặp với chức năng tương tự như vòng while nhưng khác về cú pháp.\n
+             Cấu trúc của một vòng for như sau:\n
+            for(<loop_variable_declaration>;<stop_condition_expression>;<update_loop_variable_expression>){
+                //Some codes here...
+             }\n
+             Với:
+             _ loop_variable_declation: là nơi khởi tạo biến lặp, biến lặp được sử dụng như là một máy đếm số lần đã lặp của vòng for.
+             _ stop_condition_expression: là nơi khởi tạo một biểu thức kiểu bool cho biến lặp, khi không còn thỏa mãn biểu thức này (false) thì vòng lặp sẽ kết thúc.
              _ update_loop_variable_expression: là nơi khởi tạo một biểu thức để cập nhật giá trị cho biến lặp sau mỗi lần lặp.''',
-            'while': 'While hay While loops (Tạm dịch: Vòng lặp while) trong C++ là một vòng lặp với chức năng tương tự như vòng for nhưng khác về cú pháp. Cấu trúc của một vòng while như sau:\nwhile(<condition_expression>){\n//some codes here...\n}\nMình thể hiểu đơn giản cấu trúc đó như sau: trong khi điều kiện <condition_expression> vẫn trả về kết quả đúng (true), thì các đoạn code bên trong dấu { } vẫn sẽ được thực thi.',
+            'while': 'While hay While loops (Tạm dịch: Vòng lặp while) trong C++ là một vòng lặp với chức năng tương tự như vòng for nhưng khác về cú pháp. Cấu trúc của một vòng while như sau:\nwhile(<condition_expression>){//some codes here...}\nMình thể hiểu đơn giản cấu trúc đó như sau: trong khi điều kiện <condition_expression> vẫn trả về kết quả đúng (true), thì các đoạn code bên trong dấu { } vẫn sẽ được thực thi.',
             'do-while': '''do while (Tạm dịch: Vòng lặp do while) trong C++ là một vòng lặp khá giống với vòng lặp while, điểm khác biệt ở do while so với while là nó sẽ đảm bảo vòng lặp sẽ được lặp ít nhất một lần.Cú pháp:\n
-             do {\n
-                // Some codes here;\n
+             do {
+                // Some codes here;
             } while (<condition_expression>);''',
             'switch': '''Switch statements (Tạm dịch: Lệnh chuyển mạch) trong C++ giống như là một chuỗi các câu lệnh if else với việc so sánh một biến với các số nguyên. Cú pháp:\n
-             switch (n)\n
-            {\n
-                case 1: // Sẽ thực thi khối lệnh ở đây nếu n == 1;\n
-                        break;\n
-                case 2: // Sẽ thực thi khối lệnh ở đây nếu n == 2;\n
-                        break;\n
+             switch (n)
+            {
+                case 1: // Sẽ thực thi khối lệnh ở đây nếu n == 1;
+                        break;
+                case 2: // Sẽ thực thi khối lệnh ở đây nếu n == 2;
+                        break;
                 default: // Nếu n không bằng với bất kì case nào thì sẽ thực thi khối lệnh ở đây;
             }''',
             'break': 'Break statements (Tạm dịch: Lệnh chấm dứt) trong C++ là một trong các lệnh nhảy, dùng để kết thúc một vòng lặp ngay lập tức kể cả khi nó vẫn còn có thể tiếp tục lặp.',
@@ -254,6 +262,349 @@ class AnswerCppDefineQuestion(Action):
             'return-type': 'Giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
             'inline-function': 'Việc sử dụng Inline function (Hàm nội tuyến) sẽ giúp ta:\n1. Tiết kiệm chi phí gọi hàm.\n2. Tiết kiệm chi phí của các biến trên ngăn xếp khi hàm được gọi.\n3. Tiết kiệm chi phí cuộc gọi trả về từ một hàm.\n4. Có thể đặt định nghĩa hàm nội tuyến (inline functions) trong file tiêu đề (*.h) (nghĩa là nó có thể được include trong nhiều đơn vị biên dịch, hàm thông thường sẽ gây ra lỗi).',
             'lambda':'Lợi ích của lambda là không nhất thiết phải khai báo tên hàm ở 1 nơi khác, mà có thể tạo ngay 1 hàm (dùng 1 lần hay hiểu chính xác hơn là chỉ có 1 chỗ gọi 1 số tác vụ nhỏ). Như vậy sẽ giảm được thời gian khai báo 1 hàm.'
+        }
+
+        all_answers_how = {
+            'comment': '''Để sử dụng Comment trong C++, các bạn có thể sử cú pháp // cho comment 1 dòng hoặc /* */ cho comment nhiều dòng.\n Ví dụ:
+            int main(){
+            // Đây là comment 1 dòng
+            // Đây vẫn là comment 1 dòng
+            /*
+            Còn đây là
+            Comment
+            Nhiều dòng đóo
+            Ahihi
+            */
+            return 0;
+            }
+             ''',
+            'cplusplus': '''Để sử dụng C++, các bạn cần 2 thứ:\n
+            Thứ nhất đó là một chiếc Text Editor với giao diện dễ nhìn như Notepad, VS Code, Sublime Text 3,...\n
+            Thứ hai là một chiếc Compiler (trình biên dịch) như MinGW,...\n
+            Còn không thì các bạn có thể tải các IDE về như Code::Blocks, Visual Studio, Eclipse, NetBeans,... để xài cho tiện nha\n
+            Còn mà lười tải về mấy mớ ở trên thì lên Google gõ C++ compiler online để code ngay trên web luôn ha :3
+             ''',
+            'include': ''' ''',
+            'library': '''Để sử dụng các thư viện trong C++, ta chỉ cần sử dụng cú pháp #include <tên_library> là oke.\n
+            Ví dụ:
+            #include <iostream>  // Khai báo thư viện iostream
+            #include <stdio.h> // Khai báo thư viện stdio.h''',
+            'namespace': '''Để sử dụng namespace ta sẽ khai báo như sau:\n
+            namespace <tên_namespace>
+            {
+                int x, y; // Biến x y được khai báo
+                          // bên trong tầm vực của namespace
+            }\n
+            Một số lưu ý với namespace:
+            _ Chỉ được khai báo namespace ở tầm vực toàn cục (Global Scope)
+            _ Có thể khai báo một namespace mới bên trong một namespace
+            _ Có thể khai báo namespace cùng tên nhiều lần, các namespace có cùng tên sẽ được gom chung nội dung lại với nhau
+             ''',
+            'pseudo-code': ''' ''',
+            # Câu trả lời về các kiểu dữ liệu và biến
+            'variable': '''Để sử dụng được Variables, ta sẽ thực hiện cú pháp như sau: <kiểu_dữ_liệu> <tên_variable>;\n
+            Ví dụ:
+            int x = 5;
+            float y;
+            double a = 2.1;
+            char b = 'c' ''',
+            'unsigned': '''Sử dụng unsigned cũng giống như sử dụng biến vậy ấy.\n
+             Ví dụ:
+             unsigned x = 5;
+             unsigned int y = 2;''',
+            'signed': '''Sử dụng signed cũng giống như sử dụng biến ấy.\n
+             Ví dụ:
+             signed x = 5;
+             signed int y = 2;''',
+            'short': '''Để sử dụng short, ta thực hiện cú pháp: short <tên_variable>;''',
+            'long': '''Để sử dụng long, ta thực hiện cú pháp: long <tên_variable>;''',
+            'type-modififer': '''Để sử dụng type modifiers trong C++, các bạn có thể dùng các từ khóa short, long, signed hoặc unsigned.\n
+            Ví dụ:
+            short x = 2;
+            long double = 10.10;
+            unsigned char z;''',
+            'typedef': '''Để sử dụng typedef, các bạn thực hiện cú pháp như sau: typedef <KDL> <tên_mới_của_KDL>\n
+            Ví dụ:
+            typedef int t
+            typedef long l''',
+            'constant': '''Để sử dụng từ khóa constant thì, mỗi khi khai báo một biến, các bạn chỉ cần thêm từ const trước kiểu dữ liệu là ok.\n
+            Ví dụ:
+            const int x = 5;
+            const float y = 5.5;''',
+            'macro': '''Để định nghĩa một macro, các bạn sẽ sử dụng từ khóa #define. Với cú pháp: #define <tên_macro> <biểu_thức>\n
+            Ví dụ:
+            #define PI 3.14
+            #define ll long long
+            #define sum(a,b) a + b''',
+            'wchar_t': '''Để sử dụng wchar_t, ta thực hiện cú pháp: wchar_t <tên_variable>;''',
+            'boolean':'''Để sử dụng kiểu boolean, ta thực hiện cú pháp: bool <tên_variable>;''',
+            'data-type': '''Tùy thuộc vào kiểu dữ liệu các bạn muốn dùng mà ta sẽ sử dụng các từ khóa các nhau. Nếu cần một biến kiểu số nguyên, ta xài từ khóa int...''',
+            '2d-array': '''Để sử dụng Mảng hai chiều, ta thực hiện cú pháp: <kiểu_dữ_liệu> <tên_variable>[<row_size>][<column_size>];''',
+            'array': '''Để sử dụng Mảng một chiều, ta thực hiện cú pháp: <kiểu_dữ_liệu> <tên_variable>[<size>];''',
+            'structure': '''Để sử dụng struct, ta thực hiện cú pháp:\n
+            struct <tên_struct>{
+                // khai báo các biến
+            }\n
+            Ví dụ:
+            struct HinhChuNhat{
+                int dai, rong;
+            }''',
+            'class': ''' ''',
+            'union': ''' ''',
+            'pointer': '''Để sử dụng con trỏ, ta thực hiện cú pháp: <kiểu_dữ_liệu> *<tên_variable>;''',
+            'enumeration': '''Để sử dụng enum, ta thực hiện cú pháp:\n
+            enum <tên_enum>{
+                // Khai báo các biến, ngăn cách nhau bởi dấu phẩy
+            }\n
+            Ví dụ:
+            enum DAY_OF_WEEK{
+                CHUNHAT,
+                THUHAI,
+                THUBA,
+                THUTU,
+                THUNAM,
+                THUSAU,
+                THUBAY
+            }''',
+            'integer': '''Để sử dụng kiểu số nguyên (integer), ta thực hiện cú pháp: int <tên_variable>;''',
+            'floating-point': '''Để sử dụng kiểu dấu chấm động (floating point), ta thực hiện cú pháp: float <tên_variable>; ''',
+            'double': '''Để sử dụng kiểu double, ta thực hiện cú pháp: double <tên_variable>; ''',
+            'character': '''Để sử dụng kiểu character, ta thực hiện cú pháp: char <tên_variable>; ''',
+            'string': '''Để sử dụng kiểu string, trước hết ta cần khai báo thư viện string bằng cách sử dụng cú pháp: #include <string.h>\n
+            Sau đó để khai báo một biến kiểu string ta thực hiện cú pháp: string <tên_variable>; ''',
+            'local-variable': '''Biến cục bộ chỉ là một khái niệm hàn lâm, không có cách thực hiện chung chung cụ thể''',
+            'auto': '''Để sử dụng kiểu auto, ta thực hiện cú pháp: auto <tên_variable>;
+            Lưu ý: ''',
+            'external': ''' ''',
+            'static': ''' ''',
+            'vector': ''' ''',
+            'reference-variable': ''' ''',
+            # Câu trả lời về các toán tử
+            'decrement-operator': ''' ''',
+            'increment-operator': ''' ''',
+            'dereference-operator': ''' ''',
+            'address_of-operator': ''' ''',
+            'comma-operator': ''' ''',
+            'ternary-operator': ''' ''',
+            'binary-operator': ''' ''',
+            'unary-operator': ''' ''',
+            'shift-operator': ''' ''',
+            'bitwise-operator': ''' ''',
+            'logical-operator': ''' ''',
+            'comparison-operator': ''' ''',
+            'arithmetic-operator': ''' ''',
+            'assignment-operator': ''' ''',
+            'operator': ''' ''',
+            # Câu trả lời về control flow
+            'if': ''' ''',
+            'loop': ''' ''',
+            'control-flow': ''' ''',
+            'selection-statement': ''' ''',
+            'iteration-statement': ''' ''',
+            'jump-statement': ''' ''',
+            'for': ''' ''',
+            'while': ''' ''',
+            'do-while': ''' ''',
+            'switch': ''' ''',
+            'break': ''' ''',
+            'continue': ''' ''',
+            'goto': ''' ''',
+            'if-else': ''' ''',
+            'if-else-if-ladder': ''' ''',
+            'nested-if': ''' ''',
+            # Câu trả lời về function
+            'function': ''' ''',
+            'parameter': ''' ''',
+            'argument': ''' ''',
+            'recursion': ''' ''',
+            'pass-by-value': ''' ''',
+            'pass-by-reference': ''' ''',
+            'return': ''' ''',
+            'return-type': ''' ''',
+            'const-reference': ''' ''',
+            'inline-function': ''' ''',
+            'default-value': ''' ''',
+            'main-function': ''' ''',
+            'built-in-function': ''' ''',
+            'lambda': ''' '''
+        }
+
+        all_answers_when = {
+            'comment': "",
+            'cplusplus': ''' ''',
+            'include': ''' ''',
+            'library': ''' ''',
+            'namespace': ''' ''',
+            'pseudo-code': ''' ''',
+            # Câu trả lời về các kiểu dữ liệu và biến
+            'variable': ''' ''',
+            'unsigned': ''' ''',
+            'signed': ''' ''',
+            'short': ''' ''',
+            'long': ''' ''',
+            'type-modififer': ''' ''',
+            'typedef': ''' ''',
+            'constant': ''' ''',
+            'macro': ''' ''',
+            'wchar_t': ''' ''',
+            'boolean':''' ''',
+            'data-type': ''' ''',
+            '2d-array': ''' ''',
+            'array': ''' ''',
+            'array': ''' ''',
+            'structure': ''' ''',
+            'class': ''' ''',
+            'union': ''' ''',
+            'pointer': ''' ''',
+            'enumeration': ''' ''',
+            'integer': ''' ''',
+            'floating-point': ''' ''',
+            'double': ''' ''',
+            'character': ''' ''',
+            'string': ''' ''',
+            'local-variable': ''' ''',
+            'auto': ''' ''',
+            'external': ''' ''',
+            'static': ''' ''',
+            'vector': ''' ''',
+            'reference-variable': ''' ''',
+            # Câu trả lời về các toán tử
+            'decrement-operator': ''' ''',
+            'increment-operator': ''' ''',
+            'dereference-operator': ''' ''',
+            'address_of-operator': ''' ''',
+            'comma-operator': ''' ''',
+            'ternary-operator': ''' ''',
+            'binary-operator': ''' ''',
+            'unary-operator': ''' ''',
+            'shift-operator': ''' ''',
+            'bitwise-operator': ''' ''',
+            'logical-operator': ''' ''',
+            'comparison-operator': ''' ''',
+            'arithmetic-operator': ''' ''',
+            'assignment-operator': ''' ''',
+            'operator': ''' ''',
+            # Câu trả lời về control flow
+            'if': ''' ''',
+            'loop': ''' ''',
+            'control-flow': ''' ''',
+            'selection-statement': ''' ''',
+            'iteration-statement': ''' ''',
+            'jump-statement': ''' ''',
+            'for': ''' ''',
+            'while': ''' ''',
+            'do-while': ''' ''',
+            'switch': ''' ''',
+            'break': ''' ''',
+            'continue': ''' ''',
+            'goto': ''' ''',
+            'if-else': ''' ''',
+            'if-else-if-ladder': ''' ''',
+            'nested-if': ''' ''',
+            # Câu trả lời về function
+            'function': ''' ''',
+            'parameter': ''' ''',
+            'argument': ''' ''',
+            'recursion': ''' ''',
+            'pass-by-value': ''' ''',
+            'pass-by-reference': ''' ''',
+            'return': ''' ''',
+            'return-type': ''' ''',
+            'const-reference': ''' ''',
+            'inline-function': ''' ''',
+            'default-value': ''' ''',
+            'main-function': ''' ''',
+            'built-in-function': ''' ''',
+            'lambda': ''' '''
+        }
+
+        all_answers_where = {
+            'comment': "",
+            'cplusplus': ''' ''',
+            'include': ''' ''',
+            'library': ''' ''',
+            'namespace': ''' ''',
+            'pseudo-code': ''' ''',
+            # Câu trả lời về các kiểu dữ liệu và biến
+            'variable': ''' ''',
+            'unsigned': ''' ''',
+            'signed': ''' ''',
+            'short': ''' ''',
+            'long': ''' ''',
+            'type-modififer': ''' ''',
+            'typedef': ''' ''',
+            'constant': ''' ''',
+            'macro': ''' ''',
+            'wchar_t': ''' ''',
+            'boolean':''' ''',
+            'data-type': ''' ''',
+            '2d-array': ''' ''',
+            'array': ''' ''',
+            'array': ''' ''',
+            'structure': ''' ''',
+            'class': ''' ''',
+            'union': ''' ''',
+            'pointer': ''' ''',
+            'enumeration': ''' ''',
+            'integer': ''' ''',
+            'floating-point': ''' ''',
+            'double': ''' ''',
+            'character': ''' ''',
+            'string': ''' ''',
+            'local-variable': ''' ''',
+            'auto': ''' ''',
+            'external': ''' ''',
+            'static': ''' ''',
+            'vector': ''' ''',
+            'reference-variable': ''' ''',
+            # Câu trả lời về các toán tử
+            'decrement-operator': ''' ''',
+            'increment-operator': ''' ''',
+            'dereference-operator': ''' ''',
+            'address_of-operator': ''' ''',
+            'comma-operator': ''' ''',
+            'ternary-operator': ''' ''',
+            'binary-operator': ''' ''',
+            'unary-operator': ''' ''',
+            'shift-operator': ''' ''',
+            'bitwise-operator': ''' ''',
+            'logical-operator': ''' ''',
+            'comparison-operator': ''' ''',
+            'arithmetic-operator': ''' ''',
+            'assignment-operator': ''' ''',
+            'operator': ''' ''',
+            # Câu trả lời về control flow
+            'if': ''' ''',
+            'loop': ''' ''',
+            'control-flow': ''' ''',
+            'selection-statement': ''' ''',
+            'iteration-statement': ''' ''',
+            'jump-statement': ''' ''',
+            'for': ''' ''',
+            'while': ''' ''',
+            'do-while': ''' ''',
+            'switch': ''' ''',
+            'break': ''' ''',
+            'continue': ''' ''',
+            'goto': ''' ''',
+            'if-else': ''' ''',
+            'if-else-if-ladder': ''' ''',
+            'nested-if': ''' ''',
+            # Câu trả lời về function
+            'function': ''' ''',
+            'parameter': ''' ''',
+            'argument': ''' ''',
+            'recursion': ''' ''',
+            'pass-by-value': ''' ''',
+            'pass-by-reference': ''' ''',
+            'return': ''' ''',
+            'return-type': ''' ''',
+            'const-reference': ''' ''',
+            'inline-function': ''' ''',
+            'default-value': ''' ''',
+            'main-function': ''' ''',
+            'built-in-function': ''' ''',
+            'lambda': ''' '''
         }
 
         cpp_content_answer = str()
