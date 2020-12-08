@@ -237,6 +237,7 @@ nlu:
     - hẹn gặp lại
     - tao đi đây con trai
     - bai bai
+    - bai 
     - hẹn lần khác
     - tạm biệt nha
     - cút đi
@@ -248,6 +249,9 @@ nlu:
     - để dịp khác nói tiếp nha
     - tao bận rồi, bye
     - pp
+    - pipi
+    - cút xéo
+    - đi đây
 - intent: affirm
   examples: |
     - yes
@@ -266,9 +270,20 @@ nlu:
     - hoàn toàn đúng
     - đúng
     - ok
+    - chuẩn quá ta
     - oke
+    - đúng ời
+    - đúng ròi 
+    - chuẩn nha 
+    - chuẩn 
+    - ok đúng
+    - ok
+    - ok good 
 - intent: deny
   examples: |
+    - nope
+    - no never
+    - absolutely not
     - no
     - never
     - I don't think so
@@ -289,6 +304,51 @@ nlu:
     - trật rồi
     - sai tè le
     - không hề
+    - ko 
+    - ko muốn 
+    - ko cần 
+    - ko bao giờ 
+    - ko đời nào 
+    - koooo
+    - khonggggg
+    - hong
+    - hongggg
+    - hong muốn
+    - chắc là hong ròi
+    - hong nho 
+    - k
+    - thôi đc r 
+    - nô 
+    - đéo
+    - đéo muốn 
+    - đéo cần 
+    - đ muốn 
+    - đ 
+    - cc cút 
+    - cút
+    - ncc cút 
+    - đ cần nữa 
+    - đ hỏi nữa 
+    - đéo hỏi nữa 
+    - dí buồi t hỏi nhá 
+    - dí buồi mà t hỏi nha
+    - ko cần nữa cút
+    - dcmm cút
+    - dm ko
+    - ko ko ko 
+    - ko đời nào
+    - ko bao gio 
+    - khong
+    - khong bao gio nha 
+    - khong can nua dau 
+    - khong hoi nua 
+    - deo bao gio 
+    - deo 
+    - deo can 
+    - deo muon hoi nua
+    - deo nha
+    - tao khong muon
+    - toi khong muon hoi nua 
 - intent: compliment
   examples: |
     - perfect

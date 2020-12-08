@@ -1,11 +1,4 @@
 version: "2.0"
-
-rules:
-- rule: ask the user whether if they want to ask something else or not after answering the ques
-  steps:
-  - action: action_c++_content_answer
-  - action: utter_ask_anything_else
-  wait_for_user_input: false
   
 - rule: Ask for covid-19 information
   steps:

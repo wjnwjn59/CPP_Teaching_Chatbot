@@ -57,6 +57,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ what asking 2
   steps:
@@ -69,6 +70,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ what asking 3
   steps:
@@ -79,6 +81,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
 
@@ -91,6 +94,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
@@ -104,6 +108,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: continue_asking
   - action: utter_accept_questions
   - intent: c++_what_asking
@@ -113,6 +118,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ what asking 6
   steps:
@@ -123,8 +129,23 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny  
+  - action: utter_reply_deny
+
+- story: c++ what asking 7
+  steps:
+  - intent: c++_what_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+  - intent: affirm 
 
 - story: c++ why asking 1
   steps:
@@ -135,6 +156,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ why asking 2
   steps:
@@ -147,6 +169,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ why asking 3
   steps:
@@ -157,6 +180,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
 
@@ -169,6 +193,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
@@ -182,6 +207,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: continue_asking
   - action: utter_accept_questions
   - intent: c++_why_asking
@@ -191,6 +217,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ why asking 6
   steps:
@@ -201,8 +228,23 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny  
+  - action: utter_reply_deny 
+
+- story: c++ why asking 7
+  steps:
+  - intent: c++_why_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+  - intent: affirm 
 
 - story: c++ how asking 1
   steps:
@@ -213,6 +255,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ how asking 2
   steps:
@@ -225,6 +268,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ how asking 3
   steps:
@@ -235,6 +279,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
 
@@ -247,6 +292,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
@@ -260,6 +306,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: continue_asking
   - action: utter_accept_questions
   - intent: c++_how_asking
@@ -269,6 +316,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 
 - story: c++ how asking 6
@@ -280,8 +328,23 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: deny
   - action: utter_reply_deny  
+
+- story: c++ how asking 7
+  steps:
+  - intent: c++_how_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+  - intent: affirm 
 
 - story: c++ when asking 1
   steps:
@@ -292,6 +355,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ when asking 2
   steps:
@@ -304,6 +368,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ when asking 3
   steps:
@@ -314,6 +379,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
 
@@ -326,6 +392,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
@@ -339,6 +406,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: continue_asking
   - action: utter_accept_questions
   - intent: c++_when_asking
@@ -348,6 +416,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ when asking 6
   steps:
@@ -358,8 +427,23 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny  
+  - action: utter_reply_deny 
+
+- story: c++ when asking 7
+  steps:
+  - intent: c++_when_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+  - intent: affirm 
 
 - story: c++ where asking 1
   steps:
@@ -370,6 +454,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ where asking 2
   steps:
@@ -382,6 +467,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 - story: c++ where asking 3
   steps:
@@ -392,6 +478,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
 
@@ -404,6 +491,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
@@ -417,6 +505,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: continue_asking
   - action: utter_accept_questions
   - intent: c++_where_asking
@@ -426,6 +515,7 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
 
 
 - story: c++ where asking 6
@@ -437,8 +527,23 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny  
+  - action: utter_reply_deny
+  
+- story: c++ where asking 7
+  steps:
+  - intent: c++_where_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny   
+  - intent: affirm 
 
 - story: anything else? - yes
   steps:
