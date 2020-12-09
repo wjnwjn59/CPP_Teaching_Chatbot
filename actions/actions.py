@@ -4,7 +4,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-from database_connect import DataUpdate
+# from .database_connect import DataUpdate
 
 class AnswerCppDefineQuestion(Action):
 

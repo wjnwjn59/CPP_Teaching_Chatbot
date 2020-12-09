@@ -1,4 +1,1 @@
-rasa==2.0.3
-rasa-x 
-mysql-connector-python
-spacy
+rasa==2.1.0
