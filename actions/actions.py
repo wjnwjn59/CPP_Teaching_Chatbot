@@ -1,10 +1,12 @@
+#from _typeshed import OpenBinaryMode
+from actions.database_connect import DataGet
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-from database_connect import DataUpdate
+from .database_connect import DataGet
 
 class AnswerCppDefineQuestion(Action):
 
@@ -619,46 +621,47 @@ class AnswerCppDefineQuestion(Action):
 
         cpp_content_answer = str()
 
-        #sql_intent_type = {
-        #    'c++_what_asking':1,
-        #    'c++_why_asking':2,
-        #    'c++_when_asking':3,
-        #    'c++_how_asking':4,
-        #    'c++_where_asking':5
-        #}
+        sql_intent_type = {
+           'c++_why_asking':1,
+           'c++_what_asking':2,
+           'c++_when_asking':3,
+           'c++_how_asking':4,
+           'c++_where_asking':5
+        }
 
-        #if(type(cpp_content) == list):
-        #    for entity in cpp_content:
-                # TYPE = sql_intent_type[curr_intent]
-                # OBJECT = entity
-                # cpp_content_asnwer = CONTENT (Biến này để truyền vào slotset phía dưới)
-                # dispatcher.utter_message(text=...)
-        #else:
-            # TYPE = sql_intent_type[curr_intent]
-            # OBJECT = cpp_content
-            # cpp_content_asnwer = CONTENT (Biến này để truyền vào slotset phía dưới)
-
-        def pull_answer(x):
-            if curr_intent == 'c++_what_asking':
-                cpp_content_answer = all_answers_what[x]
-            elif curr_intent == 'c++_why_asking':
-                cpp_content_answer = all_answers_why[x]
-            elif curr_intent == 'c++_when_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_how_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_where_asking':
-                cpp_content_answer = "Invalid at the moment"
-            else:
-                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
-            
-            return cpp_content_answer
-        
         if(type(cpp_content) == list):
-            for entity in cpp_content:
-                dispatcher.utter_message(text=pull_answer(entity))
+           for entity in cpp_content:
+                TYPE = sql_intent_type[curr_intent]
+                OBJECT = entity
+                cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
+                dispatcher.utter_message(text=cpp_content_answer)
         else:
-                dispatcher.utter_message(text=pull_answer(cpp_content))
+            TYPE = sql_intent_type[curr_intent]
+            OBJECT = cpp_content
+            cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
+            dispatcher.utter_message(text=cpp_content_answer)
+
+        # def pull_answer(x):
+        #     if curr_intent == 'c++_what_asking':
+        #         cpp_content_answer = all_answers_what[x]
+        #     elif curr_intent == 'c++_why_asking':
+        #         cpp_content_answer = all_answers_why[x]
+        #     elif curr_intent == 'c++_when_asking':
+        #         cpp_content_answer = "Invalid at the moment"
+        #     elif curr_intent == 'c++_how_asking':
+        #         cpp_content_answer = "Invalid at the moment"
+        #     elif curr_intent == 'c++_where_asking':
+        #         cpp_content_answer = "Invalid at the moment"
+        #     else:
+        #         cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+            
+        #     return cpp_content_answer
+        
+        # if(type(cpp_content) == list):
+        #     for entity in cpp_content:
+        #         dispatcher.utter_message(text=pull_answer(entity))
+        # else:
+        #         dispatcher.utter_message(text=pull_answer(cpp_content))
 
         return [SlotSet("cpp_content_answer", cpp_content_answer)]
 

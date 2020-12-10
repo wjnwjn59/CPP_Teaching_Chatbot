@@ -18,6 +18,7 @@ def DataGet(type,object):
   myresult = mycursor.fetchall()
   return myresult
 
+print(DataGet(1,"comment"))
 
 
 
