@@ -31,10 +31,6 @@ intents:
       use_entities: []
   - dont_want_to_ask:
       use_entities: []
-  - last_name:
-      use_entities: []
-  - first_name:
-      use_entities: []
   - who_are_you:
       use_entities: []
   - cpp_practice
@@ -208,14 +204,15 @@ responses:
   - text: Vâng, mình đang nghe đây 
   - text: Mình đây bạn
   - text: Tui đây tui đây
+  
   utter_ask_first_name:
   - text: Cho mình hỏi họ của bạn được hông
   - text: Cho mình xin họ của bạn đi nè 
   - text: Cho phép mình xin họ của bạn nhé
   utter_ask_last_name:
-    - text: Vậy cho mình hỏi tên của bạn được hông
-    - text: Tiếp theo cho mình xin tên của bạn đi nè 
-    - text: Mình xin phép được hỏi tên của bạn có được hông 
+  - text: Vậy cho mình hỏi tên của bạn được hông
+  - text: Tiếp theo cho mình xin tên của bạn đi nè 
+  - text: Mình xin phép được hỏi tên của bạn có được hông 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false

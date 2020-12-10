@@ -26,6 +26,39 @@ stories:
   - intent: deny
   - action: utter_sorry
 
+- story: dont want to ask 1
+  steps:
+  - intent: dont_want_to_ask
+  - action: utter_what_do_you_want
+
+- story: dont want to ask 2
+  steps:
+  - intent: want_to_ask
+  - action: utter_accept_questions
+  - intent: dont_want_to_ask
+  - action: utter_what_do_you_want
+
+- story: dont want to ask 3
+  steps:
+  - intent: want_to_ask
+  - action: utter_accept_questions
+  - or:
+    - intent: c++_what_asking
+    - intent: c++_why_asking
+    - intent: c++_when_asking
+    - intent: c++_how_asking
+    - intent: c++_where_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: dont_want_to_ask
+  - action: utter_what_do_you_want
+  
+
 - story: stop asking
   steps:
   - intent: stop_asking
@@ -623,3 +656,4 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_c++_content_answer
+  
