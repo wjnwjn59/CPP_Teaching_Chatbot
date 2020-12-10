@@ -23,7 +23,7 @@ pipeline:
   # Whether to use a shared vocab
   "use_shared_vocab": True
 - name: "DIETClassifier"
-  epochs: 400
+  epochs: 500
 - name: FallbackClassifier
   threshold: 0.6
 - name: "EntitySynonymMapper"
