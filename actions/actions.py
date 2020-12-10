@@ -91,6 +91,7 @@ class AnswerCppDefineQuestion(Action):
             'arithmetic-operator': 'Arithmetic operators (Tạm dịch: Toán tử số học) là loại toán tử dùng để biểu diễn các phép toán số học như +,-,*,/,%...',
             'assignment-operator': 'Assignment Operators (Tạm dịch: Toán tử gán, Ký hiệu: =) là một loại toán tử dùng để cấp phát giá trị',
             'operator': 'Operators (Tạm dịch: Toán tử) trong lập trình là một biểu tượng đại diện cho các phép toán số học như cộng trừ nhân chia hay các phép toán logic,... và trả về một kết quả. Trong C++, có rất nhiều loại toán tử nhưng cơ bản và chung nhất, ta có thể chia toán tử làm ba loại: Toán tử một ngôi (Unary Operator), Toán tử hai ngôi (Binary Operator) và Toán tử ba ngôi (Ternary Operator).',
+            'scope-resolution-operator':'',
             # Câu trả lời về control flow
             'if': '''If hay If statements (Tạm dịch: Lệnh if) là một lệnh được dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.\n
             Cú pháp: 
@@ -238,6 +239,7 @@ class AnswerCppDefineQuestion(Action):
             'bitwise-operator': '''Bitwise khá mạnh trong việc xử lý các bài toán phức tạp, đây là một công cụ rất được ưa thích của các bạn tham gia Competitive Programming''',
             'logical-operator': 'Biểu diễn các biểu thức True hoặc False',
             'operator': 'Sử dụng toán tử (Operators) để biểu diễn các phép toán cơ bản.',
+            'scope-resolution-operator':''' ''',
             # Câu trả lời về control flow
             'if': 'Dùng để kiểm tra một biểu thức kiểu luận lý nào đó là đúng hay sai, nếu đúng thì sẽ thực thi tập chỉ thị bên trong khối if, nếu điều kiện sai thì sẽ bỏ qua khối lệnh if đó.',
             'loop': 'Sử dụng một vòng lặp để thực hiện các thao tác lặp đi lặp lại nhiều lần theo một ngữ cảnh nhất định, giảm thời gian thực hiện và biểu hiện code cho người lập trình.',
@@ -374,27 +376,33 @@ class AnswerCppDefineQuestion(Action):
             Sau đó để khai báo một biến kiểu string ta thực hiện cú pháp: string <tên_variable>; ''',
             'local-variable': '''Biến cục bộ chỉ là một khái niệm hàn lâm, không có cách thực hiện chung chung cụ thể''',
             'auto': '''Để sử dụng kiểu auto, ta thực hiện cú pháp: auto <tên_variable>;
-            Lưu ý: ''',
+            Lưu ý: Chỉ có thể sử dụng kiểu auto ở phiên bản C++ 11 trở lên thôi đó nha''',
             'external': ''' ''',
             'static': ''' ''',
-            'vector': ''' ''',
-            'reference-variable': ''' ''',
+            'vector': '''Để có thể sử dụng vector, trước tiên ta cần phải khai báo thư viện vector với cú pháp: #include <vector>\n
+            Sau đó, ta sẽ khai báo một vector với cú pháp như sau: std::vector <data_type>variable_name;''',
+            'reference-variable': '''Để sử dụng một biến tham chiếu, ta sẽ dùng cú pháp sau: data_type &variable_name = declared_variable''',
             # Câu trả lời về các toán tử
-            'decrement-operator': ''' ''',
-            'increment-operator': ''' ''',
-            'dereference-operator': ''' ''',
-            'address_of-operator': ''' ''',
-            'comma-operator': ''' ''',
-            'ternary-operator': ''' ''',
-            'binary-operator': ''' ''',
-            'unary-operator': ''' ''',
+            'decrement-operator': '''Để sử dụng toán tử giảm, ta sử dụng cú pháp như sau: variable-- hoặc --variable.''',
+            'increment-operator': '''Để sử dụng toán tử tăng, ta sử dụng cú pháp như sau: variable++ hoặc ++variable.''',
+            'dereference-operator': '''Để sử dụng toán tử trỏ, ta sẽ sử dụng cú pháp như sau: data_type variable_name = *declared_variable;''',
+            'address_of-operator': '''Để sử dụng toán tử địa chỉ, ta sẽ sử dụng cú pháp sau: &declared_variable, cú pháp này sẽ trả về cho ta 1 giá trị.''',
+            'comma-operator': '''Toán tử phẩy có rất nhiều công dụng, ta có thể sử dụng nó để khai báo nhiều biến có cùng kiểu dữ liệu như int a, b, c; Hoặc ta dùng nó để truyền các đối số vào trong lời gọi hàm.''',
+            'ternary-operator': '''Để sử dụng toán tử ba ngôi, ta sẽ sử dụng cú pháp như sau: (expression) ? value_if_true : value_if_false. Cú pháp này sẽ trả về cho ta một giá trị cụ thể.''',
+            'binary-operator': '''Để sử dụng toán tử hai ngôi, ta có thể thực hiện theo cú pháp: variable_1 phép_toán variable_2.\n
+            Ví dụ:
+            1 + 2
+            5 * 2
+            10 % 2''',
+            'unary-operator': '''Để sử dụng toán tử hai ngôi, ta có thể sử dụng các toán tử tăng/giảm, toán tử trỏ, toán tử địa chỉ,...''',
             'shift-operator': ''' ''',
             'bitwise-operator': ''' ''',
             'logical-operator': ''' ''',
             'comparison-operator': ''' ''',
             'arithmetic-operator': ''' ''',
-            'assignment-operator': ''' ''',
-            'operator': ''' ''',
+            'assignment-operator': '''Để sử dụng toán tử gán, ta sẽ sử dụng cú pháp: variable_1 = variable_2''',
+            'operator': '''Để sử dụng toán tử, thứ đầu tiên ta cần là các toán hạng (biến), thứ hai là một phép toán cụ thể như +, -, *, /, %, =, ==,...Việc thứ ba là ghép hai thứ đó vào nhau, sau khi biên dịch nó sẽ trả về cho ta một giá trị.''',
+            'scope-resolution-operator':''' ''',
             # Câu trả lời về control flow
             'if': ''' ''',
             'loop': ''' ''',
@@ -484,6 +492,7 @@ class AnswerCppDefineQuestion(Action):
             'arithmetic-operator': ''' ''',
             'assignment-operator': ''' ''',
             'operator': ''' ''',
+            'scope-resolution-operator':''' ''',
             # Câu trả lời về control flow
             'if': ''' ''',
             'loop': ''' ''',
@@ -573,6 +582,7 @@ class AnswerCppDefineQuestion(Action):
             'arithmetic-operator': ''' ''',
             'assignment-operator': ''' ''',
             'operator': ''' ''',
+            'scope-resolution-operator':''' ''',
             # Câu trả lời về control flow
             'if': ''' ''',
             'loop': ''' ''',
@@ -608,6 +618,25 @@ class AnswerCppDefineQuestion(Action):
         }
 
         cpp_content_answer = str()
+
+        #sql_intent_type = {
+        #    'c++_what_asking':1,
+        #    'c++_why_asking':2,
+        #    'c++_when_asking':3,
+        #    'c++_how_asking':4,
+        #    'c++_where_asking':5
+        #}
+
+        #if(type(cpp_content) == list):
+        #    for entity in cpp_content:
+                # TYPE = sql_intent_type[curr_intent]
+                # OBJECT = entity
+                # cpp_content_asnwer = CONTENT (Biến này để truyền vào slotset phía dưới)
+                # dispatcher.utter_message(text=...)
+        #else:
+            # TYPE = sql_intent_type[curr_intent]
+            # OBJECT = cpp_content
+            # cpp_content_asnwer = CONTENT (Biến này để truyền vào slotset phía dưới)
 
         def pull_answer(x):
             if curr_intent == 'c++_what_asking':
@@ -720,7 +749,8 @@ class ValidateCppContentForm(FormValidationAction):
                 'default-value',
                 'main-function',
                 'built-in-function',
-                'lambda']
+                'lambda',
+                'scope-resolution-operator']
 
     def validate_cpp_content(
         self,
