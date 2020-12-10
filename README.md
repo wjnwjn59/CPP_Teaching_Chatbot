@@ -5,14 +5,14 @@
 Hướng dẫn sử dụng:
 1) Cài đặt:
 ```
-pip3 install -U rasa
-pip3 install -U rasa-x
+pip3 install -U rasa==2.1.0
 ```
 2) Sử dụng:
 ```
+rasa run actions
 rasa shell
 ```
 3) Kiểm tra performance:
 ```
-rasa test
+rasa test --cross-validation
 ```
