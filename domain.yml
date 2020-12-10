@@ -29,6 +29,8 @@ intents:
       use_entities: []
   - want_to_ask:
       use_entities: []
+  - dont_want_to_ask:
+      use_entities: []
   - last_name:
       use_entities: []
   - first_name:
@@ -56,6 +58,7 @@ actions:
   - utter_reply_out_of_scope
   - utter_greet
   - utter_may_i_help_u
+  - utter_what_do_you_want
   - utter_did_that_help
   - utter_happy
   - utter_goodbye
@@ -103,6 +106,10 @@ slots:
 
     
 responses:
+  utter_what_do_you_want:
+  - text: Vậy bạn muốn gì?
+  - text: Thế bạn cần gì?
+  
   utter_covid_symptom:
   - text: "COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện.\n\nCác triệu chứng thường gặp nhất:\n_ sốt\n_ ho khan\n_ mệt mỏi\n\nCác triệu chứng ít gặp hơn:\n_ đau nhức\n_ đau họng\n_ tiêu chảy\n_ viêm kết mạc\n_ đau đầu\n_ mất vị giác hoặc khứu giác\n_ da nổi mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái\n\nCác triệu chứng nghiêm trọng:\n_ khó thở\n_ đau hoặc tức ngực\n_ mất khả năng nói hoặc cử động\n\nHãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng. Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế."
 
