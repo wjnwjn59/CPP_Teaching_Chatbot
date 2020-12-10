@@ -1215,6 +1215,7 @@ nlu:
     - khai niem ve [ham vo danh]{"entity": "c++_content", "value": "lambda"}?
     - điểm khác nhau giữa kiểu [float]{"entity": "c++_content", "value": "floating-point"} và kiểu [double]{"entity": "c++_content", "value": "double"} là?
     - cho t biết khái niệm về [mảng]{"entity": "c++_content", "value": "array"}, [pointer]{"entity": "c++_content", "value": "pointer"} đi 
+    - [tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"}, [tham trị]{"entity": "c++_content", "value": "pass-by-value"}, kiểu [int]{"entity": "c++_content", "value": "integer"}, kiểu [float]{"entity": "c++_content", "value": "floating-point"} là gì?
     - hãy cho tao biết thế nào là kiểu [int]{"entity": "c++_content", "value": "integer"}, kiểu [float]{"entity": "c++_content", "value": "floating-point"}, kiểu [char]{"entity": "c++_content", "value": "character"} và kiểu [bool]{"entity": "c++_content", "value": "boolean"}
     - nêu khái niệm về [operator]{"entity": "c++_content", "value": "operator"}, [toán tử số học]{"entity": "c++_content", "value": "arithmetic-operator"}, [toán tử logic]{"entity": "c++_content", "value": "logical-operator"} đi 
     - sự khác nhau giữa việc [truyền tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} và [truyền tham trị]{"entity": "c++_content", "value": "pass-by-value"} là gì?
@@ -1222,22 +1223,27 @@ nlu:
     - nêu cho mình các khái niệm về [cấu trúc điều khiển]{"entity": "c++_content", "value": "control-flow"}, [vòng lặp]{"entity": "c++_content", "value": "loop"} và [lệnh nhảy]{"entity": "c++_content", "value": "jump-statement"} được không?
     - nói gì về [đối số]{"entity": "c++_content", "value": "argument"}, [tham số]{"entity": "c++_content", "value": "parameter"}, [tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} với [tham trị]{"entity": "c++_content", "value": "pass-by-value"} coi
     - sự khác biệt thật sự giữa [struct]{"entity": "c++_content", "value": "structure"} và [union]{"entity": "c++_content", "value": "union"} là gì v bot?
+    - [toán tử định phạm vi]{"entity": "c++_content", "value": "scope-resolution-operator"} là gì 
+    - noi cho toi nghe, [toan tu dinh pham vi]{"entity": "c++_content", "value": "scope-resolution"} la gi ne
 - intent: c++_how_asking
   examples: |
+    - làm sao để t có thể declare một [biến]{"entity": "c++_content", "value": "variable"} v?
     - làm sao để khai báo một [biến]{"entity": "c++_content", "value": "variable"} trong c++ ?
     - cách nào để tạo một [biến]{"entity": "c++_content", "value": "variable"} vậy ?
     - làm cách nào khởi tạo [biến]{"entity": "c++_content", "value": "variable"} trong c++ vậy bạn ơi ?
-    - tôi không biết cách tạo một [biến]{"entity": "c++_content", "value": "variable"} trong c++
+    - tôi không biết cách declare một [biến]{"entity": "c++_content", "value": "variable"} trong c++
+    - t k biết declare một [variable]{"entity": "c++_content", "value": "variable"}, chỉ t với dc k?
     - có cách nào để tôi tạo một [biến]{"entity": "c++_content", "value": "variable"} không
     - nói cho tôi biết cách tạo một [biến]{"entity": "c++_content", "value": "variable"} như thế nào không
     - làm sao tôi có thể khai báo một [biến]{"entity": "c++_content", "value": "variable"} được ?
     - tôi không biết làm sao để tạo một [biến]{"entity": "c++_content", "value": "variable"}
     - mình không biết khai báo một [biến]{"entity": "c++_content", "value": "variable"}
-    - làm s để tạo 1 [variable](c++_content) v?
-    - làm s để tao khai báo một [variable](c++_content) đây?
-    - làm thế nào để t khai báo một [variable](c++_content)?
-    - bằng cách nào t có thể tạo một [variable](c++_content)?
-    - sử dụng các nào để có thể khai báo một [variable](c++_content) vậy?
+    - làm s để declare 1 [variable]{"entity": "c++_content", "value": "variable"} v?
+    - làm s để tao khai báo một [variable]{"entity": "c++_content", "value": "variable"} đây?
+    - làm thế nào để t khai báo một [variable]{"entity": "c++_content", "value": "variable"}?
+    - bằng cách nào t có thể tạo một [variable]{"entity": "c++_content", "value": "variable"})?
+    - sao để declare một [thư viện]{"entity": "c++_content", "value": "library"} đây
+    - sử dụng các nào để có thể khai báo một [variable]{"entity": "c++_content", "value": "variable"} vậy?
     - làm sao để khai báo một [thư viện]{"entity": "c++_content", "value": "library"} trong c++ ?
     - cách nào để khai báo một [thư viện]{"entity": "c++_content", "value": "library"} vậy ?
     - làm cách nào khai báo [thư viện]{"entity": "c++_content", "value": "library"} trong c++ vậy bạn ơi ?
@@ -1258,57 +1264,60 @@ nlu:
     - mình không biết tạo một [struct]{"entity": "c++_content", "value": "structure"}
     - làm sao để khai báo một [mảng]{"entity": "c++_content", "value": "array"} trong c++ ?
     - cách nào để tạo một [mảng]{"entity": "c++_content", "value": "array"} vậy ?
+    - how to declare một [mảng]{"entity": "c++_content", "value": "array"}
+    - làm cách nào để declare một [mảng]{"entity": "c++_content", "value": "array"} v
     - làm cách nào khởi tạo [mảng]{"entity": "c++_content", "value": "array"} trong c++ vậy bạn ơi ?
     - tôi không biết cách tạo một [mảng]{"entity": "c++_content", "value": "array"} trong c++
-    - có cách nào để tôi tạo một [mảng]{"entity": "c++_content", "value": "array"} không
+    - có cách nào để tôi declare một [mảng]{"entity": "c++_content", "value": "array"} không
     - nói cho tôi biết cách tạo một [mảng]{"entity": "c++_content", "value": "array"} như thế nào không
     - làm sao tôi có thể khai báo một [mảng]{"entity": "c++_content", "value": "array"} được ?
     - tôi không biết làm sao để tạo một [mảng]{"entity": "c++_content", "value": "array"}
     - tạo [mảng]{"entity": "c++_content", "value": "array"} kiểu gì vậy ?
-    - làm thế quái nào để tạo ra một [array](c++_content) v?
-    - ê làm sao để t tạo thêm 1 một [array](c++_content) đây?
-    - làm thế nào để tạo ra được một [array](c++_content) v?
-    - làm s để t có thể tạo ra một [array](c++_content) đây m?
+    - làm thế quái nào để tạo ra một [array]{"entity": "c++_content", "value": "array"} v?
+    - ê làm sao để t tạo thêm 1 một [array]{"entity": "c++_content", "value": "array"} đây?
+    - làm thế nào để tạo ra được [array]{"entity": "c++_content", "value": "array"} v?
+    - làm s để t có thể tạo ra một [array]{"entity": "c++_content", "value": "array"} đây m?
     - làm s để t có thể tạo ra một [arr]{"entity": "c++_content", "value": "array"}?
     - how to tạo một [arr]{"entity": "c++_content", "value": "array"}?
-    - làm cách nào để tạo ra một câu lệnh [if](c++_content)?
-    - giờ tao muốn tạo một cái [if](c++_content) thì phải làm s?
-    - giờ t muốn tạo ra một cái [if](c++_content) thì nên làm s đây bot?
-    - chỉ tui cách viết một câu [if](c++_content) đi bạn ui
+    - làm cách nào để tạo ra một câu lệnh [if]{"entity": "c++_content", "value": "if"}?
+    - giờ tao muốn declare một cái [if]{"entity": "c++_content", "value": "if"} thì phải làm s?
+    - giờ t muốn tạo ra một cái [if]{"entity": "c++_content", "value": "if"} thì nên làm s đây bot?
+    - chỉ tui cách viết một câu [if]{"entity": "c++_content", "value": "if"} đi bạn ui
     - làm thế quái nào để tạo ra một câu [điều kiện]{"entity": "c++_content", "value": "if"} bây giờ?
     - chỉ mình cách để viết một câu [điều kiện]{"entity": "c++_content", "value": "if"} đi bạn
     - chỉ mình cách viết một câu [điều kiện]{"entity": "c++_content", "value": "if"} đi bạn hiền
+    - làm sao để declare một câu [điều kiện]{"entity": "c++_content", "value": "if"}
     - chỉ mình cách tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} với
     - chỉ tui cách tạo một [vòng lặp]{"entity": "c++_content", "value": "loop"} với bạn
     - làm sao để tui tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} đây
     - làm thế nào để tui tạo ra một [vòng lặp]{"entity": "c++_content", "value": "loop"} v
-    - chỉ bố m cách viết một [loop](c++_content) coi
-    - bày t cách tạo ra một [loop](c++_content) xem nào
-    - chỉ iem cách viết một [loop](c++_content) đi
-    - chỉ iem cách viết một [loop](c++_content) với
-    - bày iem cách viết tạo ra [loop](c++_content) đi ianh
-    - làm s để t viết vòng lặp [for](c++_content) đây m
-    - làm thế nào để t tạo ra một vòng [for](c++_content) đây
-    - how to tạo ra một vòng [for](c++_content) v m
-    - cách tạo ra vòng [for](c++_content) như thế nào đây
-    - chỉ bố m viết ra một vòng [for](c++_content) coi
-    - chỉ bố m cách tạo ra một vòng [for](c++_content) đi
-    - cách nào để t tạo ra một vòng [while](c++_content) v m
-    - làm thế nào để t tạo ra một vòng [while](c++_content) đây mày
-    - bằng cách nào t có thể viết ra dc một vòng [while](c++_content)?
-    - làm s để t implement được một vòng [while](c++_content) đây?
-    - làm s để tạo ra được một vòng [do while](c++_content) đây ta
-    - làm cách nào để t có thể khai báo được một cái [do while](c++_content) v?
-    - làm cách nào để t viết ra đc một câu [do while](c++_content) đây
-    - như thế nào để có thể viết dc một câu [break](c++_content) v
-    - làm sao để sử dụng [break](c++_content) đây ta
-    - làm sao để mình có thể sử dụng được [break](c++_content)?
-    - bây giờ làm sao để t có thể sử dụng được từ khóa [break](c++_content) đây?
-    - làm sao để sử dụng từ khóa [continue](c++_content) đây nhỉ
-    - how to tạo ra từ khóa [continue](c++_content) đây
-    - làm thế nào để có thể sử dụng tốt từ khóa [continue](c++_content)?
-    - ê bot chỉ t cách sử dụng từ khóa [continue](c++_content)
-    - chỉ t cách sử dụng từ khóa [continue](c++_content) đi
+    - chỉ bố m cách viết một [loop]{"entity": "c++_content", "value": "loop"} coi
+    - bày t cách tạo ra một [loop]{"entity": "c++_content", "value": "loop"} xem nào
+    - chỉ iem cách viết một [loop]{"entity": "c++_content", "value": "loop"} đi
+    - chỉ iem cách viết một [loop]{"entity": "c++_content", "value": "loop"} với
+    - bày iem cách viết tạo ra [loop]{"entity": "c++_content", "value": "loop"} đi ianh
+    - làm s để t viết vòng lặp [for]{"entity": "c++_content", "value": "for"} đây m
+    - làm thế nào để t tạo ra một vòng [for]{"entity": "c++_content", "value": "for"} đây
+    - how to tạo ra một vòng [for]{"entity": "c++_content", "value": "for"} v m
+    - cách tạo ra vòng [for]{"entity": "c++_content", "value": "for"} như thế nào đây
+    - chỉ bố m viết ra một vòng [for]{"entity": "c++_content", "value": "for"} coi
+    - chỉ bố m cách tạo ra một vòng [for]{"entity": "c++_content", "value": "for"} đi
+    - cách nào để t tạo ra một vòng [while]{"entity": "c++_content", "value": "for"} v m
+    - làm thế nào để t tạo ra một vòng [while]{"entity": "c++_content", "value": "for"} đây mày
+    - bằng cách nào t có thể viết ra dc một vòng [while]{"entity": "c++_content", "value": "for"}?
+    - làm s để t implement được một vòng [while]{"entity": "c++_content", "value": "for"} đây?
+    - làm s để tạo ra được một vòng [do while]{"entity": "c++_content", "value": "do-while"} đây ta
+    - làm cách nào để t có thể khai báo được một cái [do while]{"entity": "c++_content", "value": "do-while"} v?
+    - làm cách nào để t viết ra đc một câu [do while]{"entity": "c++_content", "value": "do-while"} đây
+    - như thế nào để có thể viết dc một câu [break]{"entity": "c++_content", "value": "break"} v
+    - làm sao để sử dụng [break]{"entity": "c++_content", "value": "break"} đây ta
+    - làm sao để mình có thể sử dụng được [break]{"entity": "c++_content", "value": "break"}?
+    - bây giờ làm sao để t có thể sử dụng được từ khóa [break]{"entity": "c++_content", "value": "break"} đây?
+    - làm sao để sử dụng từ khóa [continue]{"entity": "c++_content", "value": "continue"} đây nhỉ
+    - how to tạo ra từ khóa [continue]{"entity": "c++_content", "value": "continue"} đây
+    - làm thế nào để có thể sử dụng tốt từ khóa [continue]{"entity": "c++_content", "value": "continue"}?
+    - ê bot chỉ t cách sử dụng từ khóa [continue]{"entity": "c++_content", "value": "continue"}
+    - chỉ t cách sử dụng từ khóa [continue]{"entity": "c++_content", "value": "continue"} đi
 - intent: c++_why_asking
   examples: |
     - vì sao lại phải sử dụng [comment]{"entity": "c++_content", "value": "comment"}?
@@ -1521,6 +1530,9 @@ nlu:
     - vì sao lại nên phân biệt [biến cục bộ]{"entity": "c++_content", "value": "local-variable"} và [biến toàn cục]{"entity": "c++_content", "value": "global-variable"} ra chi v?
     - vì sao lại có khái niệm về [local variable]{"entity": "c++_content", "value": "local-variable"} và [global variable]{"entity": "c++_content", "value": "global- variable"}?
     - vì sao lại có các khái niệm về [truyền tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} hay [truyền tham trị]{"entity": "c++_content", "value": "pass-by-value"} v?
+    - tại sao lại cần [toán tử định phạm vi]{"entity": "c++_content", "value": "scope-resolution-operator"}?
+    - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "c++_content", "value": "scope-resolution-operator"}?
+    - vì sao lại cần các [kiểu dữ liệu]{"entity": "c++_content", "value": "data-type"} như kiểu int, kiểu float v bot 
 - intent: c++_when_asking
   examples: |
     - khi nào thì cần khai báo một [biến]{"entity": "c++_content", "value": "variable"}?
@@ -1564,6 +1576,17 @@ nlu:
   examples: |
     - corona 
     - tình hình corona 
+    - corona là gì
+    - thế nào là corona
+    - corona là sao?
+    - như thế nào là corona
+    - một con corona là như thế nào
+    - thế nào là 1 bé covid 19
+    - covid mười chín 
+    - cho hỏi corona
+    - cồ rô nà là gì v
+    - corona là wtf gì
+    - cho tôi hỏi thế nào là một con corona
     - covid-19
     - tình hình dịch corona 
     - phòng ngừa corona 
@@ -1725,6 +1748,64 @@ nlu:
     - bài tập về toán tử 2 ngôi 
     - các bài toán về toán tử nói chung 
     - một số bài ôn tập về c++
+- intent: dont_want_to_ask
+  examples: |
+    - tao k muốn hỏi về nó
+    - bố m k muốn hỏi về c++ 
+    - t k muốn hỏi về con trỏ
+    - bố k hỏi về corona
+    - tao k có hỏi về toán tử toán tiếc gì hết
+    - mình không muốn hỏi về các loại toán tử như toán tử nhân hay toán tử chia gì hết á 
+    - chị k có cần cưng giải đáp về các kiểu dữ liệu
+    - bố k muốn hỏi gì về đệ quy hết luôn á
+    - mình không muốn hỏi gì về cpp hết
+    - tôi không muốn hỏi bất cứ điều gì từ cậu cả
+    - Tao không có cần mày phải giải đáp gì cho tao hết, được chưa ?
+    - nè, bố m k cần m giải thích gì cả, nín
+    - t k muốn hỏi gì về hàm hết 
+    - tôi không muốn hỏi về tham chiếu tham trị
+    - tôi thật sự không muốn hỏi bất cứ một điều gì về c++ hết 
+    - bản thân thôi không muốn hỏi bất cứ điều gì về lập trình ở đây cả 
+    - tôi, k muốn hỏi
+    - k hỏi
+    - ko hỏi
+    - không hỏi
+    - không thích hỏi
+    - không muốn hỏi gì về class hết 
+    - tao đang không cần hỏi gì về struct cả
+    - toán tử ba ngôi, tao không muốn hỏi
+    - toán tử, t k cần hỏi
+    - cái gì? thư viện ư? k việc gì mà t phải đi hỏi m hết
+    - không việc gì mà t phải đi hỏi cái thể loại như m hết 
+    - việc gì mà t phải đi hỏi bài m 
+    - mắc gì t phải đi hỏi m 
+    - tại sao t lại phải hỏi bài m 
+    - t không cần hỏi bài m 
+    - chắc bố m cần hỏi bài m chắc 
+    - bố ko muốn hỏi gì hết 
+    - ko hỏi gì hết
+    - ko muốn hỏi bất cứ điều gì hết
+    - tôi ko mún hỏi về toán tử địa chỉ
+    - tôi ko muốn hỏi về vòng lặp
+    - tôi thật sự, thành thật mà nói, tôi không muốn hỏi bất cứ một điều gì về lập trình từ bạn luôn đó
+    - thành thật mà nói thì, tao ko muốn hỏi bất cứ một điều gì cả hihi
+    - hihi t k muốn hỏi gì về namespace cả
+    - hahahaha t k hỏi gì về hàm lambda cả nha
+    - tôi...không hỏi gì đâu
+    - bố mày đéo muốn hỏi cc gì cả ok k 
+    - có cc mà t hỏi về toán tử định phạm vi nha
+    - tao khong muon hoi
+    - tao that su khong muon hoi ve con tro 
+    - t k can hoi ve de quy 
+    - t k muon hoi ve corona
+    - t that su k muon hoi bat cu thu gi ve toan tu
+    - toi k muon hoi gi ve con tro het
+    - toi k co muon hoi ve kieu du lieu
+    - i dont want to ask 
+    - i don't really want to ask you about that
+    - I think I don't really have any interested in asking you about pointer
+    - I dont want to ask you about corona
+    - I really don't likely to ask you about recursion
 - synonym: library
   examples: |
     - thư viện
@@ -2354,3 +2435,13 @@ nlu:
     - hàm không tên
     - lambda function
     - anonymous function
+- synonym: scope-resolution-operator
+  examples: |
+    - toán tử định phạm vi
+    - toán tử phạm vi
+    - toán tử ::
+    - ::
+    - toan tu dinh pham vi
+    - toan tu pham vi
+    - toan tu ::
+    - scope resolution operators
