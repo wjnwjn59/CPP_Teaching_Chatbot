@@ -4,7 +4,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-from database_connect import DataUpdate
+# from .database_connect import DataGet
 
 class AnswerCppDefineQuestion(Action):
 
@@ -230,12 +230,12 @@ class AnswerCppDefineQuestion(Action):
             'static': 'Với biến static, dù đặt bên trong hay bên ngoài khối lệnh thì nó vẫn sẽ có hiệu lực - tức bất kì sự thay đổi giá trị ở đâu cũng làm biến static cập nhật đúng với giá trị đó - giống với Biến toàn cục (Global variable).',
             'vector': 'Khá giống với kiểu Mảng về chức năng, nhưng bên cạnh đó Vector còn cho thấy thêm một số điểm ưu việt hơn so với Array như việc không cần phải khai báo kích thước vì Vector có thể tự động tăng kích thước của nó lên, có thể biết được số lượng phần tử đang lưu bên trong nó hay có thể dùng được số phần tử âm,...',
             # Câu trả lời về các toán tử
-            'comma-operator': '''Sử dụng dấu phẩy để khai báo đồng thời nhiêu biến khác nhau. Tiết kiệm được thời gian và làm code của bạn dễ nhìn và dễ đọc hơn.''',
+            'comma-operator': 'Sử dụng dấu phẩy để khai báo đồng thời nhiêu biến khác nhau. Tiết kiệm được thời gian và làm code của bạn dễ nhìn và dễ đọc hơn.',
             'ternary-operator': 'Một dạng rút gọn của if else tuy nhiên sẽ có kết quả trả về là False hoặc True.',
             'binary-operator': ' Có 5 toán tử số học 2 ngôi trong C++ đó là: Cộng (Addition : +), Trừ (Subtraction : -), Nhân (Multiplication : *), Chia lấy nguyên (Division : /), Chia lấy dư (Modulus : %)',
             'unary-operator': 'Ví dụ như việc bạn sử dụng dấu - để biểu diễn số âm kiểu -11, -60,...',
             'shift-operator': 'Shift Operators gồm hai loại là Left Shift và Right Shift, Left Shift sẽ dời dịch chuyển trái các bit của toán hạng đầu tiên, toán hạng thứ hai quyết định số vị trí cần dịch chuyển, hay nói cách khác  việc chuyển trái một số nguyên “x” với một số nguyên “y” (x << y) tương đương với việc nhân x với 2 ^ y và ngược lại với Right Shift.',
-            'bitwise-operator': '''Bitwise khá mạnh trong việc xử lý các bài toán phức tạp, đây là một công cụ rất được ưa thích của các bạn tham gia Competitive Programming''',
+            'bitwise-operator': 'Bitwise khá mạnh trong việc xử lý các bài toán phức tạp, đây là một công cụ rất được ưa thích của các bạn tham gia Competitive Programming',
             'logical-operator': 'Biểu diễn các biểu thức True hoặc False',
             'operator': 'Sử dụng toán tử (Operators) để biểu diễn các phép toán cơ bản.',
             # Câu trả lời về control flow
@@ -607,7 +607,6 @@ class AnswerCppDefineQuestion(Action):
             'lambda': ''' '''
         }
 
-        cpp_content_answer = str()
 
         def pull_answer(x):
             if curr_intent == 'c++_what_asking':
@@ -630,6 +629,7 @@ class AnswerCppDefineQuestion(Action):
                 dispatcher.utter_message(text=pull_answer(entity))
         else:
                 dispatcher.utter_message(text=pull_answer(cpp_content))
+        cpp_content_answer = pull_answer(cpp_content)        
 
         return [SlotSet("cpp_content_answer", cpp_content_answer)]
 
