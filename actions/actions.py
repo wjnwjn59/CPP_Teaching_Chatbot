@@ -1,5 +1,4 @@
 #from _typeshed import OpenBinaryMode
-from actions.database_connect import DataGet
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.executor import CollectingDispatcher
@@ -7,6 +6,7 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
 from .database_connect import DataGet
+import mysql.connector
 
 class AnswerCppDefineQuestion(Action):
 
@@ -619,7 +619,7 @@ class AnswerCppDefineQuestion(Action):
             'lambda': ''' '''
         }
 
-        cpp_content_answer = str()
+        cpp_content_answer = ""
 
         sql_intent_type = {
            'c++_why_asking':1,
@@ -632,13 +632,13 @@ class AnswerCppDefineQuestion(Action):
         if(type(cpp_content) == list):
            for entity in cpp_content:
                 TYPE = sql_intent_type[curr_intent]
-                OBJECT = entity
-                cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
+                OBJECT = str(entity)
+                cpp_content_asnwer = DataGet(TYPE,OBJECT)
                 dispatcher.utter_message(text=cpp_content_answer)
         else:
             TYPE = sql_intent_type[curr_intent]
-            OBJECT = cpp_content
-            cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
+            OBJECT = str(cpp_content)
+            cpp_content_asnwer = DataGet(TYPE,OBJECT)
             dispatcher.utter_message(text=cpp_content_answer)
 
         # def pull_answer(x):

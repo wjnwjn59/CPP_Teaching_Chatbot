@@ -6,23 +6,9 @@ mydb = mysql.connector.connect(
   password="",
   database="CPPCONTENT"
 )
-def GetObject(object):
-  mycursor = mydb.cursor()
-  mycursor.execute("SELECT OBJECT FROM CPP WHERE OBJECT = '{}'".format(object))
-  myresult = mycursor.fetchall()
-  return myresult
+mycursor = mydb.cursor()
 
 def DataGet(type,object):
-  mycursor = mydb.cursor()
   mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
   myresult = mycursor.fetchall()
-  return myresult
-
-print(DataGet(1,"comment"))
-
-
-
-
-# print(DataGet(1,'comment'))
-
-
+  return str(myresult).replace("[(","").replace(",)]","")
