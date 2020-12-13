@@ -5,8 +5,7 @@
 Hướng dẫn sử dụng:
 1) Cài đặt:
 ```
-pip3 install -U rasa
-pip3 install -U rasa-x
+pip3 install -U rasa==2.1.0
 ```
 2) Sử dụng:
 ```
@@ -15,4 +14,13 @@ rasa shell
 3) Kiểm tra performance:
 ```
 rasa test
+```
+
+## Docker:
+- Ngoài ra bên mình còn build hai docker container:
++ Container action: 
++ Container rasa: 
+- Để kết nối hai container với nhau, ta sử dụng lệnh 
+```
+docker create network <tên network bạn muốn tạo>
 ```
