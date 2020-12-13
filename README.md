@@ -6,10 +6,11 @@
 Hướng dẫn sử dụng:
 1) Cài đặt:
 ```
-pip3 install rasa==2.1.0
+pip3 install -U rasa==2.1.0
 ```
 2) Sử dụng:
 ```
+rasa run actions
 rasa shell
 ```
 3) Kiểm tra performance:
@@ -19,7 +20,7 @@ rasa test --cross-validation
 ```
 - Nếu bạn có thể tạo cho mình bộ test ưng ý chỉ cần chạy lệnh:
 ```
-rasa test
+rasa test --cross-validation
 ```
 
 ## Docker:
