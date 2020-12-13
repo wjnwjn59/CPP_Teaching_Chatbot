@@ -12,6 +12,11 @@ pip3 install -U rasa==2.1.0
 rasa shell
 ```
 3) Kiểm tra performance:
+- Đối với bộ dữ liệu ít, mình khuyên dùng:
+```
+rasa test --cross-validation
+```
+- Nếu bạn có thể tạo cho mình bộ test ưng ý chỉ cần chạy lệnh:
 ```
 rasa test
 ```
