@@ -6,7 +6,7 @@
 Hướng dẫn sử dụng:
 1) Cài đặt:
 ```
-pip3 install -U rasa==2.1.0
+pip3 install rasa==2.1.0
 ```
 2) Sử dụng:
 ```
