@@ -18,9 +18,9 @@ rasa test
 
 ## Docker:
 - Ngoài ra bên mình còn build hai docker container:
-+ Container action: 
-+ Container rasa: 
-- Để kết nối hai container với nhau, ta sử dụng lệnh 
+  + Container action: https://hub.docker.com/repository/docker/nguyenquang7501/rasa-sdk
+  + Container rasa: https://hub.docker.com/repository/docker/nguyenquang7501/rasa
+- Để kết nối hai container với nhau, ta sử dụng lệnh:
 ```
 docker create network <tên network bạn muốn tạo>
 ```
