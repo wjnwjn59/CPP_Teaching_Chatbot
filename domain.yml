@@ -33,12 +33,15 @@ intents:
       use_entities: []
   - who_are_you:
       use_entities: []
+  - who_create_you:
+      use_entities: []
   - cpp_practice
   - c++_what_asking
   - c++_how_asking
   - c++_why_asking
   - c++_when_asking
   - c++_where_asking
+  - c++_example_asking
   - out_of_scope
   - corona
 
@@ -53,6 +56,7 @@ actions:
   - utter_reply_deny
   - utter_reply_out_of_scope
   - utter_greet
+  - utter_author
   - utter_may_i_help_u
   - utter_what_do_you_want
   - utter_did_that_help
@@ -93,15 +97,11 @@ slots:
   cpp_content_answer:
     type: text
     influence_conversation: true
-  firstN: 
-    type: text
-    influence_conversation: true 
-  lastN:
-    type: text
-    influence_conversation: true
-
     
 responses:
+  utter_author:
+  - text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, cùng học lớp KHCL2019.3 tại HCMUIT <3 Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè
+
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
