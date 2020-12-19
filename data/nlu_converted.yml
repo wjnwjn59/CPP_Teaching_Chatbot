@@ -285,6 +285,7 @@ nlu:
     - bye
     - goodbye
     - see you later
+    - see ya
     - tạm biệt
     - hẹn gặp lại
     - tao đi đây con trai
@@ -2371,6 +2372,9 @@ nlu:
     - toan tu gan
 - synonym: operator
   examples: |
+    - Toán tử 
+    - Operators 
+    - Operator
     - toán tử
     - toan tu
     - operators
@@ -2378,6 +2382,7 @@ nlu:
 # Các từ đồng nghĩa cho phần control flow
 - synonym: if
   examples: |
+    - IF
     - điều kiện
     - dieu kien 
     - nếu
@@ -2385,6 +2390,7 @@ nlu:
     - ifs
 - synonym: loop
   examples: |
+    - Loop
     - vòng lặp
     - lặp
     - lap
@@ -2453,16 +2459,19 @@ nlu:
     - fors
 - synonym: while
   examples: |
+    - While
     - while
     - whiles
 - synonym: do-while
   examples: |
+    - Do while
     - do while
     - do whiles
     - dowhile
     - dowhiles
 - synonym: switch
   examples: |
+    - Switch
     - switch
     - switchs
     - switchcase
