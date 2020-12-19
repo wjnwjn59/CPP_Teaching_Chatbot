@@ -1,12 +1,26 @@
 #from _typeshed import OpenBinaryMode
-from actions.database_connect import DataGet
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-from .database_connect import DataGet
+import mysql.connector
+
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="",
+  database="CPPCONTENT"
+)
+
+mycursor = mydb.cursor()
+
+def DataGet(type,object):
+  mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
+  myresult = mycursor.fetchall()
+  return str(myresult).replace("[(","").replace(",)]","")
 
 class AnswerCppDefineQuestion(Action):
 
@@ -380,7 +394,7 @@ class AnswerCppDefineQuestion(Action):
                 THUBAY
             };''',
             'integer': '''Để sử dụng kiểu số nguyên (integer), ta thực hiện cú pháp: int <tên_variable>;''',
-            'floating-point': '''Để sử dụng kiểu dấu chấm động (floating point), ta thực hiện cú pháp: float <tên_variable>; ''',
+            'floating-point': '''Để sử dụng kiểu dấu chấm động (floating point), ta thực hiện cú pháp: float <tên_variable>;''',
             'double': '''Để sử dụng kiểu double, ta thực hiện cú pháp: double <tên_variable>; ''',
             'character': '''Để sử dụng kiểu character, ta thực hiện cú pháp: char <tên_variable>; ''',
             'string': '''Để sử dụng kiểu string, trước hết ta cần khai báo thư viện string bằng cách sử dụng cú pháp: #include <string.h>\n
@@ -1835,52 +1849,52 @@ class AnswerCppDefineQuestion(Action):
             'lambda': ''' '''
         }
 
-        cpp_content_answer = str()
+        cpp_content_answer = ""
 
-        sql_intent_type = {
-           'c++_why_asking':1,
-           'c++_what_asking':2,
-           'c++_when_asking':3,
-           'c++_how_asking':4,
-           'c++_where_asking':5
-           'c++_example_asking':6
-        }
+        #sql_intent_type = {
+        #   'c++_why_asking':1,
+        #   'c++_what_asking':2,
+        #   'c++_when_asking':3,
+        #   'c++_how_asking':4,
+        #   'c++_where_asking':5
+        #   'c++_example_asking':6
+        #}
 
-        if(type(cpp_content) == list):
-           for entity in cpp_content:
-                TYPE = sql_intent_type[curr_intent]
-                OBJECT = entity
-                cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
-                dispatcher.utter_message(text=cpp_content_answer)
-        else:
-            TYPE = sql_intent_type[curr_intent]
-            OBJECT = cpp_content
-            cpp_content_asnwer = DataGet(TYPE,str(OBJECT))
-            dispatcher.utter_message(text=cpp_content_answer)
-
-        # def pull_answer(x):
-        #     if curr_intent == 'c++_what_asking':
-        #         cpp_content_answer = all_answers_what[x]
-        #     elif curr_intent == 'c++_why_asking':
-        #         cpp_content_answer = all_answers_why[x]
-        #     elif curr_intent == 'c++_when_asking':
-        #         cpp_content_answer = "Invalid at the moment"
-        #     elif curr_intent == 'c++_how_asking':
-        #         cpp_content_answer = c++_how_asking[x]
-        #     elif curr_intent == 'c++_where_asking':
-        #         cpp_content_answer = "Invalid at the moment"
-        #     elif curr_intent == 'c++_example_asking':
-        #         cpp_content_answer = all_answers_example[x]
-        #     else:
-        #         cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
-            
-        #     return cpp_content_answer
-        
         # if(type(cpp_content) == list):
-        #     for entity in cpp_content:
-        #         dispatcher.utter_message(text=pull_answer(entity))
+        #    for entity in cpp_content:
+        #         TYPE = sql_intent_type[curr_intent]
+        #         OBJECT = str(entity)
+        #         cpp_content_asnwer = DataGet(TYPE,OBJECT)
+        #         dispatcher.utter_message(text=cpp_content_answer)
         # else:
-        #         dispatcher.utter_message(text=pull_answer(cpp_content))
+        #     TYPE = sql_intent_type[curr_intent]
+        #     OBJECT = str(cpp_content)
+        #     cpp_content_asnwer = DataGet(TYPE,OBJECT)
+        #     dispatcher.utter_message(text=cpp_content_answer)
+
+        def pull_answer(x):
+            if curr_intent == 'c++_what_asking':
+                cpp_content_answer = all_answers_what[x]
+            elif curr_intent == 'c++_why_asking':
+                cpp_content_answer = all_answers_why[x]
+            elif curr_intent == 'c++_when_asking':
+                cpp_content_answer = "Invalid at the moment"
+            elif curr_intent == 'c++_how_asking':
+                cpp_content_answer = all_answers_how[x]
+            elif curr_intent == 'c++_where_asking':
+                cpp_content_answer = "Invalid at the moment"
+            elif curr_intent == 'c++_example_asking':
+                cpp_content_answer = all_answers_example[x]
+            else:
+                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+            
+            return cpp_content_answer
+        
+        if(type(cpp_content) == list):
+            for entity in cpp_content:
+                dispatcher.utter_message(text=pull_answer(entity))
+        else:
+                dispatcher.utter_message(text=pull_answer(cpp_content))
 
         return [SlotSet("cpp_content_answer", cpp_content_answer)]
 
