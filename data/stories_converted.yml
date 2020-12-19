@@ -5,6 +5,11 @@ stories:
   - intent: feeling_good
   - action: utter_reply_feeling_good
 
+- story: ask about the authors
+  steps:
+  - intent: who_create_you
+  - action: utter_author
+
 - story: who are you
   steps:
   - intent: who_are_you
@@ -578,6 +583,105 @@ stories:
   - action: utter_reply_deny   
   - intent: affirm 
 
+- story: c++ example asking 1
+  steps:
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+
+- story: c++ example asking 2
+  steps:
+  - intent: want_to_ask
+  - action: utter_accept_questions
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+
+- story: c++ example asking 3
+  steps:
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: compliment
+  - action: utter_reply_compliment
+
+- story: c++ example asking 4
+  steps:
+  - intent: c++_when_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: stop_asking
+  - action: utter_reply_stop_asking
+  - action: utter_thanks
+
+- story: c++ example asking 5
+  steps:
+  - intent: c++_when_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: continue_asking
+  - action: utter_accept_questions
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+
+- story: c++ example asking 6
+  steps:
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+
+- story: c++ example asking 7
+  steps:
+  - intent: c++_example_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+  - action: utter_ask_anything_else
+  - intent: deny
+  - action: utter_reply_deny 
+  - intent: affirm 
+
 - story: anything else? - yes
   steps:
   - action: utter_ask_anything_else
@@ -650,6 +754,17 @@ stories:
   steps:
   - action: utter_ask_anything_else
   - intent: c++_where_asking
+    entities:
+    - c++_content: c++
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: action_c++_content_answer
+
+- story: anything else - dive into example
+  steps:
+  - action: utter_ask_anything_else
+  - intent: c++_example_asking
     entities:
     - c++_content: c++
   - action: cpp_content_form

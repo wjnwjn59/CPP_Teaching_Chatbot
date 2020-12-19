@@ -57,6 +57,58 @@ nlu:
     - hi sir 
     - yo yo yo
     - yo
+- intent: who_create_you
+  examples: |
+    - ê ai làm ra mày v
+    - tác giả của dự án này?
+    - ai là người đã sáng tạo ra mày thế bot
+    - bot ơi ai làm ra mày vậy
+    - ê thằng lz nào tạo ra ml mày thế
+    - ai là người đã create m ?
+    - cho tao hỏi tác giả của mày là thằng nào ?
+    - thằng nào làm ra mày?
+    - khai nhanh, thằng nào đã tạo ra mày?
+    - cho t biết danh xưng của người đã tạo ra mày nào
+    - ai là người đã mang mày đến thế giới này thế bot
+    - người đã mang mày đến đây là ai Vậy
+    - cho t hỏi người làm ra cái này
+    - lập trình viên nào đã tạo ra mày 
+    - ông coder nào đã tạo ra mày vậy 
+    - ai đã nhào nặn ra mày thế bot ngu
+    - người nào đã tham gia tạo ra ml mày vậy bot lz 
+    - ai là người đã làm nên bạn như ngày hôm nay bot
+    - ai là người đã làm mày ra nông nỗi như này vậy bot ngu
+    - ê bot lz què, ai là người tạo ra m v 
+    - tác giả
+    - tác giả là ai
+    - ai đã lập trình ra m thế bot
+    - ê cho tao xin link người đã tạo ra mày được không ?
+    - cho mình xin link facebook hai người đã tạo ra bạn đi
+    - link face tác giả
+    - cho tui xin link facebook người đã tạo ra mày được hong bot ><
+    - nè bot ơi, t tò mò muốn biết ai là người đã tạo ra mày vậy, bật mí tao nghe được k 
+    - người nào đã tạo ra m vậy bot ngu 
+    - những người đã đóng góp trong việc tạo ra mày gồm những ai
+    - những người đã tạo ra mày
+    - ai đã thiết kế mày?
+    - thằng nào đã thiết kế ra mày
+    - bật mí t nghe về kẻ sáng tạo ra m được k 
+    - who created you ?
+    - who is the author of this project
+    - ai da tao ra may
+    - tac gia thiet ke may la ai 
+    - ai da lap trinh ra may
+    - nguoi nao da lam ra may
+    - ai la nguoi da tao ra may v 
+    - nguoi nao da thiet ke ra m 
+    - cho t cai ten ve nguoi da tao ra m di
+    - nguoi nao da tao ra m the bot
+    - bot oi, ai la nguoi da create m v
+    - nguoi nao da tao ra may nhu bay gio vay
+    - cho tui cai ten ve nguoi da tao ra may di
+    - cho tui ten ve nhung nguoi da tao ra ban di bot
+    - cho tui xin link face cua nhung nguoi da tao ra ban di hihi
+    - cho tui link facebook tac gia cua du an nay di 
 - intent: attention
   examples: |
     - êii
@@ -831,6 +883,86 @@ nlu:
     - em iu anh
     - em iu em
     - t iu ma 
+    - ai la con di cua anh nao
+    - ai là con đĩ của anh nào 
+- intent: c++_example_asking
+  examples: |
+    - cho một cái ví dụ về [mảng]{"entity": "c++_content", "value": "array"} đi iem
+    - ê cho cái ví dụ về [array]{"entity": "c++_content", "value": "array"}
+    - ví dụ về [mảng một chiều]{"entity": "c++_content", "value": "array"} đi mày
+    - cho bố mày một ví dụ về [library]{"entity": "c++_content", "value": "library"}
+    - một số ví dụ về [thư viện]{"entity": "c++_content", "value": "thư viện"}
+    - hãy cho tôi một vài ví dụ về [libraries]{"entity": "c++_content", "value": "library"}
+    - cho tôi một ví dụ về [namespace]{"entity": "c++_content", "value": "namepsace"} được không?
+    - cho tôi xin một ví dụ về [không gian tên]{"entity": "c++_content", "value": "namespace"} với ạ
+    - kể tao nghe về một số ví dụ về [comment]{"entity": "c++_content", "value": "comment"} đi bot
+    - ê bot, cho t 1 số ví dụ về [comment]{"entity": "c++_content", "value": "comment"} đê
+    - nè bot, ví dụ về [comment]{"entity": "c++_content", "value": "comment"} thử 
+    - dcmm cho t 1 ví dụ về [commnet]{"entity": "c++_content", "value": "comment"} đi duma
+    - ê, ví dụ về [biến]{"entity": "c++_content", "value": "variable"}
+    - ví dụ [variable]{"entity": "c++_content", "value": "variable"}
+    - một vài ví dụ về [variable]{"entity": "c++_content", "value": "variable"}
+    - cho tôi 1 số dí dụ zề [variables]{"entity": "c++_content", "value": "variable"} với 
+    - bạn ei, cho mình một vài ví dụ về [toán tử]{"entity": "c++_content", "value": "operator"} đc hong
+    - nè bot ơi, cho tao ví dụ về [operators]{"entity": "c++_content", "value": "operator"} đi mày 
+    - mày ơi, cho tao ví dụ về [if]{"entity": "c++_content", "value": "if"} đi
+    - cho mình 1 cái example về [if]{"entity": "c++_content", "value": "if"} thử coi nè
+    - hmmm, cho mình thử một ví dụ về câu [điều kiện]{"entity": "c++_content", "value": "if"} thử xem sao nè
+    - mèn oiii, cho tui ví dụ về [for]{"entity": "c++_content", "value": "for"} xem thử nà
+    - một vài ví dụ về [for]{"entity": "c++_content", "value": "for"} cho người ta được ko ?
+    - hãy cho iem một số ví dụ về vòng [while]{"entity": "c++_content", "value": "while"} đi ạ
+    - a ơi, cho e ví dụ về vòng lặp [do while]{"entity": "c++_content", "value": "do-while"} đi a
+    - thầy, cho đồ đệ ví dụ về vòng lặp [while]{"entity": "c++_content", "value": "while"} được không ạ?
+    - ê, tao vẫn chưa hiểu về cái vòng lặp trong c++ lắm, cho thử một ví dụ về [vòng lặp]{"entity": "c++_content", "value": "loop"} xem nào 
+    - ví dụ về 1 [vòng lặp]{"entity": "c++_content", "value": "loop"} trong c++ xem nào
+    - ví dụ về [loops]{"entity": "c++_content", "value": "loop"} trong c++ xem thử nào 
+    - cho tôi ví dụ về các loại vòng lặp [for]{"entity": "c++_content", "value": "for"}, [while]{"entity": "c++_content", "value": "while"} và [do while]{"entity": "c++_content", "value": "do-while"} đi
+    - hãy cho tôi một vài các cái ví dụ về vòng [for]{"entity": "c++_content", "value": "for"} vòng [while]{"entity": "c++_content", "value": "while"} và vòng [do while]{"entity": "c++_content", "value": "do-while"}
+    - cho mình một số các cái ví dụ về lệnh [break]{"entity": "c++_content", "value": "break"} và lệnh [continue]{"entity": "c++_content", "value": "continue"} đi ạ
+    - một số chiếc examples về [break]{"entity": "c++_content", "value": "break"} và [goto]{"entity": "c++_content", "value": "goto"} đi ạ
+    - này, ví dụ về [break]{"entity": "c++_content", "value": "break"} cho bổn tọa nhanh
+    - eg về [hàm]{"entity": "c++_content", "value": "function"}
+    - e.g về [function]{"entity": "c++_content", "value": "function"} thử xem nào
+    - một số instances về [hàm]{"entity": "c++_content", "value": "function"} thử nè
+    - cho mình một số các cái ví dụ về [tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} và [tham trị]{"entity": "c++_content", "value": "pass-by-value"} đi nè 
+    - ví dụ thử cho mình về [tham trị]{"entity": "c++_content", "value": "pass-by-value"} [tham chiếu]{"entity": "c++_content", "value": "pass-by-reference"} đê 
+    - ví dụ cụ thể về [tham số]{"entity": "c++_content", "value": "parameter"} và [đối số]{"entity": "c++_content", "value": "argument"}
+    - hãy ví dụ cụ cmn thể về [đệ quy]{"entity": "c++_content", "value": "recursion"} đi 
+    - [recursion]{"entity": "c++_content", "value": "recursion"} ví dụ
+    - examples về [recursions]{"entity": "c++_content", "value": "recursion"}
+    - ví dụ về [mảng một chiều]{"entity": "c++_content", "value": "array"} và [mảng hai chiều]{"entity": "c++_content", "value": "2d-array"} đê
+    - [class]{"entity": "c++_content", "value": "class"} ví dụ nào
+    - ví dụ về [con trỏ]{"entity": "c++_content", "value": "pointer"} coi đụ má
+    - dm cho bố m ví dụ về [con trỏ]{"entity": "c++_content", "value": "pointer"} đi
+    - ví dụ cụ thể nhất về [pointer]{"entity": "c++_content", "value": "pointer"}
+    - một số vú dị về [kiểu dữ liệu]{"entity": "c++_content", "value": "data-type"}
+    - vú dị về [integer]{"entity": "c++_content", "value": "integer"}
+    - dí vụ thử về kiểu [int]{"entity": "c++_content", "value": "integer"} xem nào
+    - dí dụ thử về kiểu dữ liệu [float]{"entity": "c++_content", "value": "floating-point"} xem sao nào 
+    - ví dụ về kiểu [double]{"entity": "c++_content", "value": "double"} và kiểu [float]{"entity": "c++_content", "value": "floating-point"} đi
+    - ví dụ về [toán tử tăng]{"entity": "c++_content", "value": "increment-operator"}, [toán tử giảm]{"entity": "c++_content", "value": "decrement-operator"}
+    - một vài ví dụ về [toán tử một ngôi]{"entity": "c++_content", "value": "unary-operater"}, [toán tử hai ngôi]{"entity": "c++_content", "value": "binary-operator"}, [toán tử ba ngôi]{"entity": "c++_content", "value": "ternary-operator"}
+    - ê tao đang không hiểu rõ về [toán tử số học]{"entity": "c++_content", "value": "arithmetic-operater"} và [toán tử logic]{"entity": "c++_content", "value": "logical-operator"}, cho tao ví dụ về hai món đó đi
+    - ê tao đang hơi mông lung về [tham chiếu hằng]{"entity": "c++_content", "value": "const-reference"}, cho t ví dụ về món này đi 
+    - một ví dụ dễ hiểu nhất về [hàm nội tuyến]{"entity": "c++_content", "value": "inline-function"}
+    - một chiếc ví dụ xinh xắn về [biến tĩnh]{"entity": "c++_content", "value": "static"}
+    - ê bot, cho t một ví dụ về [lambda]{"entity": "c++_content", "value": "lambda"}
+    - cho xin ví dụ dễ hiểu về [return]{"entity": "c++_content", "value": "return"} đê 
+    - ví dụ nào khó hiểu về [tham số mặc nhiên]{"entity": "c++_content", "value": "default-value"}
+    - đã đến lúc bố mày phỏng vấn mày rồi, cho bố mày một ví dụ về [if else]{"entity": "c++_content", "value": "if-else"} đi nào
+    - đến giờ phỏng vấn, ví dụ về hàm [lamda]{"entity": "c++_content", "value": "lambda"} đi nào, nhanh
+    - an example of [lambda]{"entity": "c++_content", "value": "lambda"} function ?
+    - give me an example of [scope resolution operator]{"entity": "c++_content", "value": "scope-resolution-operator"}
+    - just give to me a example about [toán tử định phạm vi]{"entity": "c++_content", "value": "scope-resolution-operator"}
+    - cho toi mot vi du ve [ham]{"entity": "c++_content", "value": "function"} di 
+    - hay cho tui mot so vi du ve [bien]{"entity": "c++_content", "value": "bien"}
+    - vi du ve [kieu du lieu]{"entity": "c++_content", "value": "data-type"}
+    - dua cho toi mot so vi du ve [if]{"entity": "c++_content", "value": "if"} di nao
+    - hay cho toi mot so cac cai vi du sieu hay cua ban ve [tham chieu]{"entity": "c++_content", "value": "pass-by-refernce"} va [tham tri]{"entity": "c++_content", "value": "pass-by-value"} di
+    - cho toi mot so vi du cu the hon ve [tham chieu]{"entity": "c++_content", "value": "pass-by-reference"} di 
+    - mot so vi du cu the hon ve [toan tu dinh pham vi]{"entity": "c++_content", "value": "scope-resolution-operater"} 
+    - [cau truc dieu khien]{"entity": "c++_content", "value": "control-statement"} vi du 
+    - hay cho t vi du ve [vong lap]{"entity": "c++_content", "value": "loop"} di nao
 - intent: c++_what_asking
   examples: |
     - [library](c++_content) là gì thế?
@@ -868,7 +1000,7 @@ nlu:
     - trong c++ [biến]{"entity": "c++_content", "value": "variable"} là gì?
     - thế nào là [biến]{"entity": "c++_content", "value": "variable"}?
     - [variable](c++_content) là gì vậy bot?
-    - trong c++ [varaible]{"entity": "c++_content", "value": "variable"} được định nghĩa như thế nào?
+    - trong c++ [variable]{"entity": "c++_content", "value": "variable"} được định nghĩa như thế nào?
     - thế nào là [variable](c++_content)?
     - [toán tử]{"entity": "c++_content", "value": "operator"} là gì?
     - như thế nào là [toán tử]{"entity": "c++_content", "value": "operator"}?
@@ -1809,6 +1941,7 @@ nlu:
 - synonym: library
   examples: |
     - thư viện
+    - thu vien
     - include
     - library
     - libraries
@@ -1818,6 +1951,7 @@ nlu:
   examples: |
     - namespace
     - không gian tên
+    - khong gian ten
     - namespaces
     - name space
     - name spaces
@@ -1895,9 +2029,11 @@ nlu:
     - consts 
     - hằng 
     - hằng số
+    - hang so
 - synonym: macro
   examples: |
     - hàm macro
+    - ham macro
     - macros
     - macro
     - #define
@@ -1946,6 +2082,7 @@ nlu:
     - mảng hai chiều
     - two demensionals array
     - two-demensional array
+    - mang hai chieu
 - synonym: structure
   examples: |
     - cấu trúc
@@ -1953,11 +2090,13 @@ nlu:
     - structure
     - structures
     - structs
+    - cau truc
 - synonym: class
   examples: |
     - lớp
     - class
     - classes
+    - lop
 - synonym: union
   examples: |
     - union
@@ -1970,6 +2109,7 @@ nlu:
     - trỏ
     - pointer
     - pointers
+    - con tro 
 - synonym: enumeration
   examples: |
     - enum
@@ -2015,6 +2155,7 @@ nlu:
     - chars
     - character
     - characters
+    - kieu ki tu
 - synonym: string
   examples: |
     - chuỗi
@@ -2048,6 +2189,7 @@ nlu:
     - globalvariable
     - globalvariables
     - biến toàn cục
+    - bien toan cuc
 - synonym: auto
   examples: |
     - auto
@@ -2061,7 +2203,9 @@ nlu:
     - autovars
     - biến auto
     - biến kiểu auto
+    - bien kieu auto 
     - kiểu auto
+    - kieu auto
 - synonym: external
   examples: |
     - external 
@@ -2085,6 +2229,7 @@ nlu:
     - staticvar
     - staticvars
     - biến tĩnh
+    - bien tinh 
 - synonym: vector
   examples: |
     - vector
@@ -2096,10 +2241,13 @@ nlu:
     - reference vars
     - reference variables
     - biến tham chiếu
+    - bien tham chieu
 # Các từ đồng nghĩa cho phần toán tử
 - synonym: decrement-operator
   examples: |
     - toán tử giảm
+    - toan tu giam
+    - toan tu --
     - toán tử --
     - --
     - decrement operator
@@ -2109,6 +2257,8 @@ nlu:
 - synonym: increment-operator
   examples: |
     - toán tử tăng
+    - toan tu tang
+    - toan tu ++
     - toán tử ++
     - ++
     - increment operator
@@ -2161,6 +2311,7 @@ nlu:
     - toán tử hai ngôi
     - binary operator
     - binary operators
+    - toan tu hai ngoi
 - synonym: unary-operator
   examples: |
     - unary
@@ -2169,6 +2320,7 @@ nlu:
     - toán tử một ngôi
     - unary operator
     - unary operators
+    - toan tu mot ngoi
 - synonym: shift-operator
   examples: |
     - shift operators
@@ -2216,15 +2368,18 @@ nlu:
     - assign
     - assignment operators
     - toán tử gán
+    - toan tu gan
 - synonym: operator
   examples: |
     - toán tử
+    - toan tu
     - operators
     - operator
 # Các từ đồng nghĩa cho phần control flow
 - synonym: if
   examples: |
     - điều kiện
+    - dieu kien 
     - nếu
     - if
     - ifs
@@ -2232,9 +2387,13 @@ nlu:
   examples: |
     - vòng lặp
     - lặp
+    - lap
     - vòng
     - loop
     - loops
+    - vong lap
+    - lệnh lặp 
+    - lenh lap
 - synonym: control-flow
   examples: |
     - control flow
@@ -2286,6 +2445,8 @@ nlu:
     - câu lệnh nhảy
     - câu lệnh jump
     - lệnh jump
+    - lenh nhay
+    - lenh jump
 - synonym: for
   examples: |
     - for
@@ -2329,30 +2490,36 @@ nlu:
     - nếu không thì nếu
     - cầu thang if else
     - if else if ladder
+    - cau thang if else 
 - synonym: nested-if
   examples: |
     - nested if 
     - if lồng if 
     - if lồng trong if 
     - nested ifs
+    - if long if
 # Các từ đồng nghĩa cho phần hàm
 - synonym: function
   examples: |
     - hàm
+    - ham
+    - ham so
+    - hàm số 
     - function
     - functions
     - func
     - funcs
 - synonym: parameter
   examples: |
-    - tham số
+    - tham số4
+    - tham so
     - parameter
     - parameters
     - para
     - paras
 - synonym: argument
   examples: |
-    - tham chiếu
+    - doi so
     - đối số
     - argument
     - arguments
@@ -2361,6 +2528,7 @@ nlu:
 - synonym: recursion
   examples: |
     - đệ quy
+    - de quy 
     - recursion
     - recursions
     - recursive
@@ -2421,6 +2589,7 @@ nlu:
 - synonym: built-in-function
   examples: |
     - hàm dựng sẵn
+    - ham dung san
     - hàm có sẵn
     - built-in function
     - built_in function
@@ -2435,6 +2604,9 @@ nlu:
     - hàm không tên
     - lambda function
     - anonymous function
+    - ham nac danh
+    - ham vo danh
+    - ham lambda
 - synonym: scope-resolution-operator
   examples: |
     - toán tử định phạm vi
