@@ -20,7 +20,7 @@ rasa test --cross-validation
 ```
 - Nếu bạn có thể tạo cho mình bộ test ưng ý chỉ cần chạy lệnh:
 ```
-rasa test --cross-validation
+rasa test
 ```
 
 ## Docker:
