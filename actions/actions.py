@@ -301,16 +301,17 @@ class AnswerCppDefineQuestion(Action):
             Thứ hai là một chiếc Compiler (trình biên dịch) như MinGW,...\n
             Còn không thì các bạn có thể tải các IDE về như Code::Blocks, Visual Studio, Eclipse, NetBeans,... để xài cho tiện nha\n
             Còn mà lười tải về mấy mớ ở trên thì lên Google gõ C++ compiler online để code ngay trên web luôn ha :3
-             ''',
+            ''',
             'include': '''Để sử dụng cú pháp include, các bạn cần tìm cho mình một cái tên thư viện trong C++ phù hợp, sau đó thực hiện cú pháp như sau:\n
             #include <tên_thư_viện>\n
             Ví dụ:
             #include <iostream>
-            #include <stdio.h>''',
-            'library': '''Để sử dụng các thư viện trong C++, ta chỉ cần sử dụng cú pháp #include <tên_library> là oke.\n
-            Ví dụ:
+            #include <stdio.h>
+            ''',
+            'library': '''Để sử dụng các thư viện trong C++, ta chỉ cần sử dụng cú pháp #include <tên_library> là oke.Ví dụ:\n
             #include <iostream>  // Khai báo thư viện iostream
-            #include <stdio.h> // Khai báo thư viện stdio.h''',
+            #include <stdio.h> // Khai báo thư viện stdio.h
+            ''',
             'namespace': '''Để sử dụng namespace ta sẽ khai báo như sau:\n
             namespace <tên_namespace>
             {
@@ -633,7 +634,19 @@ class AnswerCppDefineQuestion(Action):
                 cout << "Hello world" << endl;
                 return 0;
             }''',
-            'library': ''' ''',
+            'library': '''
+            #include <iostream> // thư viện ở đây
+            #include <stdio.h> // thư viện ở đây
+            #include <stdlib.h> // thư viện ở đây
+            #include <math.h> // thư viện ở đây
+
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
             'namespace': '''
             #include <iostream>
             
@@ -775,7 +788,8 @@ class AnswerCppDefineQuestion(Action):
                     cout << "Hello boolean" << endl;
                 }
                 return 0;
-            }''',
+            }
+            ''',
             'data-type': '''
             #include <iostream>
             
@@ -1849,7 +1863,7 @@ class AnswerCppDefineQuestion(Action):
             'lambda': ''' '''
         }
 
-        cpp_content_answer = ""
+        cpp_content_answer = " "
 
         #sql_intent_type = {
         #   'c++_why_asking':1,
