@@ -288,7 +288,11 @@ class AnswerCppDefineQuestion(Action):
             Còn không thì các bạn có thể tải các IDE về như Code::Blocks, Visual Studio, Eclipse, NetBeans,... để xài cho tiện nha\n
             Còn mà lười tải về mấy mớ ở trên thì lên Google gõ C++ compiler online để code ngay trên web luôn ha :3
              ''',
-            'include': ''' ''',
+            'include': '''Để sử dụng cú pháp include, các bạn cần tìm cho mình một cái tên thư viện trong C++ phù hợp, sau đó thực hiện cú pháp như sau:\n
+            #include <tên_thư_viện>\n
+            Ví dụ:
+            #include <iostream>
+            #include <stdio.h>''',
             'library': '''Để sử dụng các thư viện trong C++, ta chỉ cần sử dụng cú pháp #include <tên_library> là oke.\n
             Ví dụ:
             #include <iostream>  // Khai báo thư viện iostream
@@ -304,7 +308,7 @@ class AnswerCppDefineQuestion(Action):
             _ Có thể khai báo một namespace mới bên trong một namespace
             _ Có thể khai báo namespace cùng tên nhiều lần, các namespace có cùng tên sẽ được gom chung nội dung lại với nhau
              ''',
-            'pseudo-code': ''' ''',
+            'pseudo-code': '''Để sử dụng mã giả thì... các bạn chuẩn bị cho mình một tờ giấy, một cây bút, một thuật toán bất kì. Sau khi đã có đầy đủ những thứ trên, các bạn hãy diễn giải thuật toán đó dễ hiểu nhất có thể, không nhất thiết phải viết theo chuẩn ngôn ngữ lập trình nào.''',
             # Câu trả lời về các kiểu dữ liệu và biến
             'variable': '''Để sử dụng được Variables, ta sẽ thực hiện cú pháp như sau: <kiểu_dữ_liệu> <tên_variable>;\n
             Ví dụ:
@@ -353,7 +357,12 @@ class AnswerCppDefineQuestion(Action):
             struct HinhChuNhat{
                 int dai, rong;
             }''',
-            'class': ''' ''',
+            'class': '''Để sử dụng class, ta thực hiện cú pháp sau:\n
+            class <tên_class>{
+                <phạm_vi_truy_cập>:
+                // một vài thuộc tính
+                // một vài phương thức
+            };''',
             'union': ''' ''',
             'pointer': '''Để sử dụng con trỏ, ta thực hiện cú pháp: <kiểu_dữ_liệu> *<tên_variable>;''',
             'enumeration': '''Để sử dụng enum, ta thực hiện cú pháp:\n
@@ -369,7 +378,7 @@ class AnswerCppDefineQuestion(Action):
                 THUNAM,
                 THUSAU,
                 THUBAY
-            }''',
+            };''',
             'integer': '''Để sử dụng kiểu số nguyên (integer), ta thực hiện cú pháp: int <tên_variable>;''',
             'floating-point': '''Để sử dụng kiểu dấu chấm động (floating point), ta thực hiện cú pháp: float <tên_variable>; ''',
             'double': '''Để sử dụng kiểu double, ta thực hiện cú pháp: double <tên_variable>; ''',
@@ -380,7 +389,11 @@ class AnswerCppDefineQuestion(Action):
             'auto': '''Để sử dụng kiểu auto, ta thực hiện cú pháp: auto <tên_variable>;
             Lưu ý: Chỉ có thể sử dụng kiểu auto ở phiên bản C++ 11 trở lên thôi đó nha''',
             'external': ''' ''',
-            'static': ''' ''',
+            'static': '''Để sử dụng biến tĩnh (static), ta sẽ khai báo từ khóa static trước kiểu dữ liệu của biến, có thể sử dụng biến tĩnh trong hàm hoặc trong class. Ví dụ:\n
+            int foo(){
+                static int count = 0; // giá trị của count sẽ được khai báo một lần sau lời gọi hàm đầu tiên và tồn tại trong suốt thời gian thực thi chương trình
+                cout << ++count << " ";
+            }''',
             'vector': '''Để có thể sử dụng vector, trước tiên ta cần phải khai báo thư viện vector với cú pháp: #include <vector>\n
             Sau đó, ta sẽ khai báo một vector với cú pháp như sau: std::vector <data_type>variable_name;''',
             'reference-variable': '''Để sử dụng một biến tham chiếu, ta sẽ dùng cú pháp sau: data_type &variable_name = declared_variable''',
@@ -397,46 +410,1249 @@ class AnswerCppDefineQuestion(Action):
             5 * 2
             10 % 2''',
             'unary-operator': '''Để sử dụng toán tử hai ngôi, ta có thể sử dụng các toán tử tăng/giảm, toán tử trỏ, toán tử địa chỉ,...''',
-            'shift-operator': ''' ''',
-            'bitwise-operator': ''' ''',
-            'logical-operator': ''' ''',
-            'comparison-operator': ''' ''',
-            'arithmetic-operator': ''' ''',
+            'shift-operator': '''Để sử dụng toán tử dời bit, ta có thể sử dụng các ký hiệu như << (left shift), >> (right shift).''',
+            'bitwise-operator': '''Để sử dụng toán tử bit, ta có thể sử dụng các ký hiệu như & (AND), | (OR), ^ (XOR), ~ (NOT),...''',
+            'logical-operator': '''Để sử dụng toán tử logic, ta có thể sử dụng các ký hiệu như && (and), || (or) hoặc ! (not). Toán tử này rất thường được sử dụng khi khai báo điều kiện cho if.Ví dụ: (x == y) && (z != 3)''',
+            'comparison-operator': '''Để sử dụng toán tử so sánh, ta có thể sử dụng các ký hiệu so sánh như ==, !=, >=, <=,...Ví dụ: x != y, 2 == 2,...''',
+            'arithmetic-operator': '''Để sử dụng toán tử số học, ta có thể sử dụng các ký hiệu +, -, *, /, % để biểu diễn. Ví dụ: x + y, 5 / 2,...''',
             'assignment-operator': '''Để sử dụng toán tử gán, ta sẽ sử dụng cú pháp: variable_1 = variable_2''',
             'operator': '''Để sử dụng toán tử, thứ đầu tiên ta cần là các toán hạng (biến), thứ hai là một phép toán cụ thể như +, -, *, /, %, =, ==,...Việc thứ ba là ghép hai thứ đó vào nhau, sau khi biên dịch nó sẽ trả về cho ta một giá trị.''',
             'scope-resolution-operator':''' ''',
             # Câu trả lời về control flow
-            'if': ''' ''',
-            'loop': ''' ''',
-            'control-flow': ''' ''',
-            'selection-statement': ''' ''',
-            'iteration-statement': ''' ''',
-            'jump-statement': ''' ''',
-            'for': ''' ''',
-            'while': ''' ''',
-            'do-while': ''' ''',
-            'switch': ''' ''',
-            'break': ''' ''',
-            'continue': ''' ''',
-            'goto': ''' ''',
-            'if-else': ''' ''',
-            'if-else-if-ladder': ''' ''',
-            'nested-if': ''' ''',
+            'if': '''Để dùng lệnh if, bạn sử dụng cú pháp sau:\n
+            if(<boolean_expression>){
+                //some codes here...
+            }''',
+            'loop': '''Để dùng lệnh lặp trong C++, bạn có thể sử dụng các lệnh như for, while, do while...''',
+            'control-flow': '''Để dùng các lệnh điều khiển trong C++, bạn có thể sử dụng các lệnh if, for, while, switch,...''',
+            'selection-statement': '''Để dùng các lệnh lựa chọn, các bạn có thể sử dụng các lệnh if, switch.''',
+            'iteration-statement': '''Để dùng lệnh lặp trong C++, bạn có thể sử dụng các lệnh như for, while, do while...''',
+            'jump-statement': '''Để sử dụng các lệnh nhảy, bạn có thể sử dụng các cú pháp break, continue, goto.''',
+            'for': '''Để sử dụng vòng lặp for, bạn sử dụng cú pháp như sau:\n
+            for(<khai_báo_biến_lặp>;<điều_kiện_dừng>;<cập_nhật_giá_trị>){
+                //Some codes here...
+             }\n''',
+            'while': '''Để sử dụng vòng lặp while, bạn sử dụng cú pháp như sau:\n
+            while(<biểu_thức_điều_kiện>)
+            {
+                //some codes here...
+            }''',
+            'do-while': '''Để sử dụng vòng lặp do while, bạn sử dụng cú pháp như sau:\n
+            do {
+                // Some codes here;
+            } while (<biểu_thức_điều_kiện>);''',
+            'switch': '''Để sử dụng lệnh switch, bạn sử dụng cú pháp như sau:\n
+            switch (n) // n là biến kiểu số nguyên
+            {
+                case 1: // Sẽ thực thi khối lệnh ở đây nếu n == 1;
+                        break;
+                case 2: // Sẽ thực thi khối lệnh ở đây nếu n == 2;
+                        break;
+                default: // Nếu n không bằng với bất kì case nào thì sẽ thực thi khối lệnh ở đây;
+            }''',
+            'break': '''Để sử dụng từ khóa break, bạn chỉ việc đặt nó trong một vòng lặp bất kì, hoặc khi sử dụng lệnh switch. Ví dụ:\n
+            for(int i = 0; i < n; ++i){
+                if(i % 2 == 0){
+                    break; // Khi i là số chẵn thì ngắt vòng lặp
+                }
+            }''',
+            'continue': '''Để sử dụng từ khóa continue, bạn chỉ việc đặt nó trong một vòng lặp bất kì, bạn sẽ thấy rõ công dụng của nó. Ví dụ:\n
+            for(int i = 0; i < n; ++i){
+                if(i % 2 == 0){
+                    continue; // Khi i là số chẵn thì chuyển tới lần lặp tiếp theo
+                }
+                if(i % 2 != 0)
+                    cout << "Hí ae..." << endl;
+                }
+            }''',
+            'goto': '''Để sử dụng goto, bạn sẽ dùng cú pháp như sau:\n
+            goto label;
+            .
+            .
+            .
+            label: statements''',
+            'if-else': '''Để sử dụng if else, bạn dùng cú pháp như sau:\n
+            if(<điều_kiện>){
+                // Some codes here...
+            }
+            else{
+                // Some codes here...
+            }''',
+            'if-else-if-ladder': '''Để sử dụng if else if Ladder (cầu thang if else), bạn dùng cú pháp như sau:\n
+            if(<điều_kiện_1>){
+                // Some codes here...
+            }
+            else if(<điều_kiện_2>){
+                // Some codes here...
+            }
+            else if(<điều_kiện_3>){
+                // Some codes here...
+            }
+            ...\n
+            Bạn có thể thỏa thích đặt bao nhiêu cái else if đan xen với nhau như vậy cũng được nha.\n
+            Lưu ý là khi một biểu thức điều kiện nào thỏa mãn, thì tất cả các biểu thức về sau sẽ không được trình biên dịch duyệt qua.''',
+            'nested-if': '''Để sử dụng if lồng if, bạn dùng cú pháp như sau:\n
+            if(<điều_kiện_1>){
+                if(<điều_kiện_2>){
+                    // Some code heres...
+                }
+            }\n
+            ''',
             # Câu trả lời về function
-            'function': ''' ''',
-            'parameter': ''' ''',
-            'argument': ''' ''',
-            'recursion': ''' ''',
-            'pass-by-value': ''' ''',
-            'pass-by-reference': ''' ''',
-            'return': ''' ''',
-            'return-type': ''' ''',
-            'const-reference': ''' ''',
-            'inline-function': ''' ''',
-            'default-value': ''' ''',
-            'main-function': ''' ''',
-            'built-in-function': ''' ''',
-            'lambda': ''' '''
+            'function': '''Để sử dụng hàm, bạn dùng cú pháp như sau:\n
+            <kiểu_trả_về_của_hàm> <tên_hàm>(<các_tham_số>){
+                // Some code heres...
+                return <value>; // Dòng này không bắt buộc khi kiểu trả về của hàm là void
+            }''',
+            'parameter': '''Để sử dụng tham số, các bạn hãy khai báo nó khi thực hiện khai báo hàm. Ví dụ:\n
+            int sum(int a, int b){ // a và b là tham số
+                return a + b;
+            }''',
+            'argument': '''Để sử dụng đối số, các bạn đơn giản chỉ việc...truyền bất cứ giá trị gì vào hàm khi thực hiện lời gọi hàm thôi. Ví dụ:\n
+            int answers = sum(a, b); // a, b là đối số''',
+            'recursion': '''Để sử dụng đệ quy, các bạn cần phải tìm ra được phương trình chung cho bài toán và điều kiện dừng của nó và diễn giải chúng ở trong hàm. Ví dụ:\n
+            int sum(int n){
+                if(n == 1){
+                    return 1;
+                }
+                return n + sum(n - 1);
+            }''',
+            'pass-by-value': '''Để thực hiện truyền tham trị, các bạn sẽ làm việc khai báo tham trị khi khai báo hàm. Ví dụ:\n
+            int sum(int a, int b){ // a và b là tham trị
+                return a + b;
+            }''',
+            'pass-by-reference': '''Để thực hiện truyền tham chiếu, các bạn cần thêm dấu & ở trước tên tham số khi thực hiện khai báo hàm. Ví dụ:\n
+            int swap(int &a, int &b){ // a và b là tham chiếu
+                int temp = a;
+                a = b;
+                b = temp;
+            }''',
+            'return': '''Để sử dụng từ khóa return, các bạn hãy đặt nó khi viết hàm. Ví dụ:\n
+            int sum(int a, int b){ 
+                return a + b; // khi thực hiện lời gọi hàm này thì sẽ trả về giá trị a + b
+            } 
+            ''',
+            'return-type': '''Để thực hiện khai báo kiểu trả về của hàm, các bạn sẽ khai báo nó chung với việc khai báo hàm.Ví dụ:\n
+            int sum(int a, int b){ // kiểu trả về của hàm này là kiểu int
+                return a + b;
+            }''',
+            'const-reference': '''Để sử dụng tham chiếu hằng, các bạn sẽ sử dụng cú pháp sau:\n
+            int sum(const int &a, const int &b){ // a và b là tham chiếu hằng
+                return a + b;
+            }''',
+            'inline-function': '''Để sử dụng hàm nội tuyến, các bạn đặt từ khóa inline ngay trước kiểu trả về của hàm. Ví dụ:\n
+            inline int sum(int a, int b)
+            {
+                return a + b;
+            }\n
+            Lưu ý là hàm nội tuyến sẽ không thực hiện được khi bên trong hàm chứa vòng lặp, biến tĩnh, đệ quy hay lệnh switch, goto.''',
+            'default-value': '''Để sử dụng tham số mặc nhiên, các bạn sẽ gán tham số của hàm bởi một giá trị nào đó, khi đó cho dù lúc bạn thực hiện lời gọi hàm, bạn không truyền bất kì đối số nào cho tham số đó thì tham số đó sẽ lấy giá trị mà bạn đã gán lúc khai báo hàm. Ví dụ:\n
+            int sum(int a=0, int b=0){ // giá trị mặc định của a và b là 0
+                return a + b; 
+            }
+            
+            int main(){
+                cout << sum() << endl; // Sẽ in ra giá trị 0
+                return 0;   
+            }''',
+            'main-function': '''Để sử dung hàm main...hình như mỗi lần tạo project mới là nó đã viết sẵn cho bạn rồi đó :)), nên nhớ là hàm main chỉ có một thôi nha bạn.''',
+            'built-in-function': '''Để sử dụng các hàm dựng sẵn, các bạn hãy tìm hiểu xem hàm đó được dựng trong thư việc nào và nằm trong namespace nào (nếu có). Giả mình muốn dùng hàm căn bậc 2 sqrt(), mình tìm hiểu và biết rằng nó được dựng trong thư viện math.h, sau đó mình sẽ làm như sau:\n
+            #include <iostream>
+            #include <math.h>
+            
+            int main()
+            {
+                cout << sqrt(4) << endl; // Sẽ in ra màn hình số 2
+                return 0;
+            }''',
+            'lambda': '''Để sử dụng hàm lambda, có 4 cú pháp như sau:\n
+            [ capture-list ] ( params ) mutable(optional) exception attribute -> ret { body }  
+            [ capture-list ] ( params ) -> ret { body }    
+            [ capture-list ] ( params ) { body }    
+            [ capture-list ] { body }\n
+            Trong đó:
+            capture-list: là danh sách các biến có thể được truy cập ngoài scope của hàm lambda, với dấu = là capture by value (giống truyền tham trị) và dấu 7 là capture by reference(giống truyền tham chiếu)
+            params: là nơi khai báo các tham số, giống khai báo ở hàm thông thường.
+            mutable: là từ khóa giúp ta có thể thay đổi giá trị của biến được capture by value trong hàm lambda nhưng vẫn không bị thay đổi giá trị khi ra ngoài hàm này.
+            body: là nội dung code bên trong hàm lambda.
+            -> ret: là cách diễn đạt hàm lambda sẽ trả về một giá trị nào đó.
+            '''
+        }
+
+        all_answers_example = {
+            'comment': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                // Đây là comment
+                /*
+                Đây 
+                cũng là 
+                comment 
+                nhưng được ghi nhiều dòng
+                */
+                return 0;
+            }''',
+            'cplusplus': '''Một chương trình C++ cơ bản trông như thế này nè:\n
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world\n";
+                return 0;
+            }''',
+            'include': '''
+            #include <iostream> // include ở đây
+            #include <stdio.h> // include ở đây
+            #include <stdlib.h> // include ở đây
+            #include <math.h> // include ở đây
+
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'library': ''' ''',
+            'namespace': '''
+            #include <iostream>
+            
+            using namespace std; // Sử dụng namespace std
+
+            namespace foo{ // Khai báo namespace tên foo
+                void print_foo(){
+                    cout << "Hello world" << endl;
+                }
+            }
+            
+            int main()
+            {
+                foo::print_foo(); // Gọi hàm từ namespace foo
+                return 0;
+            }''',
+            'pseudo-code': '''Viết mã giả cho bài toán tìm số lớn nhất:
+            Nhập a;
+            Nhập b;
+            If a > b then a lớn nhất
+            else b lớn nhất''',
+            # Câu trả lời về các kiểu dữ liệu và biến
+            'variable': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 1; // Đây là biến nè
+                float b = 2.5; // Đây cũng là biến nè
+                cout << a << " " << b << endl; // Thử in hai biến trên ra nè
+                return 0;
+            }''',
+            'unsigned': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                unsigned int a = 2; // Đây là biến có modifier unsigned nè
+                return 0;
+            }''',
+            'signed': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                singed int a = 2; // Đây là biến có modifier signed nè
+                return 0;
+            }''',
+            'short': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                short a = 10; // Đây là biến có modifier short nè
+                return 0;
+            }''',
+            'long': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                long x = 1000; // Đây là biến có modifier long nè
+                return 0;
+            }''',
+            'type-modififer': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                // Đây là những modifiers
+                unsigned x = 10; 
+                signed y = 20;
+                short z = 1; 
+                long long k = 100000;
+                return 0;
+            }''',
+            'typedef': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            // Sử dụng typedef để đặt nickname cho hai kiểu dữ liệu sau đây
+            typedef int SONGUYEN;
+            typedef long long ll;
+            
+            int main()
+            {
+                // Có thể sử dụng nickname đã đặt để thay thế cách khai báo cũ
+                SONGUYEN a = 2;
+                ll b = 10;
+                return 0;
+            }''',
+            'constant': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                const int a = 10; // Khai báo biến hằng
+                return 0;
+            }''',
+            'macro': '''
+            #include <iostream>
+            // Khai báo các macros
+            #define PI 3.14 
+            #define MAX(a,b) (a > b) ? a : b            
+            using namespace std;
+
+            
+            int main()
+            {
+                cout << PI << endl;
+                cout << MAX(4,5) << endl;
+                return 0;
+            }''',
+            'wchar_t': ''' ''',
+            'boolean':'''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                bool a = true;
+                if(a){
+                    cout << "Hello boolean" << endl;
+                }
+                return 0;
+            }''',
+            'data-type': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                // Đây là một số kiểu dữ liệu trong C++
+                int a; // Kiểu số nguyên
+                float b; // Kiểu dấu chấm động
+                double c; // Vẫn là kiểu dấu chấm động nhưng có miền giá trị to hơn
+                bool d; // Kiểu luận lý
+                char e; // Kiểu kí tự
+                return 0;
+            }''',
+            '2d-array': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a[100][100]; // Khai báo mảng hai chiều
+                return 0;
+            }''',
+            'array': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a[100]; // Khai báo mảng một chiều
+                return 0;
+            }''',
+            'structure': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            struct HINHCHUNHAT{ // Đây là khai báo struct
+                int chieudai, chieurong;
+            };
+            
+            int main()
+            {
+                HINHCHUNHAT a;
+                cout << "Nhap chieu dai va chieu rong cua hinh chu nhat: ";
+                cin >> a.chieudai >> a.chieurong;
+                return 0;
+            }''',
+            'class': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            class HINHCHUNHAT{ // Đây là khai báo class
+                private:
+                    int chieudai, chieurong;
+                public:
+                    void Nhap(){
+                        cout << "Nhap chieu dai va chieu rong: ";
+                        cin >> chieudai >> chieurong ;
+                    }
+                    void Xuat(){
+                        cout << "Chieu dai la: " << chieudai << endl ;
+                        cout << "Chieu rong la: " << chieurong << endl;
+                    }
+            };
+            
+            int main()
+            {
+                HINHCHUNHAT a;
+                a.Nhap();
+                a.Xuat();
+                return 0;
+            }''',
+            'union': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            union HINHCHUNHAT{ // Đây là khai báo union
+                int chieudai, chieurong;
+            };
+            
+            int main()
+            {
+                HINHCHUNHAT a;
+                cout << "Nhap chieu dai va chieu rong cua hinh chu nhat: ";
+                cin >> a.chieudai >> a.chieurong;
+                return 0;
+            }''',
+            'pointer': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int *a; // Đây là khai báo con trỏ kiểu số nguyên
+                int b = 10;
+                // Một số khả năng của con trỏ
+                a = &b; // Con trỏ a đang giữ địa chỉ của biến b
+                cout << *a << endl; // In ra 10, vì lúc này a đang tham chiếu đến b
+                cout << (*a)++ << endl; // In ra 10
+                cout << b << endl; << // In ra 11, vì a tham chiếu đến b nên mọi sự thay đổi ở a cũng sẽ ảnh hưởng đến b, nói cách khác a là một tên gọi khác của b
+                return 0;
+            }''',
+            'enumeration': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            enum DAY_OF_WEEK{
+                CHUNHAT,
+                THUHAI,
+                THUBA,
+                THUTU,
+                THUNAM,
+                THUSAU,
+                THUBAY
+            };
+            
+            int main()
+            {
+                cout << THUHAI << endl; // Thử in giá trị trong enum
+                DAY_OF_WEEK w; // Enum như một kiểu dữ liệu thông thường
+                return 0;
+            }''',
+            'integer': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10; // Đây là biến kiểu integer
+                return 0;
+            }''',
+            'floating-point': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                float a = 1.1; // Đây là biến kiểu float
+                return 0;
+            }''',
+            'double': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                double a = 10.10; // Đây là biến kiểu double
+                return 0;
+            }''',
+            'character': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                char a = '2'; // Đây là biến kiểu kí tự
+                return 0;
+            }''',
+            'string': '''
+            #include <iostream>
+            #include <string.h> // Phải khai báo thư viên string.h trước khi dùng string
+
+            using namespace std;
+            
+            int main()
+            {
+                string a = "Hello World"; // Đây là biến kiểu string
+                return 0;
+            }''',
+            'local-variable': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1){
+                    int a = 2; // Đây là biến cục bộ, nó nằm trong tầm vực của khối if này
+                    cout << a << endl;
+                }
+                return 0;
+            }''',
+            'auto': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                auto a = 2; // Đây là biến kiểu auto, chỉ dùng được ở C++ 11
+                return 0;
+            }''',
+            'external': ''' ''',
+            'static': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            void foo(){
+                static int count = 0; // Khởi tạo biến tĩnh
+                cout << ++cout << " ";
+            }
+            
+            int main()
+            {
+                for(int i = 0; i < 5; ++i){
+                    foo(); // In ra 1 2 3 4 5
+                }
+                return 0;
+            }''',
+            'vector': '''
+            #include <iostream>
+            #include <vector>
+
+            using namespace std;
+            
+            int main()
+            {
+                vector <int>v; // Khai báo vector kiểu int
+                for(int i = 0; i < 10; ++i){
+                    int input;
+                    cout <<"Nhap phan tu thu " << i + 1 << " cua vector: ";
+                    cin >> input;
+                    v.push_back(input);
+                }
+                return 0;
+            }''',
+            'reference-variable': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10;
+                int &b = a; // b là biến tham chiếu đến a
+                return 0;
+            }''',
+            # Câu trả lời về các toán tử
+            'decrement-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10;
+                // Hai cách sử dụng toán tử giảm
+                cout << a-- << endl; // In ra 10, nhưng khi kết thúc lệnh này thì a = 9
+                cout << --a << endl; // In ra 8, kết quả phép trừ sẽ được hiển thị ngay tại dòng này luôn
+                cout << a-- << " " << --a << endl; // In ra 7 6, trình biên dịch sẽ biên dịch từ bên phải sang trái
+                return 0;
+            }''',
+            'increment-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'dereference-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10;
+                // Hai cách sử dụng toán tử tăng
+                cout << a++ << endl; // In ra 10, nhưng khi kết thúc lệnh này thì a = 11
+                cout << ++a << endl; // In ra 12, kết quả phép cộng sẽ được hiển thị ngay tại dòng này luôn
+                cout << a++ << " " << ++a << endl; // In ra 13 14, trình biên dịch sẽ biên dịch từ bên phải sang trái
+                return 0;
+            }''',
+            'address_of-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10;
+                cout << &a << endl; // In ra địa chỉ của biến a
+                return 0;
+            }''',
+            'comma-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a, b, c; // Sử dụng toán tử phẩy để khai báo nhiều biến cùng lúc
+                return 0;
+            }''',
+            'ternary-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << (2 > 1) ? 10 : 0; // In ra 10 vì 2 > 1 là đúng
+                return 0;
+            }''',
+            'binary-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << 2 + 1 << endl; // Dùng toán tử hai ngôi để + 2 và 1
+                return 0;
+            }''',
+            'unary-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 1;
+                cout << ++a << endl; // Dùng toán tử một ngôi để tăng giá trị của a lên 1
+                return 0;
+            }''',
+            'shift-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'bitwise-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'logical-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 2;
+                if(a == 2 || a > 1) // Dùng toán tử logic để làm phong phú thêm điều kiện if
+                {
+                    cout << "HI..." << endl;
+                }
+                return 0;
+            }''',
+            'comparison-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 1;
+                if(a == 1){ // Dùng toán tử so sánh để so sánh a với 1
+                    cout << "Hi..." << endl;
+                }
+                return 0;
+            }''',
+            'arithmetic-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10;
+                // Đây là tất cả các toán tử số học
+                cout << 1 + 1 << endl;
+                cout << a - 2 << endl;
+                cout << a * 3 << endl;
+                cout << a / a << endl;
+                cout << 4 % 2 << endl;
+                return 0;
+            }''',
+            'assignment-operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 10; // Dùng toán tử gán để gán a = 10
+                int b = a; // Dùng toán tử gán để gán b = a
+                return 0;
+            }''',
+            'operator': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << 2 + 2 << endl; // Dấu + là toán tử nè
+                cout << 2 == 2 << endl; // Dấu == cũng là toán tử nè
+                return 0;
+            }''',
+            'scope-resolution-operator':'''
+            #include <iostream>
+
+            // Không thấy using namespace std ở đâu ta
+            
+            int main()
+            {
+                // Dùng toán tử định phạm vi để sử dụng các hàm trong namespace std
+                std::cout << "Hello world" << std::endl;
+                return 0;
+            }''',
+            # Câu trả lời về control flow
+            'if': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1 == 2){ // Khai báo if
+                    cout << "Có dụ này nữa hả...???" << endl;
+                }
+                return 0;
+            }''',
+            'loop': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 1; i <= 5; ++i){ // Dùng vòng lặp để in 5 dòng hello world nè
+                    cout << "Hello world" << endl;
+                }
+                return 0;
+            }''',
+            'control-flow': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1 == 2){ // Đây là một control flow
+                    cout << "Có dụ này nữa hả...???" << endl;
+                }
+                int count = 0;
+                while(1){ // Đây là một control flow
+                    cout << "Hehe boiz..." << endl;
+                    count++;
+                    if(count == 5){
+                        break; // Đây là một control flow
+                    }
+                }
+                return 0;
+            }''',
+            'selection-statement': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1 == 2){ // Đây là một lệnh chọn
+                    cout << "Có dụ này nữa hả...???" << endl;
+                }
+                int a = 2;
+                switch(a){ // Đây cũng là một lệnh chọn
+                    case 1: cout << "1" << endl;
+                            break; 
+                    case 2: cout << "2" << endl;
+                            break; 
+                }
+                return 0;
+            }''',
+            'iteration-statement': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 0; i < 10; ++i){ // Đây là lệnh lặp
+                    cout << "hehe boiz..." << endl;
+                }
+                return 0;
+            }''',
+            'jump-statement': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 0; i < 10; ++i){ 
+                    cout << "hehe boiz..." << endl;
+                    if(i == 7){
+                        break; // Đây là lệnh nhảy
+                    }
+                }
+                return 0;
+            }''',
+            'for': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 0; i < 10; ++i){ // Đây là lệnh for
+                    cout << "hehe boiz..." << endl;
+                }
+                return 0;
+            }''',
+            'while': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int count = 0;
+                while(count < 10){ // Đây là lệnh while
+                    cout << "Hehe boiz..." << endl;
+                    count++;
+                }
+                return 0;
+            }''',
+            'do-while': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int count = 0;
+                do { // Đây là lệnh do while
+                    cout << "Hehe boiz..." << endl;
+                    count++;
+                } while (count < 10);
+                return 0;
+            }''',
+            'switch': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int n;
+                cout << "Nhap n: ";
+                cin >> n;
+                switch(n){ // Đây là lệnh switch
+                    case 1: cout << "1" << endl;
+                            break;
+                    case 2: cout << "2" << endl;
+                            break;
+                    default: cout << "..." << endl;
+                }
+                return 0;
+            }''',
+            'break': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 0; i < 10; ++i){ 
+                    cout << "hehe boiz..." << endl;
+                    if(i == 7){
+                        break; // Đây là lệnh break
+                    }
+                }
+                return 0;
+            }''',
+            'continue': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                for(int i = 0; i < 10; ++i){ 
+                    if(i % 2 == 0){
+                        continue; // Đây là lệnh continue
+                    }
+                    cout << "hehe boiz..." << endl;
+                }
+                return 0;
+            }''',
+            'goto': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'if-else': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1 == 2){ 
+                    cout << "Có dụ này nữa hả...???" << endl;
+                }
+                else{ // Dùng else để biểu diễn các trường hợp còn lại
+                    cout << "Có hộ tui cái !" << endl;
+                }
+                return 0;
+            }''',
+            'if-else-if-ladder': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                if(1 == 2){ 
+                    cout << "Có dụ này nữa hả...???" << endl;
+                }
+                else if(1 == 3){ // Nếu if trên sai thì sẽ duyệt if này
+                    cout << "Thiệt luôn hả trời...?!" << endl;
+                }
+                return 0;
+            }''',
+            'nested-if': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 2;
+                if(a > 0){ 
+                    if(a < 0){ // if được lồng bên trong if
+                        cout << "Làm gì có vụ này..." << endl;
+                    }
+                }
+                return 0;
+            }''',
+            # Câu trả lời về function
+            'function': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a, int b) // Khai báo hàm
+            {
+                sum = a + b;
+                return sum;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl; // Thực hiện lời gọi hàm
+                return 0;
+            }''',
+            'parameter': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a, int b) // a và b là các tham số nè
+            {
+                sum = a + b;
+                return sum;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl;
+                return 0;
+            }''',
+            'argument': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a, int b) 
+            {
+                sum = a + b;
+                return sum;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl; // hai số 1 ở đây là đối số nè
+                return 0;
+            }''',
+            'recursion': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int n) // Hàm đệ quy
+            {
+                if(n == 1){ // Điều kiện dừng
+                    return 1;
+                }
+                return n + sum(n - 1); // Gọi lại hàm này bên trong hàm này
+            }
+            
+            int main()
+            {
+                cout << sum(5) << endl; // In ra 15
+                return 0;
+            }''',
+            'pass-by-value': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a, int b) // a và b là tham trị
+            {
+                sum = a + b;
+                return sum;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl;
+                return 0;
+            }''',
+            'pass-by-reference': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            void swap(int &a, int &b) // a và b là tham chiếu
+            {
+                int temp = a;
+                a = b;
+                b = temp;
+            }
+            
+            int main()
+            {
+                int a = 1, b = 2;
+                swap(a, b);
+                cout << a << " " << b << endl; // a = 2, b = 1
+                return 0;
+            }''',
+            'return': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a, int b) 
+            {
+                sum = a + b;
+                return sum; // hàm này sẽ trả về giá trị của sum
+            }
+
+            void foo(int a)
+            {
+                if(a > 0){
+                    return; // Hàm void vẫn có thể sử dụng return được, nhưng nó sẽ không trả về giá trị gì hết
+                }
+                cout << "foo" << endl;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl; 
+                return 0;
+            }''',
+            'return-type': '''
+            int foo_int(int a, int b) // Kiểu trả về int
+            {
+                return 0;
+            }
+
+            float foo_float(float a, float b) // Kiểu trả về float
+            {
+                return 0.0; 
+            }
+
+            void foo_void() // Kiểu trả về void
+            {
+                return;
+            }
+            ''',
+            'const-reference': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(const int &a, const int &b) // a và b là tham chiếu hằng
+            {
+                return a + b;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl;
+                return 0;
+            }''',
+            'inline-function': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            inline int sum(int a, int b) // Khai báo hàm nội tuyến
+            {
+                return a + b;
+            }
+            
+            int main()
+            {
+                cout << sum(1,1) << endl;
+                return 0;
+            }''',
+            'default-value': '''
+            #include <iostream>
+            
+            using namespace std;
+
+            int sum(int a = 0, int b = 0) // a và b có giá trị mặc định là 0
+            {
+                return a + b;
+            }
+            
+            int main()
+            {
+                cout << sum() << endl; // In ra 0 dù mình không truyền bất kì đối số nào
+                return 0;
+            }''',
+            'main-function': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main() // Đây là hàm main
+            {
+                cout << "Hello world" << endl;
+                return 0;
+            }''',
+            'built-in-function': '''
+            #include <iostream>
+            #include <math.h>
+
+            using namespace std;
+            
+            int main()
+            {
+                cout << sqrt(4) << endl; // Dùng hàm căn bậc 2 đã được dựng sẵn trong thư viện math.h
+                return 0;
+            }''',
+            'lambda': '''
+            #include <iostream>
+            
+            using namespace std;
+            
+            int main()
+            {
+                int a = 2, b = 3;
+                [=](){int sum = a + b; cout << sum << endl;}(); // Đây là hàm lambda
+                return 0;
+            }'''
         }
 
         all_answers_when = {
@@ -627,6 +1843,7 @@ class AnswerCppDefineQuestion(Action):
            'c++_when_asking':3,
            'c++_how_asking':4,
            'c++_where_asking':5
+           'c++_example_asking':6
         }
 
         if(type(cpp_content) == list):
@@ -649,9 +1866,11 @@ class AnswerCppDefineQuestion(Action):
         #     elif curr_intent == 'c++_when_asking':
         #         cpp_content_answer = "Invalid at the moment"
         #     elif curr_intent == 'c++_how_asking':
-        #         cpp_content_answer = "Invalid at the moment"
+        #         cpp_content_answer = c++_how_asking[x]
         #     elif curr_intent == 'c++_where_asking':
         #         cpp_content_answer = "Invalid at the moment"
+        #     elif curr_intent == 'c++_example_asking':
+        #         cpp_content_answer = all_answers_example[x]
         #     else:
         #         cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
             
