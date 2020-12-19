@@ -1,58 +1,58 @@
 version: "2.0"
 stories:
-- story: happy path 1 (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: happy path 1 (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_who_i_am
   - intent: mood_great  # predicted: compliment: amazing
-  - action: utter_happy  # predicted: utter_did_that_help
-- story: happy path 2 (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+  - action: utter_happy  # predicted: action_default_fallback
+- story: happy path 2 (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_who_i_am
   - intent: mood_great  # predicted: compliment: amazing
-  - action: utter_happy  # predicted: utter_did_that_help
+  - action: utter_happy  # predicted: action_default_fallback
   - intent: goodbye
   - action: utter_goodbye
   - action: action_listen  # predicted: utter_thanks
-- story: sad path 1 (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: sad path 1 (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_who_i_am
-  - intent: mood_unhappy  # predicted: feeling_bad: not good
-  - action: utter_cheer_up  # predicted: utter_did_that_help
+  - intent: mood_unhappy  # predicted: deny: not good
+  - action: utter_cheer_up  # predicted: action_default_fallback
   - action: utter_did_that_help  # predicted: action_listen
   - intent: affirm
   - action: utter_happy  # predicted: utter_thanks
-- story: sad path 2 (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: sad path 2 (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_who_i_am
-  - intent: mood_unhappy  # predicted: feeling_bad: not good
-  - action: utter_cheer_up  # predicted: utter_did_that_help
+  - intent: mood_unhappy  # predicted: deny: not good
+  - action: utter_cheer_up  # predicted: action_default_fallback
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny
   - action: utter_goodbye  # predicted: utter_sorry
-- story: sad path 3 (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: sad path 3 (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_who_i_am
   - intent: mood_unhappy  # predicted: feeling_bad: very terrible
-  - action: utter_cheer_up  # predicted: utter_did_that_help
+  - action: utter_cheer_up  # predicted: action_default_fallback
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny
   - action: utter_goodbye  # predicted: utter_sorry
-- story: say goodbye (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: say goodbye (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
   - intent: goodbye
   - action: utter_goodbye
   - action: action_listen  # predicted: utter_thanks
-- story: bot challenge (/tmp/tmp7ffcndud/6e9566dc6fba4c1da9c441327721428d_conversation_tests.md)
+- story: bot challenge (C:\Users\pupou\AppData\Local\Temp\tmpfobg90vm\e8d61bce8a364b37807b4fafbfc863e4_conversation_tests.md)
   steps:
-  - intent: bot_challenge  # predicted: insult: are you a bot?
-  - action: utter_iamabot  # predicted: action_default_fallback
+  - intent: bot_challenge  # predicted: who_are_you: are you a bot?
+  - action: utter_iamabot  # predicted: utter_accept_questions

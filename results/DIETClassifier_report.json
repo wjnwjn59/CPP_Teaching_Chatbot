@@ -1,27 +1,27 @@
 {
   "c++_content": {
-    "precision": 1.0,
-    "recall": 0.9813829787234043,
-    "f1-score": 0.9906040268456376,
-    "support": 376,
+    "precision": 0.965378421900161,
+    "recall": 0.957667731629393,
+    "f1-score": 0.9615076182838813,
+    "support": 1252,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 0.9813829787234043,
-    "f1-score": 0.9906040268456376,
-    "support": 376
+    "precision": 0.965378421900161,
+    "recall": 0.957667731629393,
+    "f1-score": 0.9615076182838813,
+    "support": 1252
   },
   "macro avg": {
-    "precision": 1.0,
-    "recall": 0.9813829787234043,
-    "f1-score": 0.9906040268456376,
-    "support": 376
+    "precision": 0.965378421900161,
+    "recall": 0.957667731629393,
+    "f1-score": 0.9615076182838813,
+    "support": 1252
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 0.9813829787234043,
-    "f1-score": 0.9906040268456376,
-    "support": 376
+    "precision": 0.9653784219001611,
+    "recall": 0.957667731629393,
+    "f1-score": 0.9615076182838813,
+    "support": 1252
   }
 }
