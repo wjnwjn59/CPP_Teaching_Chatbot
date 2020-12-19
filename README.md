@@ -6,6 +6,10 @@
 Hướng dẫn sử dụng:
 1) Cài đặt:
 ```
+conda create --name <tên env> --file requirements.txt
+```
+hoặc đơn giản chỉ cần việc
+```
 pip3 install rasa==2.1.0
 ```
 2) Sử dụng:
@@ -13,14 +17,14 @@ pip3 install rasa==2.1.0
 rasa run actions
 rasa shell
 ```
-3) Kiểm tra performance:
+3) Kiểm tra performance của model:
 - Đối với bộ dữ liệu ít, mình khuyên dùng:
 ```
 rasa test --cross-validation
 ```
 - Nếu bạn có thể tạo cho mình bộ test ưng ý chỉ cần chạy lệnh:
 ```
-rasa test --cross-validation
+rasa test 
 ```
 
 ## Docker:
