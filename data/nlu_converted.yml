@@ -1939,8 +1939,25 @@ nlu:
     - I think I don't really have any interested in asking you about pointer
     - I dont want to ask you about corona
     - I really don't likely to ask you about recursion
+- intent: time 
+  examples: |
+    - Cho mình hỏi bây giờ mấy giờ rồi ?
+    - Bạn ơi mấy giờ rồi ? 
+    - Mấy giờ rồi bạn ơi ?
+    - What time is it ?
+    - Giờ là mấy giờ ?
+- intent: date  
+  examples: |
+    - Hôm ngày là ngày mấy?
+    - Bot ơi hôm nay là thứ mấy vậy?
+    - Cho hỏi thứ mấy?
+    - Ngày tháng năm?
+    - Cho hỏi ngày tháng năm cái?
+    - Cho hỏi ngày tháng?
+    - Cho hỏi ngày cái?
 - synonym: library
   examples: |
+    - Thư viện
     - thư viện
     - thu vien
     - include

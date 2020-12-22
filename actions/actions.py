@@ -5,8 +5,9 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-import mysql.connector
-
+from datetime import datetime
+from datetime import date
+import calendar
 
 #mydb = mysql.connector.connect(
 #  host="localhost",
@@ -21,6 +22,34 @@ import mysql.connector
 #  mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
 #  myresult = mycursor.fetchall()
 #  return str(myresult).replace("[(","").replace(",)]","")
+week_day = ['Thứ Hai', 'Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','Thứ Bảy','Chủ Nhật']
+class AnswerDate(Action):
+    def name(self) -> Text:
+        return "action_ask_date"
+    async def run(self, dispatcher: CollectingDispatcher, 
+                        tracker: Tracker, 
+                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+        today = date.today()
+
+        dispatcher.utter_message(text="Hôm nay là {}, ngày {}, tháng {}, năm {}".format(week_day[today],today.day,today.month,today.year)) 
+        return [SlotSet("date",tracker.latest_message['text'])]
+
+class AnswerTime(Action):
+    def name(self) -> Text:
+        return "action_ask_date"
+    async def run(self, dispatcher: CollectingDispatcher, 
+                        tracker: Tracker, 
+                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+        now = datetime.now()
+        current_time = now.strftime("%H:%M:%S")
+
+        dispatcher.utter_message(text="Bây giờ là {}".format(current_time))
+        return [SlotSet("time",tracker.latest_message['Text'])]
+
+class AnswerFlowChart(Action):
+    def name(self) -> Text:
+        return "action_ask_flow_chart"
+    
 
 class AnswerCppDefineQuestion(Action):
 
@@ -2021,22 +2050,22 @@ class ValidateCppContentForm(FormValidationAction):
 
 
 # Use database to store user's information
-class ActionFirstName(Action):
-    def name(self) -> Text: 
-        return "action_first_name"
+# class ActionFirstName(Action):
+#     def name(self) -> Text: 
+#         return "action_first_name"
 
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        dispatcher.utter_message(template="utter_ask_first_name") 
-        return [SlotSet("firstN",tracker.latest_message['text'])]
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         dispatcher.utter_message(template="utter_ask_first_name") 
+#         return [SlotSet("firstN",tracker.latest_message['text'])]
 
-class ActionLastName(Action):
-    def name(self) -> Text: 
-        return "action_last_name"
+# class ActionLastName(Action):
+#     def name(self) -> Text: 
+#         return "action_last_name"
 
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        dispatcher.utter_message(template="utter_ask_last_name") 
-        return [SlotSet("lastN",tracker.latest_message['text'])]
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         dispatcher.utter_message(template="utter_ask_last_name") 
+#         return [SlotSet("lastN",tracker.latest_message['text'])]

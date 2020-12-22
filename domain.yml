@@ -79,7 +79,8 @@ actions:
   - utter_ask_first_name
   - utter_ask_last_name
   - action_first_name
-  - action_last_name
+  - action_ask_time
+  - action_ask_date
 
 entities:
   - c++_content
@@ -101,7 +102,6 @@ slots:
 responses:
   utter_author:
   - text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, cùng học lớp KHCL2019.3 tại HCMUIT <3 Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè
-
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
@@ -189,9 +189,11 @@ responses:
   
   utter_thanks:
   - text: Cảm ơn bạn đã sử dụng dịch vụ
+  - text: Cảm ơn bạn nhiều nhiều nè
   
   utter_sorry:
   - text: Xin lỗi bạn
+  - text: Thành thật xin lỗi bạn nhiều 
 
   utter_wtf:
   - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
@@ -213,6 +215,7 @@ responses:
   - text: Vậy cho mình hỏi tên của bạn được hông
   - text: Tiếp theo cho mình xin tên của bạn đi nè 
   - text: Mình xin phép được hỏi tên của bạn có được hông 
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
