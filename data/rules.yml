@@ -10,37 +10,37 @@ rules:
 
 - rule: Activate form asking example
   steps:
-  - intent: c++_example_asking
+  - intent: cpplus_example_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
 - rule: Activate form asking what
   steps:
-  - intent: c++_what_asking
+  - intent: cpplus_what_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
 - rule: Activate form asking why
   steps:
-  - intent: c++_why_asking
+  - intent: cpplus_why_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
 - rule: Activate form asking how
   steps:
-  - intent: c++_how_asking
+  - intent: cpplus_how_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
 - rule: Activate form asking when
   steps:
-  - intent: c++_when_asking
+  - intent: cpplus_when_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 
 - rule: Activate form asking where
   steps:
-  - intent: c++_where_asking
+  - intent: cpplus_where_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
 

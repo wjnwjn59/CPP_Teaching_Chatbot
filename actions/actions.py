@@ -54,13 +54,13 @@ import calendar
 class AnswerCppDefineQuestion(Action):
 
     def name(self) -> Text:
-        return "action_c++_content_answer"
+        return "action_cpplus_content_answer"
 
     async def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        cpp_content = tracker.get_slot("c++_content")
+        cpp_content = tracker.get_slot("cpplus_content")
 
         curr_intent = tracker.latest_message['intent'].get('name')
 
@@ -1895,12 +1895,12 @@ class AnswerCppDefineQuestion(Action):
         cpp_content_answer = " "
 
         #sql_intent_type = {
-        #   'c++_why_asking':1,
-        #   'c++_what_asking':2,
-        #   'c++_when_asking':3,
-        #   'c++_how_asking':4,
-        #   'c++_where_asking':5
-        #   'c++_example_asking':6
+        #   'cpplus_why_asking':1,
+        #   'cpplus_what_asking':2,
+        #   'cpplus_when_asking':3,
+        #   'cpplus_how_asking':4,
+        #   'cpplus_where_asking':5
+        #   'cpplus_example_asking':6
         #}
 
         # if(type(cpp_content) == list):
@@ -1917,17 +1917,17 @@ class AnswerCppDefineQuestion(Action):
 
         def pull_answer(x):
             try:
-                if curr_intent == 'c++_what_asking':
+                if curr_intent == 'cpplus_what_asking':
                     cpp_content_answer = all_answers_what[x]
-                elif curr_intent == 'c++_why_asking':
+                elif curr_intent == 'cpplus_why_asking':
                     cpp_content_answer = all_answers_why[x]
-                elif curr_intent == 'c++_when_asking':
+                elif curr_intent == 'cpplus_when_asking':
                     cpp_content_answer = "Invalid at the moment"
-                elif curr_intent == 'c++_how_asking':
+                elif curr_intent == 'cpplus_how_asking':
                     cpp_content_answer = all_answers_how[x]
-                elif curr_intent == 'c++_where_asking':
+                elif curr_intent == 'cpplus_where_asking':
                     cpp_content_answer = "Invalid at the moment"
-                elif curr_intent == 'c++_example_asking':
+                elif curr_intent == 'cpplus_example_asking':
                     cpp_content_answer = all_answers_example[x]
                 else:
                     cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
@@ -1941,7 +1941,7 @@ class AnswerCppDefineQuestion(Action):
         else:
             dispatcher.utter_message(text=pull_answer(cpp_content))
 
-        return [SlotSet("cpp_content_answer", cpp_content_answer)]
+        return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
 class ValidateCppContentForm(FormValidationAction):
     def name(self) -> Text:
@@ -2042,12 +2042,12 @@ class ValidateCppContentForm(FormValidationAction):
         """Validate cuisine value."""
 
         if slot_value.lower() in self.cpp_content_db():
-            # validation succeeded, set the value of the "c++_content" slot to value
-            return {"c++_content": slot_value}
+            # validation succeeded, set the value of the "cpplus_content" slot to value
+            return {"cpplus_content": slot_value}
         else:
             # validation failed, set this slot to None so that the
             # user will be asked for the slot again
-            return {"c++_content": None}
+            return {"cpplus_content": None}
 
 
 # Use database to store user's information

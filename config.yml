@@ -25,7 +25,6 @@ pipeline:
   epochs: 600
 - name: FallbackClassifier
   threshold: 0.65
-  epochs: 200
 - name: "EntitySynonymMapper"
 - name: "ResponseSelector"
 

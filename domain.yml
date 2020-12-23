@@ -36,12 +36,12 @@ intents:
   - who_create_you:
       use_entities: []
   - cpp_practice
-  - c++_what_asking
-  - c++_how_asking
-  - c++_why_asking
-  - c++_when_asking
-  - c++_where_asking
-  - c++_example_asking
+  - cpplus_what_asking
+  - cpplus_how_asking
+  - cpplus_why_asking
+  - cpplus_when_asking
+  - cpplus_where_asking
+  - cpplus_example_asking
   - out_of_scope
   - corona
 
@@ -64,7 +64,7 @@ actions:
   - utter_goodbye
   - utter_who_i_am
   - utter_accept_questions
-  - utter_answer_c++_questions
+  - utter_answer_cpplus_questions
   - utter_ask_anything_else
   - utter_ok
   - utter_thanks
@@ -74,7 +74,7 @@ actions:
   - utter_covid_precautions
   - utter_covid_treatment
   - utter_please_rephrase
-  - action_c++_content_answer
+  - action_cpplus_content_answer
   - validate_cpp_content_form
   - utter_ask_first_name
   - utter_ask_last_name
@@ -83,16 +83,16 @@ actions:
   - action_ask_date
 
 entities:
-  - c++_content
+  - cpplus_content
 
 forms:
   cpp_content_form:
-    c++_content:
+    cpplus_content:
       - type: from_entity
-        entity: c++_content
+        entity: cpplus_content
 
 slots:
-  c++_content:
+  cpplus_content:
     type: text
     influence_conversation: false
   cpp_content_answer:
@@ -177,7 +177,7 @@ responses:
   - text: "Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++"
   - text: "Mình có thể trả lời các câu hỏi liên quan đến C++, bạn cứ việc hỏi đi ạ"
 
-  utter_answer_c++_questions:
+  utter_answer_cpplus_questions:
   - text: 'Đây là câu trả lời của bạn:'
   
   utter_ask_anything_else:
