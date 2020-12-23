@@ -170,6 +170,7 @@ responses:
   utter_who_i_am:
   - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
       trình với ngôn ngữ C++!
+  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn ngữ C++
       
   utter_accept_questions:
   - text: "Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++"
@@ -186,6 +187,7 @@ responses:
   utter_ok:
   - text: Ok bạn nha
   - text: Ừa ok bạn
+  - text: Okelaaa
   
   utter_thanks:
   - text: Cảm ơn bạn đã sử dụng dịch vụ
@@ -201,6 +203,7 @@ responses:
 
   utter_please_rephrase:
   - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
+  - text: Bạn có thể nói lại được không, mình không hiểu ý bạn cho lắm :'(
   
   utter_may_i_help_u:
   - text: Vâng, mình đang nghe đây 

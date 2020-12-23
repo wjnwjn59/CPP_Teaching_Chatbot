@@ -22,33 +22,33 @@ import calendar
 #  mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
 #  myresult = mycursor.fetchall()
 #  return str(myresult).replace("[(","").replace(",)]","")
-week_day = ['Thứ Hai', 'Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','Thứ Bảy','Chủ Nhật']
-class AnswerDate(Action):
-    def name(self) -> Text:
-        return "action_ask_date"
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        today = date.today()
+# week_day = ['Thứ Hai', 'Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','Thứ Bảy','Chủ Nhật']
+# class AnswerDate(Action):
+#     def name(self) -> Text:
+#         return "action_ask_date"
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         today = date.today()
 
-        dispatcher.utter_message(text="Hôm nay là {}, ngày {}, tháng {}, năm {}".format(week_day[today],today.day,today.month,today.year)) 
-        return [SlotSet("date",tracker.latest_message['text'])]
+#         dispatcher.utter_message(text="Hôm nay là {}, ngày {}, tháng {}, năm {}".format(week_day[today],today.day,today.month,today.year)) 
+#         return [SlotSet("date",tracker.latest_message['text'])]
 
-class AnswerTime(Action):
-    def name(self) -> Text:
-        return "action_ask_date"
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
+# class AnswerTime(Action):
+#     def name(self) -> Text:
+#         return "action_ask_date"
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         now = datetime.now()
+#         current_time = now.strftime("%H:%M:%S")
 
-        dispatcher.utter_message(text="Bây giờ là {}".format(current_time))
-        return [SlotSet("time",tracker.latest_message['Text'])]
+#         dispatcher.utter_message(text="Bây giờ là {}".format(current_time))
+#         return [SlotSet("time",tracker.latest_message['Text'])]
 
-class AnswerFlowChart(Action):
-    def name(self) -> Text:
-        return "action_ask_flow_chart"
+# class AnswerFlowChart(Action):
+#     def name(self) -> Text:
+#         return "action_ask_flow_chart"
     
 
 class AnswerCppDefineQuestion(Action):
@@ -1916,38 +1916,39 @@ class AnswerCppDefineQuestion(Action):
         #     dispatcher.utter_message(text=cpp_content_answer)
 
         def pull_answer(x):
-            if curr_intent == 'c++_what_asking':
-                cpp_content_answer = all_answers_what[x]
-            elif curr_intent == 'c++_why_asking':
-                cpp_content_answer = all_answers_why[x]
-            elif curr_intent == 'c++_when_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_how_asking':
-                cpp_content_answer = all_answers_how[x]
-            elif curr_intent == 'c++_where_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_example_asking':
-                cpp_content_answer = all_answers_example[x]
-            else:
-                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
-            
+            try:
+                if curr_intent == 'c++_what_asking':
+                    cpp_content_answer = all_answers_what[x]
+                elif curr_intent == 'c++_why_asking':
+                    cpp_content_answer = all_answers_why[x]
+                elif curr_intent == 'c++_when_asking':
+                    cpp_content_answer = "Invalid at the moment"
+                elif curr_intent == 'c++_how_asking':
+                    cpp_content_answer = all_answers_how[x]
+                elif curr_intent == 'c++_where_asking':
+                    cpp_content_answer = "Invalid at the moment"
+                elif curr_intent == 'c++_example_asking':
+                    cpp_content_answer = all_answers_example[x]
+                else:
+                    cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+            except KeyError:
+                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được :'("
             return cpp_content_answer
-        
+
         if(type(cpp_content) == list):
             for entity in cpp_content:
                 dispatcher.utter_message(text=pull_answer(entity))
         else:
-                dispatcher.utter_message(text=pull_answer(cpp_content))
+            dispatcher.utter_message(text=pull_answer(cpp_content))
 
         return [SlotSet("cpp_content_answer", cpp_content_answer)]
-
 
 class ValidateCppContentForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_cpp_content_form"
 
     @staticmethod
-    def cpp_content_db() -> List[Text]:
+    async def cpp_content_db() -> List[Text]:
         """Database of supported c++ content"""
 
         return ['library',

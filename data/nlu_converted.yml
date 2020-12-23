@@ -1464,6 +1464,8 @@ nlu:
     - [comment]{"entity": "c++_content", "value": "comment"} khi lập trình c++ để làm cái lz gì v?
     - ê, tại sao lúc lập trình, t lại nên sử dụng [comment]{"entity": "c++_content", "value": "comment"} v bot?
     - này bot, sao người ta khuyên tao là, khi lập trình thì nên sử dụng [comment]{"entity": "c++_content", "value": "comment"}?
+    - vì sao phải học [c++]{"entity": "c++_content", "value": "cplusplus"}?
+    - tại sao phải học [c++]{"entity": "c++_content", "value": "cplusplus"}?
     - tại sao t nên chọn [c++]{"entity": "c++_content", "value": "cplusplus"} để học lập trình?
     - vì sao tôi lại nên chọn [cpp]{"entity": "c++_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
     - tại sao [c++]{"entity": "c++_content", "value": "cplusplus"} lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?

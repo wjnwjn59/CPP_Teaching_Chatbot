@@ -1,15 +1,16 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: "en"
+language: "vi"
 
 pipeline:
 - name: "WhitespaceTokenizer"
   # Flag to check whether to split intents
   "intent_tokenization_flag": False
   # Symbol on which intent should be split
-  "intent_split_symbol": "_"
+  # "intent_split_symbol": "_"
   # Regular expression to detect tokens
   "token_pattern": None
+# - name: "VietnameseTokenizer"
 - name: "RegexFeaturizer"
   # Text will be processed with case sensitive as default
   "case_sensitive": True
@@ -22,10 +23,12 @@ pipeline:
   "max_ngram": 5
   # Whether to use a shared vocab
   "use_shared_vocab": True
+- name: "CRFEntityExtractor"
 - name: "DIETClassifier"
-  epochs: 500
+  epochs: 300
 - name: FallbackClassifier
-  threshold: 0.6
+  threshold: 0.65
+  epochs: 200
 - name: "EntitySynonymMapper"
 - name: "ResponseSelector"
 
@@ -35,7 +38,7 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 10
+    max_history: 3
     random_seed: 42
-    epochs: 200
+    epochs: 100
   - name: RulePolicy

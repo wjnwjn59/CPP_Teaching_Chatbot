@@ -92,7 +92,3 @@ rules:
   - intent: insult
   - action: utter_reply_insult
   wait_for_user_input: false
-
-- rule: ask time 
-  steps:
-  - intent: 
