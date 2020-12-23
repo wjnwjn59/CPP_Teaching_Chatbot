@@ -3,29 +3,26 @@
 language: "vi"
 
 pipeline:
-- name: "WhitespaceTokenizer"
+- name: HFTransformersNLP
+  # Name of the language model to use
+  model_name: "bert"
+  # Pre-Trained weights to be loaded
+  model_weights: "rasa/LaBSE"
+  cache_dir: null
+- name: "LanguageModelTokenizer"
   # Flag to check whether to split intents
   "intent_tokenization_flag": False
   # Symbol on which intent should be split
-  # "intent_split_symbol": "_"
-  # Regular expression to detect tokens
-  "token_pattern": None
-# - name: "VietnameseTokenizer"
+  "intent_split_symbol": "_"
 - name: "RegexFeaturizer"
   # Text will be processed with case sensitive as default
   "case_sensitive": True
-#- name: "CRFEntityExtractor"
-- name: "CountVectorsFeaturizer"
-  # Analyzer to use, either 'word', 'char', or 'char_wb'
-  "analyzer": "char_wb"
-  # Set the lower and upper boundaries for the n-grams
-  "min_ngram": 1
-  "max_ngram": 5
-  # Whether to use a shared vocab
-  "use_shared_vocab": True
-- name: "CRFEntityExtractor"
+- name: LanguageModelFeaturizer
+  model_name: "bert"
+  model_weights: "rasa/LaBSE"
+  cache_dir: null
 - name: "DIETClassifier"
-  epochs: 300
+  epochs: 600
 - name: FallbackClassifier
   threshold: 0.65
   epochs: 200
