@@ -434,6 +434,8 @@ nlu:
     - sao mày hay thế
 - intent: thanks
   examples: |
+    - ok tks
+    - mơn nhiều nè
     - cảm ơn
     - tks
     - thanks
@@ -857,6 +859,9 @@ nlu:
     - đánh nhau ko
     - dạy t làm AI đi
     - chỉ t machine learning đi
+    - dạy tôi deep learning
+    - machine learning cái gì vậy
+    - deep learning là cái gì	
     - làm sao để thành kỹ sư AI
     - cách hết nợ môn
     - làm sao để hết nợ môn
@@ -885,7 +890,11 @@ nlu:
     - em iu em
     - t iu ma 
     - ai la con di cua anh nao
-    - ai là con đĩ của anh nào 
+    - ai là con đĩ của anh nào
+    - làm sao để master lập trình vậy bro
+    - thuật toán sắp xếp
+    - thuật toán phân loại
+    - dynamic programming 
 - intent: cpplus_example_asking
   examples: |
     - cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
