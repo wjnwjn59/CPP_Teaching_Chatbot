@@ -10,7 +10,6 @@ nlu:
     - ê
     - e
     - eeee
-    - này
     - nihao
     - ní hạo
     - hế lô
@@ -56,7 +55,6 @@ nlu:
     - hey sir 
     - hi sir 
     - yo yo yo
-    - yo
 - intent: who_create_you
   examples: |
     - ê ai làm ra mày v
@@ -113,7 +111,6 @@ nlu:
   examples: |
     - êii
     - eeeeeeee
-    - ê 
     - eee
     - nè 
     - nè nè 
@@ -121,12 +118,9 @@ nlu:
     - ê duma
     - ê dcm 
     - ê th lz 
-    - hey 
     - hú 
     - cúc cu 
     - hei 
-    - yo 
-    - yo yo yo 
     - này 
     - này này
     - này dcm 
@@ -137,8 +131,6 @@ nlu:
     - yô
     - yô yô
     - à lô 
-    - à lố 
-    - alo 
     - cốc cốc 
     - e hèm 
     - a hèm 
@@ -418,7 +410,7 @@ nlu:
     - xuất sắc
     - tuyệt hảo
     - tuyệt cú mèo
-    - chuẩn
+    - quá chuẩn luôn
     - quá giỏi
     - làm tốt lắm
     - ghê
@@ -432,6 +424,9 @@ nlu:
     - được
     - tốt
     - sao mày hay thế
+    - được bạn ơi
+    - quá vip luôn
+    - vip pro luôn người anh em
 - intent: thanks
   examples: |
     - ok tks
@@ -1229,7 +1224,7 @@ nlu:
     - [address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"}
     - can you say something about [address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"} in cplusplus ?
     - ey dzô nói gì về [address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"} coi bot ngu
-    - say sth about [toán tử địa chỉ][address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"} đi
+    - say sth about [toán tử địa chỉ]{"entity": "cpplus_content", "value": "address_of-operator"} đi
     - [comma operator]{"entity": "cpplus_content", "value": "comma-operator"}
     - sủa gì về [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} xem
     - [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}, sủa gì về nói xem nào

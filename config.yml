@@ -22,7 +22,7 @@ pipeline:
   model_weights: "rasa/LaBSE"
   cache_dir: null
 - name: "DIETClassifier"
-  epochs: 500
+  epochs: 300
 - name: FallbackClassifier
   threshold: 0.75
 - name: "EntitySynonymMapper"

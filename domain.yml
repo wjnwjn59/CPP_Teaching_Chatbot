@@ -35,6 +35,14 @@ intents:
       use_entities: []
   - who_create_you:
       use_entities: []
+  - last_name:
+       use_entities: []
+  - first_name:
+       use_entities: []
+  - date:
+       use_entities: []
+  - time:
+       use_entities: []
   - cpp_practice
   - cpplus_what_asking
   - cpplus_how_asking

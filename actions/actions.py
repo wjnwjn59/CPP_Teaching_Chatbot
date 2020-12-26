@@ -2050,7 +2050,7 @@ class ValidateCppContentForm(FormValidationAction):
             return {"cpplus_content": None}
 
 
-# Use database to store user's information
+#Use database to store user's information
 # class ActionFirstName(Action):
 #     def name(self) -> Text: 
 #         return "action_first_name"
