@@ -48,7 +48,6 @@ rules:
   steps:
   - intent: who_create_you
   - action: utter_author
-  - action: utter_who_i_am
 
 - rule: out of scope
   steps:

@@ -56,7 +56,7 @@ class AnswerCppDefineQuestion(Action):
     def name(self) -> Text:
         return "action_cpplus_content_answer"
 
-    async def run(self, dispatcher: CollectingDispatcher,
+    def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
