@@ -5,8 +5,9 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk.types import DomainDict
-import mysql.connector
-
+from datetime import datetime
+from datetime import date
+import calendar
 
 #mydb = mysql.connector.connect(
 #  host="localhost",
@@ -21,17 +22,45 @@ import mysql.connector
 #  mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
 #  myresult = mycursor.fetchall()
 #  return str(myresult).replace("[(","").replace(",)]","")
+# week_day = ['Thứ Hai', 'Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','Thứ Bảy','Chủ Nhật']
+# class AnswerDate(Action):
+#     def name(self) -> Text:
+#         return "action_ask_date"
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         today = date.today()
+
+#         dispatcher.utter_message(text="Hôm nay là {}, ngày {}, tháng {}, năm {}".format(week_day[today],today.day,today.month,today.year)) 
+#         return [SlotSet("date",tracker.latest_message['text'])]
+
+# class AnswerTime(Action):
+#     def name(self) -> Text:
+#         return "action_ask_date"
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         now = datetime.now()
+#         current_time = now.strftime("%H:%M:%S")
+
+#         dispatcher.utter_message(text="Bây giờ là {}".format(current_time))
+#         return [SlotSet("time",tracker.latest_message['Text'])]
+
+# class AnswerFlowChart(Action):
+#     def name(self) -> Text:
+#         return "action_ask_flow_chart"
+    
 
 class AnswerCppDefineQuestion(Action):
 
     def name(self) -> Text:
-        return "action_c++_content_answer"
+        return "action_cpplus_content_answer"
 
-    async def run(self, dispatcher: CollectingDispatcher,
+    def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        cpp_content = tracker.get_slot("c++_content")
+        cpp_content = tracker.get_slot("cpplus_content")
 
         curr_intent = tracker.latest_message['intent'].get('name')
 
@@ -1866,12 +1895,12 @@ class AnswerCppDefineQuestion(Action):
         cpp_content_answer = " "
 
         #sql_intent_type = {
-        #   'c++_why_asking':1,
-        #   'c++_what_asking':2,
-        #   'c++_when_asking':3,
-        #   'c++_how_asking':4,
-        #   'c++_where_asking':5
-        #   'c++_example_asking':6
+        #   'cpplus_why_asking':1,
+        #   'cpplus_what_asking':2,
+        #   'cpplus_when_asking':3,
+        #   'cpplus_how_asking':4,
+        #   'cpplus_where_asking':5
+        #   'cpplus_example_asking':6
         #}
 
         # if(type(cpp_content) == list):
@@ -1887,38 +1916,39 @@ class AnswerCppDefineQuestion(Action):
         #     dispatcher.utter_message(text=cpp_content_answer)
 
         def pull_answer(x):
-            if curr_intent == 'c++_what_asking':
-                cpp_content_answer = all_answers_what[x]
-            elif curr_intent == 'c++_why_asking':
-                cpp_content_answer = all_answers_why[x]
-            elif curr_intent == 'c++_when_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_how_asking':
-                cpp_content_answer = all_answers_how[x]
-            elif curr_intent == 'c++_where_asking':
-                cpp_content_answer = "Invalid at the moment"
-            elif curr_intent == 'c++_example_asking':
-                cpp_content_answer = all_answers_example[x]
-            else:
-                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
-            
+            try:
+                if curr_intent == 'cpplus_what_asking':
+                    cpp_content_answer = all_answers_what[x]
+                elif curr_intent == 'cpplus_why_asking':
+                    cpp_content_answer = all_answers_why[x]
+                elif curr_intent == 'cpplus_when_asking':
+                    cpp_content_answer = "Invalid at the moment"
+                elif curr_intent == 'cpplus_how_asking':
+                    cpp_content_answer = all_answers_how[x]
+                elif curr_intent == 'cpplus_where_asking':
+                    cpp_content_answer = "Invalid at the moment"
+                elif curr_intent == 'cpplus_example_asking':
+                    cpp_content_answer = all_answers_example[x]
+                else:
+                    cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+            except KeyError:
+                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được :'("
             return cpp_content_answer
-        
+
         if(type(cpp_content) == list):
             for entity in cpp_content:
                 dispatcher.utter_message(text=pull_answer(entity))
         else:
-                dispatcher.utter_message(text=pull_answer(cpp_content))
+            dispatcher.utter_message(text=pull_answer(cpp_content))
 
-        return [SlotSet("cpp_content_answer", cpp_content_answer)]
-
+        return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
 class ValidateCppContentForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_cpp_content_form"
 
     @staticmethod
-    def cpp_content_db() -> List[Text]:
+    async def cpp_content_db() -> List[Text]:
         """Database of supported c++ content"""
 
         return ['library',
@@ -2012,31 +2042,31 @@ class ValidateCppContentForm(FormValidationAction):
         """Validate cuisine value."""
 
         if slot_value.lower() in self.cpp_content_db():
-            # validation succeeded, set the value of the "c++_content" slot to value
-            return {"c++_content": slot_value}
+            # validation succeeded, set the value of the "cpplus_content" slot to value
+            return {"cpplus_content": slot_value}
         else:
             # validation failed, set this slot to None so that the
             # user will be asked for the slot again
-            return {"c++_content": None}
+            return {"cpplus_content": None}
 
 
-# Use database to store user's information
-class ActionFirstName(Action):
-    def name(self) -> Text: 
-        return "action_first_name"
+#Use database to store user's information
+# class ActionFirstName(Action):
+#     def name(self) -> Text: 
+#         return "action_first_name"
 
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        dispatcher.utter_message(template="utter_ask_first_name") 
-        return [SlotSet("firstN",tracker.latest_message['text'])]
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         dispatcher.utter_message(template="utter_ask_first_name") 
+#         return [SlotSet("firstN",tracker.latest_message['text'])]
 
-class ActionLastName(Action):
-    def name(self) -> Text: 
-        return "action_last_name"
+# class ActionLastName(Action):
+#     def name(self) -> Text: 
+#         return "action_last_name"
 
-    async def run(self, dispatcher: CollectingDispatcher, 
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-        dispatcher.utter_message(template="utter_ask_last_name") 
-        return [SlotSet("lastN",tracker.latest_message['text'])]
+#     async def run(self, dispatcher: CollectingDispatcher, 
+#                         tracker: Tracker, 
+#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+#         dispatcher.utter_message(template="utter_ask_last_name") 
+#         return [SlotSet("lastN",tracker.latest_message['text'])]

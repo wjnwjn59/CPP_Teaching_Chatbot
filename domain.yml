@@ -35,13 +35,21 @@ intents:
       use_entities: []
   - who_create_you:
       use_entities: []
+  - last_name:
+       use_entities: []
+  - first_name:
+       use_entities: []
+  - date:
+       use_entities: []
+  - time:
+       use_entities: []
   - cpp_practice
-  - c++_what_asking
-  - c++_how_asking
-  - c++_why_asking
-  - c++_when_asking
-  - c++_where_asking
-  - c++_example_asking
+  - cpplus_what_asking
+  - cpplus_how_asking
+  - cpplus_why_asking
+  - cpplus_when_asking
+  - cpplus_where_asking
+  - cpplus_example_asking
   - out_of_scope
   - corona
 
@@ -64,7 +72,7 @@ actions:
   - utter_goodbye
   - utter_who_i_am
   - utter_accept_questions
-  - utter_answer_c++_questions
+  - utter_answer_cpplus_questions
   - utter_ask_anything_else
   - utter_ok
   - utter_thanks
@@ -74,24 +82,25 @@ actions:
   - utter_covid_precautions
   - utter_covid_treatment
   - utter_please_rephrase
-  - action_c++_content_answer
+  - action_cpplus_content_answer
   - validate_cpp_content_form
   - utter_ask_first_name
   - utter_ask_last_name
   - action_first_name
-  - action_last_name
+  - action_ask_time
+  - action_ask_date
 
 entities:
-  - c++_content
+  - cpplus_content
 
 forms:
   cpp_content_form:
-    c++_content:
+    cpplus_content:
       - type: from_entity
-        entity: c++_content
+        entity: cpplus_content
 
 slots:
-  c++_content:
+  cpplus_content:
     type: text
     influence_conversation: false
   cpp_content_answer:
@@ -101,7 +110,6 @@ slots:
 responses:
   utter_author:
   - text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, cùng học lớp KHCL2019.3 tại HCMUIT <3 Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè
-
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
@@ -170,13 +178,14 @@ responses:
   utter_who_i_am:
   - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
       trình với ngôn ngữ C++!
+  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn ngữ C++
       
   utter_accept_questions:
   - text: "Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++"
   - text: "Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++"
   - text: "Mình có thể trả lời các câu hỏi liên quan đến C++, bạn cứ việc hỏi đi ạ"
 
-  utter_answer_c++_questions:
+  utter_answer_cpplus_questions:
   - text: 'Đây là câu trả lời của bạn:'
   
   utter_ask_anything_else:
@@ -186,12 +195,15 @@ responses:
   utter_ok:
   - text: Ok bạn nha
   - text: Ừa ok bạn
+  - text: Okelaaa
   
   utter_thanks:
   - text: Cảm ơn bạn đã sử dụng dịch vụ
+  - text: Cảm ơn bạn nhiều nhiều nè
   
   utter_sorry:
   - text: Xin lỗi bạn
+  - text: Thành thật xin lỗi bạn nhiều 
 
   utter_wtf:
   - text: Mình chưa hiểu câu của bạn lắm >< Bạn có thể nói lại được không ạ?
@@ -199,6 +211,7 @@ responses:
 
   utter_please_rephrase:
   - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
+  - text: Bạn có thể nói lại được không, mình không hiểu ý bạn cho lắm :'(
   
   utter_may_i_help_u:
   - text: Vâng, mình đang nghe đây 
@@ -213,6 +226,7 @@ responses:
   - text: Vậy cho mình hỏi tên của bạn được hông
   - text: Tiếp theo cho mình xin tên của bạn đi nè 
   - text: Mình xin phép được hỏi tên của bạn có được hông 
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
