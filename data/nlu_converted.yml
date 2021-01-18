@@ -989,6 +989,11 @@ nlu:
     - Ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"}
 - intent: cpplus_what_asking
   examples: |
+    - [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là gì ?
+    - như thế nào là [flow chart]{"entity": "cpplus_content", "value": "flowchart"} ?
+    - hãy cho mình biết thế nào là [flowchart]{"entity": "cpplus_content", "value": "flowchart"} ?
+    - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là gì vậy bot ?
+    - cho mình hỏi về [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} với ạ !
     - [library](cpplus_content) là gì thế?
     - khái niệm về [library](cpplus_content) trong c++?
     - [thư viện]{"entity": "cpplus_content", "value": "library"} là gì?
@@ -2007,6 +2012,42 @@ nlu:
     - I think I don't really have any interested in asking you about pointer
     - I dont want to ask you about corona
     - I really don't likely to ask you about recursion
+- intent: want_to_practice_flowchart 
+  examples: |
+    - bài tập flowwchart
+    - luyện tập vẽ lưu đồ
+    - luyện tập vẽ flowchart 
+    - luyện tập làm bài tập thầy Khang 
+    - thực hành vẽ lưu đồ thuật toán
+    - thực hành vẽ flowchart
+    - thực hành vẽ bài tập thầy Khang
+    - thực hành vẽ vời lưu đồ
+    - bài tập lưu đồ thuật toán 
+    - bài thầy Khang 
+    - bài tập thầy Khang 
+    - bài tập lưu đồ thuật toán thầy Khang
+    - bài tập lưu đồ thuật toán uit 
+    - cày bài tập thầy Khang 
+    - cày lưu đồ thuật toán
+    - flowchart practice
+    - tôi muốn làm bài tập thầy Khang
+    - cho tôi làm bài thầy Khang 
+    - ê bot, m có bài tập thầy Khang nào không gửi t làm với
+    - ê bot t muốn luyện lưu đồ thuật toán á, m có bài nào không gửi t làm với
+    - alo, t cần bài tập lưu đồ thuật toán, gửi t vài cái đi
+    - t muốn luyện tập thêm flowchart
+    - mình muốn cày bài flowchart 
+    - bạn ơi gửi cho mình một số bài tập flowchart với ạ
+    - bạn ơi giờ mình muốn được làm bài tập lưu đồ thuật toán thì có được không ạ ?
+    - ê bot gửi t bài tập sơ đồ thuật toán coi
+    - gửi bố m bài sơ đồ thuật toán coi bot
+    - gửi mình bài tập lưu đồ thuật toán với ạ
+- intent: flowchart_asking
+  examples: |
+    - cách giải bài [1]{"entity": "flowchart_quest_num", "value": "1"}
+    - cách giải bài số [2]{"entity": "flowchart_quest_num", "value": "2"}
+    - đáp án bài [3]{"entity": "flowchart_quest_num", "value": "3"}
+    - cho mình đáp án bài số [4]{"entity": "flowchart_quest_num", "value": "4"}
 - intent: time
   examples: |
     - Cho mình hỏi bây giờ mấy giờ rồi ?
@@ -2709,6 +2750,13 @@ nlu:
     - returns
     - trả về
     - tra ve
+- synonym: flow_chart
+  examples: |
+    - flowchart
+    - lưu đồ thuật toán 
+    - luu do thuat toan 
+    - flow chart 
+    - flowcharts
 - regex: c++
   examples: |
     - c++

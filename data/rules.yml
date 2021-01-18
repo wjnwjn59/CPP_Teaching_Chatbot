@@ -8,6 +8,12 @@ rules:
   - action: utter_covid_treatment
   wait_for_user_input: false
 
+- rule: Activate form asking practice flowchart
+  steps:
+  - intent: cpplus_example_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+
 - rule: Activate form asking example
   steps:
   - intent: cpplus_example_asking

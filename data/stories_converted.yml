@@ -969,3 +969,16 @@ stories:
   - intent: greet
   - action: utter_greet
   - action: utter_who_i_am
+- story: i want to practice flowchart 
+  steps:
+  - intent: want_to_practice_flowchart
+  - action: utter_ok
+  - action: utter_ask_flowchart_question_number
+  - intent: flowchart_asking
+    entities:
+    - flowchart_quest_num: "1"
+  - action: flowchartflowchart_quest_num_form
+  - active_loop: flowchart_quest_num_form
+  - active_loop: null
+  - action: action_flowchart_practice_answer
+  - action: utter_ask_anything_else
