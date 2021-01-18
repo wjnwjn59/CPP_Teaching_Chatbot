@@ -4,17 +4,14 @@ stories:
   steps:
   - intent: feeling_good
   - action: utter_reply_feeling_good
-
 - story: ask about the authors
   steps:
   - intent: who_create_you
   - action: utter_author
-
 - story: who are you
   steps:
   - intent: who_are_you
   - action: utter_who_i_am
-
 - story: sad path 1
   steps:
   - intent: feeling_bad
@@ -22,7 +19,6 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
-
 - story: sad path 2
   steps:
   - intent: feeling_bad
@@ -30,62 +26,34 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_sorry
-
 - story: dont want to ask 1
   steps:
   - intent: dont_want_to_ask
   - action: utter_what_do_you_want
-
 - story: dont want to ask 2
   steps:
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: dont_want_to_ask
   - action: utter_what_do_you_want
-
-# - story: dont want to ask 3
-#   steps:
-#   - intent: want_to_ask
-#   - action: utter_accept_questions
-#   - or:
-#     - intent: cpplus_what_asking
-#     - intent: cpplus_why_asking
-#     - intent: cpplus_when_asking
-#     - intent: cpplus_how_asking
-#     - intent: cpplus_where_asking
-#     entities:
-#     - cpplus_content: c++
-#   - action: cpp_content_form
-#   - active_loop: cpp_content_form
-#   - active_loop: null
-#   - action: action_cpplus_content_answer
-#   - action: utter_ask_anything_else
-#   - intent: dont_want_to_ask
-#   - action: utter_what_do_you_want
-  
-
 - story: stop asking
   steps:
   - intent: stop_asking
   - action: utter_reply_stop_asking
-
 - story: pay attention to me plz
   steps:
   - intent: attention
   - action: utter_may_i_help_u
-
 - story: unknown asking 1
   steps:
   - intent: want_to_ask
   - action: utter_accept_questions
-
 - story: unknown asking 2
   steps:
   - intent: want_to_ask
   - action: utter_accept_questions
   - intent: stop_asking
   - action: utter_reply_stop_asking
-
 - story: c++ what asking 1
   steps:
   - intent: cpplus_what_asking
@@ -96,7 +64,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ what asking 2
   steps:
   - intent: want_to_ask
@@ -109,7 +76,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ what asking 3
   steps:
   - intent: cpplus_what_asking
@@ -122,7 +88,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ what asking 4
   steps:
   - intent: cpplus_what_asking
@@ -136,7 +101,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ what asking 5
   steps:
   - intent: cpplus_what_asking
@@ -157,7 +121,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ what asking 6
   steps:
   - intent: cpplus_what_asking
@@ -170,7 +133,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: deny
   - action: utter_reply_deny
-
 - story: c++ what asking 7
   steps:
   - intent: cpplus_what_asking
@@ -182,9 +144,8 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: c++ why asking 1
   steps:
   - intent: cpplus_why_asking
@@ -195,7 +156,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ why asking 2
   steps:
   - intent: want_to_ask
@@ -208,7 +168,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ why asking 3
   steps:
   - intent: cpplus_why_asking
@@ -221,7 +180,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ why asking 4
   steps:
   - intent: cpplus_why_asking
@@ -235,7 +193,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ why asking 5
   steps:
   - intent: cpplus_why_asking
@@ -256,7 +213,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ why asking 6
   steps:
   - intent: cpplus_why_asking
@@ -268,8 +224,7 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-
+  - action: utter_reply_deny
 - story: c++ why asking 7
   steps:
   - intent: cpplus_why_asking
@@ -281,9 +236,8 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: c++ how asking 1
   steps:
   - intent: cpplus_how_asking
@@ -294,7 +248,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ how asking 2
   steps:
   - intent: want_to_ask
@@ -307,7 +260,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ how asking 3
   steps:
   - intent: cpplus_how_asking
@@ -320,7 +272,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ how asking 4
   steps:
   - intent: cpplus_how_asking
@@ -334,7 +285,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ how asking 5
   steps:
   - intent: cpplus_how_asking
@@ -355,8 +305,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
-
 - story: c++ how asking 6
   steps:
   - intent: cpplus_how_asking
@@ -368,8 +316,7 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny  
-
+  - action: utter_reply_deny
 - story: c++ how asking 7
   steps:
   - intent: cpplus_how_asking
@@ -381,9 +328,8 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: c++ when asking 1
   steps:
   - intent: cpplus_when_asking
@@ -394,7 +340,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ when asking 2
   steps:
   - intent: want_to_ask
@@ -407,7 +352,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ when asking 3
   steps:
   - intent: cpplus_when_asking
@@ -420,7 +364,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ when asking 4
   steps:
   - intent: cpplus_when_asking
@@ -434,7 +377,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ when asking 5
   steps:
   - intent: cpplus_when_asking
@@ -455,7 +397,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ when asking 6
   steps:
   - intent: cpplus_when_asking
@@ -467,8 +408,7 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-
+  - action: utter_reply_deny
 - story: c++ when asking 7
   steps:
   - intent: cpplus_when_asking
@@ -480,9 +420,8 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: c++ where asking 1
   steps:
   - intent: cpplus_where_asking
@@ -493,7 +432,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ where asking 2
   steps:
   - intent: want_to_ask
@@ -506,7 +444,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ where asking 3
   steps:
   - intent: cpplus_where_asking
@@ -519,7 +456,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ where asking 4
   steps:
   - intent: cpplus_where_asking
@@ -533,7 +469,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ where asking 5
   steps:
   - intent: cpplus_where_asking
@@ -554,8 +489,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
-
 - story: c++ where asking 6
   steps:
   - intent: cpplus_where_asking
@@ -568,7 +501,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: deny
   - action: utter_reply_deny
-  
 - story: c++ where asking 7
   steps:
   - intent: cpplus_where_asking
@@ -580,9 +512,8 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny   
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: c++ example asking 1
   steps:
   - intent: cpplus_example_asking
@@ -593,7 +524,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ example asking 2
   steps:
   - intent: want_to_ask
@@ -606,7 +536,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ example asking 3
   steps:
   - intent: cpplus_example_asking
@@ -619,7 +548,6 @@ stories:
   - action: utter_ask_anything_else
   - intent: compliment
   - action: utter_reply_compliment
-
 - story: c++ example asking 4
   steps:
   - intent: cpplus_when_asking
@@ -633,7 +561,6 @@ stories:
   - intent: stop_asking
   - action: utter_reply_stop_asking
   - action: utter_thanks
-
 - story: c++ example asking 5
   steps:
   - intent: cpplus_when_asking
@@ -654,7 +581,6 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
-
 - story: c++ example asking 6
   steps:
   - intent: cpplus_example_asking
@@ -666,8 +592,7 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-
+  - action: utter_reply_deny
 - story: c++ example asking 7
   steps:
   - intent: cpplus_example_asking
@@ -679,15 +604,13 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: deny
-  - action: utter_reply_deny 
-  - intent: affirm 
-
+  - action: utter_reply_deny
+  - intent: affirm
 - story: anything else? - yes
   steps:
   - action: utter_ask_anything_else
   - intent: affirm
   - action: utter_accept_questions
-
 - story: anything else? - no / pos
   steps:
   - action: utter_ask_anything_else
@@ -696,7 +619,6 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_thanks
-
 - story: anything else? - no / neg
   steps:
   - action: utter_ask_anything_else
@@ -705,7 +627,6 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_sorry
-
 - story: anything else - dive into what
   steps:
   - action: utter_ask_anything_else
@@ -716,7 +637,6 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-
 - story: anything else - dive into why
   steps:
   - action: utter_ask_anything_else
@@ -727,7 +647,6 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-
 - story: anything else - dive into how
   steps:
   - action: utter_ask_anything_else
@@ -738,7 +657,6 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-
 - story: anything else - dive into when
   steps:
   - action: utter_ask_anything_else
@@ -749,7 +667,6 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-
 - story: anything else - dive into where
   steps:
   - action: utter_ask_anything_else
@@ -760,7 +677,6 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-
 - story: anything else - dive into example
   steps:
   - action: utter_ask_anything_else
@@ -771,4 +687,285 @@ stories:
   - active_loop: cpp_content_form
   - active_loop: null
   - action: action_cpplus_content_answer
-  
+- story: Story from Conversation ID 4b468056995f46a9b8bc1bf772e1283a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_who_i_am
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - cpplus_content: pointer
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_why_asking
+    entities:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - cpplus_content: pointer
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - cpplus_content: pointer
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: variable
+  - slot_was_set:
+    - cpplus_content: variable
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: variable
+  - slot_was_set:
+    - cpplus_content: variable
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_what_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: variable
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - intent: cpplus_why_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: variable
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_how_asking
+    entities:
+    - cpplus_content: switch
+  - slot_was_set:
+    - cpplus_content: switch
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: switch
+  - slot_was_set:
+    - cpplus_content: switch
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_how_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: switch
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: vector
+  - slot_was_set:
+    - cpplus_content: vector
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: vector
+  - slot_was_set:
+    - cpplus_content: vector
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_why_asking
+    entities:
+    - cpplus_content: vector
+  - slot_was_set:
+    - cpplus_content: vector
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: vector
+  - slot_was_set:
+    - cpplus_content: vector
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_why_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: vector
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_why_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - intent: cpplus_why_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: function
+  - slot_was_set:
+    - cpplus_content: function
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: function
+  - slot_was_set:
+    - cpplus_content: function
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_example_asking
+    entities:
+    - cpplus_content: function
+  - slot_was_set:
+    - cpplus_content: function
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: function
+  - slot_was_set:
+    - cpplus_content: function
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_example_asking
+    entities:
+    - cpplus_content: array
+  - slot_was_set:
+    - cpplus_content: array
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: array
+  - slot_was_set:
+    - cpplus_content: array
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_cpplus_content_answer
+  - slot_was_set:
+    - cpp_content_answer: ' '
+  - action: utter_ask_anything_else
+  - intent: cpplus_example_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: array
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - intent: restart
+  - action: action_restart
+  - intent: cpplus_example_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - requested_slot: cpplus_content
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - action: cpp_content_form
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - intent: greet
+  - action: utter_greet
+  - action: utter_who_i_am
