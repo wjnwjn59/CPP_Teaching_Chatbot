@@ -16,7 +16,7 @@ pipeline:
   "intent_split_symbol": "_"
 - name: "RegexFeaturizer"
   # Text will be processed with case sensitive as default
-  "case_sensitive": True
+  "case_sensitive": False
 - name: LanguageModelFeaturizer
   model_name: "bert"
   model_weights: "rasa/LaBSE"
