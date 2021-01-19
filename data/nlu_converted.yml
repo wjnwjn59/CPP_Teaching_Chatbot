@@ -913,7 +913,7 @@ nlu:
     - cho bố mày một ví dụ về [library](cpplus_content)
     - một số ví dụ về [thư viện](cpplus_content)
     - hãy cho tôi một vài ví dụ về [libraries]{"entity": "cpplus_content", "value": "library"}
-    - cho tôi một ví dụ về [namespace]{"entity": "cpplus_content", "value": "namepsace"} được không?
+    - cho tôi một ví dụ về [namespace]{"entity": "cpplus_content", "value": "namespace"} được không?
     - cho tôi xin một ví dụ về [không gian tên]{"entity": "cpplus_content", "value": "namespace"} với ạ
     - kể tao nghe về một số ví dụ về [comment](cpplus_content) đi bot
     - ê bot, cho t 1 số ví dụ về [comment](cpplus_content) đê
@@ -2750,7 +2750,7 @@ nlu:
     - returns
     - trả về
     - tra ve
-- synonym: flow_chart
+- synonym: flowchart
   examples: |
     - flowchart
     - lưu đồ thuật toán 
