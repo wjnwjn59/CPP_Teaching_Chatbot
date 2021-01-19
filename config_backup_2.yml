@@ -5,27 +5,24 @@ language: "vi"
 pipeline:
 - name: HFTransformersNLP
   # Name of the language model to use
-  model_name: "bert"
+  model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "rasa/LaBSE"
+  model_weights: "roberta-base"
   cache_dir: null
 - name: "LanguageModelTokenizer"
-  # Flag to check whether to split intents
-  "intent_tokenization_flag": False
-  # Symbol on which intent should be split
-  "intent_split_symbol": "_"
-- name: "RegexFeaturizer"
-  # Text will be processed with case sensitive as default
-  "case_sensitive": False
+  model_name: "roberta"
+  # Pre-Trained weights to be loaded
+  model_weights: "roberta-base"
 - name: LanguageModelFeaturizer
-  model_name: "bert"
-  model_weights: "rasa/LaBSE"
+  model_name: "roberta"
+  model_weights: "roberta-base"
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
-  epochs: 500
+  epochs: 400
 - name: FallbackClassifier
   threshold: 0.75
+- name: RegexEntityExtractor
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
   # features to extract in the sliding window
