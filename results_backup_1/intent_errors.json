@@ -1,0 +1,370 @@
+[
+  {
+    "text": "\u00ca bro",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "feeling_good",
+      "confidence": 0.5250129699707031
+    }
+  },
+  {
+    "text": "\u00ca c\u01b0ng",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "time",
+      "confidence": 0.27128690481185913
+    }
+  },
+  {
+    "text": "c\u00fat",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9991447925567627
+    }
+  },
+  {
+    "text": "c\u00fac",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "attention",
+      "confidence": 0.9955766797065735
+    }
+  },
+  {
+    "text": "n\u00f3 ch\u1ea1y nh\u01b0 th\u1ebf no\u00e0",
+    "intent": "continue_asking",
+    "intent_prediction": {
+      "name": "who_create_you",
+      "confidence": 0.22951628267765045
+    }
+  },
+  {
+    "text": "https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=hDe8RHR8AyQAX8LpIii&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=b3a060fd3b3240c364599cc246fe1d6c&oe=600DF3B1",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "feeling_good",
+      "confidence": 0.2970782518386841
+    }
+  },
+  {
+    "text": "B\u1ea1n c\u00f3 th\u1ec3 debug gi\u00fap t\u00f4i kh\u00f4ng?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "want_to_ask",
+      "confidence": 0.9821904301643372
+    }
+  },
+  {
+    "text": "H\u00f4m nay l\u00e0 ng\u00e0y m\u1ea5y",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "date",
+      "confidence": 0.8014826774597168
+    }
+  },
+  {
+    "text": "m\u00e1 m\u00e0y t\u00ean l\u00e0 ng\u1ecdc \u00f4ng gi\u00e0 m\u00e0y tu\u1ea5n anh",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9991028904914856
+    }
+  },
+  {
+    "text": "c\u00e1ch d\u00f9ng h\u00e0m switch case switch case switch caseswitch case",
+    "intent": "cpplus_how_asking",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9922276139259338
+    }
+  },
+  {
+    "text": "cach viet switch case",
+    "intent": "cpplus_how_asking",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9998235106468201
+    }
+  },
+  {
+    "text": "c\u00e1ch d\u00f9ng do while trong c++",
+    "intent": "cpplus_how_asking",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9998490214347839
+    }
+  },
+  {
+    "text": "b\u00e0i t\u1eadp flowwchart",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9889530539512634
+    }
+  },
+  {
+    "text": "luy\u1ec7n t\u1eadp v\u1ebd l\u01b0u \u0111\u1ed3",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.5643746852874756
+    }
+  },
+  {
+    "text": "luy\u1ec7n t\u1eadp v\u1ebd flowchart",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.5397000312805176
+    }
+  },
+  {
+    "text": "luy\u1ec7n t\u1eadp l\u00e0m b\u00e0i t\u1eadp th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9709910750389099
+    }
+  },
+  {
+    "text": "th\u1ef1c h\u00e0nh v\u1ebd l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9514462351799011
+    }
+  },
+  {
+    "text": "th\u1ef1c h\u00e0nh v\u1ebd flowchart",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpplus_how_asking",
+      "confidence": 0.8982360363006592
+    }
+  },
+  {
+    "text": "th\u1ef1c h\u00e0nh v\u1ebd b\u00e0i t\u1eadp th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.7989273071289062
+    }
+  },
+  {
+    "text": "th\u1ef1c h\u00e0nh v\u1ebd v\u1eddi l\u01b0u \u0111\u1ed3",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.43137800693511963
+    }
+  },
+  {
+    "text": "b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.909801721572876
+    }
+  },
+  {
+    "text": "b\u00e0i th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "dont_want_to_ask",
+      "confidence": 0.3630467653274536
+    }
+  },
+  {
+    "text": "b\u00e0i t\u1eadp th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9019585847854614
+    }
+  },
+  {
+    "text": "b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9668426513671875
+    }
+  },
+  {
+    "text": "b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n uit",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9603807926177979
+    }
+  },
+  {
+    "text": "c\u00e0y b\u00e0i t\u1eadp th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.7457188367843628
+    }
+  },
+  {
+    "text": "c\u00e0y l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9993430376052856
+    }
+  },
+  {
+    "text": "flowchart practice",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpplus_example_asking",
+      "confidence": 0.44689783453941345
+    }
+  },
+  {
+    "text": "t\u00f4i mu\u1ed1n l\u00e0m b\u00e0i t\u1eadp th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.8917744755744934
+    }
+  },
+  {
+    "text": "cho t\u00f4i l\u00e0m b\u00e0i th\u1ea7y Khang",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.92046719789505
+    }
+  },
+  {
+    "text": "\u00ea bot, m c\u00f3 b\u00e0i t\u1eadp th\u1ea7y Khang n\u00e0o kh\u00f4ng g\u1eedi t l\u00e0m v\u1edbi",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "dont_want_to_ask",
+      "confidence": 0.9659861922264099
+    }
+  },
+  {
+    "text": "\u00ea bot t mu\u1ed1n luy\u1ec7n l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n \u00e1, m c\u00f3 b\u00e0i n\u00e0o kh\u00f4ng g\u1eedi t l\u00e0m v\u1edbi",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9048569798469543
+    }
+  },
+  {
+    "text": "alo, t c\u1ea7n b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n, g\u1eedi t v\u00e0i c\u00e1i \u0111i",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.9015644192695618
+    }
+  },
+  {
+    "text": "t mu\u1ed1n luy\u1ec7n t\u1eadp th\u00eam flowchart",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.7834693789482117
+    }
+  },
+  {
+    "text": "m\u00ecnh mu\u1ed1n c\u00e0y b\u00e0i flowchart",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpplus_how_asking",
+      "confidence": 0.9126003980636597
+    }
+  },
+  {
+    "text": "b\u1ea1n \u01a1i g\u1eedi cho m\u00ecnh m\u1ed9t s\u1ed1 b\u00e0i t\u1eadp flowchart v\u1edbi \u1ea1",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.6308897137641907
+    }
+  },
+  {
+    "text": "b\u1ea1n \u01a1i gi\u1edd m\u00ecnh mu\u1ed1n \u0111\u01b0\u1ee3c l\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n th\u00ec c\u00f3 \u0111\u01b0\u1ee3c kh\u00f4ng \u1ea1 ?",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.8345236778259277
+    }
+  },
+  {
+    "text": "\u00ea bot g\u1eedi t b\u00e0i t\u1eadp s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n coi",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4282417893409729
+    }
+  },
+  {
+    "text": "g\u1eedi b\u1ed1 m b\u00e0i s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n coi bot",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.999596118927002
+    }
+  },
+  {
+    "text": "g\u1eedi m\u00ecnh b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n v\u1edbi \u1ea1",
+    "intent": "want_to_practice_flowchart",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.7504852414131165
+    }
+  },
+  {
+    "text": "c\u00e1ch gi\u1ea3i b\u00e0i 1",
+    "intent": "flowchart_asking",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6028105616569519
+    }
+  },
+  {
+    "text": "c\u00e1ch gi\u1ea3i b\u00e0i s\u1ed1 2",
+    "intent": "flowchart_asking",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9813221096992493
+    }
+  },
+  {
+    "text": "\u0111\u00e1p \u00e1n b\u00e0i 3",
+    "intent": "flowchart_asking",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.5418960452079773
+    }
+  },
+  {
+    "text": "cho m\u00ecnh \u0111\u00e1p \u00e1n b\u00e0i s\u1ed1 4",
+    "intent": "flowchart_asking",
+    "intent_prediction": {
+      "name": "cpp_practice",
+      "confidence": 0.6181003451347351
+    }
+  },
+  {
+    "text": "G\u00e9t :3",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.41809508204460144
+    }
+  },
+  {
+    "text": "https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=4rqNta98n34AX-N86gg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=ab4cd82706a6d74f545e19bdeb24d0ed&oe=6009FF31",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "stop_asking",
+      "confidence": 0.39064595103263855
+    }
+  }
+]
