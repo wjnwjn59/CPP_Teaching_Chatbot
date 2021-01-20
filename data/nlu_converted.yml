@@ -1387,12 +1387,11 @@ nlu:
     - [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} là gì
     - noi cho toi nghe, [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} la gi ne
     - [Vector](cpplus_content) là gì
-    - Switch case là gì
-    - Switch là gì
-    - C++ là gì vậy
+    - [Switch case]{"entity": "cpplus_content", "value": "switch"} là gì
+    - [Switch]{"entity": "cpplus_content", "value": "switch"} là gì
     - hàm [do while]{"entity": "cpplus_content", "value": "do-while"} thực hiện như thế nào
     - [Mảng]{"entity": "cpplus_content", "value": "array"} là gì
-    - [Array](cpplus_content) là gì
+    - [Array]{"entity": "cpplus_content", "value": "array"} là gì
     - [Cin](cpplus_content) là gì
     - [hàm]{"entity": "cpplus_content", "value": "function"} trong c++
     - [Lambda](cpplus_content) là gì
@@ -1404,10 +1403,9 @@ nlu:
     - [If ](cpplus_content)[If else]{"entity": "cpplus_content", "value": "if-else"}[else ](cpplus_content)là gì
     - [C++]{"entity": "cpplus_content", "value": "cplusplus"} là gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
-    - [Ma trận ](cpplus_content)là gì
-    - Mảng 2 chiều là gì
+    - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
+    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì
     - [Hàm](cpplus_content)[Hàm](cpplus_content)[Hàm ](cpplus_content)[Hàm]{"entity": "cpplus_content", "value": "function"} là gì
-    - [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì ?
 - intent: cpplus_how_asking
   examples: |
     - làm sao để t có thể declare một [biến]{"entity": "cpplus_content", "value": "variable"} v?
@@ -1625,8 +1623,8 @@ nlu:
     - [pointer](cpplus_content), vì sao cần biết?
     - kiểu [enum]{"entity": "cpplus_content", "value": "enumeration"} có cc gì mà tao cần phải học về nó?
     - giải thích sao lại có kiểu [enum]{"entity": "cpplus_content", "value": "enumeration"} coi bot
-    - [kiểu số thực]{"entity": "cpplus_content", "value": "floating-point"}, sao lại phải học nó?
-    - [kiểu float]{"entity": "cpplus_content", "value": "floating-point"} sao lại học nó
+    - kiểu [số thực]{"entity": "cpplus_content", "value": "floating-point"}, sao lại phải học nó?
+    - kiểu [float]{"entity": "cpplus_content", "value": "floating-point"} sao lại học nó
     - cho tôi lý do vì sao lại có kiểu [float]{"entity": "cpplus_content", "value": "floating-point"} được không?
     - sao có kiểu float rồi mà lại có thêm kiểu [double](cpplus_content) chi vậy mày?
     - tại sao bình thường có kiểu float rồi, giờ lại có thêm kiểu [double](cpplus_content) với cùng chức năng biểu đạt để chi vậy?
@@ -1931,7 +1929,7 @@ nlu:
 - intent: cpp_practice
   examples: |
     - tao muốn ôn tập về c++
-    - tao muốn được ôn bài về con trỏ
+    - tao muốn được ôn bài về [con trỏ]
     - tao muốn ôn tập các kiến thức về toán tử
     - tui cần ôn tập về toán tử
     - bố m cần luyện hàm
@@ -1957,8 +1955,6 @@ nlu:
 - intent: dont_want_to_ask
   examples: |
     - tao k muốn hỏi về nó
-    - bố m k muốn hỏi về c++
-    - t k muốn hỏi về con trỏ
     - bố k hỏi về corona
     - tao k có hỏi về toán tử toán tiếc gì hết
     - mình không muốn hỏi về các loại toán tử như toán tử nhân hay toán tử chia gì hết á
@@ -1999,7 +1995,6 @@ nlu:
     - hahahaha t k hỏi gì về hàm lambda cả nha
     - tôi...không hỏi gì đâu
     - bố mày đéo muốn hỏi cc gì cả ok k
-    - có cc mà t hỏi về toán tử định phạm vi nha
     - tao khong muon hoi
     - tao that su khong muon hoi ve con tro
     - t k can hoi ve de quy
@@ -2203,6 +2198,7 @@ nlu:
     - 2d array
     - two demensionals array
     - two-demensional array
+    - Mảng 2 chiều 
     - Ma trận
 - synonym: pointer
   examples: |
