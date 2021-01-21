@@ -977,7 +977,7 @@ stories:
   - intent: flowchart_asking
     entities:
     - flowchart_quest_num: "1"
-  - action: flowchartflowchart_quest_num_form
+  - action: flowchart_quest_num_form
   - active_loop: flowchart_quest_num_form
   - active_loop: null
   - action: action_flowchart_practice_answer

@@ -10,9 +10,9 @@ rules:
 
 - rule: Activate form asking practice flowchart
   steps:
-  - intent: cpplus_example_asking
-  - action: cpp_content_form
-  - active_loop: cpp_content_form
+  - intent: flowchart_asking
+  - action: flowchart_quest_num_form
+  - active_loop: flowchart_quest_num_form
 
 - rule: Activate form asking example
   steps:
