@@ -166,10 +166,12 @@ class FlowChartPractice(Action):
 
         if(type(quest_num) == list):
             for entity in quest_num:
+                entity = str(entity)
                 flowchart_question_answer = img_url[entity]
                 dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {entity}:')
                 dispatcher.utter_message(image=flowchart_question_answer)
         else:
+            quest_num = str(quest_num)
             flowchart_question_answer = img_url[quest_num]
             dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {quest_num}:')
             dispatcher.utter_message(image=flowchart_question_answer)
