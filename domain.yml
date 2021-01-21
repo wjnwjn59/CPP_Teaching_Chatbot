@@ -62,7 +62,7 @@ entities:
 - flowchart_quest_num
 slots:
   flowchart_quest_num:
-    type: text
+    type: any
     influence_conversation: false
   cpplus_content:
     type: text
