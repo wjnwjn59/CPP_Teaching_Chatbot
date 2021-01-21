@@ -1031,7 +1031,7 @@ nlu:
     - [variable](cpplus_content) là gì vậy bot?
     - trong c++ [variable](cpplus_content) được định nghĩa như thế nào?
     - thế nào là [variable](cpplus_content)?
-    - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì?
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì ?
     - như thế nào là [toán tử]{"entity": "cpplus_content", "value": "operator"}?
     - [operators]{"entity": "cpplus_content", "value": "operator"} là gì?
     - [operators]{"entity": "cpplus_content", "value": "operator"} trong c++ là gì?
@@ -1405,6 +1405,9 @@ nlu:
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
     - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì
+    - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} là gì vậy ?
+    - cho hỏi về [ma trận]{"entity": "cpplus_content", "value": "2d-array"} đi ?
+    - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
     - [Hàm](cpplus_content)[Hàm](cpplus_content)[Hàm ](cpplus_content)[Hàm]{"entity": "cpplus_content", "value": "function"} là gì
 - intent: cpplus_how_asking
   examples: |
@@ -2790,7 +2793,6 @@ nlu:
     - switchcase
     - switchcases
     - Switch case
-    - switch case
     - switch case
 - synonym: break
   examples: |

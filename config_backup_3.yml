@@ -17,11 +17,13 @@ pipeline:
   model_name: "roberta"
   model_weights: "roberta-base"
   cache_dir: null
+- name: RegexFeaturizer
 - name: "DIETClassifier"
   entity_recognition: False
   epochs: 400
 - name: FallbackClassifier
-  threshold: 0.75
+  threshold: 0.7
+- name: RegexEntityExtractor
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
   # features to extract in the sliding window
@@ -61,3 +63,4 @@ policies:
     random_seed: 42
     epochs: 100
   - name: RulePolicy
+
