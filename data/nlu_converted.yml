@@ -2032,6 +2032,20 @@ nlu:
     - alo, t cần bài tập lưu đồ thuật toán, gửi t vài cái đi
     - t muốn luyện tập thêm flowchart
     - mình muốn cày bài flowchart 
+    - bài tập sách kĩ thuật lập trình thầy khang
+    - gửi bài tập sách kỹ thuật lập trình thầy Khang 
+    - gửi cho tôi một số câu hỏi liên quan đến phần bài tập lưu đồ thuật toán trong sách kĩ thuật lập trình của thầy khang đi 
+    - bot ơi, gửi tui ôn một vài câu lưu đồ thuật toán sách kỹ thuật lập trình đi
+    - bài lập lưu đồ thuật toán sách kỹ thuật lập trình 
+    - sách thầy khang bài tập 
+    - sách kỹ thuật lập trình thầy khang bài tập flowchart 
+    - flowchart thầy khang 
+    - flowchart sách kỹ thuật lập trình thầy nguyễn tấn trần minh khang 
+    - bài tập thầy nguyễn tấn trần minh khang 
+    - sách kĩ thuật lập trình của thầy nguyễn tấn trần minh khang bài 1 
+    - cho tôi làm một số câu về lưu đồ thuật toán của thầy nguyễn tấn trần minh khang tác giả của sách đi ạ 
+    - ê, cho t làm bài tham khảo của một số câu về flowchart của thầy minh khang đi bot
+    - gửi tham khảo một vài câu lưu đồ trong sách kĩ thuật lập trình coi nào 
     - bạn ơi gửi cho mình một số bài tập flowchart với ạ
     - bạn ơi giờ mình muốn được làm bài tập lưu đồ thuật toán thì có được không ạ ?
     - ê bot gửi t bài tập sơ đồ thuật toán coi
@@ -2039,10 +2053,56 @@ nlu:
     - gửi mình bài tập lưu đồ thuật toán với ạ
 - intent: flowchart_asking
   examples: |
-    - cách giải bài [1]{"entity": "flowchart_quest_num", "value": "1"}
-    - cách giải bài số [2]{"entity": "flowchart_quest_num", "value": "2"}
-    - đáp án bài [3]{"entity": "flowchart_quest_num", "value": "3"}
-    - cho mình đáp án bài số [4]{"entity": "flowchart_quest_num", "value": "4"}
+    - cách giải bài [1](flowchart_quest_num)
+    - cách giải bài số [2](flowchart_quest_num)
+    - đáp án bài [3](flowchart_quest_num)
+    - cho mình đáp án bài số [4](flowchart_quest_num)
+    - cho mình hỏi đáp án câu số [27](flowchart_quest_num) đi bot ơi 
+    - bot nè, cho tui hỏi về câu số [50](flowchart_quest_num) được hong :33 
+    - ê ku, lưu đồ thuật toán câu [23](flowchart_quest_num)
+    - nè bạn hiền, sơ đồ thuật toán bài số [57](flowchart_quest_num)
+    - ê, cho một chiếc câu hỏi về bài [9](flowchart_quest_num) lưu đồ thuật toán của thầy khang đi
+    - bài [97](flowchart_quest_num) lưu đồ thuật toán thầy khang
+    - cho mình bài [5](flowchart_quest_num) bài thầy khang lưu đồ thuật toán 
+    - bài tập thầy khang câu số [43](flowchart_quest_num)
+    - mình muốn hỏi về bài số [85](flowchart_quest_num) của thầy khang, bạn giúp mình vói
+    - ê mày ơi, tao cần mày giúp tao câu số [77](flowchart_quest_num) phần lưu đồ thuật toán 
+    - nè bạn hiền, đáp án câu số [69](flowchart_quest_num) lưu đồ thuật toán là gì zạ 
+    - có thể nào cho tui biết đáp án câu số [27](flowchart_quest_num) phần lưu đồ thuật toán bài thầy khang được không
+    - tôi muốn được tham khảo đáp án bài số [90](flowchart_quest_num) phần lưu đồ thuật toán trong cuốn kĩ thuật lập trình thầy khang
+    - cho tôi đáp án tham khảo bài [55](flowchart_quest_num) lưu đồ thuật toán 
+    - đáp án flowchart bài số [49](flowchart_quest_num)
+    - cách giải chi tiết bài [01](flowchart_quest_num) lưu đồ thuật toán 
+    - lời giải chi cmn tiết bài số [80](flowchart_quest_num) flowchart thầy khang kĩ thuật lập trình 
+    - cho em đáp án bài [60](flowchart_quest_num) flowchart trong sách kĩ thuật lập trình thầy khang với ạ 
+    - chị bot ơi, làm ơn cho em xin đáp án câu số [11](flowchart_quest_num) sơ đồ thuật toán với ạa
+    - please, cho tôi xin đáp án câu [33](flowchart_quest_num) lưu đồ thuật toán để tham khảo với ạ 
+    - nè nè nè, gửi tao đáp án câu số [95](flowchart_quest_num) lưu đồ thuật toán cái 
+    - ê bot, gửi đáp án câu [100](flowchart_quest_num) lưu đồ thuật toán 
+    - sách kĩ thuật lập trình lưu đồ thuật toán bài [101](flowchart_quest_num) lời giải chi tiết
+    - lời giải tham khảo cho bài số [120](flowchart_quest_num)
+    - câu số [7](flowchart_quest_num) phần lưu đồ thuật toán sách kĩ thuật lập trình 
+    - đáp án câu số [66](flowchart_quest_num) flowchart thầy khang 
+    - thầy khang sách lập trình bài lưu đồ thuật toán bài [10](flowchart_quest_num)  
+    - cho mình một cái answer về bài số [55](flowchart_quest_num) sách thầy khang đi 
+    - nghe rõ trả lời, cho tôi đáp án câu [29](flowchart_quest_num) flowchart
+    - alo, câu số [19](flowchart_quest_num) lưu đồ thuật toán bạn eii
+    - gửi đáp án câu số [50](flowchart_quest_num) đi ạ 
+    - ê, câu lưu đồ thuật toán [80](flowchart_quest_num) làm sao vậy bot, chỉ tui vớiii
+    - cứu tao câu [20](flowchart_quest_num) bài lưu đồ đi bot
+    - gửi đáp án câu [30](flowchart_quest_num) phần lưu đồ 
+    - gửi câu [59](flowchart_quest_num) lược đồ thuật toán đê 
+    - gửi t câu [111](flowchart_quest_num) phần lưu đồ thuật toán cái nhẹ nào 
+    - ê m rảnh k, gửi t câu [29](flowchart_quest_num) phần lưu đồ cái 
+    - nè bot ngu ơi, gửi t lời giải câu [61](flowchart_quest_num) lz què này cái m 
+    - lược đồ thuật toán câu số [76](flowchart_quest_num)
+    - lược đồ thuật toán câu số [25](flowchart_quest_num) sách thầy khang 
+    - sơ đồ thuật toán câu [82](flowchart_quest_num)
+    - lời giải cực kì chi tiết và chất lượng của câu [09](flowchart_quest_num) đê bot eii 
+    - hãy gửi tôi lời giải chi tiết của câu lưu đồ số [1](flowchart_quest_num) đi ạ
+    - câu số [21](flowchart_quest_num) lưu đồ đáp án là gì vậy 
+    - đáp án câu số [7](flowchart_quest_num) là gì 
+    - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
 - intent: time
   examples: |
     - Cho mình hỏi bây giờ mấy giờ rồi ?
@@ -2753,6 +2813,6 @@ nlu:
     - luu do thuat toan 
     - flow chart 
     - flowcharts
-- regex: c++
+- regex: flowchart_quest_num
   examples: |
-    - c++
+    - [0-9]{3}
