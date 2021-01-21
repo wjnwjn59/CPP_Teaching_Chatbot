@@ -228,13 +228,14 @@ actions:
 - utter_covid_treatment
 - utter_please_rephrase
 - validate_cpp_content_form
+- validate_flowchart_quest_num_form
 - utter_ask_first_name
 - utter_ask_last_name
 - action_first_name
 - action_ask_time
 - action_ask_date
 - action_cpplus_content_answer
-- action_practice_flow_chart
+- action_flowchart_practice_answer
 forms:
   cpp_content_form:
     cpplus_content:
