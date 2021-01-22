@@ -21,6 +21,7 @@ pipeline:
   model_name: "bert"
   model_weights: "rasa/LaBSE"
   cache_dir: null
+- name: RegexEntityExtractor
 - name: "DIETClassifier"
   epochs: 300
 - name: FallbackClassifier
