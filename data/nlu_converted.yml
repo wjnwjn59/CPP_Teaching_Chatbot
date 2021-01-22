@@ -114,6 +114,8 @@ nlu:
     - cho tui xin link face cua nhung nguoi da tao ra ban di hihi
     - cho tui link facebook tac gia cua du an nay di
     - Ai tạo ra bạn vậy
+    - Quân là ai 
+    - Thắng là ai
 - intent: attention
   examples: |
     - êii
@@ -305,6 +307,7 @@ nlu:
     - pipi
     - cút xéo
     - đi đây
+    - Good bye 
 - intent: affirm
   examples: |
     - yes
@@ -628,6 +631,8 @@ nlu:
     - just die
     - piece of shit
     - Đụ má
+    - Ngu vl  
+    - Đéo hiểu ăn gì mà ngu vãi lồn
 - intent: feeling_bad
   examples: |
     - sad
@@ -749,6 +754,10 @@ nlu:
     - chờ đó lát hỏi tiếp
 - intent: continue_asking
   examples: |
+    - Hỏi lại 
+    - hỏi lại 
+    - Hỏi câu khác
+    - hỏi câu khác
     - tiếp tục này
     - tiếp theo nè
     - tiếp theo này
@@ -983,9 +992,9 @@ nlu:
     - mot so vi du cu the hon ve [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
     - [cau truc dieu khien]{"entity": "cpplus_content", "value": "control-flow"} vi du
     - hay cho t vi du ve [vong lap]{"entity": "cpplus_content", "value": "loop"} di nao
-    - Ví dụ về float
-    - Ví dụ về [hàm](cpplus_content)
-    - Ví dụ về [lambda](cpplus_content)
+    - Ví dụ về [float]{"entity": "cpplus_content", "value": "floating-point"}
+    - Ví dụ về [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Ví dụ về [lambda]{"entity": "cpplus_content", "value": "lambda"}
     - Ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"}
 - intent: cpplus_what_asking
   examples: |
@@ -1002,8 +1011,8 @@ nlu:
     - trong c++ có từ [include](cpplus_content) là sao v m?
     - m biết gì về từ [include](cpplus_content)?
     - khái niệm về [include](cpplus_content)?
-    - [namespace]{"entity": "cpplus_content", "value": "namepsace"} là gì?
-    - thế nào là [namespace]{"entity": "cpplus_content", "value": "namepsace"}?
+    - [namespace]{"entity": "cpplus_content", "value": "namespace"} là gì?
+    - thế nào là [namespace]{"entity": "cpplus_content", "value": "namespace"}?
     - kể tao nghe về [namespace](cpplus_content) đi
     - khái niệm về [namespace](cpplus_content)
     - [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì vậy?
@@ -1398,9 +1407,8 @@ nlu:
     - [Return](cpplus_content) là gì
     - [Float]{"entity": "cpplus_content", "value": "floating-point"} là gì
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
-    - [Namespace]{"entity": "cpplus_content", "value": "namepsace"} là gì
-    - [Chuỗi](cpplus_content)[Chuỗi](cpplus_content)[Chuỗi ](cpplus_content)[Chuỗi]{"entity": "cpplus_content", "value": "string"} là gì
-    - [If ](cpplus_content)[If else]{"entity": "cpplus_content", "value": "if-else"}[else ](cpplus_content)là gì
+    - [Namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
+    - [If](cpplus_content),[If else]{"entity": "cpplus_content", "value": "if-else"} là gì
     - [C++]{"entity": "cpplus_content", "value": "cplusplus"} là gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
@@ -1408,7 +1416,6 @@ nlu:
     - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} là gì vậy ?
     - cho hỏi về [ma trận]{"entity": "cpplus_content", "value": "2d-array"} đi ?
     - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
-    - [Hàm](cpplus_content)[Hàm](cpplus_content)[Hàm ](cpplus_content)[Hàm]{"entity": "cpplus_content", "value": "function"} là gì
 - intent: cpplus_how_asking
   examples: |
     - làm sao để t có thể declare một [biến]{"entity": "cpplus_content", "value": "variable"} v?
@@ -1543,11 +1550,11 @@ nlu:
     - bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
     - vì sao lại phải để cái [include](cpplus_content) mỗi lần viết code v?
     - vì sao t lại phải xài cái từ [include](cpplus_content) thế bot
-    - vì sao mỗi khi viết code là phải có cái #[include](cpplus_content) v bot
+    - vì sao mỗi khi viết code là phải có cái [#include](cpplus_content) v bot
     - sao mỗi lần t viết code đều phải xài cái từ [include](cpplus_content) đó hết v m
     - ê bot, t k hiểu sao mỗi lần viết code là lại cứ phải thêm cái [include](cpplus_content) ngay trên đầu làm gì nhỉ
     - ê m, t k hiểu, vì sao lại cứ phải xài [include](cpplus_content) mỗi lần viết code c++ thế @@
-    - nè bot, sao t cứ phải xài #[include](cpplus_content) mỗi khi viết c++ thế, không xài thì sao
+    - nè bot, sao t cứ phải xài [#include](cpplus_content) mỗi khi viết c++ thế, không xài thì sao
     - cho t 1 lý do vì s lại cứ phải xài [include](cpplus_content) mỗi lần bắt đầu một project mới dc k bot
     - ê duma t đ hiểu gì về cái [include](cpplus_content) luôn á, tại sao t lại phải xài nó v?
     - clm t đéo hiểu sao lại cần [include](cpplus_content) mỗi lần viết code luôn á m, giải thích cho t với
@@ -1636,7 +1643,7 @@ nlu:
     - kiểu dữ liệu [double](cpplus_content), vì sao lại xài?
     - kiểu [char]{"entity": "cpplus_content", "value": "character"}, vì sao dùng?
     - vì sao tao nên dùng kiểu [char]{"entity": "cpplus_content", "value": "character"} thế ?
-    - tại sao lại có [kiểu kí tự]{"entity": "cpplus_content", "value": "character"} v bot ngu óc cứt?
+    - tại sao lại có kiểu [kí tự]{"entity": "cpplus_content", "value": "character"} v bot ngu óc cứt?
     - kiểu [character](cpplus_content), vì sao học?
     - tại sao lại có thêm kiểu [string](cpplus_content) trong khi đã có mảng kí tự rồi?
     - vì sao lại nên dùng kiểu [string](cpplus_content) thay vì dùng một mảng các kí tự?
@@ -1660,9 +1667,9 @@ nlu:
     - sao trong c++ còn có thêm biến [static](cpplus_content) vậy? vì sao xài nó thế?
     - dm kiểu [vector](cpplus_content), sao lại phải học?
     - tại sao đã có kiểu array rồi mà giờ còn có kiểu [vector](cpplus_content) nữa vậy mày?
-    - vì sao lại nên dùng [vector](cpplus_content) hơn là mảng?
-    - vì sao người ta khuyên nên dùng [vector](cpplus_content) hơn là dùng array?
-    - tại sao lại nên học thư viện [vector](cpplus_content) v? xài array là ổn rồi mà?
+    - vì sao lại nên dùng [vector]{"entity": "cpplus_content", "value": "vector"} hơn là mảng?
+    - vì sao người ta khuyên nên dùng [vector]{"entity": "cpplus_content", "value": "vector"} hơn là dùng array?
+    - tại sao lại nên học thư viện [vector]{"entity": "cpplus_content", "value": "vector"} v? xài array là ổn rồi mà?
     - sao lại cần dùng [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}?
     - tại sao lại cần dùng [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} khi lập trình?
     - [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}, vì sao cần nó?
@@ -1723,16 +1730,13 @@ nlu:
     - tại sao lại cần [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vì sao lại cần các [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} như kiểu int, kiểu float v bot
-    - Tại sao phải học c++
     - Tại sao phải dùng [vector](cpplus_content)
-    - Tại sao lại học [chuỗi](cpplus_content)[chuỗi](cpplus_content)[chuỗi]{"entity": "cpplus_content", "value": "string"}
-    - Tại sao phải dùng hàm
-    - Tại sao lại dùng con trỏ
-    - Tại sao lại chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"}[cpp](cpplus_content)[cpp](cpplus_content)[cpp ](cpplus_content)để học vậy
-    - Tại sao khai báo [thư viẹn](cpplus_content)[hư viẹn](cpplus_content)[ ](cpplus_content)viẹn
-    - Tại sao phải dùng [biến](cpplus_content)
-    - Tại sao phải dùng [mảng](cpplus_content)[mảng](cpplus_content)
-    - Tại sai phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"}[+](cpplus_content)+ vậy
+    - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} 
+    - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
+    - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
+    - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"} ?
+    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
+    - Tại sai phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"} vậy
 - intent: cpplus_when_asking
   examples: |
     - khi nào thì cần khai báo một [biến]{"entity": "cpplus_content", "value": "variable"}?
@@ -1932,7 +1936,7 @@ nlu:
 - intent: cpp_practice
   examples: |
     - tao muốn ôn tập về c++
-    - tao muốn được ôn bài về [con trỏ]
+    - tao muốn được ôn bài về con trỏ
     - tao muốn ôn tập các kiến thức về toán tử
     - tui cần ôn tập về toán tử
     - bố m cần luyện hàm
@@ -2149,9 +2153,6 @@ nlu:
     - include
     - Library
     - thư viẹn
-- synonym: namepsace
-  examples: |
-    - namespace
 - synonym: namespace
   examples: |
     - không gian tên

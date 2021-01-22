@@ -1,0 +1,34 @@
+{
+  "cpplus_content": {
+    "precision": 0.9730103806228374,
+    "recall": 0.9429912810194501,
+    "f1-score": 0.957765667574932,
+    "support": 1491,
+    "confused_with": {}
+  },
+  "flowchart_quest_num": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1-score": 0.98989898989899,
+    "support": 50,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9738955823293173,
+    "recall": 0.9441920830629461,
+    "f1-score": 0.9588138385502472,
+    "support": 1541
+  },
+  "macro avg": {
+    "precision": 0.9865051903114187,
+    "recall": 0.961495640509725,
+    "f1-score": 0.973832328736961,
+    "support": 1541
+  },
+  "weighted avg": {
+    "precision": 0.9738860983183975,
+    "recall": 0.9441920830629461,
+    "f1-score": 0.9588082802395671,
+    "support": 1541
+  }
+}
