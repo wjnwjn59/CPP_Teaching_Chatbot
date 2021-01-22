@@ -59,7 +59,7 @@ class CPlusPlusPractice(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        return [SlotSet("cpplus_practice_content"]
+        return [SlotSet("cpplus_practice_content")]
 
 
 class FlowChartPractice(Action):
