@@ -1408,11 +1408,11 @@ nlu:
     - [Float]{"entity": "cpplus_content", "value": "floating-point"} là gì
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
     - [Namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
-    - [If](cpplus_content),[If else]{"entity": "cpplus_content", "value": "if-else"} là gì
+    - [If]{"entity": "cpplus_content", "value": "if"},[If else]{"entity": "cpplus_content", "value": "if-else"} là gì
     - [C++]{"entity": "cpplus_content", "value": "cplusplus"} là gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
-    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì
+    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì ?
     - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} là gì vậy ?
     - cho hỏi về [ma trận]{"entity": "cpplus_content", "value": "2d-array"} đi ?
     - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
@@ -1509,8 +1509,7 @@ nlu:
     - làm thế nào để có thể sử dụng tốt từ khóa [continue](cpplus_content)?
     - ê bot chỉ t cách sử dụng từ khóa [continue](cpplus_content)
     - chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
-    - cách dùng hàm[ switch case](cpplus_content)[ switch case](cpplus_content)[ switch case](cpplus_content)[switch](cpplus_content)[ case](cpplus_content)
-    - cach viet switch case
+    - cach viet [switch case]{"entity": "cpplus_content", "value": "switch"}
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
 - intent: cpplus_why_asking
@@ -2150,7 +2149,6 @@ nlu:
     - lib
     - Thư viện
     - libs
-    - include
     - Library
     - thư viẹn
 - synonym: namespace
