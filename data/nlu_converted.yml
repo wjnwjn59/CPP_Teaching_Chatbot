@@ -1037,7 +1037,7 @@ nlu:
     - một vài ví dụ về [For]{"entity": "cpplus_content", "value": "for"} cho người ta được ko ?
     - Hãy cho iem một số ví dụ về vòng [while]{"entity": "cpplus_content", "value": "while"} đi ạ
     - A ơi, cho e ví dụ về vòng lặp [do while]{"entity": "cpplus_content", "value": "do-while"} đi a
-    - Thầy, cho đồ đệ ví dụ về vòng lặp [While]{"entity": "cpplus_content", "value": "while"}được không ạ?
+    - Thầy, cho đồ đệ ví dụ về vòng lặp [While]{"entity": "cpplus_content", "value": "while"} được không ạ?
     - ê, tao vẫn chưa hiểu về cái vòng lặp trong c++ lắm, cho thử một ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"} xem nào
     - ví dụ về 1 [vòng lặp]{"entity": "cpplus_content", "value": "loop"} trong c++ xem nào
     - Ví dụ về [loops]{"entity": "cpplus_content", "value": "loop"} trong c++ xem thử nào
@@ -1076,7 +1076,7 @@ nlu:
     - Ví dụ nào khó hiểu về [ham số mặc nhiên]{"entity": "cpplus_content", "value": "default-value"}
     - đã đến lúc bố mày phỏng vấn mày rồi, cho bố mày một ví dụ về [if else]{"entity": "cpplus_content", "value": "if-else"} đi nào
     - đến giờ phỏng vấn, ví dụ về hàm [lamda]{"entity": "cpplus_content", "value": "lambda"} đi nào, nhanh
-    - An example of [Lambda]{"entity": "cpplus_content", "value": "lambda"}function ?
+    - An example of [Lambda]{"entity": "cpplus_content", "value": "lambda"} function ?
     - give me an example of [scope resolution operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
     - just give to me a example about [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
     - Cho toi mot vi du ve [ham]{"entity": "cpplus_content", "value": "function"} di
@@ -1116,8 +1116,8 @@ nlu:
     - em muốn biết thêm về [if else]{"entity": "cpplus_content", "value": "if-else"} thầy ạ
     - nói gì về [đối số]{"entity": "cpplus_content", "value": "argument"} khi truyền vào một hàm xem thử
     - thế nào là [kiểu số nguyên]{"entity": "cpplus_content", "value": "integer"} [kiểu số thực]{"entity": "cpplus_content", "value": "floating-point"} và [kiểu double]{"entity": "cpplus_content", "value": "double"}?
-    - [Chuỗi]{"entity": "cpplus_content", "value": "string"}ChuỗiChuỗi Chuỗi là gì
-    - If [If else]{"entity": "cpplus_content", "value": "if-else"}else là gì
+    - [Chuỗi]{"entity": "cpplus_content", "value": "string"} Chuỗi Chuỗi Chuỗi là gì
+    - If [If else]{"entity": "cpplus_content", "value": "if-else"} else là gì
     - [Flowchart]{"entity": "cpplus_content", "value": "flowchart"} là gì ?
     - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là gì vậy bot ?
     - cho mình hỏi về [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} với ạ !
@@ -1531,7 +1531,7 @@ nlu:
     - [hàm thư viện]{"entity": "cpplus_content", "value": "built-in-function"} là gì
     - [Hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} trong c cộng cộng
     - từ khóa [return]{"entity": "cpplus_content", "value": "return"} là gì
-    - Nói gì về [Return]{"entity": "cpplus_content", "value": "return"}chơi
+    - Nói gì về [Return]{"entity": "cpplus_content", "value": "return"} chơi
     - thầy đồ ơi, từ [RETURN]{"entity": "cpplus_content", "value": "return"} mà em phảo dùng mỗi khi khai báo hàm nó có ý nghĩa gì v ạ
     - Cô giáo ơi, từ [Return]{"entity": "cpplus_content", "value": "return"} nó là gì vậy ạ
     - Em zaii ơi, kể chị nghe về [hàm]{"entity": "cpplus_content", "value": "function"} xem nào
@@ -1631,7 +1631,7 @@ nlu:
     - tôi không biết làm sao để tạo một [MẢNG]{"entity": "cpplus_content", "value": "array"}
     - Tạo [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì vậy ?
     - làm thế quái nào để tạo ra một [array]{"entity": "cpplus_content", "value": "array"} v?
-    - ê làm sao để t tạo thêm 1 một [array]{"entity": "cpplus_content", "value": "array"}đây?
+    - ê làm sao để t tạo thêm 1 một [array]{"entity": "cpplus_content", "value": "array"} đây?
     - Làm thế nào để tạo ra được [Array]{"entity": "cpplus_content", "value": "array"} v?
     - làm s để t có thể tạo ra một [ARRAY]{"entity": "cpplus_content", "value": "array"} đây m?
     - làm s để t có thể tạo ra một [arr]{"entity": "cpplus_content", "value": "array"}?
@@ -1651,7 +1651,7 @@ nlu:
     - chỉ bố m cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} coi
     - bày t cách tạo ra một [loop]{"entity": "cpplus_content", "value": "loop"} xem nào
     - chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} đi
-    - Chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"}với
+    - Chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} với
     - bày iem cách viết tạo ra [LOOP]{"entity": "cpplus_content", "value": "loop"} đi ianh
     - làm s để t viết vòng lặp [For]{"entity": "cpplus_content", "value": "for"} đây m
     - làm thế nào để t tạo ra một vòng [for]{"entity": "cpplus_content", "value": "for"} đây
@@ -1675,7 +1675,7 @@ nlu:
     - làm thế nào để có thể sử dụng tốt từ khóa [continue](cpplus_content)?
     - ê bot chỉ t cách sử dụng từ khóa [continue](cpplus_content)
     - Chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
-    - cách dùng hàm[ switch case](cpplus_content)[ switch case](cpplus_content)[ switch case](cpplus_content)[switch](cpplus_content)[ case](cpplus_content)
+    - cách dùng hàm [switch]{"entity": "cpplus_content", "value": "switch"} case [switch]{"entity": "cpplus_content", "value": "switch"} case  [switch]{"entity": "cpplus_content", "value": "switch"} case [switch]{"entity": "cpplus_content", "value": "switch"} case
     - Cach viet switch case
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
