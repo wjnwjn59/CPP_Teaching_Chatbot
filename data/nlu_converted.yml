@@ -1400,7 +1400,7 @@ nlu:
     - [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} là gì
     - noi cho toi nghe, [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} la gi ne
     - [Vector](cpplus_content) là gì
-    - [Switch case]{"entity": "cpplus_content", "value": "switch"} là gì
+    - [Switch] case{"entity": "cpplus_content", "value": "switch"} là gì
     - [Switch]{"entity": "cpplus_content", "value": "switch"} là gì
     - hàm [do while]{"entity": "cpplus_content", "value": "do-while"} thực hiện như thế nào
     - [Mảng]{"entity": "cpplus_content", "value": "array"} là gì
@@ -1513,7 +1513,7 @@ nlu:
     - làm thế nào để có thể sử dụng tốt từ khóa [continue](cpplus_content)?
     - ê bot chỉ t cách sử dụng từ khóa [continue](cpplus_content)
     - chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
-    - cach viet [switch case]{"entity": "cpplus_content", "value": "switch"}
+    - cach viet [switch]{"entity": "cpplus_content", "value": "switch"} case
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
 - intent: cpplus_why_asking
