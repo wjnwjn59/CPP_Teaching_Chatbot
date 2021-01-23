@@ -832,6 +832,10 @@ nlu:
     - ok h hỏi câu này đi
 - intent: out_of_scope
   examples: |
+    - hihi 
+    - haha
+    - machine learning 
+    - machine learning là gì
     - ư ư ư
     - ó ó ó
     - bố ơi mình đi đâu thế
@@ -876,7 +880,7 @@ nlu:
     - chỉ t machine learning đi
     - dạy tôi deep learning
     - machine learning cái gì vậy
-    - deep learning là cái gì\t
+    - deep learning là cái gì
     - làm sao để thành kỹ sư AI
     - cách hết nợ môn
     - làm sao để hết nợ môn
