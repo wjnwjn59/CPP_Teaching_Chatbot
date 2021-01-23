@@ -131,6 +131,8 @@ nlu:
     - Cho tui xin link face cua nhung nguoi da tao ra ban di hihi
     - cho tui link facebook tac gia cua du an nay di
     - Ai tạo ra bạn vậy
+    - Quân là ai 
+    - Thắng là ai
 - intent: attention
   examples: |
     - êii
@@ -334,6 +336,7 @@ nlu:
     - pipi
     - Cút xéo
     - đi đây
+    - Good bye 
 - intent: affirm
   examples: |
     - yes
@@ -729,6 +732,8 @@ nlu:
     - just die
     - piece of shit
     - Đụ má
+    - Ngu vl  
+    - Đéo hiểu ăn gì mà ngu vãi lồn
 - intent: feeling_bad
   examples: |
     - sad
@@ -850,6 +855,11 @@ nlu:
     - chờ đó lát hỏi tiếp
 - intent: continue_asking
   examples: |
+    - Hỏi lại 
+    - hỏi lại 
+    - Hỏi câu khác
+    - hỏi câu khác
+    - tiếp tục này
     - Tiếp tục này
     - tiếp theo nè
     - tiếp theo này
@@ -928,6 +938,10 @@ nlu:
     - Hỏi một câu khác
 - intent: out_of_scope
   examples: |
+    - hihi 
+    - haha
+    - machine learning 
+    - machine learning là gì
     - ư ư ư
     - ó ó ó
     - bố ơi mình đi đâu thế
@@ -972,7 +986,7 @@ nlu:
     - chỉ t machine learning đi
     - dạy tôi deep learning
     - machine learning cái gì vậy
-    - deep learning là cái gì\t
+    - deep learning là cái gì
     - làm sao để thành kỹ sư AI
     - cách hết nợ môn
     - làm sao để hết nợ môn
@@ -1575,13 +1589,15 @@ nlu:
     - [Return]{"entity": "cpplus_content", "value": "return"} là gì
     - [Float]{"entity": "cpplus_content", "value": "floating-point"} là gì
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
-    - [Namespace]{"entity": "cpplus_content", "value": "namepsace"} là gì
-    - [Chuỗi]{"entity": "cpplus_content", "value": "string"}ChuỗiChuỗiChuỗi là gì
-    - [If]{"entity": "cpplus_content", "value": "if"}[If else]{"entity": "cpplus_content", "value": "if-else"}[else]{"entity": "cpplus_content", "value": "if-else"} là gì
-    - [C++]{"entity": "cpplus_content", "value": "cplusplus"} là gì
+    - [Namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
+    - [If]{"entity": "cpplus_content", "value": "if"},[If else]{"entity": "cpplus_content", "value": "if-else"} là gì
+    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
-    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì
+    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì ?
+    - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} là gì vậy ?
+    - cho hỏi về [ma trận]{"entity": "cpplus_content", "value": "2d-array"} đi ?
+    - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
 - intent: cpplus_how_asking
   examples: |
     - làm sao để t có thể declare một [biến]{"entity": "cpplus_content", "value": "variable"} v?
@@ -1674,9 +1690,10 @@ nlu:
     - How to tạo ra từ khóa [continue](cpplus_content) đây
     - làm thế nào để có thể sử dụng tốt từ khóa [continue](cpplus_content)?
     - ê bot chỉ t cách sử dụng từ khóa [continue](cpplus_content)
+    - chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
+    - cach viet [switch]{"entity": "cpplus_content", "value": "switch"} case
     - Chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
     - cách dùng hàm [switch]{"entity": "cpplus_content", "value": "switch"} case [switch]{"entity": "cpplus_content", "value": "switch"} case  [switch]{"entity": "cpplus_content", "value": "switch"} case [switch]{"entity": "cpplus_content", "value": "switch"} case
-    - Cach viet switch case
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
 - intent: cpplus_why_asking
@@ -1870,9 +1887,9 @@ nlu:
     - sao trong c++ còn có thêm biến [static](cpplus_content) vậy? vì sao xài nó thế?
     - Dm kiểu [Vector](cpplus_content), sao lại phải học?
     - tại sao đã có kiểu array rồi mà giờ còn có kiểu [vector](cpplus_content) nữa vậy mày?
-    - Vì sao lại nên dùng [vector](cpplus_content) hơn là mảng?
-    - vì sao người ta khuyên nên dùng [vector](cpplus_content) hơn là dùng array?
-    - tại sao lại nên học thư viện [vector](cpplus_content) v? xài array là ổn rồi mà?
+    - vì sao lại nên dùng [vector]{"entity": "cpplus_content", "value": "vector"} hơn là mảng?
+    - vì sao người ta khuyên nên dùng [vector]{"entity": "cpplus_content", "value": "vector"} hơn là dùng array?
+    - tại sao lại nên học thư viện [vector]{"entity": "cpplus_content", "value": "vector"} v? xài array là ổn rồi mà?
     - sao lại cần dùng [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}?
     - tại sao lại cần dùng [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} khi lập trình?
     - [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}, vì sao cần nó?
@@ -1933,16 +1950,13 @@ nlu:
     - tại sao lại cần [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vì sao lại cần các [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} như kiểu int, kiểu float v bot
-    - Tại sao phải học c++
     - Tại sao phải dùng [vector](cpplus_content)
-    - Tại sao lại học [chuỗi](cpplus_content)[chuỗi](cpplus_content)[chuỗi]{"entity": "cpplus_content", "value": "string"}
-    - Tại sao phải dùng hàm
-    - Tại sao lại dùng con trỏ
-    - Tại sao lại chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"}[cpp](cpplus_content)[cpp](cpplus_content)[cpp ](cpplus_content)để học vậy
-    - Tại sao khai báo [thư viẹn](cpplus_content)[hư viẹn](cpplus_content)[ ](cpplus_content)viẹn
-    - Tại sao phải dùng [biến](cpplus_content)
-    - Tại sao phải dùng [mảng](cpplus_content)[mảng](cpplus_content)
-    - Tại sai phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"}[+](cpplus_content)+ vậy
+    - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} 
+    - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
+    - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
+    - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"} ?
+    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
+    - Tại sai phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy
 - intent: cpplus_when_asking
   examples: |
     - Khi nào thì cần khai báo một [biến]{"entity": "cpplus_content", "value": "variable"}?
@@ -2439,7 +2453,6 @@ nlu:
     - lib
     - Thư viện
     - libs
-    - include
     - Library
     - thư viẹn
 - synonym: namespace
@@ -3715,6 +3728,8 @@ nlu:
     - switchs
     - switchcase
     - switchcases
+    - Switch case
+    - switch case
 - synonym: break
   examples: |
     - BREAK
