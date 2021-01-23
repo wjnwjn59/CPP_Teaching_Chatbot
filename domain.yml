@@ -44,6 +44,17 @@ intents:
     use_entities: []
 - time:
     use_entities: []
+- out_of_scope:
+    use_entities: []
+- corona:
+    use_entities: []
+- nlu_fallback:
+    use_entities: []
+- restart:
+    use_entities: []
+- want_to_practice_flowchart:
+    use_entities: []
+- flowchart_asking
 - cpp_practice
 - cpplus_what_asking
 - cpplus_how_asking
@@ -51,16 +62,13 @@ intents:
 - cpplus_when_asking
 - cpplus_where_asking
 - cpplus_example_asking
-- out_of_scope
-- corona
-- nlu_fallback
-- restart
-- want_to_practice_flowchart
-- flowchart_asking
 entities:
 - cpplus_content
 - flowchart_quest_num
 slots:
+  cpplus_practice_content:
+    type: text
+    influence_conversation: false
   flowchart_quest_num:
     type: any
     influence_conversation: false
@@ -236,6 +244,7 @@ actions:
 - action_ask_date
 - action_cpplus_content_answer
 - action_flowchart_practice_answer
+- action_cpplus_practice
 forms:
   cpp_content_form:
     cpplus_content:

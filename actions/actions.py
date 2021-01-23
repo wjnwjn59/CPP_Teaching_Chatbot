@@ -50,6 +50,17 @@ import calendar
 #     def name(self) -> Text:
 #         return "action_ask_flow_chart"
 
+class CPlusPlusPractice(Action):
+    def name(self) -> Text:
+        return "action_cpplus_practice"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        
+        return [SlotSet("cpplus_practice_content")]
+
 
 class FlowChartPractice(Action):
     def name(self) -> Text:

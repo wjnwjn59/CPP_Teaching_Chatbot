@@ -982,3 +982,13 @@ stories:
   - active_loop: null
   - action: action_flowchart_practice_answer
   - action: utter_ask_anything_else
+- story: i want to practice cpp
+  steps:
+  - intent: cpp_practice
+    entities:
+      - cpplus_content: cplusplus
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - active_loop: null
+  - action: utter_ok
+  - action: action_cpplus_practice
