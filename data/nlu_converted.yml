@@ -4158,17 +4158,13 @@ nlu:
   examples: |
     - TOÁN TỬ LOGIC
     - TOAN TU LOGIC
-    - TOAN TU QUAN HE 
-    - TOÁN TỬ QUAN HỆ
     - TOÁN TỬ LOGICAL
     - LOGICAL OPERATOR
     - LOGICAL OPERATORS
     - Toán tử logic
-    - Toán tử quan hệ
     - Logical Operator
     - Logical operator
     - toán tử logic
-    - toán tử quan hệ
     - toan tu logic
     - logical operator
     - logical operators
@@ -4869,7 +4865,7 @@ nlu:
     - includes
     - Include
     - #include
-- synonym: unsinged
+- synonym: unsigned
   examples: |
     - UNSIGNED
     - UNSIGNEDS
