@@ -982,6 +982,16 @@ stories:
   - active_loop: null
   - action: action_flowchart_practice_answer
   - action: utter_ask_anything_else
+- story: direct flowchart asking (having question number)
+  steps:
+  - intent: flowchart_asking
+    entities:
+    - flowchart_quest_num: "1"
+  - action: flowchart_quest_num_form
+  - active_loop: flowchart_quest_num_form
+  - active_loop: null
+  - action: action_flowchart_practice_answer
+  - action: utter_ask_anything_else
 - story: i want to practice cpp
   steps:
   - intent: cpp_practice
