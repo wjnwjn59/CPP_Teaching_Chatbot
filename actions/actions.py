@@ -8,6 +8,8 @@ from rasa_sdk.types import DomainDict
 from datetime import datetime
 from datetime import date
 import calendar
+import random
+import requests
 
 #mydb = mysql.connector.connect(
 #  host="localhost",
@@ -175,17 +177,40 @@ class FlowChartPractice(Action):
         quest_num = tracker.get_slot("flowchart_quest_num")
         flowchart_question_answer = " "
 
+
+        response = requests.get('https://api.giphy.com/v1/gifs/search?q=sorry&api_key=L8F3EHEDIRlvniQyJju5iYsPzX6PN94c&limit=100').json()
+
         if(type(quest_num) == list):
-            for entity in quest_num:
-                entity = str(entity)
-                flowchart_question_answer = img_url[entity]
-                dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {entity}:')
+            try:
+                for entity in quest_num:
+                    entity = str(entity)
+                    if img_url[entity] == ''' ''':
+                        flowchart_question_answer = response['data'][random.randint(1,50)]['images']['original']['url']
+                        dispatcher.utter_message(text='Sorry this service is not available')
+                        dispatcher.utter_message(image=flowchart_question_answer)
+                    else:
+                        flowchart_question_answer = img_url[entity]
+                        dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {entity}:')
+                        dispatcher.utter_message(image=flowchart_question_answer)
+            except:
+                flowchart_question_answer = response['data'][random.randint(1,50)]['images']['original']['url']
+                dispatcher.utter_message(text='Sorry this service is not available')
                 dispatcher.utter_message(image=flowchart_question_answer)
         else:
-            quest_num = str(quest_num)
-            flowchart_question_answer = img_url[quest_num]
-            dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {quest_num}:')
-            dispatcher.utter_message(image=flowchart_question_answer)
+            try:
+                quest_num = str(quest_num)
+                if img_url[quest_num] == ''' ''':
+                    flowchart_question_answer = response['data'][random.randint(1,50)]['images']['original']['url']
+                    dispatcher.utter_message(text='Sorry this service is not available')
+                    dispatcher.utter_message(image=flowchart_question_answer)
+                else:
+                    flowchart_question_answer = img_url[quest_num]
+                    dispatcher.utter_message(text=f'Lưu đồ thuật toán bài {quest_num}:')
+                    dispatcher.utter_message(image=flowchart_question_answer)
+            except:
+                flowchart_question_answer = response['data'][random.randint(1,50)]['images']['original']['url']
+                dispatcher.utter_message(text='Sorry this service is not available')
+                dispatcher.utter_message(image=flowchart_question_answer)        
         
         return [SlotSet("flowchart_answer", flowchart_question_answer if flowchart_question_answer is not None else [])]
 

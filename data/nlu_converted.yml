@@ -1143,26 +1143,26 @@ nlu:
     - khái niệm về [library]{"entity": "cpplus_content", "value": "library"}trong c++?
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì?
     - thế nào là một [thư viện]{"entity": "cpplus_content", "value": "library"}?
-    - Từ khóa [inclue]{"entity": "cpplus_content", "value": "library"} là gì?
-    - Trong c++ có từ [include]{"entity": "cpplus_content", "value": "include"} là sao v m?
-    - m biết gì về từ [include]{"entity": "cpplus_content", "value": "include"}?
-    - [Hàm]{"entity": "cpplus_content", "value": "function"}HàmHàm Hàm là gì
-    - khái niệm về [include]{"entity": "cpplus_content", "value": "include"}?
-    - [Namespace]{"entity": "cpplus_content", "value": "namepsace"} là gì?
-    - thế nào là [namespace]{"entity": "cpplus_content", "value": "namepsace"}?
-    - kể tao nghe về [namespace]{"entity": "cpplus_content", "value": "namespace"} đi
-    - khái niệm về [namespace]{"entity": "cpplus_content", "value": "namespace"}
-    - [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì vậy?
-    - thế nào là [c++]{"entity": "cpplus_content", "value": "cplusplus"}?
-    - [c++]{"entity": "cpplus_content", "value": "cplusplus"} là cái quái gì vậy?
-    - ngôn ngữ lập trình [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì?
-    - định nghĩa của [c++]{"entity": "cpplus_content", "value": "cplusplus"}?
-    - ngôn ngữ [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì?
-    - nói cho tao biết [c++]{"entity": "cpplus_content", "value": "cplusplus"} là gì được không?
-    - [Comment]{"entity": "cpplus_content", "value": "comment"} trong C++ là gì vậy?
-    - [comment]{"entity": "cpplus_content", "value": "comment"} trong C++ là gì?
-    - [COMMENT]{"entity": "cpplus_content", "value": "comment"} là gì?
-    - thế nào là [Comment]{"entity": "cpplus_content", "value": "comment"}?
+    - từ khóa [inclue]{"entity": "cpplus_content", "value": "library"} là gì?
+    - trong c++ có từ [include](cpplus_content) là sao v m?
+    - m biết gì về từ [include](cpplus_content)?
+    - khái niệm về [include](cpplus_content)?
+    - [namespace]{"entity": "cpplus_content", "value": "namespace"} là gì?
+    - thế nào là [namespace]{"entity": "cpplus_content", "value": "namespace"}?
+    - kể tao nghe về [namespace](cpplus_content) đi
+    - khái niệm về [namespace](cpplus_content)
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì
+    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì vậy?
+    - thế nào là [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
+    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là cái quái gì vậy?
+    - ngôn ngữ lập trình [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì?
+    - định nghĩa của [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
+    - ngôn ngữ [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì?
+    - nói cho tao biết [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì được không?
+    - [comment](cpplus_content) trong C++ là gì vậy?
+    - [comment](cpplus_content) trong C++ là gì?
+    - [comment](cpplus_content) là gì?
+    - thế nào là [comment](cpplus_content)?
     - [i/o]{"entity": "cpplus_content", "value": "input-output"} trong c++ là gì?
     - thế nào là [i/o]{"entity": "cpplus_content", "value": "input-output"}?
     - [INPUT/OUTPUT]{"entity": "cpplus_content", "value": "input-output"} LÀ CÁI GÌ THẾ BOT?
@@ -1176,18 +1176,19 @@ nlu:
     - [biến]{"entity": "cpplus_content", "value": "variable"} là cái quái gì thế?
     - trong c++ [Biến]{"entity": "cpplus_content", "value": "variable"} là gì?
     - thế nào là [biến]{"entity": "cpplus_content", "value": "variable"}?
-    - [Variable]{"entity": "cpplus_content", "value": "variable"} là gì vậy bot?
-    - trong c++ [VARIABLE]{"entity": "cpplus_content", "value": "variable"} được định nghĩa như thế nào?
-    - thế nào là [Variable]{"entity": "cpplus_content", "value": "variable"}?
-    - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì?
-    - như thế nào là [Toán tử]{"entity": "cpplus_content", "value": "operator"}?
-    - [Operators]{"entity": "cpplus_content", "value": "operator"} là gì?
+    - [variable](cpplus_content) là gì vậy bot?
+    - trong c++ [variable](cpplus_content) được định nghĩa như thế nào?
+    - thế nào là [variable](cpplus_content)?
+    - [Toán tử]{"entity": "cpplus_content", "value": "operator"} là cái gì thế ?
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì ?
+    - như thế nào là [toán tử]{"entity": "cpplus_content", "value": "operator"}?
+    - [operators]{"entity": "cpplus_content", "value": "operator"} là gì?
     - [operators]{"entity": "cpplus_content", "value": "operator"} trong c++ là gì?
-    - Câu lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ là gi?
-    - Lệnh [Điều Kiện]{"entity": "cpplus_content", "value": "if"} là gì?
-    - [If else]{"entity": "cpplus_content", "value": "if-else"} là gi?
-    - câu lệnh [IF]{"entity": "cpplus_content", "value": "if"} là gì?
-    - khối lệnh [Điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ là gì?
+    - câu lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ là gi?
+    - lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} là gì?
+    - [if else]{"entity": "cpplus_content", "value": "if-else"} là gi?
+    - câu lệnh [if](cpplus_content) là gì?
+    - khối lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ là gì?
     - [vòng lặp]{"entity": "cpplus_content", "value": "loop"} là gì?
     - trong c++ [Vòng lặp]{"entity": "cpplus_content", "value": "loop"} được định nghĩa ra sao?
     - Vòng lặp [for]{"entity": "cpplus_content", "value": "for"} là gì?
@@ -1245,16 +1246,13 @@ nlu:
     - [Mảng]{"entity": "cpplus_content", "value": "array"} là gì?
     - Khái niệm về [mảng]{"entity": "cpplus_content", "value": "array"}?
     - [mảng]{"entity": "cpplus_content", "value": "array"} là cái vẹo gì v?
-    - [mảng]{"entity": "cpplus_content", "value": "array"} một chiều là gì?
-    - [Mảng]{"entity": "cpplus_content", "value": "array"} hai chiều là gì?
-    - [MẢNG]{"entity": "cpplus_content", "value": "array"} LÀ CÁI GÌ?
-    - NHƯ THẾ NÀO LÀ MỘT [1D ARRAY]{"entity": "cpplus_content", "value": "array"}
-    - CHO TOI HOI NHU THE NAO THI DUOC GOI LA 1 [1D ARRAY]{"entity": "cpplus_content", "value": "array"} VẬY Ạ?
-    - Thế nào là [Array]{"entity": "cpplus_content", "value": "array"}?
-    - một [array]{"entity": "cpplus_content", "value": "array"} là gì?
-    - Khái niệm về [ARRAY]{"entity": "cpplus_content", "value": "array"}
-    - [string]{"entity": "cpplus_content", "value": "string"} là gì?
-    - thế nào là [String]{"entity": "cpplus_content", "value": "string"}?
+    - [mảng một chiều]{"entity": "cpplus_content", "value": "array"} là gì?
+    - [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì?
+    - thế nào là [array](cpplus_content)?
+    - một [array](cpplus_content) là gì?
+    - khái niệm về [array](cpplus_content)?
+    - [string](cpplus_content) là gì?
+    - thế nào là [string](cpplus_content)?
     - [chuỗi]{"entity": "cpplus_content", "value": "string"} là gì?
     - NHƯ THẾ NÀO LÀ MỘT [CHUỖI]{"entity": "cpplus_content", "value": "string"} TRONG C++ VẬY AK
     - Ê BOT TÔI HỎI BẠN THẾ NÀO LÀ MỘT [STRING]{"entity": "cpplus_content", "value": "string"}?
@@ -1570,10 +1568,10 @@ nlu:
     - [Tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"}, [Tham trị]{"entity": "cpplus_content", "value": "pass-by-value"}, kiểu [int]{"entity": "cpplus_content", "value": "integer"}, kiểu [float]{"entity": "cpplus_content", "value": "floating-point"} là gì?
     - hãy cho tao biết thế nào là kiểu [int]{"entity": "cpplus_content", "value": "integer"}, kiểu [float]{"entity": "cpplus_content", "value": "floating-point"}, kiểu [char]{"entity": "cpplus_content", "value": "character"} và kiểu [bool]{"entity": "cpplus_content", "value": "boolean"}
     - nêu khái niệm về [operator](cpplus_content), [toán tử số học]{"entity": "cpplus_content", "value": "arithmetic-operator"}, [toán tử logic]{"entity": "cpplus_content", "value": "logical-operator"} đi
-    - Sự khác nhau giữa việc [Truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} và [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} là gì?
-    - cho tôi biết các khái niệm sau: [hàm]{"entity": "cpplus_content", "value": "function"}, [kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} của hàm và [đệ quy]{"entity": "cpplus_content", "value": "recursion"}
-    - Nêu cho mình các khái niệm về [cấu trúc điều khiển]{"entity": "cpplus_content", "value": "control-flow"}, [vòng lặp]{"entity": "cpplus_content", "value": "loop"} và [lệnh nhảy]{"entity": "cpplus_content", "value": "jump-statement"} được không?
-    - Nói gì về [Đối số]{"entity": "cpplus_content", "value": "argument"}, [tham số]{"entity": "cpplus_content", "value": "parameter"}, [tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} với [tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} coi
+    - sự khác nhau giữa việc [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} và [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} là gì?
+    - cho tôi biết các khái niệm sau: [hàm]{"entity": "cpplus_content", "value": "function"}, [kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} và [đệ quy]{"entity": "cpplus_content", "value": "recursion"}
+    - nêu cho mình các khái niệm về [cấu trúc điều khiển]{"entity": "cpplus_content", "value": "control-flow"}, [vòng lặp]{"entity": "cpplus_content", "value": "loop"} và [lệnh nhảy]{"entity": "cpplus_content", "value": "jump-statement"} được không?
+    - nói gì về [đối số]{"entity": "cpplus_content", "value": "argument"}, [tham số]{"entity": "cpplus_content", "value": "parameter"}, [tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} với [tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} coi
     - sự khác biệt thật sự giữa [struct]{"entity": "cpplus_content", "value": "structure"} và [union](cpplus_content) là gì v bot?
     - [Toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} là gì
     - noi cho toi nghe, [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} la gi ne
@@ -1590,7 +1588,6 @@ nlu:
     - [Float]{"entity": "cpplus_content", "value": "floating-point"} là gì
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
     - [Namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
-    - [If]{"entity": "cpplus_content", "value": "if"},[If else]{"entity": "cpplus_content", "value": "if-else"} là gì
     - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
@@ -1779,6 +1776,20 @@ nlu:
     - Clm t đéo hiểu sao lại cần [Include]{"entity": "cpplus_content", "value": "include"}mỗi lần viết code luôn á m, giải thích cho t với
     - Má ơi sao mỗi lần code là lại phải [INCLUDE]{"entity": "cpplus_content", "value": "include"} v, dm explain cho t cái
     - tao muốn biết lý do vì sao lại phải [include]{"entity": "cpplus_content", "value": "include"} mỗi lần viết code
+    - bạn có thể cho tôi biết vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học môn nhập môn lập trình được không?
+    - bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
+    - vì sao lại phải để cái [include](cpplus_content) mỗi lần viết code v?
+    - vì sao t lại phải xài cái từ [include](cpplus_content) thế bot
+    - vì sao mỗi khi viết code là phải có cái #[include](cpplus_content) v bot
+    - sao mỗi lần t viết code đều phải xài cái từ [include](cpplus_content) đó hết v m
+    - ê bot, t k hiểu sao mỗi lần viết code là lại cứ phải thêm cái [include](cpplus_content) ngay trên đầu làm gì nhỉ
+    - ê m, t k hiểu, vì sao lại cứ phải xài [include](cpplus_content) mỗi lần viết code c++ thế @@
+    - nè bot, sao t cứ phải xài [#include](cpplus_content) mỗi khi viết c++ thế, không xài thì sao
+    - cho t 1 lý do vì s lại cứ phải xài [include](cpplus_content) mỗi lần bắt đầu một project mới dc k bot
+    - ê duma t đ hiểu gì về cái [include](cpplus_content) luôn á, tại sao t lại phải xài nó v?
+    - clm t đéo hiểu sao lại cần [include](cpplus_content) mỗi lần viết code luôn á m, giải thích cho t với
+    - má ơi sao mỗi lần code là lại phải [include](cpplus_content) v, dm explain cho t cái
+    - tao muốn biết lý do vì sao lại phải [include](cpplus_content) mỗi lần viết code
     - cho tôi hỏi lý do vì sao ta lại cần xài syntax #[include](cpplus_content) mỗi khi viết code C được không?
     - vì sao lại phải dùng [thư viện]{"entity": "cpplus_content", "value": "library"} khi viết code ạ
     - vì sao mỗi lần viết code là phải khai báo [thư viện]{"entity": "cpplus_content", "value": "library"} thế bot
@@ -2211,19 +2222,15 @@ nlu:
     - I really don't likely to ask you about recursion
     - tôi ko muốn hỏi về vòng lặp
     - tao k muốn hỏi về nó
-    - Bố k hỏi về corona
-    - Tao k có hỏi về toán tử toán tiếc gì hết
-    - Mình không muốn hỏi về các loại toán tử như toán tử nhân hay toán tử chia gì hết á
+    - bố k hỏi về corona
+    - tao k có hỏi về toán tử toán tiếc gì hết
     - chị k có cần cưng giải đáp về các kiểu dữ liệu
     - bố k muốn hỏi gì về đệ quy hết luôn á
-    - Mình không muốn hỏi gì về cpp hết
     - tôi không muốn hỏi bất cứ điều gì từ cậu cả
     - Tao không có cần mày phải giải đáp gì cho tao hết, được chưa ?
-    - Nè, bố m k cần m giải thích gì cả, nín
-    - T k muốn hỏi gì về hàm hết
-    - Tôi không muốn hỏi về tham chiếu tham trị
-    - Tôi thật sự không muốn hỏi bất cứ một điều gì về c++ hết
-    - Bản thân thôi không muốn hỏi bất cứ điều gì về lập trình ở đây cả
+    - nè, bố m k cần m giải thích gì cả, nín
+    - t k muốn hỏi gì về hàm hết
+    - bản thân thôi không muốn hỏi bất cứ điều gì về lập trình ở đây cả
     - tôi, k muốn hỏi
     - K hỏi
     - Ko hỏi
@@ -2243,13 +2250,9 @@ nlu:
     - Bố ko muốn hỏi gì hết
     - ko hỏi gì hết
     - ko muốn hỏi bất cứ điều gì hết
-    - Tôi ko mún hỏi về toán tử địa chỉ
-    - tôi ko muốn hỏi về vòng lặp
     - tôi thật sự, thành thật mà nói, tôi không muốn hỏi bất cứ một điều gì về lập trình từ bạn luôn đó
-    - Thành thật mà nói thì, tao ko muốn hỏi bất cứ một điều gì cả hihi
-    - hihi t k muốn hỏi gì về namespace cả
-    - Hahahaha t k hỏi gì về hàm lambda cả nha
-    - Tôi...không hỏi gì đâu
+    - thành thật mà nói thì, tao ko muốn hỏi bất cứ một điều gì cả hihi
+    - tôi...không hỏi gì đâu
     - bố mày đéo muốn hỏi cc gì cả ok k
     - tao khong muon hoi
     - tao that su khong muon hoi ve con tro
@@ -2260,9 +2263,7 @@ nlu:
     - toi k co muon hoi ve kieu du lieu
     - i dont want to ask
     - i don't really want to ask you about that
-    - I think I don't really have any interested in asking you about pointer
     - I dont want to ask you about corona
-    - I really don't likely to ask you about recursion
 - intent: want_to_practice_flowchart 
   examples: |
     - bài tập flowchart

@@ -1,13 +1,8 @@
 FROM nvidia/cuda:10.1-devel-ubuntu18.04
-
+FROM tensorflow/tensorflow:2.3.2-gpu
 
 WORKDIR /app
 
 COPY . .
 
-COPY environment.yml .
-RUN conda env create -f environment.yml
-
-RUN conda init bash
-
-SHELL ["conda", "run", "-n", "new_rasa_fix_2", "/bin/bash", "-c"]
+RUN pip3 install rasa[full]==2.2.2
