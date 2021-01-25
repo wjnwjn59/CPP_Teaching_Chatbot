@@ -1457,9 +1457,6 @@ nlu:
     - chờ đó lát hỏi tiếp
 - intent: continue_asking
   examples: |
-    - Hỏi lại 
-    - hỏi lại 
-    - Hỏi câu khác
     - hỏi câu khác
     - tiếp tục này
     - Tiếp tục này
