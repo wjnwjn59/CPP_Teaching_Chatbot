@@ -1832,6 +1832,7 @@ nlu:
 - intent: cpplus_what_asking
   examples: |
     - NÓI CHO TAO BIẾT [C]{"entity": "cpplus_content", "value": "cplusplus"}++ LÀ GÌ ĐƯỢC KHÔNG?
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì vậy ?
     - [COMMENT](cpplus_content) TRONG C++ LÀ GÌ VẬY?
     - [COMMENT](cpplus_content) TRONG C++ LÀ GÌ?
     - [COMMENT](cpplus_content) LÀ GÌ?
