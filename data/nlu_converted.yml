@@ -1499,6 +1499,7 @@ nlu:
     - Được r để hỏi m câu tiếp theo nè
     - Nó chạy như thế noà
     - Có chứ 
+    - Có
     - Tất nhiên rồi
 - intent: want_to_ask
   examples: |
@@ -2870,7 +2871,7 @@ nlu:
     - Tại sao lại chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để học vậy
     - Tại sao khai báo [thư viện]{"entity": "cpplus_content", "value": "library"}
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"}
-    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
+    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"} vậy
     - Tại sai phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy
     - vì sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
     - vì sao lại phải sử dụng [comment]{"entity": "cpplus_content", "value": "comment"} 
@@ -2887,7 +2888,6 @@ nlu:
     - Vì sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
     - tại sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
     - tại sao t nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học lập trình?
-    - Tại sai phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"}
     - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
     - vì sao tôi lại nên chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
