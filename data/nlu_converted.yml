@@ -3110,8 +3110,8 @@ nlu:
     - vì sao lại có các khái niệm về [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} hay [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} v?
     - tại sao lại cần [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} ?
-    - Tại sao phải dùng [vector](cpplus_content)
-    - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} 
+    - Tại sao phải dùng [vector](cpplus_content) 
+    - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} ?
     - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
     - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"} ?
@@ -4341,9 +4341,6 @@ nlu:
     - c plus plus
     - c cộng cộng
     - C
-    -C
-    -C++
-    -c++
 - synonym: input-output
   examples: |
     - I/O
