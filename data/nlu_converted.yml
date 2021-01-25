@@ -1501,6 +1501,8 @@ nlu:
     - được để t hỏi m tiếp
     - Được r để hỏi m câu tiếp theo nè
     - Nó chạy như thế noà
+    - Có chứ 
+    - Tất nhiên rồi
 - intent: want_to_ask
   examples: |
     - Ê CHO TAO HỎI CÁI
@@ -2712,7 +2714,7 @@ nlu:
     - SAO MỖI LẦN T VIẾT CODE ĐỀU PHẢI XÀI CÁI TỪ [INCLUDE]{"entity": "cpplus_content", "value": "include"} ĐÓ HẾT V M
     - Ê BOT, T K HIỂU SAO MỖI LẦN VIẾT CODE LÀ LẠI CỨ PHẢI THÊM CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} NGAY TRÊN ĐẦU LÀM GÌ NHỈ
     - Ê M, T K HIỂU, VÌ SAO LẠI CỨ PHẢI XÀI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE C++ THẾ @@
-    - NÈ BOT, SAO T CỨ PHẢI XÀI [#INCLUDE]{"entity": "cpplus_content", "value": "include"}MỖI KHI VIẾT C++ THẾ, KHÔNG XÀI THÌ SAO
+    - NÈ BOT, SAO T CỨ PHẢI XÀI [#INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI KHI VIẾT C++ THẾ, KHÔNG XÀI THÌ SAO
     - CHO T 1 LÝ DO VÌ S LẠI CỨ PHẢI XÀI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN BẮT ĐẦU MỘT PROJECT MỚI DC K BOT
     - Ê DUMA T Đ HIỂU GÌ VỀ CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} LUÔN Á, TẠI SAO T LẠI PHẢI XÀI NÓ V?
     - CLM T ĐÉO HIỂU SAO LẠI CẦN [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE LUÔN Á M, GIẢI THÍCH CHO T VỚI
@@ -2890,7 +2892,7 @@ nlu:
     - tại sao t nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học lập trình?
     - Tại sai phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"}
-    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}mảng
+    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
     - vì sao tôi lại nên chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
     - tại sao [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
     - nè bot, sao nhà trường lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để dạy mình học v, nó có điểm mạnh gì à?
