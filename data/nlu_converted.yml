@@ -2050,7 +2050,14 @@ nlu:
     - [TYPE MODIFER]{"entity": "cpplus_content", "value": "type-modifier"} LÀ WTF
     - [TYPE MODIFER]{"entity": "cpplus_content", "value": "type-modifier"} LÀ GÌ V EM OIII
     - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì ?
-    - như thế nào là [toán tử]{"entity": "cpplus_content", "value": "operator"}
+    - như thế nào là 1 [toán tử]{"entity": "cpplus_content", "value": "operator"}
+    - như nào là [đối số]{"entity": "cpplus_content", "value": "argument"} truyền vào 1 hàm
+    - Thế nào là 1 [variables]{"entity": "cpplus_content", "value": "variable"} ?
+    - 1 [vars]{"entity": "cpplus_content", "value": "variable"} trong c++ được nghĩa thế nào ?
+    - 1 [functiion]{"entity": "cpplus_content", "value": "function"} trong c++ được định nghĩa ntn?
+    - 1 hàm [recursion]{"entity": "cpplus_content", "value": "recursion"} được định nghĩa ra sao trong c++?
+    - Một [biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} trong c++ là j?
+    - 1 [biến toàn cục]{"entity": "cpplus_content", "value": "global-variable"} ở c++ là j?
     - [if else]{"entity": "cpplus_content", "value": "if-else"} là gi?
     - định nghĩa của [switch]{"entity": "cpplus_content", "value": "switch"}?
     - những kiến thức cơ bản về [hàm]{"entity": "cpplus_content", "value": "function"}
@@ -2116,13 +2123,13 @@ nlu:
     - [Biến]{"entity": "cpplus_content", "value": "variable"} là gì?
     - [biến]{"entity": "cpplus_content", "value": "variable"} là cái quái gì thế?
     - trong c++ [Biến]{"entity": "cpplus_content", "value": "variable"} là j?
-    - thế nào là [biến]{"entity": "cpplus_content", "value": "variable"}?
+    - thế nào là 1 [biến]{"entity": "cpplus_content", "value": "variable"}?
     - [variable](cpplus_content) là gì vậy bot?
     - trong c++ [variable](cpplus_content) được định nghĩa như thế nào?
-    - thế nào là [variable](cpplus_content)?
+    - thế nào là 1 [variable](cpplus_content)?
     - [Toán tử]{"entity": "cpplus_content", "value": "operator"} là cái gì thế ?
     - [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì ?
-    - như thế nào là [toán tử]{"entity": "cpplus_content", "value": "operator"}?
+    - như thế nào là 1 [toán tử]{"entity": "cpplus_content", "value": "operator"}?
     - [operators]{"entity": "cpplus_content", "value": "operator"} là gì?
     - [operators]{"entity": "cpplus_content", "value": "operator"} trong c++ là gì?
     - câu lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ là gi?
@@ -2142,8 +2149,8 @@ nlu:
     - Thế nào là [do while]{"entity": "cpplus_content", "value": "do-while"}?
     - từ khóa [break]{"entity": "cpplus_content", "value": "break"}?
     - Từ khóa [Continue]{"entity": "cpplus_content", "value": "continue"}?
-    - thế nào là [Break]{"entity": "cpplus_content", "value": "break"}?
-    - Nhu nao la [BREAK]{"entity": "cpplus_content", "value": "break"} vay ban hien?
+    - thế nào là 1 [Break]{"entity": "cpplus_content", "value": "break"}?
+    - Nhu nao la 1 [BREAK]{"entity": "cpplus_content", "value": "break"} vay ban hien?
     - Thế nào là [continue]{"entity": "cpplus_content", "value": "continue"}?
     - [Break]{"entity": "cpplus_content", "value": "break"} trong c++ là j?
     - [Continue]{"entity": "cpplus_content", "value": "continue"} trong c++ là gì?
@@ -2166,7 +2173,7 @@ nlu:
     - nói t nghe về những kiến thức về phần [hàm]{"entity": "cpplus_content", "value": "function"} đi
     - [Tham số]{"entity": "cpplus_content", "value": "parameter"} là gì?
     - [Đối số]{"entity": "cpplus_content", "value": "argument"} là j?
-    - thế nào là [tham số]{"entity": "cpplus_content", "value": "parameter"} và [đối số]{"entity": "cpplus_content", "value": "argument"} trong c++?
+    - thế nào là 1 [tham số]{"entity": "cpplus_content", "value": "parameter"} và 1 [đối số]{"entity": "cpplus_content", "value": "argument"} trong c++?
     - [Parameter]{"entity": "cpplus_content", "value": "parameter"} là như thế nào v?
     - [argument]{"entity": "cpplus_content", "value": "argument"} là gì?
     - Định nghĩa [Parameter]{"entity": "cpplus_content", "value": "parameter"}?
@@ -2176,7 +2183,7 @@ nlu:
     - như thế nào là [Return]{"entity": "cpplus_content", "value": "return"}?
     - [Return]{"entity": "cpplus_content", "value": "return"} trong 1 hàm là j?
     - [đệ quy]{"entity": "cpplus_content", "value": "recursion"} là j
-    - thế nào là [đệ quy]{"entity": "cpplus_content", "value": "recursion"}?
+    - thế nào là 1 hàm [đệ quy]{"entity": "cpplus_content", "value": "recursion"}?
     - [Đệ quy]{"entity": "cpplus_content", "value": "recursion"} được định nghĩa ntn?
     - [Recursion]{"entity": "cpplus_content", "value": "recursion"} là j
     - Thế nào là [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
@@ -2189,11 +2196,11 @@ nlu:
     - [mảng]{"entity": "cpplus_content", "value": "array"} là cái vẹo gì v?
     - [mảng một chiều]{"entity": "cpplus_content", "value": "array"} là gì?
     - [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} là j?
-    - thế nào là [array](cpplus_content)?
+    - thế nào là 1 [array](cpplus_content)?
     - một [array](cpplus_content) là j?
     - khái niệm về [array](cpplus_content)?
     - [string](cpplus_content) là gì?
-    - thế nào là [string](cpplus_content)?
+    - thế nào là một [string](cpplus_content)?
     - [chuỗi]{"entity": "cpplus_content", "value": "string"} là j?
     - NHƯ THẾ NÀO LÀ MỘT [CHUỖI]{"entity": "cpplus_content", "value": "string"} TRONG C++ VẬY AK
     - Ê BOT TÔI HỎI BẠN THẾ NÀO LÀ MỘT [STRING]{"entity": "cpplus_content", "value": "string"}?
@@ -2345,7 +2352,7 @@ nlu:
     - [vector]{"entity": "cpplus_content", "value": "vector"} la sao
     - THẾ NÀO LÀ MỘT [VECTOR]{"entity": "cpplus_content", "value": "vector"}
     - [Vector]{"entity": "cpplus_content", "value": "vector"} là gì?
-    - như thế nào là [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} v ?
+    - như thế nào là 1 [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} v ?
     - noi tao biet ve [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} coi bot ngu
     - e th lz bot noi cho bo m biet ve [Reference Variable]{"entity": "cpplus_content", "value": "reference-variable"} đi
     - [Reference variable]{"entity": "cpplus_content", "value": "reference-variable"}?
@@ -2440,7 +2447,7 @@ nlu:
     - [if else if ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"} là gì
     - em muốn biết thêm về [if else]{"entity": "cpplus_content", "value": "if-else"} thầy ạ
     - cho em biet the nao [nested if]{"entity": "cpplus_content", "value": "nested-if"} thay oi
-    - thế nào là [if lồng if]{"entity": "cpplus_content", "value": "nested-if"} v ak
+    - thế nào là một cái [if lồng if]{"entity": "cpplus_content", "value": "nested-if"} v ak
     - nhu the nao la [if long if]{"entity": "cpplus_content", "value": "nested-if"} v ong oiii
     - [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} là sao vậy thầy
     - mình muốn biết về việc [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} trong c++ ạ

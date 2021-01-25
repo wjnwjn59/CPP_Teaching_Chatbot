@@ -54,6 +54,7 @@ rules:
   steps:
   - intent: who_create_you
   - action: utter_author
+  wait_for_user_input: false
 
 - rule: out of scope
   steps:
@@ -66,6 +67,7 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+  wait_for_user_input: false
 
 - rule: greeting
   steps:
