@@ -2835,8 +2835,12 @@ nlu:
     - Ở BẢN C++11, SAO NGƯỜI TA LẠI CÓ THÊM KIỂU DỮ LIỆU [AUTO](cpplus_content) V BOT NGU?
     - DÙNG [BIẾN TĨNH]{"entity": "cpplus_content", "value": "static"} CHI V M
     - SAO LẠI CÓ THÊM BIẾN [STATIC](cpplus_content) ĐỂ LÀM CHI RỨA?
-    -tại sao t nên chọn c để học lập trình?
-    -tại sao c++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
+    - Tại sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"} ?
+    - Tại sao phải dùng [c]{"entity": "cpplus_content", "value": "cplusplus"} ?
+    - Vì sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"} ?? 
+    - Vì sao phải dùng [c]{"entity": "cpplus_content", "value": "cplusplus"} ?
+    - tại sao t nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"} để học lập trình?
+    - tại sao [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
     - nè bot sao nhà trường lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để dạy mình học v nó có điểm mạnh gì à?
     - ê bot lý do gì mà [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
     - m cho t một lý do vì s t nên học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ được k bot?
