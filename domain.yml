@@ -116,7 +116,7 @@ responses:
       khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua
       thử nghiệm lâm sàng.
   utter_reply_stop_asking:
-  - text: Ok bạn nha, có gì thì cứ hỏi mình
+  - text: Ok bạn nha, có vướng mắc gì về C++ thì cứ hỏi mình
   - text: Ừa ok bạn, bạn có thể trở lại hỏi bất cứ khi nào nha
   utter_reply_health_inquire:
   - text: Dạo này mình vẫn ổn nha bạn, cảm ơn đã hỏi thăm mình nha
@@ -147,9 +147,9 @@ responses:
   - buttons:
     - payload: continue_asking
       title: Hỏi lại
-    - payload: continue_asking
-      title: Hỏi câu khác
-    text: Xin lỗi, mình không hiểu ý bạn!
+    - payload: stop_asking
+      title: Không hỏi
+    text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ!
   utter_greet:
   - text: Xin chào! Bạn khỏe không?
   - text: Chào bạn, hôm nay bạn thế nào?
