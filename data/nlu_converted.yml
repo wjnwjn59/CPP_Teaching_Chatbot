@@ -2657,6 +2657,9 @@ nlu:
     - chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} đi
     - Chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} với
     - bày iem cách viết tạo ra [LOOP]{"entity": "cpplus_content", "value": "loop"} đi ianh
+    - Cú pháp của [for]{"entity": "cpplus_content", "value": "for"}
+    - Cách dùng [for]{"entity": "cpplus_content", "value": "for"}
+    - [For]{"entity": "cpplus_content", "value": "for"} được sử dụng như thế nào ?
     - làm s để t viết vòng lặp [For]{"entity": "cpplus_content", "value": "for"} đây m
     - làm thế nào để t tạo ra một vòng [for]{"entity": "cpplus_content", "value": "for"} đây
     - how to tạo ra một vòng [FOR]{"entity": "cpplus_content", "value": "for"} v m
@@ -2683,6 +2686,8 @@ nlu:
     - Chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
+    - Cách dùng [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cú pháp của [hàm]{"entity": "cpplus_content", "value": "function"}
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
