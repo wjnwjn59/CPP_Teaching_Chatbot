@@ -2688,6 +2688,15 @@ nlu:
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
     - Cách dùng [hàm]{"entity": "cpplus_content", "value": "function"}
     - Cú pháp của [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách sử dụng [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Làm thế nào để dùng [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Có cách nào để dùng [comment]{"entity": "cpplus_content", "value": "comment"} hay không ?
+    - Chỉ tôi cách để sử dụng [comment]{"entity": "cpplus_content", "value": "comment"} đi 
+    - Cú pháp của [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Liệu có cách nào để có thể dùng [comments] vậy bro ?
+    - [Comment]{"entity": "cpplus_content", "value": "comment"} được sử dụng như thế nào ?
+    - Có phải C++ có thể [comment]{"entity": "cpplus_content", "value": "comment"} được đúng không ?
+    
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
