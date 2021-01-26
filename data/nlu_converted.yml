@@ -1457,9 +1457,6 @@ nlu:
     - chờ đó lát hỏi tiếp
 - intent: continue_asking
   examples: |
-    - Hỏi lại 
-    - hỏi lại 
-    - Hỏi câu khác
     - hỏi câu khác
     - tiếp tục này
     - Tiếp tục này
@@ -1501,6 +1498,9 @@ nlu:
     - được để t hỏi m tiếp
     - Được r để hỏi m câu tiếp theo nè
     - Nó chạy như thế noà
+    - Có chứ 
+    - Có
+    - Tất nhiên rồi
 - intent: want_to_ask
   examples: |
     - Ê CHO TAO HỎI CÁI
@@ -1831,7 +1831,7 @@ nlu:
     - Ê TAO VẪN CHƯA HIỂU VỀ CÁI VÒNG LẶP TRONG C++ LẮM CHO THỬ MỘT VÍ DỤ VỀ [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} XEM NÀO
 - intent: cpplus_what_asking
   examples: |
-    - NÓI CHO TAO BIẾT [C]{"entity": "cpplus_content", "value": "cplusplus"}++ LÀ GÌ ĐƯỢC KHÔNG?
+    - [C++]{"entity": "cpplus_content", "value": "cplusplus"} là gì vậy ?
     - [COMMENT](cpplus_content) TRONG C++ LÀ GÌ VẬY?
     - [COMMENT](cpplus_content) TRONG C++ LÀ GÌ?
     - [COMMENT](cpplus_content) LÀ GÌ?
@@ -2663,6 +2663,9 @@ nlu:
     - chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} đi
     - Chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} với
     - bày iem cách viết tạo ra [LOOP]{"entity": "cpplus_content", "value": "loop"} đi ianh
+    - Cú pháp của [for]{"entity": "cpplus_content", "value": "for"}
+    - Cách dùng [for]{"entity": "cpplus_content", "value": "for"}
+    - [For]{"entity": "cpplus_content", "value": "for"} được sử dụng như thế nào ?
     - làm s để t viết vòng lặp [For]{"entity": "cpplus_content", "value": "for"} đây m
     - làm thế nào để t tạo ra một vòng [for]{"entity": "cpplus_content", "value": "for"} đây
     - how to tạo ra một vòng [FOR]{"entity": "cpplus_content", "value": "for"} v m
@@ -2689,6 +2692,17 @@ nlu:
     - Chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
+    - Cách dùng [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cú pháp của [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách sử dụng [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Làm thế nào để dùng [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Có cách nào để dùng [comment]{"entity": "cpplus_content", "value": "comment"} hay không ?
+    - Chỉ tôi cách để sử dụng [comment]{"entity": "cpplus_content", "value": "comment"} đi 
+    - Cú pháp của [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Liệu có cách nào để có thể dùng [comments] vậy bro ?
+    - [Comment]{"entity": "cpplus_content", "value": "comment"} được sử dụng như thế nào ?
+    - Có phải C++ có thể [comment]{"entity": "cpplus_content", "value": "comment"} được đúng không ?
+    
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
@@ -2892,26 +2906,26 @@ nlu:
     - tại sao t nên chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} để học lập trình?
     - Tại sai phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"} vậy
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"}
-    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}mảng
+    - Tại sao phải dùng [mảng]{"entity": "cpplus_content", "value": "array"}
     - vì sao tôi lại nên chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
-    - tại sao [c++]{"entity": "cpplus_content", "value": "cplusplus"} lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
-    - nè bot, sao nhà trường lại chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} để dạy mình học v, nó có điểm mạnh gì à?
-    - ê bot, lý do gì mà [c++]{"entity": "cpplus_content", "value": "cplusplus"} lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
+    - tại sao [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
+    - nè bot, sao nhà trường lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để dạy mình học v, nó có điểm mạnh gì à?
+    - ê bot, lý do gì mà [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
     - Yo bot, vì cái lz gì mà người ta lại chọn [cplusplus](cpplus_content) để học đầu tiên thế?
     - Nè nè, vì lý do gì mà t nên học [c plus plus]{"entity": "cpplus_content", "value": "cplusplus"} trước?
-    - M cho t một lý do vì s t nên học [c++]{"entity": "cpplus_content", "value": "cplusplus"} được k bot?
-    - giải thích cho t vì sao t nên đặt niềm tin vào [c++]{"entity": "cpplus_content", "value": "cplusplus"} đi bot
-    - Hãy cho t 1 vài lý do nên học [c++]{"entity": "cpplus_content", "value": "cplusplus"} đi bot ngu
-    - m có lời biện hộ nào cho việc vì sao lại phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"} trước mà không phải những ngôn ngữ khác k?
-    - tại sao có rất nhiều ngôn ngữ lập trình đang hot hiện nay như python, javascript, R,... mà t lại phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"} trước v bot
-    - S bố m lại bị ép buộc phải học [c++]{"entity": "cpplus_content", "value": "cplusplus"} trước tiên v bot
-    - Có thể cho t 1 lời giải thích vì sao lại phải học cái [c++]{"entity": "cpplus_content", "value": "cplusplus"} này trước thay vì là những ngôn ngữ xịn xò khác...
-    - ngoài kia có rất nhiều ngôn ngữ lập trình khác được cho là phổ biến và hot hơn như python, js, ruby,... tại sao m lại chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} để làm base ?
-    - vì sao lại chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} làm ngôn ngữ base?
-    - tại sao m lại chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} để học nhập môn lập trình?
+    - M cho t một lý do vì s t nên học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ được k bot?
+    - giải thích cho t vì sao t nên đặt niềm tin vào [c]{"entity": "cpplus_content", "value": "cplusplus"}++ đi bot
+    - Hãy cho t 1 vài lý do nên học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ đi bot ngu
+    - m có lời biện hộ nào cho việc vì sao lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước mà không phải những ngôn ngữ khác k?
+    - tại sao có rất nhiều ngôn ngữ lập trình đang hot hiện nay như python, javascript, R,... mà t lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước v bot
+    - S bố m lại bị ép buộc phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước tiên v bot
+    - Có thể cho t 1 lời giải thích vì sao lại phải học cái [c]{"entity": "cpplus_content", "value": "cplusplus"}++ này trước thay vì là những ngôn ngữ xịn xò khác...
+    - ngoài kia có rất nhiều ngôn ngữ lập trình khác được cho là phổ biến và hot hơn như python, js, ruby,... tại sao m lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để làm base ?
+    - vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ làm ngôn ngữ base?
+    - tại sao m lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học nhập môn lập trình?
     - vì sao tml m lại chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để dạy môn nhập môn v ?
-    - Bạn có thể cho tôi biết vì sao lại chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} để học môn nhập môn lập trình được không?
-    - bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c++]{"entity": "cpplus_content", "value": "cplusplus"} dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
+    - Bạn có thể cho tôi biết vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học môn nhập môn lập trình được không?
+    - bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
     - vì sao lại phải để cái [include]{"entity": "cpplus_content", "value": "include"} mỗi lần viết code v?
     - vì sao t lại phải xài cái từ [include]{"entity": "cpplus_content", "value": "include"} thế bot
     - Vì sao mỗi khi viết code là phải có cái [#include]{"entity": "cpplus_content", "value": "include"} v bot
@@ -3451,7 +3465,7 @@ nlu:
     - bài tập dùng [toán tử 3 ngôi]{"entity": "cpplus_content", "value": "ternary-operator"} 
     - bài tập về [toán tử 2 ngôi]{"entity": "cpplus_content", "value": "binary-operator"} 
     - các bài toán về [toán tử]{"entity": "cpplus_content", "value": "operator"}  nói chung
-    - một số bài ôn tập về [c++]{"entity": "cpplus_content", "value": "cplusplus"} 
+    - một số bài ôn tập về [c]{"entity": "cpplus_content", "value": "cplusplus"}++ 
     - bài tập về [hàm]{"entity": "cpplus_content", "value": "function"} 
     - bạn có các bài tập về [hàm]{"entity": "cpplus_content", "value": "function"} ko
     - tao muốn được ôn bài về [con trỏ]{"entity": "cpplus_content", "value": "pointer"}
@@ -4343,9 +4357,6 @@ nlu:
     - c plus plus
     - c cộng cộng
     - C
-    -C
-    -C++
-    -c++
 - synonym: input-output
   examples: |
     - I/O

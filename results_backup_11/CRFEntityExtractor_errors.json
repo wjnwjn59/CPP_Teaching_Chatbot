@@ -1,0 +1,8376 @@
+[
+  {
+    "text": "Cho b\u1ed1 m\u00e0y m\u1ed9t v\u00ed d\u1ee5 v\u1ec1 Library",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00ed d\u1ee5 Variable",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m\u00e0y \u01a1i, cho tao v\u00ed d\u1ee5 v\u1ec1 If \u0111i",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m\u1ed9t v\u00e0i v\u00ed d\u1ee5 v\u1ec1 For cho ng\u01b0\u1eddi ta \u0111\u01b0\u1ee3c ko ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ea, tao v\u1eabn ch\u01b0a hi\u1ec3u v\u1ec1 c\u00e1i v\u00f2ng l\u1eb7p trong c++ l\u1eafm, cho th\u1eed m\u1ed9t v\u00ed d\u1ee5 v\u1ec1 v\u00f2ng l\u1eb7p xem n\u00e0o",
+    "entities": [
+      {
+        "start": 73,
+        "end": 81,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.5500078353828896,
+        "value": "loop",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 73,
+        "end": 81,
+        "confidence_entity": 0.7739077211994968,
+        "value": "loop",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Recursion v\u00ed d\u1ee5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Class v\u00ed d\u1ee5 n\u00e0o",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Vi du ve Kieu du lieu",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dua cho toi mot so vi du ve If di nao",
+    "entities": [
+      {
+        "start": 28,
+        "end": 30,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "vi du ve kieu du lieu",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ea tao v\u1eabn ch\u01b0a hi\u1ec3u v\u1ec1 c\u00e1i v\u00f2ng l\u1eb7p trong c++ l\u1eafm cho th\u1eed m\u1ed9t v\u00ed d\u1ee5 v\u1ec1 v\u00f2ng l\u1eb7p xem n\u00e0o",
+    "entities": [
+      {
+        "start": 71,
+        "end": 79,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.5500078353828896,
+        "value": "loop",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.7739077211994968,
+        "value": "loop",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "CHO M\u1ed8T C\u00c1I V\u00cd D\u1ee4 V\u1ec0 M\u1ea2NG \u0110I IEM",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca CHO C\u00c1I V\u00cd D\u1ee4 V\u1ec0 ARRAY",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 M\u1ea2NG M\u1ed8T CHI\u1ec0U \u0110I M\u00c0Y",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO B\u1ed0 M\u00c0Y M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 LIBRARY",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 V\u00cd D\u1ee4 V\u1ec0 TH\u01af VI\u1ec6N",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c3Y CHO T\u00d4I M\u1ed8T V\u00c0I V\u00cd D\u1ee4 V\u1ec0 LIBRARIES",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 NAMESPACE \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I XIN M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 KH\u00d4NG GIAN T\u00caN V\u1edaI \u1ea0",
+    "entities": [
+      {
+        "start": 25,
+        "end": 39,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "K\u1ec2 TAO NGHE V\u1ec0 M\u1ed8T S\u1ed0 V\u00cd D\u1ee4 V\u1ec0 COMMENT \u0110I BOT",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, CHO T 1 S\u1ed0 V\u00cd D\u1ee4 V\u1ec0 COMMENT \u0110\u00ca",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT, V\u00cd D\u1ee4 V\u1ec0 COMMENT TH\u1eec",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DCMM CHO T 1 V\u00cd D\u1ee4 V\u1ec0 COMMNET \u0110I DUMA",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca, V\u00cd D\u1ee4 V\u1ec0 BI\u1ebeN",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 VARIABLE",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T V\u00c0I V\u00cd D\u1ee4 V\u1ec0 VARIABLE",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I 1 S\u1ed0 D\u00cd D\u1ee4 Z\u1ec0 VARIABLES V\u1edaI",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N EI, CHO M\u00ccNH M\u1ed8T V\u00c0I V\u00cd D\u1ee4 V\u1ec0 TO\u00c1N T\u1eec \u0110C HONG",
+    "entities": [
+      {
+        "start": 34,
+        "end": 41,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT \u01a0I, CHO TAO V\u00cd D\u1ee4 V\u1ec0 OPERATORS \u0110I M\u00c0Y",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00c0Y \u01a0I, CHO TAO V\u00cd D\u1ee4 V\u1ec0 IF \u0110I",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO M\u00ccNH 1 C\u00c1I EXAMPLE V\u1ec0 IF TH\u1eec COI N\u00c8",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HMMM, CHO M\u00ccNH TH\u1eec M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 C\u00c2U \u0110I\u1ec0U KI\u1ec6N TH\u1eec XEM SAO N\u00c8",
+    "entities": [
+      {
+        "start": 36,
+        "end": 45,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00c8N OIII, CHO TUI V\u00cd D\u1ee4 V\u1ec0 FOR XEM TH\u1eec N\u00c0",
+    "entities": [
+      {
+        "start": 27,
+        "end": 30,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T V\u00c0I V\u00cd D\u1ee4 V\u1ec0 FOR CHO NG\u01af\u1edcI TA \u0110\u01af\u1ee2C KO ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "A \u01a0I, CHO E V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P DO WHILE \u0110I A",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ea6Y, CHO \u0110\u1ed2 \u0110\u1ec6 V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P WHILE \u0110\u01af\u1ee2C KH\u00d4NG \u1ea0?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 39,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca, TAO V\u1eaaN CH\u01afA HI\u1ec2U V\u1ec0 C\u00c1I V\u00d2NG L\u1eb6P TRONG C++ L\u1eaeM, CHO TH\u1eec M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 73,
+        "end": 81,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 1 V\u00d2NG L\u1eb6P TRONG C++ XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 LOOPS TRONG C++ XEM TH\u1eec N\u00c0O",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I V\u00cd D\u1ee4 V\u1ec0 C\u00c1C LO\u1ea0I V\u00d2NG L\u1eb6P FOR, WHILE V\u00c0 DO WHILE \u0110I",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "value": "for",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "WHILE",
+        "entity": "CPPLUS_CONTENT"
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c3Y CHO T\u00d4I M\u1ed8T V\u00c0I C\u00c1C C\u00c1I V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG FOR V\u00d2NG WHILE V\u00c0 V\u00d2NG DO WHILE",
+    "entities": [
+      {
+        "start": 42,
+        "end": 45,
+        "value": "for",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 51,
+        "end": 56,
+        "value": "WHILE",
+        "entity": "CPPLUS_CONTENT"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO M\u00ccNH M\u1ed8T S\u1ed0 C\u00c1C C\u00c1I V\u00cd D\u1ee4 V\u1ec0 L\u1ec6NH BREAK V\u00c0 L\u1ec6NH CONTINUE \u0110I \u1ea0",
+    "entities": [
+      {
+        "start": 38,
+        "end": 43,
+        "value": "break",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "value": "CONTINUE",
+        "entity": "CPPLUS_CONTENT"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 CHI\u1ebeC EXAMPLES V\u1ec0 BREAK V\u00c0 GOTO \u0110I \u1ea0",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "break",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c0Y, V\u00cd D\u1ee4 V\u1ec0 BREAK CHO B\u1ed4N T\u1eccA NHANH",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "EG V\u1ec0 H\u00c0M",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "E.G V\u1ec0 FUNCTION TH\u1eec XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 INSTANCES V\u1ec0 H\u00c0M TH\u1eec N\u00c8",
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO M\u00ccNH M\u1ed8T S\u1ed0 C\u00c1C C\u00c1I V\u00cd D\u1ee4 V\u1ec0 THAM CHI\u1ebeU V\u00c0 THAM TR\u1eca \u0110I N\u00c8",
+    "entities": [
+      {
+        "start": 33,
+        "end": 43,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "value": "pass-by-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 TH\u1eec CHO M\u00ccNH V\u1ec0 THAM TR\u1eca THAM CHI\u1ebeU \u0110\u00ca",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "pass-by-value",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 C\u1ee4 TH\u1ec2 V\u1ec0 THAM S\u1ed0 V\u00c0 \u0110\u1ed0I S\u1ed0",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "parameter",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c3Y V\u00cd D\u1ee4 C\u1ee4 CMN TH\u1ec2 V\u1ec0 \u0110\u1ec6 QUY \u0110I",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "RECURSION V\u00cd D\u1ee4",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "EXAMPLES V\u1ec0 RECURSIONS",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 M\u1ea2NG M\u1ed8T CHI\u1ec0U V\u00c0 M\u1ea2NG HAI CHI\u1ec0U \u0110\u00ca",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "array",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 41,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CLASS V\u00cd D\u1ee4 N\u00c0O",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 CON TR\u1ece COI \u0110\u1ee4 M\u00c1",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DM CHO B\u1ed0 M V\u00cd D\u1ee4 V\u1ec0 CON TR\u1ece \u0110I",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 C\u1ee4 TH\u1ec2 NH\u1ea4T V\u1ec0 POINTER",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 V\u00da D\u1eca V\u1ec0 KI\u1ec2U D\u1eee LI\u1ec6U",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00da D\u1eca V\u1ec0 INTEGER",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "D\u00cd V\u1ee4 TH\u1eec V\u1ec0 KI\u1ec2U INT XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "D\u00cd D\u1ee4 TH\u1eec V\u1ec0 KI\u1ec2U D\u1eee LI\u1ec6U FLOAT XEM SAO N\u00c0O",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 KI\u1ec2U DOUBLE V\u00c0 KI\u1ec2U FLOAT \u0110I",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "DOUBLE",
+        "entity": "CPPLUS_CONTENT"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 TO\u00c1N T\u1eec T\u0102NG, TO\u00c1N T\u1eec GI\u1ea2M",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "value": "decrement-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T V\u00c0I V\u00cd D\u1ee4 V\u1ec0 TO\u00c1N T\u1eec M\u1ed8T NG\u00d4I, TO\u00c1N T\u1eec HAI NG\u00d4I, TO\u00c1N T\u1eec BA NG\u00d4I",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "unary-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 35,
+        "end": 51,
+        "value": "binary-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "value": "ternary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca TAO \u0110ANG KH\u00d4NG HI\u1ec2U R\u00d5 V\u1ec0 TO\u00c1N T\u1eec S\u1ed0 H\u1eccC V\u00c0 TO\u00c1N T\u1eec LOGIC, CHO TAO V\u00cd D\u1ee4 V\u1ec0 HAI M\u00d3N \u0110\u00d3 \u0110I",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "arithmetic-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "value": "logical-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca TAO \u0110ANG H\u01a0I M\u00d4NG LUNG V\u1ec0 THAM CHI\u1ebeU H\u1eb0NG, CHO T V\u00cd D\u1ee4 V\u1ec0 M\u00d3N N\u00c0Y \u0110I",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "const-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T V\u00cd D\u1ee4 D\u1ec4 HI\u1ec2U NH\u1ea4T V\u1ec0 H\u00c0M N\u1ed8I TUY\u1ebeN",
+    "entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "value": "inline-function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T CHI\u1ebeC V\u00cd D\u1ee4 XINH X\u1eaeN V\u1ec0 BI\u1ebeN T\u0128NH",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, CHO T M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 LAMBDA",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "lambda",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO XIN V\u00cd D\u1ee4 D\u1ec4 HI\u1ec2U V\u1ec0 RETURN \u0110\u00ca",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 N\u00c0O KH\u00d3 HI\u1ec2U V\u1ec0 HAM S\u1ed0 M\u1eb6C NHI\u00caN",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "default-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u00c3 \u0110\u1ebeN L\u00daC B\u1ed0 M\u00c0Y PH\u1eceNG V\u1ea4N M\u00c0Y R\u1ed2I, CHO B\u1ed0 M\u00c0Y M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 IF ELSE \u0110I N\u00c0O",
+    "entities": [
+      {
+        "start": 61,
+        "end": 68,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ebeN GI\u1edc PH\u1eceNG V\u1ea4N, V\u00cd D\u1ee4 V\u1ec0 H\u00c0M LAMDA \u0110I N\u00c0O, NHANH",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "value": "lambda",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "AN EXAMPLE OF LAMBDA FUNCTION ?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "lambda",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GIVE ME AN EXAMPLE OF SCOPE RESOLUTION OPERATOR",
+    "entities": [
+      {
+        "start": 22,
+        "end": 47,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "JUST GIVE TO ME A EXAMPLE ABOUT TO\u00c1N T\u1eec \u0110\u1ecaNH PH\u1ea0M VI",
+    "entities": [
+      {
+        "start": 32,
+        "end": 52,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TOI MOT VI DU VE HAM DI",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HAY CHO TUI MOT SO VI DU VE BIEN",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "VI DU VE KIEU DU LIEU",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DUA CHO TOI MOT SO VI DU VE IF DI NAO",
+    "entities": [
+      {
+        "start": 28,
+        "end": 30,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HAY CHO TOI MOT SO CAC CAI VI DU SIEU HAY CUA BAN VE THAM CHIEU VA THAM TRI DI",
+    "entities": [
+      {
+        "start": 53,
+        "end": 63,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 67,
+        "end": 75,
+        "value": "pass-by-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TOI MOT SO VI DU CU THE HON VE THAM CHIEU DI",
+    "entities": [
+      {
+        "start": 35,
+        "end": 45,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "MOT SO VI DU CU THE HON VE TOAN TU DINH PHAM VI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 47,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CAU TRUC DIEU KHIEN VI DU",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HAY CHO T VI DU VE VONG LAP DI NAO",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 FLOAT",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 H\u00c0M",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 LAMBDA",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "lambda",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca TAO V\u1eaaN CH\u01afA HI\u1ec2U V\u1ec0 C\u00c1I V\u00d2NG L\u1eb6P TRONG C++ L\u1eaeM CHO TH\u1eec M\u1ed8T V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 71,
+        "end": 79,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I CHO TAO BI\u1ebeT C++ L\u00c0 G\u00cc \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 18,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "COMMENT TRONG C++ L\u00c0 G\u00cc V\u1eacY?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "COMMENT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "COMMENT TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "COMMENT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "COMMENT L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "COMMENT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 COMMENT?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "COMMENT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I/O TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 I/O?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "INPUT/OUTPUT L\u00c0 C\u00c1I G\u00cc TH\u1ebe BOT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ I/O \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A RA SAO TH\u1ebe BOT?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "INPUT/OUTPUT TRONG C++",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "COUT L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "COUT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CIN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "CIN",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 COUT TRONG C++?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "COUT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 CIN TRONG C++?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "CIN",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BI\u1ebeN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BI\u1ebeN L\u00c0 C\u00c1I QU\u00c1I G\u00cc TH\u1ebe?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ BI\u1ebeN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 BI\u1ebeN?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "VARIABLE L\u00c0 G\u00cc V\u1eacY BOT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "VARIABLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ VARIABLE \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A NH\u01af TH\u1ebe N\u00c0O?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "VARIABLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 VARIABLE?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "VARIABLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TO\u00c1N T\u1eec L\u00c0 C\u00c1I G\u00cc TH\u1ebe ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TO\u00c1N T\u1eec L\u00c0 G\u00cc ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af TH\u1ebe N\u00c0O L\u00c0 TO\u00c1N T\u1eec?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "OPERATORS L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "OPERATORS TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c2U L\u1ec6NH \u0110I\u1ec0U KI\u1ec6N TRONG C++ L\u00c0 GI?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u1ec6NH \u0110I\u1ec0U KI\u1ec6N L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "IF ELSE L\u00c0 GI?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c2U L\u1ec6NH IF L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 11,
+        "value": "IF",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u1ed0I L\u1ec6NH \u0110I\u1ec0U KI\u1ec6N TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00d2NG L\u1eb6P L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ V\u00d2NG L\u1eb6P \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A RA SAO?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00d2NG L\u1eb6P FOR L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "FOR LOOP L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00d2NG L\u1eb6P WHILE L\u00c0 G\u00cc V TH KIA?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "WHILE LOOP L\u00c0 NH\u01af TH\u1ebe N\u00c0O V M?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00d2NG WHILE?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DO WHILE L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 DO WHILE?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A BREAK?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A CONTINUE?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "continue",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 BREAK?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NHU NAO LA BREAK VAY BAN HIEN?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 CONTINUE?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "continue",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BREAK TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CONTINUE TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "continue",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A BREAK V\u00c0 CONTINUE L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "brea",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "value": "continue",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SWITCH STATEMENT L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 SWITCH?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SWITCH TRONG C++?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecaNH NGH\u0128A C\u1ee6A SWITCH?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GOTO L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 GOTO?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GOTO TRONG C++ L\u00c0 C\u00c1I G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GOTO STATEMENT L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA GOTO?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "FUNCTION L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c0M L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T FUNCTION TRONG C++?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecaNH NGH\u0128A H\u00c0M TRONG C++ L\u00c0 S V M?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I G\u00cc V\u1ec0 H\u00c0M T NGHE XEM",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u1eeeNG KI\u1ebeN TH\u1ee8C C\u01a0 B\u1ea2N V\u1ec0 H\u00c0M",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I T NGHE V\u1ec0 NH\u1eeeNG KI\u1ebeN TH\u1ee8C V\u1ec0 PH\u1ea6N H\u00c0M \u0110I",
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THAM S\u1ed0 L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "parameter",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ed0I S\u1ed0 L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 THAM S\u1ed0 V\u00c0 \u0110\u1ed0I S\u1ed0 TRONG C++?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "parameter",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.5575963644519413,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "PARAMETER L\u00c0 NH\u01af TH\u1ebe N\u00c0O V?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "parameter",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ARGUMENT L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecaNH NGH\u0128A PARAMETER?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "parameter",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "RETURN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A RETURN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ T\u1eea KH\u00d3A RETURN \u0110\u01af\u1ee2C D\u00d9NG \u0110\u1ec2 L\u00c0M G\u00cc V\u1eacY?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af TH\u1ebe N\u00c0O L\u00c0 RETURN?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "RETURN TRONG 1 H\u00c0M L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ec6 QUY L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 \u0110\u1ec6 QUY?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ec6 QUY \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A NTN?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "RECURSION L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 RECURSION?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 RECURSION?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DEFINITION C\u1ee6A RECURSION?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "RECURSION L\u00c0 WTF?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca RECURSION L\u00c0 G\u00cc V\u1eacY?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 11,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ea2NG L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 M\u1ea2NG?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ea2NG L\u00c0 C\u00c1I V\u1eb8O G\u00cc V?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ea2NG M\u1ed8T CHI\u1ec0U L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ea2NG HAI CHI\u1ec0U L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 ARRAY?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T ARRAY L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 ARRAY?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRING L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "STRING",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 STRING?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "STRING",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHU\u1ed6I L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT T\u00d4I H\u1eceI B\u1ea0N TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T STRING?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TOI HOI THE NAO LA MOT STRING THE ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 CHU\u1ed6I?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecaNH NGH\u0128A V\u1ec0 CHU\u1ed6I TRONG C++?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I T NGHE V\u1ec0 CHU\u1ed6I XEM",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I NH\u1eeeNG G\u00cc M BI\u1ebeT V\u1ec0 CHU\u1ed6I T NGHE XEM",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCTURE L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O M\u1ed8T STRUCTURE?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 STRUCTURE?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "K\u1ec2 T NGHE V\u1ec0 STRUCTURE COI",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I T NGHE V\u1ec0 C\u1ea4U TR\u00daC TRONG C++ \u0110I",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I V\u1ec0 STRUCT \u0110I B\u1ea0N EII",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CU PHAP STRUCT LA GI",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BI\u1ebeT G\u00cc V\u1ec0 C\u1ea4U TR\u00daC K B\u1ea0N EI",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u1ea4U TR\u00daC L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O M\u1ed8T C\u1ea4U TR\u00daC?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I H\u1eceI TH\u1ebe N\u00c0O L\u00c0 STRUCT V\u1eacY \u1ea0?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 C\u00da PH\u00c1P C\u1ee6A STRUCTURE TRONG C++?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I G\u00cc V\u1ec0 C\u1ea4U TR\u00daC XEM",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CLASS L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I V\u1ec0 CLASS \u0110I B\u1ea0N",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N N\u00d3I V\u1ec0 CLASS \u0110I",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u1edaP TRONG C++?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KHAI NIEM VE LOP TRONG C++?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CU PHAP LOP LA GI",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M N\u00d3I T NGHE V\u1ec0 L\u1edaP \u0110I",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u1edaP L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "POINTER?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T POINTER?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 POINTER?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I G\u00cc V\u1ec0 CON TR\u1ece \u0110I?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 CON TR\u1ece?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1eec N\u00d3I V\u1ec0 CON TR\u1ece XEM",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "K\u1ec2 NGHE V\u1ec0 CON TR\u1ece \u0110I",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca CON TR\u1ece L\u00c0 C\u00c1I CC G\u00cc V\u1eacY BOT?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 9,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CON TR\u1ece L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CON TR\u1ece \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A NH\u01af TH\u1ebe N\u00c0O V TH KIA?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT CON TR\u1ece L\u00c0 G\u00cc TH\u1ebe?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUMERATION L\u00c0 G\u00cc V BOT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUMERATION L\u00c0 CLGT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 ENUMERATION?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUM L\u00c0 C\u00c1I G\u00cc ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUM L\u00c0 G\u00cc TML?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUM L\u00c0 G\u00cc TH\u1ebe BOT EI?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUMS L\u00c0 QQ G\u00cc ZAY BOT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 ENUMERATOR V\u1eacY BOT NGU G\u00c0?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NTN LA KIEU LIET KE VAY A",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U LI\u1ec6T K\u00ca TRONG C++ L\u00c0 C\u00c1I G\u00cc TH\u1ebe CHATBOT ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0N LU\u1eacN S\u00d4I N\u1ed4I M\u1ed8T CH\u00daT V\u1ec0 KI\u1ec2U LI\u1ec6T K\u00ca N\u00c0O CHATBOT?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I T NGHE V\u1ec0 ENUMS \u0110I BOT",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecaNH NGH\u0128A V\u1ec0 INTEGER \u0110I",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KH\u00c1I NI\u1ec6M V\u1ec0 INTEGER?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U INT TRONG C++ L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "INT L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U S\u1ed0 NGUY\u00caN TRONG C++ V\u1eacY CHATBOT?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.7445048435356331,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "CHO T\u00d4I H\u1eceI NTN L\u00c0 M\u1ed8T S\u1ed0 NGUY\u00caN?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU SO NGUYEN LA SAO",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO EM MOT TI THONG TIN VE KIEU SO NGUYEN DI NGUOI OI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 41,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "FLOAT L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U FLOAT L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "FLOAT L\u00c0 CLGT",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 FLOAT?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU FLOAT?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U FLOATING POINTS L\u00c0 G\u00cc ?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA KIEU SO THUC V?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U D\u1ea4U CH\u1ea4M \u0110\u1ed8NG TRONG C++ L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KH\u00c1I NI\u1ec6M D\u1ea4U CH\u1ea4M \u0110\u1ed8NG???",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TUI NGHE B\u1ea2O V\u1ec0 D\u1ea4U CH\u1ea4M \u0110\u1ed8NG, N\u00d3 L\u00c0 G\u00cc V",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA KIEU DAU CHAM DONG",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "MOT KIEU DAU CHAM DONG LA GI",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU SO THUC TRONG C++ LA GI",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "FLOAT TRONG C++ LA GI",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NOI CHO TUI NGHE VE KIEU SO THUC DII",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U DOUBLE L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U DOUBLE",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U DOUBLE TRONG C++ L\u00c0 G\u00cc TH\u1ebe",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU DOUBLE LA NHU THE NAO TRONG C++ VAY",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U FLOATING POINT L\u00c0 G\u00cc V\u1eacY",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U D\u1eee LI\u1ec6U FLOATING-POINT L\u00c0 G\u00cc V\u1eacY",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "S\u1ed0 TH\u1ef0C TRONG C++ \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A TH\u1ebe N\u00c0O V M",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.5797596321912581,
+        "value": "TH\u1ef0C",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "CHAR TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U CHAR TRONG C++ L\u00c0 SAO",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U D\u1eee LI\u1ec6U CHAR L\u00c0 G\u00cc TH\u1ebe",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NG\u01af\u1edcI TA HAY VI\u1ebeT T\u1eea CHAR, N\u00d3 C\u00d3 NGH\u0128A L\u00c0 SAO V\u1eacY?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U CHARACTER TRONG C++",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U K\u00cd T\u1ef0 TRONG C++",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U K\u00cd T\u1ef0 TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U K\u00dd T\u1ef0 TRONG CPP L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 CHARACTER ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "MACRO L\u00c0 WTF",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T H\u00c0M MACRO",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af L\u00c0O L\u00c0 MACRO H\u1ea2 CON CH\u00d3 BOT",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T H\u00c0M MACRO ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TAO H\u1eceI TH\u1ebe N\u00c0O L\u00c0 MACRO FUNCTION ?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "WHAT THE FACK IS MACRO?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U WCHAR-T L\u00c0 G\u00cc",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "wchar-t",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "WHAT ABOUT WCHAR_T?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "wchar-t",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I CHO IEM 1 T\u00cd V\u1ec0 KI\u1ec2U WCHAR_T \u0110I A OIII",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "WCHAR_T",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BOOLEAN",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af N\u00c0O L\u00c0 KI\u1ec2U BOOLEAN VALUE",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU DU LIEU LUAN LY",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA KIEU LUAN LY V",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TAO BI\u1ebeT KI\u1ec2U LU\u1eacN L\u00dd L\u00c0 CC G\u00cc XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U LU\u1eacN L\u00dd TRONG C\u00c1I C++ LZ QU\u00c8 N\u00c0Y ZAY",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "EEEEEEE KI\u1ec2U BOOL L\u00c0 SHAO ZAY",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U BOOL L\u00c0 KI\u1ec2U G\u00cc TH\u1ebe?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A CONSTANT L\u00c0 SAO V M",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "WTF IS CONSTANT",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T CONSTANT TRONG C++",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u1eb0NG S\u1ed0 TRONG C++?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HANG SO TRONG C++ LA GI",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u1eb0NG S\u1ed0 TRONG C++ L\u00c0 G\u00cc N\u1eeeA V???",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TYPE MODIFER L\u00c0 WTF",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TYPE MODIFER L\u00c0 G\u00cc V EM OIII",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 to\u00e1n t\u1eed",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u s\u1ed1 nguy\u00ean v\u1eady bot?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.509209145042101,
+        "value": "ki\u1ec3u",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9767187867398163,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "h\u00e3y cho t\u00f4i bi\u1ebft v\u1ec1 to\u00e1n t\u1eed ++",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gi\u1ea3i th\u00edch c\u00e1i to\u00e1n t\u1eed ++ xem",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t hay th\u1ea5y ng\u01b0\u1eddi ta x\u00e0i c\u00e1i to\u00e1n t\u1eed ++ \u1ea5y n\u00f3 l\u00e0 g\u00ec v bot",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i g\u00ec v\u1ec1 \u0111\u1ed1i s\u1ed1 khi truy\u1ec1n v\u00e0o m\u1ed9t h\u00e0m xem th\u1eed",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9698241901750706,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 36,
+        "end": 39,
+        "confidence_entity": 0.9417124987584087,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u s\u1ed1 nguy\u00ean ki\u1ec3u s\u1ed1 th\u1ef1c v\u00e0 ki\u1ec3u double?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "integer",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 26,
+        "end": 38,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9268132119284701,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 38,
+        "confidence_entity": 0.6986683443895776,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.9888264122729276,
+        "value": "double",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Chu\u1ed7i Chu\u1ed7i Chu\u1ed7i Chu\u1ed7i l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 23,
+        "confidence_entity": 0.8018165388112725,
+        "value": "Chu\u1ed7i Chu\u1ed7i Chu\u1ed7i Chu\u1ed7i",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "If If else else l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Flowchart l\u00e0 g\u00ec ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 g\u00ec v\u1eady bot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho m\u00ecnh h\u1ecfi v\u1ec1 l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n v\u1edbi \u1ea1 !",
+    "entities": [
+      {
+        "start": 16,
+        "end": 33,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "h\u00e3y cho m\u00ecnh bi\u1ebft th\u1ebf n\u00e0o l\u00e0 Flowchart ?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kh\u00e1i ni\u1ec7m v\u1ec1 librarytrong c++?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Input/output trong c++",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "input-output",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "trong c++ Bi\u1ebfn l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 to\u00e1n t\u1eed?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do while l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.9215855410405114,
+        "value": "while",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nhu nao la BREAK vay ban hien?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "break",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Switch statement l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 SWITCH?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecbnh ngh\u0129a c\u1ee7a Switch?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nh\u1eefng ki\u1ebfn th\u1ee9c c\u01a1 b\u1ea3n v\u1ec1 H\u00c0M",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Return trong 1 h\u00e0m l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9064667171160947,
+        "value": "Return",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.5210880256283339,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u0110\u1ecbnh ngh\u0129a v\u1ec1 CHU\u1ed6I trong c++?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i nh\u1eefng g\u00ec m bi\u1ebft v\u1ec1 CHU\u1ed6I t nghe xem",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o m\u1ed9t STRUCTURE?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "k\u1ec3 t nghe v\u1ec1 STRUCTURE coi",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o m\u1ed9t C\u1ea5u Tr\u00fac?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i g\u00ec v\u1ec1 C\u1ea5u Tr\u00fac xem",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00f3i v\u1ec1 CLASS \u0111i b\u1ea1n",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea1n n\u00f3i v\u1ec1 CLASS \u0111i",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u1edbp trong c++?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 m\u1ed9t POINTER?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1eed n\u00f3i v\u1ec1 Con Tr\u1ecf xem",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ENUM l\u00e0 c\u00e1i g\u00ec ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "enums l\u00e0 qq g\u00ec zay bot?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ki\u1ec3u li\u1ec7t k\u00ea trong C++ l\u00e0 c\u00e1i g\u00ec th\u1ebf ChatBot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u00e0n lu\u1eadn s\u00f4i n\u1ed5i m\u1ed9t ch\u00fat v\u1ec1 ki\u1ec3u li\u1ec7t k\u00ea n\u00e0o ChatBot?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i t nghe v\u1ec1 Enums \u0111i bot",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ecbnh ngh\u0129a v\u1ec1 INTEGER \u0111i",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "INT l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ki\u1ec3u DOUBLE l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U K\u00fd t\u1ef1 trong CPP l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nh\u01b0 l\u00e0o l\u00e0 Macro h\u1ea3 con ch\u00f3 bot",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what the fack is MACRO?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "macro",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ki\u1ec3u WCHAR-T l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "wchar-t",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nh\u01b0 n\u00e0o l\u00e0 ki\u1ec3u Boolean value",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 29,
+        "confidence_entity": 0.5411142969414828,
+        "value": "Boolean value",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "wtf is Constant",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T BI\u1ebeN TO\u00c0N C\u1ee4C TH\u1ebe ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U AUTO L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "auto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bi\u1ebfn t\u0129nh Static l\u00e0 g\u00ec th\u1ebf",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5581727022237809,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1eeb kh\u00f3a Static khi \u0111i v\u1edbi m\u1ed9t bi\u1ebfn l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9272141886797675,
+        "value": "Static",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9891652048498503,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 M\u1ed8T VECTOR",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho h\u1ecfi REFERENCE VARIABLE?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 26,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1eea KH\u00d3A SIGNED l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "signed",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[namespace{\"entity\": \"cpplus_content\", \"value\": \"namespace\"}",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 1,
+        "end": 10,
+        "confidence_entity": 0.9344620898655035,
+        "value": "namespace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.5940269704992088,
+        "value": "namespace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "NAMESPACE TRONG C++ L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00f3i cho iem nghe v\u1ec1 to\u00e1n t\u1eed -- \u0111i a",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "decrement-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5066714821914833,
+        "value": "to\u00e1n",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "H\u00e3y cho t\u00f4i bi\u1ebft v\u1ec1 to\u00e1n t\u1eed ++",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Gi\u1ea3i th\u00edch c\u00e1i To\u00e1n t\u1eed ++ xem",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t hay th\u1ea5y ng\u01b0\u1eddi ta x\u00e0i c\u00e1i to\u00e1n t\u1eed ++ \u1ea5y, n\u00f3 l\u00e0 g\u00ec v bot",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DECREMENT OPERATOR la clgt ban hien ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "decrement-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hay noi t nghe ve DEREFERENCE OPERATOR",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "dereference-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SWITCH CASE l\u00e0 sao?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I wonder what the Inline Function really is for so long",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "inline-function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the main thing about Const Reference?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 44,
+        "value": "const-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00f3i g\u00ec v\u1ec1 \u0111\u1ed1i s\u1ed1 khi truy\u1ec1n v\u00e0o m\u1ed9t h\u00e0m xem th\u1eed",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9698242336999917,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 36,
+        "end": 39,
+        "confidence_entity": 0.941712498758506,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Th\u1eed th\u00e1ch cho m \u0111\u00e2y, show cho tao ki\u1ebfn th\u1ee9c v\u1ec1 ARGUMENT c\u1ee7a m xem",
+    "entities": [
+      {
+        "start": 47,
+        "end": 55,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c0M MAIN ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "main",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00f3i g\u00ec v\u1ec1 Return ch\u01a1i",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ea7y \u0111\u1ed3 \u01a1i, t\u1eeb RETURN m\u00e0 em ph\u1ea3o d\u00f9ng m\u1ed7i khi khai b\u00e1o h\u00e0m n\u00f3 c\u00f3 \u00fd ngh\u0129a g\u00ec v \u1ea1",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lib l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u s\u1ed1 nguy\u00ean, ki\u1ec3u s\u1ed1 th\u1ef1c v\u00e0 ki\u1ec3u double?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "integer",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "value": "double",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9268134800764783,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 39,
+        "confidence_entity": 0.6986684082279195,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.9888264122722787,
+        "value": "double",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Switch case l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u00d4I KH\u00d4NG BI\u1ebeT C\u00c1CH T\u1ea0O M\u1ed8T STRUCT TRONG C++",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 C\u00c1CH N\u00c0O \u0110\u1ec2 T\u00d4I T\u1ea0O M\u1ed8T STRUCT KH\u00d4NG",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I CHO T\u00d4I BI\u1ebeT C\u00c1CH T\u1ea0O M\u1ed8T STRUCT NH\u01af TH\u1ebe N\u00c0O KH\u00d4NG",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M SAO T\u00d4I C\u00d3 TH\u1ec2 KHAI B\u00c1O M\u1ed8T STRUCT \u0110\u01af\u1ee2C ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u00d4I KH\u00d4NG BI\u1ebeT L\u00c0M SAO \u0110\u1ec2 T\u1ea0O M\u1ed8T STRUCT",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00ccNH KH\u00d4NG BI\u1ebeT T\u1ea0O M\u1ed8T STRUCT",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1CH N\u00c0O \u0110\u1ec2 T\u1ea0O M\u1ed8T M\u1ea2NG V\u1eacY ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HOW TO DECLARE M\u1ed8T M\u1ea2NG",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M C\u00c1CH N\u00c0O \u0110\u1ec2 DECLARE M\u1ed8T M\u1ea2NG V",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M C\u00c1CH N\u00c0O KH\u1edeI T\u1ea0O M\u1ea2NG TRONG C++ V\u1eacY B\u1ea0N \u01a0I ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 C\u00c1CH N\u00c0O \u0110\u1ec2 T\u00d4I DECLARE M\u1ed8T M\u1ea2NG KH\u00d4NG",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I CHO T\u00d4I BI\u1ebeT C\u00c1CH T\u1ea0O M\u1ed8T M\u1ea2NG NH\u01af TH\u1ebe N\u00c0O KH\u00d4NG",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M SAO T\u00d4I C\u00d3 TH\u1ec2 KHAI B\u00c1O M\u1ed8T M\u1ea2NG \u0110\u01af\u1ee2C ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u00d4I KH\u00d4NG BI\u1ebeT L\u00c0M SAO \u0110\u1ec2 T\u1ea0O M\u1ed8T M\u1ea2NG",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0O M\u1ea2NG KI\u1ec2U G\u00cc V\u1eacY ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe QU\u00c1I N\u00c0O \u0110\u1ec2 T\u1ea0O RA M\u1ed8T ARRAY V?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca L\u00c0M SAO \u0110\u1ec2 T T\u1ea0O TH\u00caM 1 M\u1ed8T ARRAY \u0110\u00c2Y?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe N\u00c0O \u0110\u1ec2 T\u1ea0O RA \u0110\u01af\u1ee2C ARRAY V?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M S \u0110\u1ec2 T C\u00d3 TH\u1ec2 T\u1ea0O RA M\u1ed8T ARRAY \u0110\u00c2Y M?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M S \u0110\u1ec2 T C\u00d3 TH\u1ec2 T\u1ea0O RA M\u1ed8T ARR?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 32,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HOW TO T\u1ea0O M\u1ed8T ARR?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M C\u00c1CH N\u00c0O \u0110\u1ec2 T\u1ea0O RA M\u1ed8T C\u00c2U L\u1ec6NH IF?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GI\u1edc TAO MU\u1ed0N DECLARE M\u1ed8T C\u00c1I IF TH\u00cc PH\u1ea2I L\u00c0M S?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 31,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GI\u1edc T MU\u1ed0N T\u1ea0O RA M\u1ed8T C\u00c1I IF TH\u00cc N\u00caN L\u00c0M S \u0110\u00c2Y BOT?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 TUI C\u00c1CH VI\u1ebeT M\u1ed8T C\u00c2U IF \u0110I B\u1ea0N UI",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe QU\u00c1I N\u00c0O \u0110\u1ec2 T\u1ea0O RA M\u1ed8T C\u00c2U \u0110I\u1ec0U KI\u1ec6N B\u00c2Y GI\u1edc?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 44,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 M\u00ccNH C\u00c1CH \u0110\u1ec2 VI\u1ebeT M\u1ed8T C\u00c2U \u0110I\u1ec0U KI\u1ec6N \u0110I B\u1ea0N",
+    "entities": [
+      {
+        "start": 30,
+        "end": 39,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 M\u00ccNH C\u00c1CH VI\u1ebeT M\u1ed8T C\u00c2U \u0110I\u1ec0U KI\u1ec6N \u0110I B\u1ea0N HI\u1ec0N",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M SAO \u0110\u1ec2 DECLARE M\u1ed8T C\u00c2U \u0110I\u1ec0U KI\u1ec6N",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 M\u00ccNH C\u00c1CH T\u1ea0O RA M\u1ed8T V\u00d2NG L\u1eb6P V\u1edaI",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 TUI C\u00c1CH T\u1ea0O M\u1ed8T V\u00d2NG L\u1eb6P V\u1edaI B\u1ea0N",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M SAO \u0110\u1ec2 TUI T\u1ea0O RA M\u1ed8T V\u00d2NG L\u1eb6P \u0110\u00c2Y",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe N\u00c0O \u0110\u1ec2 TUI T\u1ea0O RA M\u1ed8T V\u00d2NG L\u1eb6P V",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 B\u1ed0 M C\u00c1CH VI\u1ebeT M\u1ed8T LOOP COI",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0Y T C\u00c1CH T\u1ea0O RA M\u1ed8T LOOP XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 IEM C\u00c1CH VI\u1ebeT M\u1ed8T LOOP \u0110I",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 IEM C\u00c1CH VI\u1ebeT M\u1ed8T LOOP V\u1edaI",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0Y IEM C\u00c1CH VI\u1ebeT T\u1ea0O RA LOOP \u0110I IANH",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M S \u0110\u1ec2 T VI\u1ebeT V\u00d2NG L\u1eb6P FOR \u0110\u00c2Y M",
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe N\u00c0O \u0110\u1ec2 T T\u1ea0O RA M\u1ed8T V\u00d2NG FOR \u0110\u00c2Y",
+    "entities": [
+      {
+        "start": 33,
+        "end": 36,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "HOW TO T\u1ea0O RA M\u1ed8T V\u00d2NG FORV M",
+    "entities": [
+      {
+        "start": 23,
+        "end": 26,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1CH T\u1ea0O RA V\u00d2NG FOR NH\u01af TH\u1ebe N\u00c0O \u0110\u00c2Y",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 B\u1ed0 M VI\u1ebeT RA M\u1ed8T V\u00d2NG FOR COI",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CH\u1ec8 B\u1ed0 M C\u00c1CH T\u1ea0O RA M\u1ed8T V\u00d2NG FOR \u0110I",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u00f4i kh\u00f4ng bi\u1ebft l\u00e0m sao \u0111\u1ec3 t\u1ea1o m\u1ed9t BI\u1ebeN",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00e0m s \u0111\u1ec3 declare 1 Variable v?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u00e0m sao t\u00f4i c\u00f3 th\u1ec3 khai b\u00e1o m\u1ed9t TH\u01af VI\u1ec6N \u0111\u01b0\u1ee3c ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i cho t\u00f4i bi\u1ebft c\u00e1ch t\u1ea1o m\u1ed9t STRUCT nh\u01b0 th\u1ebf n\u00e0o kh\u00f4ng",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u00f4i kh\u00f4ng bi\u1ebft l\u00e0m sao \u0111\u1ec3 t\u1ea1o m\u1ed9t Struct",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u00f4i kh\u00f4ng bi\u1ebft l\u00e0m sao \u0111\u1ec3 t\u1ea1o m\u1ed9t M\u1ea2NG",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 t\u1ea1o ra \u0111\u01b0\u1ee3c Array v?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u00e0m s \u0111\u1ec3 t c\u00f3 th\u1ec3 t\u1ea1o ra m\u1ed9t ARRAY \u0111\u00e2y m?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gi\u1edd tao mu\u1ed1n declare m\u1ed9t c\u00e1i If th\u00ec ph\u1ea3i l\u00e0m s?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 31,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ch\u1ec9 tui c\u00e1ch vi\u1ebft m\u1ed9t c\u00e2u IF \u0111i b\u1ea1n ui",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ch\u1ec9 b\u1ed1 m c\u00e1ch vi\u1ebft m\u1ed9t Loop coi",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u00e0y iem c\u00e1ch vi\u1ebft t\u1ea1o ra LOOP \u0111i ianh",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to t\u1ea1o ra m\u1ed9t v\u00f2ng FORv m",
+    "entities": [
+      {
+        "start": 23,
+        "end": 26,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u00e0m sao \u0111\u1ec3 s\u1eed d\u1ee5ng BREAK \u0111\u00e2y ta",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "BREAK",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c\u00e1ch d\u00f9ng h\u00e0m switch case switch case  switch case switch case",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "switch",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "switch",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "switch",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9305655362567696,
+        "value": "switch",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea0I SAO PH\u1ea2I D\u00d9NG BI\u1ebeN",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO PH\u1ea2I D\u00d9NG M\u1ea2NGM\u1ea2NG",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO T\u00d4I L\u1ea0I N\u00caN CH\u1eccN CPP \u0110\u1ec2 L\u00c0M NG\u00d4N NG\u1eee KH\u1edeI \u0110\u1ea6U VI\u1ec6C H\u1eccC L\u1eacP TR\u00ccNH",
+    "entities": [
+      {
+        "start": 24,
+        "end": 27,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO C++ L\u1ea0I L\u00c0 NG\u00d4N NG\u1eee KH\u1edeI \u0110\u1ea6U CON \u0110\u01af\u1edcNG H\u1eccC L\u1eacP TR\u00ccNH C\u1ee6A T V BOT?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, L\u00dd DO G\u00cc M\u00c0 C++ L\u1ea0I \u0110\u01af\u1ee2C \u01afU TI\u00caN \u0110\u1ec2 L\u00c0M NG\u00d4N NG\u1eee L\u1eacP TR\u00ccNH KH\u1edeI \u0110\u1ea6U TRONG GI\u1ea2NG D\u1ea0Y",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "YO BOT, V\u00cc C\u00c1I LZ G\u00cc M\u00c0 NG\u01af\u1edcI TA L\u1ea0I CH\u1eccN CPLUSPLUS \u0110\u1ec2 H\u1eccC \u0110\u1ea6U TI\u00caN TH\u1ebe?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 51,
+        "value": "CPLUSPLUS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 N\u00c8, V\u00cc L\u00dd DO G\u00cc M\u00c0 T N\u00caN H\u1eccC C PLUS PLUS TR\u01af\u1edaC?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 43,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GI\u1ea2I TH\u00cdCH CHO T V\u00cc SAO T N\u00caN \u0110\u1eb6T NI\u1ec0M TIN V\u00c0O C++ \u0110I BOT",
+    "entities": [
+      {
+        "start": 47,
+        "end": 50,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 TH\u1ec2 CHO T 1 L\u1edcI GI\u1ea2I TH\u00cdCH V\u00cc SAO L\u1ea0I PH\u1ea2I H\u1eccC C\u00c1I C++ N\u00c0Y TR\u01af\u1edaC THAY V\u00cc L\u00c0 NH\u1eeeNG NG\u00d4N NG\u1eee X\u1ecaN X\u00d2 KH\u00c1C...",
+    "entities": [
+      {
+        "start": 54,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO TML M L\u1ea0I CH\u1eccN CPP \u0110\u1ec2 D\u1ea0Y M\u00d4N NH\u1eacP M\u00d4N V ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 K\u1ec2 CHO T\u00d4I M\u1ed8T V\u00c0I L\u00dd DO V\u00cc SAO L\u1ea0I N\u00caN CH\u1eccN C++ D\u00d9NG \u0110\u1ec2 D\u1ea0Y M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH CHO \u0110\u1ea0I \u0110A S\u1ed0 C\u00c1C SINH VI\u00caN C\u00d4NG NGH\u1ec6 TH\u00d4NG TIN HI\u1ec6N NAY T\u1ea0I VI\u1ec6T NAM \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 59,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I PH\u1ea2I \u0110\u1ec2 C\u00c1I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE V?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO T L\u1ea0I PH\u1ea2I X\u00c0I C\u00c1I T\u1eea INCLUDE TH\u1ebe BOT",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO M\u1ed6I KHI VI\u1ebeT CODE L\u00c0 PH\u1ea2I C\u00d3 C\u00c1I #INCLUDE V BOT",
+    "entities": [
+      {
+        "start": 41,
+        "end": 48,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO M\u1ed6I L\u1ea6N T VI\u1ebeT CODE \u0110\u1ec0U PH\u1ea2I X\u00c0I C\u00c1I T\u1eea INCLUDE \u0110\u00d3 H\u1ebeT V M",
+    "entities": [
+      {
+        "start": 44,
+        "end": 51,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, T K HI\u1ec2U SAO M\u1ed6I L\u1ea6N VI\u1ebeT CODE L\u00c0 L\u1ea0I C\u1ee8 PH\u1ea2I TH\u00caM C\u00c1I INCLUDE NGAY TR\u00caN \u0110\u1ea6U L\u00c0M G\u00cc NH\u1ec8",
+    "entities": [
+      {
+        "start": 62,
+        "end": 69,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M, T K HI\u1ec2U, V\u00cc SAO L\u1ea0I C\u1ee8 PH\u1ea2I X\u00c0I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE C++ TH\u1ebe @@",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT, SAO T C\u1ee8 PH\u1ea2I X\u00c0I #INCLUDEM\u1ed6I KHI VI\u1ebeT C++ TH\u1ebe, KH\u00d4NG X\u00c0I TH\u00cc SAO",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T 1 L\u00dd DO V\u00cc S L\u1ea0I C\u1ee8 PH\u1ea2I X\u00c0I INCLUDEM\u1ed6I L\u1ea6N B\u1eaeT \u0110\u1ea6U M\u1ed8T PROJECT M\u1edaI DC K BOT",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca DUMA T \u0110 HI\u1ec2U G\u00cc V\u1ec0 C\u00c1I INCLUDE LU\u00d4N \u00c1, T\u1ea0I SAO T L\u1ea0I PH\u1ea2I X\u00c0I N\u00d3 V?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CLM T \u0110\u00c9O HI\u1ec2U SAO L\u1ea0I C\u1ea6N INCLUDEM\u1ed6I L\u1ea6N VI\u1ebeT CODE LU\u00d4N \u00c1 M, GI\u1ea2I TH\u00cdCH CHO T V\u1edaI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00c1 \u01a0I SAO M\u1ed6I L\u1ea6N CODE L\u00c0 L\u1ea0I PH\u1ea2I INCLUDE V, DM EXPLAIN CHO T C\u00c1I",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO MU\u1ed0N BI\u1ebeT L\u00dd DO V\u00cc SAO L\u1ea0I PH\u1ea2I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE",
+    "entities": [
+      {
+        "start": 36,
+        "end": 43,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 K\u1ec2 CHO T\u00d4I M\u1ed8T V\u00c0I L\u00dd DO V\u00cc SAO L\u1ea0I N\u00caN CH\u1eccN C++ D\u00d9NG \u0110\u1ec2 D\u1ea0Y M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH CHO \u0110\u1ea0I \u0110A S\u1ed0 C\u00c1C SINH VI\u00caN C\u00d4NG NGH\u1ec6 TH\u00d4NG TIN HI\u1ec6N NAY T\u1ea0I VI\u1ec6T NAM \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I PH\u1ea2I \u0110\u1ec2 C\u00c1I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE V?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO T L\u1ea0I PH\u1ea2I X\u00c0I C\u00c1I T\u1eea INCLUDE TH\u1ebe BOT",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO M\u1ed6I KHI VI\u1ebeT CODE L\u00c0 PH\u1ea2I C\u00d3 C\u00c1I #INCLUDE V BOT",
+    "entities": [
+      {
+        "start": 41,
+        "end": 48,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO M\u1ed6I L\u1ea6N T VI\u1ebeT CODE \u0110\u1ec0U PH\u1ea2I X\u00c0I C\u00c1I T\u1eea INCLUDE \u0110\u00d3 H\u1ebeT V M",
+    "entities": [
+      {
+        "start": 44,
+        "end": 51,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, T K HI\u1ec2U SAO M\u1ed6I L\u1ea6N VI\u1ebeT CODE L\u00c0 L\u1ea0I C\u1ee8 PH\u1ea2I TH\u00caM C\u00c1I INCLUDE NGAY TR\u00caN \u0110\u1ea6U L\u00c0M G\u00cc NH\u1ec8",
+    "entities": [
+      {
+        "start": 62,
+        "end": 69,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M, T K HI\u1ec2U, V\u00cc SAO L\u1ea0I C\u1ee8 PH\u1ea2I X\u00c0I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE C++ TH\u1ebe @@",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT, SAO T C\u1ee8 PH\u1ea2I X\u00c0I #INCLUDE M\u1ed6I KHI VI\u1ebeT C++ TH\u1ebe, KH\u00d4NG X\u00c0I TH\u00cc SAO",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "#INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T 1 L\u00dd DO V\u00cc S L\u1ea0I C\u1ee8 PH\u1ea2I X\u00c0I INCLUDE M\u1ed6I L\u1ea6N B\u1eaeT \u0110\u1ea6U M\u1ed8T PROJECT M\u1edaI DC K BOT",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca DUMA T \u0110 HI\u1ec2U G\u00cc V\u1ec0 C\u00c1I INCLUDE LU\u00d4N \u00c1, T\u1ea0I SAO T L\u1ea0I PH\u1ea2I X\u00c0I N\u00d3 V?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CLM T \u0110\u00c9O HI\u1ec2U SAO L\u1ea0I C\u1ea6N INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE LU\u00d4N \u00c1 M, GI\u1ea2I TH\u00cdCH CHO T V\u1edaI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00c1 \u01a0I SAO M\u1ed6I L\u1ea6N CODE L\u00c0 L\u1ea0I PH\u1ea2I INCLUDE V, DM EXPLAIN CHO T C\u00c1I",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO MU\u1ed0N BI\u1ebeT L\u00dd DO V\u00cc SAO L\u1ea0I PH\u1ea2I INCLUDE M\u1ed6I L\u1ea6N VI\u1ebeT CODE",
+    "entities": [
+      {
+        "start": 36,
+        "end": 43,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I H\u1eceI L\u00dd DO V\u00cc SAO TA L\u1ea0I C\u1ea6N X\u00c0I SYNTAX #INCLUDE M\u1ed6I KHI VI\u1ebeT CODE C \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 55,
+        "value": "INCLUDE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I PH\u1ea2I D\u00d9NG TH\u01af VI\u1ec6N KHI VI\u1ebeT CODE \u1ea0",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO M\u1ed6I L\u1ea6N VI\u1ebeT CODE L\u00c0 PH\u1ea2I KHAI B\u00c1O TH\u01af VI\u1ec6N TH\u1ebe BOT",
+    "entities": [
+      {
+        "start": 42,
+        "end": 50,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO TAO PH\u1ea2I S\u1eec D\u1ee4NG LIBRARY M\u1ed6I L\u1ea6N VI\u1ebeT CODE TH\u1ebe",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TRONG C++ \u1ea4Y, N\u00d3 B\u1eaeT M\u00ccNH PH\u1ea2I X\u00c0I M\u1ea4Y C\u00c1I LIBS L\u00c0 V\u00cc SAO V M?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 47,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO B\u1ed0 M L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG LIBS V",
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LIBRARY L\u00c0 C\u00c1I CC G\u00cc M\u00c0 T\u1ea0I S T L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG N\u00d3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca DM T K BI\u1ebeT V\u00cc SAO T L\u1ea0I PH\u1ea2I C\u1ee8 S\u1eec D\u1ee4NG C\u00c1I USING NAMESPACE LU\u00d4N \u00c1 M, GI\u1ea2I TH\u00cdCH CHO T NGHE DC K",
+    "entities": [
+      {
+        "start": 53,
+        "end": 62,
+        "value": "NAMESPACE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 M, V\u00cc S M\u1ed6I L\u1ea6N VI\u1ebeT CODE C++, T L\u1ea0I PH\u1ea2I GHI C\u00c1I D\u00d2NG USING NAMESPACE CHI CHO C\u1ef0C V?",
+    "entities": [
+      {
+        "start": 64,
+        "end": 73,
+        "value": "NAMESPACE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca DUMA T\u00cdNH RA TAO KH\u00d4NG HI\u1ec2U V\u00cc SAO M\u1ed6I L\u1ea6N VI\u1ebeT CODE C++ L\u00c0 C\u1ee8 PH\u1ea2I X\u00c0I C\u00c1I D\u00d2NG USING NAMESPACE SAU KHI VI\u1ebeT INCLUDE LU\u00d4N \u00c1",
+    "entities": [
+      {
+        "start": 89,
+        "end": 98,
+        "value": "NAMESPACE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M, V\u00cc SAO L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG NAMEPSACE CHI",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO TRONG C++ L\u1ea0I C\u00d3 TH\u00caM KH\u00c1I NI\u1ec6M NAMESPACE \u0110\u1ec2 L\u00c0M G\u00cc TH\u1ebe M",
+    "entities": [
+      {
+        "start": 39,
+        "end": 48,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, TAO \u0110\u1eccC TR\u00caN M\u1ea0NG TH\u00cc TRONG C++ N\u00d3 C\u00d3 M\u1ed8T C\u00c1I KH\u00c1I NI\u1ec6M L\u00c0 KH\u00d4NG GIAN T\u00caN \u1ea4Y, V\u00cc SAO L\u1ea0I PH\u1ea2I C\u1ea6N N\u00d3 V M?",
+    "entities": [
+      {
+        "start": 66,
+        "end": 80,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 N\u00c8 N\u00c8, T\u1ea0I SAO M\u00ccNH L\u1ea0I PH\u1ea2I D\u00d9NG KH\u00d4NG GIAN T\u00caN KHI VI\u1ebeT CODE C++ V\u1eacY B\u1ea0N HA?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 51,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG KH\u00d4NG GIAN T\u00caN?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 38,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M, H\u1eceI NGU T\u00cd, SAO M\u00ccNH L\u1ea0I PH\u1ea2I X\u00c0I BI\u1ebeN KHI L\u1eacP TR\u00ccNH V\u1eacY?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 43,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, TAO H\u1eceI N\u00c0Y N\u00c8, T\u1ea0I SAO M\u00ccNH L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG VARIABLE KHI VI\u1ebeT CODE?",
+    "entities": [
+      {
+        "start": 53,
+        "end": 61,
+        "value": "VARIABLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u1ea6N C\u00d3 VARIABLE KHI L\u1eacP TR\u00ccNH?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M\u00c0Y, T\u1ea0I SAO L\u1ea0I C\u1ea6N C\u00d3 BI\u1ebeN KHI L\u1eacP TR\u00ccNH?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 30,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u00d3 T\u1eea KH\u00d3A UNSIGNED TH\u1ebe M?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "UNSIGNED",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca DUMA BOT \u01a0I, N\u00c3Y M\u00d2 M\u00d2 TR\u00caN GOOGLE TAO M\u1edaI PH\u00c1T HI\u1ec6N RA L\u00c0 M\u1ed6I L\u1ea6N KHAI B\u00c1O BI\u1ebeN INT M\u00ccNH C\u0168NG C\u00d3 TH\u1ec2 GHI TH\u00caM CH\u1eee UNSIGNED V\u00c0O N\u1eeeA \u0110\u00d3 M, V\u00cc SAO NG\u01af\u1edcI TA TH\u00caM T\u1eea \u0110\u00d3 V\u00c0O TH\u1ebe BOT?",
+    "entities": [
+      {
+        "start": 117,
+        "end": 125,
+        "value": "UNSIGNED",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M\u00c0I, V\u00cc S NG\u01af\u1edcI TA L\u1ea0I X\u00c0I TH\u00caM C\u00c1I T\u1eea SIGNED M\u1ed6I L\u1ea6N KHAI B\u00c1O BI\u1ebeN TH\u1ebe ???",
+    "entities": [
+      {
+        "start": 41,
+        "end": 47,
+        "value": "SIGNED",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca T\u00cdNH RA TAO TH\u1ea4Y NG\u01af\u1edcI TA R\u1ea2NH LZ L\u1eaeM LU\u00d4N \u00c1 BOT, T\u1ef0 NHI\u00caN GHI TH\u00caM C\u00c1I T\u1eea SIGNED KHI KHAI B\u00c1O CHI Z\u1eaaY?",
+    "entities": [
+      {
+        "start": 77,
+        "end": 83,
+        "value": "SIGNED",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I X\u00c0I SHORT V BOT LZ QU\u00c8",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "SHORT",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "YO WTF, SAO L\u1ea0I PH\u1ea2I X\u00c0I LONG N\u1eeeA ZAY",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "LONG",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, T\u1ea0I SAO T\u00d4I L\u1ea0I PH\u1ea2I D\u00d9NG TYPE MODIFER KHI VI\u1ebeT CODE TH\u1ebe?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 45,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, SAO NG\u01af\u1edcI TA KHUY\u00caN L\u00c0 N\u1ebeU MU\u1ed0N VI\u1ebeT CODE HAY TH\u00cc PH\u1ea2I D\u00d9NG TYPE MODIFIER CHO T\u1ed0T ZAY?",
+    "entities": [
+      {
+        "start": 67,
+        "end": 80,
+        "value": "TYPE MODIFIER",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca TH\u1eb0NG L\u1ed2N BOT, SAO B\u1ed0 M\u00c0Y C\u1ea6N PH\u1ea2I X\u00c0I TYPE MODIFIERS?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 55,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 M\u1ed8T L\u00dd DO H\u1ee2P L\u00dd N\u00c0O \u0110\u1ec2 THUY\u1ebeT PH\u1ee4C TAO X\u00c0I TYPE MODIFIERS M\u1ed6I L\u1ea6N VI\u1ebeT CODE C++ KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 61,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca M\u00c0Y, T\u1ea0I SAO L\u1ea0I N\u00caN D\u00d9NG H\u1eb0NG S\u1ed0?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO C\u1ea6N D\u00d9NG H\u1eb0NG S\u1ed0?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T L\u00dd DO V\u00cc SAO N\u00caN D\u00d9NG CONST KHI KHAI B\u00c1O BI\u1ebeN?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I C\u00d3 TH\u00caM T\u1eea KH\u00d3A CONST KHI KHAI B\u00c1O BI\u1ebeN TH\u1ebe BOT ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I N\u00caN D\u00d9NG CONST KHI VI\u1ebeT CODE TH\u1ebe BOT",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO \u0110\u1eccC CODE C\u1ee6A NG\u01af\u1edcI TA TH\u1ea4Y C\u00d3 BI\u1ebeN C\u00d3 CH\u1ee8A TH\u00caM T\u1eea CONST L\u00c0 V\u00cc SAO V\u1eacY M\u00c0Y?",
+    "entities": [
+      {
+        "start": 55,
+        "end": 60,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO TAO TH\u1ea4Y NG\u01af\u1edcI TA L\u00daC \u0110\u1ecaNH NGH\u0128A H\u00c0M C\u00d3 X\u00c0I C\u00c1I T\u1eea CONST GHI TR\u01af\u1edaC THAM S\u1ed0, \u0110\u00d3 L\u00c0 SAO TH\u1ebe M\u00c0Y?",
+    "entities": [
+      {
+        "start": 59,
+        "end": 64,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I N\u00caN X\u00c0I H\u00c0M MACRO",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "MACRO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO \u0110\u1eccC S\u00c1CH TH\u1ea4Y NG\u01af\u1edcI TA B\u1ea2O N\u00caN X\u00c0I H\u00c0M MACRO, V\u00cc SAO TH\u1ebe?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 48,
+        "value": "MACRO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 M\u00c0Y, C\u00d3 TH\u1ec2 N\u00c0O N\u00d3I CHO TAO BI\u1ebeT L\u00dd DO V\u00cc SAO L\u1ea0I N\u00caN X\u00c0I MACRO KH\u00d4NG ?",
+    "entities": [
+      {
+        "start": 61,
+        "end": 66,
+        "value": "MACRO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I S\u1eec D\u1ee4NG KI\u1ec2U WCHAR_T?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "WCHAR_T",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u1ee4 M\u1eb8 SAO GI\u1edc C\u00d2N C\u00d3 TH\u00caM KI\u1ec2U WCHAR_T V\u1eacY BOT, SAO NGTA X\u00c0I N\u00d3 CHI Z\u1ea8Y?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "WCHAR_T",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO TAO M\u1ed8T L\u00dd DO V\u00cc SAO L\u1ea0I X\u00c0I TH\u00caM KI\u1ec2U WCHAR_T \u0110\u01af\u1ee2C KH\u00d4NG BOT NGU \u00d3C C\u1eb6C?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 50,
+        "value": "WCHAR_T",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO C\u1ea6N X\u00c0I ARRAY",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO L\u1ea0I C\u00d3 KH\u00c1I NI\u1ec6M ARRAY?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc G\u00cc M\u00c0 C\u1ea6N PH\u1ea2I X\u00c0I M\u1ea2NG M\u1ed8T CHI\u1ec0U?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ea2NG M\u1ed8T CHI\u1ec0U, V\u00cc SAO D\u00d9NG?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ARRAYS, V\u00cc SAO D\u00d9NG N\u00d3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u00c9O HI\u1ec2U SAO M\u00c0 NG\u01af\u1edcI TA L\u1ea0I SINH RA KI\u1ec2U D\u1eee LI\u1ec6U ARRAY L\u00c0M G\u00cc V\u1eacY BOT?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 55,
+        "value": "ARRAY",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I D\u00d9NG STRUCT",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCTURE, V\u00cc SAO D\u00d9NG?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "STRUCTURE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCT, V\u00cc SAO L\u1ea0I D\u00d9NG N\u00d3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCT, L\u00dd DO G\u00cc C\u00d3 N\u00d3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCT, NGUY\u00caN C\u01a0 N\u00c0O M\u00c0 PH\u1ea2I C\u00d3 N\u00d3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u1ea6N BI\u1ebeT V\u1ec0 CLASS TRONG C++?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I C\u1ea6N H\u1eccC V\u1ec0 KH\u00c1I NI\u1ec6M L\u1edaP \u0110\u1ed0I T\u01af\u1ee2NG TRONG C++",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO C\u00d3 BI\u1ebeT QUA V\u1ec0 OOP, TRONG \u0110\u00d3 C\u00d3 KH\u00c1I NI\u1ec6M CLASS TAO TH\u1ea4Y N\u00d3 KH\u00c1 GI\u1ed0NG V\u1edaI STRUCT, V\u00cc SAO L\u1ea0I D\u00d9NG N\u00d3 V\u1eacY BOT?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 51,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 M\u1ed8T KH\u00c1I NI\u1ec6M KH\u00c1 GI\u1ed0NG V\u1edaI STRUCT \u0110\u00d3 L\u00c0 CLASS, V\u00cc SAO L\u1ea0I C\u00d3 N\u00d3 V\u1eacY M?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 49,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CLASS L\u00c0 LZ QU\u00c8 G\u00cc V\u00c0 V\u00cc SAO M\u00ccNH L\u1ea0I PH\u1ea2I C\u1ea6N H\u1eccC V\u1ec0 N\u00d3 V?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "WHY TAO PH\u1ea2I H\u1eccC V\u1ec0 CLASS TH\u1ebe?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TELL ME WHY, T\u1ea0I SAO TUI C\u1ea6N PH\u1ea2I H\u1eccC C\u00c1I CLASS CH\u1ebeT TI\u1ec6T \u0110\u00d3 V\u1eacY",
+    "entities": [
+      {
+        "start": 42,
+        "end": 47,
+        "value": "CLASS",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110UM\u1eb8 T\u1ea0I SAO L\u1ea0I PH\u1ea2I H\u1eccC V\u1ec0 POINTER",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "POINTER",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u1ea6N BI\u1ebeT V\u1ec0 CON TR\u1ece?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO TAO L\u1ea0I H\u1eccC V\u1ec0 CON TR\u1ece?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CON TR\u1ece, V\u00cc SAO H\u1eccC?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "POINTER, V\u00cc SAO C\u1ea6N BI\u1ebeT?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "POINTER",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U ENUM C\u00d3 CC G\u00cc M\u00c0 TAO C\u1ea6N PH\u1ea2I H\u1eccC V\u1ec0 N\u00d3?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GI\u1ea2I TH\u00cdCH SAO L\u1ea0I C\u00d3 KI\u1ec2U ENUM COI BOT",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "enumeration",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U S\u1ed0 TH\u1ef0C, SAO L\u1ea0I PH\u1ea2I H\u1eccC N\u00d3?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U FLOAT SAO L\u1ea0I H\u1eccC N\u00d3",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO T\u00d4I L\u00dd DO V\u00cc SAO L\u1ea0I C\u00d3 KI\u1ec2U FLOAT \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO C\u00d3 KI\u1ec2U FLOAT R\u1ed2I M\u00c0 L\u1ea0I C\u00d3 TH\u00caM KI\u1ec2U DOUBLE CHI V\u1eacY M\u00c0Y?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 48,
+        "value": "DOUBLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO B\u00ccNH TH\u01af\u1edcNG C\u00d3 KI\u1ec2U FLOAT R\u1ed2I, GI\u1edc L\u1ea0I C\u00d3 TH\u00caM KI\u1ec2U DOUBLE V\u1edaI C\u00d9NG CH\u1ee8C N\u0102NG BI\u1ec2U \u0110\u1ea0T \u0110\u1ec2 CHI V\u1eacY?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 66,
+        "value": "DOUBLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I X\u00c0I KI\u1ec2U DOUBLE?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "DOUBLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I X\u00c0I KI\u1ec2U DOUBLE",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "DOUBLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U D\u1eee LI\u1ec6U DOUBLE, V\u00cc SAO L\u1ea0I X\u00c0I?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "DOUBLE",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U CHAR, V\u00cc SAO D\u00d9NG?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO TAO N\u00caN D\u00d9NG KI\u1ec2U CHAR TH\u1ebe ?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u00d3 KI\u1ec2U K\u00cd T\u1ef0 V BOT NGU \u00d3C C\u1ee8T?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U CHARACTER, V\u00cc SAO H\u1eccC?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "CHARACTER",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u00d3 TH\u00caM KI\u1ec2U STRING TRONG KHI \u0110\u00c3 C\u00d3 M\u1ea2NG K\u00cd T\u1ef0 R\u1ed2I?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "STRING",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I N\u00caN D\u00d9NG KI\u1ec2U STRING THAY V\u00cc D\u00d9NG M\u1ed8T M\u1ea2NG C\u00c1C K\u00cd T\u1ef0?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "STRING",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO N\u00caN H\u1eccC KI\u1ec2U CHU\u1ed6I?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO GI\u1edc C\u00d2N C\u00d3 TH\u00caM KH\u00c1I NI\u1ec6M UNION V?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 39,
+        "value": "UNION",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I C\u00d3 KH\u00c1I NI\u1ec6M LOCAL VARIABLE",
+    "entities": [
+      {
+        "start": 24,
+        "end": 38,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO L\u1ea0I C\u00d3 TH\u00caM N\u1ed8I DUNG V\u1ec0 LOCAL VARIABLE N\u1eeeA V LZ",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u00d3 KH\u00c1I NI\u1ec6M V\u1ec0 BI\u1ebeN C\u1ee4C B\u1ed8 V\u1eacY M, KH\u00c1I NI\u1ec6M V\u1ec0 BI\u1ebeN CH\u01afA \u0110\u1ee6 H\u1ea2?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 39,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO L\u1ea0I C\u00d3 DEF V\u1ec0 BI\u1ebeN C\u1ee4C B\u1ed8 TH\u1ebe",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BI\u1ebeN C\u1ee4C B\u1ed8, V\u00cc SAO H\u1eccC?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I H\u1eccC BI\u1ebeN TO\u00c0N C\u1ee4C",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GLOBAL VARIABLE, V\u00cc SAO H\u1eccC???",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I SINH RA KH\u00c1I NI\u1ec6M GLOBAL VARIABLE TH\u1ebe M\u00c0Y?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 44,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO NG\u01af\u1edcI TA L\u1ea0I PH\u00c1T MINH TH\u00caM KH\u00c1I NI\u1ec6M V\u1ec0 BI\u1ebeN TO\u00c0N C\u1ee4C TH\u1ebe?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 58,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO C\u00d3 TH\u00caM KI\u1ec2U AUTO CHI V?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "AUTO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO L\u00caN C++ 11 NG\u01af\u1edcI TA C\u00d3 TH\u00caM KI\u1ec2U D\u1eee LI\u1ec6U AUTO CHI V\u1eacY BOT?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 49,
+        "value": "AUTO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u1ede B\u1ea2N C++11, SAO NG\u01af\u1edcI TA L\u1ea0I C\u00d3 TH\u00caM KI\u1ec2U D\u1eee LI\u1ec6U AUTO V BOT NGU?",
+    "entities": [
+      {
+        "start": 51,
+        "end": 55,
+        "value": "AUTO",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "D\u00d9NG BI\u1ebeN T\u0128NH CHI V M",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SAO L\u1ea0I C\u00d3 TH\u00caM BI\u1ebeN STATIC \u0110\u1ec2 L\u00c0M CHI R\u1ee8A?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "STATIC",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao t n\u00ean ch\u1ecdn c \u0111\u1ec3 h\u1ecdc l\u1eadp tr\u00ecnh?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 20,
+        "confidence_entity": 0.9557350865640992,
+        "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao c++ l\u1ea1i l\u00e0 ng\u00f4n ng\u1eef kh\u1edfi \u0111\u1ea7u con \u0111\u01b0\u1eddng h\u1ecdc l\u1eadp tr\u00ecnh c\u1ee7a t v bot?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.6442113045068247,
+        "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao m\u1ed7i khi vi\u1ebft code l\u00e0 ph\u1ea3i c\u00f3 c\u00e1i #include v bot",
+    "entities": [
+      {
+        "start": 41,
+        "end": 48,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho t\u00f4i h\u1ecfi l\u00fd do v\u00ec sao ta l\u1ea1i c\u1ea7n x\u00e0i syntax #include m\u1ed7i khi vi\u1ebft code C \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 55,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea1i sao l\u1ea1i c\u00f3 ki\u1ec3u k\u00ed t\u1ef1 v bot ngu \u00f3c c\u1ee9t?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.8887459802516154,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i n\u00ean d\u00f9ng vector h\u01a1n l\u00e0 m\u1ea3ng?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.959057128423422,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.8451421353241007,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao ng\u01b0\u1eddi ta khuy\u00ean n\u00ean d\u00f9ng vector h\u01a1n l\u00e0 d\u00f9ng array?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.959047204100722,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 51,
+        "end": 56,
+        "confidence_entity": 0.7705881384884795,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao l\u1ea1i n\u00ean h\u1ecdc th\u01b0 vi\u1ec7n vector v? x\u00e0i array l\u00e0 \u1ed5n r\u1ed3i m\u00e0?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.8798267155820699,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9625548731027731,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i c\u1ea7n c\u00e1c ki\u1ec3u d\u1eef li\u1ec7u nh\u01b0 ki\u1ec3u int ki\u1ec3u float v bot",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.5841244168117957,
+        "value": "data-type",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.7725841349084602,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 50,
+        "end": 55,
+        "confidence_entity": 0.9371493107220547,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao khai b\u00e1o th\u01b0 vi\u1ec7nh\u01b0 vi\u1eb9n vi\u1eb9n",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea1i sao ph\u1ea3i d\u00f9ng m\u1ea3ngm\u1ea3ng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u1ee6a x\u00e0i COMMENT chi?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00ec sao m\u1ed7i khi vi\u1ebft code l\u00e0 ph\u1ea3i c\u00f3 c\u00e1i #include v bot",
+    "entities": [
+      {
+        "start": 41,
+        "end": 48,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00e8 bot, sao t c\u1ee9 ph\u1ea3i x\u00e0i #includem\u1ed7i khi vi\u1ebft c++ th\u1ebf, kh\u00f4ng x\u00e0i th\u00ec sao",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho t 1 l\u00fd do v\u00ec s l\u1ea1i c\u1ee9 ph\u1ea3i x\u00e0i includem\u1ed7i l\u1ea7n b\u1eaft \u0111\u1ea7u m\u1ed9t project m\u1edbi dc k bot",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Clm t \u0111\u00e9o hi\u1ec3u sao l\u1ea1i c\u1ea7n Includem\u1ed7i l\u1ea7n vi\u1ebft code lu\u00f4n \u00e1 m, gi\u1ea3i th\u00edch cho t v\u1edbi",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00e1 \u01a1i sao m\u1ed7i l\u1ea7n code l\u00e0 l\u1ea1i ph\u1ea3i INCLUDE v, dm explain cho t c\u00e1i",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "v\u00ec sao trong c++ l\u1ea1i c\u00f3 th\u00eam kh\u00e1i ni\u1ec7m NAMESPACE \u0111\u1ec3 l\u00e0m g\u00ec th\u1ebf m",
+    "entities": [
+      {
+        "start": 39,
+        "end": 48,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Structure, v\u00ec sao d\u00f9ng?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Struct, nguy\u00ean c\u01a1 n\u00e0o m\u00e0 ph\u1ea3i c\u00f3 n\u00f3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00ec sao l\u1ea1i c\u1ea7n h\u1ecdc v\u1ec1 kh\u00e1i ni\u1ec7m L\u1edbp \u0111\u1ed1i t\u01b0\u1ee3ng trong c++",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "why tao ph\u1ea3i h\u1ecdc v\u1ec1 Class th\u1ebf?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "Class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sao tao ph\u1ea3i ng\u1ed3i h\u1ecdc [To\u00e1n t\u1eed ba ng\u00f4i]- t\u1ea1i sao l\u1ea1i ph\u1ea3i h\u1ecdc ternary operator v, nh\u00ecn ph\u1ee9c t\u1ea1p v\u00e3i loz",
+    "entities": [
+      {
+        "start": 62,
+        "end": 78,
+        "value": "ternary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.6455781486461578,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 62,
+        "end": 78,
+        "confidence_entity": 0.9883938385235047,
+        "value": "ternary-operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i c\u1ea7n c\u00e1c ki\u1ec3u d\u1eef li\u1ec7u nh\u01b0 ki\u1ec3u int, ki\u1ec3u float v bot",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.5841244168117957,
+        "value": "data-type",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.7725841349084602,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 51,
+        "end": 56,
+        "confidence_entity": 0.9371493107220547,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "TAO MU\u1ed0N \u00d4N T\u1eacP V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO MU\u1ed0N \u0110\u01af\u1ee2C \u00d4N B\u00c0I V\u1ec0 CON TR\u1ece",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO MU\u1ed0N \u00d4N T\u1eacP C\u00c1C KI\u1ebeN TH\u1ee8C V\u1ec0 TO\u00c1N T\u1eec",
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TUI C\u1ea6N \u00d4N T\u1eacP V\u1ec0 TO\u00c1N T\u1eec",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ed0 M C\u1ea6N LUY\u1ec6N H\u00c0M",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO C\u1ea6N LUY\u1ec6N 1 S\u1ed0 SKILL V\u1ec0 POINTER",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LUY\u1ec6N T\u1eacP V\u1ec0 V\u00d2NG L\u1eb6P",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LUY\u1ec6N IF",
+    "entities": [
+      {
+        "start": 6,
+        "end": 8,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LUY\u1ec6N T\u1eacP FOR",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I T\u1eacP V\u1ec0 FOR",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I T\u1eacP V\u1ec0 WHILE",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I TO\u00c1N V\u1ec0 LOOP",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHO C\u00c1C B\u00c0I T\u1eacP V\u1ec0 C\u1ea4U TR\u00daC \u0110I\u1ec0U KHI\u1ec2N",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0110\u01afA B\u1ed0 M C\u00c1C B\u00c0I V\u1ec0 SWITCH \u0110\u00c2Y M",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "switch",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO C\u1ea6N C\u00c1C B\u00c0I T\u1eacP V\u1ec0 IF ELSE",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LUY\u1ec6N T\u1eacP V\u1ec0 BI\u1ebeN",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I GI\u00daP N\u00c2NG CAO TR\u00ccNH V\u1ec0 BI\u1ebeN",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0I TO\u00c1N V\u1ec0 BI\u1ebeN",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0I T\u1eacP D\u00d9NG TO\u00c1N T\u1eec 3 NG\u00d4I",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "ternary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0I T\u1eacP V\u1ec0 TO\u00c1N T\u1eec 2 NG\u00d4I",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "binary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I TO\u00c1N V\u1ec0 TO\u00c1N T\u1eec  N\u00d3I CHUNG",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 B\u00c0I \u00d4N T\u1eacP V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u00c0I T\u1eacP V\u1ec0 H\u00c0M",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 C\u00c1C B\u00c0I T\u1eacP V\u1ec0 H\u00c0M KO",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tao mu\u1ed1n \u00f4n t\u1eadp c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 to\u00e1n t\u1eed",
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tui c\u1ea7n \u00f4n t\u1eadp v\u1ec1 to\u00e1n t\u1eed",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u1ed1 m c\u1ea7n luy\u1ec7n h\u00e0m",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Luy\u1ec7n if",
+    "entities": [
+      {
+        "start": 6,
+        "end": 8,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "luy\u1ec7n t\u1eadp for",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c\u00e1c b\u00e0i to\u00e1n v\u1ec1 loop",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho c\u00e1c b\u00e0i t\u1eadp v\u1ec1 c\u1ea5u tr\u00fac \u0111i\u1ec1u khi\u1ec3n",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.6955970970719026,
+        "value": "structure",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "b\u00e0i t\u1eadp d\u00f9ng to\u00e1n t\u1eed 3 ng\u00f4i",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "ternary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u00e0i t\u1eadp v\u1ec1 to\u00e1n t\u1eed 2 ng\u00f4i",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "binary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c\u00e1c b\u00e0i to\u00e1n v\u1ec1 to\u00e1n t\u1eed  n\u00f3i chung",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u1ea1n c\u00f3 c\u00e1c b\u00e0i t\u1eadp v\u1ec1 h\u00e0m ko",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u00e0i to\u00e1n v\u1ec1 Bi\u1ebfn",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u1ea1n c\u00f3 c\u00e1c b\u00e0i t\u1eadp v\u1ec1 H\u00c0M ko",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed9t s\u1ed1 c\u00e1c c\u00e1i b\u00e0i t\u1eadp gi\u00fap n\u00e2ng cao nh\u1eadn th\u1ee9c v\u1ec1 \u0110\u1ec7 quy",
+    "entities": [
+      {
+        "start": 50,
+        "end": 56,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tao k c\u00f3 c\u1ea7n h\u1ecfi v\u1ec1 bi\u1ebfn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5811541595880937,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u00f4i \u0111ang kh\u00f4ng h\u1ecfi v\u1ec1 ki\u1ec3u d\u1eef li\u1ec7u",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.5850646356134163,
+        "value": "data-type",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "B\u1ea3n th\u00e2n t\u00f4i \u0111ang kh\u00f4ng c\u00f3 \u00fd \u0111\u1ecbnh h\u1ecfi v\u1ec1 operator",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.8582387600534592,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "N\u00e8 nha t no h\u1ecfi g\u00ec v\u1ec1 c\u00e2u \u0111i\u1ec1u ki\u1ec7n lu\u00f4n \u00e1",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9223295628032083,
+        "value": "if",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u00f4i kh\u00f4ng mu\u1ed1n h\u1ecfi v\u1ec1 tham chi\u1ebfu tham tr\u1ecb",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.972865381394503,
+        "value": "pass-by-reference",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.9723052613074062,
+        "value": "pass-by-value",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I really don't likely to ask you about recursion",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.9676612824322809,
+        "value": "recursion",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "t\u00f4i ko mu\u1ed1n h\u1ecfi v\u1ec1 v\u00f2ng l\u1eb7p",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.5962232884215157,
+        "value": "loop",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "To\u00e1n t\u1eed ba ng\u00f4i, tao kh\u00f4ng mu\u1ed1n h\u1ecfi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.5350021280873715,
+        "value": "To\u00e1n t\u1eed ba",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "c\u00e1ch gi\u1ea3i b\u00e0i 1",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "1",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00e1ch gi\u1ea3i b\u00e0i 1",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "1",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
