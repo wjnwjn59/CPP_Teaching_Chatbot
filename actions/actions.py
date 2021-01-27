@@ -176,7 +176,7 @@ class FlowChartPractice(Action):
         }
         quest_num = tracker.get_slot("flowchart_quest_num")
         flowchart_question_answer = " "
-
+        print(quest_num)
 
         response = requests.get('https://api.giphy.com/v1/gifs/search?q=sorry&api_key=L8F3EHEDIRlvniQyJju5iYsPzX6PN94c&limit=100').json()
 
@@ -229,7 +229,8 @@ class AnswerCppDefineQuestion(Action):
         cpp_content = tracker.get_slot("cpplus_content")
 
         curr_intent = tracker.latest_message['intent'].get('name')
-
+        print("Entity extracted: ", cpp_content)
+        
         # Dict for answers what
 
         all_answers_what = {
@@ -260,7 +261,7 @@ class AnswerCppDefineQuestion(Action):
             'macro': '''Macro trong C++ là một trong các chỉ thị trong bộ tiền xử lý (Preprocessing), dùng để đặt lại tên của một chức năng, khối lệnh, giá trị,... theo ý của mình.
             _ Cú pháp: #define <new_name> <a syntax, code block,...> 
             _ Mình cũng có ví dụ như sau, giả sử mình muốn định nghĩa giá trị 3.14 có tên gọi là PI, mình có thể sử dụng macro như sau: #define PI 3.14''',
-            'wchar_t': 'wchar_t trong C++ là một kiểu dữ liệu wide character. Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
+            'wchar-t': 'wchar-t trong C++ là một kiểu dữ liệu wide character. Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
             'boolean': 'Boolean hay bool (Tạm dịch: Kiểu luận lý) trong C++ là một kiểu dữ liệu đại số luận lý chỉ gồm có hai giá trị là 0 (false) và 1 (true).',
             'data-type': 'Data type (Tạm dịch: Kiểu dữ liệu) trong C++ là một hệ thống dùng để phân biệt sự khác nhau về lượng tài nguyên chiếm trong bộ nhớ và cách diễn giải mẫu bit của các biến hoặc các hàm.',
             '2d-array':'''Two dimensional array (Tạm dịch: Mảng hai chiều) là một cấu trúc dữ liệu có dạng là một bảng các số - tức là một ma trận (tìm hiểu thêm về Đại số tuyến tính để hiểu rõ hơn nhé) bao gồm n hàng và n cột.
@@ -436,7 +437,7 @@ class AnswerCppDefineQuestion(Action):
             'type-modififer': 'Làm thay đổi các tính chất mặc định của chúng như miền giá trị,... Trong C++ gồm có 4 modifers đó là: unsigned, signed, short và long.',
             'constant': 'Constant hay const (Tạm dịch: Hằng số) trong C++ là một từ khóa dùng để chỉ định một biến hay một đối tượng (trong OOP) là một hằng - tức không thể làm thay đổi giá trị của nó kể từ sau khi khai báo từ khóa const.',
             'macro': 'Dùng để đặt lại tên của một chức năng, khối lệnh, giá trị,... theo ý của mình. Mình cũng có ví dụ như sau, giả sử mình muốn định nghĩa giá trị 3.14 có tên gọi là PI, mình có thể sử dụng macro như sau: #define PI 3.14',
-            'wchar_t': 'Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
+            'wchar-t': 'Wide character khá giống với kiểu char ngoại trừ việc nó chiếm gấp đôi bộ nhớ và có thể một giá trị lớn hơn kiểu char (> 256)',
             'array': 'Cấu trúc dữ liệu Mảng sẽ giúp bạn lưu trữ danh sách các phần tử. Mình ví dụ như bạn sẽ cần lưu danh sách các sinh viên. Danh sách này sẽ được tổ chức sao cho bạn có thể truy xuất ngẫu nhiên nhanh chóng đến từng phần tử con. Chẳng hạn bạn muốn lấy thông tin sinh viên ở vị trí thứ 10.\n Pùm! Có ngay!.\n Danh sách này có thể được sắp xếp lại trật tự theo một tiêu chí nào đó, do đó bạn có thể nhanh chóng đọc ra top 10 sinh viên có điểm số cao nhất.\n Hay một lợi thế nữa của Mảng đó là với việc tổ chức các phần tử có kiểu dữ liệu tương tự nhau như vậy sẽ làm cho code của chúng ta tường minh và dễ quản lý hơn, giúp tối ưu code.',
             'structure': 'Kiểu dữ liệu structure được tạo thành từ một hoặc một nhóm kiểu dữ liệu xây dựng sẵn để tạo ra một tập hợp các biến thuộc cùng nhóm, những biến cùng nhóm này dùng để lưu trữ các dữ liệu có liên quan với nhau trong kiểu dữ liệu mới.\nCác bạn có thể tham khảo thêm tại : https://cpp.daynhauhoc.com/9/1-structs/',
             'class': 'Bạn tạo ra 1 class với những thuộc tính (property) và hành vi (method) của nó. Một object được tạo từ 1 class sẽ mang những đặc tính của class đó (với những thuộc tính, hành vi và quan hệ với các đối tượng khác được định nghĩa trong class).Class thường được xem như bộ khung (prototype) của object. Mình thì hiểu nó như 1 công cụ để nhóm các object ta sẽ tạo ra, ràng buộc các object đó phải có 1 số đặc tính nào đó. Mọi object tạo thành từ 1 class thì có những đặc tính giống nhau, đó là ý nghĩa của class.',
@@ -566,7 +567,7 @@ class AnswerCppDefineQuestion(Action):
             #define PI 3.14
             #define ll long long
             #define sum(a,b) a + b''',
-            'wchar_t': '''Để sử dụng wchar_t, ta thực hiện cú pháp: wchar_t <tên_variable>;''',
+            'wchar-t': '''Để sử dụng wchar-t, ta thực hiện cú pháp: wchar-t <tên_variable>;''',
             'boolean':'''Để sử dụng kiểu boolean, ta thực hiện cú pháp: bool <tên_variable>;''',
             'data-type': '''Tùy thuộc vào kiểu dữ liệu các bạn muốn dùng mà ta sẽ sử dụng các từ khóa các nhau. Nếu cần một biến kiểu số nguyên, ta xài từ khóa int...''',
             '2d-array': '''Để sử dụng Mảng hai chiều, ta thực hiện cú pháp: <kiểu_dữ_liệu> <tên_variable>[<row_size>][<column_size>];''',
@@ -990,7 +991,7 @@ class AnswerCppDefineQuestion(Action):
                 cout << MAX(4,5) << endl;
                 return 0;
             }''',
-            'wchar_t': ''' ''',
+            'wchar-t': ''' ''',
             'boolean':'''
             #include <iostream>
             
@@ -1916,11 +1917,10 @@ class AnswerCppDefineQuestion(Action):
             'typedef': ''' ''',
             'constant': ''' ''',
             'macro': ''' ''',
-            'wchar_t': ''' ''',
+            'wchar-t': ''' ''',
             'boolean':''' ''',
             'data-type': ''' ''',
             '2d-array': ''' ''',
-            'array': ''' ''',
             'array': ''' ''',
             'structure': ''' ''',
             'class': ''' ''',
@@ -2007,11 +2007,10 @@ class AnswerCppDefineQuestion(Action):
             'typedef': ''' ''',
             'constant': ''' ''',
             'macro': ''' ''',
-            'wchar_t': ''' ''',
+            'wchar-t': ''' ''',
             'boolean':''' ''',
             'data-type': ''' ''',
             '2d-array': ''' ''',
-            'array': ''' ''',
             'array': ''' ''',
             'structure': ''' ''',
             'class': ''' ''',
@@ -2279,7 +2278,7 @@ class ValidateCppContentForm(FormValidationAction):
                 'typedef',
                 'constant',
                 'macro',
-                'wchar_t',
+                'wchar-t',
                 'boolean',
                 'data-type',
                 'variable',
