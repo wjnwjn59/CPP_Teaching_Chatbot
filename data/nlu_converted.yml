@@ -154,6 +154,22 @@ nlu:
     - Ê cưng
     - Xin chào
     - hí bạn
+    - hello
+    - hello bạn ơi
+    - helllo
+    - Hello
+    - heloo
+    - hi
+    - lô
+    - A lô
+    - bot ơi dậy đi
+    - Hello tinh yeu
+    - Hú
+    - ALo Alo
+    - Alo bạn ơi
+    - Ê cưng
+    - Ê bro
+    - alo em
 - intent: who_create_you
   examples: |
     - CHO T BIẾT DANH XƯNG CỦA NGƯỜI ĐÃ TẠO RA MÀY NÀO
@@ -238,6 +254,21 @@ nlu:
     - Ai tạo ra bạn vậy
     - Quân là ai 
     - Thắng là ai
+    - ai là người đã tạo ra cái project này vậy?
+    - Biết Nguyễn Anh Quân là ai không?
+    - Ai tạo ra bạn vậy
+    - Cho hỏi ai tạo bạn vậy
+    - Ai tạo ra mày vậy ?
+    - Cho hỏi ai viết ra bạn vậy
+    - Cho hỏi ai là người tạo ra chatbot vậy
+    - Quân ngu là ai
+    - Quân ngu là gì
+    - Ai tạo ra bạn
+    - Ai tạo ra bạn á
+    - Ai tạo ra bạn
+    - Quân là ai
+    - Quân đẹp trai là ai
+    - Ai làm tác giả của mày
 - intent: attention
   examples: |
     - NÈ NÈ NÈ
@@ -306,6 +337,11 @@ nlu:
     - YO
     - ALOOOOO
     - EEEEE
+    - alo
+    - ủa sao không trả lời
+    - Ê bot ngu
+    - Sao seen rồi
+    - Bot ơi
 - intent: health_inquire
   examples: |
     - CHO EM HỎI, DẠO NÀY BẠN KHỎE K?
@@ -566,6 +602,7 @@ nlu:
     - Fantastic, how about u?
     - How about u?
     - Bạn khoẻ không
+    - bạn khỏe không
 - intent: goodbye
   examples: |
     - bye
@@ -597,6 +634,8 @@ nlu:
     - Good bye 
 - intent: affirm
   examples: |
+    - Ok tks
+    - Được rồi mình cảm ơn
     - yes
     - indeed
     - of course
@@ -637,6 +676,7 @@ nlu:
     - QUÁ ĐÚNG LUÔN NGƯỜI ANH EM
 - intent: deny
   examples: |
+    - mình chán bạn quá
     - nope
     - no never
     - absolutely not
@@ -773,8 +813,13 @@ nlu:
     - TAO KHONG MUON
     - TOI KHONG MUON HOI NUA
     - KHÔNG
+    - Không
+    - ?
+    - ??
+
 - intent: compliment
   examples: |
+    - Quá được luôn kkk
     - PERFECT
     - VERY GOOD
     - GREAT
@@ -862,6 +907,8 @@ nlu:
     - Xuất cmn sắc
 - intent: thanks
   examples: |
+    - Tks
+    - Ok tks
     - OK TKS
     - MƠN NHIỀU NÈ
     - CẢM ƠN
@@ -1038,6 +1085,13 @@ nlu:
     - Today I feel so good
 - intent: insult
   examples: |
+    - Đụ má mày quá ngu đi
+    - bạn ngu quá ra
+    - Đụ má
+    - Lồn má
+    - Cc
+    - Ngu
+    - Ngu quá
     - Đ0^` NGU 
     - NGU NG0^K'
     - ĐỒ NG0^K'
@@ -1271,6 +1325,8 @@ nlu:
     - Đụ má
     - Ngu vl  
     - Đéo hiểu ăn gì mà ngu vãi lồn
+    - Ngu
+
 - intent: feeling_bad
   examples: |
     - sad
@@ -1457,6 +1513,8 @@ nlu:
     - chờ đó lát hỏi tiếp
 - intent: continue_asking
   examples: |
+    - continue_asking
+    - Mình muốn hỏi tiếp
     - Hỏi lại 
     - hỏi lại 
     - Hỏi câu khác
@@ -1570,8 +1628,30 @@ nlu:
     - Hỏi lại lần nữa
     - Hỏi câu khác 
     - Hỏi một câu khác
+    - Cho mình hỏi cái này xí
+    - Cho mình hỏi cái này xí nha
+    - Hỏi tí được không
 - intent: out_of_scope
   examples: |
+    - donald trump 
+    - Donald Trump 
+    - bầu cử tổng thống Mỹ 
+    - asfasfsdbfdbheqwer 
+    - Thế nào là point er
+    - Thực là gì?
+    - Ok chờ xí
+    - /q
+    - \quit
+    - Gét :3
+    - con cặc là gì
+    - Sao cứ càng code càng bug vậy bro
+    - Bạn có thể debug giúp tôi không?
+    - Haha
+    - Mình cười haha
+    - Noi gi do yeu thuong toi di !
+    - Noi gi do yeu thuong tui di.
+    - Ngôn ngữ Tiếng Anh được không
+    - what dose the fox say?
     - hihi 
     - haha
     - machine learning 
@@ -1597,6 +1677,7 @@ nlu:
     - làm bạn gái a nha
     - làm bạn trai e nha
     - iu nhau k
+    - kể câu chuyện vui đi
     - hải quay xe
     - 16 typh on the mic
     - làm sao để làm trùm lập trình
@@ -1658,6 +1739,47 @@ nlu:
     - Bạn có thể debug giúp tôi không?
     - Hôm nay là ngày mấy
     - má mày tên là ngọc ông già mày tuấn anh
+    - Abc
+    - -_-
+    - 1 + 1
+    - X += 1;
+    - Bot có biết dạng đề thi học kì không?
+    - Machine learning là gì
+    - Dạy mình cách lập trình AI
+    - Haha
+    - Hihi
+    - Huhuhuhuhu
+    - Dhsjsjsjska
+    - Machine learning là gì
+    - Làm sao để master lập trình vậy
+    - /restart
+    - Netflix là gì
+    - Postflix là gì
+    - Mảnh
+    - Jsjskskskajsbs
+    - Iwiwiwiwoejieue
+    - Jejeksskajs
+    - 1+1=? 
+    - 1 cộng 1 bằng?
+    - 1 + 1 = 2 đúng không?
+    - Mật khẩu facebook của chủ mầy là gì ?
+    - RAM là gì?
+    - Doi net ve nha tho Xuan Dieu.
+    - Xuan DIeu
+    - Doi net ve Do Tien
+    - thay Do Tien
+    - thay Do Tien thuong noi gi khi tre deadlines
+    - wecode là gì
+    - what the fox say
+    - trễ deadline là gì ?
+    - mikami là ai
+    - dịch từ c++ sang python được không
+    - cout << "hello" ;
+    - má mày tên là ngọc ông già mày tuấn anh
+    - cộng là gì
+    - 16 typh on the mic
+    - how to print hello world
+    - làm sao in hello world trên c++
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -2082,6 +2204,24 @@ nlu:
     - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là cái gì vậy bot ?
     - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là gì vậy bot ơi?
     - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là sao vậy bot ?
+    - [variables]{"entity": "cpplus_content", "value": "variable"} ?
+    - [biến]{"entity": "cpplus_content", "value": "variable"} ?
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"}
+    - [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"}?
+    - [con trỏ]{"entity": "cpplus_content", "value": "pointer"}?
+    - [Hàm]{"entity": "cpplus_content", "value": "function"} 
+    - [Function]{"entity": "cpplus_content", "value": "function"} ?
+    - [Toán tử ba ngôi]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - [Toán tử một ngôi]{"entity": "cpplus_content", "value": "unary-operator"}
+    - [Đệ quy]{"entity": "cpplus_content", "value": "recursion"}
+    - [Local Variable]{"entity": "cpplus_content", "value": "local-variable"}
+    - [comment]{"entity": "cpplus_content", "value": "comment"}
+    - [toán tử logic]{"entity": "cpplus_content", "value": "logical-operator"}
+    - [if]{"entity": "cpplus_content", "value": "if"}
+    - [For]{"entity": "cpplus_content", "value": "for"}
+    - [While]{"entity": "cpplus_content", "value": "while"}
+    - [Loop]{"entity": "cpplus_content", "value": "loop"}
+    - [Static]{"entity": "cpplus_content", "value": "static"}
     - cho mình hỏi về [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} với ạ !
     - như thế nào là [flow chart]{"entity": "cpplus_content", "value": "flowchart"} ?
     - hãy cho mình biết thế nào là [Flowchart]{"entity": "cpplus_content", "value": "flowchart"} ?
@@ -2307,8 +2447,8 @@ nlu:
     - CHO TAO HỎI THẾ NÀO LÀ [MACRO]{"entity": "cpplus_content", "value": "macro"} FUNCTION ?
     - what the fack is [MACRO]{"entity": "cpplus_content", "value": "macro"}?
     - Kiểu [WCHAR-T]{"entity": "cpplus_content", "value": "wchar-t"} là gì
-    - what about [wchar_t]{"entity": "cpplus_content", "value": "wchar-t"}?
-    - nói cho iem 1 tí về kiểu [wchar_t](cpplus_content) đi a oiii
+    - what about [wchar-t]{"entity": "cpplus_content", "value": "wchar-t"}?
+    - nói cho iem 1 tí về kiểu [wchar-t](cpplus_content) đi a oiii
     - [boolean]{"entity": "cpplus_content", "value": "boolean"}
     - như nào là kiểu [Boolean]{"entity": "cpplus_content", "value": "boolean"} value
     - Kieu du lieu [luan ly]{"entity": "cpplus_content", "value": "boolean"}
@@ -2548,6 +2688,128 @@ nlu:
     - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
 - intent: cpplus_how_asking
   examples: |
+    - LÀM CÁCH NÀO ĐỂ DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} V
+    - LÀM CÁCH NÀO KHỞI TẠO [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++ VẬY BẠN ƠI ?
+    - TÔI KHÔNG BIẾT CÁCH TẠO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++
+    - CÓ CÁCH NÀO ĐỂ TÔI DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} KHÔNG
+    - NÓI CHO TÔI BIẾT CÁCH TẠO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} NHƯ THẾ NÀO KHÔNG
+    - LÀM SAO TÔI CÓ THỂ KHAI BÁO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} ĐƯỢC ?
+    - TÔI KHÔNG BIẾT LÀM SAO ĐỂ TẠO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"}
+    - TẠO [MẢNG]{"entity": "cpplus_content", "value": "array"} KIỂU GÌ VẬY ?
+    - LÀM THẾ QUÁI NÀO ĐỂ TẠO RA MỘT [ARRAY]{"entity": "cpplus_content", "value": "array"} V?
+    - Ê LÀM SAO ĐỂ T TẠO THÊM 1 MỘT [ARRAY]{"entity": "cpplus_content", "value": "array"} ĐÂY?
+    - LÀM THẾ NÀO ĐỂ TẠO RA ĐƯỢC [ARRAY]{"entity": "cpplus_content", "value": "array"} V?
+    - LÀM S ĐỂ T CÓ THỂ TẠO RA MỘT [ARRAY]{"entity": "cpplus_content", "value": "array"} ĐÂY M?
+    - LÀM S ĐỂ T CÓ THỂ TẠO RA MỘT [ARR]{"entity": "cpplus_content", "value": "array"}?
+    - HOW TO TẠO MỘT [ARR]{"entity": "cpplus_content", "value": "array"}?
+    - LÀM CÁCH NÀO ĐỂ TẠO RA MỘT CÂU LỆNH [IF]{"entity": "cpplus_content", "value": "if"}?
+    - GIỜ TAO MUỐN DECLARE MỘT CÁI [IF]{"entity": "cpplus_content", "value": "if"} THÌ PHẢI LÀM S?
+    - GIỜ T MUỐN TẠO RA MỘT CÁI [IF]{"entity": "cpplus_content", "value": "if"} THÌ NÊN LÀM S ĐÂY BOT?
+    - CHỈ TUI CÁCH VIẾT MỘT CÂU [IF]{"entity": "cpplus_content", "value": "if"} ĐI BẠN UI
+    - LÀM THẾ QUÁI NÀO ĐỂ TẠO RA MỘT CÂU [ĐIỀU KIỆN]{"entity": "cpplus_content", "value": "if"} BÂY GIỜ?
+    - CHỈ MÌNH CÁCH ĐỂ VIẾT MỘT CÂU [ĐIỀU KIỆN]{"entity": "cpplus_content", "value": "if"} ĐI BẠN
+    - CHỈ MÌNH CÁCH VIẾT MỘT CÂU [ĐIỀU KIỆN]{"entity": "cpplus_content", "value": "if"} ĐI BẠN HIỀN
+    - LÀM SAO ĐỂ DECLARE MỘT CÂU [ĐIỀU KIỆN]{"entity": "cpplus_content", "value": "if"}
+    - CHỈ MÌNH CÁCH TẠO RA MỘT [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} VỚI
+    - CHỈ TUI CÁCH TẠO MỘT [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} VỚI BẠN
+    - LÀM SAO ĐỂ TUI TẠO RA MỘT [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} ĐÂY
+    - LÀM THẾ NÀO ĐỂ TUI TẠO RA MỘT [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} V
+    - CHỈ BỐ M CÁCH VIẾT MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} COI
+    - BÀY T CÁCH TẠO RA MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} XEM NÀO
+    - CHỈ IEM CÁCH VIẾT MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} ĐI
+    - CHỈ IEM CÁCH VIẾT MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} VỚI
+    - BÀY IEM CÁCH VIẾT TẠO RA [LOOP]{"entity": "cpplus_content", "value": "loop"} ĐI IANH
+    - LÀM S ĐỂ T VIẾT VÒNG LẶP [FOR]{"entity": "cpplus_content", "value": "for"} ĐÂY M
+    - LÀM THẾ NÀO ĐỂ T TẠO RA MỘT VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} ĐÂY
+    - HOW TO TẠO RA MỘT VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} V M
+    - CÁCH TẠO RA VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} NHƯ THẾ NÀO ĐÂY
+    - CHỈ BỐ M VIẾT RA MỘT VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} COI
+    - CHỈ BỐ M CÁCH TẠO RA MỘT VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} ĐI
+    - CÁCH NÀO ĐỂ T TẠO RA MỘT VÒNG [WHILE](cpplus_content) V M
+    - LÀM THẾ NÀO ĐỂ T TẠO RA MỘT VÒNG [WHILE](cpplus_content) ĐÂY MÀY
+    - BẰNG CÁCH NÀO T CÓ THỂ VIẾT RA DC MỘT VÒNG [WHILE](cpplus_content)?
+    - LÀM S ĐỂ T IMPLEMENT ĐƯỢC MỘT VÒNG [WHILE](cpplus_content) ĐÂY?
+    - LÀM S ĐỂ TẠO RA ĐƯỢC MỘT VÒNG [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} ĐÂY TA
+    - LÀM CÁCH NÀO ĐỂ T CÓ THỂ KHAI BÁO ĐƯỢC MỘT CÁI [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} V?
+    - LÀM CÁCH NÀO ĐỂ T VIẾT RA ĐC MỘT CÂU [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} ĐÂY
+    - NHƯ THẾ NÀO ĐỂ CÓ THỂ VIẾT DC MỘT CÂU [BREAK](cpplus_content) V
+    - LÀM SAO ĐỂ SỬ DỤNG [BREAK](cpplus_content) ĐÂY TA
+    - LÀM SAO ĐỂ MÌNH CÓ THỂ SỬ DỤNG ĐƯỢC [BREAK](cpplus_content)?
+    - BÂY GIỜ LÀM SAO ĐỂ T CÓ THỂ SỬ DỤNG ĐƯỢC TỪ KHÓA [BREAK](cpplus_content) ĐÂY?
+    - LÀM SAO ĐỂ SỬ DỤNG TỪ KHÓA [CONTINUE](cpplus_content) ĐÂY NHỈ
+    - HOW TO TẠO RA TỪ KHÓA [CONTINUE](cpplus_content) ĐÂY
+    - LÀM THẾ NÀO ĐỂ CÓ THỂ SỬ DỤNG TỐT TỪ KHÓA [CONTINUE](cpplus_content)?
+    - Ê BOT CHỈ T CÁCH SỬ DỤNG TỪ KHÓA [CONTINUE](cpplus_content)
+    - CHỈ T CÁCH SỬ DỤNG TỪ KHÓA [CONTINUE](cpplus_content) ĐI
+    - CACH VIET [SWITCH]{"entity": "cpplus_content", "value": "switch"} CASE
+    - CHỈ T CÁCH SỬ DỤNG TỪ KHÓA [CONTINUE](cpplus_content) ĐI
+    - CÁCH DÙNG [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} TRONG C++
+    - CÁCH SỬ DỤNG [HÀM]{"entity": "cpplus_content", "value": "function"} NHƯ THẾ NÀO
+    - LÀM SAO ĐỂ SỬ DỤNG 1 [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} ?
+    - LÀM CÁCH NÀO ĐỂ TA CÓ THỂ SỬ DỤNG ĐƯỢC MỘT [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} TRONG C++?
+    - SỬ DỤNG CÁCH THỨC NÀO ĐỂ CÓ THỂ SỬ DỤNG ĐƯỢC MỘT [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} TRONG C++ THẾ BOT ?
+    - LÀM THẾ NÀO ĐỂ TRIỂN KHAI 1 [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} Ở C++ THẾ BOT?
+    - CÁCH SỬ DỤNG [NAMEPSACE]{"entity": "cpplus_content", "value": "namespace"} ?
+    - CÁCH HỌC [C++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - CÁCH SỬ DỤNG [C++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - CÁCH TẢI [C++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - SỬ DỤNG TÍNH NĂNG [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ NTN?
+    - LÀM SAO ĐỂ SỬ DỤNG ĐC CÁI [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ THẾ?
+    - Ê BOT ƠI HOW TO SỬ DỤNG [COMMENT]{"entity": "cpplus_content", "value": "comment"} ?
+    - [INCLUDE]{"entity": "cpplus_content", "value": "include"} TRONG C++ ĐC SỬ DỤNG NHƯ THẾ NÀO?
+    - BẰNG CÁCH NÀO THÌ TA CÓ THỂ DÙNG [INCLUDE]{"entity": "cpplus_content", "value": "include"} TRONG C++ DC V?
+    - LÀM THẾ NÀO ĐỂ SỬ DỤNG KIỂU [UNSIGNED]{"entity": "cpplus_content", "value": "unsigned"} 
+    - LÀM THẾ LÀO ĐỂ TẠO DC 1 BIẾN CÓ KIỂU [UNSIGNED]{"entity": "cpplus_content", "value": "unsigned"} ?
+    - Ê NÀM THAO ĐỂ T TẠO RA DC 1 BIẾN [UNSIGNED]{"entity": "cpplus_content", "value": "unsigned"} TRONG C++ ĐÂY BOT?
+    - NÀM THAO ĐỂ TAO DÙNG BIẾN KIỂU [SIGNED]{"entity": "cpplus_content", "value": "signed"} ĐÂY BOT NGU?
+    - Ê BÂY GIỜ BÀY T CÁCH THỨC ĐỂ CÓ THỂ DÙNG 1 BIẾN KIỂU [SIGNED]{"entity": "cpplus_content", "value": "signed"} ĐÊ A BOT
+    - OK LÀM S ĐỂ TẠO 1 BIẾN KIỂU [SHORT]{"entity": "cpplus_content", "value": "short"} ?
+    - NÈ KU LÀM S ĐỂ T TẠO RA 1 BIẾN KIỂU [SHORT]{"entity": "cpplus_content", "value": "short"} ĐÂY?
+    - Ê KU LÀM S ĐỂ TẠO DC MỘT BIẾN KIỂU [LONG]{"entity": "cpplus_content", "value": "long"} THẾ 
+    - LÀM SAO ĐỂ TA CÓ THỂ TẠO RA BIẾN CÓ KIỂU DỮ LIỆU LÀ [LONG]{"entity": "cpplus_content", "value": "long"} TRONG CPP?
+    - LÀM S ĐỂ SỬ DỤNG CÁI [TYPE MODIFER]{"entity": "cpplus_content", "value": "type-modifier"} TRONG CPP THẾ ?
+    - BẰNG CÁCH NÀO ĐỂ SỬ DỤNG ĐƯỢC CÁI [TYPE MODIFIER]{"entity": "cpplus_content", "value": "type-modifier"} ĐÂY BOT OII
+    - LÀM S ĐỂ SỬ DỤNG TÍNH NĂNG [TYPEDEF]{"entity": "cpplus_content", "value": "typedef"} ?
+    - HOW TO DÙNG CÁI SYNTAX [TYPEDEF]{"entity": "cpplus_content", "value": "typedef"} V BOT CHAT ???
+    - CÁI SYNTAX VỀ [TYPEDEF]{"entity": "cpplus_content", "value": "typedef"} DÙNG LÀM SAO Í NHỈ ?
+    - CÁI LÝ THUYẾT VỀ [CONSTANT]{"entity": "cpplus_content", "value": "constant"}, MÌNH VIẾT NÓ VÀO CODE THÌ VIẾT NTN ĐÂY NHỈ?
+    - CÁI [CONST]{"entity": "cpplus_content", "value": "constant"} ĐƯA VÀO CODE THÌ IMPLEMENT LÀM S ẤY NHỈ?
+    - [CONST]{"entity": "cpplus_content", "value": "constant"} TRONG C++ KHI MUỐN DÙNG THÌ MÌNH CẦN PHẢI VIẾT NTN V BOT NHỈ?
+    - 1 BIẾN MÀ CÓ CHỮ [CONST]{"entity": "cpplus_content", "value": "constant"} PHÍA TRƯỚC THÌ VIẾT NTN V BOT?
+    - NTN ĐỂ CÓ THỂ VIẾT 1 HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} ?
+    - NTN ĐỂ T CÓ THỂ TẠO RA 1 HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} ?
+    - LÀM CÁCH NÀO ĐỂ IMPLEMENT RA DC MỘT HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} THẾ BOT?
+    - BẰNG CÁCH NÀO THÌ T CÓ THỂ DÙNG 1 HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} TRONG C++ ĐÂY BOT?
+    - TRONG C++ CÓ 1 KHÁI NIỆM LÀ HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} THÌ TRIỂN KHAI TRONG CODE NTN V BOT?
+    - [MACRO]{"entity": "cpplus_content", "value": "macro"} TRONG C++ ĐC DÙNG NHƯ THẾ NÀO VẬY??
+    - 1 HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} TRONG C++ DC VIẾT NHƯ THẾ NÀO?
+    - DÙNG CÁCH NÀO ĐỂ VIẾT [MACRO]{"entity": "cpplus_content", "value": "macro"} TRONG C++ THẾ BOT?
+    - LÀM S ĐỂ SỬ DỤNG KIỂU [WCHAR-T]{"entity": "cpplus_content", "value": "wchar-t"} THẾ BOT?
+    - KIỂU DỮ LIỆU [WCHAR-T]{"entity": "cpplus_content", "value": "wchar-t"} DÙNG KIỂU J V BOT?
+    - [KIỂU LUẬN LÝ]{"entity": "cpplus_content", "value": "boolean"} DÙNG NTN V ???
+    - KIỂU [BOOL]{"entity": "cpplus_content", "value": "boolean"} DÙNG THẾ QUÁI NÀO V BOT?
+    - CÁI KIỂU DỮ LIỆU [LUẬN LÝ]{"entity": "cpplus_content", "value": "boolean"} TRONG C++ ĐC TRIỂN KHAI NÀM THAO THẾ BOT?
+    - Ê CHỈ TAO CÁCH TRIỂN KHAI [KIỂU LUẬN LÝ]{"entity": "cpplus_content", "value": "boolean"} CHO NÓ RA J XEM NÀO
+    - LÀM S ĐỂ SỬ DỤNG DC 1 [KIỂU DỮ LIỆU]{"entity": "cpplus_content", "value": "data-type"}
+    - LÀM S ĐỂ IMPLEMENT [1D ARRAY]{"entity": "cpplus_content", "value": "array"} TRONG C++ THẾ?
+    - VIẾT [MẢNG MỘT CHIỀU]{"entity": "cpplus_content", "value": "array"} THÌ VIẾT NHƯ THẾ NÀO ĐÂY BOT?
+    - [MẢNG MỘT CHIỀU]{"entity": "cpplus_content", "value": "array"} ĐC VIẾT NTN TRONG C++ ĐÂY BOTCHAT 
+    - [ARRAYS]{"entity": "cpplus_content", "value": "array"} TRONG C++ ĐC VIẾT THẾ NÀO THẾ?
+    - HOW TO USE [MẢNG 1D]{"entity": "cpplus_content", "value": "array"} IN CPP?
+    - CAN U TELL ME HOW IN THE WORLD COULD I USE [2D ARRAY]{"entity": "cpplus_content", "value": "2d-array"} IN C++?
+    - HOW CAN I EVEN USE [TWO DIMENSIONAL ARRAY]{"entity": "cpplus_content", "value": "2d-array"} IN CPP?
+    - LÀM S ĐỂ XÀI DC [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} THẾ BOT?
+    - LÀM CÁCH NÀO ĐỂ TẠO RA DC 1 CÁI [MA TRẬN]{"entity": "cpplus_content", "value": "2d-array"} THẾ BOT CHAT /
+    - [MA TRẬN]{"entity": "cpplus_content", "value": "2d-array"} TRONG C++ DC TẠO BẰNG CÁCH NÀO?
+    - CÁCH TẠO RA [MATRIX]{"entity": "cpplus_content", "value": "2d-array"} TRONG C++?
+    - TẠO 1 [MA TRẬN]{"entity": "cpplus_content", "value": "2d-array"} TRONG C++ NHƯ THẾ NÀO?
+    - NTN ĐỂ TẠO RA DC 1 [STRUCT]{"entity": "cpplus_content", "value": "structure"} ?
+    - DÙNG [STRUCT]{"entity": "cpplus_content", "value": "structure"} TRONG CPP KIỂU GÌ THẾ?
+    - CÁCH DÙNG [STRUCT]{"entity": "cpplus_content", "value": "structure"} NHƯ THẾ NÀO V
+    - DÙNG CÁCH THỨC GÌ ĐỂ XÀI DC [STRUCT]{"entity": "cpplus_content", "value": "structure"} THẾ?
+    - KHAI BÁO 1 [CLASS]{"entity": "cpplus_content", "value": "class"} NHƯ THẾ NÀO ?
+    - DÙNG [CLASS]{"entity": "cpplus_content", "value": "class"} NHƯ THẾ NÀO?
+    - NTN ĐỂ RA DC [CLASS]{"entity": "cpplus_content", "value": "class"} TRONG C++ THẾ?
     - TÔI KHÔNG BIẾT CÁCH TẠO MỘT [STRUCT]{"entity": "cpplus_content", "value": "structure"} TRONG C++
     - CÓ CÁCH NÀO ĐỂ TÔI TẠO MỘT [STRUCT]{"entity": "cpplus_content", "value": "structure"} KHÔNG
     - NÓI CHO TÔI BIẾT CÁCH TẠO MỘT [STRUCT]{"entity": "cpplus_content", "value": "structure"} NHƯ THẾ NÀO KHÔNG
@@ -2689,6 +2951,149 @@ nlu:
     - Chỉ t cách sử dụng từ khóa [continue](cpplus_content) đi
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
+    - làm sao để sử dụng 1 [namespace]{"entity": "cpplus_content", "value": "namespace"} ?
+    - Làm cách nào để ta có thể sử dụng được một [namespace]{"entity": "cpplus_content", "value": "namespace"} trong C++?
+    - Sử dụng cách thức nào để có thể sử dụng được một [namespace]{"entity": "cpplus_content", "value": "namespace"} trong C++ thế bot ?
+    - làm thế nào để triển khai 1 [namespace]{"entity": "cpplus_content", "value": "namespace"} ở c++ thế bot?
+    - cách sử dụng [namepsace]{"entity": "cpplus_content", "value": "namespace"} ?
+    - cách học [c++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - cách sử dụng [c++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - cách tải [c++]{"entity": "cpplus_content", "value": "cplusplus"}
+    - sử dụng tính năng [comment]{"entity": "cpplus_content", "value": "comment"} trong c++ ntn?
+    - làm sao để sử dụng đc cái [comment]{"entity": "cpplus_content", "value": "comment"} trong c++ thế?
+    - ê bot ơi how to sử dụng [Comment]{"entity": "cpplus_content", "value": "comment"} ?
+    - [include]{"entity": "cpplus_content", "value": "include"} trong c++ đc sử dụng như thế nào?
+    - bằng cách nào thì ta có thể dùng [include]{"entity": "cpplus_content", "value": "include"} trong c++ dc v?
+    - làm thế nào để sử dụng kiểu [unsigned]{"entity": "cpplus_content", "value": "unsigned"} 
+    - làm thế lào để tạo dc 1 biến có kiểu [unsigned]{"entity": "cpplus_content", "value": "unsigned"} ?
+    - ê nàm thao để t tạo ra dc 1 biến [unsigned]{"entity": "cpplus_content", "value": "unsigned"} trong c++ đây bot?
+    - Nàm thao để tao dùng biến kiểu [signed]{"entity": "cpplus_content", "value": "signed"} đây bot ngu?
+    - Ê bây giờ bày t cách thức để có thể dùng 1 biến kiểu [signed]{"entity": "cpplus_content", "value": "signed"} đê a bot
+    - Ok làm s để tạo 1 biến kiểu [short]{"entity": "cpplus_content", "value": "short"} ?
+    - Nè ku làm s để t tạo ra 1 biến kiểu [short]{"entity": "cpplus_content", "value": "short"} đây?
+    - Ê ku làm s để tạo dc một biến kiểu [long]{"entity": "cpplus_content", "value": "long"} thế 
+    - Làm sao để ta có thể tạo ra biến có kiểu dữ liệu là [long]{"entity": "cpplus_content", "value": "long"} trong cpp?
+    - Làm s để sử dụng cái [type modifer]{"entity": "cpplus_content", "value": "type-modifier"} trong cpp thế ?
+    - Bằng cách nào để sử dụng được cái [type modifier]{"entity": "cpplus_content", "value": "type-modifier"} đây bot oii
+    - Làm s để sử dụng tính năng [typedef]{"entity": "cpplus_content", "value": "typedef"} ?
+    - How to dùng cái syntax [Typedef]{"entity": "cpplus_content", "value": "typedef"} v bot chat ???
+    - Cái syntax về [typedef]{"entity": "cpplus_content", "value": "typedef"} dùng làm sao í nhỉ ?
+    - Cái lý thuyết về [constant]{"entity": "cpplus_content", "value": "constant"}, mình viết nó vào code thì viết ntn đây nhỉ?
+    - Cái [const]{"entity": "cpplus_content", "value": "constant"} đưa vào code thì implement làm s ấy nhỉ?
+    - [Const]{"entity": "cpplus_content", "value": "constant"} trong c++ khi muốn dùng thì mình cần phải viết ntn v bot nhỉ?
+    - 1 biến mà có chữ [const]{"entity": "cpplus_content", "value": "constant"} phía trước thì viết ntn v bot?
+    - NTN để có thể viết 1 hàm [macro]{"entity": "cpplus_content", "value": "macro"} ?
+    - NTN để t có thể tạo ra 1 hàm [macro]{"entity": "cpplus_content", "value": "macro"} ?
+    - Làm cách nào để implement ra dc một hàm [macro]{"entity": "cpplus_content", "value": "macro"} thế bot?
+    - Bằng cách nào thì t có thể dùng 1 hàm [macro]{"entity": "cpplus_content", "value": "macro"} trong c++ đây bot?
+    - Trong C++ có 1 khái niệm là hàm [macro]{"entity": "cpplus_content", "value": "macro"} thì triển khai trong code ntn v bot?
+    - [Macro]{"entity": "cpplus_content", "value": "macro"} trong c++ đc dùng như thế nào vậy??
+    - 1 hàm [macro]{"entity": "cpplus_content", "value": "macro"} trong c++ dc viết như thế nào?
+    - Dùng cách nào để viết [macro]{"entity": "cpplus_content", "value": "macro"} trong c++ thế bot?
+    - Làm s để sử dụng kiểu [wchar-t]{"entity": "cpplus_content", "value": "wchar-t"} thế bot?
+    - Kiểu dữ liệu [wchar-t]{"entity": "cpplus_content", "value": "wchar-t"} dùng kiểu j v bot?
+    - [Kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} dùng ntn v ???
+    - Kiểu [bool]{"entity": "cpplus_content", "value": "boolean"} dùng thế quái nào v bot?
+    - Cái kiểu dữ liệu [luận lý]{"entity": "cpplus_content", "value": "boolean"} trong C++ đc triển khai nàm thao thế bot?
+    - Ê chỉ tao cách triển khai [kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} cho nó ra j xem nào
+    - Làm s để sử dụng dc 1 [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"}
+    - Làm s để implement [1D Array]{"entity": "cpplus_content", "value": "array"} trong C++ thế?
+    - Viết [mảng một chiều]{"entity": "cpplus_content", "value": "array"} thì viết như thế nào đây bot?
+    - [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} đc viết ntn trong c++ đây botchat 
+    - [Arrays]{"entity": "cpplus_content", "value": "array"} trong c++ đc viết thế nào thế?
+    - How to use [Mảng 1D]{"entity": "cpplus_content", "value": "array"} in cpp?
+    - Can u tell me how in the world could i use [2D array]{"entity": "cpplus_content", "value": "2d-array"} in c++?
+    - How can I even use [two dimensional array]{"entity": "cpplus_content", "value": "2d-array"} in cpp?
+    - Làm s để xài dc [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} thế bot?
+    - Làm cách nào để tạo ra dc 1 cái [ma trận]{"entity": "cpplus_content", "value": "2d-array"} thế bot chat /
+    - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} trong c++ dc tạo bằng cách nào?
+    - Cách tạo ra [matrix]{"entity": "cpplus_content", "value": "2d-array"} trong c++?
+    - Tạo 1 [MA TRẬN]{"entity": "cpplus_content", "value": "2d-array"} trong c++ như thế nào?
+    - NTN để tạo ra dc 1 [struct]{"entity": "cpplus_content", "value": "structure"} ?
+    - dùng [struct]{"entity": "cpplus_content", "value": "structure"} trong cpp kiểu gì thế?
+    - cách dùng [struct]{"entity": "cpplus_content", "value": "structure"} như thế nào v
+    - dùng cách thức gì để xài dc [struct]{"entity": "cpplus_content", "value": "structure"} thế?
+    - khai báo 1 [class]{"entity": "cpplus_content", "value": "class"} như thế nào ?
+    - Dùng [class]{"entity": "cpplus_content", "value": "class"} như thế nào?
+    - ntn để ra dc [class]{"entity": "cpplus_content", "value": "class"} trong c++ thế?
+    - làm s để xài dc kiểu [union]{"entity": "cpplus_content", "value": "union"}
+    - làm s để khai báo dc 1 [con trỏ]{"entity": "cpplus_content", "value": "pointer"}?
+    - khai báo kiểu dữ liệu [pointer]{"entity": "cpplus_content", "value": "pointer"} ntn?
+    - làm cách j để ra dc 1 [con trỏ]{"entity": "cpplus_content", "value": "pointer"} zị bot uiii
+    - làm thế quái nào để có thể ra dc 1 [Pointer]{"entity": "cpplus_content", "value": "pointer"} rứa ?
+    - how to sử dụng kiểu [enum]{"entity": "cpplus_content", "value": "enumeration"} ?
+    - làm s để dùng dc 1 kiểu [integer]{"entity": "cpplus_content", "value": "integer"} thế
+    - Làm cách nào để tạo khai báo một biến [kiểu số thực]{"entity": "cpplus_content", "value": "floating-point"} thế?
+    - Sử dụng [double]{"entity": "cpplus_content", "value": "double"} trong c++ ntn thế?
+    - Làm cách nào để dùng kiểu [double]{"entity": "cpplus_content", "value": "double"} trong c++?
+    - Để dùng dc kiểu [string]{"entity": "cpplus_content", "value": "string"} cần phải làm như thế nào?
+    - 1 biến kiểu [string]{"entity": "cpplus_content", "value": "string"} thì cần phải thế nào mới xài dc
+    - [String]{"entity": "cpplus_content", "value": "string"} thì dùng ntn?
+    - [biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} dc khai báo nàm thao thía ?
+    - [Local variable]{"entity": "cpplus_content", "value": "local-variable"} được dùng như thế nào trong cpp v bot?
+    - 1 [biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} dc khai báo ra sao v bot
+    - [biến tĩnh]{"entity": "cpplus_content", "value": "static"} dc khai báo ra sao?
+    - tạo ra 1 biến [static]{"entity": "cpplus_content", "value": "static"} như thế nào v
+    - [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} dc tạo ra trong c++ như thế nào v bot?
+    - viết [toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"} ra làm sao thế bot?
+    - [increment operator]{"entity": "cpplus_content", "value": "increment-operator"} dc viết thế nào v bot?
+    - 1 chiếc [toán tử tăng]{"entity": "cpplus_content", "value": "increment-operator"} đc khai báo ra sao thế bot?
+    - ê bot giờ t muốn dùng [toán tử tăng]{"entity": "cpplus_content", "value": "increment-operator"} thì làm như thế nào?
+    - ê bot ơi giờ bố m muốn dùng cái [toán tử --]{"entity": "cpplus_content", "value": "decrement-operator"} thì làm kiểu gì thế bot?
+    - giờ muốn viết [toán tử giảm]{"entity": "cpplus_content", "value": "decrement-operator"} thì phải sao thế botchat?
+    - [toán tử ba ngôi]{"entity": "cpplus_content", "value": "ternary-operator"} dc viết thế nào v?
+    - Triển khai [toán tử ba ngôi]{"entity": "cpplus_content", "value": "ternary-operator"} ra làm sao v chatbot?
+    - Giờ mình muốn implement ra dc cái [ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"} thì làm sao đây bot ?
+    - How to use [binary operator]{"entity": "cpplus_content", "value": "binary-operator"} ?
+    - Can u tell me the way of how to use the [binary operator]{"entity": "cpplus_content", "value": "binary-operator"} in c++?
+    - [Toán tử hai ngôi]{"entity": "cpplus_content", "value": "binary-operator"} dc triển khai ra làm sao thế hả bot?
+    - một [toán tử]{"entity": "cpplus_content", "value": "operator"} dc viết ra sao thế bot?
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"} thì viết trong code như thế nào v bot?
+    - [Operator]{"entity": "cpplus_content", "value": "operator"} dc viết ra làm sao v bot?
+    - 1 [toán tử]{"entity": "cpplus_content", "value": "operator"} dc dùng trong c++ như thế nào v bot?
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"} dc triển khai NTN ?
+    - một loại [Toán tử]{"entity": "cpplus_content", "value": "operator"} đc tạo ra bằng cách nào v bot?
+    - khai báo ntn 1 [toán tử]{"entity": "cpplus_content", "value": "operator"} trong c++?
+    - [toán tử một ngôi]{"entity": "cpplus_content", "value": "unary-operator"} dc làm ra như thế nào khi viết code v bot nhỉ?
+    - một [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ dc viết như thế nào?
+    - [điều kiện]{"entity": "cpplus_content", "value": "if"} trong c++ dc implement thế nào thế?
+    - 1 câu [if]{"entity": "cpplus_content", "value": "if"} trong cpp dc viết ntn?
+    - [if]{"entity": "cpplus_content", "value": "if"} dc viết ntn?
+    - [vòng lặp]{"entity": "cpplus_content", "value": "loop"} dc viết sao?
+    - [Loop]{"entity": "cpplus_content", "value": "loop"} trong C++ dc implement như thế nào?
+    - Một [vòng lặp]{"entity": "cpplus_content", "value": "loop"} dc khai báo như thế nào trong C++ thế ?
+    - vòng lặp [For]{"entity": "cpplus_content", "value": "for"} dc viết thế nào v ?
+    - viết một vòng lặp [for]{"entity": "cpplus_content", "value": "for"} trong c++ thì phải làm những gì?
+    - Viết 1 vòng lặp [while]{"entity": "cpplus_content", "value": "while"} bằng cách nào thế bot?
+    - Bot ơi làm cách nào để tao có thể viết dc 1 vòng lặp [while]{"entity": "cpplus_content", "value": "while"} đây bot?
+    - [do while]{"entity": "cpplus_content", "value": "do-while"} dc viết ra làm sao thế?
+    - câu lặp [do while]{"entity": "cpplus_content", "value": "do-while"} viết code ntn v m?
+    - lệnh [switch]{"entity": "cpplus_content", "value": "switch"} case dùng như thế nào?
+    - khai báo 1 lệnh [switch]{"entity": "cpplus_content", "value": "switch"} case ra làm sao ?
+    - từ khóa [switch]{"entity": "cpplus_content", "value": "switch"} case dc viết như thế nào ?
+    - 1 syntax [switch]{"entity": "cpplus_content", "value": "switch"} case ở c++ dc viết như thế nào v bot?
+    - từ khóa [break]{"entity": "cpplus_content", "value": "break"} dc dùng ntn thế?
+    - từ khóa [continue]{"entity": "cpplus_content", "value": "continue"} dc dùng ra làm s v bot?
+    - cách để implement từ khóa [break]{"entity": "cpplus_content", "value": "break"} 
+    - làm thế nào để có thể viết dc từ khóa [break]{"entity": "cpplus_content", "value": "break"} và [continue]{"entity": "cpplus_content", "value": "continue"} thế bot?
+    - 1 tập lệnh [if else]{"entity": "cpplus_content", "value": "if-else"} dc viết như thế nào v bot chat ơi 
+    - [Function]{"entity": "cpplus_content", "value": "function"} dc viết như thế nào v?
+    - Khai báo 1 [function]{"entity": "cpplus_content", "value": "function"} thì làm s?
+    - Làm s để khai báo ra dc 1 cái [hàm]{"entity": "cpplus_content", "value": "function"} trong c++ v bot 
+    - Mình thắc mắc là làm s để có thể tạo ra 1 [hàm]{"entity": "cpplus_content", "value": "function"} trong c++ đây bot?
+    - Làm s để có thể [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} vô 1 hàm dc thế?
+    - Làm cách nào để t có thể [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} vào 1 hàm dc đây bot?
+    - Ntn để có thể [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} vào 1 hàm dc đây bot?
+    - làm s để viết dc 1 hàm [đệ quy]{"entity": "cpplus_content", "value": "recursion"}
+    - Viết một hàm [recursion]{"entity": "cpplus_content", "value": "recursion"} thì phải làm s thế bot chat?
+    - hàm [đệ quy]{"entity": "cpplus_content", "value": "recursion"} dc implement thế nào trong c++ v bot?
+    - [đối số]{"entity": "cpplus_content", "value": "argument"} khi truyền vào 1 hàm dc triển khai như thế nào v bot?
+    - làm s để truyền 1 [Argument]{"entity": "cpplus_content", "value": "argument"} trong lời gọi hàm v bot?
+    - [Đối số]{"entity": "cpplus_content", "value": "argument"} dc truyền ntn trong lời gọi hàm thế bot?
+    - làm s để có sử dụng dc các [hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} thế bot iu?
+    - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda]{"entity": "cpplus_content", "value": "lambda"} zay
+    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là vẽ như thế nào v bot?
+    - làm s để t có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
@@ -2981,9 +3386,9 @@ nlu:
     - vì sao lại nên xài hàm [Macro](cpplus_content) khi viết code c++ thế bot?
     - hãy cho t một lý do vì sao lại nên xài hàm [macro](cpplus_content) mỗi khi viết code c được không?
     - Nè mày, có thể nào nói cho tao biết lý do vì sao lại nên xài [macro](cpplus_content) không ?
-    - tại sao lại sử dụng kiểu [wchar_t](cpplus_content)?
-    - đụ mẹ sao giờ còn có thêm kiểu [wchar_t](cpplus_content) vậy bot, sao ngta xài nó chi zẩy?
-    - cho tao một lý do vì sao lại xài thêm kiểu [wchar_t](cpplus_content) được không bot ngu óc cặc?
+    - tại sao lại sử dụng kiểu [wchar-t](cpplus_content)?
+    - đụ mẹ sao giờ còn có thêm kiểu [wchar-t](cpplus_content) vậy bot, sao ngta xài nó chi zẩy?
+    - cho tao một lý do vì sao lại xài thêm kiểu [wchar-t](cpplus_content) được không bot ngu óc cặc?
     - Tại sao cần xài [array](cpplus_content)
     - Sao lại có khái niệm [Array](cpplus_content)?
     - vì gì mà cần phải xài [mảng một chiều]{"entity": "cpplus_content", "value": "array"}?
@@ -3112,7 +3517,7 @@ nlu:
     - vì sao lại có các khái niệm về [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} hay [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} v?
     - tại sao lại cần [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
     - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} ?
-    - Tại sao phải dùng [vector](cpplus_content)
+    - Tại sao phải dùng [vector]{"entity": "cpplus_content", "value": "vector"}
     - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} 
     - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
     - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
@@ -3399,6 +3804,7 @@ nlu:
     - who are you really then?
     - what exactly are you?
     - mày là con cặc gì vậy
+    - Bạn là ai
 - intent: cpp_practice
   examples: |
     - TAO MUỐN ÔN TẬP VỀ [C++]{"entity": "cpplus_content", "value": "cplusplus"}
@@ -3505,6 +3911,7 @@ nlu:
     - tui đang k cần bạn trả lời gì hết 
     - bot ơi t k muốn hỏi m bất cứ điều gì cả
     - nè bot ơi tui k muốn hỏi bạn điều gì đâu
+    - Nothing
 - intent: want_to_practice_flowchart 
   examples: |
     - BÀI TẬP FLOWCHART
@@ -3687,8 +4094,26 @@ nlu:
     - câu số [21](flowchart_quest_num) lưu đồ đáp án là gì vậy 
     - đáp án câu số [7](flowchart_quest_num) là gì 
     - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
+    - bài tập [1](flowchart_quest_num)
+    - bài tập [2](flowchart_quest_num)
+    - câu [1](flowchart_quest_num)
+    - Câu số [100](flowchart_quest_num)
+    - Câu số [1](flowchart_quest_num)
+    - Mình muốn hỏi câu số [2](flowchart_quest_num)
+    - Bài [1](flowchart_quest_num)
+    - Câu số [200](flowchart_quest_num)
+    - Câu số [19](flowchart_quest_num)
+    - Câu số [20](flowchart_quest_num)
+    - Câu số [10](flowchart_quest_num)
+    - Cách giải bài [1](flowchart_quest_num)
+    - Cách giải bài số [2](flowchart_quest_num)
+    - Câu số [13](flowchart_quest_num)
+    - Câu số [37](flowchart_quest_num)
+    - lưu đồ thuật toán thầy Khang bài [3](flowchart_quest_num)
+    - Bài tập số [1](flowchart_quest_num)
 - intent: time
   examples: |
+    - Hôm nay là ngày mấy
     - Cho mình hỏi bây giờ mấy giờ rồi ?
     - Bạn ơi mấy giờ rồi ?
     - Mấy giờ rồi bạn ơi ?
@@ -3737,6 +4162,7 @@ nlu:
     - MẢNG
     - MẢNG MỘT CHIỀU
     - MANG MOT CHIEU
+    - MẢNG 1D
     - ARRAY
     - ARRAYS
     - 1d array
@@ -3744,12 +4170,17 @@ nlu:
     - 1D array
     - mảng
     - mảng một chiều
+    - mảng 1D
+    - mảng 1d 
     - mang mot chieu
     - Mảng
+    - Mảng 1d
+    - Mảng 1D
     - arr
     - arrays
     - arrs
     - Array
+    - Arrays
     - Mảng một chiều
 - synonym: library
   examples: |
@@ -3909,6 +4340,8 @@ nlu:
     - truyen tham tri
 - synonym: parameter
   examples: |
+    - PARAMETER
+    - PARAMETERS
     - Tham số
     - Tham Số 
     - Tham So
@@ -3920,6 +4353,8 @@ nlu:
     - paras
     - THAM SỐ 
     - THAM SO 
+    - Parameter
+    - Parameters
 - synonym: argument
   examples: |
     - ĐỐI SỐ
@@ -3932,16 +4367,25 @@ nlu:
     - arguments
     - arg
     - args
+    - Đối số 
+    - Đối Số
+    - Argument
+    - Arguments
 - synonym: recursion
   examples: |
     - ĐỆ QUY 
     - DE QUY 
     - RECURSIONS
     - RECURSION
+    - RECURSIVE
     - đệ quy
     - recursions
     - de quy
     - recursive
+    - Recursion
+    - recursive
+    - Đệ quy
+    - Đệ Quy
 - synonym: 2d-array
   examples: |
     - MẢNG HAI CHIỀU
@@ -5060,7 +5504,7 @@ nlu:
     - WCHAR_T
     - wchar-t
     - Wchar-t
-    - wchar_t
+    - wchar-t
     - Wchar_t
 - synonym: return
   examples: |
