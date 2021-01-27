@@ -313,7 +313,6 @@ nlu:
     - này dume
     - quây
     - lô lô
-    - lô
     - yô
     - yô yô
     - à lô
@@ -3113,10 +3112,10 @@ nlu:
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
     - TẠI SAO PHẢI DÙNG [MẢNG]{"entity": "cpplus_content", "value": "array"}
     - VÌ SAO TÔI LẠI NÊN CHỌN [CPP]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ LÀM NGÔN NGỮ KHỞI ĐẦU VIỆC HỌC LẬP TRÌNH
-    - TẠI SAO [c]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI LÀ NGÔN NGỮ KHỞI ĐẦU CON ĐƯỜNG HỌC LẬP TRÌNH CỦA T V BOT?
-    - NÈ BOT, SAO NHÀ TRƯỜNG LẠI CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ DẠY MÌNH HỌC V, NÓ CÓ ĐIỂM MẠNH GÌ À?
-    - Ê BOT, LÝ DO GÌ MÀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI ĐƯỢC ƯU TIÊN ĐỂ LÀM NGÔN NGỮ LẬP TRÌNH KHỞI ĐẦU TRONG GIẢNG DẠY
-    - YO BOT, VÌ CÁI LZ GÌ MÀ NGƯỜI TA LẠI CHỌN [CPLUSPLUS](cpplus_content) ĐỂ HỌC ĐẦU TIÊN THẾ?
+    - TẠI SAO [C++]{"entity": "cpplus_content", "value": "cplusplus"} LẠI LÀ NGÔN NGỮ KHỞI ĐẦU CON ĐƯỜNG HỌC LẬP TRÌNH CỦA T V BOT?
+    - NÈ BOT, SAO NHÀ TRƯỜNG LẠI CHỌN [C++]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ DẠY MÌNH HỌC V, NÓ CÓ ĐIỂM MẠNH GÌ À?
+    - Ê BOT, LÝ DO GÌ MÀ [C++]{"entity": "cpplus_content", "value": "cplusplus"} LẠI ĐƯỢC ƯU TIÊN ĐỂ LÀM NGÔN NGỮ LẬP TRÌNH KHỞI ĐẦU TRONG GIẢNG DẠY
+    - YO BOT, VÌ CÁI LZ GÌ MÀ NGƯỜI TA LẠI CHỌN [CPLUSPLUS]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ HỌC ĐẦU TIÊN THẾ?
     - NÈ NÈ, VÌ LÝ DO GÌ MÀ T NÊN HỌC [C PLUS PLUS]{"entity": "cpplus_content", "value": "cplusplus"} TRƯỚC?
     - M CHO T MỘT LÝ DO VÌ S T NÊN HỌC [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐƯỢC K BOT?
     - GIẢI THÍCH CHO T VÌ SAO T NÊN ĐẶT NIỀM TIN VÀO [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐI BOT
