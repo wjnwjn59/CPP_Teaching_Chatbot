@@ -1,0 +1,1135 @@
+[
+  {
+    "text": "N\u00d3I CHO TAO BI\u1ebeT C++ L\u00c0 G\u00cc \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 18,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gi\u1ea3i th\u00edch c\u00e1i to\u00e1n t\u1eed ++ xem",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t hay th\u1ea5y ng\u01b0\u1eddi ta x\u00e0i c\u00e1i to\u00e1n t\u1eed ++ \u1ea5y n\u00f3 l\u00e0 g\u00ec v bot",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kh\u00e1i ni\u1ec7m v\u1ec1 \u0111\u1ed1i s\u1ed1 khi ta truy\u1ec1n n\u00f3 v\u00e0o m\u1ed9t h\u00e0m l\u00e0 j",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9938994179386113,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 45,
+        "end": 48,
+        "confidence_entity": 0.9040354906955439,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 argument \u0111\u01b0\u1ee3c truy\u1ec1n v\u00e0o m\u1ed9t h\u00e0m",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9617340117264033,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 44,
+        "end": 47,
+        "confidence_entity": 0.5798752366526424,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "C++ l\u00e0 j ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c++ l\u00e0 g\u00ec v\u1eady?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 c++ ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c++++ l\u00e0 c\u00e1i qu\u00e1i g\u00ec v\u1eady?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh c l\u00e0 j?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0111\u1ecbnh ngh\u0129a c\u1ee7a c++ ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ng\u00f4n ng\u1eef c++ l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i cho tao bi\u1ebft c++ l\u00e0 j \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U S\u1ed0 NGUY\u00caN TRONG C++ V\u1eacY CHATBOT?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9930470759947939,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u k\u00ed t\u1ef1 trong c++",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.5154847608660348,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1eeb kh\u00f3a Static khi \u0111i v\u1edbi m\u1ed9t bi\u1ebfn l\u00e0 gj",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.998633574772322,
+        "value": "static",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9640982338748607,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1eeb kh\u00f3a Static khi \u0111i k\u00e8m v\u1edbi vi\u1ec7c khai b\u00e1o m\u1ed9t bi\u1ebfn l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9986335281354207,
+        "value": "static",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9640304500495125,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Gi\u1ea3i th\u00edch c\u00e1i To\u00e1n t\u1eed ++ xem",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t hay th\u1ea5y ng\u01b0\u1eddi ta x\u00e0i c\u00e1i to\u00e1n t\u1eed ++ \u1ea5y, n\u00f3 l\u00e0 g\u00ec v bot",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c++ l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00f3i cho t\u00f4i bi\u1ebft c\u00e1ch t\u1ea1o m\u1ed9t m\u1ea3ng nh\u01b0 th\u1ebf n\u00e0o kh\u00f4ng",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO C++ L\u1ea0I L\u00c0 NG\u00d4N NG\u1eee KH\u1edeI \u0110\u1ea6U CON \u0110\u01af\u1edcNG H\u1eccC L\u1eacP TR\u00ccNH C\u1ee6A T V BOT?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT, SAO NH\u00c0 TR\u01af\u1edcNG L\u1ea0I CH\u1eccN C++ \u0110\u1ec2 D\u1ea0Y M\u00ccNH H\u1eccC V, N\u00d3 C\u00d3 \u0110I\u1ec2M M\u1ea0NH G\u00cc \u00c0?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, L\u00dd DO G\u00cc M\u00c0 C++ L\u1ea0I \u0110\u01af\u1ee2C \u01afU TI\u00caN \u0110\u1ec2 L\u00c0M NG\u00d4N NG\u1eee L\u1eacP TR\u00ccNH KH\u1edeI \u0110\u1ea6U TRONG GI\u1ea2NG D\u1ea0Y",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M CHO T M\u1ed8T L\u00dd DO V\u00cc S T N\u00caN H\u1eccC C++ \u0110\u01af\u1ee2C K BOT?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 36,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "GI\u1ea2I TH\u00cdCH CHO T V\u00cc SAO T N\u00caN \u0110\u1eb6T NI\u1ec0M TIN V\u00c0O C++ \u0110I BOT",
+    "entities": [
+      {
+        "start": 47,
+        "end": 50,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c3Y CHO T 1 V\u00c0I L\u00dd DO N\u00caN H\u1eccC C++ \u0110I BOT NGU",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M C\u00d3 L\u1edcI BI\u1ec6N H\u1ed8 N\u00c0O CHO VI\u1ec6C V\u00cc SAO L\u1ea0I PH\u1ea2I H\u1eccC C++ TR\u01af\u1edaC M\u00c0 KH\u00d4NG PH\u1ea2I NH\u1eeeNG NG\u00d4N NG\u1eee KH\u00c1C K?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 53,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO C\u00d3 R\u1ea4T NHI\u1ec0U NG\u00d4N NG\u1eee L\u1eacP TR\u00ccNH \u0110ANG HOT HI\u1ec6N NAY NH\u01af PYTHON, JAVASCRIPT, R,... M\u00c0 T L\u1ea0I PH\u1ea2I H\u1eccC C++ TR\u01af\u1edaC V BOT",
+    "entities": [
+      {
+        "start": 106,
+        "end": 109,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "S B\u1ed0 M L\u1ea0I B\u1eca \u00c9P BU\u1ed8C PH\u1ea2I H\u1eccC C++ TR\u01af\u1edaC TI\u00caN V BOT",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 TH\u1ec2 CHO T 1 L\u1edcI GI\u1ea2I TH\u00cdCH V\u00cc SAO L\u1ea0I PH\u1ea2I H\u1eccC C\u00c1I C++ N\u00c0Y TR\u01af\u1edaC THAY V\u00cc L\u00c0 NH\u1eeeNG NG\u00d4N NG\u1eee X\u1ecaN X\u00d2 KH\u00c1C...",
+    "entities": [
+      {
+        "start": 54,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NGO\u00c0I KIA C\u00d3 R\u1ea4T NHI\u1ec0U NG\u00d4N NG\u1eee L\u1eacP TR\u00ccNH KH\u00c1C \u0110\u01af\u1ee2C CHO L\u00c0 PH\u1ed4 BI\u1ebeN V\u00c0 HOT H\u01a0N NH\u01af PYTHON, JS, RUBY,... T\u1ea0I SAO M L\u1ea0I CH\u1eccN C++ \u0110\u1ec2 L\u00c0M BASE ?",
+    "entities": [
+      {
+        "start": 123,
+        "end": 126,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I CH\u1eccN C++ L\u00c0M NG\u00d4N NG\u1eee BASE?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea0I SAO M L\u1ea0I CH\u1eccN C++ \u0110\u1ec2 H\u1eccC NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 CHO T\u00d4I BI\u1ebeT V\u00cc SAO L\u1ea0I CH\u1eccN C++ \u0110\u1ec2 H\u1eccC M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 K\u1ec2 CHO T\u00d4I M\u1ed8T V\u00c0I L\u00dd DO V\u00cc SAO L\u1ea0I N\u00caN CH\u1eccN C++ D\u00d9NG \u0110\u1ec2 D\u1ea0Y M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH CHO \u0110\u1ea0I \u0110A S\u1ed0 C\u00c1C SINH VI\u00caN C\u00d4NG NGH\u1ec6 TH\u00d4NG TIN HI\u1ec6N NAY T\u1ea0I VI\u1ec6T NAM \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 59,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00c8 BOT, SAO T C\u1ee8 PH\u1ea2I X\u00c0I #INCLUDEM\u1ed6I KHI VI\u1ebeT C++ TH\u1ebe, KH\u00d4NG X\u00c0I TH\u00cc SAO",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 CHO T\u00d4I BI\u1ebeT V\u00cc SAO L\u1ea0I CH\u1eccN C++ \u0110\u1ec2 H\u1eccC M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 41,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea0N C\u00d3 TH\u1ec2 K\u1ec2 CHO T\u00d4I M\u1ed8T V\u00c0I L\u00dd DO V\u00cc SAO L\u1ea0I N\u00caN CH\u1eccN C++ D\u00d9NG \u0110\u1ec2 D\u1ea0Y M\u00d4N NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH CHO \u0110\u1ea0I \u0110A S\u1ed0 C\u00c1C SINH VI\u00caN C\u00d4NG NGH\u1ec6 TH\u00d4NG TIN HI\u1ec6N NAY T\u1ea0I VI\u1ec6T NAM \u0110\u01af\u1ee2C KH\u00d4NG?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00e8 bot sao nh\u00e0 tr\u01b0\u1eddng l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 d\u1ea1y m\u00ecnh h\u1ecdc v n\u00f3 c\u00f3 \u0111i\u1ec3m m\u1ea1nh g\u00ec \u00e0?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ea bot l\u00fd do g\u00ec m\u00e0 c++ l\u1ea1i \u0111\u01b0\u1ee3c \u01b0u ti\u00ean \u0111\u1ec3 l\u00e0m ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh kh\u1edfi \u0111\u1ea7u trong gi\u1ea3ng d\u1ea1y",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m cho t m\u1ed9t l\u00fd do v\u00ec s t n\u00ean h\u1ecdc c++ \u0111\u01b0\u1ee3c k bot?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 36,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gi\u1ea3i th\u00edch cho t v\u00ec sao t n\u00ean \u0111\u1eb7t ni\u1ec1m tin v\u00e0o c++ \u0111i bot",
+    "entities": [
+      {
+        "start": 47,
+        "end": 50,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "h\u00e3y cho t 1 v\u00e0i l\u00fd do n\u00ean h\u1ecdc c++ \u0111i bot ngu",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m c\u00f3 l\u1eddi bi\u1ec7n h\u1ed9 n\u00e0o cho vi\u1ec7c v\u00ec sao l\u1ea1i ph\u1ea3i h\u1ecdc c++ tr\u01b0\u1edbc m\u00e0 kh\u00f4ng ph\u1ea3i nh\u1eefng ng\u00f4n ng\u1eef kh\u00e1c k?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 53,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao c\u00f3 r\u1ea5t nhi\u1ec1u ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh \u0111ang hot hi\u1ec7n nay nh\u01b0 python javascript R... m\u00e0 t l\u1ea1i ph\u1ea3i h\u1ecdc c++ tr\u01b0\u1edbc v bot",
+    "entities": [
+      {
+        "start": 103,
+        "end": 106,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "s b\u1ed1 m l\u1ea1i b\u1ecb \u00e9p bu\u1ed9c ph\u1ea3i h\u1ecdc c++ tr\u01b0\u1edbc ti\u00ean v bot",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c\u00f3 th\u1ec3 cho t 1 l\u1eddi gi\u1ea3i th\u00edch v\u00ec sao l\u1ea1i ph\u1ea3i h\u1ecdc c\u00e1i c++ n\u00e0y tr\u01b0\u1edbc thay v\u00ec l\u00e0 nh\u1eefng ng\u00f4n ng\u1eef x\u1ecbn x\u00f2 kh\u00e1c...",
+    "entities": [
+      {
+        "start": 54,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ngo\u00e0i kia c\u00f3 r\u1ea5t nhi\u1ec1u ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh kh\u00e1c \u0111\u01b0\u1ee3c cho l\u00e0 ph\u1ed5 bi\u1ebfn v\u00e0 hot h\u01a1n nh\u01b0 python js ruby... t\u1ea1i sao m l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 l\u00e0m base ?",
+    "entities": [
+      {
+        "start": 120,
+        "end": 123,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i ch\u1ecdn c++ l\u00e0m ng\u00f4n ng\u1eef base?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao m l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 h\u1ecdc nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u1ea1n c\u00f3 th\u1ec3 cho t\u00f4i bi\u1ebft v\u00ec sao l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 h\u1ecdc m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "b\u1ea1n c\u00f3 th\u1ec3 k\u1ec3 cho t\u00f4i m\u1ed9t v\u00e0i l\u00fd do v\u00ec sao l\u1ea1i n\u00ean ch\u1ecdn c++ d\u00f9ng \u0111\u1ec3 d\u1ea1y m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh cho \u0111\u1ea1i \u0111a s\u1ed1 c\u00e1c sinh vi\u00ean c\u00f4ng ngh\u1ec7 th\u00f4ng tin hi\u1ec7n nay t\u1ea1i vi\u1ec7t nam \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 59,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i n\u00ean d\u00f9ng vector h\u01a1n l\u00e0 m\u1ea3ng?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9830448028823544,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.6745065090114942,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao l\u1ea1i n\u00ean h\u1ecdc th\u01b0 vi\u1ec7n vector v? x\u00e0i array l\u00e0 \u1ed5n r\u1ed3i m\u00e0?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9779480105967359,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.8754313102175703,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sai ph\u1ea3i h\u1ecdc c++ v\u1eady",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "v\u00ec sao ph\u1ea3i h\u1ecdc c++?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00ec sao ph\u1ea3i h\u1ecdc c++?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao ph\u1ea3i h\u1ecdc c++?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao t n\u00ean ch\u1ecdn c++ \u0111\u1ec3 h\u1ecdc l\u1eadp tr\u00ecnh?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea1i sao ph\u1ea3i d\u00f9ng m\u1ea3ngm\u1ea3ng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao c++ l\u1ea1i l\u00e0 ng\u00f4n ng\u1eef kh\u1edfi \u0111\u1ea7u con \u0111\u01b0\u1eddng h\u1ecdc l\u1eadp tr\u00ecnh c\u1ee7a t v bot?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00e8 bot, sao nh\u00e0 tr\u01b0\u1eddng l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 d\u1ea1y m\u00ecnh h\u1ecdc v, n\u00f3 c\u00f3 \u0111i\u1ec3m m\u1ea1nh g\u00ec \u00e0?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ea bot, l\u00fd do g\u00ec m\u00e0 c++ l\u1ea1i \u0111\u01b0\u1ee3c \u01b0u ti\u00ean \u0111\u1ec3 l\u00e0m ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh kh\u1edfi \u0111\u1ea7u trong gi\u1ea3ng d\u1ea1y",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M cho t m\u1ed9t l\u00fd do v\u00ec s t n\u00ean h\u1ecdc c++ \u0111\u01b0\u1ee3c k bot?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 36,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00e3y cho t 1 v\u00e0i l\u00fd do n\u00ean h\u1ecdc c++ \u0111i bot ngu",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao c\u00f3 r\u1ea5t nhi\u1ec1u ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh \u0111ang hot hi\u1ec7n nay nh\u01b0 python, javascript, R,... m\u00e0 t l\u1ea1i ph\u1ea3i h\u1ecdc c++ tr\u01b0\u1edbc v bot",
+    "entities": [
+      {
+        "start": 106,
+        "end": 109,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "S b\u1ed1 m l\u1ea1i b\u1ecb \u00e9p bu\u1ed9c ph\u1ea3i h\u1ecdc c++ tr\u01b0\u1edbc ti\u00ean v bot",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00f3 th\u1ec3 cho t 1 l\u1eddi gi\u1ea3i th\u00edch v\u00ec sao l\u1ea1i ph\u1ea3i h\u1ecdc c\u00e1i c++ n\u00e0y tr\u01b0\u1edbc thay v\u00ec l\u00e0 nh\u1eefng ng\u00f4n ng\u1eef x\u1ecbn x\u00f2 kh\u00e1c...",
+    "entities": [
+      {
+        "start": 54,
+        "end": 57,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ngo\u00e0i kia c\u00f3 r\u1ea5t nhi\u1ec1u ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh kh\u00e1c \u0111\u01b0\u1ee3c cho l\u00e0 ph\u1ed5 bi\u1ebfn v\u00e0 hot h\u01a1n nh\u01b0 python, js, ruby,... t\u1ea1i sao m l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 l\u00e0m base ?",
+    "entities": [
+      {
+        "start": 123,
+        "end": 126,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "B\u1ea1n c\u00f3 th\u1ec3 cho t\u00f4i bi\u1ebft v\u00ec sao l\u1ea1i ch\u1ecdn c++ \u0111\u1ec3 h\u1ecdc m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea1i sao l\u1ea1i c\u00f3 ki\u1ec3u k\u00ed t\u1ef1 v bot ngu \u00f3c c\u1ee9t?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.9752027678799879,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao l\u1ea1i n\u00ean d\u00f9ng Vector h\u01a1n l\u00e0 Array?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9831247692284851,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.6377827137750487,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao ph\u1ea3i d\u00f9ng h\u00e0m",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TAO MU\u1ed0N \u00d4N T\u1eacP V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed8T S\u1ed0 B\u00c0I \u00d4N T\u1eacP V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tao mu\u1ed1n \u00f4n t\u1eadp v\u1ec1 c++",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m\u1ed9t s\u1ed1 b\u00e0i \u00f4n t\u1eadp v\u1ec1 c++",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
