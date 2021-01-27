@@ -395,7 +395,12 @@ class AnswerCppDefineQuestion(Action):
             'main-function': 'Main function (Tạm dịch: Hàm main) trong C++ là một trường hợp của hàm, đây là nơi sẽ được thực thi đầu tiên khi chạy một chương trình C++.',
             'built-in-function': '''Built in functions (Tạm dịch: Hàm dựng sẵn) hay còn có tên gọi khác là Library functions, là các hàm ta có thể gọi nó trực tiếp mà không cần phải khai báo và định nghĩa chúng bởi vì chúng đã được viết sẵn trong các thư viện của C++ như thư viện stdio.h, iostream,...''',
             'lambda':'''Lambda function (Tạm dịch: Hàm vô danh) là hàm dùng để truyền vào 1 hàm khác và sử dụng 1 lần.''',
-            'flowchart':'''Lưu đồ thuật toán (Flowchart) là một loại sơ đồ biểu diễn một thuật toán hoặc một quá trình, biểu hiện các bước công việc dưới dạng các loại hình hôp khác nhau theo thứ tự được biểu diễn bởi các mũi tên. Sơ đồ này có thể thể hiện giải pháp cho vấn đề cần giải quyết từng bước từng bước một. Các bước quá trình được hiển thị dưới dạng các hình hộp được nối với nhau bằng các mũi tên để thể hiện dòng điều khiển.'''
+            'flowchart':'''Lưu đồ thuật toán (Flowchart) là một loại sơ đồ biểu diễn một thuật toán hoặc một quá trình, biểu hiện các bước công việc dưới dạng các loại hình hôp khác nhau theo thứ tự được biểu diễn bởi các mũi tên. Sơ đồ này có thể thể hiện giải pháp cho vấn đề cần giải quyết từng bước từng bước một. Các bước quá trình được hiển thị dưới dạng các hình hộp được nối với nhau bằng các mũi tên để thể hiện dòng điều khiển.''',
+            'introduction-to-programming': '''Nhập môn lập trình (Introduction to programming) là một môn học về tin học-lập trình gần như là bắt buộc đối với tất cả các sinh viên chuyên ngành về Công nghệ thông tin.
+            Đây là một môn học nền tảng, cho ta những khái niệm sơ khai về lập trình, các kiến thức chung nhất của một ngôn ngữ lập trình và đặc biệt là cho ta kĩ năng tư duy, giải quyết vấn đề trong lập trình nói chung.
+            Môn học này thường sẽ được học ngay từ năm nhất đại học, và thông thường các trường sẽ lấy ngôn ngữ C/C++ để giảng dạy (có một số trường lựa chọn ngôn ngữ lập trình khác C#, Java, Python,...''',
+            'cout': '''Cout là một đối tượng thuộc class ostream (kiến thức OOP) trong C++. Nó thường được sử dụng để hiển thị kết quả lên các thiết bị đầu ra của máy tính như màn hình, speaker,...(mình thường tiếp xúc với việc in kết quả lên màn hình).''',
+            'cin': '''Cin là một đối tượng thuộc class istream (kiến thức OOP) trong C++. Nó thường sử dụng để nhận các giá trị đầu vào từ các thiết bị đầu vào của máy tính như bàn phím, micro,...'''
         }
 
         # Dict for answer why
@@ -487,7 +492,10 @@ class AnswerCppDefineQuestion(Action):
             'return-type': 'Giả sử ta khai báo một hàm kiểu int thì khi thực hiện lời gọi hàm, hàm này chắc chắn sẽ trả về một giá trị int.',
             'inline-function': 'Việc sử dụng Inline function (Hàm nội tuyến) sẽ giúp ta:\n1. Tiết kiệm chi phí gọi hàm.\n2. Tiết kiệm chi phí của các biến trên ngăn xếp khi hàm được gọi.\n3. Tiết kiệm chi phí cuộc gọi trả về từ một hàm.\n4. Có thể đặt định nghĩa hàm nội tuyến (inline functions) trong file tiêu đề (*.h) (nghĩa là nó có thể được include trong nhiều đơn vị biên dịch, hàm thông thường sẽ gây ra lỗi).',
             'lambda':'Lợi ích của lambda là không nhất thiết phải khai báo tên hàm ở 1 nơi khác, mà có thể tạo ngay 1 hàm (dùng 1 lần hay hiểu chính xác hơn là chỉ có 1 chỗ gọi 1 số tác vụ nhỏ). Như vậy sẽ giảm được thời gian khai báo 1 hàm.',
-            'flowchart': '''Việc sử dụng lưu đồ thuật toán (flowchart) sẽ giúp ta tổ chức chương trình một cách hiệu quả hơn, diễn đạt thuật toán một cách lưu loát, dễ hiểu hơn,...'''
+            'flowchart': '''Việc sử dụng lưu đồ thuật toán (flowchart) sẽ giúp ta tổ chức chương trình một cách hiệu quả hơn, diễn đạt thuật toán một cách lưu loát, dễ hiểu hơn,...''',
+            'introduction-to-programming':'''Việc học môn Nhập môn lập trình sẽ cho bạn có những kiến thức nền tảng về lập trình như: Các kĩ năng tư duy, giải quyết vấn đề trong lập trình, các lý thuyết chung nhất mà bất kể mọi ngôn ngữ lập trình nào cũng có,...''',
+            'cout':''' ''',
+            'cin':''' '''
         }
 
         all_answers_how = {
@@ -807,7 +815,11 @@ class AnswerCppDefineQuestion(Action):
             _ Hình bình hành: Nhập/Xuất
             _ Hình chữ nhật: Xử lý/Tính toán/Gán
             _ Hình mũi tên rẽ trái: Trả về (return)
-            _ Hình tròn: Điểm kết nối'''
+            _ Hình tròn: Điểm kết nối''',
+            'introduction-to-programming':'''Để có thể đạt điểm cao/qua môn với môn Nhập môn lập trình này, cần phải xác định trước với bản thân mình rằng môn học này khác biệt hoàn toàn so với các môn học khác ta từng được học, và nó là một cực kì quan trọng đối với các lập trình viên chúng ta bởi vì nó sẽ là nền móng vững chắc để có thể học tiếp các môn học về sau.
+            Đặc biệt là với đặc thù của môn học này, ta luôn cần phải trau dồi kĩ năng qua việc làm các bài tập lớn/nhỏ ở trên lớp, đồng thời phải luôn cố gắng tìm tòi thêm trên internet về các kiến thức liên quan đến bài học chứ không nên chỉ bám vào giáo trình trên giảng đường đơn thuần.''',
+            'cout':''' ''',
+            'cin':''' '''
         }
 
         all_answers_example = {
@@ -1897,7 +1909,10 @@ class AnswerCppDefineQuestion(Action):
                 [=](){int sum = a + b; cout << sum << endl;}(); // Đây là hàm lambda
                 return 0;
             }''',
-            'flowchart':''' '''
+            'flowchart':''' ''',
+            'introduction-to-programming':''' ''',
+            'cout':''' ''',
+            'cin':''' '''
         }
 
         all_answers_when = {
@@ -1987,7 +2002,10 @@ class AnswerCppDefineQuestion(Action):
             'main-function': ''' ''',
             'built-in-function': ''' ''',
             'lambda': ''' ''',
-            'flowchart':''' '''
+            'flowchart':''' ''',
+            'introduction-to-programming':''' ''',
+            'cout':''' ''',
+            'cin':''' '''
         }
 
         all_answers_where = {
@@ -2077,7 +2095,10 @@ class AnswerCppDefineQuestion(Action):
             'main-function': ''' ''',
             'built-in-function': ''' ''',
             'lambda': ''' ''',
-            'flowchart':''' '''
+            'flowchart':''' ''',
+            'introduction-to-programming':''' ''',
+            'cout':''' ''',
+            'cin':''' '''
         }
 
         cpp_content_answer = " "
@@ -2345,7 +2366,9 @@ class ValidateCppContentForm(FormValidationAction):
                 'main-function',
                 'built-in-function',
                 'lambda',
-                'flowchart']
+                'flowchart',
+                'cout',
+                'cin']
 
     def validate_cpp_content(
         self,
