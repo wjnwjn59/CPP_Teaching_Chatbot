@@ -210,7 +210,7 @@ class FlowChartPractice(Action):
             except:
                 flowchart_question_answer = response['data'][random.randint(1,50)]['images']['original']['url']
                 dispatcher.utter_message(text='Sorry this service is not available')
-                dispatcher.utter_message(image=flowchart_question_answer)        
+     
         
         return [SlotSet("flowchart_answer", flowchart_question_answer if flowchart_question_answer is not None else [])]
 
