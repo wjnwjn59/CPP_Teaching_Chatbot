@@ -398,7 +398,7 @@ class AnswerCppDefineQuestion(Action):
             'flowchart':'''Lưu đồ thuật toán (Flowchart) là một loại sơ đồ biểu diễn một thuật toán hoặc một quá trình, biểu hiện các bước công việc dưới dạng các loại hình hôp khác nhau theo thứ tự được biểu diễn bởi các mũi tên. Sơ đồ này có thể thể hiện giải pháp cho vấn đề cần giải quyết từng bước từng bước một. Các bước quá trình được hiển thị dưới dạng các hình hộp được nối với nhau bằng các mũi tên để thể hiện dòng điều khiển.''',
             'introduction-to-programming': '''Nhập môn lập trình (Introduction to programming) là một môn học về tin học-lập trình gần như là bắt buộc đối với tất cả các sinh viên chuyên ngành về Công nghệ thông tin.
             Đây là một môn học nền tảng, cho ta những khái niệm sơ khai về lập trình, các kiến thức chung nhất của một ngôn ngữ lập trình và đặc biệt là cho ta kĩ năng tư duy, giải quyết vấn đề trong lập trình nói chung.
-            Môn học này thường sẽ được học ngay từ năm nhất đại học, và thông thường các trường sẽ lấy ngôn ngữ C/C++ để giảng dạy (có một số trường lựa chọn ngôn ngữ lập trình khác C#, Java, Python,...''',
+            Môn học này thường sẽ được học ngay từ năm nhất đại học, và thông thường các trường sẽ lấy ngôn ngữ C/C++ để giảng dạy (có một số trường lựa chọn ngôn ngữ lập trình khác C#, Java, Python,...)''',
             'cout': '''Cout là một đối tượng thuộc class ostream (kiến thức OOP) trong C++. Nó thường được sử dụng để hiển thị kết quả lên các thiết bị đầu ra của máy tính như màn hình, speaker,...(mình thường tiếp xúc với việc in kết quả lên màn hình).''',
             'cin': '''Cin là một đối tượng thuộc class istream (kiến thức OOP) trong C++. Nó thường sử dụng để nhận các giá trị đầu vào từ các thiết bị đầu vào của máy tính như bàn phím, micro,...'''
         }
@@ -2367,6 +2367,7 @@ class ValidateCppContentForm(FormValidationAction):
                 'built-in-function',
                 'lambda',
                 'flowchart',
+                'introduction-to-programming'
                 'cout',
                 'cin']
 
