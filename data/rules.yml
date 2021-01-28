@@ -70,6 +70,7 @@ rules:
   wait_for_user_input: false
 
 - rule: greeting
+  conversation_start: true
   steps:
   - intent: greet 
   - action: utter_greet
