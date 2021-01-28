@@ -2180,7 +2180,7 @@ class AnswerCppDefineQuestion(Action):
             'pass-by-reference': '''https://youtu.be/gxkJ_swJveg''',
             'return': '''https://youtu.be/TTaEvxGEGG0''',
             'return-type': '''https://youtu.be/TTaEvxGEGG0''',
-            'const-reference': '''''',
+            'const-reference': ''' ''',
             'inline-function': '''https://youtu.be/TTaEvxGEGG0''',
             'default-value': '''https://youtu.be/TTaEvxGEGG0''',
             'main-function': '''https://youtu.be/m-fT5o44Axw''',
