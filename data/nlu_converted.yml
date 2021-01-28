@@ -628,7 +628,6 @@ nlu:
     - Good bye 
 - intent: affirm
   examples: |
-    - Ok tks
     - Được rồi mình cảm ơn
     - yes
     - indeed
@@ -1656,7 +1655,6 @@ nlu:
     - hôm nay ngày mấy?
     - thời tiết hôm nay là gì
     - thời tiết hôm nay tại thủ đức
-    - ?
     - cho hỏi mấy giờ rồi
     - t đánh mày bây giờ
     - cho tui hỏi các kiếm người yêu
@@ -1773,6 +1771,10 @@ nlu:
     - thuật toán sắp xếp 
     - cấu trúc dữ liệu và giải thuật 
     - fix bug giúp tao với 
+    - c++ 
+    - comment 
+    - mảng 
+    - hàm 
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -2910,7 +2912,8 @@ nlu:
     - tôi không biết làm sao để tạo một [MẢNG]{"entity": "cpplus_content", "value": "array"}
     - Tạo [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì vậy ?
     - Tạo [mảng]{"entity": "cpplus_content", "value": "array"} kiểu quái gì zị ?
-    - tạo ra [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì tđn v bot?
+    - tạo ra [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì vậy ?
+    - Tạo ra một [mảng]{"entity": "cpplus_content", "value": "array"} làm như thế nào vậy ??
     - làm thế quái nào để tạo ra một [array]{"entity": "cpplus_content", "value": "array"} v?
     - ê làm sao để t tạo thêm 1 một [array]{"entity": "cpplus_content", "value": "array"} đây?
     - Làm thế nào để tạo ra được [Array]{"entity": "cpplus_content", "value": "array"} v?
@@ -3537,7 +3540,6 @@ nlu:
     - Tại sao phải dùng [vector]{"entity": "cpplus_content", "value": "vector"}
     - Vì sao phải sử dụng [hàm]{"entity": "cpplus_content", "value": "function"}
     - Nói nghe tại sao phải sử dụng [hàm]{"entity": "cpplus_content", "value": "function"} vậy bot ơi ? 
-    - Vì sao [hàm]{"entity": "cpplus_content", "value": "function"} lại nên sử dụng khi code vậy?
     - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} vậy ta ?
     - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
     - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
@@ -4114,7 +4116,7 @@ nlu:
     - câu số [21](flowchart_quest_num) lưu đồ đáp án là gì vậy 
     - đáp án câu số [7](flowchart_quest_num) là gì 
     - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
-    - bài tập [1](flowchart_quest_num)
+    - Bài tập [3](flowchart_quest_num) đi bot
     - bài tập [2](flowchart_quest_num)
     - câu [1](flowchart_quest_num)
     - Câu số [100](flowchart_quest_num)
