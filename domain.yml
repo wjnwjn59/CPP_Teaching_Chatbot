@@ -1,3 +1,4 @@
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
@@ -154,9 +155,9 @@ responses:
       trong thời gian sớm nhất <3
   utter_reply_out_of_scope:
   - buttons:
-    - payload: continue_asking
+    - payload: "/continue_asking"
       title: Hỏi lại
-    - payload: stop_asking
+    - payload: "/stop_asking"
       title: Không hỏi
     text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ!
   utter_greet:
