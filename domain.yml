@@ -1,3 +1,4 @@
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
@@ -169,13 +170,6 @@ responses:
       trình với ngôn ngữ C++!
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
       ngữ C++
-  - buttons: 
-    - payload: want_to_ask
-      title: Hỏi các kiên thức về C++ 
-    - payload: flowchart_asking
-      title: Hỏi về lưu đồ thuật toán  
-    - payload: cpp_practice
-      title: Hỏi về các bài tập củng cố kiến thức 
   utter_accept_questions:
   - text: Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++
   - text: Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++
