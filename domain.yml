@@ -187,11 +187,11 @@ responses:
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
       ngữ C++
   - buttons: 
-    - payload: "Cho mình hỏi cái này xí đi"
+    - payload: want_to_ask
       title: Hỏi các kiên thức về C++ 
-    - payload: "Cho mình hỏi về bài tập lưu đồ thuật toán"
+    - payload: flowchart_asking
       title: Hỏi về lưu đồ thuật toán  
-    - payload: "Cho mình xin các bài tập về C++ đi bạn"
+    - payload: cpp_practice
       title: Hỏi về các bài tập củng cố kiến thức 
   utter_accept_questions:
   - text: Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++
