@@ -1772,10 +1772,6 @@ nlu:
     - thuật toán sắp xếp 
     - cấu trúc dữ liệu và giải thuật 
     - fix bug giúp tao với 
-    - c++ 
-    - comment 
-    - mảng 
-    - hàm 
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
