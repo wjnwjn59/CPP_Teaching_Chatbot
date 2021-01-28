@@ -171,11 +171,11 @@ responses:
       ngữ C++
   - buttons: 
     - title: Hỏi các kiên thức về C++ 
-      payload: "Cho mình hỏi cái này xí đi"
+    - payload: "Cho mình hỏi cái này xí đi"
     - title: Hỏi về lưu đồ thuật toán  
-      payload: "Cho mình hỏi về bài tập lưu đồ thuật toán"
+    - payload: "Cho mình hỏi về bài tập lưu đồ thuật toán"
     - title: Hỏi về các bài tập củng cố kiến thức 
-      payload: "Cho mình xin các bài tập về C++ đi bạn"
+    - payload: "Cho mình xin các bài tập về C++ đi bạn"
   utter_accept_questions:
   - text: Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++
   - text: Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++
