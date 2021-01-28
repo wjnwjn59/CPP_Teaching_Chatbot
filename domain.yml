@@ -169,7 +169,7 @@ responses:
       trình với ngôn ngữ C++!
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
       ngữ C++
-    button: 
+  - buttons: 
     - title: Hỏi các kiên thức về C++ 
       payload: "Cho mình hỏi cái này xí đi"
     - title: Hỏi về lưu đồ thuật toán  
