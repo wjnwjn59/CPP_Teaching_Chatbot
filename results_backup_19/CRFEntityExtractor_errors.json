@@ -7,7 +7,7 @@
         "entity": "cpplus_content",
         "start": 24,
         "end": 25,
-        "confidence_entity": 0.8494066338789071,
+        "confidence_entity": 0.8377311928468607,
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -24,8 +24,59 @@
         "entity": "cpplus_content",
         "start": 24,
         "end": 25,
-        "confidence_entity": 0.8267085037000008,
+        "confidence_entity": 0.8361188273899838,
         "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "c++",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.5768005325484575,
+        "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "comment",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9490543720681165,
+        "value": "comment",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "m\u1ea3ng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5432527043861299,
+        "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
           "EntitySynonymMapper"
@@ -48,7 +99,7 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
-        "confidence_entity": 0.9935586139978134,
+        "confidence_entity": 0.9924574170866747,
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -59,7 +110,7 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
-        "confidence_entity": 0.8036995436722185,
+        "confidence_entity": 0.8234443917353917,
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -75,6 +126,18 @@
         "start": 25,
         "end": 32,
         "value": "wchar-t",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "review cho t 1 ch\u00fat v\u1ec1 m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111i bot",
+    "entities": [
+      {
+        "start": 27,
+        "end": 45,
+        "value": "introduction-to-programming",
         "entity": "cpplus_content"
       }
     ],
@@ -119,7 +182,7 @@
         "entity": "cpplus_content",
         "start": 13,
         "end": 19,
-        "confidence_entity": 0.9969534198657545,
+        "confidence_entity": 0.9959369323113796,
         "value": "argument",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -130,7 +193,7 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 48,
-        "confidence_entity": 0.8339639469953188,
+        "confidence_entity": 0.8097072951773941,
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -140,39 +203,58 @@
     ]
   },
   {
-    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 argument \u0111\u01b0\u1ee3c truy\u1ec1n v\u00e0o m\u1ed9t h\u00e0m",
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 j v\u1eady bot ?",
     "entities": [
       {
-        "start": 15,
-        "end": 23,
-        "value": "argument",
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
         "entity": "cpplus_content"
       }
     ],
     "predicted_entities": [
       {
         "entity": "cpplus_content",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9427384851677756,
-        "value": "argument",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "cpplus_content",
-        "start": 44,
-        "end": 47,
-        "confidence_entity": 0.5208009434982362,
-        "value": "function",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.5034585677357422,
+        "value": "thu\u1eadt to\u00e1n",
+        "extractor": "CRFEntityExtractor"
       }
     ]
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 sao v\u1eady bot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.5034598951476835,
+        "value": "thu\u1eadt to\u00e1n",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "bi\u1ebfn ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
   },
   {
     "text": "to\u00e1n t\u1eed",
@@ -184,16 +266,7 @@
         "entity": "cpplus_content"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "cpplus_content",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.5098737631124719,
-        "value": "to\u00e1n",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
+    "predicted_entities": []
   },
   {
     "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
@@ -220,12 +293,57 @@
     "predicted_entities": []
   },
   {
+    "text": "h\u00e3y cho t\u1edb bi\u1ebft th\u1ebf n\u00e0o l\u00e0 1 s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n ???",
+    "entities": [
+      {
+        "start": 29,
+        "end": 45,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 g\u00ec v\u1eady bot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.5034748616281381,
+        "value": "thu\u1eadt to\u00e1n",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
     "text": "th\u1ebf n\u00e0o l\u00e0 C++ ?",
     "entities": [
       {
         "start": 11,
         "end": 12,
         "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "th\u1ebf n\u00e0o l\u00e0 1 bi\u1ebfn?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "variable",
         "entity": "cpplus_content"
       }
     ],
@@ -246,7 +364,7 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
-        "confidence_entity": 0.9909515918482934,
+        "confidence_entity": 0.9870365674851229,
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -257,7 +375,7 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
-        "confidence_entity": 0.655272184412053,
+        "confidence_entity": 0.6123107884184821,
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -293,7 +411,7 @@
         "entity": "cpplus_content",
         "start": 16,
         "end": 25,
-        "confidence_entity": 0.9918632218908036,
+        "confidence_entity": 0.9883137228143127,
         "value": "integer",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -317,7 +435,7 @@
         "entity": "cpplus_content",
         "start": 11,
         "end": 21,
-        "confidence_entity": 0.5663973570383706,
+        "confidence_entity": 0.5547882213111369,
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -341,7 +459,7 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
-        "confidence_entity": 0.999427142867598,
+        "confidence_entity": 0.9996049105765544,
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -352,7 +470,7 @@
         "entity": "cpplus_content",
         "start": 30,
         "end": 34,
-        "confidence_entity": 0.9254553012106379,
+        "confidence_entity": 0.9329116286539523,
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -376,7 +494,7 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
-        "confidence_entity": 0.9994271386909119,
+        "confidence_entity": 0.9996049033367722,
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -387,7 +505,7 @@
         "entity": "cpplus_content",
         "start": 48,
         "end": 52,
-        "confidence_entity": 0.9253759276473701,
+        "confidence_entity": 0.9328444151818542,
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -411,7 +529,7 @@
         "entity": "cpplus_content",
         "start": 16,
         "end": 22,
-        "confidence_entity": 0.9994838371430368,
+        "confidence_entity": 0.9996195802926698,
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -422,7 +540,7 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 49,
-        "confidence_entity": 0.518261398670348,
+        "confidence_entity": 0.532741837511844,
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -482,7 +600,7 @@
         "entity": "cpplus_content",
         "start": 37,
         "end": 48,
-        "confidence_entity": 0.9697594565643841,
+        "confidence_entity": 0.9716010270308281,
         "value": "return-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -493,7 +611,7 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 58,
-        "confidence_entity": 0.9994245002712893,
+        "confidence_entity": 0.9992390961650434,
         "value": "recursion",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -503,7 +621,7 @@
     ]
   },
   {
-    "text": "t\u1ea1o ra m\u1ea3ng ki\u1ec3u g\u00ec t\u0111n v bot?",
+    "text": "t\u1ea1o ra m\u1ea3ng ki\u1ec3u g\u00ec v\u1eady ?",
     "entities": [
       {
         "start": 7,
@@ -529,7 +647,7 @@
         "entity": "cpplus_content",
         "start": 36,
         "end": 48,
-        "confidence_entity": 0.6050497158844779,
+        "confidence_entity": 0.5191536481724369,
         "value": "data-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -540,7 +658,7 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 56,
-        "confidence_entity": 0.9890787656029726,
+        "confidence_entity": 0.9884847513532565,
         "value": "long",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -598,6 +716,18 @@
     "predicted_entities": []
   },
   {
+    "text": "T\u1ea0I SAO c++ L\u1ea0I L\u00c0 NG\u00d4N NG\u1eee KH\u1edeI \u0110\u1ea6U CON \u0110\u01af\u1edcNG H\u1eccC L\u1eacP TR\u00ccNH C\u1ee6A T V BOT?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
     "text": "N\u00c8 BOT, SAO T C\u1ee8 PH\u1ea2I X\u00c0I #INCLUDEM\u1ed6I KHI VI\u1ebeT C++ TH\u1ebe, KH\u00d4NG X\u00c0I TH\u00cc SAO",
     "entities": [
       {
@@ -617,7 +747,7 @@
         "entity": "cpplus_content",
         "start": 19,
         "end": 20,
-        "confidence_entity": 0.9484605798535475,
+        "confidence_entity": 0.9605181265704628,
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -634,7 +764,7 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 9,
-        "confidence_entity": 0.7080843402099071,
+        "confidence_entity": 0.5499264280081425,
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -658,7 +788,7 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 26,
-        "confidence_entity": 0.9798676393155482,
+        "confidence_entity": 0.9812233173321125,
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -669,7 +799,7 @@
         "entity": "cpplus_content",
         "start": 34,
         "end": 38,
-        "confidence_entity": 0.7702983569307505,
+        "confidence_entity": 0.7329868709135243,
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -693,7 +823,7 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 49,
-        "confidence_entity": 0.9976182023807091,
+        "confidence_entity": 0.997932549869872,
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -704,7 +834,7 @@
         "entity": "cpplus_content",
         "start": 73,
         "end": 77,
-        "confidence_entity": 0.6351291059799896,
+        "confidence_entity": 0.6230068005635883,
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -728,7 +858,7 @@
         "entity": "cpplus_content",
         "start": 29,
         "end": 35,
-        "confidence_entity": 0.9789903648604964,
+        "confidence_entity": 0.9774216495798338,
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -739,7 +869,7 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 48,
-        "confidence_entity": 0.8690757627490265,
+        "confidence_entity": 0.8553409297348876,
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -763,7 +893,7 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 25,
-        "confidence_entity": 0.9520985300828418,
+        "confidence_entity": 0.9488697199597017,
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -787,7 +917,7 @@
         "entity": "cpplus_content",
         "start": 21,
         "end": 27,
-        "confidence_entity": 0.9762923464078109,
+        "confidence_entity": 0.9772721808788931,
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -798,7 +928,7 @@
         "entity": "cpplus_content",
         "start": 35,
         "end": 40,
-        "confidence_entity": 0.5924096767827632,
+        "confidence_entity": 0.5519689046198362,
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -808,50 +938,6 @@
     ]
   },
   {
-    "text": "Sao tao ph\u1ea3i ng\u1ed3i h\u1ecdc [To\u00e1n t\u1eed ba ng\u00f4i]- t\u1ea1i sao l\u1ea1i ph\u1ea3i h\u1ecdc ternary operator v, nh\u00ecn ph\u1ee9c t\u1ea1p v\u00e3i loz",
-    "entities": [
-      {
-        "start": 62,
-        "end": 78,
-        "value": "ternary-operator",
-        "entity": "cpplus_content"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "cpplus_content",
-        "start": 23,
-        "end": 27,
-        "confidence_entity": 0.533304368416713,
-        "value": "To\u00e1n",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "cpplus_content",
-        "start": 62,
-        "end": 78,
-        "confidence_entity": 0.9931799001948832,
-        "value": "ternary-operator",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "V\u00ec sao h\u00e0m l\u1ea1i n\u00ean s\u1eed d\u1ee5ng khi code v\u1eady?",
-    "entities": [
-      {
-        "start": 7,
-        "end": 10,
-        "value": "function",
-        "entity": "cpplus_content"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
     "text": "Luy\u1ec7n t\u1eadp v\u1ec1 flowchart",
     "entities": [],
     "predicted_entities": [
@@ -859,7 +945,7 @@
         "entity": "cpplus_content",
         "start": 13,
         "end": 22,
-        "confidence_entity": 0.783565889286156,
+        "confidence_entity": 0.7536249796121807,
         "value": "flowchart",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -867,17 +953,5 @@
         ]
       }
     ]
-  },
-  {
-    "text": "b\u00e0i t\u1eadp 1",
-    "entities": [
-      {
-        "start": 8,
-        "end": 9,
-        "value": "1",
-        "entity": "flowchart_quest_num"
-      }
-    ],
-    "predicted_entities": []
   }
 ]

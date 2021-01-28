@@ -1,11 +1,4 @@
 {
-  "cpplus_content": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2845,
-    "confused_with": {}
-  },
   "CPPLUS_CONTENT": {
     "precision": 0.0,
     "recall": 0.0,
@@ -18,6 +11,13 @@
     "recall": 0.06862745098039216,
     "f1-score": 0.12280701754385966,
     "support": 102,
+    "confused_with": {}
+  },
+  "cpplus_content": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2845,
     "confused_with": {}
   },
   "micro avg": {
