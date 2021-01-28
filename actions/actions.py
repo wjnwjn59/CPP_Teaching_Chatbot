@@ -2372,7 +2372,7 @@ class ValidateCppContentForm(FormValidationAction):
                 'flowchart',
                 'cout',
                 'cin']
-
+                
     def validate_cpp_content(
         self,
         slot_value: Any,

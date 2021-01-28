@@ -1622,6 +1622,7 @@ nlu:
     - Cho mình hỏi cái này xí
     - Cho mình hỏi cái này xí nha
     - Hỏi tí được không
+    - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
     - donald trump 
@@ -1771,10 +1772,6 @@ nlu:
     - thuật toán sắp xếp 
     - cấu trúc dữ liệu và giải thuật 
     - fix bug giúp tao với 
-    - c++ 
-    - comment 
-    - mảng 
-    - hàm 
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -3827,6 +3824,105 @@ nlu:
     - what exactly are you?
     - mày là con cặc gì vậy
     - Bạn là ai
+- intent: want_to_practice_cpp
+  examples: |
+    - TAO MUỐN ĐC ÔN TẬP CPP
+    - BỐ M MUỐN DC ÔN TẬP CÁC BÀI VỀ C++
+    - T MUỐN DC ÔN BÀI VỀ C++ 
+    - CHO T ÔN TẬP 1 SỐ BÀI VỀ C++ 
+    - HÃY GỬI CHO T 1 SỐ BÀI TẬP VỀ C++
+    - HÃY CHO TAO 1 SỐ CÁC CÁI BÀI TẬP VỀ C 
+    - CHO T 1 SỐ BÀI ÔN LUYỆN NHẬP MÔN LẬP TRÌNH
+    - BÀI TẬP NMLT
+    - BÀI ÔN NMLT
+    - ÔN TẬP GIỮA KỲ C++ 
+    - ÔN TẬP CUỐI KỲ C++ 
+    - ÔN CUỐI KỲ NMLT
+    - LÀM BÀI TẬP NMLT
+    - CÀY BÀI TẬP NMLT
+    - LUYỆN BÀI TẬP NMLT 
+    - CÀY CÁC CÁI BÀI TOÁN VỀ NMLT
+    - CÀY BÀI C/C++ 
+    - LUYỆN TẬP BÀI TẬP NMLT C++ 
+    - TRAU DỒI KĨ THUẬT LÀM BÀI C++ 
+    - GỬI TÔI BÀI C++ NMLT 
+    - GỬI CHO TÔI 1 SỐ CÁC CÁI CÂU HỎI LIÊN QUAN ĐẾN C++ ĐÊ 
+    - Ê BOT GỬI T 1 VÀI CÂU CODE C++ LÀM CHƠI COI NÀO 
+    - LÀM BÀI CODE C++
+    - LUYỆN BÀI CODE C/C++
+    - CÀY BÀI C++
+    - MÌNH MUỐN ÔN TẬP C++
+    - CHO MÌNH ÔN TẬP 1 TÍ XÍU VỀ C++ NÀO BOTCHAT
+    - CHATBOT LUYỆN MÌNH VÀI BÀI CODE C++ XEM NÀO
+    - GỬI CHO MÌNH VÀI BÀI CODE C ĐI CHATBOT
+    - CHATBOT ƠI GỬI MẤY BÀI TOÁN CODE NMLT ĐI NÀO 
+    - CHATBOT GỬI CHO TÔI 1 SỐ BÀI TOÁN NMLT ĐỂ LUYỆN TAY ĐI NÀO
+    - OK LUYỆN BÀI C++ 
+    - CHO TÔI XIN 1 SỐ BÀI TẬP CODE C
+    - LUYỆN CHO TUI VÀI BÀI CODE C DC HONG
+    - EEE CHO VÀI BÀI TẬP CODE C VỚI
+    - EEE GỬI TUI 1 SỐ BÀI CODE C IKKK 
+    - EEEKK T MUỐN DC LUYỆN BÀI CODE C Í 
+    - NÈ BOT ƠI CHO T LÀM 1 SỐ BÀI TẬP VỀ C++ ĐI MÀY 
+    - Ê BOT ƠI CHO MÌNH LÀM 1 SỐ BÀI CODE C ĐI 
+    - Ê BOT ƠI T MUỐN DC LÀM 1 SỐ BÀI TẬP CODE 
+    - Ê BOT ƠI T MUỐN LUYỆN CODE TAY 
+    - Ê BOT ƠI T MUỐN DC GIẢI CODE
+    - NÈ BOT ƠI TAO MUỐN ĐC GIẢI CODE
+    - LÀM BÀI CODE TAY 
+    - LÀM BÀI LUYỆN CODE 
+    - OK GIỜ GIẢI VÀI BÀI CODE TRC KHI ĐI NGỦ NÀO 
+    - CHO T LÀM 1 SỐ BÀI CODE ĐỂ LUYỆN NGÓN NÀO 
+    - GỬI TAO 1 SỐ BÀI CODE TỐI LÀM NGỦ CHO NGON ĐÊ BOT
+    - tao muốn đc ôn tập cpp
+    - bố m muốn dc ôn tập các bài về c++
+    - t muốn dc ôn bài về c++ 
+    - cho t ôn tập 1 số bài về c++ 
+    - hãy gửi cho t 1 số bài tập về c++
+    - hãy cho tao 1 số các cái bài tập về c 
+    - cho t 1 số bài ôn luyện nhập môn lập trình
+    - bài tập nmlt
+    - Bài ôn nmlt
+    - Ôn tập giữa kỳ c++ 
+    - Ôn tập cuối kỳ c++ 
+    - Ôn cuối kỳ nmlt
+    - Làm bài tập NMLT
+    - cày bài tập NMLT
+    - luyện bài tập NMLT 
+    - cày các cái bài toán về NMLT
+    - cày bài c/c++ 
+    - luyện tập bài tập nmlt c++ 
+    - trau dồi kĩ thuật làm bài c++ 
+    - gửi tôi bài c++ nmlt 
+    - Gửi cho tôi 1 số các cái câu hỏi liên quan đến C++ đê 
+    - Ê bot gửi t 1 vài câu code C++ làm chơi coi nào 
+    - Làm bài code C++
+    - Luyện bài code C/C++
+    - Cày bài C++
+    - Mình muốn ôn tập C++
+    - cho mình ôn tập 1 tí xíu về C++ nào botchat
+    - Chatbot luyện mình vài bài code c++ xem nào
+    - gửi cho mình vài bài code C đi chatbot
+    - chatbot ơi gửi mấy bài toán code NMLT đi nào 
+    - ChatBot gửi cho tôi 1 số bài toán NMLT để luyện tay đi nào
+    - Ok luyện bài C++ 
+    - Cho tôi xin 1 số bài tập code C
+    - Luyện cho tui vài bài code C dc hong
+    - eee cho vài bài tập code c với
+    - eee gửi tui 1 số bài code C ikkk 
+    - eeekk t muốn dc luyện bài code C í 
+    - nè bot ơi cho t làm 1 số bài tập về C++ đi mày 
+    - ê bot ơi cho mình làm 1 số bài code c đi 
+    - ê bot ơi t muốn dc làm 1 số bài tập code 
+    - ê bot ơi t muốn luyện code tay 
+    - Ê Bot ơi t muốn dc giải code
+    - nè bot ơi tao muốn đc giải Code
+    - Làm bài code tay 
+    - Làm bài luyện code 
+    - Ok giờ giải vài bài code trc khi đi ngủ nào 
+    - Cho t làm 1 số bài code để luyện ngón nào 
+    - Gửi tao 1 số bài code tối làm ngủ cho ngon đê bot
+    - Làm bài tập C++
 - intent: cpp_practice
   examples: |
     - TAO MUỐN ÔN TẬP VỀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++
@@ -4028,6 +4124,7 @@ nlu:
     - Ê bot gửi t bài tập sơ đồ thuật toán coi
     - Gửi bố m bài sơ đồ thuật toán coi bot
     - gửi mình bài tập lưu đồ thuật toán với ạ
+    - Làm bài tập lưu đồ thuật toán (flowchart)
 - intent: flowchart_asking
   examples: |
     - BÀI LƯU ĐỒ CÂU [66](flowchart_quest_num)
@@ -4118,6 +4215,22 @@ nlu:
     - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
     - Bài tập [3](flowchart_quest_num) đi bot
     - bài tập [2](flowchart_quest_num)
+    - bài tập [1](flowchart_quest_num) bài tập [2]bài tập [2](flowchart_quest_num) bài tập [3]
+    - Câu thứ [3](flowchart_quest_num) câu thứ [4](flowchart_quest_num) câu thứ [5](flowchart_quest_num) câu thứ [6](flowchart_quest_num)
+    - tao muốn hỏi m câu số [10](flowchart_quest_num) và câu số [30](flowchart_quest_num)
+    - cho đáp án câu [40](flowchart_quest_num) [41](flowchart_quest_num) [42](flowchart_quest_num) đi m
+    - Cho t xin đáp án câu số [50](flowchart_quest_num) với [56](flowchart_quest_num) đi mày 
+    - ê bot ơi gửi t câu hỏi [9](flowchart_quest_num) [23](flowchart_quest_num) đi nè 
+    - gửi a m câu [34](flowchart_quest_num) [56](flowchart_quest_num) làm chơi coi nè
+    - ê t muốn hỏi câu [19](flowchart_quest_num), câu [20](flowchart_quest_num) và câu [21](flowchart_quest_num) 
+    - cho mình xin câu [94](flowchart_quest_num) zới [21](flowchart_quest_num) đi
+    - gửi tôi số [5](flowchart_quest_num), số [8](flowchart_quest_num), số [1](flowchart_quest_num)
+    - bắn cho tôi cái câu số [49](flowchart_quest_num) với câu số [50](flowchart_quest_num) đi bot
+    - Câu [10](flowchart_quest_num) và câu [20](flowchart_quest_num)
+    - Bài giải câu số [21](flowchart_quest_num) câu [33](flowchart_quest_num)
+    - câu [40](flowchart_quest_num) câu [80](flowchart_quest_num)
+    - câu [21](flowchart_quest_num) và [95](flowchart_quest_num)
+    - câu [70](flowchart_quest_num) và [40](flowchart_quest_num) và [20](flowchart_quest_num)
     - câu [1](flowchart_quest_num)
     - Câu số [100](flowchart_quest_num)
     - Câu số [1](flowchart_quest_num)
@@ -4173,6 +4286,104 @@ nlu:
     - ê ku nay ngày gì ?
     - ê hôm nay là ngày gì ?
     - Nè hôm nay là ngày gì ?
+- intent: dont_want_to_give_flowchart_quest_num
+  examples: |
+    - TẠI SAO T LẠI PHẢI SỐ CÂU HỎI CHO M 
+    - TẠI S LẠI CẦN SỐ CÂU HỎI ĐỂ LÀM GÌ?
+    - TẠI SHAO M LẠI PHẢI CẦN SỐ CÂU HỎI THẾ? ĐƯA ĐẠI CÂU GÌ RA BỘ KHÔNG ĐƯỢC HAY SAO?
+    - TẠI SAO T LẠI PHẢI CHỈ ĐỊNH CÂU HỎI CỤ THỂ LÀM GÌ, ĐƯA ĐẠI T CÂU NÀO CŨNG DC
+    - TẠI SAO LẠI CẦN CÓ SỐ CÂU HỎI THẾ ? KHÔNG CÓ KHÔNG DC À
+    - TẠI SAO LẠI PHẢI CỤ THỂ HÓA 1 CÂU HỎI BẤT KÌ? TAO MUỐN ÔN TẬP THÌ CỨ ÔN TẬP CHUNG CHUNG CHO TAO ĐI CON BOT NGU
+    - TẠI S LẠI CẦN LÀM V?
+    - TẠI S LẠI PHẢI LÀM NHƯ THẾ?
+    - TẠI SAO M LẠI CẦN CÓ THÔNG TIN ĐÓ ?
+    - TẠI S LẠI PHẢI LÀM ZẬY CHI?
+    - TẠI S T LẠI CẦN PHẢI LÀM NHƯ VẬY CHI THẾ @@ 
+    - TẠI VÌ SAO MÀ M LẠI BẮT T CHỌN CÂU HỎI???
+    - TẠI SAO T LẠI CÓ NGHĨA VỤ ĐƯA CÂU HỎI CHO M?
+    - TẠI S LẠI CẦN SỐ CÂU HỎI? K TỰ ĐƯA 1 VÀI CÂU RA DC À?
+    - SAO T PHẢI TRẢ LỜI SỐ CÂU HỎI NỮA?
+    - SAO MÌNH LẠI CẦN PHẢI TRẢ LỜI THÊM CÂU NÀY NỮA? ĐƯA MÌNH ĐẠI 1 CÂU NÀO THÔI CŨNG DC R
+    - SAO LẠI PHẢI NÓI THÊM VỤ NÀY NỮA THẾ?
+    - S T LẠI CẦN PHẢI TRẢ LỜI THÊM 1 CÂU NÀY NỮA V?
+    - S BỐ M LẠI PHẢI TRẢ LỜI ZỤ NÀY? ĐƯA ĐẠI RA 1 CÂU NÀO ĐẤY ĐI CŨNG DC 
+    - S M LẠI CẦN SỐ CÂU HỎI CỤ THỂ? TỰ ĐƯA RA 1 VÀI CÂU ÔN TẬP ĐI???
+    - S LẠI CẦN PHẢI XÁC ĐỊNH SỐ CÂU HỎI CỤ THỂ NÀO ĐÓ?
+    - SAO TAO LẠI CẦN PHẢI ĐƯA SỐ CÂU HỎI CỤ THỂ NHƯ THẾ?
+    - SAO M LẠI CẦN CÓ THÔNG TIN ĐÓ ?
+    - VÌ S M LẠI CẦN CÁI THÔNG TIN ĐẤY V BOT?
+    - VÌ SAO LẠI CẦN PHẢI ĐƯA RA SỐ CÂU CỤ THỂ?
+    - VÌ SAO LẠI PHẢI NÓI THÊM VỤ NÀY NỮA TRONG KHI M CÓ THỂ ĐƯA RA ĐẠI 1 VÀI CÂU CŨNG DC MÀ?
+    - VÌ SAO TAO LẠI CẦN PHẢI TRẢ LỜI THÊM CÂU HỎI NÀY CỦA MÀY NỮA V BOT
+    - VÌ SHAO MÀ CẦN PHẢI NÓI THÊM CÁI NÀY NỮA DKM, ĐƯA ĐẠI RA 1 VÀI CÂU CMM ĐI
+    - VÌ SHAO LẠI CẦN CÓ SỐ CÂU HỎI CỐ ĐỊNH NỮA, ÔN TẬP CHUNG CHUNG VÀI CÂU ĐI ĐỒ BOT NGU 
+    - VÌ S LẠI PHẢI LÀM THẾ? CỨ GỬI VÀI CÂU RANDOM LÀM SƯƠNG SƯƠNG LÀ OK R
+    - GỬI ĐẠI VÀI CÂU RANDOM CŨNG DC R MÀ???
+    - tại sao t lại phải số câu hỏi cho m 
+    - Tại s lại cần số câu hỏi để làm gì?
+    - Tại shao m lại phải cần số câu hỏi thế? Đưa đại câu gì ra bộ không được hay sao?
+    - tại sao t lại phải chỉ định câu hỏi cụ thể làm gì, đưa đại t câu nào cũng dc
+    - tại sao lại cần có số câu hỏi thế ? Không có không dc à
+    - Tại sao lại phải cụ thể hóa 1 câu hỏi bất kì? tao muốn ôn tập thì cứ ôn tập chung chung cho tao đi con bot ngu
+    - Tại s lại cần làm v?
+    - Tại s lại phải làm như thế?
+    - Tại sao m lại cần có thông tin đó ?
+    - Tại s lại phải làm zậy chi?
+    - tại s t lại cần phải làm như vậy chi thế @@ 
+    - tại vì sao mà m lại bắt t chọn câu hỏi???
+    - tại sao t lại có nghĩa vụ đưa câu hỏi cho m?
+    - tại s lại cần số câu hỏi? k tự đưa 1 vài câu ra dc à?
+    - Sao t phải trả lời số câu hỏi nữa?
+    - Sao mình lại cần phải trả lời thêm câu này nữa? Đưa mình đại 1 câu nào thôi cũng dc r
+    - sao lại phải nói thêm vụ này nữa thế?
+    - s t lại cần phải trả lời thêm 1 câu này nữa v?
+    - s bố m lại phải trả lời zụ này? đưa đại ra 1 câu nào đấy đi cũng dc 
+    - S m lại cần số câu hỏi cụ thể? Tự đưa ra 1 vài câu ôn tập đi???
+    - S lại cần phải xác định số câu hỏi cụ thể nào đó?
+    - Sao tao lại cần phải đưa số câu hỏi cụ thể như thế?
+    - Sao m lại cần có thông tin đó ?
+    - Vì s m lại cần cái thông tin đấy v bot?
+    - Vì sao lại cần phải đưa ra số câu cụ thể?
+    - vì sao lại phải nói thêm vụ này nữa trong khi m có thể đưa ra đại 1 vài câu cũng dc mà?
+    - vì sao tao lại cần phải trả lời thêm câu hỏi này của mày nữa v bot
+    - vì shao mà cần phải nói thêm cái này nữa dkm, đưa đại ra 1 vài câu cmm đi
+    - vì shao lại cần có số câu hỏi cố định nữa, ôn tập chung chung vài câu đi đồ bot ngu 
+    - Vì s lại phải làm thế? Cứ gửi vài câu random làm sương sương là ok r
+    - Gửi đại vài câu random cũng dc r mà???
+    - Gửi t đại vài câu làm chơi thôi cũng dc r, cần gì phải số câu này nọ
+    - cứ gửi tao 1 vài câu làm chơi là dc r
+    - Cứ gửi bố m 1 vài câu làm chơi chơi sương sương là đủ r 
+    - t chỉ cần làm chơi 1 vài câu thoiii 
+    - T chỉ muốn một vài câu thôi k cần phải cụ thể đâu
+    - ê tại sao t lại phải trả lời câu này của m ?
+    - Ê tại s tôi lại phải cụ thể hóa một câu nào đó ???
+    - ê ê t k mún làm zị r s 
+    - ủa mà hỏi zị chi bot ngu ?
+    - ơ m đang ra lệnh cho t đấy à?
+    - ơ thằng lz này m ra lệnh t á ?
+    - ơ sao lại cần phải thêm cái này nữa?
+    - ơ nè mắc gì phải nói thêm cái vụ này?
+    - ơ kìa sao mình lại phải nói thêm thông tin đấy? 
+    - ơ cứ đưa đại 1 vài câu ra làm đi 
+    - ơ chỉ cần đưa ra 1 vài câu là dc r mà?
+    - ủa hỏi zay làm j ?
+    - Ủa nè hỏi zay làm j thế ?
+    - nè bot s m lại cần số câu cụ thể thế ?
+    - Why you need to know that ?
+    - Why I need to answer that ?
+    - Is it ok if I dont want to answer that questions ?
+    - why you need to know about that information?
+    - why you need such informations ?
+    - I don't want to answer that ! 
+- intent: dont_want_to_give_cpp_content
+  examples: |
+    - tại sao m lại cần thông tin đó v 
+    - Tại sao m lại cần cái đấy 
+    - tại s t lại phải nói rõ là làm bài nào 
+    - Tại s lại cần cái bài như v
+    - tại làm sao mà m cần phải hỏi t như thế? Cứ đưa đại 1 bài bất ki gì đi k dc à 
+    - Tại sao m cần phải hỏi t như thế? Bộ không thể đưa ra 1 bài tổng hợp à ?
+    - vì sao t lại phải trả lời câu hỏi đấy ?
 - intent: nlu_fallback
   examples: |
     - Gét :3
