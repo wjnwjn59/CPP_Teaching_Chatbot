@@ -101,10 +101,3 @@ rules:
   - action: utter_reply_insult
   wait_for_user_input: false
 
-- rule: welcome user
-  conversation_start: true 
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_who_i_am
-   
