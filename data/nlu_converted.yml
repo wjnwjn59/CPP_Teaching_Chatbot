@@ -1623,6 +1623,7 @@ nlu:
     - Cho mình hỏi cái này xí
     - Cho mình hỏi cái này xí nha
     - Hỏi tí được không
+    - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
     - donald trump 
@@ -3926,6 +3927,7 @@ nlu:
     - Ok giờ giải vài bài code trc khi đi ngủ nào 
     - Cho t làm 1 số bài code để luyện ngón nào 
     - Gửi tao 1 số bài code tối làm ngủ cho ngon đê bot
+    - Làm bài tập C++
 - intent: cpp_practice
   examples: |
     - TAO MUỐN ÔN TẬP VỀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++
@@ -4127,6 +4129,7 @@ nlu:
     - Ê bot gửi t bài tập sơ đồ thuật toán coi
     - Gửi bố m bài sơ đồ thuật toán coi bot
     - gửi mình bài tập lưu đồ thuật toán với ạ
+    - Làm bài tập lưu đồ thuật toán (flowchart)
 - intent: flowchart_asking
   examples: |
     - BÀI LƯU ĐỒ CÂU [66](flowchart_quest_num)
