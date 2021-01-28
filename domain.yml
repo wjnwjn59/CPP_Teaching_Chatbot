@@ -175,13 +175,13 @@ responses:
   - text: Chào bạn nha
   - text: Vâng, hẹn hôm khác nói chuyện tiếp nha
   utter_who_i_am:
-  - buttons:
-    - payload: want_to_ask
-      title: Hỏi các kiến thức về C++
-    - payload: want_to_practice_flowchart
-      title: Làm bài tập lưu đồ thuật toán (flowchart)
-    - payload: want_to_practice_cpp
-      title: Làm bài tập C++
+#   - buttons:
+#     - payload: want_to_ask
+#       title: Hỏi các kiến thức về C++
+#     - payload: want_to_practice_flowchart
+#       title: Làm bài tập lưu đồ thuật toán (flowchart)
+#     - payload: want_to_practice_cpp
+#       title: Làm bài tập C++
   - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
       trình với ngôn ngữ C++!
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
