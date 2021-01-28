@@ -1074,3 +1074,30 @@ stories:
   - active_loop: null
   - action: utter_ok
   - action: action_cpplus_practice
+
+- story: flowchart asking interjection
+  steps:
+  - intent: want_to_practice_flowchart
+  - action: utter_ok
+  - action: utter_ask_flowchart_question_number
+  - action: flowchart_quest_num_form
+  - active_loop: flowchart_quest_num_form
+  - slot_was_set:
+    - requested_slot: 1
+  - intent: dont_want_to_give_flowchart_quest_num
+  - action: utter_explain_why_need_flowchart_num
+  - action: flowchart_quest_num_form
+
+- story: cpp practice asking interjection
+  steps:
+  - intent: want_to_practice_cpp
+  - action: utter_ok
+  - action: utter_ask_cpp_content
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - slot_was_set:
+    - requested_slot: pointer
+  - intent: dont_want_to_give_cpp_content
+  - action: utter_explain_why_need_cpp_content
+  - action: cpp_content_form
+

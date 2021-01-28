@@ -54,6 +54,12 @@ intents:
     use_entities: []
 - want_to_practice_flowchart:
     use_entities: []
+- want_to_practice_cpp:
+    use_entites: []
+- dont_want_to_give_flowchart_quest_num:
+    use_entites: []
+- dont_want_to_give_cpp_content:
+    use_entites: []
 - flowchart_asking
 - cpp_practice
 - cpplus_what_asking
@@ -82,8 +88,11 @@ slots:
     type: text
     influence_conversation: false
   requested_slot:
-    type: unfeaturized
-    influence_conversation: false
+    type: categorical
+    values:
+      - cpplus_content
+      - flowchart_quest_num
+    influence_conversation: true
 responses:
   utter_author:
   - image: https://media.giphy.com/media/eLjAaI1cYMnQrCpbRu/giphy.gif
@@ -165,6 +174,13 @@ responses:
   - text: Chào bạn nha
   - text: Vâng, hẹn hôm khác nói chuyện tiếp nha
   utter_who_i_am:
+  - buttons:
+    - payload: want_to_ask
+      title: Hỏi các kiến thức về C++
+    - payload: want_to_practice_flowchart
+      title: Làm bài tập lưu đồ thuật toán (flowchart)
+    - payload: want_to_practice_cpp
+      title: Làm bài tập C++
   - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
       trình với ngôn ngữ C++!
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
@@ -175,12 +191,6 @@ responses:
   - text: Mình có thể trả lời các câu hỏi liên quan đến C++, bạn cứ việc hỏi đi ạ
   utter_answer_cpplus_questions:
   - text: 'Đây là câu trả lời của bạn:'
-  utter_ask_anything_else:
-  - text: Bạn có muốn hỏi thêm gì không?
-  - text: Bạn có cần hỏi thêm gì không?
-  utter_ask_flowchart_question_number:
-  - text: Bạn muốn hỏi câu số mấy vậy ạ?
-  - text: Bạn muốn hỏi câu bao nhiêu nè?
   utter_ok:
   - text: Ok bạn nha
   - text: Ừa ok bạn
@@ -209,6 +219,18 @@ responses:
   - text: Vậy cho mình hỏi tên của bạn được hông
   - text: Tiếp theo cho mình xin tên của bạn đi nè
   - text: Mình xin phép được hỏi tên của bạn có được hông
+  utter_ask_anything_else:
+  - text: Bạn có muốn hỏi thêm gì không?
+  - text: Bạn có cần hỏi thêm gì không?
+  utter_ask_flowchart_question_number:
+  - text: Bạn muốn hỏi câu số mấy vậy ạ?
+  - text: Bạn muốn hỏi câu số bao nhiêu nè?
+  utter_ask_cpp_content:
+  - text: Bạn muốn hỏi về nội dung gì trong C++ vậy ạ?
+  utter_explain_why_need_flowchart_num:
+  - text: Mình cần số câu hỏi cụ thể để tiện cho việc truy xuất thông tin nên phiền bạn cung cấp số câu hỏi cụ thể ạ. Bạn thông cảm giúp mình nha.
+  utter_explain_why_need_cpp_content:
+  - text: Mình cần có một nội dung cụ thể để tiện cho việc truy xuất thông tin nên phiền bạn cung cấp thông tin chi tiết hơn ạ. Bạn thông cảm giúp mình nha.
 actions:
 - utter_reply_feeling_good
 - utter_reply_feeling_bad
@@ -238,10 +260,14 @@ actions:
 - utter_covid_precautions
 - utter_covid_treatment
 - utter_please_rephrase
-- validate_cpp_content_form
-- validate_flowchart_quest_num_form
+- utter_explain_why_need_flowchart_num
+- utter_explain_why_need_cpp_content
 - utter_ask_first_name
 - utter_ask_last_name
+- utter_ask_flowchart_question_number
+- utter_ask_cpp_content
+- validate_cpp_content_form
+- validate_flowchart_quest_num_form
 - action_first_name
 - action_ask_time
 - action_ask_date
