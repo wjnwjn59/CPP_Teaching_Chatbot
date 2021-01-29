@@ -98,8 +98,8 @@ responses:
   utter_author:
   - image: https://media.giphy.com/media/eLjAaI1cYMnQrCpbRu/giphy.gif
     text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn
-      Lê Anh Quân và Dương Đình Thắng, cùng học lớp KHCL2019.3 tại HCMUIT <3 Nhờ công
-      lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè
+      Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công
+      lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
@@ -157,7 +157,7 @@ responses:
   - buttons:
     - payload: "/continue_asking"
       title: Hỏi lại
-    - payload: "/stop_asking"
+    - payload: "/deny"
       title: Không hỏi
     text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ!
   utter_greet:
@@ -181,12 +181,13 @@ responses:
       ngữ C++
   utter_ask_to_do:
     buttons:
-    - payload: want_to_ask
+    - payload: "/want_to_ask"
     - title: Hỏi các kiến thức về C++
-    - payload: want_to_practice_flowchart
+    - payload: "/want_to_practice_flowchart"
     - title: Làm bài tập lưu đồ thuật toán (flowchart)
-    - payload: want_to_practice_cpp
+    - payload: "/want_to_practice_cpp"
     - title: Làm bài tập C++
+    text: Vui lòng chọn các tùy chọn bên dưới
   utter_accept_questions:
   - text: Bạn hỏi đi, mình có thể giúp bạn trả lời các câu hỏi liên quan đến C++
   - text: Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++
