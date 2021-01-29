@@ -17,7 +17,6 @@ pipeline:
   model_name: "roberta"
   model_weights: "roberta-base"
   cache_dir: null
-  epochs: 400
 - name: "DIETClassifier"
   entity_recognition: False
   epochs: 400
