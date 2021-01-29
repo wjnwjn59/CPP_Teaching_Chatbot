@@ -760,6 +760,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - action: utter_who_i_am
+  - action: utter_ask_to_do
   - intent: cpplus_what_asking
     entities:
     - cpplus_content: pointer
