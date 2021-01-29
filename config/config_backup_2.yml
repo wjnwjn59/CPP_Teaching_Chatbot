@@ -23,7 +23,7 @@ pipeline:
 - name: FallbackClassifier
   threshold: 0.75
 - name: "CRFEntityExtractor"
-  "BILOU_flag": True
+  "BILOU_flag": True 
   # features to extract in the sliding window
   "features": [
     ["low", "title", "upper"],
