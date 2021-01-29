@@ -148,8 +148,8 @@ responses:
   - text: Dạo này mình vẫn ổn nha bạn, cảm ơn đã hỏi thăm mình nha
   - text: Mình vẫn ổn nha, cảm ơn bạn nhiều
   utter_reply_feeling_bad:
-  - text: ' Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. '
-  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng - Abraham Lincoln.'
+  - text: Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. 
+  - text: Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng - Abraham Lincoln.
   utter_reply_feeling_good:
   - text: Bạn ổn là mình vui rồi <3
   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
@@ -163,7 +163,7 @@ responses:
   - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
   - text: Sao bạn lại chửi mình zayy TT
   - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
-  - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha :'(
+  - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha
   utter_reply_deny:
   - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
   utter_reply_out_of_scope:
@@ -206,7 +206,7 @@ responses:
   - text: Bạn cứ hỏi, mình sẽ trả lời cho các bạn bất cứ câu hỏi gì về C++
   - text: Mình có thể trả lời các câu hỏi liên quan đến C++, bạn cứ việc hỏi đi ạ
   utter_answer_cpplus_questions:
-  - text: 'Đây là câu trả lời của bạn:'
+  - text: Đây là câu trả lời của bạn
   utter_ok:
   - text: Ok bạn nha
   - text: Ừa ok bạn
@@ -222,7 +222,7 @@ responses:
   - text: Bạn có thể nói lại rõ hơn được không? Mình chưa hiểu ý bạn lắm ><
   utter_please_rephrase:
   - text: Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?
-  - text: Bạn có thể nói lại được không, mình không hiểu ý bạn cho lắm :'(
+  - text: Bạn có thể nói lại được không, mình không hiểu ý bạn cho lắm.
   utter_may_i_help_u:
   - text: Vâng, mình đang nghe đây
   - text: Mình đây bạn
