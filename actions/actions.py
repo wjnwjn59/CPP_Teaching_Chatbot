@@ -215,7 +215,6 @@ class FlowChartPractice(Action):
         return [SlotSet("flowchart_answer", flowchart_question_answer if flowchart_question_answer is not None else [])]
 
     
-    
 
 class AnswerCppDefineQuestion(Action):
 
