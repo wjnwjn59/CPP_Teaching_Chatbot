@@ -26,11 +26,7 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9913181031475099,
-=======
-        "confidence_entity": 0.9929042585325217,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -41,11 +37,7 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.8605378242791937,
-=======
-        "confidence_entity": 0.8720042318466613,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -64,16 +56,7 @@
         "entity": "cpplus_content"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "cpplus_content",
-        "start": 27,
-        "end": 39,
-        "confidence_entity": 0.5142178666100072,
-        "value": "nh\u1eadp m\u00f4n l\u1eadp",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
+    "predicted_entities": []
   },
   {
     "text": "gi\u1ea3i th\u00edch c\u00e1i to\u00e1n t\u1eed ++ xem",
@@ -114,11 +97,7 @@
         "entity": "cpplus_content",
         "start": 13,
         "end": 19,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9965953388775205,
-=======
-        "confidence_entity": 0.995700695698158,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "argument",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -129,11 +108,7 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 48,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.8635147001788915,
-=======
-        "confidence_entity": 0.8481785243982923,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -167,21 +142,6 @@
     "predicted_entities": []
   },
   {
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
-=======
-    "text": "h\u00e3y cho t\u1edb bi\u1ebft th\u1ebf n\u00e0o l\u00e0 1 s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n ???",
-    "entities": [
-      {
-        "start": 29,
-        "end": 45,
-        "value": "flowchart",
-        "entity": "cpplus_content"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
     "text": "C++ l\u00e0 j ?",
     "entities": [
       {
@@ -212,21 +172,6 @@
         "start": 0,
         "end": 1,
         "value": "cplusplus",
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
-=======
-        "entity": "cpplus_content"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "\u0111\u1ecbnh ngh\u0129a c\u1ee7a c++ ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 16,
-        "value": "cplusplus",
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "entity": "cpplus_content"
       }
     ],
@@ -247,11 +192,7 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9912681185530222,
-=======
-        "confidence_entity": 0.993428017187417,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -262,11 +203,7 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7147625114144588,
-=======
-        "confidence_entity": 0.7071612339090856,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -302,11 +239,7 @@
         "entity": "cpplus_content",
         "start": 16,
         "end": 25,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9920188479455643,
-=======
-        "confidence_entity": 0.9919279466561537,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "integer",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -330,11 +263,7 @@
         "entity": "cpplus_content",
         "start": 11,
         "end": 21,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.544990657361658,
-=======
-        "confidence_entity": 0.5515821134267952,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -358,11 +287,7 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9992651955491917,
-=======
-        "confidence_entity": 0.9992504146372311,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -373,11 +298,7 @@
         "entity": "cpplus_content",
         "start": 30,
         "end": 34,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9499409488818109,
-=======
-        "confidence_entity": 0.942085501048166,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -401,11 +322,7 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9992651849019447,
-=======
-        "confidence_entity": 0.9992504013809904,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -416,11 +333,7 @@
         "entity": "cpplus_content",
         "start": 48,
         "end": 52,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9499024211385174,
-=======
-        "confidence_entity": 0.9420215139951783,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -444,11 +357,7 @@
         "entity": "cpplus_content",
         "start": 16,
         "end": 22,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9993482820085614,
-=======
-        "confidence_entity": 0.9992763186531619,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -459,11 +368,7 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 49,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5498250282082884,
-=======
-        "confidence_entity": 0.5543339733046475,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -523,11 +428,7 @@
         "entity": "cpplus_content",
         "start": 37,
         "end": 48,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9698018307262635,
-=======
-        "confidence_entity": 0.9680533087931806,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "return-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -538,11 +439,7 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 58,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9992138738681424,
-=======
-        "confidence_entity": 0.9992037364580595,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "recursion",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -564,7 +461,6 @@
     "predicted_entities": []
   },
   {
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
     "text": "T\u1ea1o m\u1ea3ng ki\u1ec3u g\u00ec v\u1eady ?",
     "entities": [
       {
@@ -578,9 +474,6 @@
   },
   {
     "text": "T\u1ea1o m\u1ea3ng ki\u1ec3u qu\u00e1i g\u00ec z\u1ecb ?",
-=======
-    "text": "t\u1ea1o ra m\u1ea3ng ki\u1ec3u g\u00ec v\u1eady ?",
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
     "entities": [
       {
         "start": 4,
@@ -606,11 +499,7 @@
         "entity": "cpplus_content",
         "start": 36,
         "end": 48,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.540357334958997,
-=======
-        "confidence_entity": 0.5716432807835615,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "data-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -621,11 +510,7 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 56,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9929781052282477,
-=======
-        "confidence_entity": 0.9908775684714706,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "long",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -702,11 +587,7 @@
         "entity": "cpplus_content",
         "start": 19,
         "end": 20,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9397088377867249,
-        "value": "cplusplus",
-=======
-        "confidence_entity": 0.953246984383365,
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -730,49 +611,7 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 26,
-        "confidence_entity": 0.9798066353752516,
-        "value": "vector",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "cpplus_content",
-        "start": 34,
-        "end": 38,
-        "confidence_entity": 0.8131252761294331,
-        "value": "array",
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "v\u00ec sao m\u00ecnh n\u00ean d\u00f9ng vector h\u01a1n l\u00e0 d\u00f9ng m\u1ea3ng th\u1ebf bot?",
-    "entities": [
-      {
-        "start": 21,
-        "end": 27,
-        "value": "vector",
-        "entity": "cpplus_content"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "cpplus_content",
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
-        "start": 20,
-        "end": 26,
         "confidence_entity": 0.9820430477085398,
-=======
-        "start": 21,
-        "end": 27,
-        "confidence_entity": 0.9798065232383856,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -781,15 +620,9 @@
       },
       {
         "entity": "cpplus_content",
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "start": 34,
         "end": 38,
         "confidence_entity": 0.7769170852048268,
-=======
-        "start": 40,
-        "end": 44,
-        "confidence_entity": 0.5481816104370357,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -813,11 +646,7 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 49,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.998566688402004,
-=======
-        "confidence_entity": 0.9982416052704607,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -828,11 +657,7 @@
         "entity": "cpplus_content",
         "start": 73,
         "end": 77,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7062177209212368,
-=======
-        "confidence_entity": 0.715345712971022,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -856,11 +681,7 @@
         "entity": "cpplus_content",
         "start": 29,
         "end": 35,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9778624644692592,
-=======
-        "confidence_entity": 0.9770557553147768,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -871,11 +692,7 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 48,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9162243974492854,
-=======
-        "confidence_entity": 0.8959500344543009,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -911,11 +728,7 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 25,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9608230129547605,
-=======
-        "confidence_entity": 0.9477021201264596,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -939,11 +752,7 @@
         "entity": "cpplus_content",
         "start": 21,
         "end": 27,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9772693239544454,
-=======
-        "confidence_entity": 0.9728985414390517,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -954,11 +763,7 @@
         "entity": "cpplus_content",
         "start": 35,
         "end": 40,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5610189928815846,
-=======
-        "confidence_entity": 0.5275779769502104,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -982,11 +787,7 @@
         "entity": "cpplus_content",
         "start": 23,
         "end": 30,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5540902452425127,
-=======
-        "confidence_entity": 0.5542314588685504,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "operator",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -997,11 +798,7 @@
         "entity": "cpplus_content",
         "start": 62,
         "end": 78,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9935954938394358,
-=======
-        "confidence_entity": 0.9936363319361708,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "ternary-operator",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1018,11 +815,7 @@
         "entity": "cpplus_content",
         "start": 31,
         "end": 32,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7216785033529439,
-=======
-        "confidence_entity": 0.742898620909666,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1039,11 +832,7 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 21,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7216785560038727,
-=======
-        "confidence_entity": 0.7428985977837239,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1060,11 +849,7 @@
         "entity": "cpplus_content",
         "start": 25,
         "end": 26,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7216721828187703,
-=======
-        "confidence_entity": 0.7428936669855725,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1081,11 +866,7 @@
         "entity": "cpplus_content",
         "start": 30,
         "end": 31,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7216805152346178,
-=======
-        "confidence_entity": 0.7428995020137774,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1102,11 +883,7 @@
         "entity": "cpplus_content",
         "start": 36,
         "end": 37,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7216807707060251,
-=======
-        "confidence_entity": 0.7428998542640269,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1123,11 +900,7 @@
         "entity": "cpplus_content",
         "start": 36,
         "end": 37,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.527672841982185,
-=======
-        "confidence_entity": 0.5345157083558538,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1144,11 +917,7 @@
         "entity": "cpplus_content",
         "start": 13,
         "end": 22,
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "confidence_entity": 0.6131295748929458,
-=======
-        "confidence_entity": 0.6132396013787644,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "flowchart",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1158,11 +927,7 @@
     ]
   },
   {
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
     "text": "b\u00e0i t\u1eadp 1 b\u00e0i t\u1eadp 2",
-=======
-    "text": "b\u00e0i t\u1eadp 1 b\u00e0i t\u1eadp [2]b\u00e0i t\u1eadp 2 b\u00e0i t\u1eadp [3]",
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
     "entities": [
       {
         "start": 8,
@@ -1171,13 +936,8 @@
         "entity": "flowchart_quest_num"
       },
       {
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "start": 18,
         "end": 19,
-=======
-        "start": 29,
-        "end": 30,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "2",
         "entity": "flowchart_quest_num"
       }
@@ -1185,15 +945,9 @@
     "predicted_entities": [
       {
         "entity": "flowchart_quest_num",
-<<<<<<< HEAD:results/results_backup_22/CRFEntityExtractor_errors.json
         "start": 18,
         "end": 19,
         "confidence_entity": 0.9295788008446114,
-=======
-        "start": 29,
-        "end": 30,
-        "confidence_entity": 0.9474887897687291,
->>>>>>> Add to merge:results_backup_19/CRFEntityExtractor_errors.json
         "value": "2",
         "extractor": "CRFEntityExtractor"
       }
