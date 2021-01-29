@@ -20,9 +20,9 @@ pipeline:
 - name: RegexFeaturizer
 - name: "DIETClassifier"
   entity_recognition: False
-  epochs: 400
+  epochs: 250
 - name: FallbackClassifier
-  threshold: 0.7
+  threshold: 0.6
 - name: RegexEntityExtractor
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
@@ -59,8 +59,8 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 3
+    max_history: 5
     random_seed: 42
-    epochs: 400
+    epochs: 250
   - name: RulePolicy
-
+    
