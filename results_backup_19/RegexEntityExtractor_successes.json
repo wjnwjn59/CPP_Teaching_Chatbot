@@ -1,0 +1,198 @@
+[
+  {
+    "text": "\u00ca BOT, G\u1eecI \u0110\u00c1P \u00c1N C\u00c2U 100 L\u01afU \u0110\u1ed2 THU\u1eacT TO\u00c1N",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "100",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 22,
+        "end": 25,
+        "value": "100",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.9758604581547033,
+        "value": "100",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "\u00ca bot, g\u1eedi \u0111\u00e1p \u00e1n c\u00e2u 100 l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "100",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 22,
+        "end": 25,
+        "value": "100",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.9769540977699511,
+        "value": "100",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "s\u00e1ch k\u0129 thu\u1eadt l\u1eadp tr\u00ecnh l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n b\u00e0i 101 l\u1eddi gi\u1ea3i chi ti\u1ebft",
+    "entities": [
+      {
+        "start": 46,
+        "end": 49,
+        "value": "101",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 46,
+        "end": 49,
+        "value": "101",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.9337251723284081,
+        "value": "101",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "l\u1eddi gi\u1ea3i tham kh\u1ea3o cho b\u00e0i s\u1ed1 120",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "120",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 30,
+        "end": 33,
+        "value": "120",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.987128706105413,
+        "value": "120",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "g\u1eedi t c\u00e2u 111 ph\u1ea7n l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n c\u00e1i nh\u1eb9 n\u00e0o",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "111",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 10,
+        "end": 13,
+        "value": "111",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.953931648358083,
+        "value": "111",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "C\u00e2u s\u1ed1 100",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "100",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 7,
+        "end": 10,
+        "value": "100",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9912593818886103,
+        "value": "100",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "C\u00e2u s\u1ed1 200",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "200",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 7,
+        "end": 10,
+        "value": "200",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9853989342071962,
+        "value": "200",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

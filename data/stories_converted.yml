@@ -9,7 +9,7 @@ stories:
   steps:
   - intent: who_create_you
   - action: utter_author
-
+  
 - story: who are you
   steps:
   - intent: who_are_you
@@ -760,6 +760,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - action: utter_who_i_am
+  - action: utter_ask_to_do
   - intent: cpplus_what_asking
     entities:
     - cpplus_content: pointer

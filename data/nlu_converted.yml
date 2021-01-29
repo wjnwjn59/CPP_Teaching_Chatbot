@@ -266,7 +266,6 @@ nlu:
     - Ai tạo ra bạn
     - Ai tạo ra bạn á
     - Ai tạo ra bạn
-    - Quân là ai
     - Quân đẹp trai là ai
     - Ai làm tác giả của mày
 - intent: attention
@@ -313,7 +312,6 @@ nlu:
     - này dume
     - quây
     - lô lô
-    - lô
     - yô
     - yô yô
     - à lô
@@ -629,7 +627,6 @@ nlu:
     - Good bye 
 - intent: affirm
   examples: |
-    - Ok tks
     - Được rồi mình cảm ơn
     - yes
     - indeed
@@ -1316,7 +1313,6 @@ nlu:
     - piece of shit
     - Đụ má
     - Ngu vl  
-    - Đéo hiểu ăn gì mà ngu vãi lồn
     - Ngu
 - intent: feeling_bad
   examples: |
@@ -1499,6 +1495,7 @@ nlu:
     - Chờ đó đi lát t tra khảo m tiếp
     - chờ cmm đi lát bố m hỏi m lại
     - Chờ đó t hỏi m
+    - Chờ xí đó tao hỏi mày
     - chờ đi lát mình hỏi bạn sau nha
     - Chờ đó đi lát bố m quay lại hỏi m sau
     - chờ đó lát hỏi tiếp
@@ -1657,7 +1654,6 @@ nlu:
     - hôm nay ngày mấy?
     - thời tiết hôm nay là gì
     - thời tiết hôm nay tại thủ đức
-    - ?
     - cho hỏi mấy giờ rồi
     - t đánh mày bây giờ
     - cho tui hỏi các kiếm người yêu
@@ -1951,7 +1947,7 @@ nlu:
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ VẬY?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} LÀ GÌ?
-    - THẾ NÀO LÀ [COMMENT]{"entity": "cpplus_content", "value": "comment"}?3
+    - THẾ NÀO LÀ [COMMENT]{"entity": "cpplus_content", "value": "comment"}?
     - [I/O]{"entity": "cpplus_content", "value": "input-output"} TRONG C++ LÀ GÌ?
     - THẾ NÀO LÀ [I/O]{"entity": "cpplus_content", "value": "input-output"}?
     - [INPUT/OUTPUT]{"entity": "cpplus_content", "value": "input-output"} LÀ CÁI GÌ THẾ BOT?
@@ -2148,7 +2144,7 @@ nlu:
     - WHAT THE FACK IS [MACRO]{"entity": "cpplus_content", "value": "macro"}?
     - KIỂU [WCHAR-T]{"entity": "cpplus_content", "value": "wchar-t"} LÀ GÌ
     - WHAT ABOUT [WCHAR_T]{"entity": "cpplus_content", "value": "wchar-t"}?
-    - NÓI CHO IEM 1 TÍ VỀ KIỂU [WCHAR_T]{"entity": "cpplus_content", "value": "wchar-t"}ĐI A OIII
+    - NÓI CHO IEM 1 TÍ VỀ KIỂU [WCHAR_T]{"entity": "cpplus_content", "value": "wchar-t"} ĐI A OIII
     - [BOOLEAN]{"entity": "cpplus_content", "value": "boolean"}
     - NHƯ NÀO LÀ KIỂU [BOOLEAN]{"entity": "cpplus_content", "value": "boolean"} VALUE
     - KIEU DU LIEU [LUAN LY]{"entity": "cpplus_content", "value": "boolean"}
@@ -2249,9 +2245,8 @@ nlu:
     - kể tao nghe về [namespace]{"entity": "cpplus_content", "value": "namespace"} đi
     - khái niệm về [namespace]{"entity": "cpplus_content", "value": "namespace"}
     - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là j ?
-    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì vậy?
-    - thế nào là [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
-    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là cái quái gì vậy?
+    - thế nào là [C]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là cái quái gì vậy?
     - ngôn ngữ lập trình [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là j?
     - định nghĩa của [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
     - ngôn ngữ [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì?
@@ -2688,7 +2683,7 @@ nlu:
     - [Float]{"entity": "cpplus_content", "value": "floating-point"} là gì
     - [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
     - [Namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
-    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là thứ gì
     - [Hàm]{"entity": "cpplus_content", "value": "function"} là gì?
     - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} là gì
     - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} là gì ?
@@ -2912,7 +2907,7 @@ nlu:
     - tôi không biết làm sao để tạo một [MẢNG]{"entity": "cpplus_content", "value": "array"}
     - Tạo [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì vậy ?
     - Tạo [mảng]{"entity": "cpplus_content", "value": "array"} kiểu quái gì zị ?
-    - tạo ra [mảng]{"entity": "cpplus_content", "value": "array"} kiểu gì tđn v bot?
+    - Tạo ra một [mảng]{"entity": "cpplus_content", "value": "array"} làm như thế nào vậy ??
     - làm thế quái nào để tạo ra một [array]{"entity": "cpplus_content", "value": "array"} v?
     - ê làm sao để t tạo thêm 1 một [array]{"entity": "cpplus_content", "value": "array"} đây?
     - Làm thế nào để tạo ra được [Array]{"entity": "cpplus_content", "value": "array"} v?
@@ -2964,8 +2959,6 @@ nlu:
     - cach viet [switch]{"entity": "cpplus_content", "value": "switch"} case
     - Chỉ t cách sử dụng từ khóa [continue]{"entity": "cpplus_content", "value": "continue"} đi
     - cách dùng [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
-    - Cách dùng [hàm]{"entity": "cpplus_content", "value": "function"} 
-    - Cú pháp để sử dụng [hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
     - cách sử dụng [Hàm]{"entity": "cpplus_content", "value": "function"} như thế nào
     - làm sao để sử dụng 1 [namespace]{"entity": "cpplus_content", "value": "namespace"} ?
     - Làm cách nào để ta có thể sử dụng được một [namespace]{"entity": "cpplus_content", "value": "namespace"} trong C++?
@@ -3111,14 +3104,179 @@ nlu:
     - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda]{"entity": "cpplus_content", "value": "lambda"} zay
     - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là vẽ như thế nào v bot?
     - làm s để t có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
+    - Cú pháp của [comment]{"entity": "cpplus_content", "value": "comment"} là gì
+    - Cú pháp của [include]{"entity": "cpplus_content", "value": "include"} là gì
+    - Cú pháp của [library]{"entity": "cpplus_content", "value": "library"} là gì
+    - Cú pháp của [namespace]{"entity": "cpplus_content", "value": "namespace"} là gì
+    - Cú pháp của [pseudo-code]{"entity": "cpplus_content", "value": "pseudo-code"} là gì
+    - Cú pháp của [variable]{"entity": "cpplus_content", "value": "variable"} là gì
+    - Cú pháp của [unsigned]{"entity": "cpplus_content", "value": "unsigned"} là gì
+    - Cú pháp của [signed]{"entity": "cpplus_content", "value": "signed"} là gì
+    - Cú pháp của [short]{"entity": "cpplus_content", "value": "short"} là gì
+    - Cú pháp của [long]{"entity": "cpplus_content", "value": "long"} là gì
+    - Cú pháp của [type-modififer]{"entity": "cpplus_content", "value": "type-modififer"} là gì
+    - Cú pháp của [typedef]{"entity": "cpplus_content", "value": "typedef"} là gì
+    - Cú pháp của [constant]{"entity": "cpplus_content", "value": "constant"} là gì
+    - Cú pháp của [macro]{"entity": "cpplus_content", "value": "macro"} là gì
+    - Cú pháp của [wchar_t]{"entity": "cpplus_content", "value": "wchar_t"} là gì
+    - Cú pháp của [boolean]{"entity": "cpplus_content", "value": "boolean"} là gì
+    - Cú pháp của [data-type]{"entity": "cpplus_content", "value": "data-type"} là gì
+    - Cú pháp của [2d-array]{"entity": "cpplus_content", "value": "2d-array"} là gì
+    - Cú pháp của [array]{"entity": "cpplus_content", "value": "array"} là gì
+    - Cú pháp của [structure]{"entity": "cpplus_content", "value": "structure"} là gì
+    - Cú pháp của [class]{"entity": "cpplus_content", "value": "class"} là gì
+    - Cú pháp của [union]{"entity": "cpplus_content", "value": "union"} là gì
+    - Cú pháp của [pointer]{"entity": "cpplus_content", "value": "pointer"} là gì
+    - Cú pháp của [enumeration]{"entity": "cpplus_content", "value": "enumeration"} là gì
+    - Cú pháp của [integer]{"entity": "cpplus_content", "value": "integer"} là gì
+    - Cú pháp của [floating-point]{"entity": "cpplus_content", "value": "floating-point"} là gì
+    - Cú pháp của [double]{"entity": "cpplus_content", "value": "double"} là gì
+    - Cú pháp của [character]{"entity": "cpplus_content", "value": "character"} là gì
+    - Cú pháp của [string]{"entity": "cpplus_content", "value": "string"} là gì
+    - Cú pháp của [local-variable]{"entity": "cpplus_content", "value": "local-variable"} là gì
+    - Cú pháp của [auto]{"entity": "cpplus_content", "value": "auto"} là gì
+    - Cú pháp của [external]{"entity": "cpplus_content", "value": "external"} là gì
+    - Cú pháp của [static]{"entity": "cpplus_content", "value": "static"} là gì
+    - Cú pháp của [vector]{"entity": "cpplus_content", "value": "vector"} là gì
+    - Cú pháp của [reference-variable]{"entity": "cpplus_content", "value": "reference-variable"} là gì
+    - Cú pháp của [decrement-operator]{"entity": "cpplus_content", "value": "decrement-operator"} là gì
+    - Cú pháp của [increment-operator]{"entity": "cpplus_content", "value": "increment-operator"} là gì
+    - Cú pháp của [dereference-operator]{"entity": "cpplus_content", "value": "dereference-operator"} là gì
+    - Cú pháp của [address_of-operator]{"entity": "cpplus_content", "value": "address_of-operator"} là gì
+    - Cú pháp của [comma-operator]{"entity": "cpplus_content", "value": "comma-operator"} là gì
+    - Cú pháp của [ternary-operator]{"entity": "cpplus_content", "value": "ternary-operator"} là gì
+    - Cú pháp của [binary-operator]{"entity": "cpplus_content", "value": "binary-operator"} là gì
+    - Cú pháp của [unary-operator]{"entity": "cpplus_content", "value": "unary-operator"} là gì
+    - Cú pháp của [shift-operator]{"entity": "cpplus_content", "value": "shift-operator"} là gì
+    - Cú pháp của [bitwise-operator]{"entity": "cpplus_content", "value": "bitwise-operator"} là gì
+    - Cú pháp của [logical-operator]{"entity": "cpplus_content", "value": "logical-operator"} là gì
+    - Cú pháp của [comparison-operator]{"entity": "cpplus_content", "value": "comparison-operator"} là gì
+    - Cú pháp của [arithmetic-operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} là gì
+    - Cú pháp của [assignment-operator]{"entity": "cpplus_content", "value": "assignment-operator"} là gì
+    - Cú pháp của [operator]{"entity": "cpplus_content", "value": "operator"} là gì
+    - Cú pháp của [scope-resolution-operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"} là gì
+    - Cú pháp của [if]{"entity": "cpplus_content", "value": "if"} là gì
+    - Cú pháp của [loop]{"entity": "cpplus_content", "value": "loop"} là gì
+    - Cú pháp của [control-flow]{"entity": "cpplus_content", "value": "control-flow"} là gì
+    - Cú pháp của [selection-statement]{"entity": "cpplus_content", "value": "selection-statement"} là gì
+    - Cú pháp của [iteration-statement]{"entity": "cpplus_content", "value": "iteration-statement"} là gì
+    - Cú pháp của [jump-statement]{"entity": "cpplus_content", "value": "jump-statement"} là gì
+    - Cú pháp của [for]{"entity": "cpplus_content", "value": "for"} là gì
+    - Cú pháp của [while]{"entity": "cpplus_content", "value": "while"} là gì
+    - Cú pháp của [do-while]{"entity": "cpplus_content", "value": "do-while"} là gì
+    - Cú pháp của [switch]{"entity": "cpplus_content", "value": "switch"} là gì
+    - Cú pháp của [break]{"entity": "cpplus_content", "value": "break"} là gì
+    - Cú pháp của [continue]{"entity": "cpplus_content", "value": "continue"} là gì
+    - Cú pháp của [goto]{"entity": "cpplus_content", "value": "goto"} là gì
+    - Cú pháp của [if-else]{"entity": "cpplus_content", "value": "if-else"} là gì
+    - Cú pháp của [if-else-if-ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"} là gì
+    - Cú pháp của [nested-if]{"entity": "cpplus_content", "value": "nested-if"} là gì
+    - Cú pháp của [function]{"entity": "cpplus_content", "value": "function"} là gì
+    - Cú pháp của [parameter]{"entity": "cpplus_content", "value": "parameter"} là gì
+    - Cú pháp của [argument]{"entity": "cpplus_content", "value": "argument"} là gì
+    - Cú pháp của [recursion]{"entity": "cpplus_content", "value": "recursion"} là gì
+    - Cú pháp của [pass-by-value]{"entity": "cpplus_content", "value": "pass-by-value"} là gì
+    - Cú pháp của [pass-by-reference]{"entity": "cpplus_content", "value": "pass-by-reference"} là gì
+    - Cú pháp của [return]{"entity": "cpplus_content", "value": "return"} là gì
+    - Cú pháp của [return-type]{"entity": "cpplus_content", "value": "return-type"} là gì
+    - Cú pháp của [const-reference]{"entity": "cpplus_content", "value": "const-reference"} là gì
+    - Cú pháp của [inline-function]{"entity": "cpplus_content", "value": "inline-function"} là gì
+    - Cú pháp của [default-value]{"entity": "cpplus_content", "value": "default-value"} là gì
+    - Cú pháp của [main-function]{"entity": "cpplus_content", "value": "main-function"} là gì
+    - Cú pháp của [built-in-function]{"entity": "cpplus_content", "value": "built-in-function"} là gì
+    - Cú pháp của [lambda]{"entity": "cpplus_content", "value": "lambda"} là gì
+    - Cú pháp của [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là gì
+    - Cú pháp [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Cú pháp [cplusplus]{"entity": "cpplus_content", "value": "cplusplus"}
+    - Cú pháp [include]{"entity": "cpplus_content", "value": "include"}
+    - Cú pháp [library]{"entity": "cpplus_content", "value": "library"}
+    - Cú pháp [namespace]{"entity": "cpplus_content", "value": "namespace"}
+    - Cú pháp [pseudo-code]{"entity": "cpplus_content", "value": "pseudo-code"}
+    - Cú pháp [variable]{"entity": "cpplus_content", "value": "variable"}
+    - Cú pháp [unsigned]{"entity": "cpplus_content", "value": "unsigned"}
+    - Cú pháp [signed]{"entity": "cpplus_content", "value": "signed"}
+    - Cú pháp [short]{"entity": "cpplus_content", "value": "short"}
+    - Cú pháp [long]{"entity": "cpplus_content", "value": "long"}
+    - Cú pháp [type-modififer]{"entity": "cpplus_content", "value": "type-modififer"}
+    - Cú pháp [typedef]{"entity": "cpplus_content", "value": "typedef"}
+    - Cú pháp [constant]{"entity": "cpplus_content", "value": "constant"}
+    - Cú pháp [macro]{"entity": "cpplus_content", "value": "macro"}
+    - Cú pháp [wchar_t]{"entity": "cpplus_content", "value": "wchar_t"}
+    - Cú pháp [boolean]{"entity": "cpplus_content", "value": "boolean"}
+    - Cú pháp [data-type]{"entity": "cpplus_content", "value": "data-type"}
+    - Cú pháp [2d-array]{"entity": "cpplus_content", "value": "2d-array"}
+    - Cú pháp [array]{"entity": "cpplus_content", "value": "array"}
+    - Cú pháp [structure]{"entity": "cpplus_content", "value": "structure"}
+    - Cú pháp [class]{"entity": "cpplus_content", "value": "class"}
+    - Cú pháp [union]{"entity": "cpplus_content", "value": "union"}
+    - Cú pháp [pointer]{"entity": "cpplus_content", "value": "pointer"}
+    - Cú pháp [enumeration]{"entity": "cpplus_content", "value": "enumeration"}
+    - Cú pháp [integer]{"entity": "cpplus_content", "value": "integer"}
+    - Cú pháp [floating-point]{"entity": "cpplus_content", "value": "floating-point"}
+    - Cú pháp [double]{"entity": "cpplus_content", "value": "double"}
+    - Cú pháp [character]{"entity": "cpplus_content", "value": "character"}
+    - Cú pháp [string]{"entity": "cpplus_content", "value": "string"}
+    - Cú pháp [local-variable]{"entity": "cpplus_content", "value": "local-variable"}
+    - Cú pháp [auto]{"entity": "cpplus_content", "value": "auto"}
+    - Cú pháp [external]{"entity": "cpplus_content", "value": "external"}
+    - Cú pháp [static]{"entity": "cpplus_content", "value": "static"}
+    - Cú pháp [vector]{"entity": "cpplus_content", "value": "vector"}
+    - Cú pháp [reference-variable]{"entity": "cpplus_content", "value": "reference-variable"}
+    - Cú pháp [decrement-operator]{"entity": "cpplus_content", "value": "decrement-operator"}
+    - Cú pháp [increment-operator]{"entity": "cpplus_content", "value": "increment-operator"}
+    - Cú pháp [dereference-operator]{"entity": "cpplus_content", "value": "dereference-operator"}
+    - Cú pháp [address_of-operator]{"entity": "cpplus_content", "value": "address_of-operator"}
+    - Cú pháp [comma-operator]{"entity": "cpplus_content", "value": "comma-operator"}
+    - Cú pháp [ternary-operator]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - Cú pháp [binary-operator]{"entity": "cpplus_content", "value": "binary-operator"}
+    - Cú pháp [unary-operator]{"entity": "cpplus_content", "value": "unary-operator"}
+    - Cú pháp [shift-operator]{"entity": "cpplus_content", "value": "shift-operator"}
+    - Cú pháp [bitwise-operator]{"entity": "cpplus_content", "value": "bitwise-operator"}
+    - Cú pháp [logical-operator]{"entity": "cpplus_content", "value": "logical-operator"}
+    - Cú pháp [comparison-operator]{"entity": "cpplus_content", "value": "comparison-operator"}
+    - Cú pháp [arithmetic-operator]{"entity": "cpplus_content", "value": "arithmetic-operator"}
+    - Cú pháp [assignment-operator]{"entity": "cpplus_content", "value": "assignment-operator"}
+    - Cú pháp [operator]{"entity": "cpplus_content", "value": "operator"}
+    - Cú pháp [scope-resolution-operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+    - Cú pháp [if]{"entity": "cpplus_content", "value": "if"}
+    - Cú pháp [loop]{"entity": "cpplus_content", "value": "loop"}
+    - Cú pháp [control-flow]{"entity": "cpplus_content", "value": "control-flow"}
+    - Cú pháp [selection-statement]{"entity": "cpplus_content", "value": "selection-statement"}
+    - Cú pháp [iteration-statement]{"entity": "cpplus_content", "value": "iteration-statement"}
+    - Cú pháp [jump-statement]{"entity": "cpplus_content", "value": "jump-statement"}
+    - Cú pháp [for]{"entity": "cpplus_content", "value": "for"}
+    - Cú pháp [while]{"entity": "cpplus_content", "value": "while"}
+    - Cú pháp [do-while]{"entity": "cpplus_content", "value": "do-while"}
+    - Cú pháp [switch]{"entity": "cpplus_content", "value": "switch"}
+    - Cú pháp [break]{"entity": "cpplus_content", "value": "break"}
+    - Cú pháp [continue]{"entity": "cpplus_content", "value": "continue"}
+    - Cú pháp [goto]{"entity": "cpplus_content", "value": "goto"}
+    - Cú pháp [if-else]{"entity": "cpplus_content", "value": "if-else"}
+    - Cú pháp [if-else-if-ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"}
+    - Cú pháp [nested-if]{"entity": "cpplus_content", "value": "nested-if"}
+    - Cú pháp [function]{"entity": "cpplus_content", "value": "function"}
+    - Cú pháp [parameter]{"entity": "cpplus_content", "value": "parameter"}
+    - Cú pháp [argument]{"entity": "cpplus_content", "value": "argument"}
+    - Cú pháp [recursion]{"entity": "cpplus_content", "value": "recursion"}
+    - Cú pháp [pass-by-value]{"entity": "cpplus_content", "value": "pass-by-value"}
+    - Cú pháp [pass-by-reference]{"entity": "cpplus_content", "value": "pass-by-reference"}
+    - Cú pháp [return]{"entity": "cpplus_content", "value": "return"}
+    - Cú pháp [return-type]{"entity": "cpplus_content", "value": "return-type"}
+    - Cú pháp [const-reference]{"entity": "cpplus_content", "value": "const-reference"}
+    - Cú pháp [inline-function]{"entity": "cpplus_content", "value": "inline-function"}
+    - Cú pháp [default-value]{"entity": "cpplus_content", "value": "default-value"}
+    - Cú pháp [main-function]{"entity": "cpplus_content", "value": "main-function"}
+    - Cú pháp [built-in-function]{"entity": "cpplus_content", "value": "built-in-function"}
+    - Cú pháp [lambda]{"entity": "cpplus_content", "value": "lambda"}
+    - Cú pháp [flowchart]{"entity": "cpplus_content", "value": "flowchart"}
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
     - TẠI SAO PHẢI DÙNG [MẢNG]{"entity": "cpplus_content", "value": "array"}
     - VÌ SAO TÔI LẠI NÊN CHỌN [CPP]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ LÀM NGÔN NGỮ KHỞI ĐẦU VIỆC HỌC LẬP TRÌNH
-    - TẠI SAO [C]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI LÀ NGÔN NGỮ KHỞI ĐẦU CON ĐƯỜNG HỌC LẬP TRÌNH CỦA T V BOT?
-    - NÈ BOT, SAO NHÀ TRƯỜNG LẠI CHỌN [C]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ DẠY MÌNH HỌC V, NÓ CÓ ĐIỂM MẠNH GÌ À?
-    - Ê BOT, LÝ DO GÌ MÀ [C]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI ĐƯỢC ƯU TIÊN ĐỂ LÀM NGÔN NGỮ LẬP TRÌNH KHỞI ĐẦU TRONG GIẢNG DẠY
+    - TẠI SAO [c]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI LÀ NGÔN NGỮ KHỞI ĐẦU CON ĐƯỜNG HỌC LẬP TRÌNH CỦA T V BOT?
+    - NÈ BOT, SAO NHÀ TRƯỜNG LẠI CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ DẠY MÌNH HỌC V, NÓ CÓ ĐIỂM MẠNH GÌ À?
+    - Ê BOT, LÝ DO GÌ MÀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++ LẠI ĐƯỢC ƯU TIÊN ĐỂ LÀM NGÔN NGỮ LẬP TRÌNH KHỞI ĐẦU TRONG GIẢNG DẠY
     - YO BOT, VÌ CÁI LZ GÌ MÀ NGƯỜI TA LẠI CHỌN [CPLUSPLUS]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ HỌC ĐẦU TIÊN THẾ?
     - NÈ NÈ, VÌ LÝ DO GÌ MÀ T NÊN HỌC [C PLUS PLUS]{"entity": "cpplus_content", "value": "cplusplus"} TRƯỚC?
     - M CHO T MỘT LÝ DO VÌ S T NÊN HỌC [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐƯỢC K BOT?
@@ -3140,14 +3298,14 @@ nlu:
     - SAO MỖI LẦN T VIẾT CODE ĐỀU PHẢI XÀI CÁI TỪ [INCLUDE]{"entity": "cpplus_content", "value": "include"} ĐÓ HẾT V M
     - Ê BOT, T K HIỂU SAO MỖI LẦN VIẾT CODE LÀ LẠI CỨ PHẢI THÊM CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} NGAY TRÊN ĐẦU LÀM GÌ NHỈ
     - Ê M, T K HIỂU, VÌ SAO LẠI CỨ PHẢI XÀI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE C++ THẾ @@
-    - NÈ BOT, SAO T CỨ PHẢI XÀI [#INCLUDE]{"entity": "cpplus_content", "value": "include"}MỖI KHI VIẾT C++ THẾ, KHÔNG XÀI THÌ SAO
+    - NÈ BOT, SAO T CỨ PHẢI XÀI [#INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI KHI VIẾT C++ THẾ, KHÔNG XÀI THÌ SAO
     - CHO T 1 LÝ DO VÌ S LẠI CỨ PHẢI XÀI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN BẮT ĐẦU MỘT PROJECT MỚI DC K BOT
     - Ê DUMA T Đ HIỂU GÌ VỀ CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} LUÔN Á, TẠI SAO T LẠI PHẢI XÀI NÓ V?
     - CLM T ĐÉO HIỂU SAO LẠI CẦN [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE LUÔN Á M, GIẢI THÍCH CHO T VỚI
     - MÁ ƠI SAO MỖI LẦN CODE LÀ LẠI PHẢI [INCLUDE]{"entity": "cpplus_content", "value": "include"} V, DM EXPLAIN CHO T CÁI
     - TAO MUỐN BIẾT LÝ DO VÌ SAO LẠI PHẢI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE
-    - BẠN CÓ THỂ CHO TÔI BIẾT VÌ SAO LẠI CHỌN [C]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ HỌC MÔN NHẬP MÔN LẬP TRÌNH ĐƯỢC KHÔNG?
-    - BẠN CÓ THỂ KỂ CHO TÔI MỘT VÀI LÝ DO VÌ SAO LẠI NÊN CHỌN [C]{"entity": "cpplus_content", "value": "cplusplus"}++ DÙNG ĐỂ DẠY MÔN NHẬP MÔN LẬP TRÌNH CHO ĐẠI ĐA SỐ CÁC SINH VIÊN CÔNG NGHỆ THÔNG TIN HIỆN NAY TẠI VIỆT NAM ĐƯỢC KHÔNG?
+    - BẠN CÓ THỂ CHO TÔI BIẾT VÌ SAO LẠI CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ HỌC MÔN NHẬP MÔN LẬP TRÌNH ĐƯỢC KHÔNG?
+    - BẠN CÓ THỂ KỂ CHO TÔI MỘT VÀI LÝ DO VÌ SAO LẠI NÊN CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ DÙNG ĐỂ DẠY MÔN NHẬP MÔN LẬP TRÌNH CHO ĐẠI ĐA SỐ CÁC SINH VIÊN CÔNG NGHỆ THÔNG TIN HIỆN NAY TẠI VIỆT NAM ĐƯỢC KHÔNG?
     - VÌ SAO LẠI PHẢI ĐỂ CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE V?
     - VÌ SAO T LẠI PHẢI XÀI CÁI TỪ [INCLUDE]{"entity": "cpplus_content", "value": "include"} THẾ BOT
     - VÌ SAO MỖI KHI VIẾT CODE LÀ PHẢI CÓ CÁI [#INCLUDE]{"entity": "cpplus_content", "value": "include"} V BOT
@@ -3541,7 +3699,6 @@ nlu:
     - Tại sao phải dùng [vector]{"entity": "cpplus_content", "value": "vector"}
     - Vì sao phải sử dụng [hàm]{"entity": "cpplus_content", "value": "function"}
     - Nói nghe tại sao phải sử dụng [hàm]{"entity": "cpplus_content", "value": "function"} vậy bot ơi ? 
-    - Vì sao [hàm]{"entity": "cpplus_content", "value": "function"} lại nên sử dụng khi code vậy?
     - Tại sao phải dùng [hàm]{"entity": "cpplus_content", "value": "function"} vậy ta ?
     - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
     - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
@@ -4218,9 +4375,10 @@ nlu:
     - câu số [21](flowchart_quest_num) lưu đồ đáp án là gì vậy 
     - đáp án câu số [7](flowchart_quest_num) là gì 
     - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
-    - bài tập [1](flowchart_quest_num)
+    - Bài tập [3](flowchart_quest_num) đi bot
     - bài tập [2](flowchart_quest_num)
-    - bài tập [1](flowchart_quest_num) bài tập [2]bài tập [2](flowchart_quest_num) bài tập [3]
+    - bài tập [1](flowchart_quest_num) bài tập [2](flowchart_quest_num) 
+    - bài tập [2](flowchart_quest_num) bài tập [3](flowchart_quest_num)
     - Câu thứ [3](flowchart_quest_num) câu thứ [4](flowchart_quest_num) câu thứ [5](flowchart_quest_num) câu thứ [6](flowchart_quest_num)
     - tao muốn hỏi m câu số [10](flowchart_quest_num) và câu số [30](flowchart_quest_num)
     - cho đáp án câu [40](flowchart_quest_num) [41](flowchart_quest_num) [42](flowchart_quest_num) đi m
