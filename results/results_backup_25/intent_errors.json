@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Netflix l\u00e0 g\u00ec",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9907573461532593
+    }
+  },
+  {
+    "text": "RAM l\u00e0 g\u00ec?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9953264594078064
+    }
+  },
+  {
+    "text": "M L\u00c0 C\u00c1I TH\u1ec2 LO\u1ea0I CL G\u00cc V DCM",
+    "intent": "who_are_you",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.5493060946464539
+    }
+  },
+  {
+    "text": "m l\u00e0 c\u00e1i th\u1ec3 lo\u1ea1i cl g\u00ec v dcm",
+    "intent": "who_are_you",
+    "intent_prediction": {
+      "name": "cpplus_what_asking",
+      "confidence": 0.9345942139625549
+    }
+  },
+  {
+    "text": "G\u00e9t :3",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.002497502136975527
+    }
+  },
+  {
+    "text": "https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=4rqNta98n34AX-N86gg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=ab4cd82706a6d74f545e19bdeb24d0ed&oe=6009FF31",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "insult",
+      "confidence": 0.0024945875629782677
+    }
+  }
+]
