@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "CHO TAO H\u1eceI M\u1ed8T CH\u00daT V\u1ec0 C++",
     "entities": [],
@@ -88,6 +89,8 @@
   {
 =======
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
     "text": "RETURN TRONG 1 H\u00c0M L\u00c0 G\u00cc?",
     "entities": [
       {
@@ -102,11 +105,15 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9924574170866747,
 =======
         "confidence_entity": 0.993074596234918,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.993074596234918,
+>>>>>>> New results 29/1/2021
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -117,11 +124,15 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.8234443917353917,
 =======
         "confidence_entity": 0.8636196151017719,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.8636196151017719,
+>>>>>>> New results 29/1/2021
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -155,6 +166,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "text": "review cho t 1 ch\u00fat v\u1ec1 m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111i bot",
     "entities": [
       {
@@ -167,6 +179,8 @@
     "predicted_entities": []
   },
   {
+=======
+>>>>>>> New results 29/1/2021
     "text": "gi\u1ea3i th\u00edch c\u00e1i to\u00e1n t\u1eed ++ xem",
     "entities": [
       {
@@ -205,11 +219,15 @@
         "entity": "cpplus_content",
         "start": 13,
         "end": 19,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9959369323113796,
 =======
         "confidence_entity": 0.9959580883574632,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9959580883574632,
+>>>>>>> New results 29/1/2021
         "value": "argument",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -220,11 +238,15 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 48,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.8097072951773941,
 =======
         "confidence_entity": 0.8662159115779088,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.8662159115779088,
+>>>>>>> New results 29/1/2021
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -234,18 +256,28 @@
     ]
   },
   {
+<<<<<<< HEAD
     "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 j v\u1eady bot ?",
     "entities": [
       {
         "start": 0,
         "end": 17,
         "value": "flowchart",
+=======
+    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 argument \u0111\u01b0\u1ee3c truy\u1ec1n v\u00e0o m\u1ed9t h\u00e0m",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "argument",
+>>>>>>> New results 29/1/2021
         "entity": "cpplus_content"
       }
     ],
     "predicted_entities": [
       {
         "entity": "cpplus_content",
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "start": 7,
         "end": 17,
@@ -253,6 +285,8 @@
         "value": "thu\u1eadt to\u00e1n",
         "extractor": "CRFEntityExtractor"
 =======
+=======
+>>>>>>> New results 29/1/2021
         "start": 15,
         "end": 23,
         "confidence_entity": 0.9685852019932919,
@@ -272,16 +306,23 @@
         "processors": [
           "EntitySynonymMapper"
         ]
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
       }
     ]
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 sao v\u1eady bot ?",
 =======
     "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
+>>>>>>> New results 29/1/2021
     "entities": [
       {
         "start": 0,
@@ -290,6 +331,7 @@
         "entity": "cpplus_content"
       }
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "predicted_entities": [
       {
@@ -329,11 +371,16 @@
   {
     "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n",
 =======
+=======
+>>>>>>> New results 29/1/2021
     "predicted_entities": []
   },
   {
     "text": "h\u00e3y cho t\u00f4i bi\u1ebft nh\u01b0 th\u1ebf n\u00e0o th\u00ec \u0111\u01b0\u1ee3c g\u1ecdi l\u00e0 1 flowchart",
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
     "entities": [
       {
         "start": 47,
@@ -357,6 +404,7 @@
     "predicted_entities": []
   },
   {
+<<<<<<< HEAD
     "text": "h\u00e3y cho t\u1edb bi\u1ebft th\u1ebf n\u00e0o l\u00e0 1 s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n ???",
     "entities": [
       {
@@ -390,6 +438,8 @@
     ]
   },
   {
+=======
+>>>>>>> New results 29/1/2021
     "text": "th\u1ebf n\u00e0o l\u00e0 C++ ?",
     "entities": [
       {
@@ -402,6 +452,7 @@
     "predicted_entities": []
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "th\u1ebf n\u00e0o l\u00e0 1 bi\u1ebfn?",
     "entities": [
@@ -410,13 +461,18 @@
         "end": 17,
         "value": "variable",
 =======
+=======
+>>>>>>> New results 29/1/2021
     "text": "C++ l\u00e0 c\u00e1i qu\u00e1i g\u00ec v\u1eady?",
     "entities": [
       {
         "start": 0,
         "end": 1,
         "value": "cplusplus",
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
         "entity": "cpplus_content"
       }
     ],
@@ -437,11 +493,15 @@
         "entity": "cpplus_content",
         "start": 0,
         "end": 6,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9870365674851229,
 =======
         "confidence_entity": 0.9918136793222393,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9918136793222393,
+>>>>>>> New results 29/1/2021
         "value": "return",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -452,11 +512,15 @@
         "entity": "cpplus_content",
         "start": 15,
         "end": 18,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.6123107884184821,
 =======
         "confidence_entity": 0.7154624272773046,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.7154624272773046,
+>>>>>>> New results 29/1/2021
         "value": "function",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -478,6 +542,7 @@
     "predicted_entities": []
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "TH\u1ebe N\u00c0O L\u00c0 KI\u1ec2U S\u1ed0 NGUY\u00caN TRONG C++ V\u1eacY CHATBOT?",
     "entities": [
@@ -505,6 +570,8 @@
   {
 =======
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
     "text": "Th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u k\u00ed t\u1ef1 trong c++",
     "entities": [
       {
@@ -519,11 +586,15 @@
         "entity": "cpplus_content",
         "start": 11,
         "end": 21,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5547882213111369,
 =======
         "confidence_entity": 0.6189242802425566,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.6189242802425566,
+>>>>>>> New results 29/1/2021
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -547,11 +618,15 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9996049105765544,
 =======
         "confidence_entity": 0.999234692127258,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.999234692127258,
+>>>>>>> New results 29/1/2021
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -562,11 +637,15 @@
         "entity": "cpplus_content",
         "start": 30,
         "end": 34,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9329116286539523,
 =======
         "confidence_entity": 0.9492671815400188,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9492671815400188,
+>>>>>>> New results 29/1/2021
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -590,11 +669,15 @@
         "entity": "cpplus_content",
         "start": 8,
         "end": 14,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9996049033367722,
 =======
         "confidence_entity": 0.9992346814715796,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9992346814715796,
+>>>>>>> New results 29/1/2021
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -605,11 +688,15 @@
         "entity": "cpplus_content",
         "start": 48,
         "end": 52,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9328444151818542,
 =======
         "confidence_entity": 0.9492115402131055,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9492115402131055,
+>>>>>>> New results 29/1/2021
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -633,11 +720,15 @@
         "entity": "cpplus_content",
         "start": 16,
         "end": 22,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9996195802926698,
 =======
         "confidence_entity": 0.9992327539743249,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9992327539743249,
+>>>>>>> New results 29/1/2021
         "value": "static",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -648,11 +739,15 @@
         "entity": "cpplus_content",
         "start": 45,
         "end": 49,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.532741837511844,
 =======
         "confidence_entity": 0.5615061260361855,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.5615061260361855,
+>>>>>>> New results 29/1/2021
         "value": "variable",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -712,11 +807,15 @@
         "entity": "cpplus_content",
         "start": 37,
         "end": 48,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9716010270308281,
 =======
         "confidence_entity": 0.9681966390157541,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9681966390157541,
+>>>>>>> New results 29/1/2021
         "value": "return-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -727,11 +826,15 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 58,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9992390961650434,
 =======
         "confidence_entity": 0.9993809909217303,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9993809909217303,
+>>>>>>> New results 29/1/2021
         "value": "recursion",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -741,11 +844,15 @@
     ]
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "t\u1ea1o ra m\u1ea3ng ki\u1ec3u g\u00ec v\u1eady ?",
 =======
     "text": "C++ l\u00e0 th\u1ee9 g\u00ec",
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+    "text": "C++ l\u00e0 th\u1ee9 g\u00ec",
+>>>>>>> New results 29/1/2021
     "entities": [
       {
         "start": 0,
@@ -771,11 +878,15 @@
         "entity": "cpplus_content",
         "start": 36,
         "end": 48,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5191536481724369,
 =======
         "confidence_entity": 0.5397580721399595,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.5397580721399595,
+>>>>>>> New results 29/1/2021
         "value": "data-type",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -786,11 +897,15 @@
         "entity": "cpplus_content",
         "start": 52,
         "end": 56,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9884847513532565,
 =======
         "confidence_entity": 0.9917887530343681,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9917887530343681,
+>>>>>>> New results 29/1/2021
         "value": "long",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -849,6 +964,7 @@
   },
   {
     "text": "T\u1ea0I SAO c++ L\u1ea0I L\u00c0 NG\u00d4N NG\u1eee KH\u1edeI \u0110\u1ea6U CON \u0110\u01af\u1edcNG H\u1eccC L\u1eacP TR\u00ccNH C\u1ee6A T V BOT?",
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "entities": [
       {
@@ -864,6 +980,8 @@
     "text": "N\u00c8 BOT, SAO T C\u1ee8 PH\u1ea2I X\u00c0I #INCLUDEM\u1ed6I KHI VI\u1ebeT C++ TH\u1ebe, KH\u00d4NG X\u00c0I TH\u00cc SAO",
 =======
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
     "entities": [
       {
         "start": 8,
@@ -882,6 +1000,7 @@
         "entity": "cpplus_content",
         "start": 19,
         "end": 20,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9605181265704628,
         "value": "cplusplus",
@@ -904,6 +1023,9 @@
 =======
         "confidence_entity": 0.9438014575671239,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9438014575671239,
+>>>>>>> New results 29/1/2021
         "value": "cplusplus",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -927,11 +1049,15 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 26,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9812233173321125,
 =======
         "confidence_entity": 0.9829234026501209,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9829234026501209,
+>>>>>>> New results 29/1/2021
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -942,11 +1068,15 @@
         "entity": "cpplus_content",
         "start": 34,
         "end": 38,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.7329868709135243,
 =======
         "confidence_entity": 0.7609516677046247,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.7609516677046247,
+>>>>>>> New results 29/1/2021
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -970,11 +1100,15 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 49,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.997932549869872,
 =======
         "confidence_entity": 0.9984663513841147,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9984663513841147,
+>>>>>>> New results 29/1/2021
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -985,11 +1119,15 @@
         "entity": "cpplus_content",
         "start": 73,
         "end": 77,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.6230068005635883,
 =======
         "confidence_entity": 0.6699579631392985,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.6699579631392985,
+>>>>>>> New results 29/1/2021
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1013,11 +1151,15 @@
         "entity": "cpplus_content",
         "start": 29,
         "end": 35,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9774216495798338,
 =======
         "confidence_entity": 0.9746714237376406,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9746714237376406,
+>>>>>>> New results 29/1/2021
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1028,11 +1170,15 @@
         "entity": "cpplus_content",
         "start": 43,
         "end": 48,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.8553409297348876,
 =======
         "confidence_entity": 0.9033040207449493,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9033040207449493,
+>>>>>>> New results 29/1/2021
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1068,11 +1214,15 @@
         "entity": "cpplus_content",
         "start": 20,
         "end": 25,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9488697199597017,
 =======
         "confidence_entity": 0.9629839452119502,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9629839452119502,
+>>>>>>> New results 29/1/2021
         "value": "character",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1096,11 +1246,15 @@
         "entity": "cpplus_content",
         "start": 21,
         "end": 27,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.9772721808788931,
 =======
         "confidence_entity": 0.9793184858851447,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.9793184858851447,
+>>>>>>> New results 29/1/2021
         "value": "vector",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1111,11 +1265,15 @@
         "entity": "cpplus_content",
         "start": 35,
         "end": 40,
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "confidence_entity": 0.5519689046198362,
 =======
         "confidence_entity": 0.5758138742938991,
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+        "confidence_entity": 0.5758138742938991,
+>>>>>>> New results 29/1/2021
         "value": "array",
         "extractor": "CRFEntityExtractor",
         "processors": [
@@ -1125,9 +1283,12 @@
     ]
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
     "text": "Luy\u1ec7n t\u1eadp v\u1ec1 flowchart",
 =======
+=======
+>>>>>>> New results 29/1/2021
     "text": "Sao tao ph\u1ea3i ng\u1ed3i h\u1ecdc [To\u00e1n t\u1eed ba ng\u00f4i]- t\u1ea1i sao l\u1ea1i ph\u1ea3i h\u1ecdc ternary operator v, nh\u00ecn ph\u1ee9c t\u1ea1p v\u00e3i loz",
     "entities": [
       {
@@ -1181,30 +1342,42 @@
   },
   {
     "text": "t mu\u1ed1n dc \u00f4n b\u00e0i v\u1ec1 c++",
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
     "entities": [],
     "predicted_entities": [
       {
         "entity": "cpplus_content",
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
         "start": 13,
         "end": 22,
         "confidence_entity": 0.7536249796121807,
         "value": "flowchart",
 =======
+=======
+>>>>>>> New results 29/1/2021
         "start": 20,
         "end": 21,
         "confidence_entity": 0.721250094447192,
         "value": "cplusplus",
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
         "extractor": "CRFEntityExtractor",
         "processors": [
           "EntitySynonymMapper"
         ]
       }
     ]
+<<<<<<< HEAD
 <<<<<<< HEAD:results_backup_19/CRFEntityExtractor_errors.json
 =======
+=======
+>>>>>>> New results 29/1/2021
   },
   {
     "text": "cho t \u00f4n t\u1eadp 1 s\u1ed1 b\u00e0i v\u1ec1 c++",
@@ -1290,6 +1463,9 @@
         ]
       }
     ]
+<<<<<<< HEAD
 >>>>>>> main:results/results_backup_24/CRFEntityExtractor_errors.json
+=======
+>>>>>>> New results 29/1/2021
   }
 ]
