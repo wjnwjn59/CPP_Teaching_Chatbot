@@ -21,7 +21,7 @@ pipeline:
   entity_recognition: False
   epochs: 400
 - name: FallbackClassifier
-  threshold: 0.75
+  threshold: 0.8
 - name: "CRFEntityExtractor"
   "BILOU_flag": True 
   # features to extract in the sliding window
