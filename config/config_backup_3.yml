@@ -21,7 +21,11 @@ pipeline:
   entity_recognition: False
   epochs: 300
 - name: FallbackClassifier
+<<<<<<< HEAD:config/config_backup_3.yml
   threshold: 0.8  
+=======
+  threshold: 0.3
+>>>>>>> Fix config:config_backup_3.yml
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
   # features to extract in the sliding window
