@@ -1083,7 +1083,7 @@ stories:
   - action: flowchart_quest_num_form
   - active_loop: flowchart_quest_num_form
   - slot_was_set:
-    - requested_slot: 1
+    - requested_slot: flowchart_quest_num
   - intent: dont_want_to_give_flowchart_quest_num
   - action: utter_explain_why_need_flowchart_num
   - action: flowchart_quest_num_form
@@ -1096,8 +1096,8 @@ stories:
   - action: cpp_content_form
   - active_loop: cpp_content_form
   - slot_was_set:
-    - requested_slot: pointer
+    - requested_slot: cpplus_content
   - intent: dont_want_to_give_cpp_content
   - action: utter_explain_why_need_cpp_content
   - action: cpp_content_form
-
+  
