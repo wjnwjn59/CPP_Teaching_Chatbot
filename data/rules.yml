@@ -75,7 +75,7 @@ rules:
   - intent: greet 
   - action: utter_greet
   - action: utter_who_i_am
-  wait_for_user_input: false
+  - action: utter_ask_to_do
 
 - rule: thanks
   steps:

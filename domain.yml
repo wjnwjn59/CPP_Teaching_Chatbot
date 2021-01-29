@@ -179,6 +179,7 @@ responses:
       trình với ngôn ngữ C++!
   - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
       ngữ C++
+  utter_ask_to_do:
     buttons:
     - payload: want_to_ask
     - title: Hỏi các kiến thức về C++
@@ -275,6 +276,7 @@ actions:
 - action_cpplus_content_answer
 - action_flowchart_practice_answer
 - action_cpplus_practice
+- utter_ask_to_do
 forms:
   cpp_content_form:
     cpplus_content:
