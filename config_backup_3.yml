@@ -19,9 +19,9 @@ pipeline:
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
-  epochs: 250
+  epochs: 300
 - name: FallbackClassifier
-  threshold: 0.6
+  threshold: 0.3
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
   # features to extract in the sliding window
