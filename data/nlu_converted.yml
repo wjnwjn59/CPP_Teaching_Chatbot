@@ -1943,7 +1943,6 @@ nlu:
     - Ê TAO VẪN CHƯA HIỂU VỀ CÁI VÒNG LẶP TRONG C++ LẮM CHO THỬ MỘT VÍ DỤ VỀ [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} XEM NÀO
 - intent: cpplus_what_asking
   examples: |
-    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì vậy ?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ VẬY?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} LÀ GÌ?
@@ -2131,7 +2130,7 @@ nlu:
     - KIỂU DỮ LIỆU [CHAR]{"entity": "cpplus_content", "value": "character"} LÀ GÌ THẾ
     - NGƯỜI TA HAY VIẾT TỪ [CHAR]{"entity": "cpplus_content", "value": "character"}, NÓ CÓ NGHĨA LÀ SAO VẬY?
     - THẾ NÀO LÀ KIỂU [CHARACTER]{"entity": "cpplus_content", "value": "character"} TRONG C++
-    - THẾ NÀO LÀ KIỂU [KÍ TỰ]{"entity": "cpplus_content", "value": "character"} TRONG C++
+    - THẾ NÀO LÀ [KIỂU KÍ TỰ]{"entity": "cpplus_content", "value": "character"} TRONG C++
     - KIỂU [KÍ TỰ]{"entity": "cpplus_content", "value": "character"} TRONG C++ LÀ GÌ?
     - KIỂU [KÝ TỰ]{"entity": "cpplus_content", "value": "character"} TRONG CPP LÀ GÌ?
     - THẾ NÀO LÀ [CHARACTER]{"entity": "cpplus_content", "value": "character"} ?
@@ -2406,7 +2405,7 @@ nlu:
     - Khái niệm về [Integer]{"entity": "cpplus_content", "value": "integer"}?
     - kiểu [int]{"entity": "cpplus_content", "value": "integer"} trong c++ là j
     - [INT]{"entity": "cpplus_content", "value": "integer"} là j
-    - THẾ NÀO LÀ [KIỂU SỐ NGUYÊN]{"entity": "cpplus_content", "value": "integer"} TRONG C++ VẬY CHATBOT?
+    - THẾ NÀO LÀ KIỂU [SỐ NGUYÊN]{"entity": "cpplus_content", "value": "integer"} TRONG C++ VẬY CHATBOT?
     - CHO TÔI HỎI NTN LÀ MỘT [SỐ NGUYÊN]{"entity": "cpplus_content", "value": "integer"}?
     - [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} la sao
     - cho em mot ti thong tin ve [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} di nguoi oi
@@ -4377,7 +4376,6 @@ nlu:
     - đáp án câu [25](flowchart_quest_num) sách thầy khang là gì
     - Bài tập [3](flowchart_quest_num) đi bot
     - bài tập [2](flowchart_quest_num)
-    - bài tập [1](flowchart_quest_num) bài tập [2](flowchart_quest_num) 
     - bài tập [2](flowchart_quest_num) bài tập [3](flowchart_quest_num)
     - Câu thứ [3](flowchart_quest_num) câu thứ [4](flowchart_quest_num) câu thứ [5](flowchart_quest_num) câu thứ [6](flowchart_quest_num)
     - tao muốn hỏi m câu số [10](flowchart_quest_num) và câu số [30](flowchart_quest_num)
