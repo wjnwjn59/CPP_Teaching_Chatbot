@@ -19,7 +19,7 @@ action_endpoint:
 tracker_store:
     type: SQL
     dialect: "sqlite"
-    url: "sqlite:///./cpp.db"
+    url: "sqlite:///./database/cpp.db"
     db: "cpp.db"
     username:
     password: 
@@ -46,4 +46,4 @@ tracker_store:
 event_broker:
   type: SQL
   dialect: sqlite
-  db: events.db
+  db: database/events.db

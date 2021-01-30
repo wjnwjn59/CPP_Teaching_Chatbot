@@ -1100,6 +1100,24 @@ stories:
   - intent: dont_want_to_give_cpp_content
   - action: utter_explain_why_need_cpp_content
   - action: cpp_content_form
+  
+- story: interactive_story_1
+  steps:
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
+  - intent: cpplus_what_asking
+    entities:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - action: cpp_content_form
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
 
 - story: cpp 2 times what asking
   steps:
@@ -1222,7 +1240,7 @@ stories:
 
 - story: cpp mutilple intents asking (what-why-how)
   steps:
-    - intent: cpplus_what_asking
+  - intent: cpplus_what_asking
     entities:
     - cpplus_content: c++
   - action: cpp_content_form
@@ -1249,7 +1267,7 @@ stories:
 
 - story: cpp mutilple intents asking (what-why-why)
   steps:
-    - intent: cpplus_what_asking
+  - intent: cpplus_what_asking
     entities:
     - cpplus_content: c++
   - action: cpp_content_form
@@ -1276,7 +1294,7 @@ stories:
 
 - story: cpp mutilple intents asking (what-why-what)
   steps:
-    - intent: cpplus_what_asking
+  - intent: cpplus_what_asking
     entities:
     - cpplus_content: c++
   - action: cpp_content_form
@@ -1303,7 +1321,7 @@ stories:
 
 - story: cpp mutilple intents asking (what-why-how)
   steps:
-    - intent: cpplus_what_asking
+  - intent: cpplus_what_asking
     entities:
     - cpplus_content: c++
   - action: cpp_content_form
@@ -1647,3 +1665,33 @@ stories:
   - active_loop: null 
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_who_i_am
+  - action: utter_ask_to_do
+  - intent: want_to_practice_flowchart
+  - action: utter_ok
+  - action: utter_ask_flowchart_question_number
+  - intent: flowchart_asking
+    entities:
+    - flowchart_quest_num: '1'
+  - slot_was_set:
+    - flowchart_quest_num: '1'
+  - action: flowchart_quest_num_form
+  - action: action_flowchart_practice_answer
+  - action: utter_ask_anything_else
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+  - intent: thanks
+  - action: utter_reply_thanks
+  - intent: cpplus_why_asking
+    entities:
+    - cpplus_content: cplusplus
+  - slot_was_set:
+    - cpplus_content: cplusplus
+  - action: cpp_content_form
+  - action: action_cpplus_content_answer
+  - action: cpp_content_form
+  - action: action_cpplus_content_answer

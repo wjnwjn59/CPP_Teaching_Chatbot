@@ -1,10 +1,21 @@
-  
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
+- cpplus_why_asking
+- nlu_fallback:
+    use_entities: []
+- want_to_practice_flowchart:
+    use_entities: []
 - greet:
     use_entities: []
+- flowchart_asking
+- thanks:
+    use_entities: []
+- out_of_scope:
+    use_entities: []
+- cpplus_what_asking
 - attention:
     use_entities: []
 - health_inquire:
@@ -16,8 +27,6 @@ intents:
 - deny:
     use_entities: []
 - compliment:
-    use_entities: []
-- thanks:
     use_entities: []
 - feeling_good:
     use_entities: []
@@ -45,15 +54,9 @@ intents:
     use_entities: []
 - time:
     use_entities: []
-- out_of_scope:
-    use_entities: []
 - corona:
     use_entities: []
-- nlu_fallback:
-    use_entities: []
 - restart:
-    use_entities: []
-- want_to_practice_flowchart:
     use_entities: []
 - want_to_practice_cpp:
     use_entites: []
@@ -63,11 +66,8 @@ intents:
     use_entites: []
 - dont_want_to_give_cpp_content:
     use_entites: []
-- flowchart_asking
 - cpp_practice
-- cpplus_what_asking
 - cpplus_how_asking
-- cpplus_why_asking
 - cpplus_when_asking
 - cpplus_where_asking
 - cpplus_example_asking
@@ -93,41 +93,54 @@ slots:
     influence_conversation: false
   requested_slot:
     type: categorical
-    values:
-      - cpplus_content
-      - flowchart_quest_num
     influence_conversation: true
+    values:
+    - cpplus_content
+    - flowchart_quest_num
 responses:
   utter_author:
   - image: https://media.giphy.com/media/eLjAaI1cYMnQrCpbRu/giphy.gif
-    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn
-      Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công
-      lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)
+    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
   utter_covid_symptom:
-  - text: "COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những\
-      \ người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể\
-      \ hồi phục mà không cần nhập viện.\n\nCác triệu chứng thường gặp nhất:\n_ sốt\n\
-      _ ho khan\n_ mệt mỏi\n\nCác triệu chứng ít gặp hơn:\n_ đau nhức\n_ đau họng\n\
-      _ tiêu chảy\n_ viêm kết mạc\n_ đau đầu\n_ mất vị giác hoặc khứu giác\n_ da nổi\
-      \ mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái\n\nCác triệu chứng\
-      \ nghiêm trọng:\n_ khó thở\n_ đau hoặc tức ngực\n_ mất khả năng nói hoặc cử\
-      \ động\n\nHãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng.\
-      \ Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế."
+  - text: |-
+      COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện.
+
+      Các triệu chứng thường gặp nhất:
+      _ sốt
+      _ ho khan
+      _ mệt mỏi
+
+      Các triệu chứng ít gặp hơn:
+      _ đau nhức
+      _ đau họng
+      _ tiêu chảy
+      _ viêm kết mạc
+      _ đau đầu
+      _ mất vị giác hoặc khứu giác
+      _ da nổi mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái
+
+      Các triệu chứng nghiêm trọng:
+      _ khó thở
+      _ đau hoặc tức ngực
+      _ mất khả năng nói hoặc cử động
+
+      Hãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng. Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế.
   utter_covid_precautions:
-  - text: "Để ngăn chặn COVID-19 lây lan, hãy:\n_ Đeo khâu trang ở nơi công cộng\n\
-      _ Thường xuyên rửa tay. Dùng xà phòng và nước hoặc dung dịch rửa tay chứa\
-      \ cồn.\n_ Giữ khoảng cách an toàn với những người đang ho hoặc hắt hơi.\n_ Khi\
-      \ không thể giữ khoảng cách, hãy đeo khẩu trang.\n_ Không chạm vào mắt, mũi\
-      \ hoặc miệng.\n_ Khi ho hoặc hắt hơi, hãy dùng khăn giấy hoặc gập khuỷu tay\
-      \ lại để che mũi và miệng.\n_ Hãy ở nhà khi bạn cảm thấy không khỏe.\n_ Hãy\
-      \ đi khám nếu bạn bị sốt, ho và khó thở."
+  - text: |-
+      Để ngăn chặn COVID-19 lây lan, hãy:
+      _ Đeo khâu trang ở nơi công cộng
+      _ Thường xuyên rửa tay. Dùng xà phòng và nước hoặc dung dịch rửa tay chứa cồn.
+      _ Giữ khoảng cách an toàn với những người đang ho hoặc hắt hơi.
+      _ Khi không thể giữ khoảng cách, hãy đeo khẩu trang.
+      _ Không chạm vào mắt, mũi hoặc miệng.
+      _ Khi ho hoặc hắt hơi, hãy dùng khăn giấy hoặc gập khuỷu tay lại để che mũi và miệng.
+      _ Hãy ở nhà khi bạn cảm thấy không khỏe.
+      _ Hãy đi khám nếu bạn bị sốt, ho và khó thở.
   utter_covid_treatment:
-  - text: Cho đến nay, vẫn chưa có vắc-xin hoặc thuốc đặc hiệu cho COVID-19. Các nhà
-      khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua
-      thử nghiệm lâm sàng.
+  - text: Cho đến nay, vẫn chưa có vắc-xin hoặc thuốc đặc hiệu cho COVID-19. Các nhà khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua thử nghiệm lâm sàng.
   utter_reply_stop_asking:
   - text: Ok bạn nha, có vướng mắc gì về C++ thì cứ hỏi mình
   - text: Ừa ok bạn, bạn có thể trở lại hỏi bất cứ khi nào nha
@@ -136,8 +149,7 @@ responses:
   - text: Mình vẫn ổn nha, cảm ơn bạn nhiều
   utter_reply_feeling_bad:
   - text: ' Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. '
-  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng
-      - Abraham Lincoln.'
+  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng - Abraham Lincoln.'
   utter_reply_feeling_good:
   - text: Bạn ổn là mình vui rồi <3
   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
@@ -148,19 +160,17 @@ responses:
   - text: Có gì đâu hihi
   - text: Giúp được bạn là nhiệm vụ của mình mà
   utter_reply_insult:
-  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không
-      phải ý mong bạn bỏ qua nha ><
+  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><
   - text: Sao bạn lại chửi mình zayy TT
   - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
   - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha :'(
   utter_reply_deny:
-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp
-      trong thời gian sớm nhất <3
+  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
   utter_reply_out_of_scope:
   - buttons:
-    - payload: "/continue_asking"
+    - payload: /continue_asking
       title: Hỏi lại
-    - payload: "/deny"
+    - payload: /deny
       title: Không hỏi
     text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ!
   utter_greet:
@@ -178,17 +188,15 @@ responses:
   - text: Chào bạn nha
   - text: Vâng, hẹn hôm khác nói chuyện tiếp nha
   utter_who_i_am:
-  - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập
-      trình với ngôn ngữ C++!
-  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn
-      ngữ C++
+  - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập trình với ngôn ngữ C++!
+  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn ngữ C++
   utter_ask_to_do:
   - buttons:
-    - payload: "/want_to_ask"
+    - payload: /want_to_ask
       title: Hỏi các kiến thức về C++
-    - payload: "/want_to_practice_flowchart"
+    - payload: /want_to_practice_flowchart
       title: Làm bài tập lưu đồ thuật toán (flowchart)
-    - payload: "/want_to_practice_cpp"
+    - payload: /want_to_practice_cpp
       title: Làm bài tập C++
     - payload: "/want_to_watch_cpp_tutorial"
       title: Xem video bài giảng Nhập môn lập trình
@@ -242,29 +250,46 @@ responses:
   utter_explain_why_need_cpp_content:
   - text: Mình cần có một nội dung cụ thể để tiện cho việc truy xuất thông tin nên phiền bạn cung cấp thông tin chi tiết hơn ạ. Bạn thông cảm giúp mình nha.
 actions:
-- utter_reply_feeling_good
-- utter_reply_feeling_bad
-- utter_reply_health_inquire
-- utter_reply_stop_asking
-- utter_reply_compliment
-- utter_reply_insult
-- utter_reply_thanks
-- utter_reply_deny
-- utter_reply_out_of_scope
-- utter_greet
-- utter_author
-- utter_may_i_help_u
-- utter_what_do_you_want
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_who_i_am
+- action_ask_date
+- action_ask_time
+- action_cpplus_content_answer
+- action_cpplus_practice
+- action_first_name
+- action_flowchart_practice_answer
 - utter_accept_questions
 - utter_answer_cpplus_questions
 - utter_ask_anything_else
+- utter_ask_cpp_content
+- utter_ask_first_name
+- utter_ask_flowchart_question_number
+- utter_ask_last_name
+- utter_ask_to_do
+- utter_author
+- utter_covid_precautions
+- utter_covid_symptom
+- utter_covid_treatment
+- utter_did_that_help
+- utter_explain_why_need_cpp_content
+- utter_explain_why_need_flowchart_num
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_may_i_help_u
 - utter_ok
-- utter_thanks
+- utter_please_rephrase
+- utter_reply_compliment
+- utter_reply_deny
+- utter_reply_feeling_bad
+- utter_reply_feeling_good
+- utter_reply_health_inquire
+- utter_reply_insult
+- utter_reply_out_of_scope
+- utter_reply_stop_asking
+- utter_reply_thanks
 - utter_sorry
+- utter_thanks
+- utter_what_do_you_want
+- utter_who_i_am
 - utter_wtf
 - utter_covid_symptom
 - utter_covid_precautions
@@ -279,13 +304,6 @@ actions:
 - utter_ask_which_video_tutorial
 - validate_cpp_content_form
 - validate_flowchart_quest_num_form
-- action_first_name
-- action_ask_time
-- action_ask_date
-- action_cpplus_content_answer
-- action_flowchart_practice_answer
-- action_cpplus_practice
-- utter_ask_to_do
 forms:
   cpp_content_form:
     cpplus_content:
