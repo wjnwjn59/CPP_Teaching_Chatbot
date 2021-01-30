@@ -260,9 +260,6 @@ actions:
 - utter_answer_cpplus_questions
 - utter_ask_anything_else
 - utter_ask_cpp_content
-- utter_ask_first_name
-- utter_ask_flowchart_question_number
-- utter_ask_last_name
 - utter_ask_to_do
 - utter_author
 - utter_covid_precautions
@@ -276,7 +273,6 @@ actions:
 - utter_happy
 - utter_may_i_help_u
 - utter_ok
-- utter_please_rephrase
 - utter_reply_compliment
 - utter_reply_deny
 - utter_reply_feeling_bad
@@ -295,8 +291,6 @@ actions:
 - utter_covid_precautions
 - utter_covid_treatment
 - utter_please_rephrase
-- utter_explain_why_need_flowchart_num
-- utter_explain_why_need_cpp_content
 - utter_ask_first_name
 - utter_ask_last_name
 - utter_ask_flowchart_question_number
