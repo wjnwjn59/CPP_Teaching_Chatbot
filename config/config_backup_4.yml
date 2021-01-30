@@ -1,0 +1,23 @@
+language: "vi"
+
+pipeline:
+- name: LanguageModelTokenizer
+  model_name: "roberta"
+  # Pre-Trained weights to be loaded
+  model_weights: "roberta-large"
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: fasttext_featurizer.FastTextFeaturizer
+  cachedir: "/home/cc.vi.300.bin"
+  file: cc.vi.300.bin
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    random_seed: 42
+    epochs: 250
+  - name: RulePolicy
