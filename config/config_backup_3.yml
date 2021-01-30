@@ -17,6 +17,7 @@ pipeline:
   model_name: "roberta"
   model_weights: "roberta-large"
   cache_dir: null
+- name: CountVectorsFeaturizer 
 - name: "DIETClassifier"
   entity_recognition: False
   epochs: 300
