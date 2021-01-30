@@ -1,0 +1,268 @@
+[1mdiff --git a/cpp.db b/cpp.db[m
+[1mindex 0a5e5a2..92d7d3e 100644[m
+Binary files a/cpp.db and b/cpp.db differ
+[1mdiff --git a/domain.yml b/domain.yml[m
+[1mindex 497ad2b..e94ae22 100644[m
+[1m--- a/domain.yml[m
+[1m+++ b/domain.yml[m
+[36m@@ -1,8 +1,11 @@[m
+[31m-  [m
+[32m+[m[32mversion: '2.0'[m
+ session_config:[m
+   session_expiration_time: 60[m
+   carry_over_slots_to_new_session: false[m
+ intents:[m
+[32m+[m[32m- out_of_scope:[m
+[32m+[m[32m    use_entities: [][m
+[32m+[m[32m- cpplus_what_asking[m
+ - greet:[m
+     use_entities: [][m
+ - attention:[m
+[36m@@ -45,8 +48,6 @@[m [mintents:[m
+     use_entities: [][m
+ - time:[m
+     use_entities: [][m
+[31m-- out_of_scope:[m
+[31m-    use_entities: [][m
+ - corona:[m
+     use_entities: [][m
+ - nlu_fallback:[m
+[36m@@ -63,7 +64,6 @@[m [mintents:[m
+     use_entites: [][m
+ - flowchart_asking[m
+ - cpp_practice[m
+[31m-- cpplus_what_asking[m
+ - cpplus_how_asking[m
+ - cpplus_why_asking[m
+ - cpplus_when_asking[m
+[36m@@ -90,41 +90,54 @@[m [mslots:[m
+     influence_conversation: false[m
+   requested_slot:[m
+     type: categorical[m
+[31m-    values:[m
+[31m-      - cpplus_content[m
+[31m-      - flowchart_quest_num[m
+     influence_conversation: true[m
+[32m+[m[32m    values:[m
+[32m+[m[32m    - cpplus_content[m
+[32m+[m[32m    - flowchart_quest_num[m
+ responses:[m
+   utter_author:[m
+   - image: https://media.giphy.com/media/eLjAaI1cYMnQrCpbRu/giphy.gif[m
+[31m-    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn[m
+[31m-      Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công[m
+[31m-      lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)[m
+[32m+[m[32m    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)[m
+   utter_what_do_you_want:[m
+   - text: Vậy bạn muốn gì?[m
+   - text: Thế bạn cần gì?[m
+   utter_covid_symptom:[m
+[31m-  - text: "COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những\[m
+[31m-      \ người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể\[m
+[31m-      \ hồi phục mà không cần nhập viện.\n\nCác triệu chứng thường gặp nhất:\n_ sốt\n\[m
+[31m-      _ ho khan\n_ mệt mỏi\n\nCác triệu chứng ít gặp hơn:\n_ đau nhức\n_ đau họng\n\[m
+[31m-      _ tiêu chảy\n_ viêm kết mạc\n_ đau đầu\n_ mất vị giác hoặc khứu giác\n_ da nổi\[m
+[31m-      \ mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái\n\nCác triệu chứng\[m
+[31m-      \ nghiêm trọng:\n_ khó thở\n_ đau hoặc tức ngực\n_ mất khả năng nói hoặc cử\[m
+[31m-      \ động\n\nHãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng.\[m
+[31m-      \ Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế."[m
+[32m+[m[32m  - text: |-[m
+[32m+[m[32m      COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những người nhiễm vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện.[m
+[32m+[m
+[32m+[m[32m      Các triệu chứng thường gặp nhất:[m
+[32m+[m[32m      _ sốt[m
+[32m+[m[32m      _ ho khan[m
+[32m+[m[32m      _ mệt mỏi[m
+[32m+[m
+[32m+[m[32m      Các triệu chứng ít gặp hơn:[m
+[32m+[m[32m      _ đau nhức[m
+[32m+[m[32m      _ đau họng[m
+[32m+[m[32m      _ tiêu chảy[m
+[32m+[m[32m      _ viêm kết mạc[m
+[32m+[m[32m      _ đau đầu[m
+[32m+[m[32m      _ mất vị giác hoặc khứu giác[m
+[32m+[m[32m      _ da nổi mẩn hay ngón tay hoặc ngón chân bị tấy đỏ hoặc tím tái[m
+[32m+[m
+[32m+[m[32m      Các triệu chứng nghiêm trọng:[m
+[32m+[m[32m      _ khó thở[m
+[32m+[m[32m      _ đau hoặc tức ngực[m
+[32m+[m[32m      _ mất khả năng nói hoặc cử động[m
+[32m+[m
+[32m+[m[32m      Hãy đi khám ngay lập tức nếu bạn gặp phải các triệu chứng nghiêm trọng. Luôn gọi điện trước khi gặp bác sĩ hoặc đến cơ sở y tế.[m
+   utter_covid_precautions:[m
+[31m-  - text: "Để ngăn chặn COVID-19 lây lan, hãy:\n_ Đeo khâu trang ở nơi công cộng\n\[m
+[31m-      _ Thường xuyên rửa tay. Dùng xà phòng và nước hoặc dung dịch rửa tay chứa\[m
+[31m-      \ cồn.\n_ Giữ khoảng cách an toàn với những người đang ho hoặc hắt hơi.\n_ Khi\[m
+[31m-      \ không thể giữ khoảng cách, hãy đeo khẩu trang.\n_ Không chạm vào mắt, mũi\[m
+[31m-      \ hoặc miệng.\n_ Khi ho hoặc hắt hơi, hãy dùng khăn giấy hoặc gập khuỷu tay\[m
+[31m-      \ lại để che mũi và miệng.\n_ Hãy ở nhà khi bạn cảm thấy không khỏe.\n_ Hãy\[m
+[31m-      \ đi khám nếu bạn bị sốt, ho và khó thở."[m
+[32m+[m[32m  - text: |-[m
+[32m+[m[32m      Để ngăn chặn COVID-19 lây lan, hãy:[m
+[32m+[m[32m      _ Đeo khâu trang ở nơi công cộng[m
+[32m+[m[32m      _ Thường xuyên rửa tay. Dùng xà phòng và nước hoặc dung dịch rửa tay chứa cồn.[m
+[32m+[m[32m      _ Giữ khoảng cách an toàn với những người đang ho hoặc hắt hơi.[m
+[32m+[m[32m      _ Khi không thể giữ khoảng cách, hãy đeo khẩu trang.[m
+[32m+[m[32m      _ Không chạm vào mắt, mũi hoặc miệng.[m
+[32m+[m[32m      _ Khi ho hoặc hắt hơi, hãy dùng khăn giấy hoặc gập khuỷu tay lại để che mũi và miệng.[m
+[32m+[m[32m      _ Hãy ở nhà khi bạn cảm thấy không khỏe.[m
+[32m+[m[32m      _ Hãy đi khám nếu bạn bị sốt, ho và khó thở.[m
+   utter_covid_treatment:[m
+[31m-  - text: Cho đến nay, vẫn chưa có vắc-xin hoặc thuốc đặc hiệu cho COVID-19. Các nhà[m
+[31m-      khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua[m
+[31m-      thử nghiệm lâm sàng.[m
+[32m+[m[32m  - text: Cho đến nay, vẫn chưa có vắc-xin hoặc thuốc đặc hiệu cho COVID-19. Các nhà khoa học vẫn đang nghiên cứu phương pháp điều trị và sẽ kiểm chứng thông qua thử nghiệm lâm sàng.[m
+   utter_reply_stop_asking:[m
+   - text: Ok bạn nha, có vướng mắc gì về C++ thì cứ hỏi mình[m
+   - text: Ừa ok bạn, bạn có thể trở lại hỏi bất cứ khi nào nha[m
+[36m@@ -133,8 +146,7 @@[m [mresponses:[m
+   - text: Mình vẫn ổn nha, cảm ơn bạn nhiều[m
+   utter_reply_feeling_bad:[m
+   - text: ' Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. '[m
+[31m-  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng[m
+[31m-      - Abraham Lincoln.'[m
+[32m+[m[32m  - text: ' Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng - Abraham Lincoln.'[m
+   utter_reply_feeling_good:[m
+   - text: Bạn ổn là mình vui rồi <3[m
+   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi[m
+[36m@@ -145,19 +157,17 @@[m [mresponses:[m
+   - text: Có gì đâu hihi[m
+   - text: Giúp được bạn là nhiệm vụ của mình mà[m
+   utter_reply_insult:[m
+[31m-  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không[m
+[31m-      phải ý mong bạn bỏ qua nha ><[m
+[32m+[m[32m  - text: Mình không biết vì sao bạn lại chửi mình nhưng nếu mình có làm gì không phải ý mong bạn bỏ qua nha ><[m
+   - text: Sao bạn lại chửi mình zayy TT[m
+   - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><[m
+   - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha :'([m
+   utter_reply_deny:[m
+[31m-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp[m
+[31m-      trong thời gian sớm nhất <3[m
+[32m+[m[32m  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3[m
+   utter_reply_out_of_scope:[m
+   - buttons:[m
+[31m-    - payload: "/continue_asking"[m
+[32m+[m[32m    - payload: /continue_asking[m
+       title: Hỏi lại[m
+[31m-    - payload: "/deny"[m
+[32m+[m[32m    - payload: /deny[m
+       title: Không hỏi[m
+     text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ![m
+   utter_greet:[m
+[36m@@ -175,17 +185,15 @@[m [mresponses:[m
+   - text: Chào bạn nha[m
+   - text: Vâng, hẹn hôm khác nói chuyện tiếp nha[m
+   utter_who_i_am:[m
+[31m-  - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập[m
+[31m-      trình với ngôn ngữ C++![m
+[31m-  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn[m
+[31m-      ngữ C++[m
+[32m+[m[32m  - text: Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập trình với ngôn ngữ C++![m
+[32m+[m[32m  - text: Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn ngữ C++[m
+   utter_ask_to_do:[m
+   - buttons:[m
+[31m-    - payload: "/want_to_ask"[m
+[32m+[m[32m    - payload: /want_to_ask[m
+       title: Hỏi các kiến thức về C++[m
+[31m-    - payload: "/want_to_practice_flowchart"[m
+[32m+[m[32m    - payload: /want_to_practice_flowchart[m
+       title: Làm bài tập lưu đồ thuật toán (flowchart)[m
+[31m-    - payload: "/want_to_practice_cpp"[m
+[32m+[m[32m    - payload: /want_to_practice_cpp[m
+       title: Làm bài tập C++[m
+     text: Vui lòng chọn các tùy chọn bên dưới[m
+   utter_accept_questions:[m
+[36m@@ -235,49 +243,49 @@[m [mresponses:[m
+   utter_explain_why_need_cpp_content:[m
+   - text: Mình cần có một nội dung cụ thể để tiện cho việc truy xuất thông tin nên phiền bạn cung cấp thông tin chi tiết hơn ạ. Bạn thông cảm giúp mình nha.[m
+ actions:[m
+[31m-- utter_reply_feeling_good[m
+[32m+[m[32m- action_ask_date[m
+[32m+[m[32m- action_ask_time[m
+[32m+[m[32m- action_cpplus_content_answer[m
+[32m+[m[32m- action_cpplus_practice[m
+[32m+[m[32m- action_first_name[m
+[32m+[m[32m- action_flowchart_practice_answer[m
+[32m+[m[32m- utter_accept_questions[m
+[32m+[m[32m- utter_answer_cpplus_questions[m
+[32m+[m[32m- utter_ask_anything_else[m
+[32m+[m[32m- utter_ask_cpp_content[m
+[32m+[m[32m- utter_ask_first_name[m
+[32m+[m[32m- utter_ask_flowchart_question_number[m
+[32m+[m[32m- utter_ask_last_name[m
+[32m+[m[32m- utter_ask_to_do[m
+[32m+[m[32m- utter_author[m
+[32m+[m[32m- utter_covid_precautions[m
+[32m+[m[32m- utter_covid_symptom[m
+[32m+[m[32m- utter_covid_treatment[m
+[32m+[m[32m- utter_did_that_help[m
+[32m+[m[32m- utter_explain_why_need_cpp_content[m
+[32m+[m[32m- utter_explain_why_need_flowchart_num[m
+[32m+[m[32m- utter_goodbye[m
+[32m+[m[32m- utter_greet[m
+[32m+[m[32m- utter_happy[m
+[32m+[m[32m- utter_may_i_help_u[m
+[32m+[m[32m- utter_ok[m
+[32m+[m[32m- utter_please_rephrase[m
+[32m+[m[32m- utter_reply_compliment[m
+[32m+[m[32m- utter_reply_deny[m
+ - utter_reply_feeling_bad[m
+[32m+[m[32m- utter_reply_feeling_good[m
+ - utter_reply_health_inquire[m
+[31m-- utter_reply_stop_asking[m
+[31m-- utter_reply_compliment[m
+ - utter_reply_insult[m
+[31m-- utter_reply_thanks[m
+[31m-- utter_reply_deny[m
+ - utter_reply_out_of_scope[m
+[31m-- utter_greet[m
+[31m-- utter_author[m
+[31m-- utter_may_i_help_u[m
+[32m+[m[32m- utter_reply_stop_asking[m
+[32m+[m[32m- utter_reply_thanks[m
+[32m+[m[32m- utter_sorry[m
+[32m+[m[32m- utter_thanks[m
+ - utter_what_do_you_want[m
+[31m-- utter_did_that_help[m
+[31m-- utter_happy[m
+[31m-- utter_goodbye[m
+ - utter_who_i_am[m
+[31m-- utter_accept_questions[m
+[31m-- utter_answer_cpplus_questions[m
+[31m-- utter_ask_anything_else[m
+[31m-- utter_ok[m
+[31m-- utter_thanks[m
+[31m-- utter_sorry[m
+ - utter_wtf[m
+[31m-- utter_covid_symptom[m
+[31m-- utter_covid_precautions[m
+[31m-- utter_covid_treatment[m
+[31m-- utter_please_rephrase[m
+[31m-- utter_explain_why_need_flowchart_num[m
+[31m-- utter_explain_why_need_cpp_content[m
+[31m-- utter_ask_first_name[m
+[31m-- utter_ask_last_name[m
+[31m-- utter_ask_flowchart_question_number[m
+[31m-- utter_ask_cpp_content[m
+ - validate_cpp_content_form[m
+ - validate_flowchart_quest_num_form[m
+[31m-- action_first_name[m
+[31m-- action_ask_time[m
+[31m-- action_ask_date[m
+[31m-- action_cpplus_content_answer[m
+[31m-- action_flowchart_practice_answer[m
+[31m-- action_cpplus_practice[m
+[31m-- utter_ask_to_do[m
+ forms:[m
+   cpp_content_form:[m
+     cpplus_content:[m
+[36m@@ -286,4 +294,4 @@[m [mforms:[m
+   flowchart_quest_num_form:[m
+     flowchart_quest_num:[m
+     - entity: flowchart_quest_num[m
+[31m-      type: from_entity[m
+\ No newline at end of file[m
+[32m+[m[32m      type: from_entity[m
+[1mdiff --git a/events.db b/events.db[m
+[1mindex d9f95ba..dbc63cf 100644[m
+Binary files a/events.db and b/events.db differ
