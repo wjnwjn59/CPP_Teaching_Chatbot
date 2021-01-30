@@ -4733,7 +4733,7 @@ nlu:
     - BÀI GIẢNG [MẢNG MỘT CHIỀU]{"entity": "cpplus_content", "value": "array"} TRONG C++
     - [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} VIDEO LINK YOUTUBE 
     - BÀI GIẢNG VỀ [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} CỦA TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN 
-    - BÀI GIẢNG LÝ THUYẾT VỀ KIỂU [STRUCT]{"entity": "cpplus_content", "value": "struct"} CỦA UIT 
+    - BÀI GIẢNG LÝ THUYẾT VỀ KIỂU [STRUCT]{"entity": "cpplus_content", "value": "structure"} CỦA UIT 
     - BOT ƠI BẠN GỬI 1 VIDEO TUTORIAL VỀ [CLASS]{"entity": "cpplus_content", "value": "class"} CỦA TRƯỜNG UIT CỦA BẠN ĐI 
     - BÀI GIẢNG VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"} TRONG C++ 
     - [POINTER]{"entity": "cpplus_content", "value": "pointer"} IN C++ TUTORIALS 
@@ -4786,7 +4786,7 @@ nlu:
     - Bài giảng [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} trong C++
     - [Mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} video link youtube 
     - Bài giảng về [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} của trường đại học công nghệ thông tin 
-    - Bài giảng lý thuyết về kiểu [struct]{"entity": "cpplus_content", "value": "struct"} của UIT 
+    - Bài giảng lý thuyết về kiểu [struct]{"entity": "cpplus_content", "value": "structure"} của UIT 
     - Bot ơi bạn gửi 1 video tutorial về [class]{"entity": "cpplus_content", "value": "class"} của trường UIT của bạn đi 
     - Bài giảng về [con trỏ]{"entity": "cpplus_content", "value": "pointer"} trong C++ 
     - [Pointer]{"entity": "cpplus_content", "value": "pointer"} in C++ Tutorials 
