@@ -21,7 +21,7 @@
         "entity": "flowchart_quest_num",
         "start": 22,
         "end": 25,
-        "confidence_entity": 0.9758604581547033,
+        "confidence_entity": 0.9800143048851075,
         "value": "100",
         "extractor": "CRFEntityExtractor"
       }
@@ -49,7 +49,7 @@
         "entity": "flowchart_quest_num",
         "start": 22,
         "end": 25,
-        "confidence_entity": 0.9769540977699511,
+        "confidence_entity": 0.9808232250085435,
         "value": "100",
         "extractor": "CRFEntityExtractor"
       }
@@ -77,7 +77,7 @@
         "entity": "flowchart_quest_num",
         "start": 46,
         "end": 49,
-        "confidence_entity": 0.9337251723284081,
+        "confidence_entity": 0.934689830625282,
         "value": "101",
         "extractor": "CRFEntityExtractor"
       }
@@ -105,7 +105,7 @@
         "entity": "flowchart_quest_num",
         "start": 30,
         "end": 33,
-        "confidence_entity": 0.987128706105413,
+        "confidence_entity": 0.9887181226637943,
         "value": "120",
         "extractor": "CRFEntityExtractor"
       }
@@ -133,7 +133,7 @@
         "entity": "flowchart_quest_num",
         "start": 10,
         "end": 13,
-        "confidence_entity": 0.953931648358083,
+        "confidence_entity": 0.9481177969789153,
         "value": "111",
         "extractor": "CRFEntityExtractor"
       }
@@ -161,7 +161,7 @@
         "entity": "flowchart_quest_num",
         "start": 7,
         "end": 10,
-        "confidence_entity": 0.9912593818886103,
+        "confidence_entity": 0.9924915121219211,
         "value": "100",
         "extractor": "CRFEntityExtractor"
       }
@@ -189,7 +189,7 @@
         "entity": "flowchart_quest_num",
         "start": 7,
         "end": 10,
-        "confidence_entity": 0.9853989342071962,
+        "confidence_entity": 0.9865522235975064,
         "value": "200",
         "extractor": "CRFEntityExtractor"
       }
