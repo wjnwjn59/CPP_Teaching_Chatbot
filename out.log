@@ -940,6 +940,9 @@ rasa.shared.exceptions.RasaException: Failed to execute custom action.
 2021-01-30 10:39:02,418 [DEBUG]  Deleted lock for conversation '2498446476900093'.
 2021-01-30 10:39:02,688 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add to merge
 2021-01-30 10:42:38,807 [DEBUG]  Available web server routes: 
 /conversations/<conversation_id:path>/messages     POST                           add_message
 /conversations/<conversation_id:path>/tracker/events POST                           append_events
@@ -15707,5 +15710,8 @@ rasa.shared.exceptions.RasaException: Failed to execute custom action.
 2021-01-30 11:58:49,213 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
 2021-01-30 11:58:49,215 [DEBUG]  Deleted lock for conversation '2498446476900093'.
 2021-01-30 11:58:49,475 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+<<<<<<< HEAD
+=======
+>>>>>>> Add to merge
 =======
 >>>>>>> Add to merge
