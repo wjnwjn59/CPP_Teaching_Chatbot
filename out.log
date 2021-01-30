@@ -1,0 +1,941 @@
+2021-01-30 10:32:38,326 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/webhooks/facebook                                 GET                            fb_webhook.health
+/webhooks/facebook/webhook                         GET                            fb_webhook.token_verification
+/webhooks/facebook/webhook                         POST                           fb_webhook.webhook
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2021-01-30 10:32:38,327 [INFO ]  Starting Rasa server on http://localhost:5005
+2021-01-30 10:32:38,327 [DEBUG]  Using the default number of Sanic workers (1).
+2021-01-30 10:32:38,328 [INFO ]  Loading model models/20210130-034138.tar.gz...
+2021-01-30 10:32:38,702 [DEBUG]  Extracted model to '/tmp/tmpmym9rz1x'.
+2021-01-30 10:32:38,714 [DEBUG]  Starting new HTTPS connection (1): api.segment.io:443
+2021-01-30 10:32:39,616 [DEBUG]  https://api.segment.io:443 "POST /v1/track HTTP/1.1" 200 21
+2021-01-30 10:32:39,620 [INFO ]  Enabling coroutine debugging. Loop id 94275153561544.
+2021-01-30 10:32:39,621 [INFO ]  Loading model models/20210130-034138.tar.gz...
+2021-01-30 10:32:40,002 [DEBUG]  Extracted model to '/tmp/tmpz_8k_cbc'.
+2021-01-30 10:32:43,102 [DEBUG]  Loading Tokenizer and Model for bert
+2021-01-30 10:32:43,107 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:44,408 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/vocab.txt HTTP/1.1" 200 0
+2021-01-30 10:32:44,418 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:45,443 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2021-01-30 10:32:45,452 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:46,460 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2021-01-30 10:32:46,469 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:47,472 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2021-01-30 10:32:47,481 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:48,488 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2021-01-30 10:32:49,519 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:50,567 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/config.json HTTP/1.1" 200 0
+2021-01-30 10:32:50,582 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 10:32:51,623 [DEBUG]  https://huggingface.co:443 "HEAD /rasa/LaBSE/resolve/main/tf_model.h5 HTTP/1.1" 302 0
+2021-01-30 10:33:16,296 [INFO ]  Added 'HFTransformersNLP' to component cache. Key 'HFTransformersNLP-bert-829bf942fe49aa900b91983003fa7829'.
+2021-01-30 10:33:16,309 [INFO ]  Added 'LanguageModelFeaturizer' to component cache. Key 'LanguageModelFeaturizer-bert-829bf942fe49aa900b91983003fa7829'.
+2021-01-30 10:33:16,335 [DEBUG]  Loading the model from /tmp/tmpz_8k_cbc/nlu/component_5_DIETClassifier.tf_model with finetune_mode=False...
+2021-01-30 10:33:16,882 [DEBUG]  Following metrics will be logged during training: 
+2021-01-30 10:33:16,883 [DEBUG]    t_loss (total loss)
+2021-01-30 10:33:16,883 [DEBUG]    i_acc (intent acc)
+2021-01-30 10:33:16,883 [DEBUG]    i_loss (intent loss)
+2021-01-30 10:33:16,883 [DEBUG]    e_f1 (entity f1)
+2021-01-30 10:33:16,883 [DEBUG]    e_loss (entity loss)
+2021-01-30 10:33:19,519 [DEBUG]  Finished loading the model.
+2021-01-30 10:33:19,521 [DEBUG]  Building tensorflow prediction graph...
+2021-01-30 10:33:26,786 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-30 10:33:26,793 [DEBUG]  Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path '/tmp/tmpz_8k_cbc/nlu' doesn't exist?
+2021-01-30 10:33:26,832 [DEBUG]  SQLEventBroker: Connecting to database: 'sqlite:///database/events.db'.
+2021-01-30 10:33:27,036 [DEBUG]  Instantiated event broker to 'SQLEventBroker'.
+2021-01-30 10:33:27,039 [DEBUG]  Attempting to connect to database via 'sqlite:///./database/cpp.db'.
+2021-01-30 10:33:27,040 [DEBUG]  Connection to SQL database 'cpp.db' successful.
+2021-01-30 10:33:27,041 [DEBUG]  Connected to SQLTrackerStore.
+2021-01-30 10:33:27,041 [DEBUG]  Connected to lock store 'InMemoryLockStore'.
+2021-01-30 10:33:27,488 [DEBUG]  Extracted model to '/tmp/tmpnodbzlfn'.
+2021-01-30 10:33:27,823 [DEBUG]  Loading the model from /tmp/tmpnodbzlfn/core/policy_1_TEDPolicy/ted_policy.tf_model with finetune_mode=False...
+2021-01-30 10:33:28,543 [DEBUG]  Finished loading the model.
+2021-01-30 10:33:28,555 [DEBUG]  Building tensorflow prediction graph...
+2021-01-30 10:33:34,749 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-30 10:33:34,756 [DEBUG]  Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+2021-01-30 10:33:34,757 [INFO ]  Rasa server is up and running.
+2021-01-30 10:33:46,069 [DEBUG]  Can't retrieve tracker matching sender id 'default' from SQL storage. Returning `None` instead.
+2021-01-30 10:33:46,075 [DEBUG]  Can't retrieve tracker matching sender id 'default' from SQL storage. Returning `None` instead.
+2021-01-30 10:33:46,083 [DEBUG]  Tracker with sender_id 'default' stored to database
+2021-01-30 10:33:46,083 [DEBUG]  Starting a new session for conversation ID 'default'.
+2021-01-30 10:33:46,101 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:33:46,101 [DEBUG]  Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7fd738392da0>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+2021-01-30 10:33:46,102 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 10:35:37,629 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:35:38,208 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:35:38,566 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:35:38,568 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:35:38,569 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:35:38,569 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:35:38,608 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:35:38,612 [DEBUG]  Received user message '/continue_asking' with intent '{'name': 'continue_asking', 'confidence': 1.0}' and entities '[]'
+2021-01-30 10:35:38,613 [DEBUG]  Logged UserUtterance - tracker now has 10 events.
+2021-01-30 10:35:38,614 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+2021-01-30 10:35:38,615 [DEBUG]  There is no memorised next action
+2021-01-30 10:35:38,634 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user text: /continue_asking | previous action name: action_listen
+2021-01-30 10:35:38,636 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:38,637 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+2021-01-30 10:35:38,639 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:38,639 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:35:38,640 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:35:38,640 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:35:38,650 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 0.52.
+2021-01-30 10:35:38,650 [DEBUG]  Activated the form 'cpp_content_form'.
+2021-01-30 10:35:38,651 [DEBUG]  No pre-filled required slots to validate.
+2021-01-30 10:35:38,651 [DEBUG]  Validating user input 'UserUttered(text: /continue_asking, intent: continue_asking, use_text_for_featurization: False)'.
+2021-01-30 10:35:38,651 [DEBUG]  Validating extracted slots: {}
+2021-01-30 10:35:38,652 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 10:35:39,119 [DEBUG]  Request next slot 'cpplus_content'
+2021-01-30 10:35:39,120 [DEBUG]  There was no action found to ask for slot 'cpplus_content' name to be filled.
+2021-01-30 10:35:39,120 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd73839cbe0>]'.
+2021-01-30 10:35:39,120 [DEBUG]  Action 'cpp_content_form' ended with events '[<rasa.shared.core.events.ActiveLoop object at 0x7fd73839ceb8>, <rasa.shared.core.events.SlotSet object at 0x7fd73833f6d8>]'.
+2021-01-30 10:35:39,121 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:35:39,122 [DEBUG]  Current tracker state:
+[state 0] user intent: out_of_scope | previous action name: action_listen
+[state 1] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 2] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 3] user intent: continue_asking | previous action name: action_listen
+[state 4] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:39,123 [DEBUG]  There is no memorised next action
+2021-01-30 10:35:39,137 [DEBUG]  Predicted 'action_listen' after loop 'cpp_content_form'.
+2021-01-30 10:35:39,137 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:35:39,137 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 10:35:39,138 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:35:39,138 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:35:39,143 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:35:39,275 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:35:39,276 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:35:39,586 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:35:50,496 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:35:51,027 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:35:51,294 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:35:51,296 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:35:51,296 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:35:51,297 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:35:51,304 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:35:51,639 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:35:52,205 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:35:52,205 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:35:52,205 [DEBUG]  Received user message 'Hello' with intent '{'id': -8049292631949292059, 'name': 'greet', 'confidence': 0.9999525547027588}' and entities '[]'
+2021-01-30 10:35:52,206 [DEBUG]  Logged UserUtterance - tracker now has 16 events.
+2021-01-30 10:35:52,207 [DEBUG]  Current tracker state:
+[state 0] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 1] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 2] user intent: continue_asking | previous action name: action_listen
+[state 3] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,208 [DEBUG]  There is no memorised next action
+2021-01-30 10:35:52,224 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user text: Hello | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,225 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:52,226 [DEBUG]  Predicted loop 'cpp_content_form'.
+2021-01-30 10:35:52,226 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:35:52,226 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:35:52,226 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:35:52,227 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 1.00.
+2021-01-30 10:35:52,227 [DEBUG]  Validating user input 'UserUttered(text: Hello, intent: greet, use_text_for_featurization: False)'.
+2021-01-30 10:35:52,228 [DEBUG]  Trying to extract requested slot 'cpplus_content' ...
+2021-01-30 10:35:52,228 [DEBUG]  Got mapping '{'entity': 'cpplus_content', 'type': 'from_entity'}'
+2021-01-30 10:35:52,228 [DEBUG]  Failed to extract requested slot 'cpplus_content'
+2021-01-30 10:35:52,228 [DEBUG]  Validating extracted slots: {}
+2021-01-30 10:35:52,230 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 10:35:52,244 [DEBUG]  Current tracker state:
+[state 0] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 1] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 2] user intent: continue_asking | previous action name: action_listen
+[state 3] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,245 [DEBUG]  There is no memorised next action
+2021-01-30 10:35:52,262 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,264 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:52,265 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,268 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:52,268 [DEBUG]  Execution of 'cpp_content_form' was rejected. Setting its confidence to 0.0 in all predictions.
+2021-01-30 10:35:52,269 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:35:52,269 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:35:52,270 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:35:52,270 [DEBUG]  Predicted next action 'utter_greet' with confidence 0.43.
+2021-01-30 10:35:52,291 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd73833f470>]'.
+2021-01-30 10:35:52,292 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Xin chào! Bạn khỏe không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612002952.2916749)]'.
+2021-01-30 10:35:52,737 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 10:35:52,741 [DEBUG]  Current tracker state:
+[state 0] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 1] user intent: continue_asking | previous action name: action_listen
+[state 2] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,742 [DEBUG]  There is no memorised next action
+2021-01-30 10:35:52,763 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:35:52,765 [DEBUG]  There is no applicable rule.
+2021-01-30 10:35:52,766 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:35:52,766 [DEBUG]  Predicted next action 'action_listen' with confidence 0.54.
+2021-01-30 10:35:52,767 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:35:52,767 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:35:52,774 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:35:52,886 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:35:52,886 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:35:53,155 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:05,244 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:36:05,801 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:06,058 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:06,059 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:36:06,059 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:36:06,060 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:36:06,064 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:06,284 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:36:06,303 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:36:06,303 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:36:06,304 [DEBUG]  Received user message 'Ok' with intent '{'id': -5376702642574949034, 'name': 'affirm', 'confidence': 0.9989733099937439}' and entities '[]'
+2021-01-30 10:36:06,386 [DEBUG]  Logged UserUtterance - tracker now has 22 events.
+2021-01-30 10:36:06,389 [DEBUG]  Current tracker state:
+[state 0] user intent: continue_asking | previous action name: action_listen
+[state 1] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: affirm | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:06,389 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:06,407 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user text: Ok | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:06,408 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:06,409 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: affirm | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:06,409 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:06,410 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:36:06,410 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:36:06,410 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:36:06,410 [DEBUG]  Predicted next action 'action_default_fallback' with confidence 0.30.
+2021-01-30 10:36:06,411 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd7c46f5e80>]'.
+2021-01-30 10:36:06,411 [DEBUG]  Action 'action_default_fallback' ended with events '[<rasa.shared.core.events.UserUtteranceReverted object at 0x7fd819e43828>]'.
+2021-01-30 10:36:06,411 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:36:06,412 [DEBUG]  Current tracker state:
+[state 0] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 1] user intent: continue_asking | previous action name: action_listen
+[state 2] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:06,413 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:06,426 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:06,427 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:06,428 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:36:06,428 [DEBUG]  Predicted next action 'action_listen' with confidence 0.54.
+2021-01-30 10:36:06,428 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:36:06,428 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:36:06,438 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:06,524 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:36:06,524 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:36:06,813 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:19,122 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:36:19,685 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:19,954 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:19,956 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:36:19,956 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:36:19,957 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:36:19,965 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:20,173 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:36:20,215 [DEBUG]  NLU confidence 0.5456666946411133 for intent 'deny' is lower than NLU threshold 0.75.
+2021-01-30 10:36:20,215 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:36:20,216 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:36:20,217 [DEBUG]  Received user message 'Nói nè' with intent '{'name': 'nlu_fallback', 'confidence': 0.4543333053588867}' and entities '[]'
+2021-01-30 10:36:20,219 [DEBUG]  Logged UserUtterance - tracker now has 27 events.
+2021-01-30 10:36:20,221 [DEBUG]  Current tracker state:
+[state 0] user intent: continue_asking | previous action name: action_listen
+[state 1] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:20,222 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:20,237 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user text: Nói nè | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:20,239 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:20,239 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:20,241 [DEBUG]  There is a rule for the next action 'utter_please_rephrase'.
+2021-01-30 10:36:20,241 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:36:20,241 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:36:20,241 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:36:20,241 [DEBUG]  Predicted next action 'utter_please_rephrase' with confidence 1.00.
+2021-01-30 10:36:20,242 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd7c46f5c50>]'.
+2021-01-30 10:36:20,243 [DEBUG]  Action 'utter_please_rephrase' ended with events '[BotUttered('Bạn có thể nói lại được không, mình không hiểu ý bạn cho lắm :'(', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_please_rephrase"}, 1612002980.2428954)]'.
+2021-01-30 10:36:20,696 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 10:36:20,700 [DEBUG]  Current tracker state:
+[state 0] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:20,701 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:20,721 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:20,724 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:20,725 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:36:20,725 [DEBUG]  Predicted next action 'action_listen' with confidence 0.91.
+2021-01-30 10:36:20,727 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:36:20,728 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:36:20,735 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:20,830 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:36:20,830 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:36:21,093 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:33,629 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:36:34,049 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:34,371 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:36:34,373 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:36:34,374 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:36:34,374 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:36:34,384 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:34,649 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:36:34,668 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:36:34,668 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:36:34,669 [DEBUG]  Received user message 'Lưu đồ thuật toán bài 2' with intent '{'id': 5044291738330520663, 'name': 'flowchart_asking', 'confidence': 0.9993863105773926}' and entities '[{'entity': 'flowchart_quest_num', 'start': 22, 'end': 23, 'confidence_entity': 0.9985541701316833, 'value': '2', 'extractor': 'DIETClassifier'}]'
+2021-01-30 10:36:34,671 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:36:34,671 [DEBUG]  Logged UserUtterance - tracker now has 33 events.
+2021-01-30 10:36:34,672 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:34,673 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:34,688 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user text: Lưu đồ thuật toán bài 2 | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:34,689 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:34,690 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:34,691 [DEBUG]  There is a rule for the next action 'flowchart_quest_num_form'.
+2021-01-30 10:36:34,691 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:36:34,691 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:36:34,691 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:36:34,692 [DEBUG]  Predicted next action 'flowchart_quest_num_form' with confidence 1.00.
+2021-01-30 10:36:34,692 [DEBUG]  Activated the form 'flowchart_quest_num_form'.
+2021-01-30 10:36:34,692 [DEBUG]  Validating pre-filled required slots: {'flowchart_quest_num': '2'}
+2021-01-30 10:36:34,693 [DEBUG]  Validating extracted slots: {'flowchart_quest_num': '2'}
+2021-01-30 10:36:34,694 [DEBUG]  Calling action endpoint to run action 'validate_flowchart_quest_num_form'.
+2021-01-30 10:36:34,783 [ERROR]  Encountered an exception while running action 'flowchart_quest_num_form'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 671, in run
+    json=json_body, method="post", timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 155, in request
+    response.status, response.reason, await response.content.read()
+rasa.utils.endpoints.ClientResponseError: 500, Internal Server Error, body='b'<!DOCTYPE html><html lang=en><meta charset=UTF-8><title>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</title>\n<style>\n        html { font-family: sans-serif }\n        h2 { color: #888; }\n        .tb-wrapper p { margin: 0 }\n        .frame-border { margin: 1rem }\n        .frame-line > * { padding: 0.3rem 0.6rem }\n        .frame-line { margin-bottom: 0.3rem }\n        .frame-code { font-size: 16px; padding-left: 4ch }\n        .tb-wrapper { border: 1px solid #eee }\n        .tb-header { background: #eee; padding: 0.3rem; font-weight: bold }\n        .frame-descriptor { background: #e2eafb; font-size: 14px }\n    </style>\n<h1>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</h1><p>The server encountered an internal error and cannot complete your request.\n''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/processor.py", line 751, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/loops.py", line 26, in run
+    events += await self.activate(output_channel, nlg, tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 669, in activate
+    prefilled_slots, tracker, domain, output_channel, nlg
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 403, in validate_slots
+    validate_events = await _action.run(output_channel, nlg, _tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 694, in run
+    raise RasaException("Failed to execute custom action.") from e
+rasa.shared.exceptions.RasaException: Failed to execute custom action.
+2021-01-30 10:36:34,785 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd85cbd0cf8>]'.
+2021-01-30 10:36:34,786 [DEBUG]  Action 'flowchart_quest_num_form' ended with events '[]'.
+2021-01-30 10:36:34,786 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:36:34,789 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:34,790 [DEBUG]  There is no memorised next action
+2021-01-30 10:36:34,806 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:36:34,808 [DEBUG]  There is no applicable rule.
+2021-01-30 10:36:34,809 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:36:34,809 [DEBUG]  Predicted next action 'action_listen' with confidence 0.78.
+2021-01-30 10:36:34,809 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:36:34,810 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:36:34,816 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:36:34,917 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:36:34,917 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:36:35,176 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:37:33,640 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:37:34,122 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:37:34,387 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:37:34,389 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:37:34,389 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:37:34,390 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:37:34,402 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:37:34,663 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:37:34,684 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:37:34,685 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:37:34,685 [DEBUG]  Received user message 'Câu số 2' with intent '{'id': 5044291738330520663, 'name': 'flowchart_asking', 'confidence': 0.9999889135360718}' and entities '[{'entity': 'flowchart_quest_num', 'start': 7, 'end': 8, 'confidence_entity': 0.9998525381088257, 'value': '2', 'extractor': 'DIETClassifier'}]'
+2021-01-30 10:37:34,686 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:37:34,686 [DEBUG]  Logged UserUtterance - tracker now has 38 events.
+2021-01-30 10:37:34,687 [DEBUG]  Current tracker state:
+[state 0] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:37:34,688 [DEBUG]  There is no memorised next action
+2021-01-30 10:37:34,705 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user text: Câu số 2 | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:37:34,706 [DEBUG]  There is no applicable rule.
+2021-01-30 10:37:34,707 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:37:34,708 [DEBUG]  There is a rule for the next action 'flowchart_quest_num_form'.
+2021-01-30 10:37:34,708 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:37:34,709 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:37:34,709 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:37:34,709 [DEBUG]  Predicted next action 'flowchart_quest_num_form' with confidence 1.00.
+2021-01-30 10:37:34,709 [DEBUG]  Activated the form 'flowchart_quest_num_form'.
+2021-01-30 10:37:34,710 [DEBUG]  Validating pre-filled required slots: {'flowchart_quest_num': '2'}
+2021-01-30 10:37:34,710 [DEBUG]  Validating extracted slots: {'flowchart_quest_num': '2'}
+2021-01-30 10:37:34,711 [DEBUG]  Calling action endpoint to run action 'validate_flowchart_quest_num_form'.
+2021-01-30 10:37:34,756 [ERROR]  Encountered an exception while running action 'flowchart_quest_num_form'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 671, in run
+    json=json_body, method="post", timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 155, in request
+    response.status, response.reason, await response.content.read()
+rasa.utils.endpoints.ClientResponseError: 500, Internal Server Error, body='b'<!DOCTYPE html><html lang=en><meta charset=UTF-8><title>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</title>\n<style>\n        html { font-family: sans-serif }\n        h2 { color: #888; }\n        .tb-wrapper p { margin: 0 }\n        .frame-border { margin: 1rem }\n        .frame-line > * { padding: 0.3rem 0.6rem }\n        .frame-line { margin-bottom: 0.3rem }\n        .frame-code { font-size: 16px; padding-left: 4ch }\n        .tb-wrapper { border: 1px solid #eee }\n        .tb-header { background: #eee; padding: 0.3rem; font-weight: bold }\n        .frame-descriptor { background: #e2eafb; font-size: 14px }\n    </style>\n<h1>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</h1><p>The server encountered an internal error and cannot complete your request.\n''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/processor.py", line 751, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/loops.py", line 26, in run
+    events += await self.activate(output_channel, nlg, tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 669, in activate
+    prefilled_slots, tracker, domain, output_channel, nlg
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 403, in validate_slots
+    validate_events = await _action.run(output_channel, nlg, _tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 694, in run
+    raise RasaException("Failed to execute custom action.") from e
+rasa.shared.exceptions.RasaException: Failed to execute custom action.
+2021-01-30 10:37:34,758 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd7381b47b8>]'.
+2021-01-30 10:37:34,758 [DEBUG]  Action 'flowchart_quest_num_form' ended with events '[]'.
+2021-01-30 10:37:34,759 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:37:34,762 [DEBUG]  Current tracker state:
+[state 0] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:37:34,762 [DEBUG]  There is no memorised next action
+2021-01-30 10:37:34,777 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:37:34,777 [DEBUG]  There is no applicable rule.
+2021-01-30 10:37:34,778 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:37:34,778 [DEBUG]  Predicted next action 'action_listen' with confidence 0.78.
+2021-01-30 10:37:34,779 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:37:34,779 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:37:34,785 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:37:34,884 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:37:34,884 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:37:35,148 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:30,359 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:38:30,913 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:31,264 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:31,266 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:38:31,267 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:38:31,268 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:38:31,278 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:38:31,283 [DEBUG]  Received user message '/reset' with intent '{'name': 'reset', 'confidence': 1.0}' and entities '[]'
+2021-01-30 10:38:31,284 [DEBUG]  Logged UserUtterance - tracker now has 42 events.
+2021-01-30 10:38:31,285 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:31,286 [DEBUG]  There is no memorised next action
+2021-01-30 10:38:31,303 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user text: /reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:31,305 [DEBUG]  There is no applicable rule.
+2021-01-30 10:38:31,308 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:31,310 [DEBUG]  There is no applicable rule.
+2021-01-30 10:38:31,311 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:38:31,311 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:38:31,312 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:38:31,312 [DEBUG]  Predicted next action 'utter_greet' with confidence 0.48.
+2021-01-30 10:38:31,312 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd7c7072278>]'.
+2021-01-30 10:38:31,313 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Xin chào! Bạn khỏe không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612003111.3129418)]'.
+2021-01-30 10:38:31,757 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 10:38:31,762 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:31,762 [DEBUG]  There is no memorised next action
+2021-01-30 10:38:31,777 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:31,778 [DEBUG]  There is no applicable rule.
+2021-01-30 10:38:31,778 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:38:31,778 [DEBUG]  Predicted next action 'action_listen' with confidence 0.56.
+2021-01-30 10:38:31,779 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:38:31,779 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:38:31,784 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:38:31,875 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:38:31,876 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:38:32,142 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:41,724 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:38:42,112 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:42,393 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:38:42,393 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:38:42,394 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:38:42,394 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:38:42,401 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:38:42,642 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:38:42,653 [DEBUG]  NLU confidence 0.7166703939437866 for intent 'continue_asking' is lower than NLU threshold 0.75.
+2021-01-30 10:38:42,654 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:38:42,654 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:38:42,654 [DEBUG]  Received user message 'Ok bắt đầu nào' with intent '{'name': 'nlu_fallback', 'confidence': 0.2833296060562134}' and entities '[]'
+2021-01-30 10:38:42,655 [DEBUG]  Logged UserUtterance - tracker now has 47 events.
+2021-01-30 10:38:42,657 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:42,657 [DEBUG]  There is no memorised next action
+2021-01-30 10:38:42,672 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user text: Ok bắt đầu nào | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:42,673 [DEBUG]  There is no applicable rule.
+2021-01-30 10:38:42,674 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:42,676 [DEBUG]  There is a rule for the next action 'utter_please_rephrase'.
+2021-01-30 10:38:42,676 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:38:42,676 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:38:42,676 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:38:42,676 [DEBUG]  Predicted next action 'utter_please_rephrase' with confidence 1.00.
+2021-01-30 10:38:42,677 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd738187cc0>]'.
+2021-01-30 10:38:42,677 [DEBUG]  Action 'utter_please_rephrase' ended with events '[BotUttered('Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_please_rephrase"}, 1612003122.6776931)]'.
+2021-01-30 10:38:43,124 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 10:38:43,129 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:43,130 [DEBUG]  There is no memorised next action
+2021-01-30 10:38:43,151 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 17] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:38:43,152 [DEBUG]  There is no applicable rule.
+2021-01-30 10:38:43,153 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:38:43,154 [DEBUG]  Predicted next action 'action_listen' with confidence 0.91.
+2021-01-30 10:38:43,155 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:38:43,155 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:38:43,164 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:38:43,277 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:38:43,277 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:38:43,541 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:39:01,122 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 10:39:01,613 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:39:01,890 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 10:39:01,892 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 10:39:01,892 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 10:39:01,893 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 10:39:01,905 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:39:02,163 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 10:39:02,184 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 10:39:02,185 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 10:39:02,185 [DEBUG]  Received user message 'Con trỏ là gì' with intent '{'id': -5310150759915434916, 'name': 'cpplus_what_asking', 'confidence': 0.9992802739143372}' and entities '[{'entity': 'cpplus_content', 'start': 0, 'end': 7, 'confidence_entity': 0.9467043280601501, 'value': 'pointer', 'extractor': 'DIETClassifier', 'processors': ['EntitySynonymMapper']}]'
+2021-01-30 10:39:02,188 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: pointer
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: cpplus_content
+2021-01-30 10:39:02,188 [DEBUG]  Logged UserUtterance - tracker now has 53 events.
+2021-01-30 10:39:02,192 [DEBUG]  Current tracker state:
+[state 0] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:39:02,192 [DEBUG]  There is no memorised next action
+2021-01-30 10:39:02,211 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 17] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 18] user text: Con trỏ là gì | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:39:02,214 [DEBUG]  There is no applicable rule.
+2021-01-30 10:39:02,217 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 17] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 18] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+2021-01-30 10:39:02,220 [DEBUG]  There is a rule for the next action 'cpp_content_form'.
+2021-01-30 10:39:02,221 [DEBUG]  Made prediction using user intent.
+2021-01-30 10:39:02,221 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 10:39:02,221 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 10:39:02,222 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 1.00.
+2021-01-30 10:39:02,223 [DEBUG]  Validating user input 'UserUttered(text: Con trỏ là gì, intent: cpplus_what_asking, entities: pointer (Type: cpplus_content, Role: None, Group: None), use_text_for_featurization: False)'.
+2021-01-30 10:39:02,223 [DEBUG]  Trying to extract requested slot 'cpplus_content' ...
+2021-01-30 10:39:02,223 [DEBUG]  Got mapping '{'entity': 'cpplus_content', 'type': 'from_entity'}'
+2021-01-30 10:39:02,223 [DEBUG]  Successfully extracted 'pointer' for requested slot 'cpplus_content'
+2021-01-30 10:39:02,223 [DEBUG]  Validating extracted slots: {'cpplus_content': 'pointer'}
+2021-01-30 10:39:02,225 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 10:39:02,242 [DEBUG]  Deactivating the form 'cpp_content_form'
+2021-01-30 10:39:02,242 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd7381eb390>]'.
+2021-01-30 10:39:02,242 [DEBUG]  Action 'cpp_content_form' ended with events '[<rasa.shared.core.events.SlotSet object at 0x7fd7381b4240>, <rasa.shared.core.events.SlotSet object at 0x7fd738392fd0>, <rasa.shared.core.events.ActiveLoop object at 0x7fd738392550>]'.
+2021-01-30 10:39:02,242 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: pointer
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 10:39:02,245 [DEBUG]  Current tracker state:
+[state 0] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 1] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 3] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 4] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 10:39:02,245 [DEBUG]  There is no memorised next action
+2021-01-30 10:39:02,267 [DEBUG]  Current tracker state:
+[state 1] user intent: out_of_scope | previous action name: action_listen
+[state 2] user intent: out_of_scope | previous action name: utter_reply_out_of_scope
+[state 3] user intent: out_of_scope | previous action name: utter_who_i_am
+[state 4] user intent: continue_asking | previous action name: action_listen
+[state 5] user intent: continue_asking | previous action name: cpp_content_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 6] user intent: greet | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 7] user intent: greet | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 8] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 9] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 10] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 11] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 12] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 13] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 14] user intent: reset | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 15] user intent: reset | previous action name: utter_greet | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 16] user intent: nlu_fallback | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 17] user intent: nlu_fallback | previous action name: utter_please_rephrase | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 18] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: action_listen | active loop: {'name': 'cpp_content_form'} | slots: {'requested_slot': (1.0, 0.0, 0.0)}
+[state 19] user intent: cpplus_what_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 10:39:02,269 [DEBUG]  There is no applicable rule.
+2021-01-30 10:39:02,271 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 10:39:02,271 [DEBUG]  Predicted next action 'action_listen' with confidence 0.41.
+2021-01-30 10:39:02,272 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 10:39:02,272 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 10:39:02,279 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 10:39:02,417 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 10:39:02,418 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 10:39:02,688 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
