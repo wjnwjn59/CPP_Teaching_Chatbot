@@ -148,7 +148,7 @@ responses:
   - text: Dạo này mình vẫn ổn nha bạn, cảm ơn đã hỏi thăm mình nha
   - text: Mình vẫn ổn nha, cảm ơn bạn nhiều
   utter_reply_feeling_bad:
-  - text: Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller. 
+  - text: Hãy quay về phía Mặt trời và bạn sẽ không thấy bóng tối – Helen Keller.
   - text: Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng - Abraham Lincoln.
   utter_reply_feeling_good:
   - text: Bạn ổn là mình vui rồi <3
@@ -198,7 +198,7 @@ responses:
       title: Làm bài tập lưu đồ thuật toán (flowchart)
     - payload: /want_to_practice_cpp
       title: Làm bài tập C++
-    - payload: "/want_to_watch_cpp_tutorial"
+    - payload: /want_to_watch_cpp_tutorial
       title: Xem video bài giảng Nhập môn lập trình
     text: Vui lòng chọn các tùy chọn bên dưới
   utter_accept_questions:
@@ -302,4 +302,3 @@ forms:
     flowchart_quest_num:
     - entity: flowchart_quest_num
       type: from_entity
-
