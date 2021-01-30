@@ -4547,6 +4547,137 @@ nlu:
     - tại làm sao mà m cần phải hỏi t như thế? Cứ đưa đại 1 bài bất ki gì đi k dc à 
     - Tại sao m cần phải hỏi t như thế? Bộ không thể đưa ra 1 bài tổng hợp à ?
     - vì sao t lại phải trả lời câu hỏi đấy ?
+- intent: want_to_watch_cpp_tutorial
+  examples: |
+    - coi video bài giảng 
+    - coi video hướng dẫn c++
+    - coi vid bài c++
+    - coi các video về c++ 
+    - coi các cái videos về C++ của UIT 
+    - Coi các bài giảng C++ của khoa CS UIT 
+    - Coi các bài tutorials C++ của Khoa Khoa Học Máy Tính UIT
+    - Coi một số các cái video tutorials CPP của trường đại học công nghệ thông tin
+    - Cho tôi coi 1 số các video bài giảng C++ của trường CNTT 
+    - Cho mình xem video bài giảng về NMLT UIT
+    - Cho tôi xem video bài giảng NMLT 
+    - cho xin link video bài giảng nmlt 
+    - Cho link bài giảng lập trình c++ uit 
+    - cho bố m coi 1 số link video bài giảng dạy nmlt của m coi bot ngu
+    - Cho tôi xin link video các bài dạy NMLT
+    - cho mình xem 1 số video nmlt của khoa khmt với bot
+    - cho em xem 1 số video dạy về nmlt bên uit với ạ
+    - cho iem coi sơ qua 1 số video bài giảng nmlt thương hiệu uit zới ạkk
+    - t muốn xem 1 số video hướng dẫn học nmlt
+    - t muốn thị phạm 1 số video bài giảng của trường m
+    - t xin phép được thị phạm một số series bài giảng về nhập môn lập trình trường mày
+    - Tao muốn xem một vài video tutorial về NMLT 
+    - T mún coi video dạy C++ 
+    - tao mún coi video C++ 
+    - t muốn đc coi video bài giảng C++ của các thầy cô UIT 
+    - t muốn dc xem C++ UIT 
+    - mình muốn xem qua một vài các cái video bài giảng về C++ của trường UIT 
+    - mình muốn dc coi qua 1 số video bài giảng của UIT về lập trình C++ 
+    - Tôi muốn được coi qua một số series dạy nhập môn lập trình của uit 
+    - Tôi rất muốn được coi qua các video bài giảng về lập trình C++ tại UIT 
+    - Tôi có thể xem qua một số series bài giảng về Lập trình c++ của trường đại học cntt này dc chứ?
+    - tao có thể được phép xem qua 1 số bài giảng về Lập Trình C++ của trường mình k chatbot 
+    - E có thể xin link video bài dạy c++ của trường mình dc k a bot 
+    - E muốn vài link video bài dạy C++ của trường mình anh bot ạ 
+    - e muốn coi 1 vài link bài giảng c++ của trường mình a bot uii 
+    - Chị muốn được coi qua thử video bài giảng của mấy cưng xem sao 
+    - bot ơi tui muon coi video bài giảng 
+    - Bot ơi cho tui coi video bài giảng nmlt 
+    - bot cho coi nmlt đi 
+    - bot uii cho tui link videos nmlt zới 
+    - bot nà cho tui coi series giảng dạy C++ đi 
+    - ê bot cho tui xin link NMLT 
+    - Ê bot ngu mở t bài giảng Nhập Môn Lập Trình UIT đi 
+    - ê dm link video bài giảng c++ 
+    - Ê dkm 1 video bài giảng NMLT UIT 
+    - ê ê dume gửi t link video C++ 
+    - link video bài giảng UIT 
+    - Link video C++ 
+    - Video bài giảng C++ 
+    - video C++ 
+    - Video NMLT 
+    - videos nmlt 
+    - link tutorials c++ uit 
+    - Link Tutorials C++ CS UIT 
+    - link dạy NMLT 
+    - 1 chiếc video dạy NMLT của trường pạn 
+    - cho tui coi 1 số video bài giảng về c++ với ba 
+    - ê gửi link video bài giảng C++ đi pa 
+    - gửi tui mấy video bài giảng uit ikkk 
+    - cho toii xem video bài giảng NMLT 
+    - Nhập môn lập trình video bài giảng 
+    - Lập trình C++ video bài dạy 
+    - C++ video bài giảng 
+    - C++ tutorials 
+    - C++ programming tutorials 
+    - Introduction to programming video tutorials
+    - link video introduction to programming
+    - video hướng dẫn kĩ thuật lập trình C++ 
+    - thị phạm qua video hướng dẫn kĩ thuật code c++
+    - Video bài giảng về lý thuyết C++ 
+    - Lý thuyết C++ tutorials 
+    - gửi cho bố m mấy cái link dạy lý thuyết c++ cái coi bot ngu 
+    - cho t coi mấy cái video hướng dẫn lý thuyết C++ đi 
+    - Xem video bài giảng Nhập môn lập trình
+- intent: cpplus_specific_video_tutorial_asking
+  examples: |
+    - video về [c]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - Video về nhập môn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - Videos về Nhập môn [C]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - video tutorials về [C]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - videos tutorials về [nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - gửi video về tutorial [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - video giới thiệu môn [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - các video giới thiệu về [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - gửi tôi video giới thiệu sơ bộ về [Nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - Gửi t 1 số video về [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Video tutorials [comment]{"entity": "cpplus_content", "value": "comment"}
+    - C++ [comment]{"entity": "cpplus_content", "value": "comment"} tutorials 
+    - Introduction to programming tutorials - [Comment]{"entity": "cpplus_content", "value": "comment"}
+    - video về [Comment]{"entity": "cpplus_content", "value": "comment"}
+    - ê bot gửi t link bài [comment]{"entity": "cpplus_content", "value": "comment"} đi 
+    - gửi t link bài [namespace]{"entity": "cpplus_content", "value": "namespace"} cái 
+    - Link bài về [namespace]{"entity": "cpplus_content", "value": "namespace"}
+    - Link [namespace]{"entity": "cpplus_content", "value": "namespace"}
+    - [Namespace]{"entity": "cpplus_content", "value": "namespace"} tutorials 
+    - Bot ngu gửi t bài [namespace]{"entity": "cpplus_content", "value": "namespace"} đi m 
+    - Ê send t bài về [library]{"entity": "cpplus_content", "value": "library"} đi 
+    - Nè bot ngu đưa tao link video [library]{"entity": "cpplus_content", "value": "library"} c++ coi mày 
+    - Link bài về [Biến]{"entity": "cpplus_content", "value": "variable"} trong C++ 
+    - Bài [biến]{"entity": "cpplus_content", "value": "variable"} trong C++ video series 
+    - link youtube bài [Variables]{"entity": "cpplus_content", "value": "variable"}
+    - Youtube link bài [variable]{"entity": "cpplus_content", "value": "variable"} C++ 
+    - Gửi t 1 link video utube bài kiểu [unsinged]{"entity": "cpplus_content", "value": "unsigned"} đê 
+    - Link utube bài giới thiệu về kiểu [unsigned]{"entity": "cpplus_content", "value": "unsigned"} trong C++ 
+    - video link bài [macro]{"entity": "cpplus_content", "value": "macro"} C++ 
+    - Link Youtube bài về [macro]{"entity": "cpplus_content", "value": "macro"} Tutorials C++
+    - Bài tutorials về hàm [Macro]{"entity": "cpplus_content", "value": "macro"} trong C++ 
+    - video lý thuyết về [mảng]{"entity": "cpplus_content", "value": "array"} trong C++
+    - Link Video bài giảng về [mảng một chiều]{"entity": "cpplus_content", "value": "array"} trong C 
+    - Bài giảng [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} trong C++
+    - [Mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} video link youtube 
+    - Bài giảng về [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} của trường đại học công nghệ thông tin 
+    - Bài giảng lý thuyết về kiểu [struct]{"entity": "cpplus_content", "value": "struct"} của UIT 
+    - Bot ơi bạn gửi 1 video tutorial về [class]{"entity": "cpplus_content", "value": "class"} của trường UIT của bạn đi 
+    - Bài giảng về [con trỏ]{"entity": "cpplus_content", "value": "pointer"} trong C++ 
+    - [Pointer]{"entity": "cpplus_content", "value": "pointer"} in C++ Tutorials 
+    - Bài giảng của uit về [string]{"entity": "cpplus_content", "value": "string"} khoa khoa học máy tính
+    - Video bài giảng của khoa Khoa học máy tính CS UIT về kiểu dữ liệu [string]{"entity": "cpplus_content", "value": "string"}
+    - bài giảng về lý thuyết kiểu [chuỗi]{"entity": "cpplus_content", "value": "string"} UIT 
+    - video bài giảng về [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - Một số video bài quay về [data types]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - Bài giảng hay về [kiểu kí tự]{"entity": "cpplus_content", "value": "character"} UIT 
+    - video tutorials link [vector]{"entity": "cpplus_content", "value": "vector"} C++ 
+    - C++ link video [vector]{"entity": "cpplus_content", "value": "vector"}
+    - bài giảng về [toán tử]{"entity": "cpplus_content", "value": "operator"} trong C++ 
+    - Series tutorial about [function]{"entity": "cpplus_content", "value": "function"} in CPP
+    - Series về bài [hàm]{"entity": "cpplus_content", "value": "function"} trong c++ 
+    - 1 loạt series bài giảng về lý thuyết [Hàm]{"entity": "cpplus_content", "value": "function"} trong C++ 
+    - Tutorials về khái niệm [vòng lặp]{"entity": "cpplus_content", "value": "loop"} trong C++
 - intent: nlu_fallback
   examples: |
     - Gét :3

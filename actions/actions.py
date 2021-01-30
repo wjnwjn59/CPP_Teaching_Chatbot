@@ -215,8 +215,6 @@ class FlowChartPractice(Action):
         return [SlotSet("flowchart_answer", flowchart_question_answer if flowchart_question_answer is not None else [])]
 
     
-    
-
 class AnswerCppDefineQuestion(Action):
 
     def name(self) -> Text:
@@ -2101,6 +2099,99 @@ class AnswerCppDefineQuestion(Action):
             'cin':''' '''
         }
 
+        all_tutorials_link = {
+            'comment': ''' ''',
+            'cplusplus': ''' ''',
+            'include': ''' ''',
+            'library': ''' ''',
+            'namespace': ''' ''',
+            'pseudo-code': ''' ''',
+            # Câu trả lời về các kiểu dữ liệu và biến
+            'variable': ''' ''',
+            'unsigned': ''' ''',
+            'signed': ''' ''',
+            'short': ''' ''',
+            'long': ''' ''',
+            'type-modififer': ''' ''',
+            'typedef': ''' ''',
+            'constant': ''' ''',
+            'macro': ''' ''',
+            'wchar-t': ''' ''',
+            'boolean':''' ''',
+            'data-type': ''' ''',
+            '2d-array': ''' ''',
+            'array': ''' ''',
+            'structure': ''' ''',
+            'class': ''' ''',
+            'union': ''' ''',
+            'pointer': ''' ''',
+            'enumeration': ''' ''',
+            'integer': ''' ''',
+            'floating-point': ''' ''',
+            'double': ''' ''',
+            'character': ''' ''',
+            'string': ''' ''',
+            'local-variable': ''' ''',
+            'auto': ''' ''',
+            'external': ''' ''',
+            'static': ''' ''',
+            'vector': ''' ''',
+            'reference-variable': ''' ''',
+            # Câu trả lời về các toán tử
+            'decrement-operator': ''' ''',
+            'increment-operator': ''' ''',
+            'dereference-operator': ''' ''',
+            'address_of-operator': ''' ''',
+            'comma-operator': ''' ''',
+            'ternary-operator': ''' ''',
+            'binary-operator': ''' ''',
+            'unary-operator': ''' ''',
+            'shift-operator': ''' ''',
+            'bitwise-operator': ''' ''',
+            'logical-operator': ''' ''',
+            'comparison-operator': ''' ''',
+            'arithmetic-operator': ''' ''',
+            'assignment-operator': ''' ''',
+            'operator': ''' ''',
+            'scope-resolution-operator':''' ''',
+            # Câu trả lời về control flow
+            'if': ''' ''',
+            'loop': ''' ''',
+            'control-flow': ''' ''',
+            'selection-statement': ''' ''',
+            'iteration-statement': ''' ''',
+            'jump-statement': ''' ''',
+            'for': ''' ''',
+            'while': ''' ''',
+            'do-while': ''' ''',
+            'switch': ''' ''',
+            'break': ''' ''',
+            'continue': ''' ''',
+            'goto': ''' ''',
+            'if-else': ''' ''',
+            'if-else-if-ladder': ''' ''',
+            'nested-if': ''' ''',
+            # Câu trả lời về function
+            'function': ''' ''',
+            'parameter': ''' ''',
+            'argument': ''' ''',
+            'recursion': ''' ''',
+            'pass-by-value': ''' ''',
+            'pass-by-reference': ''' ''',
+            'return': ''' ''',
+            'return-type': ''' ''',
+            'const-reference': ''' ''',
+            'inline-function': ''' ''',
+            'default-value': ''' ''',
+            'main-function': ''' ''',
+            'built-in-function': ''' ''',
+            'lambda': ''' ''',
+            'flowchart':''' ''',
+            'introduction-to-programming':''' ''',
+            'cout':''' ''',
+            'cin':''' '''
+        }
+
         cpp_content_answer = " "
 
         #sql_intent_type = {
@@ -2138,6 +2229,8 @@ class AnswerCppDefineQuestion(Action):
                     cpp_content_answer = "Invalid at the moment"
                 elif curr_intent == 'cpplus_example_asking':
                     cpp_content_answer = all_answers_example[x]
+                elif curr_intent == 'cpplus_specific_video_tutorial_asking':
+                    cpp_content_answer = all_tutorials_link[x]
                 else:
                     cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
             except KeyError:
@@ -2155,7 +2248,7 @@ class AnswerCppDefineQuestion(Action):
 
         return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
-class ValidateFlowcharQuesttNumForm(FormValidationAction):
+class ValidateFlowcharQuestNumForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_flowchart_quest_num_form"
 
