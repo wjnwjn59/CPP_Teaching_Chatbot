@@ -1,0 +1,31 @@
+version: "2.0"
+nlu:
+- intent: out_of_scope
+  examples: |
+    - haha
+    - netflix là gì
+    - RAM là gì
+- intent: cpplus_what_asking
+  examples: |
+    - [c]{"entity": "cpplus_content", "value": "cplusplus"}++ là gì vậy
+- intent: greet
+  examples: |
+    - hello
+- intent: want_to_practice_flowchart
+  examples: |
+    - flowchart
+- intent: flowchart_asking
+  examples: |
+    - Câu [1](flowchart_quest_num)
+- intent: nlu_fallback
+  examples: |
+    - Gét :3
+- intent: thanks
+  examples: |
+    - Ok tks
+- intent: cpplus_why_asking
+  examples: |
+    - Tại sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+- synonym: cplusplus
+  examples: |
+    - c
