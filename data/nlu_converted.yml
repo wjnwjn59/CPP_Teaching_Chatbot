@@ -4549,6 +4549,80 @@ nlu:
     - vì sao t lại phải trả lời câu hỏi đấy ?
 - intent: want_to_watch_cpp_tutorial
   examples: |
+    - COI VIDEO BÀI GIẢNG 
+    - COI VIDEO HƯỚNG DẪN C++
+    - COI VID BÀI C++
+    - COI CÁC VIDEO VỀ C++ 
+    - COI CÁC CÁI VIDEOS VỀ C++ CỦA UIT 
+    - COI CÁC BÀI GIẢNG C++ CỦA KHOA CS UIT 
+    - COI CÁC BÀI TUTORIALS C++ CỦA KHOA KHOA HỌC MÁY TÍNH UIT
+    - COI MỘT SỐ CÁC CÁI VIDEO TUTORIALS CPP CỦA TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN
+    - CHO TÔI COI 1 SỐ CÁC VIDEO BÀI GIẢNG C++ CỦA TRƯỜNG CNTT 
+    - CHO MÌNH XEM VIDEO BÀI GIẢNG VỀ NMLT UIT
+    - CHO TÔI XEM VIDEO BÀI GIẢNG NMLT 
+    - CHO XIN LINK VIDEO BÀI GIẢNG NMLT 
+    - CHO LINK BÀI GIẢNG LẬP TRÌNH C++ UIT 
+    - CHO BỐ M COI 1 SỐ LINK VIDEO BÀI GIẢNG DẠY NMLT CỦA M COI BOT NGU
+    - CHO TÔI XIN LINK VIDEO CÁC BÀI DẠY NMLT
+    - CHO MÌNH XEM 1 SỐ VIDEO NMLT CỦA KHOA KHMT VỚI BOT
+    - CHO EM XEM 1 SỐ VIDEO DẠY VỀ NMLT BÊN UIT VỚI Ạ
+    - CHO IEM COI SƠ QUA 1 SỐ VIDEO BÀI GIẢNG NMLT THƯƠNG HIỆU UIT ZỚI ẠKK
+    - T MUỐN XEM 1 SỐ VIDEO HƯỚNG DẪN HỌC NMLT
+    - T MUỐN THỊ PHẠM 1 SỐ VIDEO BÀI GIẢNG CỦA TRƯỜNG M
+    - T XIN PHÉP ĐƯỢC THỊ PHẠM MỘT SỐ SERIES BÀI GIẢNG VỀ NHẬP MÔN LẬP TRÌNH TRƯỜNG MÀY
+    - TAO MUỐN XEM MỘT VÀI VIDEO TUTORIAL VỀ NMLT 
+    - T MÚN COI VIDEO DẠY C++ 
+    - TAO MÚN COI VIDEO C++ 
+    - T MUỐN ĐC COI VIDEO BÀI GIẢNG C++ CỦA CÁC THẦY CÔ UIT 
+    - T MUỐN DC XEM C++ UIT 
+    - MÌNH MUỐN XEM QUA MỘT VÀI CÁC CÁI VIDEO BÀI GIẢNG VỀ C++ CỦA TRƯỜNG UIT 
+    - MÌNH MUỐN DC COI QUA 1 SỐ VIDEO BÀI GIẢNG CỦA UIT VỀ LẬP TRÌNH C++ 
+    - TÔI MUỐN ĐƯỢC COI QUA MỘT SỐ SERIES DẠY NHẬP MÔN LẬP TRÌNH CỦA UIT 
+    - TÔI RẤT MUỐN ĐƯỢC COI QUA CÁC VIDEO BÀI GIẢNG VỀ LẬP TRÌNH C++ TẠI UIT 
+    - TÔI CÓ THỂ XEM QUA MỘT SỐ SERIES BÀI GIẢNG VỀ LẬP TRÌNH C++ CỦA TRƯỜNG ĐẠI HỌC CNTT NÀY DC CHỨ?
+    - TAO CÓ THỂ ĐƯỢC PHÉP XEM QUA 1 SỐ BÀI GIẢNG VỀ LẬP TRÌNH C++ CỦA TRƯỜNG MÌNH K CHATBOT 
+    - E CÓ THỂ XIN LINK VIDEO BÀI DẠY C++ CỦA TRƯỜNG MÌNH DC K A BOT 
+    - E MUỐN VÀI LINK VIDEO BÀI DẠY C++ CỦA TRƯỜNG MÌNH ANH BOT Ạ 
+    - E MUỐN COI 1 VÀI LINK BÀI GIẢNG C++ CỦA TRƯỜNG MÌNH A BOT UII 
+    - CHỊ MUỐN ĐƯỢC COI QUA THỬ VIDEO BÀI GIẢNG CỦA MẤY CƯNG XEM SAO 
+    - BOT ƠI TUI MUON COI VIDEO BÀI GIẢNG 
+    - BOT ƠI CHO TUI COI VIDEO BÀI GIẢNG NMLT 
+    - BOT CHO COI NMLT ĐI 
+    - BOT UII CHO TUI LINK VIDEOS NMLT ZỚI 
+    - BOT NÀ CHO TUI COI SERIES GIẢNG DẠY C++ ĐI 
+    - Ê BOT CHO TUI XIN LINK NMLT 
+    - Ê BOT NGU MỞ T BÀI GIẢNG NHẬP MÔN LẬP TRÌNH UIT ĐI 
+    - Ê DM LINK VIDEO BÀI GIẢNG C++ 
+    - Ê DKM 1 VIDEO BÀI GIẢNG NMLT UIT 
+    - Ê Ê DUME GỬI T LINK VIDEO C++ 
+    - LINK VIDEO BÀI GIẢNG UIT 
+    - LINK VIDEO C++ 
+    - VIDEO BÀI GIẢNG C++ 
+    - VIDEO C++ 
+    - VIDEO NMLT 
+    - VIDEOS NMLT 
+    - LINK TUTORIALS C++ UIT 
+    - LINK TUTORIALS C++ CS UIT 
+    - LINK DẠY NMLT 
+    - 1 CHIẾC VIDEO DẠY NMLT CỦA TRƯỜNG PẠN 
+    - CHO TUI COI 1 SỐ VIDEO BÀI GIẢNG VỀ C++ VỚI BA 
+    - Ê GỬI LINK VIDEO BÀI GIẢNG C++ ĐI PA 
+    - GỬI TUI MẤY VIDEO BÀI GIẢNG UIT IKKK 
+    - CHO TOII XEM VIDEO BÀI GIẢNG NMLT 
+    - NHẬP MÔN LẬP TRÌNH VIDEO BÀI GIẢNG 
+    - LẬP TRÌNH C++ VIDEO BÀI DẠY 
+    - C++ VIDEO BÀI GIẢNG 
+    - C++ TUTORIALS 
+    - C++ PROGRAMMING TUTORIALS 
+    - INTRODUCTION TO PROGRAMMING VIDEO TUTORIALS
+    - LINK VIDEO INTRODUCTION TO PROGRAMMING
+    - VIDEO HƯỚNG DẪN KĨ THUẬT LẬP TRÌNH C++ 
+    - THỊ PHẠM QUA VIDEO HƯỚNG DẪN KĨ THUẬT CODE C++
+    - VIDEO BÀI GIẢNG VỀ LÝ THUYẾT C++ 
+    - LÝ THUYẾT C++ TUTORIALS 
+    - GỬI CHO BỐ M MẤY CÁI LINK DẠY LÝ THUYẾT C++ CÁI COI BOT NGU 
+    - CHO T COI MẤY CÁI VIDEO HƯỚNG DẪN LÝ THUYẾT C++ ĐI 
+    - XEM VIDEO BÀI GIẢNG NHẬP MÔN LẬP TRÌNH
     - coi video bài giảng 
     - coi video hướng dẫn c++
     - coi vid bài c++
@@ -4625,6 +4699,59 @@ nlu:
     - Xem video bài giảng Nhập môn lập trình
 - intent: cpplus_specific_video_tutorial_asking
   examples: |
+    - VIDEO VỀ [C]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - VIDEO VỀ NHẬP MÔN [C]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - VIDEOS VỀ NHẬP MÔN [C]{"entity": "cpplus_content", "value": "cplusplus"}++ 
+    - VIDEO TUTORIALS VỀ [C]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - VIDEOS TUTORIALS VỀ [NHẬP MÔN LẬP TRÌNH]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - GỬI VIDEO VỀ TUTORIAL [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - VIDEO GIỚI THIỆU MÔN [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - CÁC VIDEO GIỚI THIỆU VỀ [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - GỬI TÔI VIDEO GIỚI THIỆU SƠ BỘ VỀ [NHẬP MÔN LẬP TRÌNH]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - GỬI T 1 SỐ VIDEO VỀ [COMMENT]{"entity": "cpplus_content", "value": "comment"}
+    - VIDEO TUTORIALS [COMMENT]{"entity": "cpplus_content", "value": "comment"}
+    - C++ [COMMENT]{"entity": "cpplus_content", "value": "comment"} TUTORIALS 
+    - INTRODUCTION TO PROGRAMMING TUTORIALS - [COMMENT]{"entity": "cpplus_content", "value": "comment"}
+    - VIDEO VỀ [COMMENT]{"entity": "cpplus_content", "value": "comment"}
+    - Ê BOT GỬI T LINK BÀI [COMMENT]{"entity": "cpplus_content", "value": "comment"} ĐI 
+    - GỬI T LINK BÀI [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} CÁI 
+    - LINK BÀI VỀ [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"}
+    - LINK [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"}
+    - [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} TUTORIALS 
+    - BOT NGU GỬI T BÀI [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} ĐI M 
+    - Ê SEND T BÀI VỀ [LIBRARY]{"entity": "cpplus_content", "value": "library"} ĐI 
+    - NÈ BOT NGU ĐƯA TAO LINK VIDEO [LIBRARY]{"entity": "cpplus_content", "value": "library"} C++ COI MÀY 
+    - LINK BÀI VỀ [BIẾN]{"entity": "cpplus_content", "value": "variable"} TRONG C++ 
+    - BÀI [BIẾN]{"entity": "cpplus_content", "value": "variable"} TRONG C++ VIDEO SERIES 
+    - LINK YOUTUBE BÀI [VARIABLES]{"entity": "cpplus_content", "value": "variable"}
+    - YOUTUBE LINK BÀI [VARIABLE]{"entity": "cpplus_content", "value": "variable"} C++ 
+    - GỬI T 1 LINK VIDEO UTUBE BÀI KIỂU [UNSINGED]{"entity": "cpplus_content", "value": "unsigned"} ĐÊ 
+    - LINK UTUBE BÀI GIỚI THIỆU VỀ KIỂU [UNSIGNED]{"entity": "cpplus_content", "value": "unsigned"} TRONG C++ 
+    - VIDEO LINK BÀI [MACRO]{"entity": "cpplus_content", "value": "macro"} C++ 
+    - LINK YOUTUBE BÀI VỀ [MACRO]{"entity": "cpplus_content", "value": "macro"} TUTORIALS C++
+    - BÀI TUTORIALS VỀ HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} TRONG C++ 
+    - VIDEO LÝ THUYẾT VỀ [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++
+    - LINK VIDEO BÀI GIẢNG VỀ [MẢNG MỘT CHIỀU]{"entity": "cpplus_content", "value": "array"} TRONG C 
+    - BÀI GIẢNG [MẢNG MỘT CHIỀU]{"entity": "cpplus_content", "value": "array"} TRONG C++
+    - [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} VIDEO LINK YOUTUBE 
+    - BÀI GIẢNG VỀ [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} CỦA TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN 
+    - BÀI GIẢNG LÝ THUYẾT VỀ KIỂU [STRUCT]{"entity": "cpplus_content", "value": "struct"} CỦA UIT 
+    - BOT ƠI BẠN GỬI 1 VIDEO TUTORIAL VỀ [CLASS]{"entity": "cpplus_content", "value": "class"} CỦA TRƯỜNG UIT CỦA BẠN ĐI 
+    - BÀI GIẢNG VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"} TRONG C++ 
+    - [POINTER]{"entity": "cpplus_content", "value": "pointer"} IN C++ TUTORIALS 
+    - BÀI GIẢNG CỦA UIT VỀ [STRING]{"entity": "cpplus_content", "value": "string"} KHOA KHOA HỌC MÁY TÍNH
+    - VIDEO BÀI GIẢNG CỦA KHOA KHOA HỌC MÁY TÍNH CS UIT VỀ KIỂU DỮ LIỆU [STRING]{"entity": "cpplus_content", "value": "string"}
+    - BÀI GIẢNG VỀ LÝ THUYẾT KIỂU [CHUỖI]{"entity": "cpplus_content", "value": "string"} UIT 
+    - VIDEO BÀI GIẢNG VỀ [KIỂU DỮ LIỆU]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - MỘT SỐ VIDEO BÀI QUAY VỀ [DATA TYPES]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - BÀI GIẢNG HAY VỀ [KIỂU KÍ TỰ]{"entity": "cpplus_content", "value": "character"} UIT 
+    - VIDEO TUTORIALS LINK [VECTOR]{"entity": "cpplus_content", "value": "vector"} C++ 
+    - C++ LINK VIDEO [VECTOR]{"entity": "cpplus_content", "value": "vector"}
+    - BÀI GIẢNG VỀ [TOÁN TỬ]{"entity": "cpplus_content", "value": "operator"} TRONG C++ 
+    - SERIES TUTORIAL ABOUT [FUNCTION]{"entity": "cpplus_content", "value": "function"} IN CPP
+    - SERIES VỀ BÀI [HÀM]{"entity": "cpplus_content", "value": "function"} TRONG C++ 
+    - 1 LOẠT SERIES BÀI GIẢNG VỀ LÝ THUYẾT [HÀM]{"entity": "cpplus_content", "value": "function"} TRONG C++ 
+    - TUTORIALS VỀ KHÁI NIỆM [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} TRONG C++
     - video về [c]{"entity": "cpplus_content", "value": "cplusplus"}++ 
     - Video về nhập môn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ 
     - Videos về Nhập môn [C]{"entity": "cpplus_content", "value": "cplusplus"}++ 
