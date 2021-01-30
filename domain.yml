@@ -259,7 +259,6 @@ actions:
 - utter_accept_questions
 - utter_answer_cpplus_questions
 - utter_ask_anything_else
-- utter_ask_cpp_content
 - utter_ask_to_do
 - utter_author
 - utter_covid_precautions
@@ -287,10 +286,6 @@ actions:
 - utter_what_do_you_want
 - utter_who_i_am
 - utter_wtf
-- utter_covid_symptom
-- utter_covid_precautions
-- utter_covid_treatment
-- utter_please_rephrase
 - utter_ask_first_name
 - utter_ask_last_name
 - utter_ask_flowchart_question_number
