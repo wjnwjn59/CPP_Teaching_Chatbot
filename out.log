@@ -15710,8 +15710,1111 @@ rasa.shared.exceptions.RasaException: Failed to execute custom action.
 2021-01-30 11:58:49,213 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
 2021-01-30 11:58:49,215 [DEBUG]  Deleted lock for conversation '2498446476900093'.
 2021-01-30 11:58:49,475 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
-<<<<<<< HEAD
-=======
->>>>>>> Add to merge
-=======
->>>>>>> Add to merge
+2021-01-30 16:26:16,312 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/webhooks/facebook                                 GET                            fb_webhook.health
+/webhooks/facebook/webhook                         GET                            fb_webhook.token_verification
+/webhooks/facebook/webhook                         POST                           fb_webhook.webhook
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2021-01-30 16:26:16,313 [INFO ]  Starting Rasa server on http://localhost:5005
+2021-01-30 16:26:16,313 [DEBUG]  Using the default number of Sanic workers (1).
+2021-01-30 16:26:16,314 [INFO ]  Loading model models/20210130-154755.tar.gz...
+2021-01-30 16:26:16,706 [DEBUG]  Extracted model to '/tmp/tmp3ur2tr0s'.
+2021-01-30 16:26:16,718 [DEBUG]  Starting new HTTPS connection (1): api.segment.io:443
+2021-01-30 16:26:17,602 [DEBUG]  https://api.segment.io:443 "POST /v1/track HTTP/1.1" 200 21
+2021-01-30 16:26:17,607 [INFO ]  Enabling coroutine debugging. Loop id 94399464549688.
+2021-01-30 16:26:17,607 [INFO ]  Loading model models/20210130-154755.tar.gz...
+2021-01-30 16:26:18,004 [DEBUG]  Extracted model to '/tmp/tmp02f5gf2s'.
+2021-01-30 16:26:20,271 [DEBUG]  Loading Tokenizer and Model for roberta
+2021-01-30 16:26:20,276 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 16:26:21,623 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2021-01-30 16:26:21,628 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 16:26:22,666 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 0
+2021-01-30 16:26:22,847 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 16:26:23,852 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2021-01-30 16:26:23,871 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-30 16:26:24,923 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tf_model.h5 HTTP/1.1" 302 0
+2021-01-30 16:26:54,573 [INFO ]  Added 'HFTransformersNLP' to component cache. Key 'HFTransformersNLP-roberta-00317db23a40108d8e9558b80672a86d'.
+2021-01-30 16:26:54,575 [INFO ]  Added 'LanguageModelFeaturizer' to component cache. Key 'LanguageModelFeaturizer-roberta-00317db23a40108d8e9558b80672a86d'.
+2021-01-30 16:26:54,597 [DEBUG]  Loading the model from /tmp/tmp02f5gf2s/nlu/component_3_DIETClassifier.tf_model with finetune_mode=False...
+2021-01-30 16:26:54,700 [DEBUG]  Following metrics will be logged during training: 
+2021-01-30 16:26:54,700 [DEBUG]    t_loss (total loss)
+2021-01-30 16:26:54,700 [DEBUG]    i_acc (intent acc)
+2021-01-30 16:26:54,700 [DEBUG]    i_loss (intent loss)
+2021-01-30 16:26:55,780 [DEBUG]  Finished loading the model.
+2021-01-30 16:26:55,782 [DEBUG]  Building tensorflow prediction graph...
+2021-01-30 16:27:00,231 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-30 16:27:00,256 [DEBUG]  Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path '/tmp/tmp02f5gf2s/nlu' doesn't exist?
+2021-01-30 16:27:00,274 [DEBUG]  SQLEventBroker: Connecting to database: 'sqlite:///database/events.db'.
+2021-01-30 16:27:00,331 [DEBUG]  Instantiated event broker to 'SQLEventBroker'.
+2021-01-30 16:27:00,335 [DEBUG]  Attempting to connect to database via 'sqlite:///./database/cpp.db'.
+2021-01-30 16:27:00,337 [DEBUG]  Connection to SQL database 'cpp.db' successful.
+2021-01-30 16:27:00,337 [DEBUG]  Connected to SQLTrackerStore.
+2021-01-30 16:27:00,337 [DEBUG]  Connected to lock store 'InMemoryLockStore'.
+2021-01-30 16:27:00,763 [DEBUG]  Extracted model to '/tmp/tmpo5t952wz'.
+2021-01-30 16:27:01,075 [DEBUG]  Loading the model from /tmp/tmpo5t952wz/core/policy_1_TEDPolicy/ted_policy.tf_model with finetune_mode=False...
+2021-01-30 16:27:01,729 [DEBUG]  Finished loading the model.
+2021-01-30 16:27:01,741 [DEBUG]  Building tensorflow prediction graph...
+2021-01-30 16:27:07,690 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-30 16:27:07,695 [DEBUG]  Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+2021-01-30 16:27:07,695 [INFO ]  Rasa server is up and running.
+2021-01-30 16:30:19,623 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:30:20,230 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:30:20,478 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:30:20,480 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:30:20,480 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:30:20,481 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:30:20,517 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:30:20,542 [DEBUG]  The latest session for conversation ID '2498446476900093' has expired.
+2021-01-30 16:30:20,543 [DEBUG]  Starting a new session for conversation ID '2498446476900093'.
+2021-01-30 16:30:20,560 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:30:20,561 [DEBUG]  Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7f653820f080>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+2021-01-30 16:30:20,562 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:30:21,259 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:30:21,544 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:30:21,545 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:30:21,545 [DEBUG]  Received user message 'Hello' with intent '{'id': 7870431854713438702, 'name': 'greet', 'confidence': 0.9995951056480408}' and entities '[]'
+2021-01-30 16:30:21,546 [DEBUG]  Logged UserUtterance - tracker now has 232 events.
+2021-01-30 16:30:21,548 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+2021-01-30 16:30:21,548 [DEBUG]  There is a memorised next action 'utter_greet'
+2021-01-30 16:30:21,559 [DEBUG]  Current tracker state:
+[state 1] user text: Hello | previous action name: action_listen
+2021-01-30 16:30:21,560 [DEBUG]  There is no applicable rule.
+2021-01-30 16:30:21,561 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+2021-01-30 16:30:21,562 [DEBUG]  There is a rule for the next action 'utter_greet'.
+2021-01-30 16:30:21,562 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:30:21,562 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:30:21,562 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 16:30:21,563 [DEBUG]  Predicted next action 'utter_greet' with confidence 1.00.
+2021-01-30 16:30:21,564 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f653817dd30>]'.
+2021-01-30 16:30:21,564 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Xin chào! Bạn khỏe không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612024221.5644383)]'.
+2021-01-30 16:30:22,071 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:30:22,075 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+2021-01-30 16:30:22,076 [DEBUG]  There is a memorised next action 'utter_who_i_am'
+2021-01-30 16:30:22,095 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+2021-01-30 16:30:22,096 [DEBUG]  There is a rule for the next action 'utter_who_i_am'.
+2021-01-30 16:30:22,096 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 16:30:22,096 [DEBUG]  Predicted next action 'utter_who_i_am' with confidence 1.00.
+2021-01-30 16:30:22,097 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:30:22,098 [DEBUG]  Action 'utter_who_i_am' ended with events '[BotUttered('Mình là một botchat hỗ trợ các bạn trong môn Nhập môn lập trình với ngôn ngữ C++', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_who_i_am"}, 1612024222.0977163)]'.
+2021-01-30 16:30:22,525 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:30:22,527 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+2021-01-30 16:30:22,527 [DEBUG]  There is a memorised next action 'utter_ask_to_do'
+2021-01-30 16:30:22,541 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+2021-01-30 16:30:22,542 [DEBUG]  There is a rule for the next action 'utter_ask_to_do'.
+2021-01-30 16:30:22,542 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 16:30:22,542 [DEBUG]  Predicted next action 'utter_ask_to_do' with confidence 1.00.
+2021-01-30 16:30:22,543 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:30:22,544 [DEBUG]  Action 'utter_ask_to_do' ended with events '[BotUttered('Vui lòng chọn các tùy chọn bên dưới', {"elements": null, "quick_replies": null, "buttons": [{"payload": "/want_to_ask", "title": "H\u1ecfi c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 C++"}, {"payload": "/want_to_practice_flowchart", "title": "L\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n (flowchart)"}, {"payload": "/want_to_practice_cpp", "title": "L\u00e0m b\u00e0i t\u1eadp C++"}, {"payload": "/want_to_watch_cpp_tutorial", "title": "Xem video b\u00e0i gi\u1ea3ng Nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh"}], "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_to_do"}, 1612024222.5438473)]'.
+2021-01-30 16:30:23,199 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:30:23,202 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:30:23,202 [DEBUG]  There is a memorised next action 'action_listen'
+2021-01-30 16:30:23,218 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:30:23,219 [DEBUG]  There is a rule for the next action 'action_listen'.
+2021-01-30 16:30:23,219 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-30 16:30:23,219 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 16:30:23,220 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:30:23,220 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:30:23,243 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:30:23,575 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:30:23,576 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:30:23,827 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:31:03,895 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:31:04,489 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:31:04,769 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:31:04,771 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:31:04,772 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:31:04,772 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:31:04,791 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:31:05,358 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:31:05,382 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:31:05,383 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:31:05,384 [DEBUG]  Received user message 'Hi' with intent '{'id': 7870431854713438702, 'name': 'greet', 'confidence': 0.9999892115592957}' and entities '[]'
+2021-01-30 16:31:05,388 [DEBUG]  Logged UserUtterance - tracker now has 12 events.
+2021-01-30 16:31:05,389 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen
+[state 1] user intent: greet | previous action name: utter_greet
+[state 2] user intent: greet | previous action name: utter_who_i_am
+[state 3] user intent: greet | previous action name: utter_ask_to_do
+[state 4] user intent: greet | previous action name: action_listen
+2021-01-30 16:31:05,390 [DEBUG]  There is no memorised next action
+2021-01-30 16:31:05,406 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user text: Hi | previous action name: action_listen
+2021-01-30 16:31:05,407 [DEBUG]  There is no applicable rule.
+2021-01-30 16:31:05,408 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+2021-01-30 16:31:05,408 [DEBUG]  There is no applicable rule.
+2021-01-30 16:31:05,409 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:31:05,409 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:31:05,409 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:31:05,410 [DEBUG]  Predicted next action 'utter_ask_to_do' with confidence 0.44.
+2021-01-30 16:31:05,411 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f65380fada0>]'.
+2021-01-30 16:31:05,411 [DEBUG]  Action 'utter_ask_to_do' ended with events '[BotUttered('Vui lòng chọn các tùy chọn bên dưới', {"elements": null, "quick_replies": null, "buttons": [{"payload": "/want_to_ask", "title": "H\u1ecfi c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 C++"}, {"payload": "/want_to_practice_flowchart", "title": "L\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n (flowchart)"}, {"payload": "/want_to_practice_cpp", "title": "L\u00e0m b\u00e0i t\u1eadp C++"}, {"payload": "/want_to_watch_cpp_tutorial", "title": "Xem video b\u00e0i gi\u1ea3ng Nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh"}], "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_to_do"}, 1612024265.411019)]'.
+2021-01-30 16:31:05,967 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:31:05,968 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_greet
+[state 1] user intent: greet | previous action name: utter_who_i_am
+[state 2] user intent: greet | previous action name: utter_ask_to_do
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:31:05,969 [DEBUG]  There is no memorised next action
+2021-01-30 16:31:05,984 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:31:05,986 [DEBUG]  There is no applicable rule.
+2021-01-30 16:31:05,986 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:31:05,986 [DEBUG]  Predicted next action 'action_listen' with confidence 0.80.
+2021-01-30 16:31:05,987 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:31:05,988 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:31:06,007 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:31:06,159 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:31:06,161 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:31:06,407 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:33:54,711 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:33:55,450 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:33:55,955 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:33:55,957 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:33:55,957 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:33:55,958 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:33:55,981 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:33:56,467 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:33:56,481 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:33:56,482 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:33:56,482 [DEBUG]  Received user message 'Hello' with intent '{'id': 7870431854713438702, 'name': 'greet', 'confidence': 0.9995951056480408}' and entities '[]'
+2021-01-30 16:33:56,484 [DEBUG]  Logged UserUtterance - tracker now has 17 events.
+2021-01-30 16:33:56,485 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_who_i_am
+[state 1] user intent: greet | previous action name: utter_ask_to_do
+[state 2] user intent: greet | previous action name: action_listen
+[state 3] user intent: greet | previous action name: utter_ask_to_do
+[state 4] user intent: greet | previous action name: action_listen
+2021-01-30 16:33:56,485 [DEBUG]  There is no memorised next action
+2021-01-30 16:33:56,500 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user text: Hello | previous action name: action_listen
+2021-01-30 16:33:56,501 [DEBUG]  There is no applicable rule.
+2021-01-30 16:33:56,501 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+2021-01-30 16:33:56,502 [DEBUG]  There is no applicable rule.
+2021-01-30 16:33:56,502 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:33:56,502 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:33:56,502 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:33:56,503 [DEBUG]  Predicted next action 'utter_greet' with confidence 0.85.
+2021-01-30 16:33:56,504 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f653820f828>]'.
+2021-01-30 16:33:56,504 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Xin chào! Bạn khỏe không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612024436.5042212)]'.
+2021-01-30 16:33:57,343 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:33:57,347 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_ask_to_do
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_ask_to_do
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+2021-01-30 16:33:57,347 [DEBUG]  There is no memorised next action
+2021-01-30 16:33:57,365 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+2021-01-30 16:33:57,366 [DEBUG]  There is no applicable rule.
+2021-01-30 16:33:57,366 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:33:57,367 [DEBUG]  Predicted next action 'utter_who_i_am' with confidence 0.70.
+2021-01-30 16:33:57,367 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:33:57,367 [DEBUG]  Action 'utter_who_i_am' ended with events '[BotUttered('Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập trình với ngôn ngữ C++!', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_who_i_am"}, 1612024437.3676076)]'.
+2021-01-30 16:33:57,771 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:33:57,774 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen
+[state 1] user intent: greet | previous action name: utter_ask_to_do
+[state 2] user intent: greet | previous action name: action_listen
+[state 3] user intent: greet | previous action name: utter_greet
+[state 4] user intent: greet | previous action name: utter_who_i_am
+2021-01-30 16:33:57,775 [DEBUG]  There is no memorised next action
+2021-01-30 16:33:57,794 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+2021-01-30 16:33:57,795 [DEBUG]  There is no applicable rule.
+2021-01-30 16:33:57,796 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:33:57,796 [DEBUG]  Predicted next action 'utter_ask_to_do' with confidence 0.61.
+2021-01-30 16:33:57,797 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:33:57,797 [DEBUG]  Action 'utter_ask_to_do' ended with events '[BotUttered('Vui lòng chọn các tùy chọn bên dưới', {"elements": null, "quick_replies": null, "buttons": [{"payload": "/want_to_ask", "title": "H\u1ecfi c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 C++"}, {"payload": "/want_to_practice_flowchart", "title": "L\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n (flowchart)"}, {"payload": "/want_to_practice_cpp", "title": "L\u00e0m b\u00e0i t\u1eadp C++"}, {"payload": "/want_to_watch_cpp_tutorial", "title": "Xem video b\u00e0i gi\u1ea3ng Nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh"}], "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_to_do"}, 1612024437.7974725)]'.
+2021-01-30 16:33:58,289 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:33:58,293 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_ask_to_do
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:33:58,294 [DEBUG]  There is no memorised next action
+2021-01-30 16:33:58,316 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+2021-01-30 16:33:58,317 [DEBUG]  There is no applicable rule.
+2021-01-30 16:33:58,318 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:33:58,319 [DEBUG]  Predicted next action 'action_listen' with confidence 0.80.
+2021-01-30 16:33:58,320 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:33:58,320 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:33:58,337 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:33:58,579 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:33:58,580 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:33:58,827 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:35:55,204 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:35:55,863 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:35:56,103 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:35:56,105 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:35:56,106 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:35:56,106 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:35:56,124 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:35:56,721 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:35:56,736 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:35:56,736 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:35:56,736 [DEBUG]  Received user message 'Video về vòng lặp for' with intent '{'id': 4992922554680783737, 'name': 'cpplus_specific_video_tutorial_asking', 'confidence': 0.9998295307159424}' and entities '[{'entity': 'cpplus_content', 'start': 18, 'end': 21, 'confidence_entity': 0.9965890427300199, 'value': 'for', 'extractor': 'CRFEntityExtractor', 'processors': ['EntitySynonymMapper']}]'
+2021-01-30 16:35:56,737 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: for
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:35:56,738 [DEBUG]  Logged UserUtterance - tracker now has 27 events.
+2021-01-30 16:35:56,739 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen
+[state 1] user intent: greet | previous action name: utter_greet
+[state 2] user intent: greet | previous action name: utter_who_i_am
+[state 3] user intent: greet | previous action name: utter_ask_to_do
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:35:56,739 [DEBUG]  There is no memorised next action
+2021-01-30 16:35:56,757 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user text: Video về vòng lặp for | previous action name: action_listen
+2021-01-30 16:35:56,758 [DEBUG]  There is no applicable rule.
+2021-01-30 16:35:56,760 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:35:56,762 [DEBUG]  There is no applicable rule.
+2021-01-30 16:35:56,763 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:35:56,763 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:35:56,764 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:35:56,764 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 0.87.
+2021-01-30 16:35:56,765 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f653821f2b0>]'.
+2021-01-30 16:35:56,765 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có muốn hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612024556.7653134)]'.
+2021-01-30 16:35:57,244 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:35:57,249 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_greet
+[state 1] user intent: greet | previous action name: utter_who_i_am
+[state 2] user intent: greet | previous action name: utter_ask_to_do
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:35:57,250 [DEBUG]  There is no memorised next action
+2021-01-30 16:35:57,271 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:35:57,272 [DEBUG]  There is no applicable rule.
+2021-01-30 16:35:57,273 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:35:57,274 [DEBUG]  Predicted next action 'action_cpplus_content_answer' with confidence 0.61.
+2021-01-30 16:35:57,275 [DEBUG]  Calling action endpoint to run action 'action_cpplus_content_answer'.
+2021-01-30 16:35:57,481 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:35:57,481 [DEBUG]  Action 'action_cpplus_content_answer' ended with events '[BotUttered('https://youtu.be/gBmj0xCizn8', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024557.4810572), BotUttered('Nếu link video có gì sai sót vui lòng. Liên hệ email nguyenlequan02@gmail.com.', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024557.481066), <rasa.shared.core.events.SlotSet object at 0x7f653808ff98>]'.
+2021-01-30 16:35:57,481 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: for
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:35:58,057 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:35:58,537 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:35:58,542 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_who_i_am
+[state 1] user intent: greet | previous action name: utter_ask_to_do
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:35:58,543 [DEBUG]  There is no memorised next action
+2021-01-30 16:35:58,566 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:35:58,568 [DEBUG]  There is no applicable rule.
+2021-01-30 16:35:58,568 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:35:58,569 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 1.00.
+2021-01-30 16:35:58,570 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:35:58,571 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có cần hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612024558.5705333)]'.
+2021-01-30 16:35:59,042 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:35:59,045 [DEBUG]  Current tracker state:
+[state 0] user intent: greet | previous action name: utter_ask_to_do
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:35:59,046 [DEBUG]  There is no memorised next action
+2021-01-30 16:35:59,057 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:35:59,059 [DEBUG]  There is no applicable rule.
+2021-01-30 16:35:59,060 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:35:59,060 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 16:35:59,060 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:35:59,060 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:35:59,076 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:35:59,389 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:35:59,390 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:35:59,623 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:15,088 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:36:15,622 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:15,865 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:15,867 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:36:15,868 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:36:15,868 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:36:15,886 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:36:16,790 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:36:16,811 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:36:16,813 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:36:16,813 [DEBUG]  Received user message 'Video về nhập môn lập trình' with intent '{'id': 4992922554680783737, 'name': 'cpplus_specific_video_tutorial_asking', 'confidence': 0.9999208450317383}' and entities '[{'entity': 'cpplus_content', 'start': 9, 'end': 27, 'confidence_entity': 0.7013930194918879, 'value': 'introduction-to-programming', 'extractor': 'CRFEntityExtractor', 'processors': ['EntitySynonymMapper']}]'
+2021-01-30 16:36:16,815 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: introduction-to-programming
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:16,819 [DEBUG]  Logged UserUtterance - tracker now has 39 events.
+2021-01-30 16:36:16,822 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:36:16,824 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:16,841 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user text: Video về nhập môn lập trình | previous action name: action_listen
+2021-01-30 16:36:16,845 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:16,846 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:36:16,848 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:16,849 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:36:16,850 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:36:16,850 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:16,860 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 1.00.
+2021-01-30 16:36:16,862 [DEBUG]  Activated the form 'cpp_content_form'.
+2021-01-30 16:36:16,862 [DEBUG]  Validating pre-filled required slots: {'cpplus_content': 'introduction-to-programming'}
+2021-01-30 16:36:16,862 [DEBUG]  Validating extracted slots: {'cpplus_content': 'introduction-to-programming'}
+2021-01-30 16:36:16,864 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:36:16,902 [DEBUG]  Validating user input 'UserUttered(text: Video về nhập môn lập trình, intent: cpplus_specific_video_tutorial_asking, entities: introduction-to-programming (Type: cpplus_content, Role: None, Group: None), use_text_for_featurization: False)'.
+2021-01-30 16:36:16,902 [DEBUG]  Extracted 'introduction-to-programming' for extra slot 'cpplus_content'.
+2021-01-30 16:36:16,903 [DEBUG]  Validating extracted slots: {'cpplus_content': 'introduction-to-programming'}
+2021-01-30 16:36:16,904 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:36:16,916 [DEBUG]  Deactivating the form 'cpp_content_form'
+2021-01-30 16:36:16,916 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f653808fbe0>]'.
+2021-01-30 16:36:16,916 [DEBUG]  Action 'cpp_content_form' ended with events '[<rasa.shared.core.events.ActiveLoop object at 0x7f65380b0f98>, <rasa.shared.core.events.SlotSet object at 0x7f6558212da0>, <rasa.shared.core.events.SlotSet object at 0x7f65581afdd8>, <rasa.shared.core.events.SlotSet object at 0x7f65581afbe0>, <rasa.shared.core.events.ActiveLoop object at 0x7f653808fcf8>]'.
+2021-01-30 16:36:16,916 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: introduction-to-programming
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:16,918 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:36:16,918 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:16,932 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:36:16,933 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:16,933 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:16,933 [DEBUG]  Predicted next action 'action_cpplus_content_answer' with confidence 1.00.
+2021-01-30 16:36:16,934 [DEBUG]  Calling action endpoint to run action 'action_cpplus_content_answer'.
+2021-01-30 16:36:16,945 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:16,945 [DEBUG]  Action 'action_cpplus_content_answer' ended with events '[BotUttered('https://youtu.be/m-fT5o44Axw', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024576.9454484), BotUttered('Nếu link video có gì sai sót vui lòng. Liên hệ email nguyenlequan02@gmail.com.', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024576.945457), <rasa.shared.core.events.SlotSet object at 0x7f6558209400>]'.
+2021-01-30 16:36:16,946 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: introduction-to-programming
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:17,396 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:17,879 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:17,883 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:36:17,884 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:17,901 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:36:17,902 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:17,902 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:17,903 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 1.00.
+2021-01-30 16:36:17,903 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:17,903 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có muốn hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612024577.9035358)]'.
+2021-01-30 16:36:19,535 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:19,539 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:36:19,539 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:19,553 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:36:19,554 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:19,554 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:19,554 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 16:36:19,555 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:19,555 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:36:19,570 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:36:19,934 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:36:19,935 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:36:20,198 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:44,642 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:36:45,163 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:45,419 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:36:45,421 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:36:45,421 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:36:45,422 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:36:45,439 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:36:46,122 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:36:46,144 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:36:46,145 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:36:46,145 [DEBUG]  Received user message 'Video hướng dẫn về hàm' with intent '{'id': 4992922554680783737, 'name': 'cpplus_specific_video_tutorial_asking', 'confidence': 0.9956142902374268}' and entities '[{'entity': 'cpplus_content', 'start': 19, 'end': 22, 'confidence_entity': 0.770726758596877, 'value': 'function', 'extractor': 'CRFEntityExtractor', 'processors': ['EntitySynonymMapper']}]'
+2021-01-30 16:36:46,146 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: function
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:46,146 [DEBUG]  Logged UserUtterance - tracker now has 55 events.
+2021-01-30 16:36:46,148 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:36:46,148 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:46,164 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user text: Video hướng dẫn về hàm | previous action name: action_listen
+2021-01-30 16:36:46,165 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:46,168 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:36:46,170 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:46,171 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:36:46,171 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:36:46,171 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:46,172 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 1.00.
+2021-01-30 16:36:46,173 [DEBUG]  Activated the form 'cpp_content_form'.
+2021-01-30 16:36:46,173 [DEBUG]  Validating pre-filled required slots: {'cpplus_content': 'function'}
+2021-01-30 16:36:46,173 [DEBUG]  Validating extracted slots: {'cpplus_content': 'function'}
+2021-01-30 16:36:46,175 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:36:46,189 [DEBUG]  Validating user input 'UserUttered(text: Video hướng dẫn về hàm, intent: cpplus_specific_video_tutorial_asking, entities: function (Type: cpplus_content, Role: None, Group: None), use_text_for_featurization: False)'.
+2021-01-30 16:36:46,189 [DEBUG]  Extracted 'function' for extra slot 'cpplus_content'.
+2021-01-30 16:36:46,189 [DEBUG]  Validating extracted slots: {'cpplus_content': 'function'}
+2021-01-30 16:36:46,190 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:36:46,202 [DEBUG]  Deactivating the form 'cpp_content_form'
+2021-01-30 16:36:46,202 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f65581df860>]'.
+2021-01-30 16:36:46,203 [DEBUG]  Action 'cpp_content_form' ended with events '[<rasa.shared.core.events.ActiveLoop object at 0x7f653821f0b8>, <rasa.shared.core.events.SlotSet object at 0x7f6538217240>, <rasa.shared.core.events.SlotSet object at 0x7f65382178d0>, <rasa.shared.core.events.SlotSet object at 0x7f6538217978>, <rasa.shared.core.events.ActiveLoop object at 0x7f653820f518>]'.
+2021-01-30 16:36:46,203 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: function
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:46,204 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:36:46,204 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:46,220 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:36:46,221 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:46,221 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:46,221 [DEBUG]  Predicted next action 'action_cpplus_content_answer' with confidence 1.00.
+2021-01-30 16:36:46,222 [DEBUG]  Calling action endpoint to run action 'action_cpplus_content_answer'.
+2021-01-30 16:36:46,233 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:46,234 [DEBUG]  Action 'action_cpplus_content_answer' ended with events '[BotUttered('https://youtu.be/TTaEvxGEGG0', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024606.2337866), BotUttered('Nếu link video có gì sai sót vui lòng. Liên hệ email nguyenlequan02@gmail.com.', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024606.233795), <rasa.shared.core.events.SlotSet object at 0x7f65380b0f28>]'.
+2021-01-30 16:36:46,234 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: function
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:36:46,713 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:47,278 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:47,283 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:36:47,284 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:47,298 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:36:47,299 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:47,299 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:47,300 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 1.00.
+2021-01-30 16:36:47,300 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:47,301 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có muốn hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612024607.3007884)]'.
+2021-01-30 16:36:47,735 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:36:47,738 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:36:47,739 [DEBUG]  There is no memorised next action
+2021-01-30 16:36:47,758 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:36:47,759 [DEBUG]  There is no applicable rule.
+2021-01-30 16:36:47,760 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:36:47,760 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 16:36:47,761 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:36:47,761 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:36:47,777 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:36:48,217 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:36:48,218 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:36:48,556 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:37:39,649 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-30 16:37:40,215 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:37:40,466 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-30 16:37:40,468 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-30 16:37:40,468 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-30 16:37:40,469 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-30 16:37:40,488 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:37:41,155 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-30 16:37:41,167 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-30 16:37:41,167 [DEBUG]  Adding following selector key to message property: default
+2021-01-30 16:37:41,168 [DEBUG]  Received user message 'Video hướng dẫn về if' with intent '{'id': 4992922554680783737, 'name': 'cpplus_specific_video_tutorial_asking', 'confidence': 0.9997798204421997}' and entities '[{'entity': 'cpplus_content', 'start': 19, 'end': 21, 'confidence_entity': 0.986358591728859, 'value': 'if', 'extractor': 'CRFEntityExtractor', 'processors': ['EntitySynonymMapper']}]'
+2021-01-30 16:37:41,169 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: if
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:37:41,169 [DEBUG]  Logged UserUtterance - tracker now has 71 events.
+2021-01-30 16:37:41,170 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:37:41,171 [DEBUG]  There is no memorised next action
+2021-01-30 16:37:41,191 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 23] user text: Video hướng dẫn về if | previous action name: action_listen
+2021-01-30 16:37:41,192 [DEBUG]  There is no applicable rule.
+2021-01-30 16:37:41,195 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 23] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+2021-01-30 16:37:41,195 [DEBUG]  There is no applicable rule.
+2021-01-30 16:37:41,196 [DEBUG]  Made prediction using user intent.
+2021-01-30 16:37:41,196 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-30 16:37:41,196 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:37:41,196 [DEBUG]  Predicted next action 'cpp_content_form' with confidence 1.00.
+2021-01-30 16:37:41,197 [DEBUG]  Activated the form 'cpp_content_form'.
+2021-01-30 16:37:41,197 [DEBUG]  Validating pre-filled required slots: {'cpplus_content': 'if'}
+2021-01-30 16:37:41,197 [DEBUG]  Validating extracted slots: {'cpplus_content': 'if'}
+2021-01-30 16:37:41,198 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:37:41,214 [DEBUG]  Validating user input 'UserUttered(text: Video hướng dẫn về if, intent: cpplus_specific_video_tutorial_asking, entities: if (Type: cpplus_content, Role: None, Group: None), use_text_for_featurization: False)'.
+2021-01-30 16:37:41,214 [DEBUG]  Extracted 'if' for extra slot 'cpplus_content'.
+2021-01-30 16:37:41,214 [DEBUG]  Validating extracted slots: {'cpplus_content': 'if'}
+2021-01-30 16:37:41,215 [DEBUG]  Calling action endpoint to run action 'validate_cpp_content_form'.
+2021-01-30 16:37:41,230 [DEBUG]  Deactivating the form 'cpp_content_form'
+2021-01-30 16:37:41,230 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f65581b7048>]'.
+2021-01-30 16:37:41,230 [DEBUG]  Action 'cpp_content_form' ended with events '[<rasa.shared.core.events.ActiveLoop object at 0x7f65380a3fd0>, <rasa.shared.core.events.SlotSet object at 0x7f6538221048>, <rasa.shared.core.events.SlotSet object at 0x7f65581df860>, <rasa.shared.core.events.SlotSet object at 0x7f65581df940>, <rasa.shared.core.events.ActiveLoop object at 0x7f6538212630>]'.
+2021-01-30 16:37:41,230 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: if
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:37:41,232 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:37:41,232 [DEBUG]  There is no memorised next action
+2021-01-30 16:37:41,250 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 23] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 24] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+2021-01-30 16:37:41,251 [DEBUG]  There is no applicable rule.
+2021-01-30 16:37:41,251 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:37:41,252 [DEBUG]  Predicted next action 'action_cpplus_content_answer' with confidence 1.00.
+2021-01-30 16:37:41,253 [DEBUG]  Calling action endpoint to run action 'action_cpplus_content_answer'.
+2021-01-30 16:37:41,266 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:37:41,266 [DEBUG]  Action 'action_cpplus_content_answer' ended with events '[BotUttered('https://youtu.be/RlK5TCJRKCk', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024661.2661176), BotUttered('Nếu link video có gì sai sót, vui lòng liên hệ email nguyenlequan02@gmail.com.', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612024661.2661257), <rasa.shared.core.events.SlotSet object at 0x7f653817d358>]'.
+2021-01-30 16:37:41,266 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: if
+	cpp_content_answer:  
+	flowchart_answer: None
+	requested_slot: None
+2021-01-30 16:37:41,812 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:37:42,501 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:37:42,507 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:37:42,508 [DEBUG]  There is no memorised next action
+2021-01-30 16:37:42,533 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 23] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 24] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 25] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+2021-01-30 16:37:42,535 [DEBUG]  There is no applicable rule.
+2021-01-30 16:37:42,535 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:37:42,535 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 1.00.
+2021-01-30 16:37:42,536 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:37:42,536 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có muốn hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612024662.5364585)]'.
+2021-01-30 16:37:42,945 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-30 16:37:42,951 [DEBUG]  Current tracker state:
+[state 0] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 1] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 2] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 3] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 4] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:37:42,952 [DEBUG]  There is no memorised next action
+2021-01-30 16:37:42,971 [DEBUG]  Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+[state 7] user intent: greet | previous action name: action_listen
+[state 8] user intent: greet | previous action name: utter_greet
+[state 9] user intent: greet | previous action name: utter_who_i_am
+[state 10] user intent: greet | previous action name: utter_ask_to_do
+[state 11] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 12] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 13] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 14] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 15] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 16] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 17] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 18] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 19] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 20] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 21] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 22] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+[state 23] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_listen
+[state 24] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: cpp_content_form
+[state 25] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: action_cpplus_content_answer
+[state 26] user intent: cpplus_specific_video_tutorial_asking | user entities: ('cpplus_content',) | previous action name: utter_ask_anything_else
+2021-01-30 16:37:42,971 [DEBUG]  There is no applicable rule.
+2021-01-30 16:37:42,972 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-30 16:37:42,972 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-30 16:37:42,972 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-30 16:37:42,973 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-30 16:37:42,989 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-30 16:37:43,409 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-30 16:37:43,410 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-30 16:37:43,664 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35

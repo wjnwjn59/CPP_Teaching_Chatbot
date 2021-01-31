@@ -3,6 +3,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
+- cpplus_specific_video_tutorial_asking
+- cpplus_what_asking
 - cpplus_why_asking
 - nlu_fallback:
     use_entities: []
@@ -15,7 +17,6 @@ intents:
     use_entities: []
 - out_of_scope:
     use_entities: []
-- cpplus_what_asking
 - attention:
     use_entities: []
 - health_inquire:
@@ -71,7 +72,6 @@ intents:
 - cpplus_when_asking
 - cpplus_where_asking
 - cpplus_example_asking
-- cpplus_specific_video_tutorial_asking
 entities:
 - cpplus_content
 - flowchart_quest_num
@@ -259,7 +259,12 @@ actions:
 - utter_accept_questions
 - utter_answer_cpplus_questions
 - utter_ask_anything_else
+- utter_ask_cpp_content
+- utter_ask_first_name
+- utter_ask_flowchart_question_number
+- utter_ask_last_name
 - utter_ask_to_do
+- utter_ask_which_video_tutorial
 - utter_author
 - utter_covid_precautions
 - utter_covid_symptom
@@ -286,11 +291,6 @@ actions:
 - utter_what_do_you_want
 - utter_who_i_am
 - utter_wtf
-- utter_ask_first_name
-- utter_ask_last_name
-- utter_ask_flowchart_question_number
-- utter_ask_cpp_content
-- utter_ask_which_video_tutorial
 - validate_cpp_content_form
 - validate_flowchart_quest_num_form
 forms:

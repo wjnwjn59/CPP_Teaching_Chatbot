@@ -74,7 +74,7 @@ class FlowChartPractice(Action):
 
         img_url = {
             "1": "https://i.imgur.com/k8T1nBE.jpg",
-            "2": "https://i.imgur.com/kImXa2U.jpg",
+            "2": "https://i.imgur.com/PSooxde.jpg",
             "3": "https://i.imgur.com/OOfikEE.jpg",
             "4": "https://i.imgur.com/SvaoVeW.jpg",
             "5": "https://i.imgur.com/VmXIWnn.jpg",
@@ -2247,7 +2247,7 @@ class AnswerCppDefineQuestion(Action):
             dispatcher.utter_message(text=pull_answer(cpp_content))
 
         if curr_intent == 'cpplus_specific_video_tutorial_asking':
-            dispatcher.utter_message(text="Nếu link video có gì sai sót vui lòng. Liên hệ email nguyenlequan02@gmail.com.")
+            dispatcher.utter_message(text="Nếu link video có gì sai sót, vui lòng liên hệ qua messenger: http://m.me/anhquandz0soai.")
 
         return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
