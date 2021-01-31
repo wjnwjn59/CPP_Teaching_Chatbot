@@ -2967,8 +2967,8 @@ nlu:
     - [Đối số]{"entity": "cpplus_content", "value": "argument"} dc truyền ntn trong lời gọi hàm thế bot?
     - làm s để có sử dụng dc các [hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} thế bot iu?
     - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda](cpplus_content) zay
-    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là vẽ như thế nào vậy bot?
-    - làm sao để t có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
+    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} như thế nào vậy bot?
+    - làm sao để mình có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
     - Cú pháp của [comment](cpplus_content) là gì
     - Cú pháp của [include](cpplus_content) là gì
     - Cú pháp của [library](cpplus_content) là gì
@@ -3134,6 +3134,116 @@ nlu:
     - Cú pháp [built-in-function](cpplus_content)
     - Cú pháp [lambda](cpplus_content)
     - Cú pháp [flowchart](cpplus_content)
+    - [comment]{"entity": "cpplus_content", "value": "comment"} hoạt động như thế nào
+    - [include]{"entity": "cpplus_content", "value": "include"} hoạt động như thế nào
+    - [library]{"entity": "cpplus_content", "value": "library"} hoạt động như thế nào
+    - [Thư viện]{"entity": "cpplus_content", "value": "library"} hoạt động như thế nào
+    - [namespace]{"entity": "cpplus_content", "value": "namespace"} hoạt động như thế nào
+    - [pseudo-code]{"entity": "cpplus_content", "value": "pseudo-code"} hoạt động như thế nào
+    - [variable]{"entity": "cpplus_content", "value": "variable"} hoạt động như thế nào
+    - [Biến]{"entity": "cpplus_content", "value": "variable"} hoạt động như thế nào
+    - [unsigned]{"entity": "cpplus_content", "value": "unsigned"} hoạt động như thế nào
+    - [signed]{"entity": "cpplus_content", "value": "signed"} hoạt động như thế nào
+    - [short]{"entity": "cpplus_content", "value": "short"} hoạt động như thế nào
+    - [long]{"entity": "cpplus_content", "value": "long"} hoạt động như thế nào
+    - [type-modififer]{"entity": "cpplus_content", "value": "type-modififer"} hoạt động như thế nào
+    - [typedef]{"entity": "cpplus_content", "value": "typedef"} hoạt động như thế nào
+    - [constant]{"entity": "cpplus_content", "value": "constant"} hoạt động như thế nào
+    - [macro]{"entity": "cpplus_content", "value": "macro"} hoạt động như thế nào
+    - [wchar_t]{"entity": "cpplus_content", "value": "wchar_t"} hoạt động như thế nào
+    - [boolean]{"entity": "cpplus_content", "value": "boolean"} hoạt động như thế nào
+    - [Kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} hoạt động như thế nào
+    - [data-type]{"entity": "cpplus_content", "value": "data-type"} hoạt động như thế nào
+    - [Kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} hoạt động như thế nào
+    - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [array]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [Mảng]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [structure]{"entity": "cpplus_content", "value": "structure"} hoạt động như thế nào
+    - [Struct]{"entity": "cpplus_content", "value": "structure"} hoạt động như thế nào
+    - [class]{"entity": "cpplus_content", "value": "class"} hoạt động như thế nào
+    - [Lớp]{"entity": "cpplus_content", "value": "class"} hoạt động như thế nào
+    - [union]{"entity": "cpplus_content", "value": "union"} hoạt động như thế nào
+    - [pointer]{"entity": "cpplus_content", "value": "pointer"} hoạt động như thế nào
+    - [Con trỏ]{"entity": "cpplus_content", "value": "pointer"} hoạt động như thế nào
+    - [enumeration]{"entity": "cpplus_content", "value": "enumeration"} hoạt động như thế nào
+    - [integer]{"entity": "cpplus_content", "value": "integer"} hoạt động như thế nào
+    - [Kiểu số nguyên]{"entity": "cpplus_content", "value": "integer"} hoạt động như thế nào
+    - [floating-point]{"entity": "cpplus_content", "value": "floating-point"} hoạt động như thế nào
+    - [Dấu chấm động]{"entity": "cpplus_content", "value": "floating-point"} hoạt động như thế nào
+    - [double]{"entity": "cpplus_content", "value": "double"} hoạt động như thế nào
+    - [character]{"entity": "cpplus_content", "value": "character"} hoạt động như thế nào
+    - Kiểu [ký tự]{"entity": "cpplus_content", "value": "character"} hoạt động như thế nào
+    - [string]{"entity": "cpplus_content", "value": "string"} hoạt động như thế nào
+    - [Kiểu chuỗi]{"entity": "cpplus_content", "value": "string"} hoạt động như thế nào
+    - [local-variable]{"entity": "cpplus_content", "value": "local-variable"} hoạt động như thế nào
+    - [Biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} hoạt động như thế nào
+    - [auto]{"entity": "cpplus_content", "value": "auto"} hoạt động như thế nào
+    - [external]{"entity": "cpplus_content", "value": "external"} hoạt động như thế nào
+    - [static]{"entity": "cpplus_content", "value": "static"} hoạt động như thế nào
+    - [vector]{"entity": "cpplus_content", "value": "vector"} hoạt động như thế nào
+    - [reference-variable]{"entity": "cpplus_content", "value": "reference-variable"} hoạt động như thế nào
+    - [decrement-operator]{"entity": "cpplus_content", "value": "decrement-operator"} hoạt động như thế nào
+    - [increment-operator]{"entity": "cpplus_content", "value": "increment-operator"} hoạt động như thế nào
+    - [dereference-operator]{"entity": "cpplus_content", "value": "dereference-operator"} hoạt động như thế nào
+    - [address_of-operator]{"entity": "cpplus_content", "value": "address_of-operator"} hoạt động như thế nào
+    - [comma-operator]{"entity": "cpplus_content", "value": "comma-operator"} hoạt động như thế nào
+    - [ternary-operator]{"entity": "cpplus_content", "value": "ternary-operator"} hoạt động như thế nào
+    - [binary-operator]{"entity": "cpplus_content", "value": "binary-operator"} hoạt động như thế nào
+    - [unary-operator]{"entity": "cpplus_content", "value": "unary-operator"} hoạt động như thế nào
+    - [shift-operator]{"entity": "cpplus_content", "value": "shift-operator"} hoạt động như thế nào
+    - [bitwise-operator]{"entity": "cpplus_content", "value": "bitwise-operator"} hoạt động như thế nào
+    - [logical-operator]{"entity": "cpplus_content", "value": "logical-operator"} hoạt động như thế nào
+    - [comparison-operator]{"entity": "cpplus_content", "value": "comparison-operator"} hoạt động như thế nào
+    - [arithmetic-operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} hoạt động như thế nào
+    - [assignment-operator]{"entity": "cpplus_content", "value": "assignment-operator"} hoạt động như thế nào
+    - [operator]{"entity": "cpplus_content", "value": "operator"} hoạt động như thế nào
+    - [scope-resolution-operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"} hoạt động như thế nào
+    - [if]{"entity": "cpplus_content", "value": "if"} hoạt động như thế nào
+    - [loop]{"entity": "cpplus_content", "value": "loop"} hoạt động như thế nào
+    - [control-flow]{"entity": "cpplus_content", "value": "control-flow"} hoạt động như thế nào
+    - [selection-statement]{"entity": "cpplus_content", "value": "selection-statement"} hoạt động như thế nào
+    - [iteration-statement]{"entity": "cpplus_content", "value": "iteration-statement"} hoạt động như thế nào
+    - [jump-statement]{"entity": "cpplus_content", "value": "jump-statement"} hoạt động như thế nào
+    - [for]{"entity": "cpplus_content", "value": "for"} hoạt động như thế nào
+    - Vòng lặp [for]{"entity": "cpplus_content", "value": "for"} hoạt động như thế nào
+    - [while]{"entity": "cpplus_content", "value": "while"} hoạt động như thế nào
+    - Vòng lặp [while]{"entity": "cpplus_content", "value": "while"} hoạt động như thế nào
+    - [do-while]{"entity": "cpplus_content", "value": "do-while"} hoạt động như thế nào
+    - Vòng lặp [do-while]{"entity": "cpplus_content", "value": "do-while"} hoạt động như thế nào
+    - [switch]{"entity": "cpplus_content", "value": "switch"} hoạt động như thế nào
+    - [switch]{"entity": "cpplus_content", "value": "switch"} case hoạt động như thế nào
+    - [break]{"entity": "cpplus_content", "value": "break"} hoạt động như thế nào
+    - [continue]{"entity": "cpplus_content", "value": "continue"} hoạt động như thế nào
+    - [goto]{"entity": "cpplus_content", "value": "goto"} hoạt động như thế nào
+    - [if-else]{"entity": "cpplus_content", "value": "if-else"} hoạt động như thế nào
+    - [if else]{"entity": "cpplus_content", "value": "if-else"} hoạt động như thế nào
+    - [if-else-if-ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"} hoạt động như thế nào
+    - [nested-if]{"entity": "cpplus_content", "value": "nested-if"} hoạt động như thế nào
+    - [function]{"entity": "cpplus_content", "value": "function"} hoạt động như thế nào
+    - [Hàm]{"entity": "cpplus_content", "value": "function"} hoạt động như thế nào
+    - [parameter]{"entity": "cpplus_content", "value": "parameter"} hoạt động như thế nào
+    - [Tham số]{"entity": "cpplus_content", "value": "parameter"} hoạt động như thế nào
+    - [argument]{"entity": "cpplus_content", "value": "argument"} hoạt động như thế nào
+    - [Đối số]{"entity": "cpplus_content", "value": "argument"} hoạt động như thế nào
+    - [recursion]{"entity": "cpplus_content", "value": "recursion"} hoạt động như thế nào
+    - [Đệ quy]{"entity": "cpplus_content", "value": "recursion"} hoạt động như thế nào
+    - [pass-by-value]{"entity": "cpplus_content", "value": "pass-by-value"} hoạt động như thế nào
+    - [pass-by-reference]{"entity": "cpplus_content", "value": "pass-by-reference"} hoạt động như thế nào
+    - [return]{"entity": "cpplus_content", "value": "return"} hoạt động như thế nào
+    - [return-type]{"entity": "cpplus_content", "value": "return-type"} hoạt động như thế nào
+    - [Kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} hoạt động như thế nào
+    - [const-reference]{"entity": "cpplus_content", "value": "const-reference"} hoạt động như thế nào
+    - [inline-function]{"entity": "cpplus_content", "value": "inline-function"} hoạt động như thế nào
+    - [default-value]{"entity": "cpplus_content", "value": "default-value"} hoạt động như thế nào
+    - [main-function]{"entity": "cpplus_content", "value": "main-function"} hoạt động như thế nào
+    - [built-in-function]{"entity": "cpplus_content", "value": "built-in-function"} hoạt động như thế nào
+    - [lambda]{"entity": "cpplus_content", "value": "lambda"} hoạt động như thế nào
+    - [flowchart]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
+    - [Lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
