@@ -196,8 +196,6 @@ responses:
       title: Hỏi các kiến thức về C++
     - payload: /want_to_practice_flowchart
       title: Làm bài tập lưu đồ thuật toán (flowchart)
-    - payload: /want_to_practice_cpp
-      title: Làm bài tập C++
     - payload: /want_to_watch_cpp_tutorial
       title: Xem video bài giảng Nhập môn lập trình
     text: Vui lòng chọn các tùy chọn bên dưới

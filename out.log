@@ -17059,3 +17059,221 @@ rasa.shared.exceptions.RasaException: Failed to execute custom action.
 2021-01-31 04:24:47,314 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
 2021-01-31 04:24:47,314 [DEBUG]  Deleted lock for conversation '2498446476900093'.
 2021-01-31 04:24:47,587 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 06:57:12,989 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/webhooks/facebook                                 GET                            fb_webhook.health
+/webhooks/facebook/webhook                         GET                            fb_webhook.token_verification
+/webhooks/facebook/webhook                         POST                           fb_webhook.webhook
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2021-01-31 06:57:12,990 [INFO ]  Starting Rasa server on http://localhost:5005
+2021-01-31 06:57:12,990 [DEBUG]  Using the default number of Sanic workers (1).
+2021-01-31 06:57:12,992 [INFO ]  Loading model models/20210131-063243.tar.gz...
+2021-01-31 06:57:13,384 [DEBUG]  Extracted model to '/tmp/tmpixhxser7'.
+2021-01-31 06:57:13,397 [DEBUG]  Starting new HTTPS connection (1): api.segment.io:443
+2021-01-31 06:57:14,318 [DEBUG]  https://api.segment.io:443 "POST /v1/track HTTP/1.1" 200 21
+2021-01-31 06:57:14,322 [INFO ]  Enabling coroutine debugging. Loop id 94888221953560.
+2021-01-31 06:57:14,323 [INFO ]  Loading model models/20210131-063243.tar.gz...
+2021-01-31 06:57:14,713 [DEBUG]  Extracted model to '/tmp/tmp_z0qdxw_'.
+2021-01-31 06:57:19,254 [DEBUG]  Loading Tokenizer and Model for roberta
+2021-01-31 06:57:19,287 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-31 06:57:20,629 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2021-01-31 06:57:20,663 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-31 06:57:21,701 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 0
+2021-01-31 06:57:21,912 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-31 06:57:22,950 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2021-01-31 06:57:22,971 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2021-01-31 06:57:23,956 [DEBUG]  https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tf_model.h5 HTTP/1.1" 302 0
+2021-01-31 06:57:42,747 [INFO ]  Added 'HFTransformersNLP' to component cache. Key 'HFTransformersNLP-roberta-00317db23a40108d8e9558b80672a86d'.
+2021-01-31 06:57:42,748 [INFO ]  Added 'LanguageModelFeaturizer' to component cache. Key 'LanguageModelFeaturizer-roberta-00317db23a40108d8e9558b80672a86d'.
+2021-01-31 06:57:42,769 [DEBUG]  Loading the model from /tmp/tmp_z0qdxw_/nlu/component_3_DIETClassifier.tf_model with finetune_mode=False...
+2021-01-31 06:57:42,883 [DEBUG]  Following metrics will be logged during training: 
+2021-01-31 06:57:42,883 [DEBUG]    t_loss (total loss)
+2021-01-31 06:57:42,883 [DEBUG]    i_acc (intent acc)
+2021-01-31 06:57:42,883 [DEBUG]    i_loss (intent loss)
+2021-01-31 06:57:44,238 [DEBUG]  Finished loading the model.
+2021-01-31 06:57:44,240 [DEBUG]  Building tensorflow prediction graph...
+2021-01-31 06:57:48,666 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-31 06:57:48,688 [DEBUG]  Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path '/tmp/tmp_z0qdxw_/nlu' doesn't exist?
+2021-01-31 06:57:48,711 [DEBUG]  SQLEventBroker: Connecting to database: 'sqlite:///database/events.db'.
+2021-01-31 06:57:48,800 [DEBUG]  Instantiated event broker to 'SQLEventBroker'.
+2021-01-31 06:57:48,805 [DEBUG]  Attempting to connect to database via 'sqlite:///./database/cpp.db'.
+2021-01-31 06:57:48,806 [DEBUG]  Connection to SQL database 'cpp.db' successful.
+2021-01-31 06:57:48,806 [DEBUG]  Connected to SQLTrackerStore.
+2021-01-31 06:57:48,807 [DEBUG]  Connected to lock store 'InMemoryLockStore'.
+2021-01-31 06:57:49,252 [DEBUG]  Extracted model to '/tmp/tmpslwlgvzu'.
+2021-01-31 06:57:49,627 [DEBUG]  Loading the model from /tmp/tmpslwlgvzu/core/policy_1_TEDPolicy/ted_policy.tf_model with finetune_mode=False...
+2021-01-31 06:57:50,291 [DEBUG]  Finished loading the model.
+2021-01-31 06:57:50,304 [DEBUG]  Building tensorflow prediction graph...
+2021-01-31 06:57:56,637 [DEBUG]  Finished building tensorflow prediction graph.
+2021-01-31 06:57:56,649 [DEBUG]  Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+2021-01-31 06:57:56,650 [INFO ]  Rasa server is up and running.
+2021-01-31 09:35:54,438 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-31 09:35:55,104 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 09:35:55,346 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 09:35:55,348 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-31 09:35:55,348 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-31 09:35:55,349 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-31 09:35:55,389 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 09:35:55,417 [DEBUG]  The latest session for conversation ID '2498446476900093' has expired.
+2021-01-31 09:35:55,417 [DEBUG]  Starting a new session for conversation ID '2498446476900093'.
+2021-01-31 09:35:55,437 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 09:35:55,437 [DEBUG]  Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7fad9c01a080>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+2021-01-31 09:35:55,437 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-31 09:35:56,110 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-31 09:35:56,400 [DEBUG]  NLU confidence 0.7954685688018799 for intent 'out_of_scope' is lower than NLU threshold 0.80.
+2021-01-31 09:35:56,404 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-31 09:35:56,404 [DEBUG]  Adding following selector key to message property: default
+2021-01-31 09:35:56,404 [DEBUG]  Received user message 'Hello bot' with intent '{'name': 'nlu_fallback', 'confidence': 0.20453143119812012}' and entities '[]'
+2021-01-31 09:35:56,406 [DEBUG]  Logged UserUtterance - tracker now has 232 events.
+2021-01-31 09:35:56,409 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+2021-01-31 09:35:56,409 [DEBUG]  There is no memorised next action
+2021-01-31 09:35:56,430 [DEBUG]  Current tracker state:
+[state 1] user text: Hello bot | previous action name: action_listen
+2021-01-31 09:35:56,432 [DEBUG]  There is no applicable rule.
+2021-01-31 09:35:56,435 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+2021-01-31 09:35:56,437 [DEBUG]  There is a rule for the next action 'utter_please_rephrase'.
+2021-01-31 09:35:56,438 [DEBUG]  Made prediction using user intent.
+2021-01-31 09:35:56,438 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-31 09:35:56,439 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-31 09:35:56,440 [DEBUG]  Predicted next action 'utter_please_rephrase' with confidence 1.00.
+2021-01-31 09:35:56,442 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fad847b7da0>]'.
+2021-01-31 09:35:56,442 [DEBUG]  Action 'utter_please_rephrase' ended with events '[BotUttered('Xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói rõ hơn một tí được hong?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_please_rephrase"}, 1612085756.4420588)]'.
+2021-01-31 09:35:56,898 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 09:35:56,902 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+2021-01-31 09:35:56,903 [DEBUG]  There is no memorised next action
+2021-01-31 09:35:56,920 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+2021-01-31 09:35:56,921 [DEBUG]  There is no applicable rule.
+2021-01-31 09:35:56,922 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 09:35:56,922 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-31 09:35:56,924 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 09:35:56,924 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-31 09:35:56,964 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 09:35:57,191 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-31 09:35:57,192 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-31 09:35:57,421 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 09:36:17,027 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-31 09:36:17,620 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 09:36:17,855 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 09:36:17,856 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-31 09:36:17,856 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-31 09:36:17,856 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-31 09:36:17,869 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 09:36:18,422 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-31 09:36:18,438 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-31 09:36:18,439 [DEBUG]  Adding following selector key to message property: default
+2021-01-31 09:36:18,439 [DEBUG]  Received user message 'Hiii' with intent '{'id': -7000734153743986695, 'name': 'greet', 'confidence': 0.999983012676239}' and entities '[]'
+2021-01-31 09:36:18,440 [DEBUG]  Logged UserUtterance - tracker now has 8 events.
+2021-01-31 09:36:18,442 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+2021-01-31 09:36:18,442 [DEBUG]  There is no memorised next action
+2021-01-31 09:36:18,460 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user text: Hiii | previous action name: action_listen
+2021-01-31 09:36:18,462 [DEBUG]  There is no applicable rule.
+2021-01-31 09:36:18,463 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+2021-01-31 09:36:18,464 [DEBUG]  There is no applicable rule.
+2021-01-31 09:36:18,465 [DEBUG]  Made prediction using user intent.
+2021-01-31 09:36:18,465 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-31 09:36:18,465 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 09:36:18,465 [DEBUG]  Predicted next action 'utter_greet' with confidence 0.93.
+2021-01-31 09:36:18,466 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fad84734da0>]'.
+2021-01-31 09:36:18,466 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Chào bạn, hôm nay bạn thế nào?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612085778.4662607)]'.
+2021-01-31 09:36:18,907 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 09:36:18,910 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+2021-01-31 09:36:18,911 [DEBUG]  There is no memorised next action
+2021-01-31 09:36:18,926 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+2021-01-31 09:36:18,927 [DEBUG]  There is no applicable rule.
+2021-01-31 09:36:18,927 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 09:36:18,927 [DEBUG]  Predicted next action 'utter_who_i_am' with confidence 0.92.
+2021-01-31 09:36:18,928 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 09:36:18,928 [DEBUG]  Action 'utter_who_i_am' ended with events '[BotUttered('Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập trình với ngôn ngữ C++!', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_who_i_am"}, 1612085778.928005)]'.
+2021-01-31 09:36:19,399 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 09:36:19,402 [DEBUG]  Current tracker state:
+[state 0] user intent: nlu_fallback | previous action name: action_listen
+[state 1] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 2] user intent: greet | previous action name: action_listen
+[state 3] user intent: greet | previous action name: utter_greet
+[state 4] user intent: greet | previous action name: utter_who_i_am
+2021-01-31 09:36:19,403 [DEBUG]  There is no memorised next action
+2021-01-31 09:36:19,422 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+[state 5] user intent: greet | previous action name: utter_who_i_am
+2021-01-31 09:36:19,423 [DEBUG]  There is no applicable rule.
+2021-01-31 09:36:19,423 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 09:36:19,424 [DEBUG]  Predicted next action 'utter_ask_to_do' with confidence 0.79.
+2021-01-31 09:36:19,424 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 09:36:19,425 [DEBUG]  Action 'utter_ask_to_do' ended with events '[BotUttered('Vui lòng chọn các tùy chọn bên dưới', {"elements": null, "quick_replies": null, "buttons": [{"payload": "/want_to_ask", "title": "H\u1ecfi c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 C++"}, {"payload": "/want_to_practice_flowchart", "title": "L\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n (flowchart)"}, {"payload": "/want_to_practice_cpp", "title": "L\u00e0m b\u00e0i t\u1eadp C++"}, {"payload": "/want_to_watch_cpp_tutorial", "title": "Xem video b\u00e0i gi\u1ea3ng Nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh"}], "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_to_do"}, 1612085779.4248784)]'.
+2021-01-31 09:36:19,841 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 09:36:19,843 [DEBUG]  Current tracker state:
+[state 0] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-31 09:36:19,844 [DEBUG]  There is no memorised next action
+2021-01-31 09:36:19,858 [DEBUG]  Current tracker state:
+[state 1] user intent: nlu_fallback | previous action name: action_listen
+[state 2] user intent: nlu_fallback | previous action name: utter_please_rephrase
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+[state 5] user intent: greet | previous action name: utter_who_i_am
+[state 6] user intent: greet | previous action name: utter_ask_to_do
+2021-01-31 09:36:19,859 [DEBUG]  There is no applicable rule.
+2021-01-31 09:36:19,859 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 09:36:19,859 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-31 09:36:19,860 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 09:36:19,860 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-31 09:36:19,877 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 09:36:20,110 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-31 09:36:20,110 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-31 09:36:20,344 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
