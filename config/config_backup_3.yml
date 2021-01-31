@@ -5,15 +5,18 @@ language: "vi"
 pipeline:
 - name: HFTransformersNLP
   # Name of the language model to use
+  model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "xlm-roberta-large"
+  model_weights: "roberta-large-openai-detector"
   cache_dir: null
 - name: "LanguageModelTokenizer"
+  model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "xlm-roberta-large"
+  model_weights: "roberta-large-openai-detector"
 - name: RegexFeaturizer  
 - name: LanguageModelFeaturizer
-  model_weights: "xlm-roberta-large"
+  model_name: "roberta"
+  model_weights: "roberta-large-openai-detector"
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
