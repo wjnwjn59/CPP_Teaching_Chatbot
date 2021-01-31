@@ -2,6 +2,8 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
+    - Hello bot 
+    - Hi bot 
     - XIN CHÀO
     - CHAO XÌN
     - CHÀO
@@ -860,6 +862,8 @@ nlu:
     - Tks
     - Ok tks
     - OK TKS
+    - Ok thank you vinamilk
+    - Ok thanks nhé
     - MƠN NHIỀU NÈ
     - CẢM ƠN
     - TKS
