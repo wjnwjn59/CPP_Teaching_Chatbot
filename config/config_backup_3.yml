@@ -13,6 +13,7 @@ pipeline:
   model_name: "roberta"
   # Pre-Trained weights to be loaded
   model_weights: "roberta-large"
+- name: RegexFeaturizer 
 - name: LanguageModelFeaturizer
   model_name: "roberta"
   model_weights: "roberta-large"
