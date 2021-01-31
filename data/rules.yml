@@ -101,3 +101,9 @@ rules:
   - intent: insult
   - action: utter_reply_insult
   wait_for_user_input: false
+
+- rule: ask video tutorial 
+  steps:
+  - intent: want_to_watch_cpp_tutorial
+  - intent: utter_ask_which_video_tutorial
+  wait_for_user_input: true

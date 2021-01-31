@@ -5,9 +5,9 @@ language: "vi"
 pipeline:
 - name: HFTransformersNLP
   # Name of the language model to use
-  model_name: "bert"
+  model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "rasa/LaBSE"
+  model_weights: "roberta-large"
   cache_dir: null
 - name: "LanguageModelTokenizer"
   # Flag to check whether to split intents
@@ -18,8 +18,8 @@ pipeline:
   # Text will be processed with case sensitive as default
   "case_sensitive": True
 - name: LanguageModelFeaturizer
-  model_name: "bert"
-  model_weights: "rasa/LaBSE"
+  model_name: "roberta"
+  model_weights: "roberta-large"
   cache_dir: null
 - name: RegexEntityExtractor
 - name: "DIETClassifier"
@@ -34,7 +34,7 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 3
+    max_history: 5
     random_seed: 42
-    epochs: 100
+    epochs: 300
   - name: RulePolicy

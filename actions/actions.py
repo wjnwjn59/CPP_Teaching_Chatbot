@@ -409,24 +409,6 @@ class AnswerCppDefineQuestion(Action):
             - Môn lập trình C giúp bạn có nền tảng với kỹ thuật lập trình, các kiến thức cơ bản và tư duy lập trình. Môn lập trình C++ cung cấp kiến thức về lập trình hướng đối tượng. Cả 2 ngôn ngữ này cũng được sử dụng để học các môn học về cấu trúc dữ liệu và giải thuật.
             - Nếu bạn có kiến thức tốt về 2 ngôn ngữ này, thêm với kiến thức về cấu trúc dữ liệu và giải thuật. Việc học các kiến thức lập trình mới của bạn sẽ trở nên đơn giản hơn rất nhiều. Kiến thức mới ở đây có thể là công nghệ mới, ngôn ngữ lập trình mới,…
             - Ưu điểm vượt trội của C/C++ là tốc độ xử lý, hiệu năng cao. Do đó, nó thường được sử dụng trong các hệ thống lớn. Nơi mà hiệu năng, tốc độ là yếu tố then chốt của sản phẩm.
-            - Ngoài ra C++ còn được ứng dụng vào các lĩnh vực khác nhau trong đời sống, ta có thể kể đến như:
-                - Games:
-                    + C++ là sự lựa chọn tốt để phát triển các nền tảng game 3D. Cho phép tối ưu hóa việc quản lý tài nguyên và mượt mà trong nền tảng nhiều người chơi trên cùng mạng – multi-player. 
-                    + C++ cho phép can thiệp sâu vào CPU cũng như phần cứng. Đó cũng là yếu tố quan trọng trong việc phát triển các game engines.
-                - Ứng dụng có giao diện người dùng (GUI):
-                    + Có rất nhiều ứng dụng giao diện mà phía sau nó được viết bằng C++. Một số ứng dụng phổ biến có thể kể tới là: Image Ready, Adobe Premier, Photoshop và Illustrator.
-                - Trình duyệt web:
-                    + Tốc độ và độ tin cậy là yếu tố cần phải có với các trình duyệt web. Khi đó, C++ sẽ là ngôn ngữ được ưu tiên sử dụng. Một phần của trình duyệt Google chrome và một số web browsers mã nguồn mở như Moliza Firefox, 
-                    ứng dụng email Mozilla Thunderbird có sự đóng góp của ngôn ngữ C++.
-                - Ứng dụng tính toán và đồ họa:
-                    + Ngôn ngữ lập trình C++ cho phép triển khai các ứng dụng đòi hỏi yếu tố thời gian thực. Chẳng hạn như các ứng dụng mô phỏng 3D, xử lý hình ảnh hiệu năng cao hay các ứng dụng cảm biến trên thiết bị di động. 
-                    Hay các ứng dụng xử lý, mô phỏng 3D, hiệu ứng và hoạt ảnh đều được xây dựng bằng C++.
-                - Phần mềm quản trị cơ sở dữ liệu:
-                    + C và C++ được sử dụng cho hệ quản trị cơ sở dữ liệu MySQL. Đây là một trong các hệ quản trị cơ sở dữ liệu phổ biến nhất. Nó là xương sống cho nhiều phần mềm của các doanh nghiệp lớn như Google, Yahoo, Youtube, Wikipedia,…
-                - Hệ điều hành:
-                    + C++ là một phần không thể thiếu trong nhiều hệ điều hành phổ biến như Apple OSX và MS Windows.
-                - Phần mềm doanh nghiệp:
-                    + C++ thường được sử dụng trong các ứng dụng lớn của các doanh nghiệp. Nơi mà yêu tố hiệu năng và tốc độ luôn được đặt lên hàng đầu.
              ''',
             'include': 'Để có thể sử dụng một số hàm built-in cần thiết ta cần phải khai báo thư viện chứa các hàm đó để chương trình có thể thực thi.',
             'library': 'Một số thư viện cung cấp sẵn các hàm, các chức năng có sẵn để giúp chúng ta tiết kiệm thời gian coding hơn.',
@@ -2246,8 +2228,8 @@ class AnswerCppDefineQuestion(Action):
         else:
             dispatcher.utter_message(text=pull_answer(cpp_content))
 
-        if curr_intent == 'cpplus_specific_video_tutorial_asking':
-            dispatcher.utter_message(text="Nếu link video có gì sai sót, vui lòng liên hệ qua messenger: http://m.me/anhquandz0soai.")
+        # if cpp_content_answer == " ":
+        #     dispatcher.utter_message(text='Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng bạn hãy hỏi câu khác !')
 
         return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
