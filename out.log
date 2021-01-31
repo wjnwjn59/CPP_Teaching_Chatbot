@@ -16818,3 +16818,244 @@ rasa.shared.exceptions.RasaException: Failed to execute custom action.
 2021-01-30 16:37:43,409 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
 2021-01-30 16:37:43,410 [DEBUG]  Deleted lock for conversation '2498446476900093'.
 2021-01-30 16:37:43,664 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:21,873 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-31 04:24:22,765 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:23,129 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:23,133 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-31 04:24:23,134 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-31 04:24:23,134 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-31 04:24:23,233 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 04:24:23,241 [DEBUG]  The latest session for conversation ID '2498446476900093' has expired.
+2021-01-31 04:24:23,241 [DEBUG]  Starting a new session for conversation ID '2498446476900093'.
+2021-01-31 04:24:23,243 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:23,243 [DEBUG]  Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7f653821f0b8>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+2021-01-31 04:24:23,243 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: None
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-31 04:24:24,782 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-31 04:24:25,134 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-31 04:24:25,135 [DEBUG]  Adding following selector key to message property: default
+2021-01-31 04:24:25,135 [DEBUG]  Received user message 'Bài số 2' with intent '{'id': -5805057477000769626, 'name': 'flowchart_asking', 'confidence': 0.9999852776527405}' and entities '[{'entity': 'flowchart_quest_num', 'start': 7, 'end': 8, 'confidence_entity': 0.9973446498413013, 'value': '2', 'extractor': 'CRFEntityExtractor'}]'
+2021-01-31 04:24:25,138 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-31 04:24:25,138 [DEBUG]  Logged UserUtterance - tracker now has 90 events.
+2021-01-31 04:24:25,141 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+2021-01-31 04:24:25,158 [DEBUG]  There is a memorised next action 'flowchart_quest_num_form'
+2021-01-31 04:24:25,328 [DEBUG]  Current tracker state:
+[state 1] user text: Bài số 2 | previous action name: action_listen
+2021-01-31 04:24:25,329 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:25,331 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+2021-01-31 04:24:25,332 [DEBUG]  There is a rule for the next action 'flowchart_quest_num_form'.
+2021-01-31 04:24:25,333 [DEBUG]  Made prediction using user intent.
+2021-01-31 04:24:25,333 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-31 04:24:25,334 [DEBUG]  Predicted next action using policy_2_RulePolicy.
+2021-01-31 04:24:25,334 [DEBUG]  Predicted next action 'flowchart_quest_num_form' with confidence 1.00.
+2021-01-31 04:24:25,335 [DEBUG]  Activated the form 'flowchart_quest_num_form'.
+2021-01-31 04:24:25,336 [DEBUG]  Validating pre-filled required slots: {'flowchart_quest_num': '2'}
+2021-01-31 04:24:25,336 [DEBUG]  Validating extracted slots: {'flowchart_quest_num': '2'}
+2021-01-31 04:24:25,338 [DEBUG]  Calling action endpoint to run action 'validate_flowchart_quest_num_form'.
+2021-01-31 04:24:25,529 [ERROR]  Encountered an exception while running action 'flowchart_quest_num_form'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 671, in run
+    json=json_body, method="post", timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 155, in request
+    response.status, response.reason, await response.content.read()
+rasa.utils.endpoints.ClientResponseError: 500, Internal Server Error, body='b'<!DOCTYPE html><html lang=en><meta charset=UTF-8><title>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</title>\n<style>\n        html { font-family: sans-serif }\n        h2 { color: #888; }\n        .tb-wrapper p { margin: 0 }\n        .frame-border { margin: 1rem }\n        .frame-line > * { padding: 0.3rem 0.6rem }\n        .frame-line { margin-bottom: 0.3rem }\n        .frame-code { font-size: 16px; padding-left: 4ch }\n        .tb-wrapper { border: 1px solid #eee }\n        .tb-header { background: #eee; padding: 0.3rem; font-weight: bold }\n        .frame-descriptor { background: #e2eafb; font-size: 14px }\n    </style>\n<h1>\xe2\x9a\xa0\xef\xb8\x8f 500 \xe2\x80\x94 Internal Server Error</h1><p>The server encountered an internal error and cannot complete your request.\n''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/processor.py", line 751, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/loops.py", line 26, in run
+    events += await self.activate(output_channel, nlg, tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 669, in activate
+    prefilled_slots, tracker, domain, output_channel, nlg
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/forms.py", line 403, in validate_slots
+    validate_events = await _action.run(output_channel, nlg, _tracker, domain)
+  File "/home/mmlab/anaconda3/envs/new_rasa_fix_2/lib/python3.7/site-packages/rasa/core/actions/action.py", line 694, in run
+    raise RasaException("Failed to execute custom action.") from e
+rasa.shared.exceptions.RasaException: Failed to execute custom action.
+2021-01-31 04:24:25,531 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f65380a7940>]'.
+2021-01-31 04:24:25,531 [DEBUG]  Action 'flowchart_quest_num_form' ended with events '[]'.
+2021-01-31 04:24:25,531 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: None
+	requested_slot: None
+2021-01-31 04:24:25,532 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+2021-01-31 04:24:25,532 [DEBUG]  There is a memorised next action 'action_flowchart_practice_answer'
+2021-01-31 04:24:25,572 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+2021-01-31 04:24:25,574 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:25,574 [DEBUG]  Predicted next action using policy_0_MemoizationPolicy.
+2021-01-31 04:24:25,575 [DEBUG]  Predicted next action 'action_flowchart_practice_answer' with confidence 1.00.
+2021-01-31 04:24:25,577 [DEBUG]  Calling action endpoint to run action 'action_flowchart_practice_answer'.
+2021-01-31 04:24:26,254 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:26,255 [DEBUG]  Action 'action_flowchart_practice_answer' ended with events '[BotUttered('Lưu đồ thuật toán bài 2:', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1612067066.2541356), BotUttered('None', {"elements": null, "quick_replies": null, "buttons": null, "attachment": "https://i.imgur.com/PSooxde.jpg", "image": "https://i.imgur.com/PSooxde.jpg", "custom": null}, {}, 1612067066.2541656), <rasa.shared.core.events.SlotSet object at 0x7f65380a25f8>]'.
+2021-01-31 04:24:26,256 [DEBUG]  Current slot values: 
+	cpplus_practice_content: None
+	flowchart_quest_num: 2
+	cpplus_content: None
+	cpp_content_answer: None
+	flowchart_answer: https://i.imgur.com/PSooxde.jpg
+	requested_slot: None
+2021-01-31 04:24:26,768 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:28,559 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:28,561 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+2021-01-31 04:24:28,562 [DEBUG]  There is a memorised next action 'utter_ask_anything_else'
+2021-01-31 04:24:28,579 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+2021-01-31 04:24:28,581 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:28,581 [DEBUG]  Predicted next action using policy_0_MemoizationPolicy.
+2021-01-31 04:24:28,582 [DEBUG]  Predicted next action 'utter_ask_anything_else' with confidence 1.00.
+2021-01-31 04:24:28,627 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:28,627 [DEBUG]  Action 'utter_ask_anything_else' ended with events '[BotUttered('Bạn có cần hỏi thêm gì không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_anything_else"}, 1612067068.6271045)]'.
+2021-01-31 04:24:29,105 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:29,108 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+2021-01-31 04:24:29,109 [DEBUG]  There is a memorised next action 'action_listen'
+2021-01-31 04:24:29,130 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+2021-01-31 04:24:29,132 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:29,133 [DEBUG]  Predicted next action using policy_0_MemoizationPolicy.
+2021-01-31 04:24:29,133 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2021-01-31 04:24:29,134 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:29,135 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-31 04:24:29,152 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 04:24:29,523 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-31 04:24:29,524 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-31 04:24:29,789 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:44,097 [DEBUG]  Starting new HTTPS connection (1): graph.facebook.com:443
+2021-01-31 04:24:44,748 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:45,033 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
+2021-01-31 04:24:45,035 [DEBUG]  Issuing ticket for conversation '2498446476900093'.
+2021-01-31 04:24:45,035 [DEBUG]  Acquiring lock for conversation '2498446476900093'.
+2021-01-31 04:24:45,036 [DEBUG]  Acquired lock for conversation '2498446476900093'.
+2021-01-31 04:24:45,056 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 04:24:45,563 [DEBUG]  'text_language_model_doc' set: this indicates you're using the deprecated component HFTransformersNLP, please remove it from your pipeline.
+2021-01-31 04:24:45,572 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2021-01-31 04:24:45,573 [DEBUG]  Adding following selector key to message property: default
+2021-01-31 04:24:45,573 [DEBUG]  Received user message 'Hello' with intent '{'id': 7870431854713438702, 'name': 'greet', 'confidence': 0.9995951056480408}' and entities '[]'
+2021-01-31 04:24:45,574 [DEBUG]  Logged UserUtterance - tracker now has 14 events.
+2021-01-31 04:24:45,575 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 4] user intent: greet | previous action name: action_listen
+2021-01-31 04:24:45,575 [DEBUG]  There is no memorised next action
+2021-01-31 04:24:45,588 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 5] user text: Hello | previous action name: action_listen
+2021-01-31 04:24:45,588 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:45,589 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 5] user intent: greet | previous action name: action_listen
+2021-01-31 04:24:45,590 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:45,590 [DEBUG]  Made prediction using user intent.
+2021-01-31 04:24:45,590 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2021-01-31 04:24:45,590 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 04:24:45,590 [DEBUG]  Predicted next action 'utter_greet' with confidence 0.98.
+2021-01-31 04:24:45,591 [DEBUG]  Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7f65382947b8>]'.
+2021-01-31 04:24:45,591 [DEBUG]  Action 'utter_greet' ended with events '[BotUttered('Xin chào! Bạn khỏe không?', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_greet"}, 1612067085.59132)]'.
+2021-01-31 04:24:46,021 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:46,025 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+2021-01-31 04:24:46,025 [DEBUG]  There is no memorised next action
+2021-01-31 04:24:46,041 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_greet
+2021-01-31 04:24:46,042 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:46,042 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 04:24:46,043 [DEBUG]  Predicted next action 'utter_who_i_am' with confidence 0.86.
+2021-01-31 04:24:46,043 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:46,043 [DEBUG]  Action 'utter_who_i_am' ended with events '[BotUttered('Mình là trợ lý học tập, mình có thể hỗ trợ các bạn việc học nhập môn lập trình với ngôn ngữ C++!', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"template_name": "utter_who_i_am"}, 1612067086.043566)]'.
+2021-01-31 04:24:46,477 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:46,481 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 2] user intent: greet | previous action name: action_listen
+[state 3] user intent: greet | previous action name: utter_greet
+[state 4] user intent: greet | previous action name: utter_who_i_am
+2021-01-31 04:24:46,481 [DEBUG]  There is no memorised next action
+2021-01-31 04:24:46,500 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_greet
+[state 7] user intent: greet | previous action name: utter_who_i_am
+2021-01-31 04:24:46,502 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:46,502 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 04:24:46,503 [DEBUG]  Predicted next action 'utter_ask_to_do' with confidence 0.80.
+2021-01-31 04:24:46,504 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:46,504 [DEBUG]  Action 'utter_ask_to_do' ended with events '[BotUttered('Vui lòng chọn các tùy chọn bên dưới', {"elements": null, "quick_replies": null, "buttons": [{"payload": "/want_to_ask", "title": "H\u1ecfi c\u00e1c ki\u1ebfn th\u1ee9c v\u1ec1 C++"}, {"payload": "/want_to_practice_flowchart", "title": "L\u00e0m b\u00e0i t\u1eadp l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n (flowchart)"}, {"payload": "/want_to_practice_cpp", "title": "L\u00e0m b\u00e0i t\u1eadp C++"}, {"payload": "/want_to_watch_cpp_tutorial", "title": "Xem video b\u00e0i gi\u1ea3ng Nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh"}], "attachment": null, "image": null, "custom": null}, {"template_name": "utter_ask_to_do"}, 1612067086.5039942)]'.
+2021-01-31 04:24:47,020 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 139
+2021-01-31 04:24:47,023 [DEBUG]  Current tracker state:
+[state 0] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: utter_who_i_am
+[state 4] user intent: greet | previous action name: utter_ask_to_do
+2021-01-31 04:24:47,024 [DEBUG]  There is no memorised next action
+2021-01-31 04:24:47,040 [DEBUG]  Current tracker state:
+[state 1] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_listen
+[state 2] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: flowchart_quest_num_form
+[state 3] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: action_flowchart_practice_answer
+[state 4] user intent: flowchart_asking | user entities: ('flowchart_quest_num',) | previous action name: utter_ask_anything_else
+[state 5] user intent: greet | previous action name: action_listen
+[state 6] user intent: greet | previous action name: utter_greet
+[state 7] user intent: greet | previous action name: utter_who_i_am
+[state 8] user intent: greet | previous action name: utter_ask_to_do
+2021-01-31 04:24:47,041 [DEBUG]  There is no applicable rule.
+2021-01-31 04:24:47,042 [DEBUG]  Predicted next action using policy_1_TEDPolicy.
+2021-01-31 04:24:47,042 [DEBUG]  Predicted next action 'action_listen' with confidence 0.82.
+2021-01-31 04:24:47,043 [DEBUG]  Policy prediction ended with events '[]'.
+2021-01-31 04:24:47,043 [DEBUG]  Action 'action_listen' ended with events '[]'.
+2021-01-31 04:24:47,057 [DEBUG]  Recreating tracker from sender id '2498446476900093'
+2021-01-31 04:24:47,314 [DEBUG]  Tracker with sender_id '2498446476900093' stored to database
+2021-01-31 04:24:47,314 [DEBUG]  Deleted lock for conversation '2498446476900093'.
+2021-01-31 04:24:47,587 [DEBUG]  https://graph.facebook.com:443 "POST /v2.12/me/messages?access_token=EAAUtWprPOFwBAOjrmfJ7jXAdTfFj3QnBZC8JMD8e1nU3eH36a1eskj69743N3i90rlIEOq7vKnJZC3T25sKFEyHkFJR24vkCYQbwZBIIulLzIkwptdK31jVXOHkbOkQys2rg0maNjZBqbESCX6ZCZBDA3EQ82XwJLYZAjaBOVrbB8vXyZCZCvFyG25gVvmf41qZAsZD HTTP/1.1" 200 35
