@@ -7,16 +7,16 @@ pipeline:
   # Name of the language model to use
   model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "roberta-large-openai-detector"
+  model_weights: "roberta-large-mnli"
   cache_dir: null
 - name: "LanguageModelTokenizer"
   model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "roberta-large-openai-detector"
+  model_weights: "roberta-large-mnli"
 - name: RegexFeaturizer  
 - name: LanguageModelFeaturizer
   model_name: "roberta"
-  model_weights: "roberta-large-openai-detector"
+  model_weights: "roberta-large-mnli"
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
