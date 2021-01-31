@@ -1,0 +1,61 @@
+{
+<<<<<<< HEAD:results_backup_19/RegexEntityExtractor_report.json
+=======
+  "flowchart_quest_num": {
+    "precision": 0.5833333333333334,
+    "recall": 0.05,
+    "f1-score": 0.09210526315789473,
+    "support": 140,
+    "confused_with": {}
+  },
+  "cpplus_content": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2845,
+    "confused_with": {}
+  },
+>>>>>>> main:results/results_backup_19/RegexEntityExtractor_report.json
+  "CPPLUS_CONTENT": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {}
+  },
+<<<<<<< HEAD:results_backup_19/RegexEntityExtractor_report.json
+  "flowchart_quest_num": {
+    "precision": 0.5833333333333334,
+    "recall": 0.06862745098039216,
+    "f1-score": 0.12280701754385966,
+    "support": 102,
+    "confused_with": {}
+  },
+  "cpplus_content": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2845,
+    "confused_with": {}
+  },
+=======
+>>>>>>> main:results/results_backup_19/RegexEntityExtractor_report.json
+  "micro avg": {
+    "precision": 0.5833333333333334,
+    "recall": 0.00234192037470726,
+    "f1-score": 0.004665111629456847,
+    "support": 2989
+  },
+  "macro avg": {
+    "precision": 0.19444444444444445,
+    "recall": 0.016666666666666666,
+    "f1-score": 0.03070175438596491,
+    "support": 2989
+  },
+  "weighted avg": {
+    "precision": 0.027322404371584702,
+    "recall": 0.00234192037470726,
+    "f1-score": 0.004314063848144952,
+    "support": 2989
+  }
+}

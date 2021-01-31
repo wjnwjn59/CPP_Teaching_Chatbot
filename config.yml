@@ -28,7 +28,6 @@ pipeline:
   threshold: 0.75
 - name: "EntitySynonymMapper"
 - name: "ResponseSelector"
-
   
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
