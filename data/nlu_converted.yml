@@ -2134,10 +2134,10 @@ nlu:
     - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là sao vậy bot ?
     - [variables]{"entity": "cpplus_content", "value": "variable"} ?
     - [biến]{"entity": "cpplus_content", "value": "variable"} ?
-    - [toán tử]{"entity": "cpplus_content", "value": "operator"}
+    - [toán tử]{"entity": "cpplus_content", "value": "operator"} ?
     - [Mảng một chiều]{"entity": "cpplus_content", "value": "array"}
     - [Mảng 2D]{"entity": "cpplus_content", "value": "2d-array"}
-    - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"}
+    - [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"}  ?
     - [switch](cpplus_content) case
     - [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"}?
     - [con trỏ]{"entity": "cpplus_content", "value": "pointer"}?
@@ -2261,7 +2261,7 @@ nlu:
     - Khái niệm về [mảng]{"entity": "cpplus_content", "value": "array"}?
     - [mảng]{"entity": "cpplus_content", "value": "array"} là cái vẹo gì v?
     - [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} là j?
-    - thế nào là 1 [array](cpplus_content)?
+    - thế nào là 1 [array]{"entity": "cpplus_content", "value": "array"}?
     - một [array](cpplus_content) là j?
     - khái niệm về [array](cpplus_content)?
     - [string](cpplus_content) là gì?
@@ -2967,8 +2967,8 @@ nlu:
     - [Đối số]{"entity": "cpplus_content", "value": "argument"} dc truyền ntn trong lời gọi hàm thế bot?
     - làm s để có sử dụng dc các [hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} thế bot iu?
     - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda](cpplus_content) zay
-    - vẽ [flowchart](cpplus_content) là vẽ như thế nào v bot?
-    - làm s để t có thể vẽ dc [flowchart](cpplus_content) đây chatbot?
+    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là vẽ như thế nào vậy bot?
+    - làm sao để t có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
     - Cú pháp của [comment](cpplus_content) là gì
     - Cú pháp của [include](cpplus_content) là gì
     - Cú pháp của [library](cpplus_content) là gì
@@ -3272,8 +3272,6 @@ nlu:
     - Ở BẢN C++11, SAO NGƯỜI TA LẠI CÓ THÊM KIỂU DỮ LIỆU [AUTO]{"entity": "cpplus_content", "value": "auto"} V BOT NGU?
     - DÙNG [BIẾN TĨNH]{"entity": "cpplus_content", "value": "static"} CHI V M
     - SAO LẠI CÓ THÊM BIẾN [STATIC]{"entity": "cpplus_content", "value": "static"} ĐỂ LÀM CHI RỨA?
-    - tại sao t nên chọn c để học lập trình?
-    - tại sao c++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
     - nè bot sao nhà trường lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để dạy mình học v nó có điểm mạnh gì à?
     - ê bot lý do gì mà [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
     - m cho t một lý do vì s t nên học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ được k bot?
@@ -3322,7 +3320,7 @@ nlu:
     - tại sao phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
     - tại sao t nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học lập trình?
     - vì sao tôi lại nên chọn [cpp]{"entity": "cpplus_content", "value": "cplusplus"} để làm ngôn ngữ khởi đầu việc học lập trình
-    - tại sao [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot?
+    - Tại sao [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại là ngôn ngữ khởi đầu con đường học lập trình của t v bot ơi ?
     - nè bot, sao nhà trường lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để dạy mình học v, nó có điểm mạnh gì à?
     - ê bot, lý do gì mà [c]{"entity": "cpplus_content", "value": "cplusplus"}++ lại được ưu tiên để làm ngôn ngữ lập trình khởi đầu trong giảng dạy
     - Yo bot, vì cái lz gì mà người ta lại chọn [cplusplus](cpplus_content) để học đầu tiên thế?
@@ -3465,7 +3463,7 @@ nlu:
     - sao lại cần dùng [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}?
     - tại sao phải học môn [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"} thế bot
     - vì s t lại phải học cái môn [nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"} xàm lz v
-    - Vì sao t lại cần học [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"} thế bot
+    - Vì sao mình lại cần học [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"} thế bot
     - Lý do gì mà t lại phải học [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"} ?
     - tại sao lại cần dùng [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} khi lập trình?
     - [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}, vì sao cần nó?
@@ -4569,11 +4567,11 @@ nlu:
     - video về [c]{"entity": "cpplus_content", "value": "cplusplus"}++
     - Video về nhập môn [c]{"entity": "cpplus_content", "value": "cplusplus"}++
     - Videos về Nhập môn [C]{"entity": "cpplus_content", "value": "cplusplus"}++
-    - video tutorials về [C]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - video tutorials về [C]{"entity": "cpplus_content", "value": "cplusplus"}++ đi bot ơi
     - videos tutorials về [nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
     - gửi video về tutorial [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
     - video giới thiệu môn [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
-    - các video giới thiệu về [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - Các video giới thiệu về [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"} đi
     - gửi tôi video giới thiệu sơ bộ về [Nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
     - Gửi t 1 số video về [comment](cpplus_content)
     - Video tutorials [comment](cpplus_content)
@@ -5669,6 +5667,7 @@ nlu:
     - cpplus
     - Cpplus
     - c cộng cộng
+    - C ++
 - synonym: auto
   examples: |
     - AUTO
