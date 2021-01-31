@@ -7,15 +7,15 @@ pipeline:
   # Name of the language model to use
   model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "roberta-large-mnli"
+  model_weights: "roberta-large"
   cache_dir: null
 - name: "LanguageModelTokenizer"
   model_name: "roberta"
   # Pre-Trained weights to be loaded
-  model_weights: "roberta-large-mnli"
+  model_weights: "roberta-large"
 - name: LanguageModelFeaturizer
   model_name: "roberta"
-  model_weights: "roberta-large-mnli"
+  model_weights: "roberta-large"
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
@@ -42,7 +42,7 @@ pipeline:
     ["low", "title", "upper"],
   ]
   # The maximum number of iterations for optimization algorithms.
-  "max_iterations": 80
+  "max_iterations": 95
   # weight of the L1 regularization
   "L1_c": 0.1
   # weight of the L2 regularization
