@@ -13,7 +13,6 @@ pipeline:
   model_name: "roberta"
   # Pre-Trained weights to be loaded
   model_weights: "roberta-large-mnli"
-- name: RegexFeaturizer  
 - name: LanguageModelFeaturizer
   model_name: "roberta"
   model_weights: "roberta-large-mnli"
@@ -39,7 +38,6 @@ pipeline:
       "upper",
       "title",
       "digit",
-      "pattern",
     ],
     ["low", "title", "upper"],
   ]
