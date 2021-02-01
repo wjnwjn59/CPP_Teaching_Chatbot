@@ -21,11 +21,10 @@ pipeline:
   model_name: "roberta"
   model_weights: "roberta-large"
   cache_dir: null
-- name: RegexEntityExtractor
 - name: "DIETClassifier"
   epochs: 300
 - name: FallbackClassifier
-  threshold: 0.75
+  threshold: 0.8
 - name: "EntitySynonymMapper"
 - name: "ResponseSelector"
   
@@ -33,6 +32,7 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+    max_history: 5
   - name: TEDPolicy
     max_history: 5
     random_seed: 42
