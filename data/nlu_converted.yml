@@ -3297,6 +3297,9 @@ nlu:
     - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la gi?
     - The nao la [toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} v?
     - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la cm gi v lz que
+    - [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} là gì vậy 
+    - Định nghĩa về [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} đi bot 
+    - Thế nào là [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} vậy bot
 - intent: cpplus_how_asking
   examples: |
     - LÀM CÁCH NÀO ĐỂ DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} V
