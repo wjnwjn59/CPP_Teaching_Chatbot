@@ -140,6 +140,18 @@ nlu:
     - ALo Alo
     - Alo bạn ơi
     - alo em
+    - Xin chào bot 
+    - Xin chào Bot 
+    - Xin chào Chatbot 
+    - Hello Bot 
+    - Rất hân hạnh được chào Bot 
+    - Hi bott iuuu 
+    - hai
+    - chao xìn 
+    - Chao xìn
+    - Hai 
+    - alo alo 
+
 - intent: who_create_you
   examples: |
     - CHO T BIẾT DANH XƯNG CỦA NGƯỜI ĐÃ TẠO RA MÀY NÀO
@@ -236,6 +248,8 @@ nlu:
     - Ai tạo ra bạn á
     - Quân đẹp trai là ai
     - Ai làm tác giả của mày
+    - mày là con cặc gì vậy
+    - giới tính của bạn là gì?
 - intent: attention
   examples: |
     - NÈ NÈ NÈ
@@ -566,6 +580,8 @@ nlu:
     - bạn khỏe không
 - intent: goodbye
   examples: |
+    - cút cút cút
+    - dẹp
     - bye
     - Bye
     - BYE
@@ -626,6 +642,10 @@ nlu:
     - Ô sờ kê
     - ô khê
     - okei
+    - Ok chờ xí 
+    - Ok đợi chút để suy nghĩ đã 
+    - Ok nè đợi tí 
+    - okay đợi t suy nghĩ chút 
     - Okei
     - OK
     - QUÁ CHUẨN
@@ -634,144 +654,148 @@ nlu:
     - GOOD VÃI LZZ
     - ĐỈNH VÃI
     - QUÁ ĐÚNG LUÔN NGƯỜI ANH EM
+    - Ok bot 
+    - OK Bot 
+    - okay bot nha 
+    - rùi ok 
+    - Rùi ok nè 
+    - Ok nha 
+    - Ok đợi t nghĩ cái nha 
+    - ok để suy nghĩ xem 
 - intent: deny
   examples: |
-    - mình chán bạn quá
-    - nope
-    - no never
-    - absolutely not
-    - no
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - không hẳn
-    - không
-    - không bao giờ
-    - hoàn toàn không
-    - Không đời nào
-    - Chắc chắn là không rồi
-    - tao lại không nghĩ như vậy
-    - Chưa đúng
-    - không phải
-    - Sai bét
-    - trật lất
-    - trật rồi
-    - sai tè le
-    - Không hề
-    - ko
-    - ko muốn
-    - Ko cần
-    - ko bao giờ
-    - Ko đời nào
-    - koooo
-    - khonggggg
-    - Hong
-    - hongggg
-    - hong muốn
-    - Chắc là hong ròi
-    - hong nho
-    - k
-    - Thôi đc r
-    - nô
-    - đéo
-    - Đéo muốn
-    - đéo cần
-    - Đ muốn
-    - đ
-    - cc cút
-    - Ncc cút
-    - đ cần nữa
-    - đ hỏi nữa
-    - Đéo hỏi nữa
-    - dí buồi t hỏi nhá
-    - dí buồi mà t hỏi nha
-    - Ko cần nữa cút
-    - dcmm cút
-    - Dm ko
-    - ko ko ko
-    - Ko bao gio
-    - khong
-    - Khong bao gio nha
-    - khong can nua dau
-    - Khong hoi nua
-    - deo bao gio
-    - Deo
-    - deo can
-    - Deo muon hoi nua
-    - deo nha
-    - tao khong muon
-    - Toi khong muon hoi nua
-    - Không
-    - NOPE
-    - NO NEVER
-    - ABSOLUTELY NOT
-    - NO
-    - NEVER
-    - I DON'T THINK SO
-    - DON'T LIKE THAT
-    - NO WAY
-    - NOT REALLY
-    - KHÔNG HẲN
-    - KHÔNG
-    - KHÔNG BAO GIỜ
-    - HOÀN TOÀN KHÔNG
-    - KHÔNG ĐỜI NÀO
-    - CHẮC CHẮN LÀ KHÔNG RỒI
-    - TAO LẠI KHÔNG NGHĨ NHƯ VẬY
-    - CHƯA ĐÚNG
-    - KHÔNG PHẢI
-    - SAI BÉT
-    - TRẬT LẤT
-    - TRẬT RỒI
-    - SAI TÈ LE
-    - KHÔNG HỀ
-    - KO
-    - KO MUỐN
-    - KO CẦN
-    - KO BAO GIỜ
-    - KO ĐỜI NÀO
-    - KOOOO
-    - KHONGGGGG
-    - HONG
-    - HONGGGG
-    - HONG MUỐN
-    - HONG NHO
-    - K
-    - THÔI ĐC R
-    - NÔ
-    - ĐÉO
-    - ĐÉO MUỐN
-    - ĐÉO CẦN
-    - Đ MUỐN
-    - Đ
-    - CC CÚT
-    - CÚT
-    - NCC CÚT
-    - Đ CẦN NỮA
-    - Đ HỎI NỮA
-    - ĐÉO HỎI NỮA
-    - DÍ BUỒI T HỎI NHÁ
-    - DÍ BUỒI MÀ T HỎI NHA
-    - KO CẦN NỮA CÚT
-    - DCMM CÚT
-    - DM KO
-    - KO KO KO
-    - KO BAO GIO
-    - KHONG
-    - KHONG BAO GIO NHA
-    - KHONG CAN NUA DAU
-    - KHONG HOI NUA
-    - DEO BAO GIO
-    - DEO
-    - DEO CAN
-    - DEO MUON HOI NUA
-    - DEO NHA
-    - TAO KHONG MUON
-    - TOI KHONG MUON HOI NUA
-    - ?
-    - ??
+  - SAI RỒI 
+  - TRẬT LẤT 
+  - SAI BÉT 
+  - SAI CMM RỒI BOT NGU 
+  - BOT NGU VCC SAI RỒI 
+  - TRẢ LỜI VẬY LÀ CHẾT ME R 
+  - SAI VC RA RỒI CON BOT NGU 
+  - WRONG 
+  - YOU WRONG 
+  - M TRẢ LỜI V LÀ SAI R 
+  - SAI R BOT ĐĨ ƠI 
+  - SAI BE BÉ 
+  - SAI TÈ LE 
+  - SAI RÀNH RÀNH RỒI KÌA MÀY 
+  - Ê SAI R 
+  - Ê SAI CMNR 
+  - SAI BỐ NÓ RỒI 
+  - NOOO MÀY TRẢ LỜI VẬY LÀ SAI RỒI 
+  - TRẬT CMNR 
+  - TRẬT ĐƯỜNG RAY RỒI BOT NGU 
+  - M QUAY VÀO Ô SAI RỒI 
+  - KHÔNG ĐÚNG 
+  - KHÔNG ĐÚNG 
+  - TRẢ LỜI KHÔNG ĐÚNG 
+  - NHƯ VẬY LÀ KO ĐÚNG RỒI 
+  - ỦA HÌNH NHƯ SAI RỒI ĐÓ 
+  - Ê HÌNH NHƯ ĐÂU PHẢI ĐÂU 
+  - DKM SAI RỒI THẰNG NGU 
+  - DUME MAY NGU VAILON SAI CMNR 
+  - SAI CMNR 
+  - DMM SAI 
+  - SAI 
+  - ĐÉO PHẢI THẾ 
+  - ĐÉO PHẢI NHƯ VẬY ĐÂU 
+  - DM BOT NGU M NÓI THẾ LÀ TOANG RỒI
+  - DM K PHẢI THẾ, M TRẢ LỜI SAI MẤT RỒI BOT Ạ 
+  - Ê SAI RỒI NHA, TRẢ LỜI VẬY LÀ K PHẢI ĐÂU NHA 
+  - Á À SAI NHA SAI NHA 
+  - Á HÌNH NHƯ CÂU NÀY ĐÂU PHẢI THẾ 
+  - UIZZZ TRẢ LỜI THẾ MÀ CŨNG TRẢ LỜI ĐC 
+  - ĐỒ BOT NGU SAI RÒI LÊU LÊU 
+  - LÊU LÊU SAI R NHA 
+  - LÊU LÊU LÊU ĐỒ CON BOT NGU SAI RỒI NHA CON 
+  - TRẢ LỜI NGU THẾ K BIẾT 
+  - SAI RỒI CON ĐĨ ƠI 
+  - DCMM SAI BÉT BÈN BẸT RỒI CON Ạ 
+  - TRẢ LỜI CÁI CC J NGU V 
+  - SỦA CC J NGU THẾ 
+  - SAI RỒI CON Ạ 
+  - NÓI J ZAY TA ƠI 
+  - NÓI CDJ THẾ BOT NGU 
+  - SAI BỐ NÓ RA RỒI 
+  - SỦA THẾ MÀ CŨNG SỦA ĐƯỢC 
+  - UIZZZ SAI BÉT DỒI CON GIỜI Ạ 
+  - WRONG RỒI KU ƠI 
+  - KU ƠI KU SAI LẮM RỒI 
+  - KU NGU THẾ SAI R 
+  - NÓI V LÀ SAI R ĐÓ BRO 
+  - BRO NÓI THẾ CHƯA ĐÚNG ĐÂU 
+  - HONG ĐÚNG ÙI 
+  - HONG PHẢI ZỊ ÙI 
+  - SAO NÓI SAI QUÀI ZỊ 
+  - SỦA SAI QUÁ TRỜI ZỊ 
+  - SỦA J MÀ SỦA NGU TKE 
+  - SỦA NGU ZỪA ZỪA THOI 
+  - HONG ĐÚNG ÙI BOT UIII 
+  - sai rồi 
+  - trật lất 
+  - sai bét 
+  - sai cmm rồi bot ngu 
+  - bot ngu vcc sai rồi 
+  - trả lời vậy là chết me r 
+  - sai vc ra rồi con bot ngu 
+  - wrong 
+  - you wrong 
+  - m trả lời v là sai r 
+  - sai r bot đĩ ơi 
+  - sai be bé 
+  - Sai tè le 
+  - Sai rành rành rồi kìa mày 
+  - Ê sai r 
+  - Ê sai cmnr 
+  - sai bố nó rồi 
+  - Nooo mày trả lời vậy là sai rồi 
+  - Trật cmnr 
+  - Trật đường ray rồi bot ngu 
+  - M quay vào ô sai rồi 
+  - không đúng 
+  - Không đúng 
+  - Trả lời không đúng 
+  - Như vậy là ko đúng rồi 
+  - Ủa hình như sai rồi đó 
+  - Ê hình như đâu phải đâu 
+  - Dkm sai rồi thằng ngu 
+  - Dume may ngu vailon sai cmnr 
+  - Sai cmnr 
+  - Dmm sai 
+  - Sai 
+  - Đéo phải thế 
+  - Đéo phải như vậy đâu 
+  - Dm bot ngu m nói thế là toang rồi
+  - Dm k phải thế, m trả lời sai mất rồi bot ạ 
+  - Ê sai rồi nha, trả lời vậy là k phải đâu nha 
+  - á à sai nha sai nha 
+  - Á hình như câu này đâu phải thế 
+  - Uizzz trả lời thế mà cũng trả lời đc 
+  - Đồ bot ngu sai ròi lêu lêu 
+  - Lêu lêu sai r nha 
+  - lêu lêu lêu đồ con bot ngu sai rồi nha con 
+  - Trả lời ngu thế k biết 
+  - Sai rồi con đĩ ơi 
+  - Dcmm sai bét bèn bẹt rồi con ạ 
+  - Trả lời cái cc j ngu v 
+  - sủa cc j ngu thế 
+  - sai rồi con ạ 
+  - nói j zay ta ơi 
+  - nói cdj thế bot ngu 
+  - sai bố nó ra rồi 
+  - sủa thế mà cũng sủa được 
+  - uizzz sai bét dồi con giời ạ 
+  - Wrong rồi ku ơi 
+  - Ku ơi ku sai lắm rồi 
+  - Ku ngu thế sai r 
+  - nói v là sai r đó bro 
+  - bro nói thế chưa đúng đâu 
+  - hong đúng ùi 
+  - hong phải zị ùi 
+  - sao nói sai quài zị 
+  - sủa sai quá trời zị 
+  - sủa j mà sủa ngu tke 
+  - sủa ngu zừa zừa thoi 
+  - hong đúng ùi bot uiii 
 - intent: compliment
   examples: |
     - Quá được luôn kkk
@@ -855,6 +879,21 @@ nlu:
     - Chiến vc v
     - Quá chiến luôn chatbot ơi
     - Xuất cmn sắc
+    - Woww 
+    - woaaaa 
+    - Woaaaa 
+    - wow 
+    - ghê vậy 
+    - wow giỏi ta
+    - WơW ghê dữ ta
+    - Wow có ích ghê ta
+    - Woaaa giỏi wa taaaa 
+    - Bot giỏi quá taaa 
+    - woww bot giỏi quá ta 
+    - uii xịn thế 
+    - woww xịn xò v 
+    - uầy xịn thế 
+    - 
 - intent: thanks
   examples: |
     - Tks
@@ -1033,6 +1072,8 @@ nlu:
     - Today I feel so good
 - intent: insult
   examples: |
+    - Bạn có bị ngu không ?
+    - Clgt
     - Đụ má mày quá ngu đi
     - bạn ngu quá ra
     - Đụ má
@@ -1260,9 +1301,11 @@ nlu:
     - Ngu vl
 - intent: feeling_bad
   examples: |
+    - tui mệt quá 😂😂😂
     - sad
     - very sad
     - unhappy
+    - :(
     - Bad
     - very bad
     - Awful
@@ -1305,6 +1348,9 @@ nlu:
     - k vui lắm được chưa
     - Bà đây không ổn lắm
     - ông đây không ổn lắm
+    - Huhuhuhuhu
+    - huhu 
+    - Huhuhu 
 - intent: stop_asking
   examples: |
     - HOYYY KHỎI DC ỜI
@@ -1443,6 +1489,31 @@ nlu:
     - chờ đi lát mình hỏi bạn sau nha
     - Chờ đó đi lát bố m quay lại hỏi m sau
     - chờ đó lát hỏi tiếp
+    - Thôi được rồi mình không cần hỏi thêm đâu, cảm ơn nha
+    - Ko 
+    - ko
+    - Không 
+    - Thôi 
+    - Dẹp 
+    - Dẹp mẹ 
+    - Cút
+    - Nghỉ 
+    - Thôi nghỉ 
+    - Nghĩ 
+    - Bye 
+    - Baii 
+    - Cút xéo 
+    - Thôi đc r mình k cần hỏi nữa đâu cảm ơn 
+    - Cám ơn nhưng mình k còn câu hỏi nào đâu 
+    - Cám ơn ko cần 
+    - ko cần gì nữa 
+    - deo
+    - Ko
+    - Ki
+    - hông
+    - hong
+    - /deny
+    - Nothing
 - intent: continue_asking
   examples: |
     - continue_asking
@@ -1494,8 +1565,89 @@ nlu:
     - Có chứ
     - Có
     - Tất nhiên rồi
+    - có 
+    - co 
+    - dĩ nhiên r 
+    - Ok típ nà 
+    - okay chơi tiếp nè 
+    - chiến tiếp chứ 
+    - zô nè 
+    - ok để suy nghĩ 
+    - đợi suy nghĩ cái 
+    - ô khê đợi t suy nghĩ cái 
+    - oke đợi tí
 - intent: want_to_ask
   examples: |
+    - E CHO TAO HOI CAI
+    - TAO HOI CAI NAY TI DUOC KHONG?
+    - NAY HOI TI
+    - HOI NAY NE
+    - TAO HOI CAI NHA
+    - TRA LOI GIUP TAO CAU NAY
+    - HOI CAI
+    - HI BOT TAO HOI TI
+    - HELLO BOT TAO HOI CAI NAY CAI
+    - GIUP TAO MOT CHUT DUOC KHONG?
+    - CHO TAO HOI MOT CHUT VE C++
+    - NGHE CAU HOI CUA TAO NE
+    - MINH HOI BAN TI NHA
+    - GIUP MINH MOT SO CAU HOI C++ DUOC KHONG
+    - YO HOI NAY COI
+    - NGHE TAO HOI NE
+    - HEY BOT TAO NOI NGHE
+    - TAO NOI NGHE NE
+    - GIUP TAO CAI
+    - E BOT GIUP TAO CAI
+    - E BOT T HOI CAI
+    - E T HOI NAY CAI
+    - OK DE T HOI M CAI NAY NHA
+    - DUOC R GIO T HOI M CAI NAY NE
+    - OK DE T HOI CAI NAY
+    - OK LUON DE T TIM CAU HOI NAY
+    - OK DE T HOI M CAI NAY
+    - CHIEN LUON GIO DE T HOI M NAY NHA
+    - OK H T HOI M CAU NAY NAY
+    - 0K H DE T HOI M CAI NAY
+    - OK H HOI CAU NAY DI
+    - HOI LAI
+    - e cho tao hoi cai
+    - Tao hoi cai nay ti duoc khong?
+    - nay hoi ti
+    - Hoi nay ne
+    - tao hoi cai nha
+    - Tra loi giup tao cau nay
+    - hoi cai
+    - Hi bot tao hoi ti
+    - hello bot tao hoi cai nay cai
+    - Giup tao mot chut duoc khong?
+    - cho tao hoi mot chut ve C++
+    - nghe cau hoi cua tao ne
+    - Minh hoi ban ti nha
+    - giup minh mot so cau hoi C++ duoc khong
+    - Yo hoi nay coi
+    - nghe tao hoi ne
+    - hey bot tao noi nghe
+    - tao noi nghe ne
+    - Giup tao cai
+    - e bot giup tao cai
+    - Cho minh hoi them nua duoc khong
+    - E bot t hoi cai
+    - e t hoi nay cai
+    - Ok de t hoi m cai nay nha
+    - duoc r gio t hoi m cai nay ne
+    - Ok de t hoi cai nay
+    - ok luon de t tim cau hoi nay
+    - Ok de t hoi m cai nay
+    - Chien luon gio de t hoi m nay nha
+    - ok h t hoi m cau nay nay
+    - 0k h de t hoi m cai nay
+    - ok h hoi cau nay di
+    - Hoi lai lan nua
+    - Hoi mot cau khac
+    - Cho minh hoi cai nay xi
+    - Cho minh hoi cai nay xi nha
+    - Hoi ti duoc khong
+    - Hoi cac kien thuc ve C++
     - Ê CHO TAO HỎI CÁI
     - TAO HỎI CÁI NÀY TÍ ĐƯỢC KHÔNG?
     - NÀY HỎI TÍ
@@ -1548,6 +1700,7 @@ nlu:
     - tao nói nghe nè
     - Giúp tao cái
     - ê bot giúp tao cái
+    - Cho mình hỏi thêm nữa được không
     - Ê bot t hỏi cái
     - ê t hỏi này cái
     - Ok để t hỏi m cái này nha
@@ -1567,6 +1720,25 @@ nlu:
     - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
+    - Biet toi la ai khong ?
+    - Không cần hiểu con trỏ có học tốt nhập môn lập trình được không
+    - Sao cứ càng code càng bug vậy bro
+    - /câu 3
+    - Dhsjsjsjska
+    - đề bài
+    - Jejeksskajs
+    - /hi
+    - -_-
+    - /q
+    - X += 1;
+    - Thế biết tên mình không?
+    - Ông chặn tui đi
+    - 1 cộng 1 bằng?
+    - 1+1=?
+    - \quit
+    - Cách lập trình AI
+    - Machine learning là gì
+    - Làm sao để master lập trình vậy
     - donald trump
     - Donald Trump
     - bầu cử tổng thống Mỹ
@@ -1708,6 +1880,14 @@ nlu:
     - làm sao in hello world trên c++
     - cấu trúc dữ liệu và giải thuật
     - fix bug giúp tao với
+    - 1
+    - contrỏ dùng làm gì
+    - python
+    - 3
+    - 69
+    - Cấu trúc dữ liệu giải thuật
+    - Haha
+    - Hihi
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -1873,6 +2053,132 @@ nlu:
     - VÍ DỤ VỀ [LAMBDA]{"entity": "cpplus_content", "value": "lambda"}
     - VÍ DỤ VỀ [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"}
     - Ê TAO VẪN CHƯA HIỂU VỀ CÁI VÒNG LẶP TRONG C++ LẮM CHO THỬ MỘT VÍ DỤ VỀ [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} XEM NÀO
+    - cho toi xin mot vi du ve [khong gian ten]{"entity": "cpplus_content", "value": "namespace"} voi a
+    - ke tao nghe ve mot so vi du ve [comment](cpplus_content) di bot
+    - e bot, cho t 1 so vi du ve [comment](cpplus_content) de
+    - ne bot, vi du ve [Comment]{"entity": "cpplus_content", "value": "comment"} thu
+    - Dcmm cho t 1 vi du ve [commnet]{"entity": "cpplus_content", "value": "comment"} di duma
+    - e, vi du ve [bien]{"entity": "cpplus_content", "value": "variable"}
+    - Vi du [Variable]{"entity": "cpplus_content", "value": "variable"}
+    - mot vai vi du ve [variable](cpplus_content)
+    - cho toi 1 so di du ze [variables]{"entity": "cpplus_content", "value": "variable"} voi
+    - Ban ei, cho minh mot vai vi du ve [toan tu]{"entity": "cpplus_content", "value": "operator"} dc hong
+    - ne bot oi, cho tao vi du ve [Operators]{"entity": "cpplus_content", "value": "operator"} di may
+    - may oi, cho tao vi du ve [If]{"entity": "cpplus_content", "value": "if"} di
+    - cho minh 1 cai example ve [if](cpplus_content) thu coi ne
+    - Hmmm, cho minh thu mot vi du ve cau [Dieu kien]{"entity": "cpplus_content", "value": "if"} thu xem sao ne
+    - men oiii, cho tui vi du ve [for](cpplus_content) xem thu na
+    - mot vai vi du ve [For]{"entity": "cpplus_content", "value": "for"} cho nguoi ta duoc ko ?
+    - Hay cho iem mot so vi du ve vong [while](cpplus_content) di a
+    - A oi, cho e vi du ve vong lap [do while]{"entity": "cpplus_content", "value": "do-while"} di a
+    - Thay, cho do de vi du ve vong lap [While]{"entity": "cpplus_content", "value": "while"} duoc khong a?
+    - e, tao van chua hieu ve cai vong lap trong c++ lam, cho thu mot vi du ve [vong lap]{"entity": "cpplus_content", "value": "loop"} xem nao
+    - vi du ve 1 [vong lap]{"entity": "cpplus_content", "value": "loop"} trong c++ xem nao
+    - Vi du ve [loops]{"entity": "cpplus_content", "value": "loop"} trong c++ xem thu nao
+    - cho toi vi du ve cac loai vong lap [for](cpplus_content), [while](cpplus_content) va [do while]{"entity": "cpplus_content", "value": "do-while"} di
+    - Hay cho toi mot vai cac cai vi du ve vong [For]{"entity": "cpplus_content", "value": "for"} vong [while](cpplus_content) va vong [do while]{"entity": "cpplus_content", "value": "do-while"}
+    - cho minh mot so cac cai vi du ve lenh [break](cpplus_content) va lenh [continue](cpplus_content) di a
+    - mot so chiec examples ve [break](cpplus_content) va [goto](cpplus_content) di a
+    - Nay, vi du ve [break](cpplus_content) cho bon toa nhanh
+    - Eg ve [ham]{"entity": "cpplus_content", "value": "function"}
+    - e.g ve [function](cpplus_content) thu xem nao
+    - mot so instances ve [ham]{"entity": "cpplus_content", "value": "function"} thu ne
+    - Cho minh mot so cac cai vi du ve [tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} va [tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} di ne
+    - Vi du thu cho minh ve [tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} [tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} de
+    - vi du cu the ve [tham so]{"entity": "cpplus_content", "value": "parameter"} va [doi so]{"entity": "cpplus_content", "value": "argument"}
+    - Hay vi du cu cmn the ve [de quy]{"entity": "cpplus_content", "value": "recursion"} di
+    - [Recursion]{"entity": "cpplus_content", "value": "recursion"} vi du
+    - Examples ve [recursions]{"entity": "cpplus_content", "value": "recursion"}
+    - Vi du ve [mang mot chieu]{"entity": "cpplus_content", "value": "array"} va [mang hai chieu]{"entity": "cpplus_content", "value": "2d-array"} de
+    - [Class]{"entity": "cpplus_content", "value": "class"} vi du nao
+    - vi du ve [Con tro]{"entity": "cpplus_content", "value": "pointer"} coi du ma
+    - dm cho bo m vi du ve [con tro]{"entity": "cpplus_content", "value": "pointer"} di
+    - vi du cu the nhat ve [Pointer]{"entity": "cpplus_content", "value": "pointer"}
+    - mot so vu di ve [kieu du lieu]{"entity": "cpplus_content", "value": "data-type"}
+    - vu di ve [Integer]{"entity": "cpplus_content", "value": "integer"}
+    - Di vu thu ve kieu [int]{"entity": "cpplus_content", "value": "integer"} xem nao
+    - di du thu ve kieu du lieu [float]{"entity": "cpplus_content", "value": "floating-point"} xem sao nao
+    - Vi du ve kieu [double](cpplus_content) va kieu [float]{"entity": "cpplus_content", "value": "floating-point"} di
+    - vi du ve [toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"}, [toan tu giam]{"entity": "cpplus_content", "value": "decrement-operator"}
+    - mot vai vi du ve [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"}, [toan tu hai ngoi]{"entity": "cpplus_content", "value": "binary-operator"}, [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - E tao dang khong hieu ro ve [Toan tu so hoc]{"entity": "cpplus_content", "value": "arithmetic-operator"} va [toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"}, cho tao vi du ve hai mon do di
+    - e tao dang hoi mong lung ve [Tham chieu hang]{"entity": "cpplus_content", "value": "const-reference"}, cho t vi du ve mon nay di
+    - Mot vi du de hieu nhat ve [ham noi tuyen]{"entity": "cpplus_content", "value": "inline-function"}
+    - mot chiec vi du xinh xan ve [bien tinh]{"entity": "cpplus_content", "value": "static"}
+    - e bot, cho t mot vi du ve [Lambda]{"entity": "cpplus_content", "value": "lambda"}
+    - cho xin vi du de hieu ve [return](cpplus_content) de
+    - Vi du nao kho hieu ve [ham so mac nhien]{"entity": "cpplus_content", "value": "default-value"}
+    - da den luc bo may phong van may roi, cho bo may mot vi du ve [if else]{"entity": "cpplus_content", "value": "if-else"} di nao
+    - den gio phong van, vi du ve ham [lamda]{"entity": "cpplus_content", "value": "lambda"} di nao, nhanh
+    - An example of [Lambda]{"entity": "cpplus_content", "value": "lambda"} function ?
+    - give me an example of [scope resolution operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+    - just give to me a example about [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+    - Cho toi mot vi du ve [ham]{"entity": "cpplus_content", "value": "function"} di
+    - hay cho tui mot so vi du ve [bien]{"entity": "cpplus_content", "value": "variable"}
+    - Vi du ve [Kieu du lieu]{"entity": "cpplus_content", "value": "data-type"}
+    - dua cho toi mot so vi du ve [If]{"entity": "cpplus_content", "value": "if"} di nao
+    - Hay cho toi mot so cac cai vi du sieu hay cua ban ve [tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} va [tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} di
+    - cho toi mot so vi du cu the hon ve [tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} di
+    - Mot so vi du cu the hon ve [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+    - [cau truc dieu khien]{"entity": "cpplus_content", "value": "control-flow"} vi du
+    - hay cho t vi du ve [vong lap]{"entity": "cpplus_content", "value": "loop"} di nao
+    - Vi du ve [float]{"entity": "cpplus_content", "value": "floating-point"}
+    - Vi du ve [ham]{"entity": "cpplus_content", "value": "function"}
+    - Vi du ve [Lambda]{"entity": "cpplus_content", "value": "lambda"}
+    - Vi du ve [vong lap]{"entity": "cpplus_content", "value": "loop"}
+    - eg ve [ham]{"entity": "cpplus_content", "value": "function"}
+    - e tao van chua hieu ve cai vong lap trong c++ lam cho thu mot vi du ve [vong lap]{"entity": "cpplus_content", "value": "loop"} xem nao
+    - CHO MOT CAI VI DU VE [MANG]{"entity": "cpplus_content", "value": "array"} DI IEM
+    - E CHO CAI VI DU VE [ARRAY]{"entity": "cpplus_content", "value": "array"}
+    - VI DU VE [MANG MOT CHIEU]{"entity": "cpplus_content", "value": "array"} DI MAY
+    - CHO BO MAY MOT VI DU VE [LIBRARY]{"entity": "cpplus_content", "value": "library"}
+    - MOT SO VI DU VE [THU VIEN]{"entity": "cpplus_content", "value": "library"}
+    - HAY CHO TOI MOT VAI VI DU VE [LIBRARIES]{"entity": "cpplus_content", "value": "library"}
+    - CHO TOI MOT VI DU VE [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} DUOC KHONG?
+    - CHO TOI XIN MOT VI DU VE [KHONG GIAN TEN]{"entity": "cpplus_content", "value": "namespace"} VOI A
+    - KE TAO NGHE VE MOT SO VI DU VE [COMMENT]{"entity": "cpplus_content", "value": "comment"} DI BOT
+    - E BOT, CHO T 1 SO VI DU VE [COMMENT]{"entity": "cpplus_content", "value": "comment"} DE
+    - NE BOT, VI DU VE [COMMENT]{"entity": "cpplus_content", "value": "comment"} THU
+    - DCMM CHO T 1 VI DU VE [COMMNET]{"entity": "cpplus_content", "value": "comment"} DI DUMA
+    - E, VI DU VE [BIEN]{"entity": "cpplus_content", "value": "variable"}
+    - VI DU [VARIABLE]{"entity": "cpplus_content", "value": "variable"}
+    - MOT VAI VI DU VE [VARIABLE]{"entity": "cpplus_content", "value": "variable"}
+    - CHO TOI 1 SO DI DU ZE [VARIABLES]{"entity": "cpplus_content", "value": "variable"} VOI
+    - BAN EI, CHO MINH MOT VAI VI DU VE [TOAN TU]{"entity": "cpplus_content", "value": "operator"} DC HONG
+    - NE BOT OI, CHO TAO VI DU VE [OPERATORS]{"entity": "cpplus_content", "value": "operator"} DI MAY
+    - MAY OI, CHO TAO VI DU VE [IF]{"entity": "cpplus_content", "value": "if"} DI
+    - CHO MINH 1 CAI EXAMPLE VE [IF]{"entity": "cpplus_content", "value": "if"} THU COI NE
+    - HMMM, CHO MINH THU MOT VI DU VE CAU [DIEU KIEN]{"entity": "cpplus_content", "value": "if"} THU XEM SAO NE
+    - MEN OIII, CHO TUI VI DU VE [FOR]{"entity": "cpplus_content", "value": "for"} XEM THU NA
+    - MOT VAI VI DU VE [FOR]{"entity": "cpplus_content", "value": "for"} CHO NGUOI TA DUOC KO ?
+    - HAY CHO IEM MOT SO VI DU VE VONG [WHILE]{"entity": "cpplus_content", "value": "while"} DI A
+    - A OI, CHO E VI DU VE VONG LAP [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} DI A
+    - THAY, CHO DO DE VI DU VE VONG LAP [WHILE]{"entity": "cpplus_content", "value": "while"} DUOC KHONG A?
+    - E, TAO VAN CHUA HIEU VE CAI VONG LAP TRONG C++ LAM, CHO THU MOT VI DU VE [VONG LAP]{"entity": "cpplus_content", "value": "loop"} XEM NAO
+    - VI DU VE 1 [VONG LAP]{"entity": "cpplus_content", "value": "loop"} TRONG C++ XEM NAO
+    - VI DU VE [LOOPS]{"entity": "cpplus_content", "value": "loop"} TRONG C++ XEM THU NAO
+    - CHO TOI VI DU VE CAC LOAI VONG LAP [FOR]{"entity": "cpplus_content", "value": "for"}, [WHILE](CPPLUS_CONTENT) VA [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} DI
+    - HAY CHO TOI MOT VAI CAC CAI VI DU VE VONG [FOR]{"entity": "cpplus_content", "value": "for"} VONG [WHILE](CPPLUS_CONTENT) VA VONG [DO WHILE]{"entity": "cpplus_content", "value": "do-while"}
+    - CHO MINH MOT SO CAC CAI VI DU VE LENH [BREAK]{"entity": "cpplus_content", "value": "break"} VA LENH [CONTINUE](CPPLUS_CONTENT) DI A
+    - MOT SO CHIEC EXAMPLES VE [BREAK]{"entity": "cpplus_content", "value": "break"} VA [GOTO]{"entity": "cpplus_content", "value": "goto"} DI A
+    - NAY, VI DU VE [BREAK]{"entity": "cpplus_content", "value": "break"} CHO BON TOA NHANH
+    - EG VE [HAM]{"entity": "cpplus_content", "value": "function"}
+    - E.G VE [FUNCTION]{"entity": "cpplus_content", "value": "function"} THU XEM NAO
+    - MOT SO INSTANCES VE [HAM]{"entity": "cpplus_content", "value": "function"} THU NE
+    - CHO MINH MOT SO CAC CAI VI DU VE [THAM CHIEU]{"entity": "cpplus_content", "value": "pass-by-reference"} VA [THAM TRI]{"entity": "cpplus_content", "value": "pass-by-value"} DI NE
+    - VI DU THU CHO MINH VE [THAM TRI]{"entity": "cpplus_content", "value": "pass-by-value"} [THAM CHIEU]{"entity": "cpplus_content", "value": "pass-by-reference"} DE
+    - VI DU CU THE VE [THAM SO]{"entity": "cpplus_content", "value": "parameter"} VA [DOI SO]{"entity": "cpplus_content", "value": "argument"}
+    - HAY VI DU CU CMN THE VE [DE QUY]{"entity": "cpplus_content", "value": "recursion"} DI
+    - [RECURSION]{"entity": "cpplus_content", "value": "recursion"} VI DU
+    - EXAMPLES VE [RECURSIONS]{"entity": "cpplus_content", "value": "recursion"}
+    - VI DU VE [MANG MOT CHIEU]{"entity": "cpplus_content", "value": "array"} VA [MANG HAI CHIEU]{"entity": "cpplus_content", "value": "2d-array"} DE
+    - [CLASS]{"entity": "cpplus_content", "value": "class"} VI DU NAO
+    - VI DU VE [CON TRO]{"entity": "cpplus_content", "value": "pointer"} COI DU MA
+    - DM CHO BO M VI DU VE [CON TRO]{"entity": "cpplus_content", "value": "pointer"} DI
+    - VI DU CU THE NHAT VE [POINTER]{"entity": "cpplus_content", "value": "pointer"}
+    - MOT SO VU DI VE [KIEU DU LIEU]{"entity": "cpplus_content", "value": "data-type"}
+    - VU DI VE [INTEGER]{"entity": "cpplus_content", "value": "integer"}
+    - DI VU THU VE KIEU [INT]{"entity": "cpplus_content", "value": "integer"} XEM NAO
 - intent: cpplus_what_asking
   examples: |
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ VẬY?
@@ -2337,6 +2643,212 @@ nlu:
     - noi cho tui nghe ve [Kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} dii
     - kiểu [DOUBLE]{"entity": "cpplus_content", "value": "double"} là gì?
     - Thế nào là kiểu [Double]{"entity": "cpplus_content", "value": "double"}
+    - [luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} la sao vay bot ?
+    - [variables]{"entity": "cpplus_content", "value": "variable"} ?
+    - [bien]{"entity": "cpplus_content", "value": "variable"} ?
+    - [toan tu]{"entity": "cpplus_content", "value": "operator"} ?
+    - [Mang mot chieu]{"entity": "cpplus_content", "value": "array"}
+    - [Mang 2D]{"entity": "cpplus_content", "value": "2d-array"}
+    - [luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"}  ?
+    - [switch](cpplus_content) case
+    - [kieu du lieu]{"entity": "cpplus_content", "value": "data-type"}?
+    - [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+    - [Ham]{"entity": "cpplus_content", "value": "function"}
+    - [Function]{"entity": "cpplus_content", "value": "function"} ?
+    - [Toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - [Toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"}
+    - [De quy]{"entity": "cpplus_content", "value": "recursion"}
+    - [Local Variable]{"entity": "cpplus_content", "value": "local-variable"}
+    - [comment](cpplus_content)
+    - [toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"}
+    - [if](cpplus_content)
+    - [For]{"entity": "cpplus_content", "value": "for"}
+    - [While]{"entity": "cpplus_content", "value": "while"}
+    - [Loop]{"entity": "cpplus_content", "value": "loop"}
+    - [Static]{"entity": "cpplus_content", "value": "static"}
+    - cho minh hoi ve [luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} voi a !
+    - nhu the nao la [flow chart]{"entity": "cpplus_content", "value": "flowchart"} ?
+    - hay cho minh biet the nao la [Flowchart]{"entity": "cpplus_content", "value": "flowchart"} ?
+    - hay cho toi biet nhu the nao thi duoc goi la 1 [flowchart](cpplus_content)
+    - hay cho t biet nhu nao la 1 [Flowcharts]{"entity": "cpplus_content", "value": "flowchart"}
+    - hay cho to biet the nao la 1 [so do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} ???
+    - [luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} la gi vay bot ?
+    - [Luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} la cai giong on gi the th lz
+    - [library](cpplus_content) la j the?
+    - khai niem ve [library](cpplus_content) trong c++?
+    - [Thu vien]{"entity": "cpplus_content", "value": "library"} la j?
+    - the nao la mot [thu vien]{"entity": "cpplus_content", "value": "library"}?
+    - tu khoa [inclue]{"entity": "cpplus_content", "value": "library"} la j?
+    - trong c++ co tu [include](cpplus_content) la sao v m?
+    - m biet gi ve tu [include](cpplus_content)?
+    - khai niem ve [include](cpplus_content)?
+    - [namespace](cpplus_content) la gi?
+    - the nao la [namespace](cpplus_content)?
+    - ke tao nghe ve [namespace](cpplus_content) di
+    - khai niem ve [namespace](cpplus_content)
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ la j ?
+    - the nao la [C]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
+    - [C]{"entity": "cpplus_content", "value": "cplusplus"}++ la cai quai gi vay?
+    - ngon ngu lap trinh [c]{"entity": "cpplus_content", "value": "cplusplus"}++ la j?
+    - dinh nghia cua [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
+    - ngon ngu [c]{"entity": "cpplus_content", "value": "cplusplus"}++ la gi?
+    - noi cho tao biet [c]{"entity": "cpplus_content", "value": "cplusplus"}++ la j duoc khong?
+    - [comment](cpplus_content) trong C++ la j vay?
+    - [comment](cpplus_content) trong C++ la gi?
+    - [comment](cpplus_content) la gi?
+    - the nao la [comment](cpplus_content)?
+    - [i/o]{"entity": "cpplus_content", "value": "input-output"} trong c++ la gi?
+    - the nao la [i/o]{"entity": "cpplus_content", "value": "input-output"}?
+    - [Input/output]{"entity": "cpplus_content", "value": "input-output"} trong c++
+    - [cout](cpplus_content) la gi?
+    - [cin](cpplus_content) la gi?
+    - the nao la [cout](cpplus_content) trong c++?
+    - the nao la [cin](cpplus_content) trong c++?
+    - [Bien]{"entity": "cpplus_content", "value": "variable"} la gi?
+    - [bien]{"entity": "cpplus_content", "value": "variable"} la cai quai gi the?
+    - trong c++ [Bien]{"entity": "cpplus_content", "value": "variable"} la j?
+    - the nao la 1 [bien]{"entity": "cpplus_content", "value": "variable"}?
+    - [variable](cpplus_content) la gi vay bot?
+    - trong c++ [variable](cpplus_content) duoc dinh nghia nhu the nao?
+    - the nao la 1 [variable](cpplus_content)?
+    - [Toan tu]{"entity": "cpplus_content", "value": "operator"} la cai gi the ?
+    - nhu the nao la 1 [toan tu]{"entity": "cpplus_content", "value": "operator"}?
+    - [operators]{"entity": "cpplus_content", "value": "operator"} la gi?
+    - [operators]{"entity": "cpplus_content", "value": "operator"} trong c++ la gi?
+    - cau lenh [dieu kien]{"entity": "cpplus_content", "value": "if"} trong c++ la gi?
+    - lenh [dieu kien]{"entity": "cpplus_content", "value": "if"} la gi?
+    - cau lenh [if](cpplus_content) la j?
+    - khoi lenh [dieu kien]{"entity": "cpplus_content", "value": "if"} trong c++ la gi?
+    - [vong lap]{"entity": "cpplus_content", "value": "loop"} la gi?
+    - trong c++ [Vong lap]{"entity": "cpplus_content", "value": "loop"} duoc dinh nghia ra sao?
+    - Vong lap [for](cpplus_content) la gi?
+    - dinh nghia vong [For]{"entity": "cpplus_content", "value": "for"} trong c++ la j vay m?
+    - [for](cpplus_content) loop la j?
+    - vong lap [While]{"entity": "cpplus_content", "value": "while"} la gi v th kia?
+    - [while](cpplus_content) loop la nhu the nao v m?
+    - vong [While]{"entity": "cpplus_content", "value": "while"}?
+    - [Do while]{"entity": "cpplus_content", "value": "do-while"} la gi?
+    - The nao la [do while]{"entity": "cpplus_content", "value": "do-while"}?
+    - tu khoa [break](cpplus_content)?
+    - Tu khoa [Continue]{"entity": "cpplus_content", "value": "continue"}?
+    - the nao la 1 [Break]{"entity": "cpplus_content", "value": "break"}?
+    - Nhu nao la 1 [BREAK]{"entity": "cpplus_content", "value": "break"} vay ban hien?
+    - The nao la [continue](cpplus_content)?
+    - [Break]{"entity": "cpplus_content", "value": "break"} trong c++ la j?
+    - [Continue]{"entity": "cpplus_content", "value": "continue"} trong c++ la gi?
+    - tu khoa [Break]{"entity": "cpplus_content", "value": "break"} va [Continue]{"entity": "cpplus_content", "value": "continue"} la j?
+    - [Switch]{"entity": "cpplus_content", "value": "switch"} statement la gi?
+    - the nao la [SWITCH]{"entity": "cpplus_content", "value": "switch"}?
+    - Dinh nghia cua [Switch]{"entity": "cpplus_content", "value": "switch"}?
+    - [goto](cpplus_content) la j?
+    - the nao la [Goto]{"entity": "cpplus_content", "value": "goto"}?
+    - [GOTO]{"entity": "cpplus_content", "value": "goto"} TRONG C++ LA CAI J?
+    - [Goto]{"entity": "cpplus_content", "value": "goto"} statement la gi?
+    - the nao la [goto](cpplus_content)?
+    - [Function]{"entity": "cpplus_content", "value": "function"} la cai chi rua?
+    - [ham]{"entity": "cpplus_content", "value": "function"} la j?
+    - the nao la mot [Function]{"entity": "cpplus_content", "value": "function"} trong c++?
+    - Dinh nghia [Ham]{"entity": "cpplus_content", "value": "function"} trong c++ la s v m?
+    - Noi gi ve [ham]{"entity": "cpplus_content", "value": "function"} t nghe xem
+    - Nhung kien thuc co ban ve [HAM]{"entity": "cpplus_content", "value": "function"}
+    - noi t nghe ve nhung kien thuc ve phan [ham]{"entity": "cpplus_content", "value": "function"} di
+    - [Tham so]{"entity": "cpplus_content", "value": "parameter"} la gi?
+    - [Doi so]{"entity": "cpplus_content", "value": "argument"} la j?
+    - the nao la 1 [tham so]{"entity": "cpplus_content", "value": "parameter"} va 1 [doi so]{"entity": "cpplus_content", "value": "argument"} trong c++?
+    - [Parameter]{"entity": "cpplus_content", "value": "parameter"} la nhu the nao v?
+    - [argument](cpplus_content) la gi?
+    - Dinh nghia [Parameter]{"entity": "cpplus_content", "value": "parameter"}?
+    - [return](cpplus_content) la j?
+    - TRONG C++ TU KHOA [return](cpplus_content) DUOC DUNG DE LAM GI VAY?
+    - nhu the nao la [Return]{"entity": "cpplus_content", "value": "return"}?
+    - [Return]{"entity": "cpplus_content", "value": "return"} trong 1 ham la j?
+    - [de quy]{"entity": "cpplus_content", "value": "recursion"} la j
+    - the nao la 1 ham [de quy]{"entity": "cpplus_content", "value": "recursion"}?
+    - [De quy]{"entity": "cpplus_content", "value": "recursion"} duoc dinh nghia ntn?
+    - [Recursion]{"entity": "cpplus_content", "value": "recursion"} la j
+    - The nao la [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
+    - khai niem ve [recursion](cpplus_content)?
+    - Definition cua [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
+    - [Mang]{"entity": "cpplus_content", "value": "array"} la j?
+    - Khai niem ve [mang]{"entity": "cpplus_content", "value": "array"}?
+    - [mang]{"entity": "cpplus_content", "value": "array"} la cai veo gi v?
+    - [mang hai chieu]{"entity": "cpplus_content", "value": "2d-array"} la j?
+    - the nao la 1 [array]{"entity": "cpplus_content", "value": "array"}?
+    - mot [array](cpplus_content) la j?
+    - khai niem ve [array](cpplus_content)?
+    - [string](cpplus_content) la gi?
+    - the nao la mot [string](cpplus_content)?
+    - [chuoi]{"entity": "cpplus_content", "value": "string"} la j?
+    - Khai niem ve [Chuoi]{"entity": "cpplus_content", "value": "string"}?
+    - Dinh nghia ve [CHUOI]{"entity": "cpplus_content", "value": "string"} trong c++?
+    - Noi t nghe ve [Chuoi]{"entity": "cpplus_content", "value": "string"} xem
+    - noi nhung gi m biet ve [CHUOI]{"entity": "cpplus_content", "value": "string"} t nghe xem
+    - [Structure]{"entity": "cpplus_content", "value": "structure"} la j?
+    - The nao mot [STRUCTURE]{"entity": "cpplus_content", "value": "structure"}?
+    - Khai niem ve [structure](cpplus_content)?
+    - ke t nghe ve [STRUCTURE]{"entity": "cpplus_content", "value": "structure"} coi
+    - Noi t nghe ve [cau truc]{"entity": "cpplus_content", "value": "structure"} trong c++ di
+    - noi ve [Struct]{"entity": "cpplus_content", "value": "structure"} di ban eii
+    - Cu phap [struct]{"entity": "cpplus_content", "value": "structure"} la j
+    - Biet gi ve [Cau truc]{"entity": "cpplus_content", "value": "structure"} k ban ei
+    - [cau truc]{"entity": "cpplus_content", "value": "structure"} la j?
+    - the nao mot [Cau Truc]{"entity": "cpplus_content", "value": "structure"}?
+    - noi gi ve [Cau Truc]{"entity": "cpplus_content", "value": "structure"} xem
+    - [Class]{"entity": "cpplus_content", "value": "class"} la j?
+    - The nao la mot [class](cpplus_content) trong c++?
+    - Noi ve [CLASS]{"entity": "cpplus_content", "value": "class"} di ban
+    - Ban noi ve [CLASS]{"entity": "cpplus_content", "value": "class"} di
+    - [Lop]{"entity": "cpplus_content", "value": "class"} trong c++?
+    - Khai niem ve [lop]{"entity": "cpplus_content", "value": "class"} trong c++?
+    - Cu phap [lop]{"entity": "cpplus_content", "value": "class"} la j
+    - M noi t nghe ve [lop]{"entity": "cpplus_content", "value": "class"} di
+    - [lop]{"entity": "cpplus_content", "value": "class"} la j?
+    - Nhu lao la mot [lop]{"entity": "cpplus_content", "value": "class"} trong c++?
+    - [pointer](cpplus_content)?
+    - the nao la mot [POINTER]{"entity": "cpplus_content", "value": "pointer"}?
+    - khai niem ve [pointer](cpplus_content)?
+    - noi gi ve [Con tro]{"entity": "cpplus_content", "value": "pointer"} di?
+    - khai niem ve [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+    - thu noi ve [Con Tro]{"entity": "cpplus_content", "value": "pointer"} xem
+    - ke nghe ve [con tro]{"entity": "cpplus_content", "value": "pointer"} di
+    - [Con tro]{"entity": "cpplus_content", "value": "pointer"} la gi?
+    - [con tro]{"entity": "cpplus_content", "value": "pointer"} duoc dinh nghia nhu the nao v th kia?
+    - E bot [con tro]{"entity": "cpplus_content", "value": "pointer"} la j the?
+    - [Enumeration]{"entity": "cpplus_content", "value": "enumeration"} la j v bot?
+    - [enumeration](cpplus_content) la clgt?
+    - the nao la [Enumeration]{"entity": "cpplus_content", "value": "enumeration"}?
+    - [ENUM]{"entity": "cpplus_content", "value": "enumeration"} la cai gi ?
+    - [enum]{"entity": "cpplus_content", "value": "enumeration"} la j tml?
+    - [Enum]{"entity": "cpplus_content", "value": "enumeration"} la j the bot ei?
+    - [enums]{"entity": "cpplus_content", "value": "enumeration"} la qq gi zay bot?
+    - [Kieu liet ke]{"entity": "cpplus_content", "value": "enumeration"} trong C++ la cai j the ChatBot ?
+    - ban luan soi noi mot chut ve [kieu liet ke]{"entity": "cpplus_content", "value": "enumeration"} nao ChatBot?
+    - noi t nghe ve [Enums]{"entity": "cpplus_content", "value": "enumeration"} di bot
+    - the nao la [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} vay bot?
+    - [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} trong c++ la nhu nao vay bot?
+    - Dinh nghia ve [INTEGER]{"entity": "cpplus_content", "value": "integer"} di
+    - Khai niem ve [Integer]{"entity": "cpplus_content", "value": "integer"}?
+    - kieu [int]{"entity": "cpplus_content", "value": "integer"} trong c++ la j
+    - [INT]{"entity": "cpplus_content", "value": "integer"} la j
+    - THE NAO LA KIEU [SO NGUYEN]{"entity": "cpplus_content", "value": "integer"} TRONG C++ VAY CHATBOT?
+    - [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} la sao
+    - cho em mot ti thong tin ve [kieu so nguyen]{"entity": "cpplus_content", "value": "integer"} di nguoi oi
+    - [float]{"entity": "cpplus_content", "value": "floating-point"} la gi
+    - kieu [float]{"entity": "cpplus_content", "value": "floating-point"} la j
+    - [Float]{"entity": "cpplus_content", "value": "floating-point"} la clgt
+    - The nao la [float]{"entity": "cpplus_content", "value": "floating-point"}?
+    - kieu [float]{"entity": "cpplus_content", "value": "floating-point"}?
+    - the nao la [kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} v?
+    - [kieu dau cham dong]{"entity": "cpplus_content", "value": "floating-point"} trong c++ la gi
+    - the nao la khai niem [dau cham dong]{"entity": "cpplus_content", "value": "floating-point"}???
+    - tui nghe bao ve [Dau cham dong]{"entity": "cpplus_content", "value": "floating-point"}, no la j v
+    - The nao la kieu [dau cham dong]{"entity": "cpplus_content", "value": "floating-point"}
+    - Mot [Kieu dau cham dong]{"entity": "cpplus_content", "value": "floating-point"} la j
+    - [kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} trong c++ la j
+    - [float]{"entity": "cpplus_content", "value": "floating-point"} trong c++ la gi
+    - noi cho tui nghe ve [Kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} dii
+    - kieu [DOUBLE]{"entity": "cpplus_content", "value": "double"} la gi?
+    - The nao la kieu [Double]{"entity": "cpplus_content", "value": "double"}
     - Kiểu [double](cpplus_content) trong c++ là gì thế
     - kieu [double](cpplus_content) la nhu the nao trong c++ vay
     - Kiểu [floating point]{"entity": "cpplus_content", "value": "floating-point"} là gì vậy
@@ -2593,6 +3105,102 @@ nlu:
     - [2d-array](cpplus_content) là gì vậy ?
     - cho hỏi về [ma trận]{"entity": "cpplus_content", "value": "2d-array"} đi ?
     - [2d array]{"entity": "cpplus_content", "value": "2d-array"} là cái gì thế ?
+    - [type modifer]{"entity": "cpplus_content", "value": "type-modifier"} la j v em oiii
+    - [typedef](cpplus_content) la saoooooo
+    - len mang coi thay nguoi ta co hay noi ve [Global variable]{"entity": "cpplus_content", "value": "global-variable"} voi [local variable]{"entity": "cpplus_content", "value": "local-variable"}, vay rot no la gi v
+    - [bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"} la sao rua mi
+    - Nen oii [bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"} la gie
+    - THE NAO LA MOT [BIEN TOAN CUC]{"entity": "cpplus_content", "value": "global-variable"} THE ?
+    - [Bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"} va [Bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} la j?
+    - ni oi [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} la j vay
+    - Kieu [auto](cpplus_content) la gi vay
+    - Kieu du lieu [auto](cpplus_content) la sao vay
+    - KIEU [AUTO]{"entity": "cpplus_content", "value": "auto"} LA GI?
+    - THE NAO LA MOT KIEU [Auto]{"entity": "cpplus_content", "value": "auto"}?
+    - Tu khoa [static](cpplus_content) la gi the
+    - nhu the nao la [bien tinh]{"entity": "cpplus_content", "value": "static"}?
+    - Bien tinh [Static]{"entity": "cpplus_content", "value": "static"} la gi the
+    - [Static]{"entity": "cpplus_content", "value": "static"} la j?
+    - Tu khoa [Static]{"entity": "cpplus_content", "value": "static"} khi di voi mot bien la gj
+    - Tu khoa [Static]{"entity": "cpplus_content", "value": "static"} khi di kem voi viec khai bao mot bien la gi
+    - Cai tu khoa [static](cpplus_content) khi di chung voi viec khai bao bien thi no co su khac biet gi k bot
+    - Su dung tu khoa [static](cpplus_content) khi minh khai bao mot bien thi co them tac dung gi k bot?
+    - [Static]{"entity": "cpplus_content", "value": "static"} khi di voi viec khai bao bien thi nghia la sao v bot?
+    - E noi cho tao ve [Bien tinh]{"entity": "cpplus_content", "value": "static"} dii
+    - ke tao nghe ve [bien tinh]{"entity": "cpplus_content", "value": "static"} di bot
+    - [Bien tinh]{"entity": "cpplus_content", "value": "static"}
+    - noi gi ve [bien tinh]{"entity": "cpplus_content", "value": "static"} nghe choi
+    - [vector](cpplus_content) la sao
+    - THE NAO LA MOT [VECTOR]{"entity": "cpplus_content", "value": "vector"}
+    - [Vector]{"entity": "cpplus_content", "value": "vector"} la gi?
+    - nhu the nao la 1 [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} v ?
+    - noi tao biet ve [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} coi bot ngu
+    - e th lz bot noi cho bo m biet ve [Reference Variable]{"entity": "cpplus_content", "value": "reference-variable"} di
+    - [Reference variable]{"entity": "cpplus_content", "value": "reference-variable"}?
+    - cho hoi [REFERENCE VARIABLE]{"entity": "cpplus_content", "value": "reference-variable"}?
+    - The nao la [Bien tham chieu]{"entity": "cpplus_content", "value": "reference-variable"}?
+    - [bien tham chieu]{"entity": "cpplus_content", "value": "reference-variable"}?
+    - [Unsigned]{"entity": "cpplus_content", "value": "unsigned"} la sao
+    - [unsigned variable]{"entity": "cpplus_content", "value": "unsigned"} la gj????
+    - [signed variable]{"entity": "cpplus_content", "value": "signed"} la the deo nao?
+    - TU KHOA [SIGNED]{"entity": "cpplus_content", "value": "signed"} la gj?
+    - [Pseudo code]{"entity": "cpplus_content", "value": "pseudo-code"} la shaoooo
+    - [ma gia]{"entity": "cpplus_content", "value": "pseudo-code"} la clgt th lz que
+    - [pseudo code]{"entity": "cpplus_content", "value": "pseudo-code"} la gi vay ban iu oiii
+    - [khong gian ten]{"entity": "cpplus_content", "value": "namespace"}?
+    - [namespace{"entity": "cpplus_content", "value": "namespace"}
+    - [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} TRONG C++ LA GI?
+    - [toan tu --]{"entity": "cpplus_content", "value": "decrement-operator"} la gj
+    - Noi cho iem nghe ve [toan tu --]{"entity": "cpplus_content", "value": "decrement-operator"} di a
+    - The nao la [Toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"}
+    - what is [Increment operator]{"entity": "cpplus_content", "value": "increment-operator"}
+    - the nao la [toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"} value
+    - Hay cho toi biet ve [toan tu ++]{"entity": "cpplus_content", "value": "increment-operator"}
+    - Giai thich cai [Toan tu ++]{"entity": "cpplus_content", "value": "increment-operator"} xem
+    - t hay thay nguoi ta xai cai [toan tu ++]{"entity": "cpplus_content", "value": "increment-operator"} ay, no la gi v bot
+    - [decrement operator]{"entity": "cpplus_content", "value": "decrement-operator"}
+    - [Decrement operator]{"entity": "cpplus_content", "value": "decrement-operator"} la cc chi
+    - [DECREMENT OPERATOR]{"entity": "cpplus_content", "value": "decrement-operator"} la clgt ban hien ?
+    - cho toi biet the nao la [Dereference operator]{"entity": "cpplus_content", "value": "dereference-operator"} la gi duoc khong a?
+    - Toi muon biet ve [Dereference Operator]{"entity": "cpplus_content", "value": "dereference-operator"}, ban co the noi cho toi biet gi ve no dc k a?
+    - hay cho tao biet nhung gi m biet ve [dereference operator]{"entity": "cpplus_content", "value": "dereference-operator"} di th ngu bot
+    - Hay noi t nghe ve [DEREFERENCE OPERATOR]{"entity": "cpplus_content", "value": "dereference-operator"}
+    - [address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"}
+    - can you say something about [Address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"} in cplusplus ?
+    - Ey dzo noi gi ve [Address_of operator]{"entity": "cpplus_content", "value": "address_of-operator"} coi bot ngu
+    - Say sth about [Toan tu dia chi]{"entity": "cpplus_content", "value": "address_of-operator"} di
+    - [Comma operator]{"entity": "cpplus_content", "value": "comma-operator"}
+    - Sua gi ve [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} xem
+    - [toan tu phay]{"entity": "cpplus_content", "value": "comma-operator"}, sua gi ve noi xem nao
+    - Ayy doooo noi tao nghe ve [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} nghe nao
+    - [ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - biet gi ve [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"}?
+    - Nao, ke cho minh nghe nhung gi ban biet ve [Toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"} duoc k
+    - Ne ban oi, ban co the cho minh biet the nao la [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"} dc k
+    - Oke hello ban, gio cho minh hoi the nao [toan tu hai ngoi]{"entity": "cpplus_content", "value": "binary-operator"} dc k a ?
+    - Nay bot, noi t nghe ve [Binary operator]{"entity": "cpplus_content", "value": "binary-operator"} di
+    - Can you tell me somethin' about [binary operator]{"entity": "cpplus_content", "value": "binary-operator"}?
+    - tell me sth about [binary operator]{"entity": "cpplus_content", "value": "binary-operator"}, won't you?
+    - ne ne ne, noi gi nghe ve [toan tu hai ngoi]{"entity": "cpplus_content", "value": "binary-operator"} choi
+    - hey hey hey, [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"} la s
+    - [unary operator]{"entity": "cpplus_content", "value": "unary-operator"}
+    - [Unary]{"entity": "cpplus_content", "value": "unary-operator"} la j
+    - Noi cho toi nghe ve [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"} voi
+    - [Toan tu so hoc]{"entity": "cpplus_content", "value": "arithmetic-operator"} la shaoo
+    - the nao la [toan tu so hoc]{"entity": "cpplus_content", "value": "arithmetic-operator"} vay ban hien bot ngu mat cac
+    - Nao lz bot biet gi ve [arithmetic operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} khong ?!
+    - Oc lz bot noi [Arithmetic operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} di
+    - Ngu bot sua gi ve [Toan tu so hoc]{"entity": "cpplus_content", "value": "arithmetic-operator"} diii
+    - [toan tu quan he]{"entity": "cpplus_content", "value": "comparison-operator"}
+    - cho toi biet ve [toan tu so sanh]{"entity": "cpplus_content", "value": "comparison-operator"} dieu
+    - [Toan tu quan he]{"entity": "cpplus_content", "value": "comparison-operator"} ban chat la j
+    - [Assignment operator]{"entity": "cpplus_content", "value": "assignment-operator"} la j?
+    - cho emm hoi ve [toan tu gan]{"entity": "cpplus_content", "value": "assignment-operator"} di anh oi
+    - minh muon biet ve [Toan tu gan]{"entity": "cpplus_content", "value": "assignment-operator"}, ban co the noi cho minh nghe ve no dc k a ?
+    - Noi cho t nghe ve [toan tu gan]{"entity": "cpplus_content", "value": "assignment-operator"} di
+    - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la gi?
+    - The nao la [toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} v?
+    - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la cm gi v lz que
 - intent: cpplus_how_asking
   examples: |
     - LÀM CÁCH NÀO ĐỂ DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} V
@@ -2796,14 +3404,16 @@ nlu:
     - chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} đi
     - Chỉ iem cách viết một [Loop]{"entity": "cpplus_content", "value": "loop"} với
     - bày iem cách viết tạo ra [LOOP]{"entity": "cpplus_content", "value": "loop"} đi ianh
-    - Cú pháp của [for](cpplus_content)
-    - Cách dùng [for](cpplus_content)
+    - Cú pháp của [for]{"entity": "cpplus_content", "value": "for"}
+    - Cách dùng [for]{"entity": "cpplus_content", "value": "for"}
+    - [for]{"entity": "cpplus_content", "value": "for"} như thế nào
+    - [for]{"entity": "cpplus_content", "value": "for"} như thế nào
     - [For]{"entity": "cpplus_content", "value": "for"} được sử dụng như thế nào ?
     - làm s để t viết vòng lặp [For]{"entity": "cpplus_content", "value": "for"} đây m
-    - làm thế nào để t tạo ra một vòng [for](cpplus_content) đây
+    - làm thế nào để t tạo ra một vòng [for]{"entity": "cpplus_content", "value": "for"} đây
     - how to tạo ra một vòng [FOR]{"entity": "cpplus_content", "value": "for"} v m
     - Cách tạo ra vòng [For]{"entity": "cpplus_content", "value": "for"} như thế nào đây
-    - chỉ bố m viết ra một vòng [for](cpplus_content) coi
+    - chỉ bố m viết ra một vòng [for]{"entity": "cpplus_content", "value": "for"} coi
     - Chỉ bố m cách tạo ra một vòng [For]{"entity": "cpplus_content", "value": "for"} đi
     - cách nào để t tạo ra một vòng [While]{"entity": "cpplus_content", "value": "while"} v m
     - Làm thế nào để t tạo ra một vòng [While]{"entity": "cpplus_content", "value": "while"} đây mày
@@ -3134,6 +3744,192 @@ nlu:
     - Cú pháp [built-in-function](cpplus_content)
     - Cú pháp [lambda](cpplus_content)
     - Cú pháp [flowchart](cpplus_content)
+    - thế nào là [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
+    - Vậy thế nào là ngôn ngữ [C]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy bot ?
+    - Thế nào là một [toán tử]{"entity": "cpplus_content", "value": "operator"}?
+    - Như vậy thế nào thì gọi là 1 [comment]{"entity": "cpplus_content", "value": "comment"}
+    - Thế nào là 1 hàm [đệ quy]{"entity": "cpplus_content", "value": "recursion"}?
+    - Vậy thế nào là [toán tử hai ngôi]{"entity": "cpplus_content", "value": "binary-operator"} thế botchat?
+    - [For]{"entity": "cpplus_content", "value": "for"} duoc su dung nhu the nao ?
+    - lam s de t viet vong lap [For]{"entity": "cpplus_content", "value": "for"} day m
+    - lam the nao de t tao ra mot vong [for]{"entity": "cpplus_content", "value": "for"} day
+    - how to tao ra mot vong [FOR]{"entity": "cpplus_content", "value": "for"} v m
+    - Cach tao ra vong [For]{"entity": "cpplus_content", "value": "for"} nhu the nao day
+    - chi bo m viet ra mot vong [for]{"entity": "cpplus_content", "value": "for"} coi
+    - Chi bo m cach tao ra mot vong [For]{"entity": "cpplus_content", "value": "for"} di
+    - cach nao de t tao ra mot vong [While]{"entity": "cpplus_content", "value": "while"} v m
+    - Lam the nao de t tao ra mot vong [While]{"entity": "cpplus_content", "value": "while"} day may
+    - bang cach nao t co the viet ra dc mot vong [while](cpplus_content)?
+    - Lam s de t implement duoc mot vong [while](cpplus_content) day?
+    - lam s de tao ra duoc mot vong [do while]{"entity": "cpplus_content", "value": "do-while"} day ta
+    - lam cach nao de t co the khai bao duoc mot cai [do while]{"entity": "cpplus_content", "value": "do-while"} v?
+    - Lam cach nao de t viet ra dc mot cau [do while]{"entity": "cpplus_content", "value": "do-while"} day
+    - nhu the nao de co the viet dc mot cau [Break]{"entity": "cpplus_content", "value": "break"} v
+    - lam sao de su dung [BREAK]{"entity": "cpplus_content", "value": "break"} day ta
+    - lam sao de minh co the su dung duoc [break](cpplus_content)?
+    - Bay gio lam sao de t co the su dung duoc tu khoa [break](cpplus_content) day?
+    - Lam sao de su dung tu khoa [continue](cpplus_content) day nhi
+    - How to tao ra tu khoa [continue](cpplus_content) day
+    - lam the nao de co the su dung tot tu khoa [continue](cpplus_content)?
+    - e bot chi t cach su dung tu khoa [continue](cpplus_content)
+    - chi t cach su dung tu khoa [continue](cpplus_content) di
+    - cach viet [switch](cpplus_content) case
+    - Chi t cach su dung tu khoa [continue](cpplus_content) di
+    - cach dung [do while]{"entity": "cpplus_content", "value": "do-while"} trong c++
+    - cach su dung [Ham]{"entity": "cpplus_content", "value": "function"} nhu the nao
+    - lam sao de su dung 1 [namespace](cpplus_content) ?
+    - Lam cach nao de ta co the su dung duoc mot [namespace](cpplus_content) trong C++?
+    - Su dung cach thuc nao de co the su dung duoc mot [namespace](cpplus_content) trong C++ the bot ?
+    - lam the nao de trien khai 1 [namespace](cpplus_content) o c++ the bot?
+    - cach su dung [namepsace]{"entity": "cpplus_content", "value": "namespace"} ?
+    - cach hoc [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - cach su dung [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - cach tai [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - su dung tinh nang [comment](cpplus_content) trong c++ ntn?
+    - lam sao de su dung dc cai [comment](cpplus_content) trong c++ the?
+    - e bot oi how to su dung [Comment]{"entity": "cpplus_content", "value": "comment"} ?
+    - [include](cpplus_content) trong c++ dc su dung nhu the nao?
+    - bang cach nao thi ta co the dung [include](cpplus_content) trong c++ dc v?
+    - lam the nao de su dung kieu [unsigned](cpplus_content)
+    - lam the lao de tao dc 1 bien co kieu [unsigned](cpplus_content) ?
+    - e nam thao de t tao ra dc 1 bien [unsigned](cpplus_content) trong c++ day bot?
+    - Nam thao de tao dung bien kieu [signed](cpplus_content) day bot ngu?
+    - E bay gio bay t cach thuc de co the dung 1 bien kieu [signed](cpplus_content) de a bot
+    - Ok lam s de tao 1 bien kieu [short](cpplus_content) ?
+    - Ne ku lam s de t tao ra 1 bien kieu [short](cpplus_content) day?
+    - E ku lam s de tao dc mot bien kieu [long](cpplus_content) the
+    - Lam sao de ta co the tao ra bien co kieu du lieu la [long](cpplus_content) trong cpp?
+    - Lam s de su dung cai [type modifer]{"entity": "cpplus_content", "value": "type-modifier"} trong cpp the ?
+    - Bang cach nao de su dung duoc cai [type modifier]{"entity": "cpplus_content", "value": "type-modifier"} day bot oii
+    - Lam s de su dung tinh nang [typedef](cpplus_content) ?
+    - How to dung cai syntax [Typedef]{"entity": "cpplus_content", "value": "typedef"} v bot chat ???
+    - Cai syntax ve [typedef](cpplus_content) dung lam sao i nhi ?
+    - Cai ly thuyet ve [constant](cpplus_content), minh viet no vao code thi viet ntn day nhi?
+    - Cai [const]{"entity": "cpplus_content", "value": "constant"} dua vao code thi implement lam s ay nhi?
+    - [Const]{"entity": "cpplus_content", "value": "constant"} trong c++ khi muon dung thi minh can phai viet ntn v bot nhi?
+    - 1 bien ma co chu [const]{"entity": "cpplus_content", "value": "constant"} phia truoc thi viet ntn v bot?
+    - NTN de co the viet 1 ham [macro](cpplus_content) ?
+    - NTN de t co the tao ra 1 ham [macro](cpplus_content) ?
+    - Lam cach nao de implement ra dc mot ham [macro](cpplus_content) the bot?
+    - Bang cach nao thi t co the dung 1 ham [macro](cpplus_content) trong c++ day bot?
+    - Trong C++ co 1 khai niem la ham [macro](cpplus_content) thi trien khai trong code ntn v bot?
+    - [Macro]{"entity": "cpplus_content", "value": "macro"} trong c++ dc dung nhu the nao vay??
+    - 1 ham [macro](cpplus_content) trong c++ dc viet nhu the nao?
+    - Dung cach nao de viet [macro](cpplus_content) trong c++ the bot?
+    - Lam s de su dung kieu [wchar-t](cpplus_content) the bot?
+    - Kieu du lieu [wchar-t](cpplus_content) dung kieu j v bot?
+    - [Kieu luan ly]{"entity": "cpplus_content", "value": "boolean"} dung ntn v ???
+    - Kieu [bool]{"entity": "cpplus_content", "value": "boolean"} dung the quai nao v bot?
+    - Cai kieu du lieu [luan ly]{"entity": "cpplus_content", "value": "boolean"} trong C++ dc trien khai nam thao the bot?
+    - E chi tao cach trien khai [kieu luan ly]{"entity": "cpplus_content", "value": "boolean"} cho no ra j xem nao
+    - Lam s de su dung dc 1 [kieu du lieu]{"entity": "cpplus_content", "value": "data-type"}
+    - Lam s de implement [1D Array]{"entity": "cpplus_content", "value": "array"} trong C++ the?
+    - Viet [mang mot chieu]{"entity": "cpplus_content", "value": "array"} thi viet nhu the nao day bot?
+    - [Mang mot chieu]{"entity": "cpplus_content", "value": "array"} dc viet ntn trong c++ day botchat
+    - [Arrays]{"entity": "cpplus_content", "value": "array"} trong c++ dc viet the nao the?
+    - How to use [Mang 1D]{"entity": "cpplus_content", "value": "array"} in cpp?
+    - Can u tell me how in the world could i use [2D array]{"entity": "cpplus_content", "value": "2d-array"} in c++?
+    - How can I even use [two dimensional array]{"entity": "cpplus_content", "value": "2d-array"} in cpp?
+    - Lam s de xai dc [mang hai chieu]{"entity": "cpplus_content", "value": "2d-array"} the bot?
+    - Lam cach nao de tao ra dc 1 cai [ma tran]{"entity": "cpplus_content", "value": "2d-array"} the bot chat /
+    - [Ma tran]{"entity": "cpplus_content", "value": "2d-array"} trong c++ dc tao bang cach nao?
+    - Cach tao ra [matrix]{"entity": "cpplus_content", "value": "2d-array"} trong c++?
+    - Tao 1 [MA TRAN]{"entity": "cpplus_content", "value": "2d-array"} trong c++ nhu the nao?
+    - NTN de tao ra dc 1 [struct]{"entity": "cpplus_content", "value": "structure"} ?
+    - dung [struct]{"entity": "cpplus_content", "value": "structure"} trong cpp kieu gi the?
+    - cach dung [struct]{"entity": "cpplus_content", "value": "structure"} nhu the nao v
+    - dung cach thuc gi de xai dc [struct]{"entity": "cpplus_content", "value": "structure"} the?
+    - khai bao 1 [class](cpplus_content) nhu the nao ?
+    - Dung [class](cpplus_content) nhu the nao?
+    - ntn de ra dc [class](cpplus_content) trong c++ the?
+    - lam s de xai dc kieu [union](cpplus_content)
+    - lam s de khai bao dc 1 [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+    - khai bao kieu du lieu [pointer](cpplus_content) ntn?
+    - lam cach j de ra dc 1 [con tro]{"entity": "cpplus_content", "value": "pointer"} zi bot uiii
+    - lam the quai nao de co the ra dc 1 [Pointer]{"entity": "cpplus_content", "value": "pointer"} rua ?
+    - how to su dung kieu [enum]{"entity": "cpplus_content", "value": "enumeration"} ?
+    - lam s de dung dc 1 kieu [integer](cpplus_content) the
+    - Lam cach nao de tao khai bao mot bien [kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} the?
+    - Su dung [double](cpplus_content) trong c++ ntn the?
+    - Lam cach nao de dung kieu [double](cpplus_content) trong c++?
+    - De dung dc kieu [string](cpplus_content) can phai lam nhu the nao?
+    - 1 bien kieu [string](cpplus_content) thi can phai the nao moi xai dc
+    - [String]{"entity": "cpplus_content", "value": "string"} thi dung ntn?
+    - [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} dc khai bao nam thao thia ?
+    - [Local variable]{"entity": "cpplus_content", "value": "local-variable"} duoc dung nhu the nao trong cpp v bot?
+    - 1 [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} dc khai bao ra sao v bot
+    - [bien tinh]{"entity": "cpplus_content", "value": "static"} dc khai bao ra sao?
+    - tao ra 1 bien [static](cpplus_content) nhu the nao v
+    - [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} dc tao ra trong c++ nhu the nao v bot?
+    - viet [toan tu ++]{"entity": "cpplus_content", "value": "increment-operator"} ra lam sao the bot?
+    - [Toan tu ++]{"entity": "cpplus_content", "value": "increment-operator"} cach su dung
+    - [increment operator]{"entity": "cpplus_content", "value": "increment-operator"} dc viet the nao v bot?
+    - 1 chiec [toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"} dc khai bao ra sao the bot?
+    - e bot gio t muon dung [toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"} thi lam nhu the nao?
+    - e bot oi gio bo m muon dung cai [toan tu --]{"entity": "cpplus_content", "value": "decrement-operator"} thi lam kieu gi the bot?
+    - gio muon viet [toan tu giam]{"entity": "cpplus_content", "value": "decrement-operator"} thi phai sao the botchat?
+    - [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"} dc viet the nao v?
+    - Trien khai [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"} ra lam sao v chatbot?
+    - Gio minh muon implement ra dc cai [ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"} thi lam sao day bot ?
+    - How to use [binary operator]{"entity": "cpplus_content", "value": "binary-operator"} ?
+    - Can u tell me the way of how to use the [binary operator]{"entity": "cpplus_content", "value": "binary-operator"} in c++?
+    - [Toan tu hai ngoi]{"entity": "cpplus_content", "value": "binary-operator"} dc trien khai ra lam sao the ha bot?
+    - mot [toan tu]{"entity": "cpplus_content", "value": "operator"} dc viet ra sao the bot?
+    - [toan tu]{"entity": "cpplus_content", "value": "operator"} thi viet trong code nhu the nao v bot?
+    - [Operator]{"entity": "cpplus_content", "value": "operator"} dc viet ra lam sao v bot?
+    - 1 [toan tu]{"entity": "cpplus_content", "value": "operator"} dc dung trong c++ nhu the nao v bot?
+    - [toan tu]{"entity": "cpplus_content", "value": "operator"} dc trien khai NTN ?
+    - mot loai [Toan tu]{"entity": "cpplus_content", "value": "operator"} dc tao ra bang cach nao v bot?
+    - khai bao ntn 1 [toan tu]{"entity": "cpplus_content", "value": "operator"} trong c++?
+    - [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"} dc lam ra nhu the nao khi viet code v bot nhi?
+    - mot [dieu kien]{"entity": "cpplus_content", "value": "if"} trong c++ dc viet nhu the nao?
+    - [dieu kien]{"entity": "cpplus_content", "value": "if"} trong c++ dc implement the nao the?
+    - 1 cau [if](cpplus_content) trong cpp dc viet ntn?
+    - [if](cpplus_content) dc viet ntn?
+    - [vong lap]{"entity": "cpplus_content", "value": "loop"} dc viet sao?
+    - [Loop]{"entity": "cpplus_content", "value": "loop"} trong C++ dc implement nhu the nao?
+    - Mot [vong lap]{"entity": "cpplus_content", "value": "loop"} dc khai bao nhu the nao trong C++ the ?
+    - vong lap [For]{"entity": "cpplus_content", "value": "for"} dc viet the nao v ?
+    - viet mot vong lap [for](cpplus_content) trong c++ thi phai lam nhung gi?
+    - Viet 1 vong lap [while](cpplus_content) bang cach nao the bot?
+    - Bot oi lam cach nao de tao co the viet dc 1 vong lap [while](cpplus_content) day bot?
+    - [do while]{"entity": "cpplus_content", "value": "do-while"} dc viet ra lam sao the?
+    - cau lap [do while]{"entity": "cpplus_content", "value": "do-while"} viet code ntn v m?
+    - lenh [switch](cpplus_content) case dung nhu the nao?
+    - khai bao 1 lenh [switch](cpplus_content) case ra lam sao ?
+    - tu khoa [switch](cpplus_content) case dc viet nhu the nao ?
+    - 1 syntax [switch](cpplus_content) case o c++ dc viet nhu the nao v bot?
+    - tu khoa [break](cpplus_content) dc dung ntn the?
+    - tu khoa [continue](cpplus_content) dc dung ra lam s v bot?
+    - cach de implement tu khoa [break](cpplus_content)
+    - lam the nao de co the viet dc tu khoa [break](cpplus_content) va [continue](cpplus_content) the bot?
+    - 1 tap lenh [if else]{"entity": "cpplus_content", "value": "if-else"} dc viet nhu the nao v bot chat oi
+    - [Function]{"entity": "cpplus_content", "value": "function"} dc viet nhu the nao v?
+    - Khai bao 1 [function](cpplus_content) thi lam s?
+    - Lam s de khai bao ra dc 1 cai [ham]{"entity": "cpplus_content", "value": "function"} trong c++ v bot
+    - Minh thac mac la lam s de co the tao ra 1 [ham]{"entity": "cpplus_content", "value": "function"} trong c++ day bot?
+    - Lam s de co the [truyen tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} vo 1 ham dc the?
+    - Lam cach nao de t co the [truyen tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} vao 1 ham dc day bot?
+    - Ntn de co the [truyen tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} vao 1 ham dc day bot?
+    - lam s de viet dc 1 ham [de quy]{"entity": "cpplus_content", "value": "recursion"}
+    - Viet mot ham [recursion](cpplus_content) thi phai lam s the bot chat?
+    - ham [de quy]{"entity": "cpplus_content", "value": "recursion"} dc implement the nao trong c++ v bot?
+    - [doi so]{"entity": "cpplus_content", "value": "argument"} khi truyen vao 1 ham dc trien khai nhu the nao v bot?
+    - lam s de truyen 1 [Argument]{"entity": "cpplus_content", "value": "argument"} trong loi goi ham v bot?
+    - [Doi so]{"entity": "cpplus_content", "value": "argument"} dc truyen ntn trong loi goi ham the bot?
+    - lam s de co su dung dc cac [ham dung san]{"entity": "cpplus_content", "value": "built-in-function"} the bot iu?
+    - ban oi lam cach nao de co the viet ra dc 1 cai ham [lambda](cpplus_content) zay
+    - ve [flowchart]{"entity": "cpplus_content", "value": "flowchart"} la ve nhu the nao vay bot?
+    - lam sao de t co the ve dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} day chatbot?
+    - Cu phap cua [comment](cpplus_content) la gi
+    - Cu phap cua [include](cpplus_content) la gi
+    - Cu phap cua [library](cpplus_content) la gi
+    - Cu phap cua [namespace](cpplus_content) la gi
+    - Cu phap cua [pseudo-code](cpplus_content) la gi
+    - Cu phap cua [variable](cpplus_content) la gi
+    - Cu phap cua [unsigned](cpplus_content) la gi
+    - Cu phap cua [signed](cpplus_content) la gi
+    - Cu phap cua [short](cpplus_content) la gi
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
@@ -3530,6 +4326,121 @@ nlu:
     - Tại sao lại dùng [con trỏ]{"entity": "cpplus_content", "value": "pointer"} ?
     - Tại sao khai báo [thư viẹn]{"entity": "cpplus_content", "value": "library"} ?
     - Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"} ?
+    - Dume tai sao lai phai hoc ve [Pointer]{"entity": "cpplus_content", "value": "pointer"}
+    - tai sao lai can biet ve [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+    - Sao tao lai hoc ve [Con tro]{"entity": "cpplus_content", "value": "pointer"}?
+    - [Con tro]{"entity": "cpplus_content", "value": "pointer"}, vi sao hoc?
+    - [pointer](cpplus_content), vi sao can biet?
+    - kieu [enum]{"entity": "cpplus_content", "value": "enumeration"} co cc gi ma tao can phai hoc ve no?
+    - Giai thich sao lai co kieu [enum]{"entity": "cpplus_content", "value": "enumeration"} coi bot
+    - Kieu [so thuc]{"entity": "cpplus_content", "value": "floating-point"}, sao lai phai hoc no?
+    - kieu [float]{"entity": "cpplus_content", "value": "floating-point"} sao lai hoc no
+    - Cho toi ly do vi sao lai co kieu [Float]{"entity": "cpplus_content", "value": "floating-point"} duoc khong?
+    - sao co kieu float roi ma lai co them kieu [double](cpplus_content) chi vay may?
+    - tai sao binh thuong co kieu float roi, gio lai co them kieu [double](cpplus_content) voi cung chuc nang bieu dat de chi vay?
+    - vi sao lai xai kieu [double](cpplus_content)?
+    - Tai sao lai xai kieu [double](cpplus_content)
+    - kieu du lieu [Double]{"entity": "cpplus_content", "value": "double"}, vi sao lai xai?
+    - Kieu [char]{"entity": "cpplus_content", "value": "character"}, vi sao dung?
+    - vi sao tao nen dung kieu [char]{"entity": "cpplus_content", "value": "character"} the ?
+    - Tai sao lai co [kieu ki tu]{"entity": "cpplus_content", "value": "character"} v bot ngu oc cut?
+    - kieu [character](cpplus_content), vi sao hoc?
+    - tai sao lai co them kieu [String]{"entity": "cpplus_content", "value": "string"} trong khi da co mang ki tu roi?
+    - Vi sao lai nen dung kieu [string](cpplus_content) thay vi dung mot mang cac ki tu?
+    - tai sao nen hoc [kieu chuoi]{"entity": "cpplus_content", "value": "string"}?
+    - tai sao gio con co them khai niem [union](cpplus_content) v?
+    - Vi sao lai co khai niem [local variable]{"entity": "cpplus_content", "value": "local-variable"}
+    - sao lai co them noi dung ve [local variable]{"entity": "cpplus_content", "value": "local-variable"} nua v lz
+    - tai sao lai co khai niem ve [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} vay m?
+    - Tai sao lai co def ve [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} the
+    - [Bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"}, vi sao hoc?
+    - Vi sao lai hoc [Bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"}
+    - [global variable]{"entity": "cpplus_content", "value": "global-variable"}, vi sao hoc???
+    - vi sao lai sinh ra khai niem [global variable]{"entity": "cpplus_content", "value": "global-variable"} the may?
+    - sao nguoi ta lai phat minh them khai niem ve [Bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"} the?
+    - Sao co them kieu [auto](cpplus_content) chi v?
+    - sao len c++ 11 nguoi ta co them kieu du lieu [auto](cpplus_content) chi vay bot?
+    - O ban c++11, sao nguoi ta lai co them kieu du lieu [auto](cpplus_content) v bot ngu?
+    - dung [bien tinh]{"entity": "cpplus_content", "value": "static"} chi v m
+    - sao lai co them bien [static](cpplus_content) de lam chi rua?
+    - Tai sao nguoi ta lai xai [bien tinh]{"entity": "cpplus_content", "value": "static"} v em iu?
+    - sao trong c++ con co them bien [static](cpplus_content) vay? vi sao xai no the?
+    - Dm kieu [Vector]{"entity": "cpplus_content", "value": "vector"}, sao lai phai hoc?
+    - tai sao da co kieu array roi ma gio con co kieu [vector](cpplus_content) nua vay may?
+    - vi sao toi duoc khuyen nen dung [vector](cpplus_content) hon la dung array?
+    - Cho toi hoi vi sao nguoi ta khuyen nen dung [vector](cpplus_content) hon la dung array?
+    - Tai sao lai nen dung [Vector]{"entity": "cpplus_content", "value": "vector"} hon la Array?
+    - Sao su dung [Vector]{"entity": "cpplus_content", "value": "vector"} lai tot hon dung array the bot?
+    - sao lai can dung [toan tu phay]{"entity": "cpplus_content", "value": "comma-operator"}?
+    - tai sao phai hoc mon [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"} the bot
+    - vi s t lai phai hoc cai mon [nhap mon lap trinh]{"entity": "cpplus_content", "value": "introduction-to-programming"} xam lz v
+    - Vi sao minh lai can hoc [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"} the bot
+    - Ly do gi ma t lai phai hoc [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"} ?
+    - tai sao lai can dung [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} khi lap trinh?
+    - [toan tu phay]{"entity": "cpplus_content", "value": "comma-operator"}, vi sao can no?
+    - tai sao phai dung [dau phay]{"entity": "cpplus_content", "value": "comma-operator"} khi lap trinh?
+    - Tai sao lai phai hoc [Ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"}
+    - Sao tao phai ngoi hoc [Toan tu ba ngoi]- tai sao lai phai hoc [ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"} v, nhin phuc tap vai loz
+    - tai sao lai co [toan tu hai ngoi]{"entity": "cpplus_content", "value": "binary-operator"} tai sao lai phai hoc [ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"} the?
+    - vi sao lai nen hoc [Binary operator]{"entity": "cpplus_content", "value": "binary-operator"}?
+    - tai sao lai co [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"}?
+    - Ly do gi ma lai co [unary operator]{"entity": "cpplus_content", "value": "unary-operator"} the?
+    - vi sao nguoi ta lai sinh ra [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"} lam gi vay?
+    - [toan tu doi bit]{"entity": "cpplus_content", "value": "shift-operator"}, vi sao dung?
+    - tai sao lai nen xai [logical operator]{"entity": "cpplus_content", "value": "logical-operator"}?
+    - sao lai phai xai [toan tu quan he]{"entity": "cpplus_content", "value": "comparison-operator"}?
+    - vi sao con nguoi ta lai nen xai [toan tu so sanh]{"entity": "cpplus_content", "value": "comparison-operator"} the?
+    - Sao lai can xai [toan tu]{"entity": "cpplus_content", "value": "operator"} khi lap trinh
+    - E may, sao trong lap trinh, nguoi ta lai sinh ra khai niem [toan tu]{"entity": "cpplus_content", "value": "operator"} de lam gi vay
+    - [Operator]{"entity": "cpplus_content", "value": "operator"} trong lap trinh dung de lam cai veo gi?
+    - tai sao co khai niem [if](cpplus_content) trong lap trinh?
+    - Vi sao lai san sinh ra khai niem [if](cpplus_content) trong code lam gi the ?
+    - tai sao lai co khai niem [loop](cpplus_content)?
+    - tao khong hieu sao nguoi ta lai tao ra khai niem [vong lap]{"entity": "cpplus_content", "value": "loop"} de lam gi luon a bot?
+    - e bot oi, tai sao trong code, lai co khai niem ve [vong lap]{"entity": "cpplus_content", "value": "loop"} vay may?
+    - tai sao lai co khai niem ve [cau truc dieu khien]{"entity": "cpplus_content", "value": "control-flow"} the?
+    - trong lap trinh, vi sao lai co khai niem [flow of control]{"entity": "cpplus_content", "value": "control-flow"} v?
+    - tai vi lam sao ma lai co khai niem [flow controls]{"entity": "cpplus_content", "value": "control-flow"} v bot oi
+    - Vi sao lai co vong [for](cpplus_content) trog lap trinh?
+    - Tai sao lai can cau lenh [break](cpplus_content)
+    - vi sao con nguoi ta khi code lai can lenh [continue](cpplus_content)
+    - e may, sao tao lai can cai lenh [goto](cpplus_content) lam gi the?
+    - E e e, bot oi, sao lai su dung lenh [goto](cpplus_content) vay bot?
+    - Bot oi bot a, sao tao lai can su dung [ham]{"entity": "cpplus_content", "value": "function"} khi viet code the bot?
+    - bot oi bot oi, tai sao lai can hoc [function](cpplus_content) de viet code cho ngon the
+    - vi sao muon viet code tot lai can phai hoc [function](cpplus_content) vay may?
+    - Tai sao lai co khai niem [tham so]{"entity": "cpplus_content", "value": "parameter"}
+    - vi sao lai co khai niem [parameter](cpplus_content)
+    - sao lai sinh ra them khai niem [doi so]{"entity": "cpplus_content", "value": "argument"} la shaoooo
+    - tai sao trong c++ ngui ta lai dung khai niem [argument](cpplus_content) the
+    - tai sao trong lap trinh, nguoi ta lai sinh ra khai niem [de quy]{"entity": "cpplus_content", "value": "recursion"} vay?
+    - Lon ma, lap trinh da kho roi ma sao nguoi ta con lam them cai [de quy]{"entity": "cpplus_content", "value": "recursion"} chi vay bot oi huhu
+    - Bot oi tai sao lai phai biet dung [recursion](cpplus_content) vay bot
+    - E bot, tao khong hieu vi sao lai co khai niem [truyen tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} luon a
+    - ne bot, m co biet vi sao lai co vu [truyen tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} ko?
+    - e bot oi, m co the giai thich cho tao vi sao co vu [pass by reference]{"entity": "cpplus_content", "value": "pass-by-reference"} duoc k?
+    - ban oi, ban co the giai thich cho minh vi sao lai su dung [pass by value]{"entity": "cpplus_content", "value": "pass-by-value"} duoc khong a?
+    - Da anh oi, anh co the cho biet vi sao minh lai dung [tham chieu hang]{"entity": "cpplus_content", "value": "const-reference"} duoc khong a?
+    - Anh oi anh, anh cho em biet vi sao lai dung [constant reference]{"entity": "cpplus_content", "value": "const-reference"} dc khong a?
+    - Eeeee, vi sao lai... dung ham [main]{"entity": "cpplus_content", "value": "main-function"} the :))
+    - tai sao lai nen su dung cac [ham dung san]{"entity": "cpplus_content", "value": "built-in-function"} vay may?
+    - e, tai sao trong lap trinh lai nen dung cac [built in functions]{"entity": "cpplus_content", "value": "built-in-function"} the bot?
+    - e bot, tai sao nen hoc ve [ham noi tuyen]{"entity": "cpplus_content", "value": "inline-function"}?
+    - tai sao lai can hoc [inline functions]{"entity": "cpplus_content", "value": "inline-function"}?
+    - vi sao lai sinh ra them ham [lambda](cpplus_content) chi cuc v?
+    - vi sao co ham [lambda](cpplus_content)?
+    - Vi sao lai nen phan biet [bien cuc bo]{"entity": "cpplus_content", "value": "local-variable"} va [bien toan cuc]{"entity": "cpplus_content", "value": "global-variable"} ra chi v?
+    - Vi sao lai co khai niem ve [local variable]{"entity": "cpplus_content", "value": "local-variable"} va [global variable]{"entity": "cpplus_content", "value": "global-variable"}?
+    - vi sao lai co cac khai niem ve [truyen tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} hay [truyen tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} v?
+    - tai sao lai can [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}?
+    - vi sao lai can phai su dung [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"} ?
+    - Tai sao phai dung [vector](cpplus_content)
+    - Vi sao phai su dung [ham]{"entity": "cpplus_content", "value": "function"}
+    - Noi nghe tai sao phai su dung [ham]{"entity": "cpplus_content", "value": "function"} vay bot oi ?
+    - Tai sao phai dung [ham]{"entity": "cpplus_content", "value": "function"} vay ta ?
+    - Tai sao lai dung [con tro]{"entity": "cpplus_content", "value": "pointer"} ?
+    - Tai sao khai bao [thu vien]{"entity": "cpplus_content", "value": "library"} ?
+    - Tai sao phai dung [bien]{"entity": "cpplus_content", "value": "variable"} ?
 - intent: cpplus_when_asking
   examples: |
     - Khi nào thì cần khai báo một [biến]{"entity": "cpplus_content", "value": "variable"}?
@@ -3612,6 +4523,48 @@ nlu:
     - Cồ râu nà
     - cô vít
     - cô vít 19
+    - Corona
+    - corona
+    - Tinh hinh corona
+    - corona la gi
+    - the nao la corona
+    - Corona la sao?
+    - nhu the nao la corona
+    - mot con corona la nhu the nao
+    - The nao la 1 be covid 19
+    - covid muoi chin
+    - cho hoi corona
+    - Co ro na la gi v
+    - Corona la wtf gi
+    - Cho toi hoi the nao la mot con corona
+    - Covid-19
+    - Tinh hinh dich corona
+    - Phong ngua corona
+    - Cach phong chong corona
+    - Sars-ncov
+    - Ncov
+    - SARS-NCOV
+    - dai dich corona
+    - Corona pandemic
+    - corona virus
+    - Corona vi rut
+    - Con corona
+    - covid-19 tinh hinh
+    - Covid 19 hien nay
+    - dich covid tai tphcm
+    - Dich covid 19 tphcm
+    - Dich benh covid 19
+    - tinh hinh covid tai viet nam
+    - Covid 19 tinh hinh tai viet nam
+    - ngan chan corona
+    - covid 19
+    - sars_ncov
+    - sars ncov 2019
+    - dai dich covid 19
+    - con di corona
+    - Co rau na
+    - co vit
+    - co vit 19
     - Corona
 - intent: first_name
   examples: |
@@ -3811,6 +4764,65 @@ nlu:
     - what exactly are you?
     - mày là con cặc gì vậy
     - Bạn là ai
+    - giới tính của bạn là gì?
+    - Bạn tên gì
+    - Bạn là ai
+    - Bạn tên gì
+    - DAI NHAN TEN GI
+    - LANG KHACH TEN GI
+    - QUY NHAN TEN GI
+    - YO WTF M LA AI THE
+    - BAN TEN GI
+    - BAN TEN LA GI
+    - BAN LA AI
+    - BAN LA THE LOAI GI V
+    - BAN TEN LA GI NHI
+    - MAY TEN GI
+    - MAY TEN LA GI
+    - MAY LA AI
+    - MAY TEN LA GI NHI
+    - MAY LA CAI QUAI GI VAY
+    - M LA CC GI V
+    - M LA TH LZ NAO
+    - M LA CAI CC GI
+    - CC M LA AI
+    - CCC M LA CAI CC GI
+    - What is your name?
+    - Kimi no na wa ?
+    - Ban ten gi
+    - ban la ai
+    - Ban ten la gi nhi?
+    - ban ten gi the
+    - cho minh hoi ban ten la gi the
+    - may ten gi
+    - May ten gi nhi?
+    - Ten gi
+    - ten cua may la ?
+    - ten mi la?
+    - Ten cua mi la?
+    - Mi ten gi nhi?
+    - ten may la gi
+    - noi tao nghe ten may
+    - noi bo m nghe ten cua m xem nao
+    - noi cho ta biet ten nha nguoi la gi
+    - may la gi
+    - may la ai
+    - ai la may
+    - ai la ban
+    - may rot cuoc la gi vay
+    - may rot cuoc la gi
+    - may la thang nao
+    - may la cai lz que gi zay
+    - may la lz que nao v
+    - may la con nao
+    - May la the loai gi vay
+    - may la thuc the gi the
+    - may rot cuoc la cai quai gi vay
+    - M la th nao
+    - m la cai gi
+    - m la cai wtf gi the
+    - ban chat cua m la gi
+    - m ten gi
 - intent: want_to_practice_cpp
   examples: |
     - TAO MUỐN ĐC ÔN TẬP CPP
@@ -3910,6 +4922,48 @@ nlu:
     - Cho t làm 1 số bài code để luyện ngón nào
     - Gửi tao 1 số bài code tối làm ngủ cho ngon đê bot
     - Làm bài tập C++
+    - bo m muon dc on tap cac bai ve c++
+    - t muon dc on bai ve c++
+    - cho t on tap 1 so bai ve c++
+    - hay gui cho t 1 so bai tap ve c++
+    - hay cho tao 1 so cac cai bai tap ve c
+    - cho t 1 so bai on luyen nhap mon lap trinh
+    - bai tap nmlt
+    - Bai on nmlt
+    - On tap giua ky c++
+    - On tap cuoi ky c++
+    - On cuoi ky nmlt
+    - Lam bai tap NMLT
+    - cay bai tap NMLT
+    - luyen bai tap NMLT
+    - cay cac cai bai toan ve NMLT
+    - cay bai c/c++
+    - luyen tap bai tap nmlt c++
+    - trau doi ki thuat lam bai c++
+    - gui toi bai c++ nmlt
+    - Gui cho toi 1 so cac cai cau hoi lien quan den C++ de
+    - E bot gui t 1 vai cau code C++ lam choi coi nao
+    - Lam bai code C++
+    - Luyen bai code C/C++
+    - Cay bai C++
+    - Minh muon on tap C++
+    - cho minh on tap 1 ti xiu ve C++ nao botchat
+    - Chatbot luyen minh vai bai code c++ xem nao
+    - gui cho minh vai bai code C di chatbot
+    - chatbot oi gui may bai toan code NMLT di nao
+    - ChatBot gui cho toi 1 so bai toan NMLT de luyen tay di nao
+    - Ok luyen bai C++
+    - Cho toi xin 1 so bai tap code C
+    - Luyen cho tui vai bai code C dc hong
+    - eee cho vai bai tap code c voi
+    - eee gui tui 1 so bai code C ikkk
+    - eeekk t muon dc luyen bai code C i
+    - ne bot oi cho t lam 1 so bai tap ve C++ di may
+    - e bot oi cho minh lam 1 so bai code c di
+    - e bot oi t muon dc lam 1 so bai tap code
+    - e bot oi t muon luyen code tay
+    - E Bot oi t muon dc giai code
+    - ne bot oi tao muon dc giai Code
 - intent: cpp_practice
   examples: |
     - TAO MUỐN ÔN TẬP VỀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++
@@ -4102,6 +5156,57 @@ nlu:
     - Gửi bố m bài sơ đồ thuật toán coi bot
     - gửi mình bài tập lưu đồ thuật toán với ạ
     - Làm bài tập lưu đồ thuật toán (flowchart)
+    - SACH THAY KHANG BAI TAP
+    - SACH KY THUAT LAP TRINH THAY KHANG BAI TAP FLOWCHART
+    - FLOWCHART THAY KHANG
+    - bai tap flowchart
+    - luyen tap ve luu do
+    - Luyen tap ve flowchart
+    - Ve Flowchart
+    - Flowchart Ve
+    - luyen tap lam bai tap thay Khang
+    - Thuc hanh ve luu do thuat toan
+    - thuc hanh ve flowchart
+    - thuc hanh ve bai tap thay Khang
+    - Thuc hanh ve voi luu do
+    - bai tap luu do thuat toan
+    - Bai thay Khang
+    - bai tap thay Khang
+    - Bai tap luu do thuat toan thay Khang
+    - bai tap luu do thuat toan uit
+    - cay bai tap thay Khang
+    - cay luu do thuat toan
+    - Flowchart practice
+    - toi muon lam bai tap thay Khang
+    - Cho toi lam bai thay Khang
+    - e bot, m co bai tap thay Khang nao khong gui t lam voi
+    - E bot t muon luyen luu do thuat toan a, m co bai nao khong gui t lam voi
+    - Alo, t can bai tap luu do thuat toan, gui t vai cai di
+    - t muon luyen tap them flowchart
+    - alo alo cho a m luyen ti skill flowchart nao
+    - Luyen tap ve flowchart
+    - luyen tap bai thay Khang
+    - Cac bai tap giup nang cao kha nang lam bai luu do
+    - cac dang bai tap giup nang trinh ve luu do
+    - Moi loai bai tap giup up trinh ve luu do
+    - Gui bo may mot loat bai Flowchart de ve coi nao
+    - minh muon cay bai flowchart
+    - bai tap sach ki thuat lap trinh thay khang
+    - Gui bai tap sach ky thuat lap trinh thay Khang
+    - gui cho toi mot so cau hoi lien quan den phan bai tap luu do thuat toan trong sach ki thuat lap trinh cua thay khang di
+    - Bot oi, gui tui on mot vai cau luu do thuat toan sach ky thuat lap trinh di
+    - bai lap luu do thuat toan sach ky thuat lap trinh
+    - Sach thay khang bai tap
+    - sach ky thuat lap trinh thay khang bai tap flowchart
+    - Flowchart thay khang
+    - flowchart sach ky thuat lap trinh thay nguyen tan tran minh khang
+    - Bai tap thay nguyen tan tran minh khang
+    - sach ki thuat lap trinh cua thay nguyen tan tran minh khang
+    - Sach ki thuat lap trinh cua thay Khang
+    - Cho toi lam mot so cau ve luu do thuat toan cua thay nguyen tan tran minh khang tac gia cua sach di a
+    - E, cho t lam bai tham khao cua mot so cau ve flowchart cua thay minh khang di bot
+    - gui tham khao mot vai cau luu do trong sach ki thuat lap trinh coi nao
+    - Ban oi gui cho minh mot so bai tap flowchart voi a
 - intent: flowchart_asking
   examples: |
     - BÀI LƯU ĐỒ CÂU [66](flowchart_quest_num)
@@ -4222,6 +5327,55 @@ nlu:
     - Câu số [13](flowchart_quest_num)
     - Câu số [37](flowchart_quest_num)
     - lưu đồ thuật toán thầy Khang bài [3](flowchart_quest_num)
+    - Alo, cau so [19](flowchart_quest_num) luu do thuat toan ban eii
+    - Gui dap an cau so [50](flowchart_quest_num) di a
+    - E, cau luu do thuat toan [80](flowchart_quest_num) lam sao vay bot, chi tui voiii
+    - cuu tao cau [20](flowchart_quest_num) bai luu do di bot
+    - Gui dap an cau [30](flowchart_quest_num) phan luu do
+    - gui cau [59](flowchart_quest_num) luoc do thuat toan de
+    - gui t cau [111](flowchart_quest_num) phan luu do thuat toan cai nhe nao
+    - e m ranh k, gui t cau [29](flowchart_quest_num) phan luu do cai
+    - ne bot ngu oi, gui t loi giai cau [61](flowchart_quest_num) lz que nay cai m
+    - luoc do thuat toan cau so [76](flowchart_quest_num)
+    - luoc do thuat toan cau so [25](flowchart_quest_num) sach thay khang
+    - so do thuat toan cau [82](flowchart_quest_num)
+    - loi giai cuc ki chi tiet va chat luong cua cau [09](flowchart_quest_num) de bot eii
+    - hay gui toi loi giai chi tiet cua cau luu do so [1](flowchart_quest_num) di a
+    - cau so [21](flowchart_quest_num) luu do dap an la gi vay
+    - dap an cau so [7](flowchart_quest_num) la gi
+    - dap an cau [25](flowchart_quest_num) sach thay khang la gi
+    - Bai tap [3](flowchart_quest_num) di bot
+    - bai tap [2](flowchart_quest_num)
+    - bai tap [2](flowchart_quest_num) bai tap [3](flowchart_quest_num)
+    - Cau thu [3](flowchart_quest_num) cau thu [4](flowchart_quest_num) cau thu [5](flowchart_quest_num) cau thu [6](flowchart_quest_num)
+    - tao muon hoi m cau so [10](flowchart_quest_num) va cau so [30](flowchart_quest_num)
+    - cho dap an cau [40](flowchart_quest_num) [41](flowchart_quest_num) [42](flowchart_quest_num) di m
+    - Cho t xin dap an cau so [50](flowchart_quest_num) voi [56](flowchart_quest_num) di may
+    - e bot oi gui t cau hoi [9](flowchart_quest_num) [23](flowchart_quest_num) di ne
+    - gui a m cau [34](flowchart_quest_num) [56](flowchart_quest_num) lam choi coi ne
+    - e t muon hoi cau [19](flowchart_quest_num), cau [20](flowchart_quest_num) va cau [21](flowchart_quest_num)
+    - cho minh xin cau [94](flowchart_quest_num) zoi [21](flowchart_quest_num) di
+    - gui toi so [5](flowchart_quest_num), so [8](flowchart_quest_num), so [1](flowchart_quest_num)
+    - ban cho toi cai cau so [49](flowchart_quest_num) voi cau so [50](flowchart_quest_num) di bot
+    - Cau [10](flowchart_quest_num) va cau [20](flowchart_quest_num)
+    - Bai giai cau so [21](flowchart_quest_num) cau [33](flowchart_quest_num)
+    - cau [40](flowchart_quest_num) cau [80](flowchart_quest_num)
+    - cau [21](flowchart_quest_num) va [95](flowchart_quest_num)
+    - cau [70](flowchart_quest_num) va [40](flowchart_quest_num) va [20](flowchart_quest_num)
+    - cau [1](flowchart_quest_num)
+    - Cau so [100](flowchart_quest_num)
+    - Cau so [1](flowchart_quest_num)
+    - Minh muon hoi cau so [2](flowchart_quest_num)
+    - Bai [1](flowchart_quest_num)
+    - Cau [2](flowchart_quest_num)
+    - Cau so [200](flowchart_quest_num)
+    - Cau so [19](flowchart_quest_num)
+    - Cau so [20](flowchart_quest_num)
+    - Cau so [10](flowchart_quest_num)
+    - Cach giai bai so [2](flowchart_quest_num)
+    - Cau so [13](flowchart_quest_num)
+    - Cau so [37](flowchart_quest_num)
+    - luu do thuat toan thay Khang bai [3](flowchart_quest_num)
 - intent: time
   examples: |
     - Cho mình hỏi bây giờ mấy giờ rồi ?
@@ -4350,6 +5504,63 @@ nlu:
     - why you need to know about that information?
     - why you need such informations ?
     - I don't want to answer that !
+    - TAI SAO LAI PHAI CU THE HOA 1 CAU HOI BAT KI? TAO MUON ON TAP THI CU ON TAP CHUNG CHUNG CHO TAO DI CON BOT NGU
+    - TAI S LAI CAN LAM V?
+    - TAI S LAI PHAI LAM NHU THE?
+    - TAI SAO M LAI CAN CO THONG TIN DO ?
+    - TAI S LAI PHAI LAM ZAY CHI?
+    - TAI S T LAI CAN PHAI LAM NHU VAY CHI THE @@
+    - TAI VI SAO MA M LAI BAT T CHON CAU HOI???
+    - TAI SAO T LAI CO NGHIA VU DUA CAU HOI CHO M?
+    - TAI S LAI CAN SO CAU HOI? K TU DUA 1 VAI CAU RA DC A?
+    - SAO T PHAI TRA LOI SO CAU HOI NUA?
+    - SAO MINH LAI CAN PHAI TRA LOI THEM CAU NAY NUA? DUA MINH DAI 1 CAU NAO THOI CUNG DC R
+    - SAO LAI PHAI NOI THEM VU NAY NUA THE?
+    - S T LAI CAN PHAI TRA LOI THEM 1 CAU NAY NUA V?
+    - S BO M LAI PHAI TRA LOI ZU NAY? DUA DAI RA 1 CAU NAO DAY DI CUNG DC
+    - S M LAI CAN SO CAU HOI CU THE? TU DUA RA 1 VAI CAU ON TAP DI???
+    - S LAI CAN PHAI XAC DINH SO CAU HOI CU THE NAO DO?
+    - SAO TAO LAI CAN PHAI DUA SO CAU HOI CU THE NHU THE?
+    - SAO M LAI CAN CO THONG TIN DO ?
+    - VI S M LAI CAN CAI THONG TIN DAY V BOT?
+    - VI SAO LAI CAN PHAI DUA RA SO CAU CU THE?
+    - VI SAO LAI PHAI NOI THEM VU NAY NUA TRONG KHI M CO THE DUA RA DAI 1 VAI CAU CUNG DC MA?
+    - VI SAO TAO LAI CAN PHAI TRA LOI THEM CAU HOI NAY CUA MAY NUA V BOT
+    - VI SHAO MA CAN PHAI NOI THEM CAI NAY NUA DKM, DUA DAI RA 1 VAI CAU CMM DI
+    - VI SHAO LAI CAN CO SO CAU HOI CO DINH NUA, ON TAP CHUNG CHUNG VAI CAU DI DO BOT NGU
+    - VI S LAI PHAI LAM THE? CU GUI VAI CAU RANDOM LAM SUONG SUONG LA OK R
+    - GUI DAI VAI CAU RANDOM CUNG DC R MA???
+    - tai sao t lai phai so cau hoi cho m
+    - Tai s lai can so cau hoi de lam gi?
+    - Tai shao m lai phai can so cau hoi the? Dua dai cau gi ra bo khong duoc hay sao?
+    - tai sao t lai phai chi dinh cau hoi cu the lam gi, dua dai t cau nao cung dc
+    - tai sao lai can co so cau hoi the ? Khong co khong dc a
+    - Tai sao lai phai cu the hoa 1 cau hoi bat ki? tao muon on tap thi cu on tap chung chung cho tao di con bot ngu
+    - Tai s lai can lam v?
+    - Tai s lai phai lam nhu the?
+    - Tai sao m lai can co thong tin do ?
+    - Tai s lai phai lam zay chi?
+    - tai s t lai can phai lam nhu vay chi the @@
+    - tai vi sao ma m lai bat t chon cau hoi???
+    - tai sao t lai co nghia vu dua cau hoi cho m?
+    - tai s lai can so cau hoi? k tu dua 1 vai cau ra dc a?
+    - Sao t phai tra loi so cau hoi nua?
+    - Sao minh lai can phai tra loi them cau nay nua? Dua minh dai 1 cau nao thoi cung dc r
+    - sao lai phai noi them vu nay nua the?
+    - s t lai can phai tra loi them 1 cau nay nua v?
+    - s bo m lai phai tra loi zu nay? dua dai ra 1 cau nao day di cung dc
+    - S m lai can so cau hoi cu the? Tu dua ra 1 vai cau on tap di???
+    - S lai can phai xac dinh so cau hoi cu the nao do?
+    - Sao tao lai can phai dua so cau hoi cu the nhu the?
+    - Sao m lai can co thong tin do ?
+    - Vi s m lai can cai thong tin day v bot?
+    - Vi sao lai can phai dua ra so cau cu the?
+    - vi sao lai phai noi them vu nay nua trong khi m co the dua ra dai 1 vai cau cung dc ma?
+    - vi sao tao lai can phai tra loi them cau hoi nay cua may nua v bot
+    - vi shao ma can phai noi them cai nay nua dkm, dua dai ra 1 vai cau cmm di
+    - vi shao lai can co so cau hoi co dinh nua, on tap chung chung vai cau di do bot ngu
+    - Vi s lai phai lam the? Cu gui vai cau random lam suong suong la ok r
+    - Gui dai vai cau random cung dc r ma???
 - intent: dont_want_to_give_cpp_content
   examples: |
     - tại sao m lại cần thông tin đó v
@@ -4509,6 +5720,63 @@ nlu:
     - gửi cho bố m mấy cái link dạy lý thuyết c++ cái coi bot ngu
     - cho t coi mấy cái video hướng dẫn lý thuyết C++ đi
     - Xem video bài giảng Nhập môn lập trình
+    - CHO TUI COI 1 SO VIDEO BAI GIANG VE C++ VOI BA
+    - E GUI LINK VIDEO BAI GIANG C++ DI PA
+    - GUI TUI MAY VIDEO BAI GIANG UIT IKKK
+    - CHO TOII XEM VIDEO BAI GIANG NMLT
+    - NHAP MON LAP TRINH VIDEO BAI GIANG
+    - LAP TRINH C++ VIDEO BAI DAY
+    - C++ VIDEO BAI GIANG
+    - C++ TUTORIALS
+    - C++ PROGRAMMING TUTORIALS
+    - INTRODUCTION TO PROGRAMMING VIDEO TUTORIALS
+    - LINK VIDEO INTRODUCTION TO PROGRAMMING
+    - VIDEO HUONG DAN KI THUAT LAP TRINH C++
+    - THI PHAM QUA VIDEO HUONG DAN KI THUAT CODE C++
+    - VIDEO BAI GIANG VE LY THUYET C++
+    - LY THUYET C++ TUTORIALS
+    - GUI CHO BO M MAY CAI LINK DAY LY THUYET C++ CAI COI BOT NGU
+    - CHO T COI MAY CAI VIDEO HUONG DAN LY THUYET C++ DI
+    - XEM VIDEO BAI GIANG NHAP MON LAP TRINH
+    - coi video bai giang
+    - coi video huong dan c++
+    - coi vid bai c++
+    - coi cac video ve c++
+    - coi cac cai videos ve C++ cua UIT
+    - Coi cac bai giang C++ cua khoa CS UIT
+    - Coi cac bai tutorials C++ cua Khoa Khoa Hoc May Tinh UIT
+    - Coi mot so cac cai video tutorials CPP cua truong dai hoc cong nghe thong tin
+    - Cho toi coi 1 so cac video bai giang C++ cua truong CNTT
+    - Cho minh xem video bai giang ve NMLT UIT
+    - Cho toi xem video bai giang NMLT
+    - cho xin link video bai giang nmlt
+    - Cho link bai giang lap trinh c++ uit
+    - cho bo m coi 1 so link video bai giang day nmlt cua m coi bot ngu
+    - Cho toi xin link video cac bai day NMLT
+    - cho minh xem 1 so video nmlt cua khoa khmt voi bot
+    - cho em xem 1 so video day ve nmlt ben uit voi a
+    - cho iem coi so qua 1 so video bai giang nmlt thuong hieu uit zoi akk
+    - t muon xem 1 so video huong dan hoc nmlt
+    - t muon thi pham 1 so video bai giang cua truong m
+    - t xin phep duoc thi pham mot so series bai giang ve nhap mon lap trinh truong may
+    - Tao muon xem mot vai video tutorial ve NMLT
+    - T mun coi video day C++
+    - tao mun coi video C++
+    - t muon dc coi video bai giang C++ cua cac thay co UIT
+    - t muon dc xem C++ UIT
+    - minh muon xem qua mot vai cac cai video bai giang ve C++ cua truong UIT
+    - minh muon dc coi qua 1 so video bai giang cua UIT ve lap trinh C++
+    - Toi muon duoc coi qua mot so series day nhap mon lap trinh cua uit
+    - Toi rat muon duoc coi qua cac video bai giang ve lap trinh C++ tai UIT
+    - Toi co the xem qua mot so series bai giang ve Lap trinh c++ cua truong dai hoc cntt nay dc chu?
+    - tao co the duoc phep xem qua 1 so bai giang ve Lap Trinh C++ cua truong minh k chatbot
+    - E co the xin link video bai day c++ cua truong minh dc k a bot
+    - E muon vai link video bai day C++ cua truong minh anh bot a
+    - e muon coi 1 vai link bai giang c++ cua truong minh a bot uii
+    - Chi muon duoc coi qua thu video bai giang cua may cung xem sao
+    - bot oi tui muon coi video bai giang
+    - Bot oi cho tui coi video bai giang nmlt
+    - bot cho coi nmlt di
 - intent: cpplus_specific_video_tutorial_asking
   examples: |
     - VIDEO VỀ [C]{"entity": "cpplus_content", "value": "cplusplus"}++
@@ -4617,6 +5885,70 @@ nlu:
     - Series về bài [hàm]{"entity": "cpplus_content", "value": "function"} trong c++
     - 1 loạt series bài giảng về lý thuyết [Hàm]{"entity": "cpplus_content", "value": "function"} trong C++
     - Tutorials về khái niệm [vòng lặp]{"entity": "cpplus_content", "value": "loop"} trong C++
+    - BAI GIANG VE [MANG HAI CHIEU]{"entity": "cpplus_content", "value": "2d-array"} CUA TRUONG DAI HOC CONG NGHE THONG TIN
+    - BAI GIANG LY THUYET VE KIEU [STRUCT]{"entity": "cpplus_content", "value": "structure"} CUA UIT
+    - BOT OI BAN GUI 1 VIDEO TUTORIAL VE [CLASS]{"entity": "cpplus_content", "value": "class"} CUA TRUONG UIT CUA BAN DI
+    - BAI GIANG VE [CON TRO]{"entity": "cpplus_content", "value": "pointer"} TRONG C++
+    - [POINTER]{"entity": "cpplus_content", "value": "pointer"} IN C++ TUTORIALS
+    - BAI GIANG CUA UIT VE [STRING]{"entity": "cpplus_content", "value": "string"} KHOA KHOA HOC MAY TINH
+    - VIDEO BAI GIANG CUA KHOA KHOA HOC MAY TINH CS UIT VE KIEU DU LIEU [STRING]{"entity": "cpplus_content", "value": "string"}
+    - BAI GIANG VE LY THUYET KIEU [CHUOI]{"entity": "cpplus_content", "value": "string"} UIT
+    - VIDEO BAI GIANG VE [KIEU DU LIEU]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - MOT SO VIDEO BAI QUAY VE [DATA TYPES]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - BAI GIANG HAY VE [KIEU KI TU]{"entity": "cpplus_content", "value": "character"} UIT
+    - VIDEO TUTORIALS LINK [VECTOR]{"entity": "cpplus_content", "value": "vector"} C++
+    - C++ LINK VIDEO [VECTOR]{"entity": "cpplus_content", "value": "vector"}
+    - BAI GIANG VE [TOAN TU]{"entity": "cpplus_content", "value": "operator"} TRONG C++
+    - SERIES TUTORIAL ABOUT [FUNCTION]{"entity": "cpplus_content", "value": "function"} IN CPP
+    - SERIES VE BAI [HAM]{"entity": "cpplus_content", "value": "function"} TRONG C++
+    - 1 LOAT SERIES BAI GIANG VE LY THUYET [HAM]{"entity": "cpplus_content", "value": "function"} TRONG C++
+    - TUTORIALS VE KHAI NIEM [VONG LAP]{"entity": "cpplus_content", "value": "loop"} TRONG C++
+    - video ve [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - Video ve nhap mon [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - Videos ve Nhap mon [C]{"entity": "cpplus_content", "value": "cplusplus"}++
+    - video tutorials ve [C]{"entity": "cpplus_content", "value": "cplusplus"}++ di bot oi
+    - videos tutorials ve [nhap mon lap trinh]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - gui video ve tutorial [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - video gioi thieu mon [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - Cac video gioi thieu ve [nmlt]{"entity": "cpplus_content", "value": "introduction-to-programming"} di
+    - gui toi video gioi thieu so bo ve [Nhap mon lap trinh]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+    - Gui t 1 so video ve [comment](cpplus_content)
+    - Video tutorials [comment](cpplus_content)
+    - C++ [comment](cpplus_content) tutorials
+    - Introduction to programming tutorials - [Comment]{"entity": "cpplus_content", "value": "comment"}
+    - video ve [Comment]{"entity": "cpplus_content", "value": "comment"}
+    - e bot gui t link bai [comment](cpplus_content) di
+    - gui t link bai [namespace](cpplus_content) cai
+    - Link bai ve [namespace](cpplus_content)
+    - Link [namespace](cpplus_content)
+    - [Namespace]{"entity": "cpplus_content", "value": "namespace"} tutorials
+    - Bot ngu gui t bai [namespace](cpplus_content) di m
+    - E send t bai ve [library](cpplus_content) di
+    - Ne bot ngu dua tao link video [library](cpplus_content) c++ coi may
+    - Link bai ve [Bien]{"entity": "cpplus_content", "value": "variable"} trong C++
+    - Bai [bien]{"entity": "cpplus_content", "value": "variable"} trong C++ video series
+    - link youtube bai [Variables]{"entity": "cpplus_content", "value": "variable"}
+    - Youtube link bai [variable](cpplus_content) C++
+    - Gui t 1 link video utube bai kieu [unsinged]{"entity": "cpplus_content", "value": "unsigned"} de
+    - Link utube bai gioi thieu ve kieu [unsigned](cpplus_content) trong C++
+    - video link bai [macro](cpplus_content) C++
+    - Link Youtube bai ve [macro](cpplus_content) Tutorials C++
+    - Bai tutorials ve ham [Macro]{"entity": "cpplus_content", "value": "macro"} trong C++
+    - video ly thuyet ve [mang]{"entity": "cpplus_content", "value": "array"} trong C++
+    - Link Video bai giang ve [mang mot chieu]{"entity": "cpplus_content", "value": "array"} trong C
+    - Bai giang [Mang mot chieu]{"entity": "cpplus_content", "value": "array"} trong C++
+    - [Mang hai chieu]{"entity": "cpplus_content", "value": "2d-array"} video link youtube
+    - Bai giang ve [mang hai chieu]{"entity": "cpplus_content", "value": "2d-array"} cua truong dai hoc cong nghe thong tin
+    - Bai giang ly thuyet ve kieu [struct]{"entity": "cpplus_content", "value": "structure"} cua UIT
+    - Bot oi ban gui 1 video tutorial ve [class](cpplus_content) cua truong UIT cua ban di
+    - Bai giang ve [con tro]{"entity": "cpplus_content", "value": "pointer"} trong C++
+    - [Pointer]{"entity": "cpplus_content", "value": "pointer"} in C++ Tutorials
+    - Bai giang cua uit ve [string](cpplus_content) khoa khoa hoc may tinh
+    - Video bai giang cua khoa Khoa hoc may tinh CS UIT ve kieu du lieu [string](cpplus_content)
+    - bai giang ve ly thuyet kieu [chuoi]{"entity": "cpplus_content", "value": "string"} UIT
+    - video bai giang ve [kieu du lieu]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - Mot so video bai quay ve [data types]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+    - Bai giang hay ve [kieu ki tu]{"entity": "cpplus_content", "value": "character"} UIT
 - intent: nlu_fallback
   examples: |
     - Gét :3
@@ -4631,6 +5963,11 @@ nlu:
     - Mảng một chiều
     - Mảng
     - mang mot chieu
+    - Mang mot chieu 
+    - Mang 1 chieu 
+    - mang 1 chieu 
+    - Mang Mot Chieu 
+    - Mang 1 Chieu 
     - Array
     - ARR
     - 1D ARRAY
@@ -4667,6 +6004,8 @@ nlu:
     - thư viẹn
     - THU VIEN
     - lib
+    - Thu vien 
+    - Thu Vien
 - synonym: namespace
   examples: |
     - không gian tên
@@ -4677,6 +6016,8 @@ nlu:
     - namepsace
     - NAMEPSACES
     - khong gian ten
+    - Khong gian ten 
+    - Khong Gian Ten
     - namespaces
     - name space
     - name spaces
@@ -4699,6 +6040,7 @@ nlu:
     - Variable
     - variables
     - bien
+    - Bien 
     - BIẾN
     - VARIABLE
     - VARIABLES
@@ -4723,6 +6065,7 @@ nlu:
     - OPERATOR
     - toan tu
     - Toan Tu
+    - Toan tu
 - synonym: if
   examples: |
     - If
@@ -4736,6 +6079,7 @@ nlu:
     - ifs
     - Điều Kiện
     - Dieu Kien
+    - Dieu kien
 - synonym: for
   examples: |
     - For
@@ -4792,6 +6136,8 @@ nlu:
     - FUNCTIONS
     - ham so
     - hàm số
+    - Ham so 
+    - Ham So
     - functions
     - func
     - funcs
@@ -4875,6 +6221,8 @@ nlu:
     - RECURSIONS
     - Đệ quy
     - DE QUY
+    - De quy 
+    - De Quy
     - RECURSIVE
     - de quy
     - recursive
@@ -4885,8 +6233,9 @@ nlu:
     - MẢNG HAI CHIỀU
     - Mảng 2D
     - Mang hai chieu
+    - Mang Hai Chieu
     - mang hai chieu
-    - Nảng hai chiều
+    - Mảng hai chiều
     - Ma trận
     - Mảng 2 chiều
     - ma trận
@@ -4898,7 +6247,6 @@ nlu:
     - 2D array
     - two dimensional array
     - matrix
-    - Mảng hai chiều
     - MẢNG 2D
     - MA TRAN
     - MANG HAI CHIEU
@@ -4908,6 +6256,8 @@ nlu:
     - two demensionals array
     - two-demensional array
     - ma tran
+    - Ma tran 
+    - Ma Tran 
     - Matrix
 - synonym: class
   examples: |
@@ -4917,6 +6267,7 @@ nlu:
     - LOP
     - Lớp
     - lop
+    - Lop
     - lớp
     - Classes
     - classes
@@ -4925,6 +6276,8 @@ nlu:
   examples: |
     - Con trỏ
     - con trỏ
+    - Con tro 
+    - Con Tro
     - Pointer
     - CON TRỎ
     - POINTER
@@ -4938,6 +6291,7 @@ nlu:
   examples: |
     - kiểu dữ liệu
     - Kieu du lieu
+    - Kieu Du Lieu
     - KIỂU DỮ LIỆU
     - KIEU DU LIEU
     - DATA TYPES
@@ -4974,6 +6328,7 @@ nlu:
     - so nguyen
     - So nguyen
     - Kieu so nguyen
+    - Kieu So Nguyen 
 - synonym: floating-point
   examples: |
     - float
@@ -5043,6 +6398,8 @@ nlu:
     - DECREMENT OPERATORS
     - TOÁN TỬ --
     - TOAN TU GIAM
+    - Toan tu giam 
+    - Toan Tu Giam
     - TOAN TU --
     - Toán tử giảm
     - Toán tử --
@@ -5061,6 +6418,8 @@ nlu:
     - unary operator
     - Unary
     - toan tu mot ngoi
+    - Toan tu mot ngoi 
+    - Toan Tu Mot Ngoi
     - UNARY OPERATOR
     - UNARY
     - UNARY OPERATORS
@@ -5075,6 +6434,8 @@ nlu:
 - synonym: binary-operator
   examples: |
     - toán tử hai ngôi
+    - Toan tu hai ngoi 
+    - Toan Tu Hai Ngoi
     - TOÁN TỬ HAI NGÔI
     - toan tu hai ngoi
     - Binary operator
@@ -5097,6 +6458,7 @@ nlu:
     - Toán tử ba ngôi
     - ternary operator
     - Toan tu ba ngoi
+    - Toan Tu Ba Ngoi
     - toan tu ba ngoi
     - Ternary operator
     - TOÁN TỬ 3 NGÔI
@@ -5113,6 +6475,7 @@ nlu:
     - Toán tử số học
     - TOÁN TỬ SỐ HỌC
     - Toan tu so hoc
+    - Toan Tu So Hoc 
     - toán tử số học
     - arithmetic operator
     - Arithmetic operator
@@ -5137,6 +6500,7 @@ nlu:
     - TOÁN TỬ LOGIC
     - Toan tu logic
     - toan tu logic
+    - Toan Tu Logic
     - Toán tử logic
     - Logical operator
     - logical operator
@@ -5154,6 +6518,7 @@ nlu:
   examples: |
     - Tham chiếu hằng
     - THAM CHIẾU HẰNG
+    - Tham Chieu Hang
     - Const Reference
     - tham chieu hang
     - Tham chieu hang
@@ -5170,6 +6535,8 @@ nlu:
   examples: |
     - hàm nội tuyến
     - HÀM NỘI TUYẾN
+    - Ham noi tuyen 
+    - Ham Noi Tuyen
     - ham noi tuyen
     - inline function
     - Hàm nội tuyến
@@ -5189,6 +6556,7 @@ nlu:
     - Static
     - bien tinh
     - Bien tinh
+    - Bien Tinh
     - Biến tĩnh
     - STATIC
     - STATIC VARIABLE
@@ -5246,6 +6614,8 @@ nlu:
     - HAM SỐ MẶC NHIÊN
     - Tham số mặc nhiên
     - tham so mac nhien
+    - Tham so mac nhien 
+    - Tham So Mac Nhien
     - default value
     - tham số mặc định
     - THAM SỐ MẶC NHIÊN
@@ -5277,6 +6647,8 @@ nlu:
     - TOÁN TỬ ĐỊNH PHẠM VI
     - TOAN TU DINH PHAM VI
     - Toán tử định phạm vi
+    - Toan tu dinh pham vi 
+    - Toan Tu Dinh Pham Vi 
     - SCOPE RESOLUTION OPERATORS
     - TOAN TU ::
     - TOÁN TỬ ::
@@ -5296,6 +6668,8 @@ nlu:
   examples: |
     - cau truc dieu khien
     - CAU TRUC DIEU KHIEN
+    - Cau truc dieu khien 
+    - Cau Truc Dieu Khien 
     - control flow
     - flow of control
     - cấu trúc điều khiển
@@ -5396,11 +6770,16 @@ nlu:
     - chuỗi
     - String
     - KIỂU CHUỖI
+    - Kieu chuoi 
+    - Kieu Chuoi 
+    - kieu Chuoi
     - kiểu chuỗi
     - STRINGS
     - CHUOI
     - CHUỖI KÍ TỰ
     - CHUOI KI TU
+    - Chuoi ki tu 
+    - Chuoi Ki Tu
     - Strings
     - strings
     - str
@@ -5424,6 +6803,7 @@ nlu:
     - Struc
     - Structures
     - Cau truc
+    - Cau Truc 
     - structures
     - structs
     - cau truc
@@ -5446,6 +6826,7 @@ nlu:
     - LIET KE
     - Liệt kê
     - Kieu liet ke
+    - Kieu Liet Ke 
     - Liet ke
     - liệt kê
 - synonym: double
@@ -5481,6 +6862,8 @@ nlu:
     - Kiểu kí tự
     - Kiểu ký tự
     - Kieu ki tu
+    - Kieu Ki Tu 
+    - Kieu Ky Tu 
     - Kieu ky tu
     - chars
     - characters
@@ -5509,6 +6892,7 @@ nlu:
     - Boolean
     - luan ly
     - Kieu luan ly
+    - Kieu Luan Ly
     - kiểu luận lý
     - Kiểu luận lý
     - bool
@@ -5538,6 +6922,7 @@ nlu:
     - Hằng số
     - Hằng Số
     - Hang So
+    - Hang So
     - Constants
     - hang so
     - constants
@@ -5562,6 +6947,7 @@ nlu:
     - Nhập môn lập trình
     - nhập môn lập trình
     - nhập môn lập trinh
+    - Nhập Môn Lập Trình
     - Nmlt
     - nmlt
     - NMLT
@@ -5579,6 +6965,9 @@ nlu:
     - Introduction to programming
     - Introduction to c++
     - Introduction to C++
+    - Nhap mon lap trinh 
+    - Nhap Mon Lap Trinh
+    - nhap mon lap trinh
 - synonym: local-variable
   examples: |
     - biến cục bộ
@@ -5593,7 +6982,9 @@ nlu:
     - LOCALS
     - LOCAL
     - Biến Cục Bộ
-    - Bien cuc b
+    - Bien cuc bo
+    - bien cuc bo
+    - Bien Cuc Bo
     - Local variables
     - Local Variables
     - local
@@ -5619,12 +7010,14 @@ nlu:
     - GLOBAL
     - Global Variable
     - Biến Toàn Cục
+    - Bien toan cuc 
+    - Bien Toan Cuc 
+    - bien toan cuc
     - global
     - globals
     - global variables
     - globalvariable
     - globalvariables
-    - bien toan cuc
 - synonym: flowchart
   examples: |
     - Flowchart
@@ -5639,13 +7032,18 @@ nlu:
     - LUU DO
     - SƠ ĐỒ THUẬT TOÁN
     - SO DO THUAT TOAN
+    - so do thuat toan 
+    - So do thuat toan 
+    - So Do Thuat Toan
     - LƯU ĐỒ THUẬT TOÁN
     - Lưu đồ
     - Lưu Đồ
     - Luu do
     - Luu do thuat toan
+    - luu do thuat toan 
+    - Luu Do Thuat Toan
     - Sơ đồ thuật toán
-    - So do thuat toan
+    - sơ đồ thuật toán
     - flowchart
     - flowcharts
 - synonym: cplusplus
@@ -5715,6 +7113,8 @@ nlu:
     - Reference Variables
     - Reference variables
     - Bien tham chieu
+    - Bien Tham Chieu
+    - bien tham chieu
     - Biến Tham Chiếu
     - reference
     - reference vars
@@ -5771,8 +7171,6 @@ nlu:
     - DEREFERNCE OPERATORS
     - INDIRECTION OPERATOR
     - INDIRECTION OPERATORS
-    - TOÁN TỬ TRỎ ĐẾN
-    - TOAN TU TRO DEN
     - TOÁN TỬ TRỎ
     - TOAN TU TRO
     - TOAN TU *
@@ -5785,9 +7183,12 @@ nlu:
     - indirection operators
     - Toán tử trỏ
     - toán tử trỏ
-    - toán tử trỏ đến
     - toán tử *
     - toan tu tro
+    - toan tu *
+    - Toan tu tro
+    - toan tu tro 
+    - Toan tu * 
     - toan tu *
 - synonym: address_of-operator
   examples: |
@@ -5811,6 +7212,8 @@ nlu:
     - address of operators
     - toán tử &
     - toan tu dia chi
+    - Toan tu dia chi 
+    - Toan Tu Dia Chi 
 - synonym: comma-operator
   examples: |
     - Comma operator
@@ -6092,6 +7495,8 @@ nlu:
     - controlstatements
     - lệnh điều khiển
     - lenh dieu khien
+    - Lenh dieu khien 
+    - Lenh Dieu Khien
 - synonym: selection-statement
   examples: |
     - SELECTION STATEMENT
@@ -6115,6 +7520,8 @@ nlu:
     - lệnh chọn
     - lệnh lựa chọn
     - lenh lua chon
+    - Lenh Lua Chon
+    - Lenh lua chon
 - regex: flowchart_quest_num
   examples: |
     - [0-9]{3}
