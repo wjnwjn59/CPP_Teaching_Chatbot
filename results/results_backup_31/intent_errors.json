@@ -1,0 +1,50 @@
+[
+  {
+    "text": "TRONG C++ T\u1eea KH\u00d3A RETURN \u0110\u01af\u1ee2C D\u00d9NG \u0110\u1ec2 L\u00c0M G\u00cc V\u1eacY?",
+    "intent": "cpplus_what_asking",
+    "intent_prediction": {
+      "name": "cpplus_how_asking",
+      "confidence": 0.931831419467926
+    }
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 C\u00da PH\u00c1P C\u1ee6A STRUCTURE TRONG C++?",
+    "intent": "cpplus_what_asking",
+    "intent_prediction": {
+      "name": "cpplus_how_asking",
+      "confidence": 0.9276859760284424
+    }
+  },
+  {
+    "text": "M\u1ed8T CLASS TRONG C++ \u0110\u01af\u1ee2C \u0110\u1ecaNH NGH\u0128A NH\u01af N\u00c0O V\u1eacY BOT?",
+    "intent": "cpplus_what_asking",
+    "intent_prediction": {
+      "name": "cpplus_how_asking",
+      "confidence": 0.5823501944541931
+    }
+  },
+  {
+    "text": "H\u00c0M MACRO L\u00c0 G\u00cc V\u1eacY B\u1ea0N IU",
+    "intent": "cpplus_what_asking",
+    "intent_prediction": {
+      "name": "cpplus_why_asking",
+      "confidence": 0.9609499573707581
+    }
+  },
+  {
+    "text": "G\u00e9t :3",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.012870644219219685
+    }
+  },
+  {
+    "text": "https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=4rqNta98n34AX-N86gg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=ab4cd82706a6d74f545e19bdeb24d0ed&oe=6009FF31",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "attention",
+      "confidence": 0.0145439887419343
+    }
+  }
+]

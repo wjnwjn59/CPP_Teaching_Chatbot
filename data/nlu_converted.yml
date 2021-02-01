@@ -2,6 +2,8 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
+    - Hello bot 
+    - Hi bot 
     - XIN CHÀO
     - CHAO XÌN
     - CHÀO
@@ -151,7 +153,6 @@ nlu:
     - Chao xìn
     - Hai 
     - alo alo 
-
 - intent: who_create_you
   examples: |
     - CHO T BIẾT DANH XƯNG CỦA NGƯỜI ĐÃ TẠO RA MÀY NÀO
@@ -248,6 +249,8 @@ nlu:
     - Ai tạo ra bạn á
     - Quân đẹp trai là ai
     - Ai làm tác giả của mày
+    - cách bạn được tạo ra
+    - Nguyễn Lê Anh Quân và Dương Đình Thắng là ai ?
     - mày là con cặc gì vậy
     - giới tính của bạn là gì?
 - intent: attention
@@ -609,8 +612,14 @@ nlu:
     - Cút xéo
     - đi đây
     - Good bye
+    - see you next time
+    - See you next time 
+    - thôi tui phải chạy dl :))
+    - Thôi tui phải chạy dl :))
+    - Bạn cút đi
 - intent: affirm
   examples: |
+    - Ok, tốc độ trả lời này là bot
     - Được rồi mình cảm ơn
     - yes
     - indeed
@@ -664,140 +673,208 @@ nlu:
     - ok để suy nghĩ xem 
 - intent: deny
   examples: |
-  - SAI RỒI 
-  - TRẬT LẤT 
-  - SAI BÉT 
-  - SAI CMM RỒI BOT NGU 
-  - BOT NGU VCC SAI RỒI 
-  - TRẢ LỜI VẬY LÀ CHẾT ME R 
-  - SAI VC RA RỒI CON BOT NGU 
-  - WRONG 
-  - YOU WRONG 
-  - M TRẢ LỜI V LÀ SAI R 
-  - SAI R BOT ĐĨ ƠI 
-  - SAI BE BÉ 
-  - SAI TÈ LE 
-  - SAI RÀNH RÀNH RỒI KÌA MÀY 
-  - Ê SAI R 
-  - Ê SAI CMNR 
-  - SAI BỐ NÓ RỒI 
-  - NOOO MÀY TRẢ LỜI VẬY LÀ SAI RỒI 
-  - TRẬT CMNR 
-  - TRẬT ĐƯỜNG RAY RỒI BOT NGU 
-  - M QUAY VÀO Ô SAI RỒI 
-  - KHÔNG ĐÚNG 
-  - KHÔNG ĐÚNG 
-  - TRẢ LỜI KHÔNG ĐÚNG 
-  - NHƯ VẬY LÀ KO ĐÚNG RỒI 
-  - ỦA HÌNH NHƯ SAI RỒI ĐÓ 
-  - Ê HÌNH NHƯ ĐÂU PHẢI ĐÂU 
-  - DKM SAI RỒI THẰNG NGU 
-  - DUME MAY NGU VAILON SAI CMNR 
-  - SAI CMNR 
-  - DMM SAI 
-  - SAI 
-  - ĐÉO PHẢI THẾ 
-  - ĐÉO PHẢI NHƯ VẬY ĐÂU 
-  - DM BOT NGU M NÓI THẾ LÀ TOANG RỒI
-  - DM K PHẢI THẾ, M TRẢ LỜI SAI MẤT RỒI BOT Ạ 
-  - Ê SAI RỒI NHA, TRẢ LỜI VẬY LÀ K PHẢI ĐÂU NHA 
-  - Á À SAI NHA SAI NHA 
-  - Á HÌNH NHƯ CÂU NÀY ĐÂU PHẢI THẾ 
-  - UIZZZ TRẢ LỜI THẾ MÀ CŨNG TRẢ LỜI ĐC 
-  - ĐỒ BOT NGU SAI RÒI LÊU LÊU 
-  - LÊU LÊU SAI R NHA 
-  - LÊU LÊU LÊU ĐỒ CON BOT NGU SAI RỒI NHA CON 
-  - TRẢ LỜI NGU THẾ K BIẾT 
-  - SAI RỒI CON ĐĨ ƠI 
-  - DCMM SAI BÉT BÈN BẸT RỒI CON Ạ 
-  - TRẢ LỜI CÁI CC J NGU V 
-  - SỦA CC J NGU THẾ 
-  - SAI RỒI CON Ạ 
-  - NÓI J ZAY TA ƠI 
-  - NÓI CDJ THẾ BOT NGU 
-  - SAI BỐ NÓ RA RỒI 
-  - SỦA THẾ MÀ CŨNG SỦA ĐƯỢC 
-  - UIZZZ SAI BÉT DỒI CON GIỜI Ạ 
-  - WRONG RỒI KU ƠI 
-  - KU ƠI KU SAI LẮM RỒI 
-  - KU NGU THẾ SAI R 
-  - NÓI V LÀ SAI R ĐÓ BRO 
-  - BRO NÓI THẾ CHƯA ĐÚNG ĐÂU 
-  - HONG ĐÚNG ÙI 
-  - HONG PHẢI ZỊ ÙI 
-  - SAO NÓI SAI QUÀI ZỊ 
-  - SỦA SAI QUÁ TRỜI ZỊ 
-  - SỦA J MÀ SỦA NGU TKE 
-  - SỦA NGU ZỪA ZỪA THOI 
-  - HONG ĐÚNG ÙI BOT UIII 
-  - sai rồi 
-  - trật lất 
-  - sai bét 
-  - sai cmm rồi bot ngu 
-  - bot ngu vcc sai rồi 
-  - trả lời vậy là chết me r 
-  - sai vc ra rồi con bot ngu 
-  - wrong 
-  - you wrong 
-  - m trả lời v là sai r 
-  - sai r bot đĩ ơi 
-  - sai be bé 
-  - Sai tè le 
-  - Sai rành rành rồi kìa mày 
-  - Ê sai r 
-  - Ê sai cmnr 
-  - sai bố nó rồi 
-  - Nooo mày trả lời vậy là sai rồi 
-  - Trật cmnr 
-  - Trật đường ray rồi bot ngu 
-  - M quay vào ô sai rồi 
-  - không đúng 
-  - Không đúng 
-  - Trả lời không đúng 
-  - Như vậy là ko đúng rồi 
-  - Ủa hình như sai rồi đó 
-  - Ê hình như đâu phải đâu 
-  - Dkm sai rồi thằng ngu 
-  - Dume may ngu vailon sai cmnr 
-  - Sai cmnr 
-  - Dmm sai 
-  - Sai 
-  - Đéo phải thế 
-  - Đéo phải như vậy đâu 
-  - Dm bot ngu m nói thế là toang rồi
-  - Dm k phải thế, m trả lời sai mất rồi bot ạ 
-  - Ê sai rồi nha, trả lời vậy là k phải đâu nha 
-  - á à sai nha sai nha 
-  - Á hình như câu này đâu phải thế 
-  - Uizzz trả lời thế mà cũng trả lời đc 
-  - Đồ bot ngu sai ròi lêu lêu 
-  - Lêu lêu sai r nha 
-  - lêu lêu lêu đồ con bot ngu sai rồi nha con 
-  - Trả lời ngu thế k biết 
-  - Sai rồi con đĩ ơi 
-  - Dcmm sai bét bèn bẹt rồi con ạ 
-  - Trả lời cái cc j ngu v 
-  - sủa cc j ngu thế 
-  - sai rồi con ạ 
-  - nói j zay ta ơi 
-  - nói cdj thế bot ngu 
-  - sai bố nó ra rồi 
-  - sủa thế mà cũng sủa được 
-  - uizzz sai bét dồi con giời ạ 
-  - Wrong rồi ku ơi 
-  - Ku ơi ku sai lắm rồi 
-  - Ku ngu thế sai r 
-  - nói v là sai r đó bro 
-  - bro nói thế chưa đúng đâu 
-  - hong đúng ùi 
-  - hong phải zị ùi 
-  - sao nói sai quài zị 
-  - sủa sai quá trời zị 
-  - sủa j mà sủa ngu tke 
-  - sủa ngu zừa zừa thoi 
-  - hong đúng ùi bot uiii 
+    - SAI RỒI 
+    - TRẬT LẤT 
+    - SAI BÉT 
+    - SAI CMM RỒI BOT NGU 
+    - BOT NGU VCC SAI RỒI 
+    - TRẢ LỜI VẬY LÀ CHẾT ME R 
+    - SAI VC RA RỒI CON BOT NGU 
+    - WRONG 
+    - YOU WRONG 
+    - M TRẢ LỜI V LÀ SAI R 
+    - SAI R BOT ĐĨ ƠI 
+    - SAI BE BÉ 
+    - SAI TÈ LE 
+    - SAI RÀNH RÀNH RỒI KÌA MÀY 
+    - Ê SAI R 
+    - Ê SAI CMNR 
+    - SAI BỐ NÓ RỒI 
+    - NOOO MÀY TRẢ LỜI VẬY LÀ SAI RỒI 
+    - TRẬT CMNR 
+    - TRẬT ĐƯỜNG RAY RỒI BOT NGU 
+    - M QUAY VÀO Ô SAI RỒI 
+    - KHÔNG ĐÚNG 
+    - KHÔNG ĐÚNG 
+    - TRẢ LỜI KHÔNG ĐÚNG 
+    - NHƯ VẬY LÀ KO ĐÚNG RỒI 
+    - ỦA HÌNH NHƯ SAI RỒI ĐÓ 
+    - Ê HÌNH NHƯ ĐÂU PHẢI ĐÂU 
+    - DKM SAI RỒI THẰNG NGU 
+    - DUME MAY NGU VAILON SAI CMNR 
+    - SAI CMNR 
+    - DMM SAI 
+    - SAI 
+    - ĐÉO PHẢI THẾ 
+    - ĐÉO PHẢI NHƯ VẬY ĐÂU 
+    - DM BOT NGU M NÓI THẾ LÀ TOANG RỒI
+    - DM K PHẢI THẾ, M TRẢ LỜI SAI MẤT RỒI BOT Ạ 
+    - Ê SAI RỒI NHA, TRẢ LỜI VẬY LÀ K PHẢI ĐÂU NHA 
+    - Á À SAI NHA SAI NHA 
+    - Á HÌNH NHƯ CÂU NÀY ĐÂU PHẢI THẾ 
+    - UIZZZ TRẢ LỜI THẾ MÀ CŨNG TRẢ LỜI ĐC 
+    - ĐỒ BOT NGU SAI RÒI LÊU LÊU 
+    - LÊU LÊU SAI R NHA 
+    - LÊU LÊU LÊU ĐỒ CON BOT NGU SAI RỒI NHA CON 
+    - TRẢ LỜI NGU THẾ K BIẾT 
+    - SAI RỒI CON ĐĨ ƠI 
+    - DCMM SAI BÉT BÈN BẸT RỒI CON Ạ 
+    - TRẢ LỜI CÁI CC J NGU V 
+    - SỦA CC J NGU THẾ 
+    - SAI RỒI CON Ạ 
+    - NÓI J ZAY TA ƠI 
+    - NÓI CDJ THẾ BOT NGU 
+    - SAI BỐ NÓ RA RỒI 
+    - SỦA THẾ MÀ CŨNG SỦA ĐƯỢC 
+    - UIZZZ SAI BÉT DỒI CON GIỜI Ạ 
+    - WRONG RỒI KU ƠI 
+    - KU ƠI KU SAI LẮM RỒI 
+    - KU NGU THẾ SAI R 
+    - NÓI V LÀ SAI R ĐÓ BRO 
+    - BRO NÓI THẾ CHƯA ĐÚNG ĐÂU 
+    - HONG ĐÚNG ÙI 
+    - HONG PHẢI ZỊ ÙI 
+    - SAO NÓI SAI QUÀI ZỊ 
+    - SỦA SAI QUÁ TRỜI ZỊ 
+    - SỦA J MÀ SỦA NGU TKE 
+    - SỦA NGU ZỪA ZỪA THOI 
+    - HONG ĐÚNG ÙI BOT UIII 
+    - sai rồi 
+    - trật lất 
+    - sai bét 
+    - sai cmm rồi bot ngu 
+    - bot ngu vcc sai rồi 
+    - trả lời vậy là chết me r 
+    - sai vc ra rồi con bot ngu 
+    - wrong 
+    - you wrong 
+    - m trả lời v là sai r 
+    - sai r bot đĩ ơi 
+    - sai be bé 
+    - Sai tè le 
+    - Sai rành rành rồi kìa mày 
+    - Ê sai r 
+    - Ê sai cmnr 
+    - sai bố nó rồi 
+    - Nooo mày trả lời vậy là sai rồi 
+    - Trật cmnr 
+    - Trật đường ray rồi bot ngu 
+    - M quay vào ô sai rồi 
+    - không đúng 
+    - Không đúng 
+    - Trả lời không đúng 
+    - Như vậy là ko đúng rồi 
+    - Ủa hình như sai rồi đó 
+    - Ê hình như đâu phải đâu 
+    - Dkm sai rồi thằng ngu 
+    - Dume may ngu vailon sai cmnr 
+    - Sai cmnr 
+    - Dmm sai 
+    - Sai 
+    - Đéo phải thế 
+    - Đéo phải như vậy đâu 
+    - Dm bot ngu m nói thế là toang rồi
+    - Dm k phải thế, m trả lời sai mất rồi bot ạ 
+    - Ê sai rồi nha, trả lời vậy là k phải đâu nha 
+    - á à sai nha sai nha 
+    - Á hình như câu này đâu phải thế 
+    - Uizzz trả lời thế mà cũng trả lời đc 
+    - Đồ bot ngu sai ròi lêu lêu 
+    - Lêu lêu sai r nha 
+    - lêu lêu lêu đồ con bot ngu sai rồi nha con 
+    - Trả lời ngu thế k biết 
+    - Sai rồi con đĩ ơi 
+    - Dcmm sai bét bèn bẹt rồi con ạ 
+    - Trả lời cái cc j ngu v 
+    - sủa cc j ngu thế 
+    - sai rồi con ạ 
+    - nói j zay ta ơi 
+    - nói cdj thế bot ngu 
+    - sai bố nó ra rồi 
+    - sủa thế mà cũng sủa được 
+    - uizzz sai bét dồi con giời ạ 
+    - Wrong rồi ku ơi 
+    - Ku ơi ku sai lắm rồi 
+    - Ku ngu thế sai r 
+    - nói v là sai r đó bro 
+    - bro nói thế chưa đúng đâu 
+    - hong đúng ùi 
+    - hong phải zị ùi 
+    - sao nói sai quài zị 
+    - sủa sai quá trời zị 
+    - sủa j mà sủa ngu tke 
+    - sủa ngu zừa zừa thoi 
+    - hong đúng ùi bot uiii 
+    - HONG DUNG UI BOT UIII 
+    - sai roi 
+    - trat lat 
+    - sai bet 
+    - sai cmm roi bot ngu 
+    - bot ngu vcc sai roi 
+    - tra loi vay la chet me r 
+    - sai vc ra roi con bot ngu 
+    - wrong 
+    - you wrong 
+    - m tra loi v la sai r 
+    - sai r bot di oi 
+    - sai be be 
+    - Sai te le 
+    - Sai ranh ranh roi kia may 
+    - E sai r 
+    - E sai cmnr 
+    - sai bo no roi 
+    - Nooo may tra loi vay la sai roi 
+    - Trat cmnr 
+    - Trat duong ray roi bot ngu 
+    - M quay vao o sai roi 
+    - khong dung 
+    - Khong dung 
+    - Tra loi khong dung 
+    - Nhu vay la ko dung roi 
+    - Ua hinh nhu sai roi do 
+    - E hinh nhu dau phai dau 
+    - Dkm sai roi thang ngu 
+    - Dume may ngu vailon sai cmnr 
+    - Sai cmnr 
+    - Dmm sai 
+    - Sai 
+    - Deo phai the 
+    - Deo phai nhu vay dau 
+    - Dm bot ngu m noi the la toang roi
+    - Dm k phai the, m tra loi sai mat roi bot a 
+    - E sai roi nha, tra loi vay la k phai dau nha 
+    - a a sai nha sai nha 
+    - A hinh nhu cau nay dau phai the 
+    - Uizzz tra loi the ma cung tra loi dc 
+    - Do bot ngu sai roi leu leu 
+    - Leu leu sai r nha 
+    - leu leu leu do con bot ngu sai roi nha con 
+    - Tra loi ngu the k biet 
+    - Sai roi con di oi 
+    - Dcmm sai bet ben bet roi con a 
+    - Tra loi cai cc j ngu v 
+    - sua cc j ngu the 
+    - sai roi con a 
+    - noi j zay ta oi 
+    - noi cdj the bot ngu 
+    - sai bo no ra roi 
+    - sua the ma cung sua duoc 
+    - uizzz sai bet doi con gioi a 
+    - Wrong roi ku oi 
+    - Ku oi ku sai lam roi 
+    - Ku ngu the sai r 
+    - noi v la sai r do bro 
+    - bro noi the chua dung dau 
+    - hong dung ui 
+    - hong phai zi ui 
+    - sao noi sai quai zi 
+    - sua sai qua troi zi 
+    - sua j ma sua ngu tke 
+    - sua ngu zua zua thoi 
+    - hong dung ui bot uiii 
 - intent: compliment
   examples: |
+    - so weird :v
     - Quá được luôn kkk
     - PERFECT
     - VERY GOOD
@@ -879,6 +956,10 @@ nlu:
     - Chiến vc v
     - Quá chiến luôn chatbot ơi
     - Xuất cmn sắc
+    - có -.-
+    - có giúp được một chút
+    - hmm một chút
+    - Thôi. Mình giỡn á
     - Woww 
     - woaaaa 
     - Woaaaa 
@@ -893,12 +974,13 @@ nlu:
     - uii xịn thế 
     - woww xịn xò v 
     - uầy xịn thế 
-    - 
 - intent: thanks
   examples: |
     - Tks
     - Ok tks
     - OK TKS
+    - Ok thank you vinamilk
+    - Ok thanks nhé
     - MƠN NHIỀU NÈ
     - CẢM ƠN
     - TKS
@@ -1299,6 +1381,7 @@ nlu:
     - just die
     - piece of shit
     - Ngu vl
+    - Bạn thật là nhàm chán mà
 - intent: feeling_bad
   examples: |
     - tui mệt quá 😂😂😂
@@ -1565,6 +1648,7 @@ nlu:
     - Có chứ
     - Có
     - Tất nhiên rồi
+    - bạn có thể trả lời gì
     - có 
     - co 
     - dĩ nhiên r 
@@ -1720,6 +1804,9 @@ nlu:
     - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
+    - Bạn có biết tìm lỗi trong code không ?
+    - Bạn có trò chơi gì vui không?
+    - Mình cần người yêu
     - Biet toi la ai khong ?
     - Không cần hiểu con trỏ có học tốt nhập môn lập trình được không
     - Sao cứ càng code càng bug vậy bro
@@ -1880,6 +1967,15 @@ nlu:
     - làm sao in hello world trên c++
     - cấu trúc dữ liệu và giải thuật
     - fix bug giúp tao với
+    - lỗi is not declared
+    - Đếm các số nguyên tố nhỏ hơn 10000
+    - Đề bài đó
+    - Bạn giải bài giúp mình được không?
+    - lập trình hướng đối tượng là gì
+    - trứng có trước hay gà có trước
+    - toán rời rạc
+    - toán rời rạc là gì
+    - cấu trúc rời rạc là gì
     - 1
     - contrỏ dùng làm gì
     - python
@@ -3577,8 +3673,8 @@ nlu:
     - [Đối số]{"entity": "cpplus_content", "value": "argument"} dc truyền ntn trong lời gọi hàm thế bot?
     - làm s để có sử dụng dc các [hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} thế bot iu?
     - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda](cpplus_content) zay
-    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} là vẽ như thế nào vậy bot?
-    - làm sao để t có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
+    - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} như thế nào vậy bot?
+    - làm sao để mình có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
     - Cú pháp của [comment](cpplus_content) là gì
     - Cú pháp của [include](cpplus_content) là gì
     - Cú pháp của [library](cpplus_content) là gì
@@ -3744,12 +3840,118 @@ nlu:
     - Cú pháp [built-in-function](cpplus_content)
     - Cú pháp [lambda](cpplus_content)
     - Cú pháp [flowchart](cpplus_content)
-    - thế nào là [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ?
-    - Vậy thế nào là ngôn ngữ [C]{"entity": "cpplus_content", "value": "cplusplus"}++ vậy bot ?
-    - Thế nào là một [toán tử]{"entity": "cpplus_content", "value": "operator"}?
-    - Như vậy thế nào thì gọi là 1 [comment]{"entity": "cpplus_content", "value": "comment"}
-    - Thế nào là 1 hàm [đệ quy]{"entity": "cpplus_content", "value": "recursion"}?
-    - Vậy thế nào là [toán tử hai ngôi]{"entity": "cpplus_content", "value": "binary-operator"} thế botchat?
+    - [comment]{"entity": "cpplus_content", "value": "comment"} hoạt động như thế nào
+    - [include]{"entity": "cpplus_content", "value": "include"} hoạt động như thế nào
+    - [library]{"entity": "cpplus_content", "value": "library"} hoạt động như thế nào
+    - [Thư viện]{"entity": "cpplus_content", "value": "library"} hoạt động như thế nào
+    - [namespace]{"entity": "cpplus_content", "value": "namespace"} hoạt động như thế nào
+    - [pseudo-code]{"entity": "cpplus_content", "value": "pseudo-code"} hoạt động như thế nào
+    - [variable]{"entity": "cpplus_content", "value": "variable"} hoạt động như thế nào
+    - [Biến]{"entity": "cpplus_content", "value": "variable"} hoạt động như thế nào
+    - [unsigned]{"entity": "cpplus_content", "value": "unsigned"} hoạt động như thế nào
+    - [signed]{"entity": "cpplus_content", "value": "signed"} hoạt động như thế nào
+    - [short]{"entity": "cpplus_content", "value": "short"} hoạt động như thế nào
+    - [long]{"entity": "cpplus_content", "value": "long"} hoạt động như thế nào
+    - [type-modififer]{"entity": "cpplus_content", "value": "type-modififer"} hoạt động như thế nào
+    - [typedef]{"entity": "cpplus_content", "value": "typedef"} hoạt động như thế nào
+    - [constant]{"entity": "cpplus_content", "value": "constant"} hoạt động như thế nào
+    - [macro]{"entity": "cpplus_content", "value": "macro"} hoạt động như thế nào
+    - [wchar_t]{"entity": "cpplus_content", "value": "wchar_t"} hoạt động như thế nào
+    - [boolean]{"entity": "cpplus_content", "value": "boolean"} hoạt động như thế nào
+    - [Kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} hoạt động như thế nào
+    - [data-type]{"entity": "cpplus_content", "value": "data-type"} hoạt động như thế nào
+    - [Kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} hoạt động như thế nào
+    - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [Mảng 2 chiều]{"entity": "cpplus_content", "value": "2d-array"} hoạt động như thế nào
+    - [array]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [Mảng]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+    - [structure]{"entity": "cpplus_content", "value": "structure"} hoạt động như thế nào
+    - [Struct]{"entity": "cpplus_content", "value": "structure"} hoạt động như thế nào
+    - [class]{"entity": "cpplus_content", "value": "class"} hoạt động như thế nào
+    - [Lớp]{"entity": "cpplus_content", "value": "class"} hoạt động như thế nào
+    - [union]{"entity": "cpplus_content", "value": "union"} hoạt động như thế nào
+    - [pointer]{"entity": "cpplus_content", "value": "pointer"} hoạt động như thế nào
+    - [Con trỏ]{"entity": "cpplus_content", "value": "pointer"} hoạt động như thế nào
+    - [enumeration]{"entity": "cpplus_content", "value": "enumeration"} hoạt động như thế nào
+    - [integer]{"entity": "cpplus_content", "value": "integer"} hoạt động như thế nào
+    - [Kiểu số nguyên]{"entity": "cpplus_content", "value": "integer"} hoạt động như thế nào
+    - [floating-point]{"entity": "cpplus_content", "value": "floating-point"} hoạt động như thế nào
+    - [Dấu chấm động]{"entity": "cpplus_content", "value": "floating-point"} hoạt động như thế nào
+    - [double]{"entity": "cpplus_content", "value": "double"} hoạt động như thế nào
+    - [character]{"entity": "cpplus_content", "value": "character"} hoạt động như thế nào
+    - Kiểu [ký tự]{"entity": "cpplus_content", "value": "character"} hoạt động như thế nào
+    - [string]{"entity": "cpplus_content", "value": "string"} hoạt động như thế nào
+    - [Kiểu chuỗi]{"entity": "cpplus_content", "value": "string"} hoạt động như thế nào
+    - [local-variable]{"entity": "cpplus_content", "value": "local-variable"} hoạt động như thế nào
+    - [Biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} hoạt động như thế nào
+    - [auto]{"entity": "cpplus_content", "value": "auto"} hoạt động như thế nào
+    - [external]{"entity": "cpplus_content", "value": "external"} hoạt động như thế nào
+    - [static]{"entity": "cpplus_content", "value": "static"} hoạt động như thế nào
+    - [vector]{"entity": "cpplus_content", "value": "vector"} hoạt động như thế nào
+    - [reference-variable]{"entity": "cpplus_content", "value": "reference-variable"} hoạt động như thế nào
+    - [decrement-operator]{"entity": "cpplus_content", "value": "decrement-operator"} hoạt động như thế nào
+    - [increment-operator]{"entity": "cpplus_content", "value": "increment-operator"} hoạt động như thế nào
+    - [dereference-operator]{"entity": "cpplus_content", "value": "dereference-operator"} hoạt động như thế nào
+    - [address_of-operator]{"entity": "cpplus_content", "value": "address_of-operator"} hoạt động như thế nào
+    - [comma-operator]{"entity": "cpplus_content", "value": "comma-operator"} hoạt động như thế nào
+    - [ternary-operator]{"entity": "cpplus_content", "value": "ternary-operator"} hoạt động như thế nào
+    - [binary-operator]{"entity": "cpplus_content", "value": "binary-operator"} hoạt động như thế nào
+    - [unary-operator]{"entity": "cpplus_content", "value": "unary-operator"} hoạt động như thế nào
+    - [shift-operator]{"entity": "cpplus_content", "value": "shift-operator"} hoạt động như thế nào
+    - [bitwise-operator]{"entity": "cpplus_content", "value": "bitwise-operator"} hoạt động như thế nào
+    - [logical-operator]{"entity": "cpplus_content", "value": "logical-operator"} hoạt động như thế nào
+    - [comparison-operator]{"entity": "cpplus_content", "value": "comparison-operator"} hoạt động như thế nào
+    - [arithmetic-operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} hoạt động như thế nào
+    - [assignment-operator]{"entity": "cpplus_content", "value": "assignment-operator"} hoạt động như thế nào
+    - [operator]{"entity": "cpplus_content", "value": "operator"} hoạt động như thế nào
+    - [scope-resolution-operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"} hoạt động như thế nào
+    - [if]{"entity": "cpplus_content", "value": "if"} hoạt động như thế nào
+    - [loop]{"entity": "cpplus_content", "value": "loop"} hoạt động như thế nào
+    - [control-flow]{"entity": "cpplus_content", "value": "control-flow"} hoạt động như thế nào
+    - [selection-statement]{"entity": "cpplus_content", "value": "selection-statement"} hoạt động như thế nào
+    - [iteration-statement]{"entity": "cpplus_content", "value": "iteration-statement"} hoạt động như thế nào
+    - [jump-statement]{"entity": "cpplus_content", "value": "jump-statement"} hoạt động như thế nào
+    - [for]{"entity": "cpplus_content", "value": "for"} hoạt động như thế nào
+    - Vòng lặp [for]{"entity": "cpplus_content", "value": "for"} hoạt động như thế nào
+    - [while]{"entity": "cpplus_content", "value": "while"} hoạt động như thế nào
+    - Vòng lặp [while]{"entity": "cpplus_content", "value": "while"} hoạt động như thế nào
+    - [do-while]{"entity": "cpplus_content", "value": "do-while"} hoạt động như thế nào
+    - Vòng lặp [do-while]{"entity": "cpplus_content", "value": "do-while"} hoạt động như thế nào
+    - [switch]{"entity": "cpplus_content", "value": "switch"} hoạt động như thế nào
+    - [switch]{"entity": "cpplus_content", "value": "switch"} case hoạt động như thế nào
+    - [break]{"entity": "cpplus_content", "value": "break"} hoạt động như thế nào
+    - [continue]{"entity": "cpplus_content", "value": "continue"} hoạt động như thế nào
+    - [goto]{"entity": "cpplus_content", "value": "goto"} hoạt động như thế nào
+    - [if-else]{"entity": "cpplus_content", "value": "if-else"} hoạt động như thế nào
+    - [if else]{"entity": "cpplus_content", "value": "if-else"} hoạt động như thế nào
+    - [if-else-if-ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"} hoạt động như thế nào
+    - [nested-if]{"entity": "cpplus_content", "value": "nested-if"} hoạt động như thế nào
+    - [function]{"entity": "cpplus_content", "value": "function"} hoạt động như thế nào
+    - [Hàm]{"entity": "cpplus_content", "value": "function"} hoạt động như thế nào
+    - [parameter]{"entity": "cpplus_content", "value": "parameter"} hoạt động như thế nào
+    - [Tham số]{"entity": "cpplus_content", "value": "parameter"} hoạt động như thế nào
+    - [argument]{"entity": "cpplus_content", "value": "argument"} hoạt động như thế nào
+    - [Đối số]{"entity": "cpplus_content", "value": "argument"} hoạt động như thế nào
+    - [recursion]{"entity": "cpplus_content", "value": "recursion"} hoạt động như thế nào
+    - [Đệ quy]{"entity": "cpplus_content", "value": "recursion"} hoạt động như thế nào
+    - [pass-by-value]{"entity": "cpplus_content", "value": "pass-by-value"} hoạt động như thế nào
+    - [pass-by-reference]{"entity": "cpplus_content", "value": "pass-by-reference"} hoạt động như thế nào
+    - [return]{"entity": "cpplus_content", "value": "return"} hoạt động như thế nào
+    - [return-type]{"entity": "cpplus_content", "value": "return-type"} hoạt động như thế nào
+    - [Kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} hoạt động như thế nào
+    - [const-reference]{"entity": "cpplus_content", "value": "const-reference"} hoạt động như thế nào
+    - [inline-function]{"entity": "cpplus_content", "value": "inline-function"} hoạt động như thế nào
+    - [default-value]{"entity": "cpplus_content", "value": "default-value"} hoạt động như thế nào
+    - [main-function]{"entity": "cpplus_content", "value": "main-function"} hoạt động như thế nào
+    - [built-in-function]{"entity": "cpplus_content", "value": "built-in-function"} hoạt động như thế nào
+    - [lambda]{"entity": "cpplus_content", "value": "lambda"} hoạt động như thế nào
+    - [flowchart]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
+    - [Lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
+    - cách gọi [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách gọi [hàm]{"entity": "cpplus_content", "value": "function"}
     - [For]{"entity": "cpplus_content", "value": "for"} duoc su dung nhu the nao ?
     - lam s de t viet vong lap [For]{"entity": "cpplus_content", "value": "for"} day m
     - lam the nao de t tao ra mot vong [for]{"entity": "cpplus_content", "value": "for"} day
@@ -4482,7 +4684,10 @@ nlu:
     - giờ tao viết dòng khai báo [library](cpplus_content) ở chỗ nào đây m?
 - intent: corona
   examples: |
+    - COVID 19
+    - COVID-19
     - corona
+    - covid là gì
     - Tình hình corona
     - corona là gì
     - thế nào là corona
@@ -4524,6 +4729,8 @@ nlu:
     - cô vít
     - cô vít 19
     - Corona
+    - Covid 
+    - COVID  
     - corona
     - Tinh hinh corona
     - corona la gi
@@ -4764,6 +4971,11 @@ nlu:
     - what exactly are you?
     - mày là con cặc gì vậy
     - Bạn là ai
+    - bạn mấy tuổi
+    - Bạn có phải thuộc về lĩnh vực NLP không ?
+    - Bạn được tạo ra dựa trên kiến thức gì ?
+    - Bạn có phải là người không ?
+    - bạn có tên không ?
     - giới tính của bạn là gì?
     - Bạn tên gì
     - Bạn là ai
@@ -5027,6 +5239,7 @@ nlu:
     - Alo bot cho mình xin tham khảo một số dạng bài tập về [class](cpplus_content) với ạ
 - intent: dont_want_to_ask
   examples: |
+    - i didn't ask you about covid 19
     - tao không muốn hỏi
     - tôi không hỏi gì cả
     - em không hỏi gì anh hết anh bot ạ
