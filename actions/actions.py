@@ -2219,8 +2219,8 @@ class AnswerCppDefineQuestion(Action):
                 cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được :'("
             return cpp_content_answer
 
-        if not cpp_content:
-            dispatcher.utter_message(text='Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng bạn hãy hỏi câu khác !')
+        # if not cpp_content:
+        #     dispatcher.utter_message(text='Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng bạn hãy hỏi câu khác !')
 
         if(type(cpp_content) == list):
             for entity in cpp_content:
