@@ -1718,7 +1718,7 @@ stories:
   - action: utter_ok
   - action: utter_ask_which_video_tutorial
   - intent: cpplus_specific_video_tutorial_asking
-    entites:
+    entities:
       - cpplus_content: c++
   - action: cpp_content_form
   - active_loop: cpp_content_form
@@ -1741,7 +1741,7 @@ stories:
   - action: utter_ok
   - action: utter_ask_which_video_tutorial
   - intent: cpplus_specific_video_tutorial_asking
-    entites:
+    entities:
       - cpplus_content: c++
   - action: cpp_content_form
   - active_loop: cpp_content_form
@@ -1822,7 +1822,7 @@ stories:
   - action: action_flowchart_practice_answer
   - action: utter_ask_anything_else
   - intent: cpplus_specific_video_tutorial_asking
-    entites:
+    entities:
       - cpplus_content: c++
   - action: cpp_content_form
   - active_loop: cpp_content_form
@@ -1865,7 +1865,7 @@ stories:
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
   - intent: cpplus_specific_video_tutorial_asking
-    entites:
+    entities:
       - cpplus_content: c++
   - action: cpp_content_form
   - active_loop: cpp_content_form
