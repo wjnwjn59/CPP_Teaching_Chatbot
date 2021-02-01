@@ -165,7 +165,7 @@ responses:
   - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
   - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha
   utter_reply_deny:
-  - text: Cảm ơn bạn đã góp ý cho mình, mình sẽ ghi nhận và chỉnh sửa nếu phù hợp trong thời gian sớm nhất <3
+  - text: Bot đang trong giai đoạn hoàn thiện nên không tránh khỏi sai sót nên mong bạn thông cảm nha ^^
   utter_reply_out_of_scope:
   - buttons:
     - payload: /continue_asking

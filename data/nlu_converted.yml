@@ -238,6 +238,8 @@ nlu:
     - Ai tạo ra bạn á
     - Quân đẹp trai là ai
     - Ai làm tác giả của mày
+    - cách bạn được tạo ra
+    - Nguyễn Lê Anh Quân và Dương Đình Thắng là ai ?
 - intent: attention
   examples: |
     - NÈ NÈ NÈ
@@ -595,8 +597,14 @@ nlu:
     - Cút xéo
     - đi đây
     - Good bye
+    - see you next time
+    - See you next time 
+    - thôi tui phải chạy dl :))
+    - Thôi tui phải chạy dl :))
+    - Bạn cút đi
 - intent: affirm
   examples: |
+    - Ok, tốc độ trả lời này là bot
     - Được rồi mình cảm ơn
     - yes
     - indeed
@@ -636,8 +644,13 @@ nlu:
     - GOOD VÃI LZZ
     - ĐỈNH VÃI
     - QUÁ ĐÚNG LUÔN NGƯỜI ANH EM
+    - hmmm is this a bug ??
+    - okela :v
+    - Oke.
+    - vậy là bạn có thể trả lời một số câu hỏi ngoài c++ :v
 - intent: deny
   examples: |
+    - hong -.-
     - mình chán bạn quá
     - nope
     - no never
@@ -774,8 +787,11 @@ nlu:
     - TOI KHONG MUON HOI NUA
     - ?
     - ??
+    - Bạn không giúp gì được cho tui bây giờ cả
+    - Đây không phải là đáp án
 - intent: compliment
   examples: |
+    - so weird :v
     - Quá được luôn kkk
     - PERFECT
     - VERY GOOD
@@ -857,6 +873,10 @@ nlu:
     - Chiến vc v
     - Quá chiến luôn chatbot ơi
     - Xuất cmn sắc
+    - có -.-
+    - có giúp được một chút
+    - hmm một chút
+    - Thôi. Mình giỡn á
 - intent: thanks
   examples: |
     - Tks
@@ -1262,6 +1282,7 @@ nlu:
     - just die
     - piece of shit
     - Ngu vl
+    - Bạn thật là nhàm chán mà
 - intent: feeling_bad
   examples: |
     - sad
@@ -1498,6 +1519,7 @@ nlu:
     - Có chứ
     - Có
     - Tất nhiên rồi
+    - bạn có thể trả lời gì
 - intent: want_to_ask
   examples: |
     - Ê CHO TAO HỎI CÁI
@@ -1571,6 +1593,9 @@ nlu:
     - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
+    - Bạn có biết tìm lỗi trong code không ?
+    - Bạn có trò chơi gì vui không?
+    - Mình cần người yêu
     - donald trump
     - Donald Trump
     - bầu cử tổng thống Mỹ
@@ -1712,6 +1737,15 @@ nlu:
     - làm sao in hello world trên c++
     - cấu trúc dữ liệu và giải thuật
     - fix bug giúp tao với
+    - lỗi is not declared
+    - Đếm các số nguyên tố nhỏ hơn 10000
+    - Đề bài đó
+    - Bạn giải bài giúp mình được không?
+    - lập trình hướng đối tượng là gì
+    - trứng có trước hay gà có trước
+    - toán rời rạc
+    - toán rời rạc là gì
+    - cấu trúc rời rạc là gì
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -3248,6 +3282,8 @@ nlu:
     - [lambda]{"entity": "cpplus_content", "value": "lambda"} hoạt động như thế nào
     - [flowchart]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
     - [Lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} hoạt động như thế nào
+    - cách gọi [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách gọi [hàm]{"entity": "cpplus_content", "value": "function"}
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
@@ -3685,7 +3721,10 @@ nlu:
     - giờ tao viết dòng khai báo [library](cpplus_content) ở chỗ nào đây m?
 - intent: corona
   examples: |
+    - COVID 19
+    - COVID-19
     - corona
+    - covid là gì
     - Tình hình corona
     - corona là gì
     - thế nào là corona
@@ -3727,6 +3766,8 @@ nlu:
     - cô vít
     - cô vít 19
     - Corona
+    - Covid 
+    - COVID  
 - intent: first_name
   examples: |
     - Tên của mình là quân
@@ -3925,6 +3966,12 @@ nlu:
     - what exactly are you?
     - mày là con cặc gì vậy
     - Bạn là ai
+    - bạn mấy tuổi
+    - Bạn có phải thuộc về lĩnh vực NLP không ?
+    - Bạn được tạo ra dựa trên kiến thức gì ?
+    - Bạn có phải là người không ?
+    - ngoài c++ ra bạn còn biết về ngôn ngữ lập trình nào nữa không ?
+    - bạn có tên không ?
 - intent: want_to_practice_cpp
   examples: |
     - TAO MUỐN ĐC ÔN TẬP CPP
@@ -4087,6 +4134,7 @@ nlu:
     - Alo bot cho mình xin tham khảo một số dạng bài tập về [class](cpplus_content) với ạ
 - intent: dont_want_to_ask
   examples: |
+    - i didn't ask you about covid 19
     - tao không muốn hỏi
     - tôi không hỏi gì cả
     - em không hỏi gì anh hết anh bot ạ
