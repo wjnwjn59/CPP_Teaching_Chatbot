@@ -3,11 +3,11 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
+- nlu_fallback:
+    use_entities: []
 - cpplus_specific_video_tutorial_asking
 - cpplus_what_asking
 - cpplus_why_asking
-- nlu_fallback:
-    use_entities: []
 - want_to_practice_flowchart:
     use_entities: []
 - greet:
