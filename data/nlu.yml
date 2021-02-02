@@ -1,0 +1,5 @@
+version: "2.0"
+nlu:
+- intent: nlu_fallback
+  examples: |
+    - Hello anh [Tiến](cpplus_content)
