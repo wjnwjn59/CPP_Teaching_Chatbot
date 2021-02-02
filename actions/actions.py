@@ -2214,9 +2214,9 @@ class AnswerCppDefineQuestion(Action):
                 elif curr_intent == 'cpplus_specific_video_tutorial_asking':
                     cpp_content_answer = all_tutorials_link[x]
                 else:
-                    cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được, đợi mình ôn lại bài một tí nha :<"
+                    cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được :'("
             except KeyError:
-                cpp_content_answer = "Xin lỗi hiện tại mình chưa thể trả lời câu hỏi của bạn được :'("
+                cpp_content_answer = "Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng hãy hỏi câu khác !"
             return cpp_content_answer
 
         # if not cpp_content:
@@ -2230,6 +2230,8 @@ class AnswerCppDefineQuestion(Action):
 
         # if cpp_content_answer == " ":
         #     dispatcher.utter_message(text='Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng bạn hãy hỏi câu khác !')
+        if cpp_content_answer is None:
+            cpp_content_answer = 'Xin lỗi bạn, hiện tại câu trả lời cho câu hỏi của bạn chưa có trong cơ sở dữ liệu. Vui lòng hãy hỏi câu khác !'
 
         return [SlotSet("cpp_content_answer", cpp_content_answer if cpp_content_answer is not None else [])]
 
