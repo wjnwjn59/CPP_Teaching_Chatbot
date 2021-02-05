@@ -253,6 +253,7 @@ nlu:
     - Nguyễn Lê Anh Quân và Dương Đình Thắng là ai ?
     - mày là con cặc gì vậy
     - giới tính của bạn là gì?
+    - Ai tạo ra BOT vậy?
 - intent: attention
   examples: |
     - NÈ NÈ NÈ
@@ -298,6 +299,7 @@ nlu:
     - quây
     - lô lô
     - yô
+    - Êy
     - yô yô
     - à lô
     - cốc cốc
@@ -583,6 +585,7 @@ nlu:
     - bạn khỏe không
 - intent: goodbye
   examples: |
+    - see you next time
     - cút cút cút
     - dẹp
     - bye
@@ -626,6 +629,9 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - okela :v
+    - Okela
+    - oke la 
     - chính xác
     - dĩ nhiên
     - chứ còn gì nữa
@@ -756,6 +762,7 @@ nlu:
     - Ê sai r 
     - Ê sai cmnr 
     - sai bố nó rồi 
+    - Thôi hỏi nhiêu đủ biết trình mi rồi
     - Nooo mày trả lời vậy là sai rồi 
     - Trật cmnr 
     - Trật đường ray rồi bot ngu 
@@ -874,6 +881,7 @@ nlu:
     - hong dung ui bot uiii 
 - intent: compliment
   examples: |
+    - Thật thú vị
     - so weird :v
     - Quá được luôn kkk
     - PERFECT
@@ -920,6 +928,7 @@ nlu:
     - great
     - amazing
     - wonderful
+    - Yêu
     - I am feeling very good
     - I am great
     - I'm good
@@ -1154,6 +1163,7 @@ nlu:
     - Today I feel so good
 - intent: insult
   examples: |
+    - M ngu quá à!
     - Bạn có bị ngu không ?
     - Clgt
     - Đụ má mày quá ngu đi
@@ -1292,6 +1302,9 @@ nlu:
     - Đclmm th nGu B0T
     - dit cu may
     - địt cụ mày
+    - Ngu quá mà
+    - Ngu quá hà
+    - con chó
     - DDụ má mày luôn
     - dcmm luon
     - lz má mày luong
@@ -1384,6 +1397,7 @@ nlu:
     - Bạn thật là nhàm chán mà
 - intent: feeling_bad
   examples: |
+    - Hơi mệt 😥
     - tui mệt quá 😂😂😂
     - sad
     - very sad
@@ -1501,6 +1515,7 @@ nlu:
     - huii dc ùi
     - hoiii
     - Thôi
+    - Ko hỏi nữa
     - à thôi khỏi đi
     - À thôi không có gì
     - à thôi
@@ -1595,7 +1610,9 @@ nlu:
     - Ki
     - hông
     - hong
+    - khum
     - /deny
+    - hong -.-
     - Nothing
 - intent: continue_asking
   examples: |
@@ -1804,6 +1821,66 @@ nlu:
     - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
+    - Video hướng dẫn python
+    - mình muốn biết về python
+    - Sort array
+    - công nghệ thông tin là gì
+    - test
+    - ngoài c++ ra bạn còn biết về ngôn ngữ lập trình nào nữa không ?
+    - trứng có trước hay gà có trước
+    - toán rời rạc là gì
+    - Cho mình thêm vài câu châm ngôn đi
+    - printf_s
+    - bla bla 
+    - làm sao để qua môn
+    - A
+    - Rớt môn rồi làm sao bây giờ
+    - Frf
+    - cấu trúc rời rạc là gì
+    - Haha.
+    - .
+    - python
+    - Học gì để đạt điểm cao nhập môn lập trình?
+    - Bạn biết thầy Đỗ Văn Tiến không?
+    - Làm sao để lấy ra dãy tăng dần trong mảng
+    - Làm sao để qua môn CS1 của thầy Tiến
+    - Bạn có biết tìm lỗi trong code không ?
+    - nó chạy như thế noà
+    - hmmm is this a bug ??
+    - Ăn tết chưa ạ
+    - Câu ăn tết ạ
+    - Tìm kiếm nhị phân
+    - Câu châm ngôn hay
+    - Kĩ thuật cắm cờ
+    - Chủ của bạn có biết gì về câu chuyện giữa hai chúng ta không?
+    - Hàm conio làm gì
+    - uit
+    - --version
+    - .cpp là gì
+    - Không ý tôi là "<string>, <string.h>, <cstring> Nên xài cái nào"
+    - Kế thừa trong C++
+    - Bot có biết dạng đề thi học kì không?
+    - Con trỏ trong C++ chiếm bao nhiêu bộ nhớ và kích thước của chúng có bằng nhau không?
+    - Con trỏ trong C++ chiếm bao nhiêu bộ nhớ?
+    - con cặc là gì
+    - Vì sao trời mưa!
+    - Cho mình xin tại liệu c++
+    - Học c++ xong, ra làm gì?
+    - Hàm khác thủ tục chỗ nào?
+    - Phạm vi biến
+    - Noi gi do yeu thuong toi di !
+    - Noi gi do yeu thuong tui di.
+    - Ngôn ngữ Tiếng Anh được không
+    - wecode là gì
+    - cout << "hello" ;
+    - NHập     MÔN lajapp  trình laf gì
+    - Netflix là gì
+    - ki?u d? li?u là gì
+    - bí mật của vũ trụ là gì
+    - thay Do Tien
+    - dịch từ c++ sang python được không
+    - Giờ bắt đầu học c++ từ đâu đây Bot?
+    - Cho mình xin tài liệu c++?
     - Bạn có biết tìm lỗi trong code không ?
     - Bạn có trò chơi gì vui không?
     - Mình cần người yêu
@@ -2521,6 +2598,8 @@ nlu:
     - giải thích cái [toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"} xem
     - t hay thấy người ta xài cái [toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"} ấy nó là gì v bot
     - [switch](cpplus_content) case là sao?
+    - cho mình định nghĩa về cấu trúc [hàm]{"entity": "cpplus_content", "value": "function"}
+    - [Toán thử địa chỉ]{"entity": "cpplus_content", "value": "address_of-operator"}
     - em muốn biết thêm về [if else]{"entity": "cpplus_content", "value": "if-else"} thầy ạ
     - nói gì về [đối số]{"entity": "cpplus_content", "value": "argument"} khi truyền vào một hàm xem thử
     - khái niệm về [đối số]{"entity": "cpplus_content", "value": "argument"} khi ta truyền nó vào một hàm là j
@@ -2544,6 +2623,7 @@ nlu:
     - [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"}?
     - [con trỏ]{"entity": "cpplus_content", "value": "pointer"}?
     - [Hàm]{"entity": "cpplus_content", "value": "function"}
+    - Người viết ra [c]{"entity": "cpplus_content", "value": "cplusplus"}++?
     - [Function]{"entity": "cpplus_content", "value": "function"} ?
     - [Toán tử ba ngôi]{"entity": "cpplus_content", "value": "ternary-operator"}
     - [Toán tử một ngôi]{"entity": "cpplus_content", "value": "unary-operator"}
@@ -3541,6 +3621,9 @@ nlu:
     - cách tải [c]{"entity": "cpplus_content", "value": "cplusplus"}++
     - sử dụng tính năng [comment](cpplus_content) trong c++ ntn?
     - làm sao để sử dụng đc cái [comment](cpplus_content) trong c++ thế?
+    - tôi phải làm gì với [c]{"entity": "cpplus_content", "value": "cplusplus"}++ đây
+    - Giờ bắt đầu học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ từ đâu đây Bot?
+    - Bắt đầu học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ từ đâu?
     - ê bot ơi how to sử dụng [Comment]{"entity": "cpplus_content", "value": "comment"} ?
     - [include](cpplus_content) trong c++ đc sử dụng như thế nào?
     - bằng cách nào thì ta có thể dùng [include](cpplus_content) trong c++ dc v?
@@ -3674,6 +3757,8 @@ nlu:
     - làm s để có sử dụng dc các [hàm dựng sẵn]{"entity": "cpplus_content", "value": "built-in-function"} thế bot iu?
     - bạn ơi làm cách nào để có thể viết ra dc 1 cái hàm [lambda](cpplus_content) zay
     - vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"} như thế nào vậy bot?
+    - Cách khai báo [con trỏ]{"entity": "cpplus_content", "value": "pointer"}
+    - Cách khai báo [biến]{"entity": "cpplus_content", "value": "variable"}
     - làm sao để mình có thể vẽ dc [flowchart]{"entity": "cpplus_content", "value": "flowchart"} đây chatbot?
     - Cú pháp của [comment](cpplus_content) là gì
     - Cú pháp của [include](cpplus_content) là gì
@@ -4885,6 +4970,7 @@ nlu:
     - mày là gì
     - mày là ai
     - ai là mày
+    - bạn có tên không ?
     - ai là bạn
     - mày rốt cuộc là gì vậy
     - mày rốt cuộc là gì
@@ -4901,8 +4987,10 @@ nlu:
     - bản chất của m là gì
     - m tên gì
     - bn tên gì
+    - Bạn được lập trình sẳn hết phải không?
     - banj teen gif
     - Bố m hỏi m tên gì
+    - Bạn có trò chơi gì vui không?
     - m là th lz nào
     - Bot tên gì
     - bạn bot tên gì
@@ -5776,6 +5864,8 @@ nlu:
     - Gui dai vai cau random cung dc r ma???
 - intent: dont_want_to_give_cpp_content
   examples: |
+    - Tại sao ta phải học môn này vậy?
+    - Tại sao ta phải học môn này vậy?
     - tại sao m lại cần thông tin đó v
     - Tại sao m lại cần cái đấy
     - tại s t lại phải nói rõ là làm bài nào
@@ -5897,6 +5987,7 @@ nlu:
     - Chị muốn được coi qua thử video bài giảng của mấy cưng xem sao
     - bot ơi tui muon coi video bài giảng
     - Bot ơi cho tui coi video bài giảng nmlt
+    - Ê cho xin video về c++ đi
     - bot cho coi nmlt đi
     - bot uii cho tui link videos nmlt zới
     - bot nà cho tui coi series giảng dạy C++ đi
@@ -5910,6 +6001,10 @@ nlu:
     - Video bài giảng C++
     - video C++
     - Video NMLT
+    - video của tuần 10
+    - video của tuần 5
+    - video của tuần thứ 5
+    - video tuần 1
     - videos nmlt
     - link tutorials c++ uit
     - Link Tutorials C++ CS UIT
@@ -6056,6 +6151,7 @@ nlu:
     - gửi tôi video giới thiệu sơ bộ về [Nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
     - Gửi t 1 số video về [comment](cpplus_content)
     - Video tutorials [comment](cpplus_content)
+    - Cho mình xin video vòng lặp [for](cpplus_content) đi
     - C++ [comment](cpplus_content) tutorials
     - Introduction to programming tutorials - [Comment]{"entity": "cpplus_content", "value": "comment"}
     - video về [Comment]{"entity": "cpplus_content", "value": "comment"}
@@ -6066,6 +6162,8 @@ nlu:
     - [Namespace]{"entity": "cpplus_content", "value": "namespace"} tutorials
     - Bot ngu gửi t bài [namespace](cpplus_content) đi m
     - Ê send t bài về [library](cpplus_content) đi
+    - video về con trỏ và [mảng]{"entity": "cpplus_content", "value": "array"}
+    - Cho xin video về [while]{"entity": "cpplus_content", "value": "while"}
     - Nè bot ngu đưa tao link video [library](cpplus_content) c++ coi mày
     - Link bài về [Biến]{"entity": "cpplus_content", "value": "variable"} trong C++
     - Bài [biến]{"entity": "cpplus_content", "value": "variable"} trong C++ video series
