@@ -1944,7 +1944,6 @@ nlu:
     - Machine learning là gì
     - Dạy mình cách lập trình AI
     - Hihi
-    - Huhuhuhuhu
     - Dhsjsjsjska
     - Làm sao để master lập trình vậy
     - /restart
@@ -1959,6 +1958,7 @@ nlu:
     - 1 + 1 = 2 đúng không?
     - Mật khẩu facebook của chủ mầy là gì ?
     - RAM là gì?
+    - ram là cái gì ? 
     - Doi net ve nha tho Xuan Dieu.
     - Xuan DIeu
     - Doi net ve Do Tien
@@ -2075,6 +2075,7 @@ nlu:
     - Ví dụ về [Lambda]{"entity": "cpplus_content", "value": "lambda"}
     - Ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"}
     - eg về [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách viết một chương trình [C]{"entity": "cpplus_content", "value": "cplusplus"}++
     - ê tao vẫn chưa hiểu về cái vòng lặp trong c++ lắm cho thử một ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"} xem nào
     - CHO MỘT CÁI VÍ DỤ VỀ [MẢNG]{"entity": "cpplus_content", "value": "array"} ĐI IEM
     - Ê CHO CÁI VÍ DỤ VỀ [ARRAY]{"entity": "cpplus_content", "value": "array"}
@@ -4377,6 +4378,9 @@ nlu:
     - m có lời biện hộ nào cho việc vì sao lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước mà không phải những ngôn ngữ khác k?
     - tại sao có rất nhiều ngôn ngữ lập trình đang hot hiện nay như python javascript R... mà t lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước v bot
     - s bố m lại bị ép buộc phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước tiên v bot
+    - Có nhất thiết phải hiểu rõ [con trỏ]{"entity": "cpplus_content", "value": "pointer"} hay không
+    - Tầm quan trọng của [con trỏ]{"entity": "cpplus_content", "value": "pointer"} 
+    - Không cần hiểu [con trỏ]{"entity": "cpplus_content", "value": "pointer"} có học tốt nhập môn lập trình được không
     - có thể cho t 1 lời giải thích vì sao lại phải học cái [c]{"entity": "cpplus_content", "value": "cplusplus"}++ này trước thay vì là những ngôn ngữ xịn xò khác...
     - ngoài kia có rất nhiều ngôn ngữ lập trình khác được cho là phổ biến và hot hơn như python js ruby... tại sao m lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để làm base ?
     - vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ làm ngôn ngữ base?
