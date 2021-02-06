@@ -44,7 +44,7 @@ docker push <tên image bạn vừa tạo>:<tag của image bạn vừa tạo>
   - Tên image của bạn đặt phải trùng với tên của repo trên docker hub của bạn.
   - Nên dùng lệnh ```docker login``` đăng nhập vào tài khoản docker hub của bạn trước để tránh lỗi phát sinh.
 
-- Để kết nối hai container với nhau, ta sử dụng lệnh:
+- Để kết nối hai container chạy lệnh ```action``` và ```run``` với nhau, ta sử dụng lệnh:
 ```
 docker create network <tên network bạn muốn tạo>
 ```
