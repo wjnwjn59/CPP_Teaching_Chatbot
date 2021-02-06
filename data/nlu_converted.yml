@@ -251,8 +251,6 @@ nlu:
     - Ai làm tác giả của mày
     - cách bạn được tạo ra
     - Nguyễn Lê Anh Quân và Dương Đình Thắng là ai ?
-    - mày là con cặc gì vậy
-    - giới tính của bạn là gì?
     - Ai tạo ra BOT vậy?
 - intent: attention
   examples: |
@@ -583,6 +581,7 @@ nlu:
     - How about u?
     - Bạn khoẻ không
     - bạn khỏe không
+    - mình khỏe, còn bạn?
 - intent: goodbye
   examples: |
     - see you next time
@@ -612,7 +611,6 @@ nlu:
     - tao bận rồi, bye
     - pp
     - pipi
-    - Cút xéo
     - đi đây
     - Good bye
     - see you next time
@@ -965,7 +963,6 @@ nlu:
     - Chiến vc v
     - Quá chiến luôn chatbot ơi
     - Xuất cmn sắc
-    - có -.-
     - có giúp được một chút
     - hmm một chút
     - Thôi. Mình giỡn á
@@ -1399,6 +1396,10 @@ nlu:
   examples: |
     - Hơi mệt 😥
     - tui mệt quá 😂😂😂
+    - Rớt môn giải tích thì phải làm sao
+    - Hơi mệt 😥
+    - Làm sao để qua môn CS1 của thầy Tiến
+    - Mất gốc nhập môn lập trình rồi pot ơi
     - sad
     - very sad
     - unhappy
@@ -1598,7 +1599,6 @@ nlu:
     - Nghỉ 
     - Thôi nghỉ 
     - Nghĩ 
-    - Bye 
     - Baii 
     - Cút xéo 
     - Thôi đc r mình k cần hỏi nữa đâu cảm ơn 
@@ -1613,7 +1613,6 @@ nlu:
     - khum
     - /deny
     - hong -.-
-    - Nothing
 - intent: continue_asking
   examples: |
     - continue_asking
@@ -1668,6 +1667,7 @@ nlu:
     - bạn có thể trả lời gì
     - có 
     - co 
+    - có -.-
     - dĩ nhiên r 
     - Ok típ nà 
     - okay chơi tiếp nè 
@@ -1677,6 +1677,7 @@ nlu:
     - đợi suy nghĩ cái 
     - ô khê đợi t suy nghĩ cái 
     - oke đợi tí
+    - muốn chứ  
 - intent: want_to_ask
   examples: |
     - E CHO TAO HOI CAI
@@ -1843,7 +1844,6 @@ nlu:
     - Học gì để đạt điểm cao nhập môn lập trình?
     - Bạn biết thầy Đỗ Văn Tiến không?
     - Làm sao để lấy ra dãy tăng dần trong mảng
-    - Làm sao để qua môn CS1 của thầy Tiến
     - Bạn có biết tìm lỗi trong code không ?
     - nó chạy như thế noà
     - hmmm is this a bug ??
@@ -1879,13 +1879,13 @@ nlu:
     - bí mật của vũ trụ là gì
     - thay Do Tien
     - dịch từ c++ sang python được không
-    - Giờ bắt đầu học c++ từ đâu đây Bot?
     - Cho mình xin tài liệu c++?
+    - mình muốn biết về python
+    - Ăn tết chưa ạ
+    - Câu ăn tết ạ
     - Bạn có biết tìm lỗi trong code không ?
-    - Bạn có trò chơi gì vui không?
     - Mình cần người yêu
     - Biet toi la ai khong ?
-    - Không cần hiểu con trỏ có học tốt nhập môn lập trình được không
     - Sao cứ càng code càng bug vậy bro
     - /câu 3
     - Dhsjsjsjska
@@ -1909,7 +1909,6 @@ nlu:
     - asfasfsdbfdbheqwer
     - Thế nào là point er
     - Thực là gì?
-    - Ok chờ xí
     - /q
     - \quit
     - con cặc là gì
@@ -2012,8 +2011,7 @@ nlu:
     - Bot có biết dạng đề thi học kì không?
     - Machine learning là gì
     - Dạy mình cách lập trình AI
-    - Hihi
-    - Huhuhuhuhu
+    - Hihihihi
     - Dhsjsjsjska
     - Làm sao để master lập trình vậy
     - /restart
@@ -2028,6 +2026,7 @@ nlu:
     - 1 + 1 = 2 đúng không?
     - Mật khẩu facebook của chủ mầy là gì ?
     - RAM là gì?
+    - ram là cái gì ? 
     - Doi net ve nha tho Xuan Dieu.
     - Xuan DIeu
     - Doi net ve Do Tien
@@ -2060,7 +2059,6 @@ nlu:
     - 69
     - Cấu trúc dữ liệu giải thuật
     - Haha
-    - Hihi
 - intent: cpplus_example_asking
   examples: |
     - Cho một cái ví dụ về [mảng]{"entity": "cpplus_content", "value": "array"} đi iem
@@ -2144,6 +2142,7 @@ nlu:
     - Ví dụ về [Lambda]{"entity": "cpplus_content", "value": "lambda"}
     - Ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"}
     - eg về [hàm]{"entity": "cpplus_content", "value": "function"}
+    - Cách viết một chương trình [C]{"entity": "cpplus_content", "value": "cplusplus"}++
     - ê tao vẫn chưa hiểu về cái vòng lặp trong c++ lắm cho thử một ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"} xem nào
     - CHO MỘT CÁI VÍ DỤ VỀ [MẢNG]{"entity": "cpplus_content", "value": "array"} ĐI IEM
     - Ê CHO CÁI VÍ DỤ VỀ [ARRAY]{"entity": "cpplus_content", "value": "array"}
@@ -3377,6 +3376,9 @@ nlu:
     - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la gi?
     - The nao la [toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} v?
     - [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la cm gi v lz que
+    - [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} là gì vậy 
+    - Định nghĩa về [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} đi bot 
+    - Thế nào là [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} vậy bot
 - intent: cpplus_how_asking
   examples: |
     - LÀM CÁCH NÀO ĐỂ DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} V
@@ -4217,6 +4219,94 @@ nlu:
     - Cu phap cua [unsigned](cpplus_content) la gi
     - Cu phap cua [signed](cpplus_content) la gi
     - Cu phap cua [short](cpplus_content) la gi
+    - [for](cpplus_content) chạy như thế nào
+    - [while](cpplus_content) chạy như thế nào 
+    - Cách vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"}
+    - Làm thế nào để vẽ [flowchart]{"entity": "cpplus_content", "value": "flowchart"}
+    - [comment]{"entity": "cpplus_content", "value": "comment"} chạy như thế nào
+    - [include]{"entity": "cpplus_content", "value": "include"} chạy như thế nào
+    - [library]{"entity": "cpplus_content", "value": "library"} chạy như thế nào
+    - [namespace]{"entity": "cpplus_content", "value": "namespace"} chạy như thế nào
+    - [pseudo-code]{"entity": "cpplus_content", "value": "pseudo-code"} chạy như thế nào
+    - [variable]{"entity": "cpplus_content", "value": "variable"} chạy như thế nào
+    - [unsigned]{"entity": "cpplus_content", "value": "unsigned"} chạy như thế nào
+    - [signed]{"entity": "cpplus_content", "value": "signed"} chạy như thế nào
+    - [short]{"entity": "cpplus_content", "value": "short"} chạy như thế nào
+    - [long]{"entity": "cpplus_content", "value": "long"} chạy như thế nào
+    - [type-modififer]{"entity": "cpplus_content", "value": "type-modififer"} chạy như thế nào
+    - [typedef]{"entity": "cpplus_content", "value": "typedef"} chạy như thế nào
+    - [constant]{"entity": "cpplus_content", "value": "constant"} chạy như thế nào
+    - [macro]{"entity": "cpplus_content", "value": "macro"} chạy như thế nào
+    - [wchar_t]{"entity": "cpplus_content", "value": "wchar_t"} chạy như thế nào
+    - [boolean]{"entity": "cpplus_content", "value": "boolean"} chạy như thế nào
+    - [data-type]{"entity": "cpplus_content", "value": "data-type"} chạy như thế nào
+    - [2d-array]{"entity": "cpplus_content", "value": "2d-array"} chạy như thế nào
+    - [array]{"entity": "cpplus_content", "value": "array"} chạy như thế nào
+    - [structure]{"entity": "cpplus_content", "value": "structure"} chạy như thế nào
+    - [class]{"entity": "cpplus_content", "value": "class"} chạy như thế nào
+    - [union]{"entity": "cpplus_content", "value": "union"} chạy như thế nào
+    - [pointer]{"entity": "cpplus_content", "value": "pointer"} chạy như thế nào
+    - [enumeration]{"entity": "cpplus_content", "value": "enumeration"} chạy như thế nào
+    - [integer]{"entity": "cpplus_content", "value": "integer"} chạy như thế nào
+    - [floating-point]{"entity": "cpplus_content", "value": "floating-point"} chạy như thế nào
+    - [double]{"entity": "cpplus_content", "value": "double"} chạy như thế nào
+    - [character]{"entity": "cpplus_content", "value": "character"} chạy như thế nào
+    - [string]{"entity": "cpplus_content", "value": "string"} chạy như thế nào
+    - [local-variable]{"entity": "cpplus_content", "value": "local-variable"} chạy như thế nào
+    - [auto]{"entity": "cpplus_content", "value": "auto"} chạy như thế nào
+    - [external]{"entity": "cpplus_content", "value": "external"} chạy như thế nào
+    - [static]{"entity": "cpplus_content", "value": "static"} chạy như thế nào
+    - [vector]{"entity": "cpplus_content", "value": "vector"} chạy như thế nào
+    - [reference-variable]{"entity": "cpplus_content", "value": "reference-variable"} chạy như thế nào
+    - [decrement-operator]{"entity": "cpplus_content", "value": "decrement-operator"} chạy như thế nào
+    - [increment-operator]{"entity": "cpplus_content", "value": "increment-operator"} chạy như thế nào
+    - [dereference-operator]{"entity": "cpplus_content", "value": "dereference-operator"} chạy như thế nào
+    - [address_of-operator]{"entity": "cpplus_content", "value": "address_of-operator"} chạy như thế nào
+    - [comma-operator]{"entity": "cpplus_content", "value": "comma-operator"} chạy như thế nào
+    - [ternary-operator]{"entity": "cpplus_content", "value": "ternary-operator"} chạy như thế nào
+    - [binary-operator]{"entity": "cpplus_content", "value": "binary-operator"} chạy như thế nào
+    - [unary-operator]{"entity": "cpplus_content", "value": "unary-operator"} chạy như thế nào
+    - [shift-operator]{"entity": "cpplus_content", "value": "shift-operator"} chạy như thế nào
+    - [bitwise-operator]{"entity": "cpplus_content", "value": "bitwise-operator"} chạy như thế nào
+    - [logical-operator]{"entity": "cpplus_content", "value": "logical-operator"} chạy như thế nào
+    - [comparison-operator]{"entity": "cpplus_content", "value": "comparison-operator"} chạy như thế nào
+    - [arithmetic-operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} chạy như thế nào
+    - [assignment-operator]{"entity": "cpplus_content", "value": "assignment-operator"} chạy như thế nào
+    - [operator]{"entity": "cpplus_content", "value": "operator"} chạy như thế nào
+    - [scope-resolution-operator]{"entity": "cpplus_content", "value": "scope-resolution-operator"} chạy như thế nào
+    - [if]{"entity": "cpplus_content", "value": "if"} chạy như thế nào
+    - [loop]{"entity": "cpplus_content", "value": "loop"} chạy như thế nào
+    - [control-flow]{"entity": "cpplus_content", "value": "control-flow"} chạy như thế nào
+    - [selection-statement]{"entity": "cpplus_content", "value": "selection-statement"} chạy như thế nào
+    - [iteration-statement]{"entity": "cpplus_content", "value": "iteration-statement"} chạy như thế nào
+    - [jump-statement]{"entity": "cpplus_content", "value": "jump-statement"} chạy như thế nào
+    - [do-while]{"entity": "cpplus_content", "value": "do-while"} chạy như thế nào
+    - [switch]{"entity": "cpplus_content", "value": "switch"} chạy như thế nào
+    - [break]{"entity": "cpplus_content", "value": "break"} chạy như thế nào
+    - [continue]{"entity": "cpplus_content", "value": "continue"} chạy như thế nào
+    - [goto]{"entity": "cpplus_content", "value": "goto"} chạy như thế nào
+    - [if-else]{"entity": "cpplus_content", "value": "if-else"} chạy như thế nào
+    - [if else]{"entity": "cpplus_content", "value": "if-else"} chạy như thế nào
+    - [if-else-if-ladder]{"entity": "cpplus_content", "value": "if-else-if-ladder"} chạy như thế nào
+    - [nested-if]{"entity": "cpplus_content", "value": "nested-if"} chạy như thế nào
+    - [function]{"entity": "cpplus_content", "value": "function"} chạy như thế nào
+    - [hàm]{"entity": "cpplus_content", "value": "function"} chạy như thế nào
+    - [parameter]{"entity": "cpplus_content", "value": "parameter"} chạy như thế nào
+    - [tham số]{"entity": "cpplus_content", "value": "parameter"} chạy như thế nào
+    - [argument]{"entity": "cpplus_content", "value": "argument"} chạy như thế nào
+    - [Đối số]{"entity": "cpplus_content", "value": "argument"} chạy như thế nào
+    - [recursion]{"entity": "cpplus_content", "value": "recursion"} chạy như thế nào
+    - [pass-by-value]{"entity": "cpplus_content", "value": "pass-by-value"} chạy như thế nào
+    - [pass-by-reference]{"entity": "cpplus_content", "value": "pass-by-reference"} chạy như thế nào
+    - [return]{"entity": "cpplus_content", "value": "return"} chạy như thế nào
+    - [return-type]{"entity": "cpplus_content", "value": "return-type"} chạy như thế nào
+    - [const-reference]{"entity": "cpplus_content", "value": "const-reference"} chạy như thế nào
+    - [inline-function]{"entity": "cpplus_content", "value": "inline-function"} chạy như thế nào
+    - [default-value]{"entity": "cpplus_content", "value": "default-value"} chạy như thế nào
+    - [main-function]{"entity": "cpplus_content", "value": "main-function"} chạy như thế nào
+    - [built-in-function]{"entity": "cpplus_content", "value": "built-in-function"} chạy như thế nào
+    - [lambda]{"entity": "cpplus_content", "value": "lambda"} chạy như thế nào
+    - [flowchart]{"entity": "cpplus_content", "value": "flowchart"} chạy như thế nào
 - intent: cpplus_why_asking
   examples: |
     - TẠI SAO PHẢI DÙNG [BIẾN]{"entity": "cpplus_content", "value": "variable"}
@@ -4363,6 +4453,9 @@ nlu:
     - m có lời biện hộ nào cho việc vì sao lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước mà không phải những ngôn ngữ khác k?
     - tại sao có rất nhiều ngôn ngữ lập trình đang hot hiện nay như python javascript R... mà t lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước v bot
     - s bố m lại bị ép buộc phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước tiên v bot
+    - Có nhất thiết phải hiểu rõ [con trỏ]{"entity": "cpplus_content", "value": "pointer"} hay không
+    - Tầm quan trọng của [con trỏ]{"entity": "cpplus_content", "value": "pointer"} 
+    - Không cần hiểu [con trỏ]{"entity": "cpplus_content", "value": "pointer"} có học tốt nhập môn lập trình được không
     - có thể cho t 1 lời giải thích vì sao lại phải học cái [c]{"entity": "cpplus_content", "value": "cplusplus"}++ này trước thay vì là những ngôn ngữ xịn xò khác...
     - ngoài kia có rất nhiều ngôn ngữ lập trình khác được cho là phổ biến và hot hơn như python js ruby... tại sao m lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để làm base ?
     - vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ làm ngôn ngữ base?

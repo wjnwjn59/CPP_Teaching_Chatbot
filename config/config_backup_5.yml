@@ -1,0 +1,43 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: "vi"
+
+pipeline:
+- name: HFTransformersNLP
+  # Name of the language model to use
+  model_name: "roberta"
+  # Pre-Trained weights to be loaded
+  model_weights: "roberta-large"
+  cache_dir: null
+- name: "LanguageModelTokenizer"
+  # Flag to check whether to split intents
+  "intent_tokenization_flag": False
+  # Symbol on which intent should be split
+  "intent_split_symbol": "_"
+- name: "RegexFeaturizer"
+  # Text will be processed with case sensitive as default
+  "case_sensitive": True
+- name: LanguageModelFeaturizer
+  model_name: "roberta"
+  model_weights: "roberta-large"
+  cache_dir: null
+- name: "DIETClassifier"
+  epochs: 300
+  batch_size: 256
+  use_masked_language_model: True
+  tensorboard_log_directory: tensorboard
+- name: FallbackClassifier
+  threshold: 0.75
+- name: "EntitySynonymMapper"
+- name: "ResponseSelector"
+  
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: TEDPolicy
+    max_history: 5
+    random_seed: 42
+    epochs: 300
+  - name: RulePolicy
