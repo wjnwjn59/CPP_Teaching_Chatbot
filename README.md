@@ -62,7 +62,7 @@ action_endpoint:
 docker run -it -v $(pwd):/app -p 5005:5005 --net <tên network bạn vừa tạo> <image id của bạn> run -vv
 ```
 ### Cấu hình tối thiểu của server để host botchat ( Mình lấy cấu hình dựa theo server mình đang host botchat của mình):
-OS: Ubuntu >= 18.04 ( Khuyến khích chạy trên Ubuntu, mình chạy trên windows gặp nhiều lỗi quá nên bạn nào chạy trên windows mà bị lỗi có thể tạo issuses để mình có thể giúp nhé)
-RAM >= 12 GB
-CPU: Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz trở về sau nếu server bạn host không có GPU
-(Tùy chọn) GPU: GTX 1050Ti trở về sau vì mình dùng model transformers nên tiêu tốn khá nhiều tài nguyên.
+- OS: Ubuntu >= 18.04 ( Khuyến khích chạy trên Ubuntu, mình chạy trên windows gặp nhiều lỗi quá nên bạn nào chạy trên windows mà bị lỗi có thể tạo issuses để mình có thể giúp nhé)
+- RAM >= 8 GB
+- CPU: Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz trở về sau nếu server bạn host không có GPU
+- (Tùy chọn) GPU: GTX 1050Ti trở về sau vì mình dùng model transformers nên tiêu tốn khá nhiều tài nguyên.
