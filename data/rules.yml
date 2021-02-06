@@ -13,42 +13,49 @@ rules:
   - intent: flowchart_asking
   - action: flowchart_quest_num_form
   - active_loop: flowchart_quest_num_form
+  - action: action_flowchart_practice_answer
 
 - rule: Activate form asking example
   steps:
   - intent: cpplus_example_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Activate form asking what
   steps:
   - intent: cpplus_what_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Activate form asking why
   steps:
   - intent: cpplus_why_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Activate form asking how
   steps:
   - intent: cpplus_how_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Activate form asking when
   steps:
   - intent: cpplus_when_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Activate form asking where
   steps:
   - intent: cpplus_where_asking
   - action: cpp_content_form
   - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
 
 - rule: Ask who created bot
   steps:
@@ -101,3 +108,28 @@ rules:
   - intent: insult
   - action: utter_reply_insult
   wait_for_user_input: false
+
+- rule: continue asking 
+  steps:
+  - intent: continue_asking
+  - action: utter_ok
+  - action: utter_accept_questions
+
+- rule: stop asking 
+  steps: 
+  - intent: stop_asking
+  - action: utter_reply_stop_asking
+
+- rule: want to watch cpp tutorial
+  steps:
+  - intent: want_to_watch_cpp_tutorial
+  - action: utter_ok
+  - action: utter_ask_which_video_tutorial
+
+- rule: cpplus specific video tutorial asking
+  steps:
+  - intent: cpplus_specific_video_tutorial_asking
+  - action: cpp_content_form
+  - active_loop: cpp_content_form
+  - action: action_cpplus_content_answer
+  - action: utter_ask_anything_else
