@@ -3,6 +3,12 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
+- out_of_scope:
+    use_entities: []
+- continue_asking:
+    use_entities: []
+- dont_want_to_ask:
+    use_entities: []
 - nlu_fallback:
     use_entities: []
 - cpplus_specific_video_tutorial_asking
@@ -14,8 +20,6 @@ intents:
     use_entities: []
 - flowchart_asking
 - thanks:
-    use_entities: []
-- out_of_scope:
     use_entities: []
 - attention:
     use_entities: []
@@ -37,11 +41,7 @@ intents:
     use_entities: []
 - stop_asking:
     use_entities: []
-- continue_asking:
-    use_entities: []
 - want_to_ask:
-    use_entities: []
-- dont_want_to_ask:
     use_entities: []
 - who_are_you:
     use_entities: []

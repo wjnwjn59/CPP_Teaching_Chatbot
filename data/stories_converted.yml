@@ -1872,3 +1872,13 @@ stories:
   - active_loop: null
   - action: action_cpplus_content_answer
   - action: utter_ask_anything_else
+
+- story: interactive_story_2
+  steps:
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - action: utter_who_i_am
+  - intent: continue_asking
+  - action: utter_accept_questions
+  - intent: dont_want_to_ask
+  - action: utter_what_do_you_want
