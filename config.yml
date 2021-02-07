@@ -36,5 +36,5 @@ policies:
   - name: TEDPolicy
     max_history: 5
     random_seed: 42
-    epochs: 300
+    epochs: 150
   - name: RulePolicy
