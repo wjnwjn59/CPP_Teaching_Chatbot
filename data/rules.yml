@@ -101,15 +101,3 @@ rules:
   - intent: insult
   - action: utter_reply_insult
   wait_for_user_input: false
-
-- rule: continue asking 
-  steps:
-  - intent: continue_asking
-  - action: utter_accept_questions
-  wait_for_user_input: false
-
-- rule: stop asking 
-  steps:
-  - intent: stop_asking
-  - action: utter_reply_stop_asking
-  wait_for_user_input: false
