@@ -11,46 +11,6 @@ import calendar
 import random
 import requests
 
-#mydb = mysql.connector.connect(
-#  host="localhost",
-#  user="root",
-#  password="",
-#  database="CPPCONTENT"
-#)
-
-#mycursor = mydb.cursor()
-
-#def DataGet(type,object):
-#  mycursor.execute("SELECT CONTENT FROM CPP WHERE TYPE = {} AND OBJECT = '{}'".format(type,object))
-#  myresult = mycursor.fetchall()
-#  return str(myresult).replace("[(","").replace(",)]","")
-# week_day = ['Thứ Hai', 'Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','Thứ Bảy','Chủ Nhật']
-# class AnswerDate(Action):
-#     def name(self) -> Text:
-#         return "action_ask_date"
-#     async def run(self, dispatcher: CollectingDispatcher, 
-#                         tracker: Tracker, 
-#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-#         today = date.today()
-
-#         dispatcher.utter_message(text="Hôm nay là {}, ngày {}, tháng {}, năm {}".format(week_day[today],today.day,today.month,today.year)) 
-#         return [SlotSet("date",tracker.latest_message['text'])]
-
-# class AnswerTime(Action):
-#     def name(self) -> Text:
-#         return "action_ask_date"
-#     async def run(self, dispatcher: CollectingDispatcher, 
-#                         tracker: Tracker, 
-#                         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
-#         now = datetime.now()
-#         current_time = now.strftime("%H:%M:%S")
-
-#         dispatcher.utter_message(text="Bây giờ là {}".format(current_time))
-#         return [SlotSet("time",tracker.latest_message['Text'])]
-
-# class AnswerFlowChart(Action):
-#     def name(self) -> Text:
-#         return "action_ask_flow_chart"
 
 class CPlusPlusPractice(Action):
     def name(self) -> Text:
