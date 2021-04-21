@@ -19,7 +19,7 @@ pipeline:
   cache_dir: null
 - name: "DIETClassifier"
   entity_recognition: False
-  epochs: 300
+  epochs: 250
 - name: FallbackClassifier
   threshold: 0.8  
 - name: "CRFEntityExtractor"

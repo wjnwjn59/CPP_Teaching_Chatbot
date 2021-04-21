@@ -100,7 +100,7 @@ slots:
 responses:
   utter_author:
   - image: https://media.giphy.com/media/eLjAaI1cYMnQrCpbRu/giphy.gif
-    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai lập trình viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên tại UIT - VNUHCM. Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)
+    text: Cảm ơn bạn đã quan tâm, mình đã được tạo ra bởi hai sinh viên là Nguyễn Lê Anh Quân và Dương Đình Thắng, hiện đang là sinh viên khoa Khoa học máy tính tại UIT - VNUHCM, dưới sự hướng dẫn của thầy Đỗ Văn Tiến. Nhờ công lao của họ mà mình mới có thể trò chuyện cùng bạn ngay lúc này nè ;)
   utter_what_do_you_want:
   - text: Vậy bạn muốn gì?
   - text: Thế bạn cần gì?
@@ -155,6 +155,7 @@ responses:
   - text: Bạn ổn làm mình cũng ổn theo luôn đó hihi
   utter_reply_compliment:
   - text: Hihi ngại quá
+  - text: Có gì đâu nè :3
   utter_reply_thanks:
   - text: Không có gì đâu nè ^^
   - text: Có gì đâu hihi
@@ -172,7 +173,7 @@ responses:
       title: Hỏi lại
     - payload: /deny
       title: Không hỏi
-    text: Xin lỗi, mình chưa hiểu ý bạn lắm, phiền bạn nói lại giúp mình với ạ!
+    text: Xin lỗi, câu hỏi của bạn nằm ngoài lĩnh vực của mình (Mình không được tạo ra với mục đích giải bài tập cho các bạn), vui lòng hỏi lại hoặc từ chối bằng các tùy chọn bên dưới! 
   utter_greet:
   - text: Xin chào! Bạn khỏe không?
   - text: Chào bạn, hôm nay bạn thế nào?

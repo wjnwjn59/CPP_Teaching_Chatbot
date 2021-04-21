@@ -22,7 +22,7 @@ pipeline:
   model_weights: "roberta-large"
   cache_dir: null
 - name: "DIETClassifier"
-  epochs: 300
+  epochs: 250
   batch_size: 256
   use_masked_language_model: True
   tensorboard_log_directory: tensorboard
