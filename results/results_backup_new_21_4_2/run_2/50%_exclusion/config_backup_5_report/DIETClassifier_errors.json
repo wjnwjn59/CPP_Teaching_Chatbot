@@ -1,0 +1,3879 @@
+[
+  {
+    "text": "T\u1ea1i sao ta ph\u1ea3i h\u1ecdc m\u00f4n n\u00e0y v\u1eady?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.9632295370101929,
+        "value": "ta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "C\u1ea7n s\u1eed d\u1ee5ng kh\u00f4ng gian t\u00ean l\u00fac n\u00e0o th\u1ebf??",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.675997793674469,
+        "value": "gian t\u00ean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "LUY\u1ec6N IF",
+    "entities": [
+      {
+        "start": 6,
+        "end": 8,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1C B\u00c0I TO\u00c1N V\u1ec0 TO\u00c1N T\u1eec  N\u00d3I CHUNG",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.6508752107620239,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 28,
+        "confidence_entity": 0.5472768545150757,
+        "value": "N\u00d3I",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tao mu\u1ed1n \u00f4n t\u1eadp v\u1ec1 c++",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho m\u00ecnh xin m\u1ed9t s\u1ed1 b\u00e0i to\u00e1n li\u00ean quan \u0111\u1ebfn struct",
+    "entities": [
+      {
+        "start": 43,
+        "end": 49,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Kh\u00f4ng bi\u1ebft n\u00ean c\u00e1m \u01a1n sao cho v\u1eeba \u0111\u00e2y",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.6075788736343384,
+        "value": "cho",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vip pro lu\u00f4n ng\u01b0\u1eddi anh em",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.928196370601654,
+        "value": "pro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tuy\u1ec7t c\u00fa m\u00e8o",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.807504415512085,
+        "value": "m\u00e8o",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "NG\u01af\u1edcI N\u00c0O \u0110\u00c3 THAM GIA T\u1ea0O RA ML M\u00c0Y V\u1eacY BOT LZ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.6810534596443176,
+        "value": "ML",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "M\u00ccNH FINE L\u1eaeM NHA",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.961792528629303,
+        "value": "FINE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho tao h\u1ecfi m\u1ed9t ch\u00fat v\u1ec1 C++",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 24,
+        "end": 25,
+        "confidence_entity": 0.8595694899559021,
+        "value": "cplusplus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "M\u1ecdi lo\u1ea1i b\u00e0i t\u1eadp gi\u00fap up tr\u00ecnh v\u1ebd l\u01b0u \u0111\u1ed3",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.5194706916809082,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cay luu do thuat toan",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.890350878238678,
+        "value": "do thuat toan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "G\u1eecI B\u1ed0 M\u00c0Y M\u1ed8T LO\u1ea0T B\u00c0I FLOWCHART \u0110\u1ec2 V\u1ebc COI N\u00c0O",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.8125253915786743,
+        "value": "flowchart",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i s l\u1ea1i c\u1ea7n s\u1ed1 c\u00e2u h\u1ecfi? k t\u1ef1 \u0111\u01b0a 1 v\u00e0i c\u00e2u ra dc \u00e0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 35,
+        "end": 36,
+        "confidence_entity": 0.5040125846862793,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.7943273186683655,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u01a1 c\u1ee9 \u0111\u01b0a \u0111\u1ea1i 1 v\u00e0i c\u00e2u ra l\u00e0m \u0111i",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.9986936450004578,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "G\u1eedi \u0111\u1ea1i v\u00e0i c\u00e2u random c\u0169ng dc r m\u00e0???",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.8447047472000122,
+        "value": "random",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i ph\u1ea3i n\u00f3i th\u00eam v\u1ee5 n\u00e0y n\u1eefa trong khi m c\u00f3 th\u1ec3 \u0111\u01b0a ra \u0111\u1ea1i 1 v\u00e0i c\u00e2u c\u0169ng dc m\u00e0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 59,
+        "end": 61,
+        "confidence_entity": 0.6010447144508362,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 81,
+        "end": 83,
+        "confidence_entity": 0.6949269771575928,
+        "value": "dc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao m l\u1ea1i c\u1ea7n c\u00f3 th\u00f4ng tin \u0111\u00f3 ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.8702054023742676,
+        "value": "tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "V\u00ec s l\u1ea1i ph\u1ea3i l\u00e0m th\u1ebf? C\u1ee9 g\u1eedi v\u00e0i c\u00e2u random l\u00e0m s\u01b0\u01a1ng s\u01b0\u01a1ng l\u00e0 ok r",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.8122352361679077,
+        "value": "random",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "MOT SO VIDEO BAI QUAY VE DATA TYPES CS-UIT",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.7881370186805725,
+        "value": "DATA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "video ve c++",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "G\u1eecI VIDEO V\u1ec0 TUTORIAL NMLT",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9203895330429077,
+        "value": "TUTORIAL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "video tutorials ve C++ di bot oi",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C++ COMMENT TUTORIALS",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "G\u1eecI T\u00d4I VIDEO GI\u1edaI THI\u1ec6U S\u01a0 B\u1ed8 V\u1ec0 NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH",
+    "entities": [
+      {
+        "start": 34,
+        "end": 52,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "VIDEO BAI GIANG CUA KHOA KHOA HOC MAY TINH CS UIT VE KIEU DU LIEU STRING",
+    "entities": [
+      {
+        "start": 66,
+        "end": 72,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C++ comment tutorials",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed9t s\u1ed1 video b\u00e0i quay v\u1ec1 data types CS-UIT",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.9367613792419434,
+        "value": "data",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "BAI GIANG VE TOAN TU TRONG C++",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "video gi\u1edbi thi\u1ec7u m\u00f4n NMLT",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bai giang hay ve kieu ki tu UIT",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.8742860555648804,
+        "value": "tu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Youtube link b\u00e0i variable C++",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "VIDEO V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00e2u th\u1ee9 3 c\u00e2u th\u1ee9 4 c\u00e2u th\u1ee9 5 c\u00e2u th\u1ee9 6",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "value": "4",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "value": "5",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "value": "6",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9974180459976196,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 28,
+        "end": 29,
+        "confidence_entity": 0.9996479749679565,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 38,
+        "end": 39,
+        "confidence_entity": 0.9987996816635132,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u00ea t mu\u1ed1n h\u1ecfi c\u00e2u 19, c\u00e2u 20 v\u00e0 c\u00e2u 21",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "19",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "20",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 35,
+        "end": 37,
+        "value": "21",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.968652606010437,
+        "value": "20",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9985668063163757,
+        "value": "21",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho m\u00ecnh xin c\u00e2u 94 z\u1edbi 21 \u0111i",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "94",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 24,
+        "end": 26,
+        "value": "21",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 24,
+        "end": 26,
+        "confidence_entity": 0.9763090014457703,
+        "value": "21",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "B\u00e0i t\u1eadp 3 \u0111i bot",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "g\u1eedi c\u00e2u 59 l\u01b0\u1ee3c \u0111\u1ed3 thu\u1eadt to\u00e1n \u0111\u00ea",
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "value": "59",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "e t muon hoi cau 19, cau 20 va cau 21",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "19",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "20",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 35,
+        "end": 37,
+        "value": "21",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.998589813709259,
+        "value": "20",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.996340811252594,
+        "value": "21",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "B\u00c0I 97 L\u01afU \u0110\u1ed2 THU\u1eacT TO\u00c1N TH\u1ea6Y KHANG",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "97",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bro noi the chua dung dau",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.6792240142822266,
+        "value": "dung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "E co the xin link video bai day c++ cua truong minh dc k a bot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 2,
+        "end": 4,
+        "confidence_entity": 0.6400761604309082,
+        "value": "co",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tao muon xem mot vai video tutorial ve NMLT",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.5149250626564026,
+        "value": "introduction-to-programming",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "TAO MU\u1ed0N XEM M\u1ed8T V\u00c0I VIDEO TUTORIAL V\u1ec0 NMLT",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.5019728541374207,
+        "value": "introduction-to-programming",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cho em xem 1 so video day ve nmlt ben uit voi a",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.8298566937446594,
+        "value": "ben",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ch\u1ee7 c\u1ee7a b\u1ea1n c\u00f3 bi\u1ebft g\u00ec v\u1ec1 c\u00e2u chuy\u1ec7n gi\u1eefa hai ch\u00fang ta kh\u00f4ng?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 42,
+        "end": 45,
+        "confidence_entity": 0.5774704217910767,
+        "value": "hai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Doi net ve Do Tien",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.939165472984314,
+        "value": "Do Tien",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Con tr\u1ecf trong C++ chi\u1ebfm bao nhi\u00eau b\u1ed9 nh\u1edb v\u00e0 k\u00edch th\u01b0\u1edbc c\u1ee7a ch\u00fang c\u00f3 b\u1eb1ng nhau kh\u00f4ng?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6902775764465332,
+        "value": "pointer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u00ean c\u1ee7a mi l\u00e0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.927919328212738,
+        "value": "mi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "C\u00e2m m\u1eb9 m\u1ed3m v\u00e0o con ch\u00f3 ngu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.45820510387420654,
+        "value": "con",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 V\u00d2NG L\u1eb6P",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.5183373093605042,
+        "value": "loop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mot so instances ve ham thu ne",
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 V\u1ec0 CON TR\u1ece COI \u0110\u1ee4 M\u00c1",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9883584380149841,
+        "value": "pointer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 23,
+        "confidence_entity": 0.3958313763141632,
+        "value": "\u0110\u1ee4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "d\u00ed d\u1ee5 th\u1eed v\u1ec1 ki\u1ec3u d\u1eef li\u1ec7u float xem sao n\u00e0o",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.8714762330055237,
+        "value": "li\u1ec7u",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9991692304611206,
+        "value": "floating-point",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "MOT SO VI DU CU THE HON VE TOAN TU DINH PHAM VI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 47,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.8857625722885132,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "E tao dang khong hieu ro ve Toan tu so hoc va toan tu logic, cho tao vi du ve hai mon do di",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "arithmetic-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "value": "logical-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.49929603934288025,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 46,
+        "end": 59,
+        "confidence_entity": 0.8869001865386963,
+        "value": "logical-operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 78,
+        "end": 85,
+        "confidence_entity": 0.49638813734054565,
+        "value": "hai mon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "D\u00cd D\u1ee4 TH\u1eec V\u1ec0 KI\u1ec2U D\u1eee LI\u1ec6U FLOAT XEM SAO N\u00c0O",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.8086592555046082,
+        "value": "data-type",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9918016791343689,
+        "value": "floating-point",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cho m\u00ecnh m\u1ed9t s\u1ed1 c\u00e1c c\u00e1i v\u00ed d\u1ee5 v\u1ec1 l\u1ec7nh break v\u00e0 l\u1ec7nh continue \u0111i \u1ea1",
+    "entities": [
+      {
+        "start": 38,
+        "end": 43,
+        "value": "break",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "value": "continue",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.4923817813396454,
+        "value": "break",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "V\u00cd D\u1ee4 N\u00c0O KH\u00d3 HI\u1ec2U V\u1ec0 HAM S\u1ed0 M\u1eb6C NHI\u00caN",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "default-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.918491542339325,
+        "value": "HAM S\u1ed0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "CHO M\u00ccNH M\u1ed8T S\u1ed0 C\u00c1C C\u00c1I V\u00cd D\u1ee4 V\u1ec0 L\u1ec6NH BREAK V\u00c0 L\u1ec6NH CONTINUE \u0110I \u1ea0",
+    "entities": [
+      {
+        "start": 38,
+        "end": 43,
+        "value": "break",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "value": "CONTINUE",
+        "entity": "CPPLUS_CONTENT"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.9963392019271851,
+        "value": "break",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 52,
+        "end": 60,
+        "confidence_entity": 0.9988306164741516,
+        "value": "continue",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "CHO T\u00d4I V\u00cd D\u1ee4 V\u1ec0 C\u00c1C LO\u1ea0I V\u00d2NG L\u1eb6P FOR, WHILE V\u00c0 DO WHILE \u0110I",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "value": "for",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "WHILE",
+        "entity": "CPPLUS_CONTENT"
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9357471466064453,
+        "value": "for",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.7997573018074036,
+        "value": "while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.9460800290107727,
+        "value": "do-while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "just give to me a example about to\u00e1n t\u1eed \u0111\u1ecbnh ph\u1ea1m vi",
+    "entities": [
+      {
+        "start": 32,
+        "end": 52,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.6808106899261475,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 50,
+        "end": 52,
+        "confidence_entity": 0.6106316447257996,
+        "value": "vi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sao l\u1ea1i sinh ra th\u00eam kh\u00e1i ni\u1ec7m \u0111\u1ed1i s\u1ed1 l\u00e0 shaoooo",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00ca BOT, L\u00dd DO G\u00cc M\u00c0 c++ L\u1ea0I \u0110\u01af\u1ee2C \u01afU TI\u00caN \u0110\u1ec2 L\u00c0M NG\u00d4N NG\u1eee L\u1eacP TR\u00ccNH KH\u1edeI \u0110\u1ea6U TRONG GI\u1ea2NG D\u1ea0Y",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "STRUCT, NGUY\u00caN C\u01a0 N\u00c0O M\u00c0 PH\u1ea2I C\u00d3 N\u00d3?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U S\u1ed0 TH\u1ef0C, SAO L\u1ea0I PH\u1ea2I H\u1eccC N\u00d3?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Noi nghe tai sao phai su dung ham vay bot oi ?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "D\u00d9NG BI\u1ebeN T\u0128NH CHI V M",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.5003991723060608,
+        "value": "variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tai sao lai co kieu ki tu v bot ngu oc cut?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 39,
+        "end": 42,
+        "confidence_entity": 0.8475234508514404,
+        "value": "cut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao l\u1ea1i c\u1ea7n d\u00f9ng comma operator khi l\u1eadp tr\u00ecnh?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "comma-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.999854564666748,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao trong c++ ng\u1eebi ta l\u1ea1i d\u00f9ng kh\u00e1i ni\u1ec7m argument th\u1ebf",
+    "entities": [
+      {
+        "start": 45,
+        "end": 53,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.9920956492424011,
+        "value": "ta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.993687093257904,
+        "value": "argument",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Yo bot, v\u00ec c\u00e1i lz g\u00ec m\u00e0 ng\u01b0\u1eddi ta l\u1ea1i ch\u1ecdn cplusplus \u0111\u1ec3 h\u1ecdc \u0111\u1ea7u ti\u00ean th\u1ebf?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 51,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO B\u1ed0 M L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG LIBS V",
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "D\u1ea1 anh \u01a1i, anh c\u00f3 th\u1ec3 cho bi\u1ebft v\u00ec sao m\u00ecnh l\u1ea1i d\u00f9ng tham chi\u1ebfu h\u1eb1ng \u0111\u01b0\u1ee3c kh\u00f4ng \u1ea1?",
+    "entities": [
+      {
+        "start": 52,
+        "end": 67,
+        "value": "const-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tai sao nen hoc kieu chuoi?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "LIBRARY L\u00c0 C\u00c1I CC G\u00cc M\u00c0 T\u1ea0I S T L\u1ea0I PH\u1ea2I S\u1eec D\u1ee4NG N\u00d3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i sinh ra kh\u00e1i ni\u1ec7m global variable th\u1ebf m\u00e0y?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 44,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9494155645370483,
+        "value": "global-variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Clm t \u0111\u00e9o hi\u1ec3u sao l\u1ea1i c\u1ea7n Include m\u1ed7i l\u1ea7n vi\u1ebft code lu\u00f4n \u00e1 m, gi\u1ea3i th\u00edch cho t v\u1edbi",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "e bot oi, tai sao trong code, lai co khai niem ve vong lap vay may?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 58,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9918855428695679,
+        "value": "code",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.6008145809173584,
+        "value": "vong",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ly do gi ma lai co unary operator the?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 33,
+        "value": "unary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 33,
+        "confidence_entity": 0.8057621121406555,
+        "value": "co unary operator",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea0I SAO N\u00caN H\u1eccC KI\u1ec2U CHU\u1ed6I?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.5623169541358948,
+        "value": "string",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao khai b\u00e1o th\u01b0 vi\u1eb9n ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "T\u1ea1i sao c++ l\u1ea1i l\u00e0 ng\u00f4n ng\u1eef kh\u1edfi \u0111\u1ea7u con \u0111\u01b0\u1eddng h\u1ecdc l\u1eadp tr\u00ecnh c\u1ee7a t v bot \u01a1i ?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tao c\u00f3 bi\u1ebft qua v\u1ec1 OOP, trong \u0111\u00f3 c\u00f3 kh\u00e1i ni\u1ec7m class tao th\u1ea5y n\u00f3 kh\u00e1 gi\u1ed1ng v\u1edbi struct, v\u00ec sao l\u1ea1i d\u00f9ng n\u00f3 v\u1eady bot?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 51,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.9033266305923462,
+        "value": "class",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 78,
+        "end": 84,
+        "confidence_entity": 0.8731122016906738,
+        "value": "structure",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u00ea bot, sao ng\u01b0\u1eddi ta khuy\u00ean l\u00e0 n\u1ebfu mu\u1ed1n vi\u1ebft code hay th\u00ec ph\u1ea3i d\u00f9ng type modifier cho t\u1ed1t zay?",
+    "entities": [
+      {
+        "start": 67,
+        "end": 80,
+        "value": "type-modifier",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.9962338805198669,
+        "value": "code",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 67,
+        "end": 80,
+        "confidence_entity": 0.9516249299049377,
+        "value": "type-modifier",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "v\u00ec sao l\u1ea1i ch\u1ecdn c++ l\u00e0m ng\u00f4n ng\u1eef base?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9944654107093811,
+        "value": "cplusplus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.9716934561729431,
+        "value": "base",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u00ca m\u00e0y, sao trong l\u1eadp tr\u00ecnh, ng\u01b0\u1eddi ta l\u1ea1i sinh ra kh\u00e1i ni\u1ec7m to\u00e1n t\u1eed \u0111\u1ec3 l\u00e0m g\u00ec v\u1eady",
+    "entities": [
+      {
+        "start": 59,
+        "end": 66,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho t\u00f4i h\u1ecfi l\u00fd do v\u00ec sao ta l\u1ea1i c\u1ea7n x\u00e0i syntax #include m\u1ed7i khi vi\u1ebft code C \u0111\u01b0\u1ee3c kh\u00f4ng?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 55,
+        "value": "include",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9449440836906433,
+        "value": "ta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 47,
+        "end": 55,
+        "confidence_entity": 0.7325775623321533,
+        "value": "include",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tao c\u00f3 bi\u1ebft qua v\u1ec1 OOP trong \u0111\u00f3 c\u00f3 kh\u00e1i ni\u1ec7m class tao th\u1ea5y n\u00f3 kh\u00e1 gi\u1ed1ng v\u1edbi struct v\u00ec sao l\u1ea1i d\u00f9ng n\u00f3 v\u1eady bot?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 50,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 45,
+        "end": 50,
+        "confidence_entity": 0.9033266305923462,
+        "value": "class",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 77,
+        "end": 83,
+        "confidence_entity": 0.8731122016906738,
+        "value": "structure",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sao nguoi ta lai phat minh them khai niem ve Bien toan cuc the?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 58,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.6351601481437683,
+        "value": "Bien toan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u1ed3n m\u00e1, l\u1eadp tr\u00ecnh \u0111\u00e3 kh\u00f3 r\u1ed3i m\u00e0 sao ng\u01b0\u1eddi ta c\u00f2n l\u00e0m th\u00eam c\u00e1i \u0111\u1ec7 quy chi v\u1eady bot \u01a1i huhu",
+    "entities": [
+      {
+        "start": 62,
+        "end": 68,
+        "value": "recursion",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 42,
+        "end": 44,
+        "confidence_entity": 0.795264482498169,
+        "value": "ta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "t\u1ea1i sao ph\u1ea3i h\u1ecdc m\u00f4n nmlt th\u1ebf bot",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I C\u1ea6N H\u1eccC V\u1ec0 KH\u00c1I NI\u1ec6M L\u1edaP \u0110\u1ed0I T\u01af\u1ee2NG TRONG C++",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.6680054664611816,
+        "value": "\u0110\u1ed0I T\u01af\u1ee2NG",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "n\u00e0y bot, sao ng\u01b0\u1eddi ta khuy\u00ean tao l\u00e0, khi l\u1eadp tr\u00ecnh th\u00ec n\u00ean s\u1eed d\u1ee5ng comment?",
+    "entities": [
+      {
+        "start": 67,
+        "end": 74,
+        "value": "comment",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Kieu so thuc, sao lai phai hoc no?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tai sao lai can dung comma operator khi lap trinh?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "comma-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9984256029129028,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u00ca duma t\u00ednh ra tao kh\u00f4ng hi\u1ec3u v\u00ec sao m\u1ed7i l\u1ea7n vi\u1ebft code c++ l\u00e0 c\u1ee9 ph\u1ea3i x\u00e0i c\u00e1i d\u00f2ng using namespace sau khi vi\u1ebft include lu\u00f4n \u00e1",
+    "entities": [
+      {
+        "start": 89,
+        "end": 98,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 83,
+        "end": 88,
+        "confidence_entity": 0.9176465272903442,
+        "value": "using",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "M\u1ea2NG M\u1ed8T CHI\u1ec0U \u0110C VI\u1ebeT NTN TRONG C++ \u0110\u00c2Y BOTCHAT",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KI\u1ec2U LU\u1eacN L\u00dd D\u00d9NG NTN V ???",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.35678336024284363,
+        "value": "boolean",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Chi bo m cach tao ra mot vong For di",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u00ecnh th\u1eafc m\u1eafc l\u00e0 l\u00e0m s \u0111\u1ec3 c\u00f3 th\u1ec3 t\u1ea1o ra 1 h\u00e0m trong c++ \u0111\u00e2y bot?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 45,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M S \u0110\u1ec2 X\u00c0I DC M\u1ea2NG HAI CHI\u1ec0U TH\u1ebe BOT?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00d3 C\u00c1CH N\u00c0O \u0110\u1ec2 T\u00d4I DECLARE M\u1ed8T M\u1ea2NG KH\u00d4NG",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "to\u00e1n t\u1eed m\u1ed9t ng\u00f4i dc l\u00e0m ra nh\u01b0 th\u1ebf n\u00e0o khi vi\u1ebft code v bot nh\u1ec9?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "unary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.8499873280525208,
+        "value": "code",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "l\u00e0m c\u00e1ch n\u00e0o kh\u1edfi t\u1ea1o bi\u1ebfn trong c++ v\u1eady b\u1ea1n \u01a1i ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M TH\u1ebe N\u00c0O \u0110\u1ec2 TUI T\u1ea0O RA M\u1ed8T V\u00d2NG L\u1eb6P V",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.5167797207832336,
+        "value": "loop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "C\u00c1CH T\u1ea0O RA MATRIX TRONG C++?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 9,
+        "end": 11,
+        "confidence_entity": 0.7548575401306152,
+        "value": "RA",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9195184707641602,
+        "value": "2d-array",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "C\u00e1ch g\u1ecdi h\u00e0m",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cai ly thuyet ve constant, minh viet no vao code thi viet ntn day nhi?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7531298995018005,
+        "value": "constant",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.9634064435958862,
+        "value": "code",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "l\u00e0m th\u1ebf qu\u00e1i n\u00e0o \u0111\u1ec3 t\u1ea1o ra m\u1ed9t c\u00e2u \u0111i\u1ec1u ki\u1ec7n b\u00e2y gi\u1edd?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 44,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u00e0m c\u00e1ch n\u00e0o \u0111\u1ec3 t\u1ea1o ra m\u1ed9t c\u00e2u l\u1ec7nh if?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M S \u0110\u1ec2 T IMPLEMENT \u0110\u01af\u1ee2C M\u1ed8T V\u00d2NG WHILE \u0110\u00c2Y?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.6268777847290039,
+        "value": "IMPLEMENT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9988896250724792,
+        "value": "while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "dung struct trong cpp kieu gi the?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.994882345199585,
+        "value": "structure",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.5747536420822144,
+        "value": "cplusplus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "L\u00e0m c\u00e1ch n\u00e0o \u0111\u1ec3 t\u1ea1o khai b\u00e1o m\u1ed9t bi\u1ebfn ki\u1ec3u s\u1ed1 th\u1ef1c th\u1ebf?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.5557208061218262,
+        "value": "ki\u1ec3u s\u1ed1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1 bi\u1ebfn c\u1ee5c b\u1ed9 dc khai b\u00e1o ra sao v bot",
+    "entities": [
+      {
+        "start": 2,
+        "end": 13,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "m\u1ed9t to\u00e1n t\u1eed dc vi\u1ebft ra sao th\u1ebf bot?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "To\u00e1n t\u1eed ++ c\u00e1ch s\u1eed d\u1ee5ng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5653150081634521,
+        "value": "To\u00e1n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "B\u00c0Y T C\u00c1CH T\u1ea0O RA M\u1ed8T LOOP XEM N\u00c0O",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CAN U TELL ME HOW IN THE WORLD COULD I USE 2D ARRAY IN C++?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "To\u00e1n t\u1eed hai ng\u00f4i dc tri\u1ec3n khai ra l\u00e0m sao th\u1ebf h\u1ea3 bot?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "binary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.6629163026809692,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00c0M SAO \u0110\u1ec2 TUI T\u1ea0O RA M\u1ed8T V\u00d2NG L\u1eb6P \u0110\u00c2Y",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.7410979270935059,
+        "value": "loop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "C\u00e1ch t\u1ea1o ra matrix trong c++?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 9,
+        "end": 11,
+        "confidence_entity": 0.9314729571342468,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.7482114434242249,
+        "value": "2d-array",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Mot vong lap dc khai bao nhu the nao trong C++ the ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "vi\u1ebft to\u00e1n t\u1eed ++ ra l\u00e0m sao th\u1ebf bot?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.4269900918006897,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.4943474233150482,
+        "value": "ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "to\u00e1n t\u1eed dc tri\u1ec3n khai NTN ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00c0M C\u00c1CH N\u00c0O \u0110\u1ec2 T VI\u1ebeT RA \u0110C M\u1ed8T C\u00c2U DO WHILE \u0110\u00c2Y",
+    "entities": [
+      {
+        "start": 37,
+        "end": 45,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.991337776184082,
+        "value": "while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Lam cach nao de tao khai bao mot bien kieu so thuc the?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "reference variable dc tao ra trong c++ nhu the nao v bot?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.7353088855743408,
+        "value": "variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Cach tao ra vong For nhu the nao day",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "for",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00e1i const \u0111\u01b0a v\u00e0o code th\u00ec implement l\u00e0m s \u1ea5y nh\u1ec9?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "constant",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "review cho t 1 ch\u00fat v\u1ec1 m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111i bot",
+    "entities": [
+      {
+        "start": 27,
+        "end": 45,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA MOT BIEN TOAN CUC THE ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.5959079265594482,
+        "value": "TOAN CUC",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pseudo code la gi vay ban iu oiii",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "pseudo-code",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BI\u1ebeT G\u00cc V\u1ec0 C\u1ea4U TR\u00daC K B\u1ea0N EI",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "structure",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nhu lao la mot lop trong c++?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "TH\u1ebe N\u00c0O L\u00c0 DO WHILE?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.913205623626709,
+        "value": "while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "GOTO TRONG C++ L\u00c0 C\u00c1I J?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goto",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n  ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "e th lz bot noi cho bo m biet ve Reference Variable \u0111i",
+    "entities": [
+      {
+        "start": 33,
+        "end": 51,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.8584844470024109,
+        "value": "reference-variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hay cho t biet nhu nao la 1 Flowcharts",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "decrement operator",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "decrement-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.49972304701805115,
+        "value": "decrement",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Oke hello ban, gio cho minh hoi the nao toan tu hai ngoi dc k a ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 56,
+        "value": "binary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kieu du lieu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00e8n oii bi\u1ebfn to\u00e0n c\u1ee5c l\u00e0 gi\u1ec1",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Definition of flow of control in programming?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 29,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU SO NGUYEN LA SAO",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nhu the nao la mot Ham nac danh the bot?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "lambda",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.7264699339866638,
+        "value": "function",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nhu the nao la mot vong lap",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kh\u1ed1i l\u1ec7nh \u0111i\u1ec1u ki\u1ec7n trong c++ l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "if",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6861113905906677,
+        "value": "kh\u1ed1i",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.7922248244285583,
+        "value": "if",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o l\u00e0 Bi\u1ebfn tham chi\u1ebfu?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.8017362952232361,
+        "value": "pass-by-reference",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is Increment operator",
+    "entities": [
+      {
+        "start": 8,
+        "end": 26,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.6352636814117432,
+        "value": "Increment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien tham chieu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "To\u00e1n t\u1eed \u0111\u1ecbnh ph\u1ea1m vi l\u00e0 j",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.525305986404419,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 18,
+        "end": 20,
+        "confidence_entity": 0.7264897227287292,
+        "value": "vi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tu khoa Static khi di voi mot bien la gj",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.967807948589325,
+        "value": "static",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.47110623121261597,
+        "value": "mot bien",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nh\u1eadp m\u00f4n l\u1eadp trinh l\u00e0 m\u00f4n h\u1ecdc g\u00ec v?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "If If else else l\u00e0 j",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7879440188407898,
+        "value": "if",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "V\u00d2NG L\u1eb6P L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mot array la j?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.550645112991333,
+        "value": "mot array",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the definition of control flow in programming?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.7529876232147217,
+        "value": "control",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "s\u1ef1 kh\u00e1c nhau gi\u1eefa vi\u1ec7c truy\u1ec1n tham chi\u1ebfu v\u00e0 truy\u1ec1n tham tr\u1ecb l\u00e0 j?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 44,
+        "end": 59,
+        "value": "pass-by-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.636523962020874,
+        "value": "pass-by-reference",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 44,
+        "end": 59,
+        "confidence_entity": 0.49542176723480225,
+        "value": "pass-by-value",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u0111\u1ecbnh ngh\u0129a v\u1ec1 \u0110\u1ed1i s\u00f4 truy\u1ec1n v\u00e0o trong m\u1ed9t h\u00e0m th\u1eed xem",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.8078122138977051,
+        "value": "\u0110\u1ed1i",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "S\u1ee7a g\u00ec v\u1ec1 comma operator xem",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "comma-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9986502528190613,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "N\u00d3I T NGHE V\u1ec0 NH\u1eeeNG KI\u1ebeN TH\u1ee8C V\u1ec0 PH\u1ea6N H\u00c0M \u0110I",
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tu khoa Static khi di kem voi viec khai bao mot bien la gi",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9366031289100647,
+        "value": "static",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.6430478692054749,
+        "value": "variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the main thing about Const Reference?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 44,
+        "value": "const-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9625774025917053,
+        "value": "reference-variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bi\u1ebfn ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "noi tao biet ve reference variable coi bot ngu",
+    "entities": [
+      {
+        "start": 16,
+        "end": 34,
+        "value": "reference-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.6727871894836426,
+        "value": "reference-variable",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cai lon ma chi lai tao khai niem ve return type coi th ngu",
+    "entities": [
+      {
+        "start": 36,
+        "end": 47,
+        "value": "return-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pseudo code la shaoooo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "pseudo-code",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.7942870259284973,
+        "value": "code",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "boolean",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00eau kh\u00e1i ni\u1ec7m v\u1ec1 operator, to\u00e1n t\u1eed s\u1ed1 h\u1ecdc, to\u00e1n t\u1eed logic \u0111i",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 41,
+        "value": "arithmetic-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 43,
+        "end": 56,
+        "value": "logical-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.8619064688682556,
+        "value": "operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 43,
+        "end": 56,
+        "confidence_entity": 0.4716828167438507,
+        "value": "logical-operator",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "KI\u1ec2U K\u00fd t\u1ef1 trong CPP l\u00e0 j?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.5640307068824768,
+        "value": "character",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9935269355773926,
+        "value": "cplusplus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ki\u1ec3u k\u00ed t\u1ef1 trong c++ l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.5982711911201477,
+        "value": "character",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cin l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cin",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "if else l\u00e0 gi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9913488030433655,
+        "value": "if",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nen oii bien toan cuc la gie",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 21,
+        "confidence_entity": 0.6985439658164978,
+        "value": "Nen oii bien toan cuc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u1edaP TRONG C++?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "noi cho toi nghe, toan tu dinh pham vi la j ne",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 18,
+        "end": 30,
+        "confidence_entity": 0.6136796474456787,
+        "value": "toan tu dinh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em muon biet them ve default value",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "default-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9996629953384399,
+        "value": "default",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Static khi \u0111i v\u1edbi vi\u1ec7c khai b\u00e1o bi\u1ebfn th\u00ec ngh\u0129a l\u00e0 sao v bot?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "N\u00d3I G\u00cc V\u1ec0 H\u00c0M T NGHE XEM",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ni oi bien cuc bo la j vay",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "local-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.631070077419281,
+        "value": "bo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "the nao la kieu long",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "long",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mang mot chieu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "H\u00c0M L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "To\u00e1n t\u1eed m\u1ed9t ng\u00f4i",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "unary-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af N\u00c0O L\u00c0 KI\u1ec2U BOOLEAN VALUE",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.8137026429176331,
+        "value": "boolean",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.5992890000343323,
+        "value": "VALUE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kieu dau cham dong trong c++ la gi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "trong c++ V\u00f2ng l\u1eb7p \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a ra sao?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "loop",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "The nao la do while?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.7111196517944336,
+        "value": "while",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "the nao la khai niem dau cham dong???",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u k\u00ed t\u1ef1 trong c++",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.4564128518104553,
+        "value": "character",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "h\u00e3y cho t\u1edb bi\u1ebft th\u1ebf n\u00e0o l\u00e0 1 s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n ???",
+    "entities": [
+      {
+        "start": 29,
+        "end": 45,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Toan tu quan he ban chat la j",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "comparison-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.6296271085739136,
+        "value": "Toan tu quan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.5855575799942017,
+        "value": "ban chat",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tham chi\u1ebfu, Tham tr\u1ecb, ki\u1ec3u int, ki\u1ec3u float l\u00e0 j?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "pass-by-reference",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 12,
+        "end": 20,
+        "value": "pass-by-value",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "value": "integer",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.5764482021331787,
+        "value": "integer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.3807033598423004,
+        "value": "floating-point",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Function la cai chi rua?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ham",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "h\u00e3y cho t\u00f4i bi\u1ebft v\u1ec1 to\u00e1n t\u1eed ++",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
