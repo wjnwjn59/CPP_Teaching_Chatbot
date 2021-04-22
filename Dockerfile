@@ -6,3 +6,6 @@ WORKDIR /app
 COPY . .
 
 RUN pip3 install rasa[full]==2.2.2
+
+EXPOSE 5005
+

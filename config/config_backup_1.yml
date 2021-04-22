@@ -37,7 +37,7 @@ pipeline:
   ]
 - name: "DIETClassifier"
   entity_recognition: False
-  epochs: 500
+  epochs: 300
 - name: "CRFEntityExtractor"
   "BILOU_flag": True
   # features to extract in the sliding window
