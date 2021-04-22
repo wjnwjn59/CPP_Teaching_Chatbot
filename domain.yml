@@ -165,6 +165,7 @@ responses:
   - text: Sao bạn lại chửi mình zayy TT
   - text: Đừng chửi tuii, tuii có làm gì bạn đâu ><
   - text: Mày thích chửi hông ? Đó là người cục sục sẽ nói vậy, chứ đừng có chửi mình nha
+  - text: Tin nhắn đã được chuyển tiếp đến phòng công tác sinh viên. Cảm ơn bạn đã quan tâm.
   utter_reply_deny:
   - text: Bot đang trong giai đoạn hoàn thiện nên không tránh khỏi sai sót nên mong bạn thông cảm nha ^^
   utter_reply_out_of_scope:
