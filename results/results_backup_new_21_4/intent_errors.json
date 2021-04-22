@@ -1,0 +1,66 @@
+[
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9312436580657959
+    }
+  },
+  {
+    "text": "C\u00f3",
+    "intent": "continue_asking",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5977681279182434
+    }
+  },
+  {
+    "text": "ok \u0111\u1ec3 suy ngh\u0129",
+    "intent": "continue_asking",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5340872406959534
+    }
+  },
+  {
+    "text": ".",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9803964495658875
+    }
+  },
+  {
+    "text": "con c\u1eb7c l\u00e0 g\u00ec",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "insult",
+      "confidence": 0.9720363020896912
+    }
+  },
+  {
+    "text": "C\u00e2nnjdjdkaka l\u00e0 g\u00ec?",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.013648212887346745
+    }
+  },
+  {
+    "text": "G\u00e9t :3",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "feeling_good",
+      "confidence": 0.009044229984283447
+    }
+  },
+  {
+    "text": "https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=4rqNta98n34AX-N86gg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=ab4cd82706a6d74f545e19bdeb24d0ed&oe=6009FF31",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "corona",
+      "confidence": 0.006778948474675417
+    }
+  }
+]

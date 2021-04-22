@@ -1,0 +1,1814 @@
+[
+  {
+    "text": "C\u00c1C B\u00c0I TO\u00c1N V\u1ec0 TO\u00c1N T\u1eec  N\u00d3I CHUNG",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9667737823166564,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.5990570127458716,
+        "value": "N\u00d3I CHUNG",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Cho c\u00e1c b\u00e0i t\u1eadp v\u1ec1 c\u1ea5u tr\u00fac \u0111i\u1ec1u khi\u1ec3n",
+    "entities": [
+      {
+        "start": 19,
+        "end": 38,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.5798982069548257,
+        "value": "structure",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "c\u00e1c b\u00e0i to\u00e1n v\u1ec1 to\u00e1n t\u1eed  n\u00f3i chung",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.8115281726203177,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.6110814718776328,
+        "value": "n\u00f3i chung",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "b\u1ed1 m mu\u1ed1n dc \u00f4n t\u1eadp c\u00e1c b\u00e0i v\u1ec1 c++",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 31,
+        "end": 32,
+        "confidence_entity": 0.5878619906157087,
+        "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "h\u00e3y g\u1eedi cho t 1 s\u1ed1 b\u00e0i t\u1eadp v\u1ec1 c++",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 30,
+        "end": 31,
+        "confidence_entity": 0.5878074452498168,
+        "value": "cplusplus",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ve Flowchart",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.5108699466925849,
+        "value": "flowchart",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "video ve c++",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "video tutorials ve C++ di bot oi",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "G\u1eecI T\u00d4I VIDEO GI\u1edaI THI\u1ec6U S\u01a0 B\u1ed8 V\u1ec0 NH\u1eacP M\u00d4N L\u1eacP TR\u00ccNH",
+    "entities": [
+      {
+        "start": 34,
+        "end": 52,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "M\u1ed9t s\u1ed1 video b\u00e0i quay v\u1ec1 data types CS-UIT",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bai giang hay ve kieu ki tu UIT",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "VIDEO V\u1ec0 C++",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00e2u th\u1ee9 3 c\u00e2u th\u1ee9 4 c\u00e2u th\u1ee9 5 c\u00e2u th\u1ee9 6",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "value": "4",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "value": "5",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "value": "6",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.8049879330187395,
+        "value": "3",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 38,
+        "end": 39,
+        "confidence_entity": 0.6549893533993204,
+        "value": "6",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "\u00ea t mu\u1ed1n h\u1ecfi c\u00e2u 19, c\u00e2u 20 v\u00e0 c\u00e2u 21",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "19",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "20",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 35,
+        "end": 37,
+        "value": "21",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.985921759054906,
+        "value": "20",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9945098540162639,
+        "value": "21",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "e t muon hoi cau 19, cau 20 va cau 21",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "19",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "20",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 35,
+        "end": 37,
+        "value": "21",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9895775719849537,
+        "value": "20",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9948862823183491,
+        "value": "21",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Cau thu 3 cau thu 4 cau thu 5 cau thu 6",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "value": "4",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "value": "5",
+        "entity": "flowchart_quest_num"
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "value": "6",
+        "entity": "flowchart_quest_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.8198253859873424,
+        "value": "3",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "flowchart_quest_num",
+        "start": 38,
+        "end": 39,
+        "confidence_entity": 0.6441847069048847,
+        "value": "6",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "noi v la sai r do bro",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.5392147870452665,
+        "value": "do bro",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "video c\u1ee7a tu\u1ea7n th\u1ee9 5",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 19,
+        "end": 20,
+        "confidence_entity": 0.7622623828410353,
+        "value": "5",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "video c\u1ee7a tu\u1ea7n 10",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.6538984814837535,
+        "value": "10",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "3",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flowchart_quest_num",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.900178590563743,
+        "value": "3",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Doi net ve Do Tien",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.5344194918775622,
+        "value": "Do Tien",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Con tr\u1ecf trong C++ chi\u1ebfm bao nhi\u00eau b\u1ed9 nh\u1edb v\u00e0 k\u00edch th\u01b0\u1edbc c\u1ee7a ch\u00fang c\u00f3 b\u1eb1ng nhau kh\u00f4ng?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9827721359485257,
+        "value": "pointer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "MOT SO VI DU CU THE HON VE TOAN TU DINH PHAM VI",
+    "entities": [
+      {
+        "start": 27,
+        "end": 47,
+        "value": "scope-resolution-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.5726337708750346,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "V\u00ed d\u1ee5 v\u1ec1 ki\u1ec3u double v\u00e0 ki\u1ec3u float \u0111i",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "double",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.6980231644688354,
+        "value": "double",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9973496000865975,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "E tao dang khong hieu ro ve Toan tu so hoc va toan tu logic, cho tao vi du ve hai mon do di",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "arithmetic-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "value": "logical-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 28,
+        "end": 42,
+        "confidence_entity": 0.9785947712502255,
+        "value": "arithmetic-operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 46,
+        "end": 59,
+        "confidence_entity": 0.9741346146260239,
+        "value": "logical-operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 86,
+        "end": 88,
+        "confidence_entity": 0.6436143696255329,
+        "value": "do",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "D\u00cd D\u1ee4 TH\u1eec V\u1ec0 KI\u1ec2U D\u1eee LI\u1ec6U FLOAT XEM SAO N\u00c0O",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cd D\u1ee4 N\u00c0O KH\u00d3 HI\u1ec2U V\u1ec0 HAM S\u1ed0 M\u1eb6C NHI\u00caN",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "default-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.8532667588852996,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "CHO M\u00ccNH M\u1ed8T S\u1ed0 C\u00c1C C\u00c1I V\u00cd D\u1ee4 V\u1ec0 L\u1ec6NH BREAK V\u00c0 L\u1ec6NH CONTINUE \u0110I \u1ea0",
+    "entities": [
+      {
+        "start": 38,
+        "end": 43,
+        "value": "break",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "value": "CONTINUE",
+        "entity": "CPPLUS_CONTENT"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.853997042787959,
+        "value": "break",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 52,
+        "end": 60,
+        "confidence_entity": 0.6813798631637007,
+        "value": "continue",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "VI DU VE CON TRO COI DU MA",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "pointer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho toi vi du ve cac loai vong lap for, while va do while di",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "value": "for",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "while",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "value": "do-while",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.7562658194772992,
+        "value": "for",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.971336407091869,
+        "value": "do-while",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tai sao lai co kieu ki tu v bot ngu oc cut?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.6332502680234975,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tai sao lai can hoc inline functions?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 36,
+        "value": "inline-function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tai sao nen hoc kieu chuoi?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9723229626167617,
+        "value": "string",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea0I SAO N\u00caN H\u1eccC KI\u1ec2U CHU\u1ed6I?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9980052068475621,
+        "value": "string",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao khai b\u00e1o th\u01b0 vi\u1eb9n ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I N\u00caN D\u00d9NG KI\u1ec2U STRING THAY V\u00cc D\u00d9NG M\u1ed8T M\u1ea2NG C\u00c1C K\u00cd T\u1ef0?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "string",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9890967528997775,
+        "value": "string",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.7991063833375422,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao l\u1ea1i n\u00ean d\u00f9ng Vector h\u01a1n l\u00e0 Array?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "vector",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.975840275935744,
+        "value": "vector",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.8352580767450535,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao c++ l\u1ea1i l\u00e0 ng\u00f4n ng\u1eef kh\u1edfi \u0111\u1ea7u con \u0111\u01b0\u1eddng h\u1ecdc l\u1eadp tr\u00ecnh c\u1ee7a t v bot \u01a1i ?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tao c\u00f3 bi\u1ebft qua v\u1ec1 OOP, trong \u0111\u00f3 c\u00f3 kh\u00e1i ni\u1ec7m class tao th\u1ea5y n\u00f3 kh\u00e1 gi\u1ed1ng v\u1edbi struct, v\u00ec sao l\u1ea1i d\u00f9ng n\u00f3 v\u1eady bot?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 51,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.7751083028691491,
+        "value": "OOP",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.9723467947369904,
+        "value": "class",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 78,
+        "end": 84,
+        "confidence_entity": 0.9473357901316317,
+        "value": "structure",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tao c\u00f3 bi\u1ebft qua v\u1ec1 OOP trong \u0111\u00f3 c\u00f3 kh\u00e1i ni\u1ec7m class tao th\u1ea5y n\u00f3 kh\u00e1 gi\u1ed1ng v\u1edbi struct v\u00ec sao l\u1ea1i d\u00f9ng n\u00f3 v\u1eady bot?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 50,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.7751083028691491,
+        "value": "OOP",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 45,
+        "end": 50,
+        "confidence_entity": 0.9723467947369904,
+        "value": "class",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 77,
+        "end": 83,
+        "confidence_entity": 0.9473357901316317,
+        "value": "structure",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1i sao ph\u1ea3i d\u00f9ng h\u00e0m v\u1eady ta ?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "t\u1ea1i sao ph\u1ea3i h\u1ecdc m\u00f4n nmlt th\u1ebf bot",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V\u00cc SAO L\u1ea0I C\u1ea6N H\u1eccC V\u1ec0 KH\u00c1I NI\u1ec6M L\u1edaP \u0110\u1ed0I T\u01af\u1ee2NG TRONG C++",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "class",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Kieu so thuc, sao lai phai hoc no?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.8818235631408843,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "\u00ca duma t\u00ednh ra tao kh\u00f4ng hi\u1ec3u v\u00ec sao m\u1ed7i l\u1ea7n vi\u1ebft code c++ l\u00e0 c\u1ee9 ph\u1ea3i x\u00e0i c\u00e1i d\u00f2ng using namespace sau khi vi\u1ebft include lu\u00f4n \u00e1",
+    "entities": [
+      {
+        "start": 89,
+        "end": 98,
+        "value": "namespace",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 89,
+        "end": 98,
+        "confidence_entity": 0.8673250390986273,
+        "value": "namespace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 112,
+        "end": 119,
+        "confidence_entity": 0.6013136130186557,
+        "value": "include",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "T\u1ea1o m\u1ea3ng ki\u1ec3u qu\u00e1i g\u00ec z\u1ecb ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1CH T\u1ea0O RA MATRIX TRONG C++?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "C\u00c1CH T\u1ea2I c++",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "To\u00e1n t\u1eed ++ c\u00e1ch s\u1eed d\u1ee5ng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5882345955299422,
+        "value": "To\u00e1n",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "HOW CAN I EVEN USE TWO DIMENSIONAL ARRAY IN CPP?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 40,
+        "value": "2d-array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.8301442198434619,
+        "value": "array",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vi\u1ebft to\u00e1n t\u1eed ++ ra l\u00e0m sao th\u1ebf bot?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "increment-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "c\u00f3 c\u00e1ch n\u00e0o \u0111\u1ec3 t\u00f4i khai b\u00e1o m\u1ed9t Th\u01b0 Vi\u1ec7n kh\u00f4ng",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "library",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lam cach nao de tao khai bao mot bien kieu so thuc the?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 33,
+        "end": 50,
+        "confidence_entity": 0.5141859610169831,
+        "value": "bien kieu so thuc",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "review cho t 1 ch\u00fat v\u1ec1 m\u00f4n nh\u1eadp m\u00f4n l\u1eadp tr\u00ecnh \u0111i bot",
+    "entities": [
+      {
+        "start": 27,
+        "end": 45,
+        "value": "introduction-to-programming",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "THE NAO LA MOT BIEN TOAN CUC THE ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "global-variable",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CIN L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cin",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pseudo code la gi vay ban iu oiii",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "pseudo-code",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n  ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kieu du lieu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "data-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "the nao la 1 array?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "array",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "KIEU SO NGUYEN LA SAO",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "integer",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.9824372690648789,
+        "value": "integer",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tu khoa Static khi di voi mot bien la gj",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9981774523763233,
+        "value": "static",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9488761653477541,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "If If else else l\u00e0 j",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "if-else",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 3,
+        "end": 15,
+        "confidence_entity": 0.8467334114069539,
+        "value": "If else else",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "RETURN TRONG 1 H\u00c0M L\u00c0 G\u00cc?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "return",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9797469349936369,
+        "value": "return",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9453700635946711,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the definition of control flow in programming?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "control-flow",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.6892163630698432,
+        "value": "flow",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "\u0111\u1ecbnh ngh\u0129a v\u1ec1 \u0110\u1ed1i s\u00f4 truy\u1ec1n v\u00e0o trong m\u1ed9t h\u00e0m th\u1eed xem",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "argument",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.7086087416671989,
+        "value": "argument",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 42,
+        "end": 45,
+        "confidence_entity": 0.5965894815238213,
+        "value": "function",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tu khoa Static khi di kem voi viec khai bao mot bien la gi",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "static",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9981774306299311,
+        "value": "static",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9483431111061621,
+        "value": "variable",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the main thing about Const Reference?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 44,
+        "value": "const-reference",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.6692060837487176,
+        "value": "constant",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cai lon ma chi lai tao khai niem ve return type coi th ngu",
+    "entities": [
+      {
+        "start": 36,
+        "end": 47,
+        "value": "return-type",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9294876330858884,
+        "value": "return",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "luu do thuat toan la sao vay bot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "boolean",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "n\u00eau kh\u00e1i ni\u1ec7m v\u1ec1 operator, to\u00e1n t\u1eed s\u1ed1 h\u1ecdc, to\u00e1n t\u1eed logic \u0111i",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 27,
+        "end": 41,
+        "value": "arithmetic-operator",
+        "entity": "cpplus_content"
+      },
+      {
+        "start": 43,
+        "end": 56,
+        "value": "logical-operator",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.8371661744736738,
+        "value": "v\u1ec1 operator",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.562912973944862,
+        "value": "operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cpplus_content",
+        "start": 43,
+        "end": 56,
+        "confidence_entity": 0.9519499161870704,
+        "value": "logical-operator",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ki\u1ec3u k\u00ed t\u1ef1 trong c++ l\u00e0 g\u00ec?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9336830358659183,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Em muon biet them ve default value",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "default-value",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NH\u01af N\u00c0O L\u00c0 KI\u1ec2U BOOLEAN VALUE",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "boolean",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 16,
+        "end": 29,
+        "confidence_entity": 0.5247662756741802,
+        "value": "BOOLEAN VALUE",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kieu dau cham dong trong c++ la gi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "floating-point",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 5,
+        "end": 18,
+        "confidence_entity": 0.9867726743985772,
+        "value": "floating-point",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nh\u01b0 th\u1ebf n\u00e0o l\u00e0 1 h\u00e0m",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "h\u00e3y cho t\u00f4i bi\u1ebft nh\u01b0 th\u1ebf n\u00e0o th\u00ec \u0111\u01b0\u1ee3c g\u1ecdi l\u00e0 1 flowchart",
+    "entities": [
+      {
+        "start": 47,
+        "end": 56,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Th\u1ebf n\u00e0o l\u00e0 ki\u1ec3u k\u00ed t\u1ef1 trong c++",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "character",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.9892564002320885,
+        "value": "character",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "h\u00e3y cho t\u1edb bi\u1ebft th\u1ebf n\u00e0o l\u00e0 1 s\u01a1 \u0111\u1ed3 thu\u1eadt to\u00e1n ???",
+    "entities": [
+      {
+        "start": 29,
+        "end": 45,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ham",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "function",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "l\u01b0u \u0111\u1ed3 thu\u1eadt to\u00e1n l\u00e0 j v\u1eady bot ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "flowchart",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cpplus_content",
+        "start": 4,
+        "end": 17,
+        "confidence_entity": 0.5083246084433432,
+        "value": "\u0111\u1ed3 thu\u1eadt to\u00e1n",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "dinh nghia cua c++ ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "cplusplus",
+        "entity": "cpplus_content"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

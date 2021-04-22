@@ -2,6 +2,7 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
+    - .
     - Hello bot 
     - Hi bot 
     - XIN CHÀO
@@ -155,6 +156,13 @@ nlu:
     - alo alo 
 - intent: who_create_you
   examples: |
+    - Làm sao để tạo ra bạn
+    - Ý mình là cách nào tạo ra bạn
+    - Biết anh Tiến Đỗ không bạn?	
+    - Anh Quân
+    - Đỗ Tiến là ai?
+    - Nguyễn Lê Anh Quân và Dương Đình Thắng học khoa nào
+    - Bạn biết thầy Đỗ Văn Tiến không?
     - CHO T BIẾT DANH XƯNG CỦA NGƯỜI ĐÃ TẠO RA MÀY NÀO
     - AI LÀ NGƯỜI ĐÃ MANG MÀY ĐẾN THẾ GIỚI NÀY THẾ BOT
     - NGƯỜI ĐÃ MANG MÀY ĐẾN ĐÂY LÀ AI VẬY
@@ -254,6 +262,7 @@ nlu:
     - Ai tạo ra BOT vậy?
 - intent: attention
   examples: |
+    - rep đi bot ơi	
     - NÈ NÈ NÈ
     - Ê DUMA
     - Ê DCM
@@ -319,7 +328,7 @@ nlu:
     - ủa sao không trả lời
     - Ê bot ngu
     - Sao seen rồi
-    - Bot ơi
+    - bot cùi thế
 - intent: health_inquire
   examples: |
     - CHO EM HỎI, DẠO NÀY BẠN KHỎE K?
@@ -675,8 +684,14 @@ nlu:
     - Ok nha 
     - Ok đợi t nghĩ cái nha 
     - ok để suy nghĩ xem 
+    - Có
 - intent: deny
   examples: |
+    - Hong 
+    - bạn không hiểu à
+    - bạn chậm hiểu thế
+    - Đéo :))	
+    - Clgt
     - SAI RỒI 
     - TRẬT LẤT 
     - SAI BÉT 
@@ -877,8 +892,10 @@ nlu:
     - sua j ma sua ngu tke 
     - sua ngu zua zua thoi 
     - hong dung ui bot uiii 
+    - Mình hỏi mà bạn toàn trả lời không được
 - intent: compliment
   examples: |
+    - Vui
     - Thật thú vị
     - so weird :v
     - Quá được luôn kkk
@@ -1162,7 +1179,6 @@ nlu:
   examples: |
     - M ngu quá à!
     - Bạn có bị ngu không ?
-    - Clgt
     - Đụ má mày quá ngu đi
     - bạn ngu quá ra
     - Đụ má
@@ -1320,6 +1336,7 @@ nlu:
     - vc
     - Vkl
     - vcc
+    - Dốt
     - Ngu Vãi Cặc
     - Cặc
     - Lồn
@@ -1392,8 +1409,16 @@ nlu:
     - piece of shit
     - Ngu vl
     - Bạn thật là nhàm chán mà
+    - mình chán bạn quá
+    - bạn ngu quá ra
+    - con cặc là gì
 - intent: feeling_bad
   examples: |
+    - ? nhưng mà mình không ổn
+    - mình không khỏe lắm
+    - Mình không khỏe	
+    - mình nói mình khoogn ổn
+    - trầm cảm luôn
     - Hơi mệt 😥
     - tui mệt quá 😂😂😂
     - Rớt môn giải tích thì phải làm sao
@@ -1451,6 +1476,8 @@ nlu:
     - Huhuhu 
 - intent: stop_asking
   examples: |
+    - biến đi em
+    - Mày biến đi
     - HOYYY KHỎI DC ỜI
     - HUII DC ÙI
     - HOIII
@@ -1613,6 +1640,7 @@ nlu:
     - khum
     - /deny
     - hong -.-
+    - Thua
 - intent: continue_asking
   examples: |
     - continue_asking
@@ -1680,6 +1708,7 @@ nlu:
     - muốn chứ  
 - intent: want_to_ask
   examples: |
+    - Cho mình hỏi
     - E CHO TAO HOI CAI
     - TAO HOI CAI NAY TI DUOC KHONG?
     - NAY HOI TI
@@ -1822,6 +1851,12 @@ nlu:
     - Hỏi các kiến thức về C++
 - intent: out_of_scope
   examples: |
+    - Angular
+    - Đạo Hàm
+    - Uit
+    - Ý mình là mình có đẹp trai hong?
+    - int main()
+    - bạn có thể hỗ trợ dùng VScode được kkhông
     - Video hướng dẫn python
     - mình muốn biết về python
     - Sort array
@@ -1842,7 +1877,6 @@ nlu:
     - .
     - python
     - Học gì để đạt điểm cao nhập môn lập trình?
-    - Bạn biết thầy Đỗ Văn Tiến không?
     - Làm sao để lấy ra dãy tăng dần trong mảng
     - Bạn có biết tìm lỗi trong code không ?
     - nó chạy như thế noà
@@ -2353,6 +2387,7 @@ nlu:
     - DI VU THU VE KIEU [INT]{"entity": "cpplus_content", "value": "integer"} XEM NAO
 - intent: cpplus_what_asking
   examples: |
+    - tao có vấn đề cần hỏi. không biết [con trỏ]{"entity": "cpplus_content", "value": "pointer"} là gì ?	
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ VẬY?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ LÀ GÌ?
     - [COMMENT]{"entity": "cpplus_content", "value": "comment"} LÀ GÌ?
@@ -3090,6 +3125,8 @@ nlu:
     - [Vector]{"entity": "cpplus_content", "value": "vector"} là gì?
     - như thế nào là 1 [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} v ?
     - noi tao biet ve [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} coi bot ngu
+    - như thế nào là 1 [biến]{"entity": "cpplus_content", "value": "variable"}
+    - như thế nào là 1 [hàm]{"entity": "cpplus_content", "value": "function"}
     - e th lz bot noi cho bo m biet ve [Reference Variable]{"entity": "cpplus_content", "value": "reference-variable"} đi
     - [Reference variable]{"entity": "cpplus_content", "value": "reference-variable"}?
     - cho hỏi [REFERENCE VARIABLE]{"entity": "cpplus_content", "value": "reference-variable"}?
@@ -3381,6 +3418,7 @@ nlu:
     - Thế nào là [Mảng 1 chiều]{"entity": "cpplus_content", "value": "array"} vậy bot
 - intent: cpplus_how_asking
   examples: |
+    - bị lỗi [include]{"entity": "cpplus_content", "value": "include"} phải làm sao
     - LÀM CÁCH NÀO ĐỂ DECLARE MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} V
     - LÀM CÁCH NÀO KHỞI TẠO [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++ VẬY BẠN ƠI ?
     - TÔI KHÔNG BIẾT CÁCH TẠO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++
@@ -3681,6 +3719,7 @@ nlu:
     - khai báo 1 [class](cpplus_content) như thế nào ?
     - Dùng [class](cpplus_content) như thế nào?
     - ntn để ra dc [class](cpplus_content) trong c++ thế?
+    - [class]{"entity": "cpplus_content", "value": "class"} trong c++
     - làm s để xài dc kiểu [union](cpplus_content)
     - làm s để khai báo dc 1 [con trỏ]{"entity": "cpplus_content", "value": "pointer"}?
     - khai báo kiểu dữ liệu [pointer](cpplus_content) ntn?
@@ -4961,6 +5000,7 @@ nlu:
     - Họ của mình là Nguyễn Lê
 - intent: who_are_you
   examples: |
+    - Những câu nào bạn biết để mình hỏi?	
     - TÊN MÀY LÀ GÌ
     - NÓI TAO NGHE TÊN MÀY
     - NÓI BỐ M NGHE TÊN CỦA M XEM NÀO
@@ -6180,6 +6220,7 @@ nlu:
     - bot cho coi nmlt di
 - intent: cpplus_specific_video_tutorial_asking
   examples: |
+    - Tài liệu [nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"}
     - VIDEO VỀ [C]{"entity": "cpplus_content", "value": "cplusplus"}++
     - VIDEO VỀ NHẬP MÔN [C]{"entity": "cpplus_content", "value": "cplusplus"}++
     - VIDEOS VỀ NHẬP MÔN [C]{"entity": "cpplus_content", "value": "cplusplus"}++
@@ -6357,6 +6398,7 @@ nlu:
     - Vậy cho mình hỏi về video của [con trỏ]{"entity": "cpplus_content", "value": "pointer"} đi
 - intent: nlu_fallback
   examples: |
+    - Cânnjdjdkaka là gì?
     - Gét :3
     - https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/65882783_2398656156862083_8186027788650676224_n.png?_nc_cat=1&ccb=2&_nc_sid=ac3552&_nc_ohc=4rqNta98n34AX-N86gg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=ab4cd82706a6d74f545e19bdeb24d0ed&oe=6009FF31
 - synonym: array
