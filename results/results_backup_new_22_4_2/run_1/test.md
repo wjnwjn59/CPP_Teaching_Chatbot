@@ -1,0 +1,2877 @@
+## intent:dont_want_to_give_cpp_content
+- tại s t lại phải nói rõ là làm bài nào
+- vì sao t lại phải trả lời câu hỏi đấy ?
+
+## intent:cpplus_where_asking
+- t nên viết [comment](cpplus_content) ở where đây?
+- t cần để [comment](cpplus_content) ở đâu?
+- Mình khai báo [thư viện]{"entity": "cpplus_content", "value": "library"} ở đâu vậy?
+
+## intent:date
+- Cho hỏi ngày tháng?
+- nay ngày gì ?
+- date ?
+
+## intent:time
+- time được bao nhiêu rồi ?
+- Ê bot what time is it now ?
+- Bạn ơi mấy giờ rồi ?
+- Cho mình hỏi bây giờ mấy giờ rồi ?
+
+## intent:cpplus_when_asking
+- Cần sử dụng [không gian tên]{"entity": "cpplus_content", "value": "namespace"} lúc nào thế??
+- khi nào thì cần sử dụng [namespace](cpplus_content)?
+- khi nào thì cần tạo một [variable](cpplus_content)?
+- Khi nào ta cần phải sử dụng [comment](cpplus_content)?
+
+## intent:goodbye
+- để dịp khác nói tiếp nha
+- hẹn dịp khác
+- see you next time
+- hẹn lần khác
+- Thôi tui phải chạy dl :))
+- tao bận rồi, bye
+- pp
+
+## intent:dont_want_to_ask
+- i didn't ask you about covid 19
+- em k hỏi
+- ê mình đang k muốn hỏi cậu điều gì hết nha
+- mình đang k cần hỏi bạn điều gì cả
+- bạn oii tui k cần hỏi điều gì cả
+- dont want to ask you anything
+- mình không có nhu cầu hỏi gì ngay lúc này hết
+
+## intent:affirm
+- Ok nha
+- Ok đợi chút để suy nghĩ đã
+- Okei
+- of course
+- Ok đợi t nghĩ cái nha
+- ok để suy nghĩ xem
+- indeed
+- chuẩn
+- chuẩn xác luôn
+- Ok, tốc độ trả lời này là bot
+- không thể chính xác hơn được nữa
+
+## intent:feeling_bad
+- unhappy
+- cảm thấy hơi không ổn lắm
+- ông đây không ổn lắm
+- So sad
+- Extremely sad
+- T đang không ổn lắm
+- Làm sao để qua môn CS1 của thầy Tiến
+- tao sad quá
+- Mình không khỏe\t
+- very bad
+- Hôm nay thật buồn
+- trầm cảm luôn
+
+## intent:cpp_practice
+- ĐƯA BỐ M CÁC BÀI VỀ [SWITCH]{"entity": "cpplus_content", "value": "switch"} ĐÂY M
+- bạn có các bài tập về [hàm]{"entity": "cpplus_content", "value": "function"} ko
+- Tao cần luyện 1 số skill về [pointer](cpplus_content)
+- luyện tập về [biến]{"entity": "cpplus_content", "value": "variable"}
+- Các bài tập về [for](cpplus_content)
+- TAO MUỐN ĐƯỢC ÔN BÀI VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"}
+- CÁC BÀI TẬP VỀ [WHILE]{"entity": "cpplus_content", "value": "while"}
+- MỘT SỐ BÀI ÔN TẬP VỀ [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+- TAO MUỐN ÔN TẬP CÁC KIẾN THỨC VỀ [TOÁN TỬ]{"entity": "cpplus_content", "value": "operator"}
+- BÀI TOÁN VỀ [BIẾN]{"entity": "cpplus_content", "value": "variable"}
+- CÁC BÀI TOÁN VỀ [LOOP]{"entity": "cpplus_content", "value": "loop"}
+
+## intent:continue_asking
+- ok tiếp tục thôi
+- dĩ nhiên r
+- tiếp theo này
+- Ok tiếp tục này
+- tiếp này
+- hỏi nhè nhẹ thêm 1 câu nữa nà
+- Có chứ
+- Ok típ nà
+- Hỏi nữa nè
+- continue_asking
+- ok chiến luôn, để bố hỏi m tiếp
+- hỏi thêm 1 câu nữa nè
+- Mình muốn hỏi tiếp
+
+## intent:attention
+- YÔ YÔ
+- NÀY DUME
+- Ê DCM
+- Sao seen rồi
+- hú
+- E HÈM
+- NÈ NÈ NÈ
+- này
+- À LÔ
+- CÚC CU
+- cough
+- LÔ
+- cộc cộc
+
+## intent:thanks
+- Ok tks
+- MÌNH CẢM ƠN NHIỀU
+- Bot ơi, cám ơn mày nhiều nha
+- cảm ơn rất nhiều
+- Thật sự chân thành cám ơn mày, từ tận đáy lòng
+- mình cảm ơn ạ
+- OK TKS
+- Mang ơn cậu nhiều
+- MÌNH XIN CẢM ƠN
+- Xin cảm ơn
+- ok tks
+- THANKS
+- CẢM ƠN NHÌU NHA
+- Ok thank you vinamilk
+
+## intent:corona
+- Tinh hinh dich corona
+- dai dich covid 19
+- Tinh hinh corona
+- co vit
+- Corona la wtf gi
+- Phòng ngừa corona
+- Corona pandemic
+- SARS-NCOV
+- corona là gì
+- covid là gì
+- corona
+- tình hình covid tại việt nam
+- cô vít
+- COVID 19
+- Covid 19 tinh hinh tai viet nam
+
+## intent:compliment
+- Quá được luôn kkk
+- Bot giỏi quá taaa
+- RẤT HAY
+- TUYỆT VỜI
+- CŨNG KHÁ PHẾT ĐẤY CHỨ
+- Yêu
+- ĐƯỢC
+- ngoan lắm
+- Rất hay
+- I'M GOOD
+- quá chuẩn luôn
+- WơW ghê dữ ta
+- woaaaa
+- I AM GREAT
+- tuyệt hảo
+- Wow có ích ghê ta
+- great
+- amazing
+- PERFECT
+- Quá giỏi
+- QUÁ CHUẨN LUÔN
+
+## intent:who_create_you
+- Người nào đã tạo ra m vậy bot ngu
+- Nè bot ơi, t tò mò muốn biết ai là người đã tạo ra mày vậy, bật mí tao nghe được k
+- LẬP TRÌNH VIÊN NÀO ĐÃ TẠO RA MÀY
+- Ai tạo ra mày vậy ?
+- NGƯỜI NÀO ĐÃ THAM GIA TẠO RA ML MÀY VẬY BOT LZ
+- ai là người đã làm nên bạn như ngày hôm nay bot
+- Anh Quân
+- Cho t cai ten ve nguoi da tao ra m di
+- Ê cho tao xin link người đã tạo ra mày được không ?
+- ai đã nhào nặn ra mày thế bot ngu
+- BẬT MÍ T NGHE VỀ KẺ SÁNG TẠO RA M ĐƯỢC K
+- NGƯỜI NÀO ĐÃ TẠO RA M VẬY BOT NGU
+- nguoi nao da tao ra m the bot
+- Biết Nguyễn Anh Quân là ai không?
+- TÁC GIẢ LÀ AI
+- Cho hỏi ai viết ra bạn vậy
+- Tác giả là ai
+- Bot oi, ai la nguoi da create m v
+- Cho tao hỏi tác giả của mày là thằng nào ?
+- ai là người đã create m ?
+- Biết anh Tiến Đỗ không bạn?\t
+
+## intent:feeling_good
+- khỏe
+- hehe t vẫn ổn nha
+- t đang sung sức lắm
+- A KHỎE
+- Okei khỏe
+- TUI ỔN CẢM ƠN
+- Very very good
+- HEHE T VẪN ỔN NHA
+- mình fine lắm nha
+- T còn khỏe
+- ỔN
+- CẢM ƠN MÌNH KHỎE LẮM
+- Just fantastic
+- KHÔNG NHỮNG KHỎE MÀ CÒN ĐANG RẤT SUNG SỨC
+- Chị m còn khỏe lắm
+- Cứ tạm gọi là ổn đi
+- BỐ M KHỎE LẮM
+- Ui tui vẫn còn ngon zai lắm nha cảm ơn
+- KHÁ LÀ OK
+- MÌNH VẪN GREAT
+- ông m vẫn còn ok lắm nha
+
+## intent:want_to_practice_cpp
+- Bai on nmlt
+- cho t ôn tập 1 số bài về c++
+- Mình muốn ôn tập C++
+- CHATBOT ƠI GỬI MẤY BÀI TOÁN CODE NMLT ĐI NÀO
+- Chatbot luyen minh vai bai code c++ xem nao
+- GỬI TÔI BÀI C++ NMLT
+- eee cho vai bai tap code c voi
+- LUYỆN CHO TUI VÀI BÀI CODE C DC HONG
+- Làm bài luyện code
+- eeekk t muon dc luyen bai code C i
+- cày bài c/c++
+- GỬI CHO MÌNH VÀI BÀI CODE C ĐI CHATBOT
+- On tap cuoi ky c++
+- chatbot ơi gửi mấy bài toán code NMLT đi nào
+- LUYỆN BÀI TẬP NMLT
+- LÀM BÀI LUYỆN CODE
+- gui cho minh vai bai code C di chatbot
+- EEEKK T MUỐN DC LUYỆN BÀI CODE C Í
+- Lam bai code C++
+- Cho t làm 1 số bài code để luyện ngón nào
+- Ôn cuối kỳ nmlt
+- tao muốn đc ôn tập cpp
+- Cho toi xin 1 so bai tap code C
+- T MUỐN DC ÔN BÀI VỀ C++
+- ChatBot gửi cho tôi 1 số bài toán NMLT để luyện tay đi nào
+- Cho tôi xin 1 số bài tập code C
+- TAO MUỐN ĐC ÔN TẬP CPP
+- Ê BOT ƠI T MUỐN DC LÀM 1 SỐ BÀI TẬP CODE
+
+## intent:want_to_ask
+- Hi bot tao hoi ti
+- HEY BOT TAO NÓI NGHE
+- OK ĐỂ T HỎI CÁI NÀY
+- Giúp tao cái
+- cho tao hỏi một chút về C++
+- Hoi lai lan nua
+- E T HOI NAY CAI
+- GIUP TAO MOT CHUT DUOC KHONG?
+- Cho minh hoi cai nay xi nha
+- DUOC R GIO T HOI M CAI NAY NE
+- e cho tao hoi cai
+- Ok để t hỏi m cái này nha
+- 0k h để t hỏi m cái này
+- TAO NÓI NGHE NÈ
+- nghe tao hỏi nè
+- CHO TAO HOI MOT CHUT VE C++
+- Ê CHO TAO HỎI CÁI
+- ok h hoi cau nay di
+- GIÚP MÌNH MỘT SỐ CÂU HỎI C++ ĐƯỢC KHÔNG
+- Chiến luôn giờ để t hỏi m này nha
+- OK DE T HOI M CAI NAY NHA
+- GIÚP TAO CÁI
+- ok h t hoi m cau nay nay
+- OK H T HOI M CAU NAY NAY
+- tao hỏi cái nha
+- TAO HỎI CÁI NÀY TÍ ĐƯỢC KHÔNG?
+- OK LUON DE T TIM CAU HOI NAY
+- nay hoi ti
+
+## intent:want_to_practice_flowchart
+- Gửi bố m bài sơ đồ thuật toán coi bot
+- Bài thầy Khang
+- Ê bot gửi t bài tập sơ đồ thuật toán coi
+- cày bài tập thầy Khang
+- flowchart sách kỹ thuật lập trình thầy nguyễn tấn trần minh khang
+- t muon luyen tap them flowchart
+- thực hành vẽ flowchart
+- Mọi loại bài tập giúp up trình vẽ lưu đồ
+- luyen tap ve luu do
+- thuc hanh ve bai tap thay Khang
+- bài tập flowchart
+- Thuc hanh ve luu do thuat toan
+- Luyện tập vẽ flowchart
+- bài lập lưu đồ thuật toán sách kỹ thuật lập trình
+- Cho toi lam bai thay Khang
+- E bot t muon luyen luu do thuat toan a, m co bai nao khong gui t lam voi
+- luyện tập bài thầy Khang
+- THỰC HÀNH VẼ VỜI LƯU ĐỒ
+- BÀI TẬP LƯU ĐỒ THUẬT TOÁN
+- Các bài tập giúp nâng cao khả năng làm bài lưu đồ
+- e bot, m co bai tap thay Khang nao khong gui t lam voi
+- toi muon lam bai tap thay Khang
+- bài tập lưu đồ thuật toán
+- LUYỆN TẬP VỀ FLOWCHART
+- CÁC DẠNG BÀI TẬP GIÚP NÂNG TRÌNH VẼ LƯU ĐỒ
+- cay luu do thuat toan
+- Flowchart practice
+- Flowchart Ve
+
+## intent:dont_want_to_give_flowchart_quest_num
+- VI SHAO MA CAN PHAI NOI THEM CAI NAY NUA DKM, DUA DAI RA 1 VAI CAU CMM DI
+- S lai can phai xac dinh so cau hoi cu the nao do?
+- S BỐ M LẠI PHẢI TRẢ LỜI ZỤ NÀY? ĐƯA ĐẠI RA 1 CÂU NÀO ĐẤY ĐI CŨNG DC
+- Tại shao m lại phải cần số câu hỏi thế? Đưa đại câu gì ra bộ không được hay sao?
+- TẠI S LẠI CẦN SỐ CÂU HỎI ĐỂ LÀM GÌ?
+- TẠI S LẠI PHẢI LÀM ZẬY CHI?
+- Sao tao lai can phai dua so cau hoi cu the nhu the?
+- TAI SAO LAI PHAI CU THE HOA 1 CAU HOI BAT KI? TAO MUON ON TAP THI CU ON TAP CHUNG CHUNG CHO TAO DI CON BOT NGU
+- tại vì sao mà m lại bắt t chọn câu hỏi???
+- Vi sao lai can phai dua ra so cau cu the?
+- VÌ SHAO LẠI CẦN CÓ SỐ CÂU HỎI CỐ ĐỊNH NỮA, ÔN TẬP CHUNG CHUNG VÀI CÂU ĐI ĐỒ BOT NGU
+- tại s t lại cần phải làm như vậy chi thế @@
+- ê ê t k mún làm zị r s
+- ơ m đang ra lệnh cho t đấy à?
+- TẠI VÌ SAO MÀ M LẠI BẮT T CHỌN CÂU HỎI???
+- Tai shao m lai phai can so cau hoi the? Dua dai cau gi ra bo khong duoc hay sao?
+- TAI SAO T LAI CO NGHIA VU DUA CAU HOI CHO M?
+- VI S LAI PHAI LAM THE? CU GUI VAI CAU RANDOM LAM SUONG SUONG LA OK R
+- sao lại phải nói thêm vụ này nữa thế?
+- I don't want to answer that !
+- Vì s lại phải làm thế? Cứ gửi vài câu random làm sương sương là ok r
+- vì shao lại cần có số câu hỏi cố định nữa, ôn tập chung chung vài câu đi đồ bot ngu
+- tai sao lai can co so cau hoi the ? Khong co khong dc a
+- ơ kìa sao mình lại phải nói thêm thông tin đấy?
+- Vi s lai phai lam the? Cu gui vai cau random lam suong suong la ok r
+- TẠI SAO T LẠI PHẢI CHỈ ĐỊNH CÂU HỎI CỤ THỂ LÀM GÌ, ĐƯA ĐẠI T CÂU NÀO CŨNG DC
+- TẠI SHAO M LẠI PHẢI CẦN SỐ CÂU HỎI THẾ? ĐƯA ĐẠI CÂU GÌ RA BỘ KHÔNG ĐƯỢC HAY SAO?
+- ơ sao lại cần phải thêm cái này nữa?
+- Gui dai vai cau random cung dc r ma???
+
+## intent:greet
+- à lố
+- chào em
+- HELLO BẠN
+- YO WTF
+- ê bạn êii
+- EE BANJ EEII
+- ALO MÀY
+- YOOO
+- ni hao
+- KONNICHIWA
+- CHÀO THÂN ÁI
+- này bạn eii
+- yo
+- bot ơi dậy đi
+- YO YO YO
+- hello mày
+- Hai
+- hey
+- NĨ HẠO MA
+- alo bạn eiii
+- YO WTF THẰNG EM
+- KONBANWA
+- CHÀO MÀY
+- NĨ HẢO
+- hai
+- Xin chào Chatbot
+- NI HAO
+- NÍ HẠO
+- CHÀO ANH
+- heloo
+
+## intent:stop_asking
+- HUII DC ÙI
+- THÔI BỎ ĐI
+- TỪ TỪ MỘT TÍ NỮA E HỎI A SAU
+- THÔI DẸP K HỎI
+- thôi bỏ qua đi
+- TỪ TỪ ĐI T CHƯA MUỐN HỎI
+- THÔI ĐƯỢC R K CẦN NỮA
+- à k có gì đâu
+- từ từ một tí nữa e hỏi a sau
+- hong -.-
+- Thôi được rồi em không hỏi gì đâu
+- Thôi dẹp hết
+- từ từ đợi tí suy nghĩ câu hỏi đã
+- à thôi khỏi đi
+- T CHƯA TÍNH HỎI GÌ HẾT
+- THÔI T K CẦN HỎI NỮA
+- THÔI
+- Nghỉ
+- thôi bỏ đi t k hỏi nữa
+- từ từ rồi t hỏi m
+- Từ từ đi lát t hỏi
+- T TÍNH THỬ LÒNG M THÔI CHỨ CHƯA CẦN HỎI GÌ HẾT
+- Chờ đó đi lát t tra khảo m tiếp
+- TỪ TỪ RỒI HỎI SAU
+- thôi tao không muốn hỏi nữa
+- Ah không có gì đâu nha
+- AH THÔI K CÓ GÌ ĐÂU
+- À THÔI KHỎI
+- chờ đi lát mình hỏi bạn sau nha
+- Thôi được rồi mình không cần hỏi thêm đâu, cảm ơn nha
+- thôi bỏ cmn đi
+- Thôi đc r mình k cần hỏi nữa đâu cảm ơn
+- À THÔI ĐC R
+
+## intent:cpplus_specific_video_tutorial_asking
+- E send t bai ve [library](cpplus_content) di
+- VIDEO LÝ THUYẾT VỀ [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++
+- Nè bot ngu đưa tao link video [library](cpplus_content) c++ coi mày
+- [MẢNG HAI CHIỀU]{"entity": "cpplus_content", "value": "2d-array"} VIDEO LINK YOUTUBE
+- Link utube bài giới thiệu về kiểu [unsigned](cpplus_content) trong C++
+- VIDEO VỀ NHẬP MÔN [C]{"entity": "cpplus_content", "value": "cplusplus"}++
+- VIDEO LINK BÀI [MACRO]{"entity": "cpplus_content", "value": "macro"} C++
+- Bai giang cua uit ve [string](cpplus_content) khoa khoa hoc may tinh
+- Video về nhập môn [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+- 1 LOẠT SERIES BÀI GIẢNG VỀ LÝ THUYẾT [HÀM]{"entity": "cpplus_content", "value": "function"} TRONG C++
+- video về con trỏ và [mảng]{"entity": "cpplus_content", "value": "array"}
+- gửi video về tutorial [NMLT]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+- Ne bot ngu dua tao link video [library](cpplus_content) c++ coi may
+- Bài giảng của uit về [string](cpplus_content) khoa khoa học máy tính
+- BAI GIANG VE [MANG HAI CHIEU]{"entity": "cpplus_content", "value": "2d-array"} CUA TRUONG DAI HOC CONG NGHE THONG TIN
+- VIDEOS TUTORIALS VỀ [NHẬP MÔN LẬP TRÌNH]{"entity": "cpplus_content", "value": "introduction-to-programming"}
+- BOT NGU GỬI T BÀI [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} ĐI M
+- Video bài giảng của khoa Khoa học máy tính CS UIT về kiểu dữ liệu [string](cpplus_content)
+- BÀI GIẢNG HAY VỀ [KIỂU KÍ TỰ]{"entity": "cpplus_content", "value": "character"} UIT
+- VIDEO BAI GIANG VE [KIEU DU LIEU]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+- Bai giang ly thuyet ve kieu [struct]{"entity": "cpplus_content", "value": "structure"} cua UIT
+- INTRODUCTION TO PROGRAMMING TUTORIALS - [COMMENT]{"entity": "cpplus_content", "value": "comment"}
+- C++ LINK VIDEO [VECTOR]{"entity": "cpplus_content", "value": "vector"}
+- Youtube link bài [variable](cpplus_content) C++
+- BÀI GIẢNG VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"} TRONG C++
+- Vậy cho mình hỏi về video của [con trỏ]{"entity": "cpplus_content", "value": "pointer"} đi
+- MOT SO VIDEO BAI QUAY VE [DATA TYPES]{"entity": "cpplus_content", "value": "data-type"} CS-UIT
+- C++ link video [vector](cpplus_content)
+- Link utube bai gioi thieu ve kieu [unsigned](cpplus_content) trong C++
+- Ê SEND T BÀI VỀ [LIBRARY]{"entity": "cpplus_content", "value": "library"} ĐI
+- [Mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} video link youtube
+- ê bot gửi t link bài [comment](cpplus_content) đi
+- Introduction to programming tutorials - [Comment]{"entity": "cpplus_content", "value": "comment"}
+
+## intent:flowchart_asking
+- Bai [1](flowchart_quest_num)
+- cau [21](flowchart_quest_num) va [95](flowchart_quest_num)
+- tao muốn hỏi m câu số [10](flowchart_quest_num) và câu số [30](flowchart_quest_num)
+- ê, cho một chiếc câu hỏi về bài [9](flowchart_quest_num) lưu đồ thuật toán của thầy khang đi
+- CHO MÌNH BÀI [5](flowchart_quest_num) BÀI THẦY KHANG LƯU ĐỒ THUẬT TOÁN
+- bài tập Flowchart số [9](flowchart_quest_num)
+- gửi tôi số [5](flowchart_quest_num), số [8](flowchart_quest_num), số [1](flowchart_quest_num)
+- TÔI MUỐN ĐƯỢC THAM KHẢO ĐÁP ÁN BÀI SỐ [90](flowchart_quest_num) PHẦN LƯU ĐỒ THUẬT TOÁN TRONG CUỐN KĨ THUẬT LẬP TRÌNH THẦY KHANG
+- MÌNH MUỐN HỎI VỀ BÀI SỐ [85](flowchart_quest_num) CỦA THẦY KHANG, BẠN GIÚP MÌNH VÓI
+- câu số [7](flowchart_quest_num) phần lưu đồ thuật toán sách kĩ thuật lập trình
+- câu [70](flowchart_quest_num) và [40](flowchart_quest_num) và [20](flowchart_quest_num)
+- Câu số [20](flowchart_quest_num)
+- cau [1](flowchart_quest_num)
+- lược đồ thuật toán câu số [25](flowchart_quest_num) sách thầy khang
+- nè bot ngu ơi, gửi t lời giải câu [61](flowchart_quest_num) lz què này cái m
+- ê bot ơi gửi t câu hỏi [9](flowchart_quest_num) [23](flowchart_quest_num) đi nè
+- Gửi đáp án câu [30](flowchart_quest_num) phần lưu đồ
+- cho mình một cái answer về bài số [55](flowchart_quest_num) sách thầy khang đi
+- Câu số [100](flowchart_quest_num)
+- Cau so [13](flowchart_quest_num)
+- cau [40](flowchart_quest_num) cau [80](flowchart_quest_num)
+- bài lưu đồ câu [66](flowchart_quest_num)
+- ban cho toi cai cau so [49](flowchart_quest_num) voi cau so [50](flowchart_quest_num) di bot
+- Gui dap an cau so [50](flowchart_quest_num) di a
+- cho dap an cau [40](flowchart_quest_num) [41](flowchart_quest_num) [42](flowchart_quest_num) di m
+- Câu số [19](flowchart_quest_num)
+- cuu tao cau [20](flowchart_quest_num) bai luu do di bot
+- Cau [2](flowchart_quest_num)
+- Cau so [20](flowchart_quest_num)
+- dap an cau so [7](flowchart_quest_num) la gi
+- CHO EM ĐÁP ÁN BÀI [60](flowchart_quest_num) FLOWCHART TRONG SÁCH KĨ THUẬT LẬP TRÌNH THẦY KHANG VỚI Ạ
+- câu số [21](flowchart_quest_num) lưu đồ đáp án là gì vậy
+- Cau so [100](flowchart_quest_num)
+
+## intent:deny
+- tra loi vay la chet me r
+- TRẢ LỜI NGU THẾ K BIẾT
+- DCMM SAI BÉT BÈN BẸT RỒI CON Ạ
+- Do bot ngu sai roi leu leu
+- Hong
+- Ê hình như đâu phải đâu
+- Wrong roi ku oi
+- sai cmm roi bot ngu
+- Ê SAI CMNR
+- Sai
+- bot ngu vcc sai roi
+- Ê sai cmnr
+- Deo phai nhu vay dau
+- Trat cmnr
+- Ê sai rồi nha, trả lời vậy là k phải đâu nha
+- HONG ĐÚNG ÙI BOT UIII
+- Sai rồi con đĩ ơi
+- a a sai nha sai nha
+- SAI BE BÉ
+- Ku oi ku sai lam roi
+- sua sai qua troi zi
+- NHƯ VẬY LÀ KO ĐÚNG RỒI
+- sai rồi con ạ
+- SAI TÈ LE
+- sai roi
+- HONG DUNG UI BOT UIII
+- lêu lêu lêu đồ con bot ngu sai rồi nha con
+- E sai cmnr
+- noi cdj the bot ngu
+- Deo phai the
+- Dm k phai the, m tra loi sai mat roi bot a
+- TRẢ LỜI KHÔNG ĐÚNG
+- wrong
+- NÓI CDJ THẾ BOT NGU
+- Mình hỏi mà bạn toàn trả lời không được
+- UIZZZ SAI BÉT DỒI CON GIỜI Ạ
+- ĐỒ BOT NGU SAI RÒI LÊU LÊU
+- nói cdj thế bot ngu
+- Ku ngu thế sai r
+- Ku ngu the sai r
+
+## intent:want_to_watch_cpp_tutorial
+- cho mình xem 1 số video nmlt của khoa khmt với bot
+- VIDEO C++
+- CHO T COI MAY CAI VIDEO HUONG DAN LY THUYET C++ DI
+- TAO CÓ THỂ ĐƯỢC PHÉP XEM QUA 1 SỐ BÀI GIẢNG VỀ LẬP TRÌNH C++ CỦA TRƯỜNG MÌNH K CHATBOT
+- videos nmlt
+- CHO TUI COI 1 SO VIDEO BAI GIANG VE C++ VOI BA
+- coi video bài giảng
+- cho xin link video bai giang nmlt
+- bot cho coi nmlt di
+- link dạy NMLT
+- coi các video về c++
+- E MUỐN VÀI LINK VIDEO BÀI DẠY C++ CỦA TRƯỜNG MÌNH ANH BOT Ạ
+- tao mun coi video C++
+- LÝ THUYẾT C++ TUTORIALS
+- CHO XIN LINK VIDEO BÀI GIẢNG NMLT
+- t muốn đc coi video bài giảng C++ của các thầy cô UIT
+- GUI CHO BO M MAY CAI LINK DAY LY THUYET C++ CAI COI BOT NGU
+- BOT NÀ CHO TUI COI SERIES GIẢNG DẠY C++ ĐI
+- COI VIDEO BÀI GIẢNG
+- GUI TUI MAY VIDEO BAI GIANG UIT IKKK
+- Ê DKM 1 VIDEO BÀI GIẢNG NMLT UIT
+- CHO TUI COI 1 SỐ VIDEO BÀI GIẢNG VỀ C++ VỚI BA
+- CHỊ MUỐN ĐƯỢC COI QUA THỬ VIDEO BÀI GIẢNG CỦA MẤY CƯNG XEM SAO
+- link tutorials c++ uit
+- CHO MÌNH XEM 1 SỐ VIDEO NMLT CỦA KHOA KHMT VỚI BOT
+- coi cac cai videos ve C++ cua UIT
+- ê gửi link video bài giảng C++ đi pa
+- minh muon dc coi qua 1 so video bai giang cua UIT ve lap trinh C++
+- Ê BOT CHO TUI XIN LINK NMLT
+- VIDEO BÀI GIẢNG VỀ LÝ THUYẾT C++
+- Cho link bai giang lap trinh c++ uit
+- E GUI LINK VIDEO BAI GIANG C++ DI PA
+- Introduction to programming video tutorials
+- CHO LINK BÀI GIẢNG LẬP TRÌNH C++ UIT
+- NHAP MON LAP TRINH VIDEO BAI GIANG
+- VIDEO NMLT
+- GỬI CHO BỐ M MẤY CÁI LINK DẠY LÝ THUYẾT C++ CÁI COI BOT NGU
+- Cho minh xem video bai giang ve NMLT UIT
+- TÔI RẤT MUỐN ĐƯỢC COI QUA CÁC VIDEO BÀI GIẢNG VỀ LẬP TRÌNH C++ TẠI UIT
+- bot ơi tui muon coi video bài giảng
+- gửi tui mấy video bài giảng uit ikkk
+
+## intent:out_of_scope
+- dạy tôi deep learning
+- thời tiết hôm nay là gì
+- ngày ăn được mấy chén cơm
+- Postflix là gì
+- hôm nay ngày mấy?
+- Sort array
+- Mình cười haha
+- Đếm các số nguyên tố nhỏ hơn 10000
+- làm bạn trai e nha
+- Học c++ xong, ra làm gì?
+- Ăn tết chưa ạ
+- chở tui đi chơi với nha
+- A
+- test
+- hát cho tui nghe đi
+- Uit
+- cấu trúc dữ liệu và giải thuật
+- 1234567890
+- --version
+- bí mật của vũ trụ là gì
+- ăn kem thủ đức ở quán nào thì ngon
+- RAM là gì?
+- thay Do Tien thuong noi gi khi tre deadlines
+- python
+- em ăn cơm chưa?
+- dịch từ c++ sang python được không
+- ianh iu iem
+- chỉ t machine learning đi
+- ngoài c++ ra bạn còn biết về ngôn ngữ lập trình nào nữa không ?
+- bố ơi mình đi đâu thế
+- Kế thừa trong C++
+- Phạm vi biến
+- hát cho t nghe đi
+- con cặc là gì
+- cách lái xe máy
+- em muốn lái chị
+- Làm sao để lấy ra dãy tăng dần trong mảng
+- nay có họp k
+- tui k biết phải hỏi gì hết
+- ò ó o o
+- 3
+- làm sao để thành lập trình viên giỏi
+
+## intent:who_are_you
+- AI LÀ MÀY
+- tên mi là?
+- may la lz que nao v
+- MAY TEN LA GI
+- BAN LA THE LOAI GI V
+- May ten la gi
+- ĐẠI NHÂN TÊN GÌ
+- ông là ai
+- cho tôi hỏi bạn là ai
+- giới tính của bạn là gì?
+- What is your name?
+- may la ai
+- m là th lz nào
+- Who are you
+- MÀY LÀ THỰC THỂ GÌ THẾ
+- Ban ten la gi nhi?
+- CÓ THỂ CHO MÌNH BIẾT TÊN BẠN ĐƯỢC KHÔNG BẠN CHATBOT ?
+- Bạn có trò chơi gì vui không?
+- bạn có tên không ?
+- cho mình hỏi bạn tên là gì thế
+- may la con nao
+- DAI NHAN TEN GI
+- YOU TÊN GÌ
+- mình có thể biết tên của bạn Chatbot đây được k nhỉ
+- You tên gì
+- BOT TÊN GÌ
+- may rot cuoc la gi
+- mày rốt cuộc là gì
+- Những câu nào bạn biết để mình hỏi?\t
+- CHỊ LÀ AI
+- iem là aii
+- BẠN BOT TÊN GÌ
+- m la cai gi
+- ten mi la?
+- bạn mấy tuổi
+- mày rốt cuộc là cái quái gì vậy
+- bà là ai
+- YO WTF M LA AI THE
+- cho minh hoi ban bot day ten la gi nhi
+- M TÊN GÌ
+- MAY LA CAI QUAI GI VAY
+- ỦA M LÀ CC GÌ THẾ
+- SƯ ĐỆ TÊN GÌ
+- mày là cái lz què gì zay
+- TÊN MÀY LÀ GÌ
+- M LA TH LZ NAO
+- Đại nhân tên gì
+
+## intent:insult
+- LOZ MẸ M
+- Bạn thật là nhàm chán mà
+- BOT NGÁO
+- you dick
+- THẰNG LON`
+- Cái lz me may
+- LZ
+- CON ĐĨ NGU
+- Câm mẹ mồm vào con chó ngu
+- DỊT CỤ M
+- Cặc bot
+- LỒN BOT
+- Đụ mẹ mài
+- ĐỒ GÀ
+- con cặc là gì
+- you trash
+- S m có thể nGU như vậy được?
+- th Lồn
+- ÓC VẬT
+- ĐỒ NGU
+- ĐMM
+- anh mày đang chửi mày đấy
+- THẰNG L
+- CON ĐĨ MẸ MÀY
+- die
+- lol má m
+- BOT NGU
+- Ngu vl
+- BOT LỒN
+- BOT NGAO'
+- Cc
+- DCMM
+- mình chán bạn quá
+- CẶC BOT
+- vcc
+- Đmm
+- Ngu quá hà
+- dclmm
+- Con chó ngu
+- t đang chửi m đấy
+- NGU NHƯ CHÓ
+- Bot ngáo
+- loz
+- Bot Ngu
+- fack you
+- CON CAC
+
+## intent:health_inquire
+- EM VẪN KHỎE, CÒN THẦY THÌ SAO
+- khỏe không
+- DẠO NÀY THẰNG BOT CỦA A KHỎE K
+- Bữa giờ sống sao r
+- Hổm rày vẫn ok chứ hả
+- Sống ổn chứ em iu
+- BỮA H TỐT K
+- anh mày khỏe, còn th em của anh thì sao nà
+- Hổm rày ổn không
+- vừa rồi khỏe k
+- bố m chắc chắn là khỏe r, còn m thì sao
+- M thì sao?
+- Minh van khoe, con ban
+- BỮA GIỜ OK K CHÚ E
+- CHO EM HỎI DẠO NÀY SỐNG TỐT K
+- I'm good, còn m?
+- DẠO NÀY KHỎE HONG BẠN TUI
+- DẠO NÀY EM IU ỔN HƠM
+- Sống tốt k th em
+- ANH MÀY KHỎE, CÒN TH EM CỦA ANH THÌ SAO NÀ
+- BỮA GIỜ SỐNG SAO R
+- dạo này mọi thứ vẫn ok mà phải hem
+- Bữa giờ ok k chú e
+- SỐNG TỐT CHỨ HẢ
+- CÒN MÀY?
+- Bữa giờ sao rồi m
+- dạo này bot của a sống thế nào?
+- SỐNG TỐT K TH EM
+- BỮA GIỜ VẪN OK CHỨ HẢ
+- dạo này có sao k
+- DUME CÒN M THÌ SAO
+- Khỏe chứ mày
+- Bữa h khỏe k
+- bữa h công việc ổn thỏa hết chứ hả
+- Bữa giờ vẫn ok chứ hả
+- BỐ MÀY KHỎE, CÒN CON GIỜI M THÌ SAO, KHỎE KO
+- Dạo này cuộc sống vẫn ổn định chứ
+- sống tốt k bot
+- DẠO NÀY MÀY THẾ NÀO?
+- Còn m thì như lào???
+- M THÌ SAO, Ở ĐÓ MÀ HỎI TAO
+- BỮA GIỜ ỔN KHÔNG
+- minh khoe, con ban thi sao
+- I'M GOOD, CÒN M?
+- BỮA GIỜ VẪN OK MÀ PHẢI K?
+- BỐ M KHỎE CÒN M THÌ?
+- HỎI CLMM, M SAO?
+- DẠO NÀY MỌI THỨ VẪN OK MÀ PHẢI HEM
+- M CŨNG KHỎE CHỨ HẢ?
+- em vẫn khỏe, còn thầy thì sao
+- Absolutely fine, how about u?
+- KHỎE CHỨ MÀY
+
+## intent:cpplus_example_asking
+- Hay cho iem mot so vi du ve vong [while](cpplus_content) di a
+- Hay vi du cu cmn the ve [de quy]{"entity": "cpplus_content", "value": "recursion"} di
+- VU DI VE [INTEGER]{"entity": "cpplus_content", "value": "integer"}
+- cho minh mot so cac cai vi du ve lenh [break](cpplus_content) va lenh [continue](cpplus_content) di a
+- mot chiec vi du xinh xan ve [bien tinh]{"entity": "cpplus_content", "value": "static"}
+- Di vu thu ve kieu [int]{"entity": "cpplus_content", "value": "integer"} xem nao
+- cho toi xin mot vi du ve [khong gian ten]{"entity": "cpplus_content", "value": "namespace"} voi a
+- eg ve [ham]{"entity": "cpplus_content", "value": "function"}
+- Ban ei, cho minh mot vai vi du ve [toan tu]{"entity": "cpplus_content", "value": "operator"} dc hong
+- VÚ DỊ VỀ [INTEGER]{"entity": "cpplus_content", "value": "integer"}
+- HAY CHO T VI DU VE [VONG LAP]{"entity": "cpplus_content", "value": "loop"} DI NAO
+- ê tao vẫn chưa hiểu về cái vòng lặp trong c++ lắm cho thử một ví dụ về [vòng lặp]{"entity": "cpplus_content", "value": "loop"} xem nào
+- Vi du ve [Lambda]{"entity": "cpplus_content", "value": "lambda"}
+- ví dụ cụ thể nhất về [Pointer]{"entity": "cpplus_content", "value": "pointer"}
+- Hãy cho iem một số ví dụ về vòng [while](cpplus_content) đi ạ
+- đến giờ phỏng vấn, ví dụ về hàm [lamda]{"entity": "cpplus_content", "value": "lambda"} đi nào, nhanh
+- HAY CHO TUI MOT SO VI DU VE [BIEN]{"entity": "cpplus_content", "value": "variable"}
+- VÍ DỤ [VARIABLE]{"entity": "cpplus_content", "value": "variable"}
+- dm cho bo m vi du ve [con tro]{"entity": "cpplus_content", "value": "pointer"} di
+- HÃY CHO TÔI MỘT VÀI CÁC CÁI VÍ DỤ VỀ VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} VÒNG [WHILE](CPPLUS_CONTENT) VÀ VÒNG [DO WHILE]{"entity": "cpplus_content", "value": "do-while"}
+- Hãy cho tôi một vài các cái ví dụ về vòng [For]{"entity": "cpplus_content", "value": "for"} vòng [while](cpplus_content) và vòng [do while]{"entity": "cpplus_content", "value": "do-while"}
+- Một ví dụ dễ hiểu nhất về [hàm nội tuyến]{"entity": "cpplus_content", "value": "inline-function"}
+- cho mình 1 cái example về [if](cpplus_content) thử coi nè
+- GIVE ME AN EXAMPLE OF [SCOPE RESOLUTION OPERATOR]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+- Vi du thu cho minh ve [tham tri]{"entity": "cpplus_content", "value": "pass-by-value"} [tham chieu]{"entity": "cpplus_content", "value": "pass-by-reference"} de
+- CHO BỐ MÀY MỘT VÍ DỤ VỀ [LIBRARY]{"entity": "cpplus_content", "value": "library"}
+- vi du ve [Con tro]{"entity": "cpplus_content", "value": "pointer"} coi du ma
+- CHO TÔI XIN MỘT VÍ DỤ VỀ [KHÔNG GIAN TÊN]{"entity": "cpplus_content", "value": "namespace"} VỚI Ạ
+- CHO TÔI VÍ DỤ VỀ CÁC LOẠI VÒNG LẶP [FOR]{"entity": "cpplus_content", "value": "for"}, [WHILE](CPPLUS_CONTENT) VÀ [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} ĐI
+- Ê tao đang không hiểu rõ về [Toán tử số học]{"entity": "cpplus_content", "value": "arithmetic-operator"} và [toán tử logic]{"entity": "cpplus_content", "value": "logical-operator"}, cho tao ví dụ về hai món đó đi
+- VÍ DỤ VỀ KIỂU [DOUBLE](CPPLUS_CONTENT) VÀ KIỂU [FLOAT]{"entity": "cpplus_content", "value": "floating-point"} ĐI
+- ví dụ về [Con trỏ]{"entity": "cpplus_content", "value": "pointer"} coi đụ má
+- DUA CHO TOI MOT SO VI DU VE [IF]{"entity": "cpplus_content", "value": "if"} DI NAO
+- E.G VE [FUNCTION]{"entity": "cpplus_content", "value": "function"} THU XEM NAO
+- dí dụ thử về kiểu dữ liệu [float]{"entity": "cpplus_content", "value": "floating-point"} xem sao nào
+- vi du cu the ve [tham so]{"entity": "cpplus_content", "value": "parameter"} va [doi so]{"entity": "cpplus_content", "value": "argument"}
+- CHO BO MAY MOT VI DU VE [LIBRARY]{"entity": "cpplus_content", "value": "library"}
+- A ơi, cho e ví dụ về vòng lặp [do while]{"entity": "cpplus_content", "value": "do-while"} đi a
+- E, TAO VAN CHUA HIEU VE CAI VONG LAP TRONG C++ LAM, CHO THU MOT VI DU VE [VONG LAP]{"entity": "cpplus_content", "value": "loop"} XEM NAO
+- just give to me a example about [toan tu dinh pham vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+- mot vai vi du ve [For]{"entity": "cpplus_content", "value": "for"} cho nguoi ta duoc ko ?
+- Ê BOT, CHO T 1 SỐ VÍ DỤ VỀ [COMMENT]{"entity": "cpplus_content", "value": "comment"} ĐÊ
+- ne bot, vi du ve [Comment]{"entity": "cpplus_content", "value": "comment"} thu
+- den gio phong van, vi du ve ham [lamda]{"entity": "cpplus_content", "value": "lambda"} di nao, nhanh
+- just give to me a example about [toán tử định phạm vi]{"entity": "cpplus_content", "value": "scope-resolution-operator"}
+- CHO MINH MOT SO CAC CAI VI DU VE LENH [BREAK]{"entity": "cpplus_content", "value": "break"} VA LENH [CONTINUE](CPPLUS_CONTENT) DI A
+- NÈ BOT ƠI, CHO TAO VÍ DỤ VỀ [OPERATORS]{"entity": "cpplus_content", "value": "operator"} ĐI MÀY
+- E CHO CAI VI DU VE [ARRAY]{"entity": "cpplus_content", "value": "array"}
+- VI DU CU THE VE [THAM SO]{"entity": "cpplus_content", "value": "parameter"} VA [DOI SO]{"entity": "cpplus_content", "value": "argument"}
+- Thầy, cho đồ đệ ví dụ về vòng lặp [While]{"entity": "cpplus_content", "value": "while"} được không ạ?
+- một số instances về [hàm]{"entity": "cpplus_content", "value": "function"} thử nè
+- VI DU VE 1 [VONG LAP]{"entity": "cpplus_content", "value": "loop"} TRONG C++ XEM NAO
+- VÍ DỤ VỀ [TOÁN TỬ TĂNG]{"entity": "cpplus_content", "value": "increment-operator"}, [TOÁN TỬ GIẢM]{"entity": "cpplus_content", "value": "decrement-operator"}
+- HMMM, CHO MINH THU MOT VI DU VE CAU [DIEU KIEN]{"entity": "cpplus_content", "value": "if"} THU XEM SAO NE
+- MOT SO INSTANCES VE [HAM]{"entity": "cpplus_content", "value": "function"} THU NE
+- men oiii, cho tui vi du ve [for](cpplus_content) xem thu na
+
+## intent:cpplus_why_asking
+- vì sao lại nên xài hàm [Macro]{"entity": "cpplus_content", "value": "macro"} khi viết code c++ thế bot?
+- Bot oi bot a, sao tao lai can su dung [ham]{"entity": "cpplus_content", "value": "function"} khi viet code the bot?
+- ê duma t đ hiểu gì về cái [include](cpplus_content) luôn á, tại sao t lại phải xài nó v?
+- tai sao nen hoc [kieu chuoi]{"entity": "cpplus_content", "value": "string"}?
+- [pointer](cpplus_content), vì sao cần biết?
+- Ê DUMA T Đ HIỂU GÌ VỀ CÁI [INCLUDE]{"entity": "cpplus_content", "value": "include"} LUÔN Á, TẠI SAO T LẠI PHẢI XÀI NÓ V?
+- bạn có thể kể cho tôi một vài lý do vì sao lại nên chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ dùng để dạy môn nhập môn lập trình cho đại đa số các sinh viên công nghệ thông tin hiện nay tại việt nam được không?
+- đụ mẹ sao giờ còn có thêm kiểu [wchar-t](cpplus_content) vậy bot, sao ngta xài nó chi zẩy?
+- sao lên c++ 11 người ta có thêm kiểu dữ liệu [auto](cpplus_content) chi vậy bot?
+- tại sao lại nên xài [logical operator]{"entity": "cpplus_content", "value": "logical-operator"}?
+- VÌ SAO TAO NÊN DÙNG KIỂU [CHAR]{"entity": "cpplus_content", "value": "character"} THẾ ?
+- KIỂU [CHARACTER]{"entity": "cpplus_content", "value": "character"}, VÌ SAO HỌC?
+- tao muốn biết lý do vì sao lại phải [include](cpplus_content) mỗi lần viết code
+- tai sao binh thuong co kieu float roi, gio lai co them kieu [double](cpplus_content) voi cung chuc nang bieu dat de chi vay?
+- tại sao lại có khái niệm [loop](cpplus_content)?
+- Cho t 1 lý do vì s lại cứ phải xài [include](cpplus_content) mỗi lần bắt đầu một project mới dc k bot
+- tại sao có khái niệm [if](cpplus_content) trong lập trình?
+- TẠI SAO GIỜ CÒN CÓ THÊM KHÁI NIỆM [UNION]{"entity": "cpplus_content", "value": "union"} V?
+- NÈ M, VÌ S MỖI LẦN VIẾT CODE C++, T LẠI PHẢI GHI CÁI DÒNG USING [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} CHI CHO CỰC V?
+- dung [bien tinh]{"entity": "cpplus_content", "value": "static"} chi v m
+- sao lại cần dùng [toán tử phẩy]{"entity": "cpplus_content", "value": "comma-operator"}?
+- Noi nghe tai sao phai su dung [ham]{"entity": "cpplus_content", "value": "function"} vay bot oi ?
+- sao mỗi lần t viết code đều phải xài cái từ [include](cpplus_content) đó hết v m
+- TẠI SAO LẠI XÀI KIỂU [DOUBLE]{"entity": "cpplus_content", "value": "double"}
+- sao có kiểu float rồi mà lại có thêm kiểu [double](cpplus_content) chi vậy mày?
+- TAO MUỐN BIẾT LÝ DO VÌ SAO LẠI PHẢI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE
+- Tai sao lai co [kieu ki tu]{"entity": "cpplus_content", "value": "character"} v bot ngu oc cut?
+- Ê thằng lồn bot, sao bố mày cần phải xài [type modifiers]{"entity": "cpplus_content", "value": "type-modifier"}?
+- vi sao lai sinh ra them ham [lambda](cpplus_content) chi cuc v?
+- kieu du lieu [Double]{"entity": "cpplus_content", "value": "double"}, vi sao lai xai?
+- SAO CÓ THÊM KIỂU [AUTO]{"entity": "cpplus_content", "value": "auto"} CHI V?
+- có một khái niệm khá giống với struct đó là [class](cpplus_content), vì sao lại có nó vậy m?
+- [comment](cpplus_content) khi lập trình c++ để làm cái lz gì v?
+- má ơi sao mỗi lần code là lại phải [include](cpplus_content) v, dm explain cho t cái
+- VÌ SAO LẠI CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ LÀM NGÔN NGỮ BASE?
+- Giai thich sao lai co kieu [enum]{"entity": "cpplus_content", "value": "enumeration"} coi bot
+- [STRUCT]{"entity": "cpplus_content", "value": "structure"}, NGUYÊN CƠ NÀO MÀ PHẢI CÓ NÓ?
+- Anh ơi anh, anh cho em biết vì sao lại dùng [constant reference]{"entity": "cpplus_content", "value": "const-reference"} đc không ạ?
+- VÌ SAO LẠI CẦN HỌC VỀ KHÁI NIỆM [LỚP]{"entity": "cpplus_content", "value": "class"} ĐỐI TƯỢNG TRONG C++
+- sao trong c++ còn có thêm biến [static](cpplus_content) vậy? vì sao xài nó thế?
+- TELL ME WHY, TẠI SAO TUI CẦN PHẢI HỌC CÁI [CLASS]{"entity": "cpplus_content", "value": "class"} CHẾT TIỆT ĐÓ VẬY
+- TẠI SAO BÌNH THƯỜNG CÓ KIỂU FLOAT RỒI, GIỜ LẠI CÓ THÊM KIỂU [DOUBLE]{"entity": "cpplus_content", "value": "double"} VỚI CÙNG CHỨC NĂNG BIỂU ĐẠT ĐỂ CHI VẬY?
+- Bot oi tai sao lai phai biet dung [recursion](cpplus_content) vay bot
+- [class](cpplus_content) là lz què gì và vì sao mình lại phải cần học về nó v?
+- Ê MÀI, VÌ S NGƯỜI TA LẠI XÀI THÊM CÁI TỪ [SIGNED]{"entity": "cpplus_content", "value": "signed"} MỖI LẦN KHAI BÁO BIẾN THẾ ???
+- tao đọc code của người ta thấy có biến có chứa thêm từ [const]{"entity": "cpplus_content", "value": "constant"} là vì sao vậy mày?
+- ĐỌC TRONG SÁCH THẤY NGƯỜI TA BẢO MÌNH NÊN XÀI HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} MỖI KHI VIẾT CODE?
+- sao lại có thêm biến [static](cpplus_content) để làm chi rứa?
+- Tại sao lại phải học [Ternary operator]{"entity": "cpplus_content", "value": "ternary-operator"}
+- tại sao phải dùng [dấu phẩy]{"entity": "cpplus_content", "value": "comma-operator"} khi lập trình?
+- kieu [enum]{"entity": "cpplus_content", "value": "enumeration"} co cc gi ma tao can phai hoc ve no?
+- Bạn có thể cho tôi biết vì sao lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học môn nhập môn lập trình được không?
+- Ủa xài [COMMENT]{"entity": "cpplus_content", "value": "comment"} chi?
+- [Mảng một chiều]{"entity": "cpplus_content", "value": "array"}, vì sao dùng?
+- Cho toi hoi vi sao nguoi ta khuyen nen dung [vector](cpplus_content) hon la dung array?
+- Đọc trong sách thấy người ta bảo mình nên xài hàm [macro](cpplus_content) mỗi khi viết code?
+- VÌ SAO LẠI NÊN DÙNG KIỂU [STRING]{"entity": "cpplus_content", "value": "string"} THAY VÌ DÙNG MỘT MẢNG CÁC KÍ TỰ?
+- VÌ SAO TÔI LẠI NÊN CHỌN [CPP]{"entity": "cpplus_content", "value": "cplusplus"} ĐỂ LÀM NGÔN NGỮ KHỞI ĐẦU VIỆC HỌC LẬP TRÌNH
+- [Library]{"entity": "cpplus_content", "value": "library"} là cái cc gì mà tại s t lại phải sử dụng nó
+- e bot, tai sao nen hoc ve [ham noi tuyen]{"entity": "cpplus_content", "value": "inline-function"}?
+- Vì sao lại cần học về khái niệm [Lớp]{"entity": "cpplus_content", "value": "class"} đối tượng trong c++
+- ê bot, tao hỏi này nè, tại sao mình lại phải sử dụng [variable](cpplus_content) khi viết code?
+- KIỂU [FLOAT]{"entity": "cpplus_content", "value": "floating-point"} SAO LẠI HỌC NÓ
+- Vì sao lại nên phân biệt [biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} và [biến toàn cục]{"entity": "cpplus_content", "value": "global-variable"} ra chi v?
+- TẠI SAO CÓ RẤT NHIỀU NGÔN NGỮ LẬP TRÌNH ĐANG HOT HIỆN NAY NHƯ PYTHON, JAVASCRIPT, R,... MÀ T LẠI PHẢI HỌC [c]{"entity": "cpplus_content", "value": "cplusplus"}++ TRƯỚC V BOT
+- Ở bản c++11, sao người ta lại có thêm kiểu dữ liệu [auto](cpplus_content) v bot ngu?
+- kiểu [character](cpplus_content), vì sao học?
+- KIỂU [SỐ THỰC]{"entity": "cpplus_content", "value": "floating-point"}, SAO LẠI PHẢI HỌC NÓ?
+- vì sao mỗi lần viết code là phải khai báo [thư viện]{"entity": "cpplus_content", "value": "library"} thế bot
+- ê bot ơi, m có thể giải thích cho tao vì sao có vụ [pass by reference]{"entity": "cpplus_content", "value": "pass-by-reference"} được k?
+- ê bot ơi, tại sao trong code, lại có khái niệm về [vòng lặp]{"entity": "cpplus_content", "value": "loop"} vậy mày?
+- Vì sao bố m lại phải sử dụng [libs]{"entity": "cpplus_content", "value": "library"} v
+- Kiểu [số thực]{"entity": "cpplus_content", "value": "floating-point"}, sao lại phải học nó?
+- [STRUCTURE]{"entity": "cpplus_content", "value": "structure"}, VÌ SAO DÙNG?
+- Hãy cho t 1 vài lý do nên học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ đi bot ngu
+- m có lời biện hộ nào cho việc vì sao lại phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước mà không phải những ngôn ngữ khác k?
+- Ê M, T K HIỂU, VÌ SAO LẠI CỨ PHẢI XÀI [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE C++ THẾ @@
+- sao lai phai xai [toan tu quan he]{"entity": "cpplus_content", "value": "comparison-operator"}?
+- tai sao lai can hoc [inline functions]{"entity": "cpplus_content", "value": "inline-function"}?
+- Vi sao lai co khai niem [local variable]{"entity": "cpplus_content", "value": "local-variable"}
+- ê mày, tại sao lại nên dùng [hằng số]{"entity": "cpplus_content", "value": "constant"}?
+- Kiểu [char]{"entity": "cpplus_content", "value": "character"}, vì sao dùng?
+- CLM T ĐÉO HIỂU SAO LẠI CẦN [INCLUDE]{"entity": "cpplus_content", "value": "include"} MỖI LẦN VIẾT CODE LUÔN Á M, GIẢI THÍCH CHO T VỚI
+- Tại sao phải dùng [biến]{"entity": "cpplus_content", "value": "variable"}
+- VÌ SAO LẠI SINH RA KHÁI NIỆM [GLOBAL VARIABLE]{"entity": "cpplus_content", "value": "global-variable"} THẾ MÀY?
+- sao lai co them noi dung ve [local variable]{"entity": "cpplus_content", "value": "local-variable"} nua v lz
+- [struct]{"entity": "cpplus_content", "value": "structure"}, lý do gì có nó?
+- Sao co them kieu [auto](cpplus_content) chi v?
+- ê mài, vì s người ta lại xài thêm cái từ [signed](cpplus_content) mỗi lần khai báo biến thế ???
+- vì sao tao nên dùng kiểu [char]{"entity": "cpplus_content", "value": "character"} thế ?
+- vì sao lại sinh ra thêm hàm [lambda](cpplus_content) chi cực v?
+- SAO LẠI CÓ KHÁI NIỆM [ARRAY]{"entity": "cpplus_content", "value": "array"}?
+- tại sao m lại chọn [c]{"entity": "cpplus_content", "value": "cplusplus"}++ để học nhập môn lập trình?
+- vì sao lại có các khái niệm về [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} hay [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} v?
+- TẠI SAO NÊN HỌC [KIỂU CHUỖI]{"entity": "cpplus_content", "value": "string"}?
+- ê mày, sao tao lại cần cái lệnh [goto](cpplus_content) làm gì thế?
+- Ê TÍNH RA TAO THẤY NGƯỜI TA RẢNH LZ LẮM LUÔN Á BOT, TỰ NHIÊN GHI THÊM CÁI TỪ [SIGNED]{"entity": "cpplus_content", "value": "signed"} KHI KHAI BÁO CHI ZẪY?
+- TẠI SAO M LẠI CHỌN [c]{"entity": "cpplus_content", "value": "cplusplus"}++ ĐỂ HỌC NHẬP MÔN LẬP TRÌNH?
+- vì sao muốn viết code tốt lại cần phải học [function](cpplus_content) vậy mày?
+- s bố m lại bị ép buộc phải học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ trước tiên v bot
+- Tai sao phai dung [bien]{"entity": "cpplus_content", "value": "variable"} ?
+- ê m, vì sao lại phải sử dụng [namepsace]{"entity": "cpplus_content", "value": "namespace"} chi
+
+## intent:cpplus_how_asking
+- lệnh [switch](cpplus_content) case dùng như thế nào?
+- LÀM S ĐỂ TẠO RA ĐƯỢC MỘT VÒNG [DO WHILE]{"entity": "cpplus_content", "value": "do-while"} ĐÂY TA
+- Cú pháp [recursion](cpplus_content)
+- CÁCH NÀO ĐỂ T TẠO RA MỘT VÒNG [WHILE]{"entity": "cpplus_content", "value": "while"} V M
+- Làm thế nào để tạo ra được [Array]{"entity": "cpplus_content", "value": "array"} v?
+- [if else]{"entity": "cpplus_content", "value": "if-else"} hoạt động như thế nào
+- lam s de truyen 1 [Argument]{"entity": "cpplus_content", "value": "argument"} trong loi goi ham v bot?
+- Cú pháp [reference-variable](cpplus_content)
+- [Kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} dùng ntn v ???
+- Bang cach nao thi t co the dung 1 ham [macro](cpplus_content) trong c++ day bot?
+- Cú pháp của [2d-array](cpplus_content) là gì
+- khai báo 1 [class](cpplus_content) như thế nào ?
+- [Ma trận]{"entity": "cpplus_content", "value": "2d-array"} trong c++ dc tạo bằng cách nào?
+- Su dung cach thuc nao de co the su dung duoc mot [namespace](cpplus_content) trong C++ the bot ?
+- NÈ KU LÀM S ĐỂ T TẠO RA 1 BIẾN KIỂU [SHORT]{"entity": "cpplus_content", "value": "short"} ĐÂY?
+- Can u tell me the way of how to use the [binary operator]{"entity": "cpplus_content", "value": "binary-operator"} in c++?
+- NÀM THAO ĐỂ TAO DÙNG BIẾN KIỂU [SIGNED]{"entity": "cpplus_content", "value": "signed"} ĐÂY BOT NGU?
+- [pass-by-reference](cpplus_content) chạy như thế nào
+- Cú pháp [return-type](cpplus_content)
+- Cú pháp [double](cpplus_content)
+- NTN để có thể viết 1 hàm [macro](cpplus_content) ?
+- [toán tử]{"entity": "cpplus_content", "value": "operator"} dc triển khai NTN ?
+- câu lặp [do while]{"entity": "cpplus_content", "value": "do-while"} viết code ntn v m?
+- 1 tập lệnh [if else]{"entity": "cpplus_content", "value": "if-else"} dc viết như thế nào v bot chat ơi
+- Cú pháp của [goto](cpplus_content) là gì
+- [binary-operator](cpplus_content) chạy như thế nào
+- khai báo ntn 1 [toán tử]{"entity": "cpplus_content", "value": "operator"} trong c++?
+- Sao để declare một [Thư viện]{"entity": "cpplus_content", "value": "library"} đây
+- Cu phap cua [short](cpplus_content) la gi
+- Làm s để xài dc [mảng hai chiều]{"entity": "cpplus_content", "value": "2d-array"} thế bot?
+- [pointer](cpplus_content) chạy như thế nào
+- [Mang mot chieu]{"entity": "cpplus_content", "value": "array"} dc viet ntn trong c++ day botchat
+- Cú pháp của [reference-variable](cpplus_content) là gì
+- Cú pháp của [unsigned](cpplus_content) là gì
+- Cú pháp của [break](cpplus_content) là gì
+- Mot [vong lap]{"entity": "cpplus_content", "value": "loop"} dc khai bao nhu the nao trong C++ the ?
+- 1 câu [if](cpplus_content) trong cpp dc viết ntn?
+- làm s để tao khai báo một [variable](cpplus_content) đây?
+- [array](cpplus_content) hoạt động như thế nào
+- cau lap [do while]{"entity": "cpplus_content", "value": "do-while"} viet code ntn v m?
+- Cu phap cua [library](cpplus_content) la gi
+- lam s de khai bao dc 1 [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+- [if](cpplus_content) dc viết ntn?
+- KIỂU DỮ LIỆU [WCHAR-T]{"entity": "cpplus_content", "value": "wchar-t"} DÙNG KIỂU J V BOT?
+- khai báo 1 lệnh [switch](cpplus_content) case ra làm sao ?
+- [Kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"} hoạt động như thế nào
+- LÀM CÁCH NÀO ĐỂ TA CÓ THỂ SỬ DỤNG ĐƯỢC MỘT [NAMESPACE]{"entity": "cpplus_content", "value": "namespace"} TRONG C++?
+- mot loai [Toan tu]{"entity": "cpplus_content", "value": "operator"} dc tao ra bang cach nao v bot?
+- Cú pháp của [do-while](cpplus_content) là gì
+- ntn de ra dc [class](cpplus_content) trong c++ the?
+- Cú pháp của [comparison-operator](cpplus_content) là gì
+- mot [dieu kien]{"entity": "cpplus_content", "value": "if"} trong c++ dc viet nhu the nao?
+- [Kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} hoạt động như thế nào
+- [hàm]{"entity": "cpplus_content", "value": "function"} chạy như thế nào
+- [tham số]{"entity": "cpplus_content", "value": "parameter"} chạy như thế nào
+- [array](cpplus_content) chạy như thế nào
+- Cú pháp của [enumeration](cpplus_content) là gì
+- [KIỂU LUẬN LÝ]{"entity": "cpplus_content", "value": "boolean"} DÙNG NTN V ???
+- Cú pháp [logical-operator](cpplus_content)
+- [goto](cpplus_content) chạy như thế nào
+- Cú pháp [static](cpplus_content)
+- CÁCH SỬ DỤNG [NAMEPSACE]{"entity": "cpplus_content", "value": "namespace"} ?
+- E chi tao cach trien khai [kieu luan ly]{"entity": "cpplus_content", "value": "boolean"} cho no ra j xem nao
+- Ê BÂY GIỜ BÀY T CÁCH THỨC ĐỂ CÓ THỂ DÙNG 1 BIẾN KIỂU [SIGNED]{"entity": "cpplus_content", "value": "signed"} ĐÊ A BOT
+- Cú pháp [structure](cpplus_content)
+- Cú pháp [do-while](cpplus_content)
+- [while](cpplus_content) chạy như thế nào
+- [switch](cpplus_content) chạy như thế nào
+- [shift-operator](cpplus_content) chạy như thế nào
+- [long](cpplus_content) chạy như thế nào
+- Lam s de implement [1D Array]{"entity": "cpplus_content", "value": "array"} trong C++ the?
+- Cú pháp [comma-operator](cpplus_content)
+- NTN để tạo ra dc 1 [struct]{"entity": "cpplus_content", "value": "structure"} ?
+- Cú pháp của [ternary-operator](cpplus_content) là gì
+- nói cho tôi biết cách tạo một [STRUCT]{"entity": "cpplus_content", "value": "structure"} như thế nào không
+- Cú pháp của [include](cpplus_content) là gì
+- LÀM CÁCH NÀO ĐỂ TẠO RA MỘT CÂU LỆNH [IF]{"entity": "cpplus_content", "value": "if"}?
+- Vòng lặp [do-while](cpplus_content) hoạt động như thế nào
+- bằng cách nào thì ta có thể dùng [include](cpplus_content) trong c++ dc v?
+- Cú pháp của [decrement-operator](cpplus_content) là gì
+- Cú pháp của [pass-by-value](cpplus_content) là gì
+- chỉ mình cách để viết một câu [điều kiện]{"entity": "cpplus_content", "value": "if"} đi bạn
+- Ê chỉ tao cách triển khai [kiểu luận lý]{"entity": "cpplus_content", "value": "boolean"} cho nó ra j xem nào
+- [if-else](cpplus_content) chạy như thế nào
+- [Local variable]{"entity": "cpplus_content", "value": "local-variable"} được dùng như thế nào trong cpp v bot?
+- NÓI CHO TÔI BIẾT CÁCH TẠO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} NHƯ THẾ NÀO KHÔNG
+- [argument](cpplus_content) hoạt động như thế nào
+- [nested-if](cpplus_content) hoạt động như thế nào
+- How can I even use [two dimensional array]{"entity": "cpplus_content", "value": "2d-array"} in cpp?
+- Cách dùng [for](cpplus_content)
+- [reference variable]{"entity": "cpplus_content", "value": "reference-variable"} dc tạo ra trong c++ như thế nào v bot?
+- [union](cpplus_content) hoạt động như thế nào
+- [inline-function](cpplus_content) hoạt động như thế nào
+- giờ muốn viết [toán tử giảm]{"entity": "cpplus_content", "value": "decrement-operator"} thì phải sao thế botchat?
+- Cú pháp của [iteration-statement](cpplus_content) là gì
+- Cú pháp của [for](cpplus_content)
+- [ternary-operator](cpplus_content) hoạt động như thế nào
+- Cú pháp của [macro](cpplus_content) là gì
+- [library](cpplus_content) hoạt động như thế nào
+- Dùng [class](cpplus_content) như thế nào?
+- Cú pháp [string](cpplus_content)
+- Làm s để có thể [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} vô 1 hàm dc thế?
+- LÀM SAO ĐỂ KHAI BÁO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} TRONG C++ ?
+- CHỈ IEM CÁCH VIẾT MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} ĐI
+- [iteration-statement](cpplus_content) chạy như thế nào
+- cach tai [c]{"entity": "cpplus_content", "value": "cplusplus"}++
+- CHỈ BỐ M VIẾT RA MỘT VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} COI
+- Cú pháp của [arithmetic-operator](cpplus_content) là gì
+- Lam cach nao de implement ra dc mot ham [macro](cpplus_content) the bot?
+- Cú pháp của [pseudo-code](cpplus_content) là gì
+- Minh thac mac la lam s de co the tao ra 1 [ham]{"entity": "cpplus_content", "value": "function"} trong c++ day bot?
+- Cú pháp [long](cpplus_content)
+- [Loop]{"entity": "cpplus_content", "value": "loop"} trong C++ dc implement nhu the nao?
+- Viết [mảng một chiều]{"entity": "cpplus_content", "value": "array"} thì viết như thế nào đây bot?
+- CHỈ BỐ M CÁCH VIẾT MỘT [LOOP]{"entity": "cpplus_content", "value": "loop"} COI
+- [static](cpplus_content) hoạt động như thế nào
+- làm sao để sử dụng [BREAK]{"entity": "cpplus_content", "value": "break"} đây ta
+- LÀM SAO TÔI CÓ THỂ KHAI BÁO MỘT [MẢNG]{"entity": "cpplus_content", "value": "array"} ĐƯỢC ?
+- Cú pháp của [argument](cpplus_content) là gì
+- [vector](cpplus_content) hoạt động như thế nào
+- [pass-by-value](cpplus_content) chạy như thế nào
+- MÌNH KHÔNG BIẾT TẠO MỘT [STRUCT]{"entity": "cpplus_content", "value": "structure"}
+- làm thế nào để t khai báo một [variable](cpplus_content)?
+- [toan tu]{"entity": "cpplus_content", "value": "operator"} dc trien khai NTN ?
+- Cú pháp [array](cpplus_content)
+- Bang cach nao de su dung duoc cai [type modifier]{"entity": "cpplus_content", "value": "type-modifier"} day bot oii
+- 1 syntax [switch](cpplus_content) case ở c++ dc viết như thế nào v bot?
+- CÁCH TẠO RA VÒNG [FOR]{"entity": "cpplus_content", "value": "for"} NHƯ THẾ NÀO ĐÂY
+- Cú pháp của [while](cpplus_content) là gì
+- Bắt đầu học [c]{"entity": "cpplus_content", "value": "cplusplus"}++ từ đâu?
+- KHAI BÁO 1 [CLASS]{"entity": "cpplus_content", "value": "class"} NHƯ THẾ NÀO ?
+- Ê NÀM THAO ĐỂ T TẠO RA DC 1 BIẾN [UNSIGNED]{"entity": "cpplus_content", "value": "unsigned"} TRONG C++ ĐÂY BOT?
+- cach viet [switch](cpplus_content) case
+- [Kiểu chuỗi]{"entity": "cpplus_content", "value": "string"} hoạt động như thế nào
+- NTN ĐỂ TẠO RA DC 1 [STRUCT]{"entity": "cpplus_content", "value": "structure"} ?
+- SỬ DỤNG TÍNH NĂNG [COMMENT]{"entity": "cpplus_content", "value": "comment"} TRONG C++ NTN?
+- Cú pháp [unsigned](cpplus_content)
+- [Mảng một chiều]{"entity": "cpplus_content", "value": "array"} hoạt động như thế nào
+- [assignment-operator](cpplus_content) hoạt động như thế nào
+- [Toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"} cách sử dụng
+- dung cach thuc gi de xai dc [struct]{"entity": "cpplus_content", "value": "structure"} the?
+- Lam cach nao de ta co the su dung duoc mot [namespace](cpplus_content) trong C++?
+- cach su dung [namepsace]{"entity": "cpplus_content", "value": "namespace"} ?
+- Cú pháp của [if-else-if-ladder](cpplus_content) là gì
+- Kieu [bool]{"entity": "cpplus_content", "value": "boolean"} dung the quai nao v bot?
+- Làm cách nào để t có thể [truyền tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} vào 1 hàm dc đây bot?
+- Cú pháp [library](cpplus_content)
+- Cú pháp [increment-operator](cpplus_content)
+- NHƯ THẾ NÀO ĐỂ CÓ THỂ VIẾT DC MỘT CÂU [BREAK]{"entity": "cpplus_content", "value": "break"} V
+- TRONG C++ CÓ 1 KHÁI NIỆM LÀ HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} THÌ TRIỂN KHAI TRONG CODE NTN V BOT?
+- Kiểu [ký tự]{"entity": "cpplus_content", "value": "character"} hoạt động như thế nào
+- [break](cpplus_content) chạy như thế nào
+- Ê BOT ƠI HOW TO SỬ DỤNG [COMMENT]{"entity": "cpplus_content", "value": "comment"} ?
+- [while](cpplus_content) hoạt động như thế nào
+- tôi phải làm gì với [c]{"entity": "cpplus_content", "value": "cplusplus"}++ đây
+- [library](cpplus_content) chạy như thế nào
+- e bot gio t muon dung [toan tu tang]{"entity": "cpplus_content", "value": "increment-operator"} thi lam nhu the nao?
+- [Ma tran]{"entity": "cpplus_content", "value": "2d-array"} trong c++ dc tao bang cach nao?
+- [macro](cpplus_content) hoạt động như thế nào
+- how to tao ra mot vong [FOR]{"entity": "cpplus_content", "value": "for"} v m
+- [include](cpplus_content) chạy như thế nào
+- Kieu du lieu [wchar-t](cpplus_content) dung kieu j v bot?
+- Sử dụng [double](cpplus_content) trong c++ ntn thế?
+- CÁCH TẠO RA [MATRIX]{"entity": "cpplus_content", "value": "2d-array"} TRONG C++?
+- Nói cho tôi biết cách khai báo một [thư viện]{"entity": "cpplus_content", "value": "library"} như thế nào không
+- lam s de t viet vong lap [For]{"entity": "cpplus_content", "value": "for"} day m
+- 1 BIẾN MÀ CÓ CHỮ [CONST]{"entity": "cpplus_content", "value": "constant"} PHÍA TRƯỚC THÌ VIẾT NTN V BOT?
+- [class](cpplus_content) hoạt động như thế nào
+- Ê KU LÀM S ĐỂ TẠO DC MỘT BIẾN KIỂU [LONG]{"entity": "cpplus_content", "value": "long"} THẾ
+- ê làm sao để t tạo thêm 1 một [array](cpplus_content) đây?
+- [function](cpplus_content) chạy như thế nào
+- Cú pháp [argument](cpplus_content)
+- [pass-by-value](cpplus_content) hoạt động như thế nào
+- Trien khai [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"} ra lam sao v chatbot?
+- Viet [mang mot chieu]{"entity": "cpplus_content", "value": "array"} thi viet nhu the nao day bot?
+- Lam cach nao de dung kieu [double](cpplus_content) trong c++?
+- lam sao de minh co the su dung duoc [break](cpplus_content)?
+- [static](cpplus_content) chạy như thế nào
+- Cach tao ra vong [For]{"entity": "cpplus_content", "value": "for"} nhu the nao day
+- [biến cục bộ]{"entity": "cpplus_content", "value": "local-variable"} dc khai báo nàm thao thía ?
+- NÓI CHO TÔI BIẾT CÁCH TẠO MỘT [STRUCT]{"entity": "cpplus_content", "value": "structure"} NHƯ THẾ NÀO KHÔNG
+- cach dung [struct]{"entity": "cpplus_content", "value": "structure"} nhu the nao v
+- viet mot vong lap [for](cpplus_content) trong c++ thi phai lam nhung gi?
+- [type-modififer](cpplus_content) chạy như thế nào
+- Cu phap cua [unsigned](cpplus_content) la gi
+
+## intent:cpplus_what_asking
+- [namespace{"entity": "cpplus_content", "value": "namespace"}
+- [Mang mot chieu]{"entity": "cpplus_content", "value": "array"}
+- [ĐỆ QUY]{"entity": "cpplus_content", "value": "recursion"} LÀ GÌ?
+- Giải thích cái [Toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"} xem
+- thế nào là [toán tử số học]{"entity": "cpplus_content", "value": "arithmetic-operator"} vậy bạn hiền bot ngu mặt cặc
+- cho tôi biết các khái niệm sau: [hàm]{"entity": "cpplus_content", "value": "function"}, [kiểu trả về]{"entity": "cpplus_content", "value": "return-type"} và [đệ quy]{"entity": "cpplus_content", "value": "recursion"}
+- [operators]{"entity": "cpplus_content", "value": "operator"} trong c++ la gi?
+- [ENUMS]{"entity": "cpplus_content", "value": "enumeration"} LÀ QQ GÌ ZAY BOT?
+- biet gi ve [toan tu ba ngoi]{"entity": "cpplus_content", "value": "ternary-operator"}?
+- hàm [do while]{"entity": "cpplus_content", "value": "do-while"} thực hiện như thế nào
+- The nao la kieu [dau cham dong]{"entity": "cpplus_content", "value": "floating-point"}
+- nói cho iem nghe về [main function]{"entity": "cpplus_content", "value": "main-function"} đi a uiii
+- thu noi ve [Con Tro]{"entity": "cpplus_content", "value": "pointer"} xem
+- hãy cho mình biết thế nào là [Flowchart]{"entity": "cpplus_content", "value": "flowchart"} ?
+- [C]{"entity": "cpplus_content", "value": "cplusplus"}++ la j ?
+- noi cc gi ve [lenh nhay]{"entity": "cpplus_content", "value": "jump-statement"} coi th lz
+- [Float]{"entity": "cpplus_content", "value": "floating-point"} la clgt
+- [Cin]{"entity": "cpplus_content", "value": "cin"} là gì
+- [MẢNG]{"entity": "cpplus_content", "value": "array"} LÀ CÁI VẸO GÌ V?
+- định nghĩa của [switch](cpplus_content)?
+- lệnh [điều kiện]{"entity": "cpplus_content", "value": "if"} là gì?
+- lệnh [switch](cpplus_content) là gì thế?
+- e th lz bot noi cho bo m biet ve [Reference Variable]{"entity": "cpplus_content", "value": "reference-variable"} di
+- thế nào là một [POINTER]{"entity": "cpplus_content", "value": "pointer"}?
+- Nèn oii [biến toàn cục]{"entity": "cpplus_content", "value": "global-variable"} là giề
+- [Function]{"entity": "cpplus_content", "value": "function"} ?
+- [FLOAT]{"entity": "cpplus_content", "value": "floating-point"} LÀ CLGT
+- noi cho tui nghe ve [Kieu so thuc]{"entity": "cpplus_content", "value": "floating-point"} dii
+- [luu do thuat toan]{"entity": "cpplus_content", "value": "flowchart"} la sao vay bot ?
+- Kiểu dữ liệu [char]{"entity": "cpplus_content", "value": "character"} là j thế
+- the nao la 1 [bien]{"entity": "cpplus_content", "value": "variable"}?
+- nói gì về [đối số]{"entity": "cpplus_content", "value": "argument"}, [tham số]{"entity": "cpplus_content", "value": "parameter"}, [tham chiếu]{"entity": "cpplus_content", "value": "pass-by-reference"} với [tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} coi
+- ke nghe ve [con tro]{"entity": "cpplus_content", "value": "pointer"} di
+- [CIN]{"entity": "cpplus_content", "value": "cin"} LÀ GÌ?
+- NÓI VỀ [CLASS]{"entity": "cpplus_content", "value": "class"} ĐI BẠN
+- [hàm thư viện]{"entity": "cpplus_content", "value": "built-in-function"} là j
+- [Thư viện]{"entity": "cpplus_content", "value": "library"} là gì
+- BẠN NÓI VỀ [CLASS]{"entity": "cpplus_content", "value": "class"} ĐI
+- [kiểu số nguyên]{"entity": "cpplus_content", "value": "integer"} trong c++ là như nào vậy bot?
+- [chuỗi]{"entity": "cpplus_content", "value": "string"} là j?
+- Cai tu khoa [static](cpplus_content) khi di chung voi viec khai bao bien thi no co su khac biet gi k bot
+- [KIỂU LIỆT KÊ]{"entity": "cpplus_content", "value": "enumeration"} TRONG C++ LÀ CÁI GÌ THẾ CHATBOT ?
+- [cin](cpplus_content) là gì?
+- The nao la [continue](cpplus_content)?
+- the nao la 1 [array](cpplus_content)?
+- [Lambda]{"entity": "cpplus_content", "value": "lambda"} là gì
+- THẾ NÀO LÀ MỘT [CONSTANT]{"entity": "cpplus_content", "value": "constant"} TRONG C++
+- Em muon biet them ve [default value]{"entity": "cpplus_content", "value": "default-value"}
+- HÀM [MACRO]{"entity": "cpplus_content", "value": "macro"} LÀ GÌ VẬY BẠN IU
+- The nao la [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
+- kieu [double](cpplus_content) la nhu the nao trong c++ vay
+- [STRING]{"entity": "cpplus_content", "value": "string"} LÀ GÌ?
+- Biết gì về [Cấu trúc]{"entity": "cpplus_content", "value": "structure"} k bạn ei
+- [RETURN]{"entity": "cpplus_content", "value": "return"} TRONG 1 HÀM LÀ GÌ?
+- EEEEEEE KIỂU [BOOL]{"entity": "cpplus_content", "value": "boolean"} LÀ SHAO ZAY
+- [Flowchart]{"entity": "cpplus_content", "value": "flowchart"} là gì ?
+- Thế nào là [kiểu số nguyên]{"entity": "cpplus_content", "value": "integer"}, [kiểu số thực]{"entity": "cpplus_content", "value": "floating-point"} và [kiểu double]{"entity": "cpplus_content", "value": "double"}?
+- KIEU [AUTO]{"entity": "cpplus_content", "value": "auto"} LA GI?
+- [Unary]{"entity": "cpplus_content", "value": "unary-operator"} la j
+- [toan tu phay]{"entity": "cpplus_content", "value": "comma-operator"}, sua gi ve noi xem nao
+- [nested if]{"entity": "cpplus_content", "value": "nested-if"} là cái gì nữa v trời ơi
+- KIEU [DOUBLE]{"entity": "cpplus_content", "value": "double"} LA NHU THE NAO TRONG C++ VAY
+- vong [While]{"entity": "cpplus_content", "value": "while"}?
+- [truyền tham trị]{"entity": "cpplus_content", "value": "pass-by-value"} là sao vậy thầy
+- thế nào là [Goto]{"entity": "cpplus_content", "value": "goto"}?
+- TRONG C++ TỪ KHÓA [RETURN]{"entity": "cpplus_content", "value": "return"} ĐƯỢC DÙNG ĐỂ LÀM GÌ VẬY?
+- [goto](cpplus_content) là j?
+- khái niệm về [include](cpplus_content)?
+- như thế nào là 1 [toán tử]{"entity": "cpplus_content", "value": "operator"}
+- nhu the nao la [bien tinh]{"entity": "cpplus_content", "value": "static"}?
+- trong c++ [Bien]{"entity": "cpplus_content", "value": "variable"} la j?
+- [pointer](cpplus_content)?
+- The nao la mot [class](cpplus_content) trong c++?
+- THẾ NÀO LÀ [I/O]{"entity": "cpplus_content", "value": "input-output"}?
+- Definition cua [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
+- người ta hay viết từ [char]{"entity": "cpplus_content", "value": "character"}, nó có nghĩa là sao vậy?
+- hay cho t biet nhu nao la 1 [Flowcharts]{"entity": "cpplus_content", "value": "flowchart"}
+- thế nào một [Cấu Trúc]{"entity": "cpplus_content", "value": "structure"}?
+- khai niem ve [con tro]{"entity": "cpplus_content", "value": "pointer"}?
+- như thế nào là [flow chart]{"entity": "cpplus_content", "value": "flowchart"} ?
+- Dinh nghia [Parameter]{"entity": "cpplus_content", "value": "parameter"}?
+- [Con tro]{"entity": "cpplus_content", "value": "pointer"} la gi?
+- [THAM SỐ]{"entity": "cpplus_content", "value": "parameter"} LÀ GÌ?
+- khai niem ve [recursion](cpplus_content)?
+- [PARAMETER]{"entity": "cpplus_content", "value": "parameter"} LÀ NHƯ THẾ NÀO V?
+- TRONG C++ [VARIABLE]{"entity": "cpplus_content", "value": "variable"} ĐƯỢC ĐỊNH NGHĨA NHƯ THẾ NÀO?
+- Nhu nao la 1 [BREAK]{"entity": "cpplus_content", "value": "break"} vay ban hien?
+- the nao la [namespace](cpplus_content)?
+- [i/o]{"entity": "cpplus_content", "value": "input-output"} trong c++ la gi?
+- the nao la [Enumeration]{"entity": "cpplus_content", "value": "enumeration"}?
+- noi cho tao biet [c]{"entity": "cpplus_content", "value": "cplusplus"}++ la j duoc khong?
+- [Do while]{"entity": "cpplus_content", "value": "do-while"} là gì?
+- Definition của [Recursion]{"entity": "cpplus_content", "value": "recursion"}?
+- [chuoi]{"entity": "cpplus_content", "value": "string"} la j?
+- [Return]{"entity": "cpplus_content", "value": "return"} trong 1 ham la j?
+- nhu the nao la mot [Ham nac danh]{"entity": "cpplus_content", "value": "lambda"} the bot?
+- [ĐỐI SỐ]{"entity": "cpplus_content", "value": "argument"} LÀ GÌ?
+- Nao lz bot biet gi ve [arithmetic operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} khong ?!
+- trong c++ [variable](cpplus_content) được định nghĩa như thế nào?
+- [CHUỖI]{"entity": "cpplus_content", "value": "string"} LÀ GÌ?
+- The nao la kieu [Double]{"entity": "cpplus_content", "value": "double"}
+- [variables]{"entity": "cpplus_content", "value": "variable"} ?
+- The nao mot [STRUCTURE]{"entity": "cpplus_content", "value": "structure"}?
+- thế nào là 1 [tham số]{"entity": "cpplus_content", "value": "parameter"} và 1 [đối số]{"entity": "cpplus_content", "value": "argument"} trong c++?
+- the nao la mot [string](cpplus_content)?
+- THẾ NÀO LÀ [RECURSION]{"entity": "cpplus_content", "value": "recursion"}?
+- [SWITCH]{"entity": "cpplus_content", "value": "switch"} STATEMENT LÀ GÌ?
+- what is the definition of [control flow]{"entity": "cpplus_content", "value": "control-flow"} in programming?
+- Khái niệm về [structure](cpplus_content)?
+- [ham]{"entity": "cpplus_content", "value": "function"} la j?
+- THẾ NÀO LÀ [CIN]{"entity": "cpplus_content", "value": "cin"} TRONG C++?
+- [return](cpplus_content) la j?
+- [RECURSION]{"entity": "cpplus_content", "value": "recursion"} LÀ WTF?
+- [comment](cpplus_content) là gì?
+- [ENUM]{"entity": "cpplus_content", "value": "enumeration"} là cái gì ?
+- Cu phap [struct]{"entity": "cpplus_content", "value": "structure"} la j
+- [if](cpplus_content)
+- Sủa gì về [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} xem
+- kiểu [DOUBLE]{"entity": "cpplus_content", "value": "double"} là gì?
+- [unsigned variable]{"entity": "cpplus_content", "value": "unsigned"} là gj????
+- Dinh nghia cua [Switch]{"entity": "cpplus_content", "value": "switch"}?
+- NÓI CHO IEM 1 TÍ VỀ KIỂU [WCHAR_T]{"entity": "cpplus_content", "value": "wchar-t"} ĐI A OIII
+- the nao la [comment](cpplus_content)?
+- [toán tử logic]{"entity": "cpplus_content", "value": "logical-operator"}
+- [library](cpplus_content) la j the?
+- cho mình hỏi về [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} với ạ !
+- Ayy doooo noi tao nghe ve [comma operator]{"entity": "cpplus_content", "value": "comma-operator"} nghe nao
+- [variable](cpplus_content) là gì vậy bot?
+- ĐỊNH NGHĨA [HÀM]{"entity": "cpplus_content", "value": "function"} TRONG C++ LÀ S V M?
+- thế nào là kiểu [Character]{"entity": "cpplus_content", "value": "character"} trong c++
+- nói gì về [Con trỏ]{"entity": "cpplus_content", "value": "pointer"} đi?
+- E noi cho tao ve [Bien tinh]{"entity": "cpplus_content", "value": "static"} dii
+- [INT]{"entity": "cpplus_content", "value": "integer"} la j
+- [kiểu dữ liệu]{"entity": "cpplus_content", "value": "data-type"}?
+- Não lz bot biết gì về [arithmetic operator]{"entity": "cpplus_content", "value": "arithmetic-operator"} không ?!
+- MỘT [CLASS]{"entity": "cpplus_content", "value": "class"} TRONG C++ ĐƯỢC ĐỊNH NGHĨA NHƯ NÀO VẬY BOT?
+- Nè, [hàm nội tuyến]{"entity": "cpplus_content", "value": "inline-function"} là j vậy?
+- [enums]{"entity": "cpplus_content", "value": "enumeration"} là qq gì zay bot?
+- [namespace](cpplus_content) la gi?
+- Vòng lặp [For]{"entity": "cpplus_content", "value": "for"} la sao
+- [lớp]{"entity": "cpplus_content", "value": "class"} là j?
+- CHO TOI HOI THE NAO LA MOT [STRING]{"entity": "cpplus_content", "value": "string"} THE ?
+- [Local Variable]{"entity": "cpplus_content", "value": "local-variable"}
+- [mảng]{"entity": "cpplus_content", "value": "array"} là cái vẹo gì v?
+- [Toan tu logic]{"entity": "cpplus_content", "value": "logical-operator"} la cm gi v lz que
+- m biết gì về từ [include](cpplus_content)?
+- tui nghe bao ve [Dau cham dong]{"entity": "cpplus_content", "value": "floating-point"}, no la j v
+- Thế nào một [STRUCTURE]{"entity": "cpplus_content", "value": "structure"}?
+- KHÁI NIỆM VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"}?
+- KIỂU [FLOATING POINT]{"entity": "cpplus_content", "value": "floating-point"} LÀ GÌ VẬY
+- Từ khóa [Static]{"entity": "cpplus_content", "value": "static"} khi đi kèm với việc khai báo một biến là gì
+- TRONG C++ [VÒNG LẶP]{"entity": "cpplus_content", "value": "loop"} ĐƯỢC ĐỊNH NGHĨA RA SAO?
+- cho hoi [REFERENCE VARIABLE]{"entity": "cpplus_content", "value": "reference-variable"}?
+- Su dung tu khoa [static](cpplus_content) khi minh khai bao mot bien thi co them tac dung gi k bot?
+- Thế nào là kiểu [kí tự]{"entity": "cpplus_content", "value": "character"} trong c++
+- THỬ NÓI VỀ [CON TRỎ]{"entity": "cpplus_content", "value": "pointer"} XEM
+- THẾ NÀO LÀ KIỂU [CHARACTER]{"entity": "cpplus_content", "value": "character"} TRONG C++
+- the nao la 1 ham [de quy]{"entity": "cpplus_content", "value": "recursion"}?
+- khai niem ve [library](cpplus_content) trong c++?
+- the nao la [mang mot chieu]{"entity": "cpplus_content", "value": "array"}
+- review cho t 1 chút về môn [nhập môn lập trình]{"entity": "cpplus_content", "value": "introduction-to-programming"} đi bot
+- [Assignment operator]{"entity": "cpplus_content", "value": "assignment-operator"} là j?
+- khái niệm về [recursion](cpplus_content)?
+- Hãy cho tôi biết về [toán tử ++]{"entity": "cpplus_content", "value": "increment-operator"}
+- E may oi [ham noi tuyen]{"entity": "cpplus_content", "value": "inline-function"} la gi vay
+- [Chuỗi]{"entity": "cpplus_content", "value": "string"} Chuỗi Chuỗi Chuỗi là j
+- [toán tử]{"entity": "cpplus_content", "value": "operator"} là gì ?
+- the nao la [doi so]{"entity": "cpplus_content", "value": "argument"} vay?
+- T quên mất [return type]{"entity": "cpplus_content", "value": "return-type"} là gì rồi, nói lại cho tao nhớ coi
+- NHƯ NÀO LÀ KIỂU [BOOLEAN]{"entity": "cpplus_content", "value": "boolean"} VALUE
+- [Break]{"entity": "cpplus_content", "value": "break"} trong c++ la j?
+- nói về [Struct]{"entity": "cpplus_content", "value": "structure"} đi bạn eii
+- [lưu đồ thuật toán]{"entity": "cpplus_content", "value": "flowchart"} là j vậy bot ?
+- what do u known about [pass by reference]{"entity": "cpplus_content", "value": "pass-by-reference"}?
+- thế nào là một [string](cpplus_content)?
+- cho emm hỏi về [toán tử gán]{"entity": "cpplus_content", "value": "assignment-operator"} đi anh ơi
+- NÓI GÌ VỀ [HÀM]{"entity": "cpplus_content", "value": "function"} T NGHE XEM
+- [Enumeration]{"entity": "cpplus_content", "value": "enumeration"} la j v bot?
+- THẾ NÀO LÀ KIỂU [SỐ NGUYÊN]{"entity": "cpplus_content", "value": "integer"} VẬY BOT?
+- WHAT THE FACK IS [MACRO]{"entity": "cpplus_content", "value": "macro"}?
+- BÀN LUẬN SÔI NỔI MỘT CHÚT VỀ [KIỂU LIỆT KÊ]{"entity": "cpplus_content", "value": "enumeration"} NÀO CHATBOT?
+- noi gi ve [bien tinh]{"entity": "cpplus_content", "value": "static"} nghe choi
+- [BREAK]{"entity": "cpplus_content", "value": "break"} TRONG C++ LÀ GÌ?
+- thế nào là [i/o]{"entity": "cpplus_content", "value": "input-output"}?
+- hey hey hey, [toán tử một ngôi]{"entity": "cpplus_content", "value": "unary-operator"} là s
+- Định nghĩa về [CHUỖI]{"entity": "cpplus_content", "value": "string"} trong c++?
+- [enums]{"entity": "cpplus_content", "value": "enumeration"} la qq gi zay bot?
+- hey hey hey, [toan tu mot ngoi]{"entity": "cpplus_content", "value": "unary-operator"} la s
+- Nói t nghe về [Chuỗi]{"entity": "cpplus_content", "value": "string"} xem
+- Hàm [Macro]{"entity": "cpplus_content", "value": "macro"} là j vậy bạn iu
+- [2d-array](cpplus_content) là gì vậy ?
+- [string](cpplus_content) là gì?
+- VÒNG LẶP [FOR]{"entity": "cpplus_content", "value": "for"} LÀ GÌ?
+
+## synonym:2d-array
+- mảng hai chiều
+- MẢNG HAI CHIỀU
+- mang hai chieu
+- MANG HAI CHIEU
+- Mảng 2D
+- Mang 2D
+- Mang hai chieu
+- Nảng hai chiều
+- Ma trận
+- Mảng 2 chiều
+- ma trận
+- 2d array
+- 2D ARRAY
+- TWO DIMENSIONAL ARRAY
+- MA TRẬN
+- MATRIX
+- 2D array
+- two dimensional array
+- matrix
+- Mảng hai chiều
+- ma tran
+- Ma tran
+- MA TRAN
+- Mang Hai Chieu
+- MẢNG 2D
+- TWO DEMENSIONAL ARRAY
+- TWO DEMENSIONALS ARRAY
+- MATRICES
+- two demensionals array
+- two-demensional array
+- Ma Tran
+- Matrix
+
+## synonym:address_of-operator
+- Toán thử địa chỉ
+- address_of operator
+- Address_of operator
+- Toán tử địa chỉ
+- Toan tu dia chi
+- ADDRESS OF OPERATORS
+- ADDRESS-OF OPERATORS
+- TOÁN TỬ ĐỊA CHỈ
+- TOAN TU DIA CHI
+- TOÁN TỬ &
+- TOAN TU &
+- Toán tử &
+- Toan tu &
+- toán tử địa chỉ
+- address of operator
+- address operator
+- adress_of operator
+- address operators
+- address of operators
+- toán tử &
+- toan tu dia chi
+- Toan Tu Dia Chi
+
+## synonym:argument
+- đối số
+- ĐỐI SỐ
+- doi so
+- DOI SO
+- ARGUMENT
+- Đối sô
+- Đối số
+- Doi so
+- Argument
+- ARGUMENTS
+- ARGS
+- arguments
+- arg
+- args
+- Đối Số
+- Arguments
+
+## synonym:arithmetic-operator
+- Toán tử số học
+- TOÁN TỬ SỐ HỌC
+- Toan tu so hoc
+- toán tử số học
+- arithmetic operator
+- Arithmetic operator
+- toan tu so hoc
+- Toan Tu So Hoc
+- TOAN TU SO HOC
+- ARITHMETIC OPERATOR
+- ARITHMETIC OPERATORS
+- MATHEMETICAL OPERATOR
+- MATHEMETICAL OPERATORS
+- Arithmetic Operator
+- Mathemetical Operator
+- Mathemetical operator
+- arithmetic operators
+- arithmetic
+- mathemetical operator
+- mathemetical operators
+- mathemetical
+- toán tử toán học
+
+## synonym:array
+- mảng
+- mảng một chiều
+- MẢNG
+- ARRAY
+- MẢNG MỘT CHIỀU
+- mang mot chieu
+- MANG
+- MANG MOT CHIEU
+- Mảng một chiều
+- Mảng
+- Mang mot chieu
+- Mang
+- mang
+- Array
+- Mảng 1 chiều
+- ARR
+- 1D ARRAY
+- ARRAYS
+- MẢNG 1D
+- arr
+- 1D Array
+- Arrays
+- Mảng 1D
+- Mang 1D
+- arrays
+- Mang 1 chieu
+- mang 1 chieu
+- Mang Mot Chieu
+- Mang 1 Chieu
+- 1d array
+- 1D array
+- mảng 1D
+- mảng 1d
+- Mảng 1d
+- array
+- arrs
+
+## synonym:assignment-operator
+- Assignment operator
+- toán tử gán
+- Toan tu gan
+- toan tu gan
+- ASSIGNMENT OPERATOR
+- ASSIGNMENT OPERATORS
+- TOÁN TỬ GÁN
+- TOAN TU GAN
+- Assignment operators
+- Toán tử gán
+- Assignment Operator
+- Assignment Operators
+- assignment operator
+- assignment
+- assign
+- assignment operators
+
+## synonym:auto
+- AUTO
+- Auto
+- AUTO VARIABLE
+- AUTO VARIABLES
+- KIỂU AUTO
+- KIEU AUTO
+- Auto variables
+- Auto Variables
+- Auto Variable
+- Auto variable
+- Kiểu auto
+- Kiểu Auto
+- auto variable
+- auto variables
+- autovariable
+- autovariables
+- auto var
+- auto vars
+- autovar
+- autovars
+- biến auto
+- kiểu auto
+- kieu auto
+
+## synonym:binary-operator
+- toán tử hai ngôi
+- TOÁN TỬ HAI NGÔI
+- toan tu hai ngoi
+- Binary operator
+- binary operator
+- Toán tử hai ngôi
+- Toan tu hai ngoi
+- TOÁN TỬ 2 NGÔI
+- toán tử 2 ngôi
+- Toan Tu Hai Ngoi
+- TOAN TU HAI NGOI
+- BINARY OPERATOR
+- BINARY OPERATORS
+- Binary Operators
+- binary
+- binaries
+- binarys
+- binary operators
+
+## synonym:bitwise-operator
+- bitwise operator
+- BITWISE OPERATOR
+- BITWISE OPERATORS
+- Bitwise operator
+- Bitwise Operator
+- bitwise
+- bitwise operators
+
+## synonym:boolean
+- BOOLEAN
+- LUAN LY
+- KIEU LUAN LY
+- KIỂU LUẬN LÝ
+- BOOL
+- Boolean
+- luan ly
+- Kieu luan ly
+- kiểu luận lý
+- Kiểu luận lý
+- bool
+- LUẬN LÝ
+- luận lý
+- kieu luan ly
+- Kieu Luan Ly
+- BOOLS
+- Bool
+- Luan Ly
+- Luan ly
+- Luận lý
+- Luận Lý
+- bôl
+- bôlean
+
+## synonym:break
+- BREAK
+- Break
+- BREAKS
+- break
+- breaks
+
+## synonym:built-in-function
+- Built in function
+- Built-in function
+- ham dung san
+- Hàm dựng sẵn
+- hàm thư viện
+- hàm dựng sẵn
+- built in functions
+- BUILT-IN FUNCTION
+- BUILT IN FUNCTION
+- HÀM DỰNG SẴN
+- HÀM THƯ VIỆN
+- HÀM CÓ SẴN
+- HAM DUNG SAN
+- HAM CO SAN
+- HAM THU VIEN
+- Built-in Function
+- Hàm có sẵn
+- Hàm thư Viện
+- Ham dung san
+- Ham co san
+- Ham thu vien
+- built in function
+- hàm có sẵn
+- built-in function
+- built_in function
+- library function
+
+## synonym:character
+- CHAR
+- CHARACTER
+- KIỂU KÍ TỰ
+- KÍ TỰ
+- KÝ TỰ
+- char
+- Character
+- kí tự
+- Ký tự
+- ký tự
+- kiểu kí tự
+- kieu ki tu
+- KIEU KI TU
+- CHARACTERS
+- KIỂU KÝ TỰ
+- CHARS
+- KI TU
+- KIEU KY TU
+- Char
+- Characters
+- Chars
+- Kiểu kí tự
+- Kiểu ký tự
+- Kieu ki tu
+- Kieu Ki Tu
+- Kieu Ky Tu
+- Kieu ky tu
+- chars
+- characters
+
+## synonym:cin
+- CIN
+- Cin
+- STD::CIN
+- std::cin
+- cin
+- Std::cin
+
+## synonym:class
+- Class
+- CLASS
+- LỚP
+- LOP
+- Lớp
+- lop
+- lớp
+- Lop
+- Classes
+- classes
+- class
+
+## synonym:comma-operator
+- Comma operator
+- comma operator
+- toán tử phẩy
+- toan tu phay
+- dấu phẩy
+- dau phay
+- COMMA OPERATOR
+- COMMA OPERATORS
+- TOÁN TỬ PHẨY
+- TOAN TU PHAY
+- Toán tử phẩy
+- Toán Tử Phẩy
+- Comma Operator
+- Comma Operators
+- comma operators
+
+## synonym:comment
+- Comment
+- commnet
+- COMMENT
+- COMMNET
+- BÌNH LUẬN
+- BINH LUAN
+- bình luận
+- comments
+- cmt
+- cmts
+
+## synonym:comparison-operator
+- toan tu quan he
+- toán tử so sánh
+- Toán tử quan hệ
+- toan tu so sanh
+- Toan tu quan he
+- toán tử quan hệ
+- TOÁN TỬ QUAN HỆ
+- TOÁN TỬ SO SÁNH
+- TOAN TU QUAN HE
+- TOAN TU SO SANH
+- COMPARISON OPERATOR
+- COMPARISON OPERATORS
+- RELATIONAL OPERATOR
+- RELATIONAL OPERATORS
+- Toán tử so sánh
+- Toan tu so sanh
+- Comparison operator
+- Relational operator
+- Comparison operators
+- Relational operators
+- comparison operators
+- relational operators
+- relational operator
+
+## synonym:const-reference
+- Tham chiếu hằng
+- THAM CHIẾU HẰNG
+- Tham chieu hang
+- Const Reference
+- tham chieu hang
+- tham chiếu hằng
+- constant reference
+- Tham Chieu Hang
+- THAM CHIEU HANG
+- CONST REFERENCE
+- CONSTANT REFERENCE
+- Const referemce
+- const reference
+- const references
+- constreference
+
+## synonym:constant
+- CONSTANT
+- HẰNG SỐ
+- HANG SO
+- Constant
+- Hang so
+- hằng số
+- CONST
+- const
+- Const
+- CONSTANTS
+- Hằng số
+- Hằng Số
+- Hang So
+- Constants
+- hang so
+- constants
+- consts
+- hằng
+
+## synonym:continue
+- CONTINUE
+- Continue
+- CONTINUES
+- Continues
+- continue
+- continues
+
+## synonym:control-flow
+- cau truc dieu khien
+- CAU TRUC DIEU KHIEN
+- control flow
+- flow of control
+- cấu trúc điều khiển
+- flow controls
+- CẤU TRÚC ĐIỀU KHIỂN
+- Cau truc dieu khien
+- Cau Truc Dieu Khien
+- CONTROL FLOW
+- FLOW OF CONTROLS
+- FLOW ĐIỀU KHIỂN
+- FLOW COTROLS
+- Cấu trúc điều khiển
+- Flow controls
+- Flow of control
+- Flow Of Control
+- control flows
+- controlflow
+- controlflows
+- flow điều khiển
+
+## synonym:control-statement
+- CONTROL STATEMENT
+- CONTROL STATEMENTS
+- LỆNH ĐIỀU KHIỂN
+- LENH DIEU KHIEN
+- Control statements
+- Control statement
+- Control Statement
+- Control Statements
+- Lệnh điều khiển
+- Lenh dieu khien
+- control statement
+- control statements
+- controlstatement
+- controlstatements
+- lệnh điều khiển
+- lenh dieu khien
+- Lenh Dieu Khien
+
+## synonym:cout
+- COUT
+- STD::COUT
+- std::cout
+- cout
+- Std::cout
+- Cout
+
+## synonym:cplusplus
+- C
+- c
+- CPP
+- CPLUSPLUS
+- C PLUS PLUS
+- cpp
+- c plus plus
+- C CỘNG CỘNG
+- CPPLUS
+- c++
+- C++
+- Cpp
+- cplusplus
+- Cplusplus
+- cpplus
+- Cpplus
+- c cộng cộng
+- C ++
+
+## synonym:data-type
+- kiểu dữ liệu
+- Kieu du lieu
+- KIỂU DỮ LIỆU
+- KIEU DU LIEU
+- kieu du lieu
+- Kiểu dữ liệu
+- DATA TYPES
+- data types
+- Kieu Du Lieu
+- DATA TYPE
+- DATATYPE
+- Kiểu Dữ Liệu
+- Data Type
+- dât type
+- datatype
+- datatypes
+
+## synonym:decrement-operator
+- toán tử giảm
+- TOÁN TỬ GIẢM
+- toan tu giam
+- toán tử --
+- decrement operator
+- Decrement operator
+- DECREMENT OPERATOR
+- toan tu --
+- DECREMENT OPERATORS
+- TOÁN TỬ --
+- TOAN TU GIAM
+- Toan tu giam
+- Toan Tu Giam
+- TOAN TU --
+- Toán tử giảm
+- Toán tử --
+- Decrement Operator
+- --
+- decrement operators
+- decrementoperator
+- decrementoperators
+
+## synonym:default-value
+- ham số mặc nhiên
+- HAM SỐ MẶC NHIÊN
+- ham so mac nhien
+- Tham số mặc nhiên
+- tham so mac nhien
+- default value
+- tham số mặc định
+- Tham so mac nhien
+- Tham So Mac Nhien
+- THAM SỐ MẶC NHIÊN
+- THAM SO MAC NHIEN
+- DEFAULT VALUES
+- DEFAULT VALUE
+- Default value
+- Default Value
+- tham số mặc nhiên
+- default values
+- tham so mac dinh
+
+## synonym:dereference-operator
+- Dereference operator
+- Dereference Operator
+- dereference operator
+- DEREFERENCE OPERATOR
+- DEREFERNCE OPERATORS
+- INDIRECTION OPERATOR
+- INDIRECTION OPERATORS
+- TOÁN TỬ TRỎ
+- TOAN TU TRO
+- TOAN TU *
+- TOÁN TỬ *
+- Indirection Operators
+- Indirection operators
+- Dereference operators
+- dereference operators
+- indirection operator
+- indirection operators
+- Toán tử trỏ
+- toán tử trỏ
+- toán tử *
+- toan tu tro
+- toan tu *
+- Toan tu tro
+- Toan tu *
+
+## synonym:do-while
+- do while
+- DO WHILE
+- Do while
+- DOWHILE
+- do whiles
+- dowhile
+- dowhiles
+- Dowhile
+- Do While
+
+## synonym:double
+- DOUBLE
+- kiểu double
+- Double
+- DOUBLES
+- double
+- gấp đôi
+- doubles
+
+## synonym:enumeration
+- ENUMERATION
+- ENUM
+- ENUMS
+- ENUMERATOR
+- KIEU LIET KE
+- KIỂU LIỆT KÊ
+- Enumeration
+- enum
+- Enum
+- enums
+- Kiểu liệt kê
+- kiểu liệt kê
+- Enums
+- Kieu liet ke
+- kieu liet ke
+- LIỆT KÊ
+- LIET KE
+- Liệt kê
+- Kieu Liet Ke
+- Liet ke
+- liệt kê
+
+## synonym:external
+- EXTERNAL VARIABLE
+- EXTERNAL VARIABLES
+- External variable
+- External Variable
+- External variables
+- externals
+- external variable
+- external variables
+- external var
+- external vars
+- externalvars
+- externalvar
+
+## synonym:floating-point
+- float
+- FLOAT
+- FLOATING POINTS
+- KIEU SO THUC
+- KIỂU DẤU CHẤM ĐỘNG
+- DẤU CHẤM ĐỘNG
+- DAU CHAM DONG
+- KIEU DAU CHAM DONG
+- FLOATING POINT
+- FLOATING-POINT
+- SỐ THỰC
+- kiểu số thực
+- Float
+- kieu so thuc
+- kiểu dấu chấm động
+- dấu chấm động
+- Dấu chấm động
+- dau cham dong
+- Kieu dau cham dong
+- Kieu so thuc
+- kieu dau cham dong
+- Dau cham dong
+- floating point
+- Số Thực
+- số thực
+- so thuc
+- KIỂU SỐ THỰC
+- Số thực
+- Kiểu dấu chấm động
+- Kiểu số thực
+- kiểu float
+- kiểu dấm chấm động
+- floats
+- floating points
+- floating-points
+
+## synonym:flowchart
+- Flowchart
+- lưu đồ thuật toán
+- Lưu đồ thuật toán
+- flow chart
+- Flowcharts
+- sơ đồ thuật toán
+- luu do thuat toan
+- so do thuat toan
+- Luu do thuat toan
+- FLOWCHART
+- FLOWCHARTS
+- LƯU ĐỒ
+- LUU DO
+- SƠ ĐỒ THUẬT TOÁN
+- SO DO THUAT TOAN
+- So do thuat toan
+- So Do Thuat Toan
+- LƯU ĐỒ THUẬT TOÁN
+- Lưu đồ
+- Lưu Đồ
+- Luu do
+- Luu Do Thuat Toan
+- Sơ đồ thuật toán
+- flowchart
+- flowcharts
+
+## synonym:for
+- For
+- FOR
+- FORS
+- for
+- fors
+
+## synonym:function
+- hàm
+- ham
+- HÀM
+- FUNCTION
+- HAM
+- functiion
+- Hàm
+- Function
+- Ham
+- FUNCTIONS
+- ham so
+- hàm số
+- Ham so
+- Ham So
+- functions
+- func
+- funcs
+- Functions
+- Funct
+
+## synonym:global-variable
+- biến toàn cục
+- Global variable
+- BIẾN TOÀN CỤC
+- Biến toàn cục
+- bien toan cuc
+- BIEN TOAN CUC
+- Bien toan cuc
+- GLOBAL VARIABLE
+- global variable
+- GLOBAL VARIABLES
+- GLOBAL
+- Global Variable
+- Biến Toàn Cục
+- Bien Toan Cuc
+- global
+- globals
+- global variables
+- globalvariable
+- globalvariables
+
+## synonym:goto
+- GOTO
+- Goto
+- GOTOS
+- Gotos
+- gotos
+
+## synonym:if
+- If
+- Điều kiện
+- IF
+- ĐIỀU KIỆN
+- Dieu kien
+- DIEU KIEN
+- điều kiện
+- dieu kien
+- nếu
+- ifs
+- Điều Kiện
+- Dieu Kien
+
+## synonym:if-else
+- if else
+- IF ELSE
+- If else
+- If Else
+- ifelse
+- ELSE
+- Else
+- else
+- nếu không thì
+
+## synonym:if-else-if-ladder
+- if else if ladder
+- IF ELSE IF LADDER
+- NẾU KHÔNG THÌ NẾU
+- CẦU THANG IF ELSE
+- CAU THANG IF ELSE
+- Cầu thang if else
+- Cầu thang If else
+- Nếu không thì nếu
+- If else If ladder
+- If else if ladder
+- if else if
+- nếu không thì nếu
+- cầu thang if else
+- cau thang if else
+
+## synonym:include
+- INCLUDE
+- #INCLUDE
+- #include
+- Include
+- includes
+
+## synonym:increment-operator
+- toán tử tăng
+- TOÁN TỬ TĂNG
+- toan tu tang
+- toán tử ++
+- Toán tử tăng
+- Increment operator
+- Toán tử ++
+- Toan tu tang
+- toan tu ++
+- Toan tu ++
+- increment operator
+- INCREMENT OPERATOR
+- INCREMENT OPERATORS
+- TOÁN TỬ ++
+- ++ OPERATOR
+- TOAN TU TANG
+- ++
+- increment operators
+- incrementoperator
+- incrementoperators
+
+## synonym:inline-function
+- hàm nội tuyến
+- HÀM NỘI TUYẾN
+- ham noi tuyen
+- inline function
+- Hàm nội tuyến
+- inline functions
+- Ham noi tuyen
+- Ham Noi Tuyen
+- INLINE FUNCTION
+- INLINE FUNCTIONS
+- Hàm inline
+- Inline Function
+- Inline function
+- hàm inline
+- nội tuyến
+- noi tuyen
+
+## synonym:input-output
+- I/O
+- INPUT/OUTPUT
+- i/o
+- Input/output
+- INPUT OUTPUT
+- I/o
+- Input output
+- Input Output
+- Input/Output
+- input/output
+- intput output
+
+## synonym:integer
+- Integer
+- int
+- INTEGER
+- INT
+- SỐ NGUYÊN
+- KIEU SO NGUYEN
+- kiểu số nguyên
+- kieu so nguyen
+- SO NGUYEN
+- Kiểu số nguyên
+- INTEGERS
+- KIỂU SỐ NGUYÊN
+- Int
+- Số nguyên
+- Integers
+- số nguyên
+- integers
+- ints
+- so nguyen
+- So nguyen
+- Kieu so nguyen
+- Kieu So Nguyen
+
+## synonym:introduction-to-programming
+- Nhập môn lập trình
+- nhập môn lập trình
+- nhập môn lập trinh
+- Nmlt
+- nmlt
+- NMLT
+- nhap mon lap trinh
+- NHẬP MÔN LẬP TRÌNH
+- Nhap mon lap trinh
+- Nhập Môn Lập Trình
+- NHẬP MÔN C++
+- INTRODUCTION TO PROGRAMMING
+- INTRODUCTION TO C++
+- nhập môn C++
+- nhập môn c++
+- introduction to programming
+- introduction to c++
+- introduction to C++
+- Nhập môn C++
+- Nhập môn c++
+- Introduction to programming
+- Introduction to c++
+- Introduction to C++
+- Nhap Mon Lap Trinh
+
+## synonym:iteration-statement
+- iteration statement
+- lenh lap
+- ITERATION STATEMENT
+- ITERATION STATEMETS
+- LỆNH LẶP
+- LENH LAP
+- Lệnh lặp
+- Lệnh Lặp
+- Iteration Statement
+- Iteration statement
+- Lenh lap
+- Lenh Lap
+- iteration statements
+- iterationstatement
+- iterationstatements
+- lệnh lặp
+
+## synonym:jump-statement
+- jump statement
+- Lenh nhay
+- lenh nhay
+- lệnh nhảy
+- JUMP STATEMENT
+- JUMP STATEMENTS
+- LỆNH NHẢY
+- LENH NHAY
+- LỆNH JUMP
+- LENH JUMP
+- Lệnh jump
+- Lệnh Jump
+- Jump statement
+- Jump Statement
+- jump statements
+- jumpstatement
+- jumpstatements
+- lệnh jump
+- lenh jump
+
+## synonym:lambda
+- Lambda
+- lamda
+- LAMBDA
+- LAMDA
+- hàm nặc danh
+- Ham nac danh
+- ham khong ten
+- Ham vo danh
+- HÀM NẶC DANH
+- HÀM KHÔNG TÊN
+- HÀM VÔ DANH
+- HÀM ANNONYMOUS
+- HAM NAC DANH
+- HAM KHONG TEN
+- HAM VO DANH
+- HAM ANNONYMOUS
+- Hàm nặc danh
+- Hàm Lambda
+- Hàm lambda
+- Hàm vô danh
+- Lambda function
+- Lambda Function
+- Lambda Functions
+- ham nac danh
+- ham vo danh
+- hàm lambda
+- hàm vô danh
+- hàm ko tên
+- hàm không tên
+- lambda function
+- anonymous function
+- ham lambda
+
+## synonym:library
+- Library
+- thư viện
+- libraries
+- LIBRARY
+- THƯ VIỆN
+- LIBRARIES
+- THU VIEN
+- Thư viện
+- inclue
+- Thu vien
+- thu vien
+- Lib
+- Thư Viện
+- LIBS
+- libs
+- thư viẹn
+- lib
+- Thu Vien
+
+## synonym:local-variable
+- biến cục bộ
+- Local Variable
+- local variable
+- Biến cục bộ
+- Bien cuc bo
+- bien cuc bo
+- Local variable
+- LOCAL VARIABLE
+- BIẾN CỤC BỘ
+- LOCAL VARIABLES
+- BIEN CUC BO
+- LOCALS
+- LOCAL
+- Biến Cục Bộ
+- Bien Cuc Bo
+- Local variables
+- Local Variables
+- local
+- locals
+- local var
+- local vars
+- local variables
+- localvar
+- locavars
+- localvariable
+- localvariables
+
+## synonym:logical-operator
+- toán tử logic
+- TOÁN TỬ LOGIC
+- toan tu logic
+- Toan tu logic
+- Toán tử logic
+- Logical operator
+- logical operator
+- Toan Tu Logic
+- TOAN TU LOGIC
+- TOÁN TỬ LOGICAL
+- LOGICAL OPERATOR
+- LOGICAL OPERATORS
+- Logical Operator
+- logical operators
+- toán tử logical
+- toán tử tư duy
+- toan tu logical
+- toan tu tu duy
+
+## synonym:long
+- LONG
+- LONGS
+- Long
+- long
+- longs
+- dài
+
+## synonym:loop
+- vòng lặp
+- loops
+- vong lap
+- VÒNG LẶP
+- LOOPS
+- VONG LAP
+- Loop
+- Vòng lặp
+- Vong lap
+- LOOP
+- Vòng Lặp
+- Vong Lap
+- Loops
+- lặp
+- lap
+- vòng
+
+## synonym:macro
+- MACRO
+- Macro
+- macros
+- macro
+- #define
+
+## synonym:main-function
+- main
+- main function
+- MAIN
+- MAIN FUNCTION
+- HÀM CHÍNH
+- HAM CHINH
+- Main
+- Main Function
+- Main function
+- hàm chính
+- mains
+
+## synonym:namespace
+- không gian tên
+- NAMESPACE
+- KHÔNG GIAN TÊN
+- khong gian ten
+- KHONG GIAN TEN
+- Namespace
+- NAMEPSACE
+- namepsace
+- NAMEPSACES
+- Khong gian ten
+- Khong Gian Ten
+- namespaces
+- name space
+- name spaces
+- Namespaces
+
+## synonym:nested-if
+- nested if
+- if lồng if
+- if long if
+- NESTED IF
+- IF LỒNG IF
+- IF LỒNG BÊN TRONG IF
+- If lồng If
+- If lồng if
+- Nested If
+- Nested if
+- if lồng bên trong if
+- nested ifs
+
+## synonym:operator
+- toán tử
+- Operators
+- TOÁN TỬ
+- OPERATORS
+- toan tu
+- TOAN TU
+- Toán tử
+- operators
+- Toan tu
+- Operator
+- OPERATOR
+- Toan Tu
+
+## synonym:parameter
+- tham số
+- THAM SỐ
+- tham so
+- THAM SO
+- PARAMETER
+- Tham số
+- Parameter
+- Tham so
+- PARAMETERS
+- Tham Số
+- Tham So
+- parameters
+- para
+- paras
+- Parameters
+
+## synonym:pass-by-reference
+- tham chiếu
+- tham chieu
+- THAM CHIẾU
+- THAM CHIEU
+- Truyền tham chiếu
+- truyen tham chieu
+- Truyen tham chieu
+- pass by reference
+- Tham chiếu
+- truyền tham chiếu
+- Tham Chiếu
+- Tham Chieu
+- Tham chieu
+- Pass by reference
+- Pass By Reference
+- PASS BY REFERENCE
+
+## synonym:pass-by-value
+- tham trị
+- tham tri
+- THAM TRỊ
+- THAM TRI
+- truyền tham trị
+- pass by value
+- Pass by value
+- Tham trị
+- truyen tham tri
+- Tham Trị
+- Tham Tri
+- Tham tri
+- Pass By Value
+- PASS BY VALUE
+
+## synonym:pointer
+- Con trỏ
+- con trỏ
+- Pointer
+- CON TRỎ
+- POINTER
+- Con tro
+- con tro
+- CON TRO
+- Con Trỏ
+- Con Tro
+- POINTERS
+- trỏ
+- pointers
+
+## synonym:pseudo-code
+- Pseudo code
+- mã giả
+- pseudo code
+- ma gia
+- MÃ GIẢ
+- PSEUDO CODE
+- PSEUDO CODES
+- MA GIA
+- Mã giả
+- Mã Giả
+- Pseudo Code
+- pseduocode
+- pseudo codes
+- pseudocodes
+
+## synonym:recursion
+- đệ quy
+- Recursion
+- recursions
+- ĐỆ QUY
+- RECURSION
+- RECURSIONS
+- de quy
+- DE QUY
+- Đệ quy
+- De quy
+- De Quy
+- RECURSIVE
+- recursive
+- Đệ Quy
+
+## synonym:reference-variable
+- reference variable
+- Reference Variable
+- Reference variable
+- REFERENCE VARIABLE
+- Biến tham chiếu
+- biến tham chiếu
+- Bien tham chieu
+- bien tham chieu
+- REFERENCE VARIABLES
+- BIẾN THAM CHIẾU
+- BIEN THAM CHIEU
+- Reference Variables
+- Reference variables
+- Bien Tham Chieu
+- Biến Tham Chiếu
+- reference
+- reference vars
+- reference variables
+
+## synonym:return
+- RETURN
+- Return
+- RETURNS
+- TRẢ VỀ
+- TRA VE
+- Returns
+- Tra ve
+- Trả về
+- returns
+- trả về
+- tra ve
+
+## synonym:return-type
+- Kiểu trả về
+- Return type
+- return type
+- kiểu trả về
+- KIỂU TRẢ VỀ
+- KIEU TRA VE
+- RETURN TYPE
+- RETURN TYPES
+- Kieu tra ve
+- return types
+- kieu tra ve
+
+## synonym:scope-resolution-operator
+- scope resolution operator
+- toán tử định phạm vi
+- toan tu dinh pham vi
+- SCOPE RESOLUTION OPERATOR
+- TOÁN TỬ ĐỊNH PHẠM VI
+- TOAN TU DINH PHAM VI
+- Toán tử định phạm vi
+- Toan tu dinh pham vi
+- Toan Tu Dinh Pham Vi
+- SCOPE RESOLUTION OPERATORS
+- TOAN TU ::
+- TOÁN TỬ ::
+- Scopre resolution operator
+- Scopre Resolution Operator
+- Scopre resolution Operators
+- Scopre Resolution Operators
+- toán tử phạm vi
+- toán tử ::
+- Toán tử ::
+- ::
+- toan tu pham vi
+- toan tu ::
+- scope resolution operators
+
+## synonym:selection-statement
+- SELECTION STATEMENT
+- SELECTION STATEMENTS
+- LỆNH CHỌN
+- LỆNH LỰA CHỌN
+- LENH CHON
+- LENH LUA CHON
+- Lệnh chọn
+- Lệnh lựa chọn
+- Lenh chon
+- Lenh lua chon
+- Selection statement
+- Selection Statement
+- Selection Statements
+- Selection statements
+- selection statement
+- selection statements
+- selectionstatement
+- selectionstatements
+- lệnh chọn
+- lệnh lựa chọn
+- lenh lua chon
+- Lenh Lua Chon
+
+## synonym:shift-operator
+- toán tử dời bit
+- toan tu doi bit
+- SHIFT OPERATOR
+- SHIFT OPERATORS
+- TOÁN TỬ DỜI BIT
+- TOÁN TỬ THAO THÁC BIT
+- TOAN TU DOI BIT
+- TOAN TU THAO TAC BIT
+- Toán tử dời bit
+- Toán tử thao tác bit
+- Shift operator
+- Shift operators
+- shift operators
+- shift operator
+- shift
+- toán tử thao tác bit
+- toan tu thao tac bit
+
+## synonym:short
+- SHORT
+- SHORTS
+- Short
+- short
+- Shorts
+- shorts
+- ngắn
+
+## synonym:signed
+- signed variable
+- SIGNED
+- SIGNED VARIABLE
+- SIGNED VARIABLES
+- Signed variables
+- Signed Variable
+- Signed variable
+- Signed
+- signeds
+- có dấu
+- dấu
+
+## synonym:static
+- biến tĩnh
+- BIẾN TĨNH
+- bien tinh
+- Static
+- Bien tinh
+- Biến tĩnh
+- STATIC
+- Bien Tinh
+- STATIC VARIABLE
+- STATIC VARIABLES
+- BIEN TINH
+- Biến Tĩnh
+- static
+- Static Variable
+- statics
+- static variable
+- static variables
+- static var
+- static vars
+- staticvariable
+- staticvariables
+- staticvar
+- staticvars
+
+## synonym:string
+- STRING
+- CHUỖI
+- Chuỗi
+- chuỗi
+- chuoi
+- Chuoi
+- CHUOI
+- String
+- Kiểu chuỗi
+- KIỂU CHUỖI
+- kiểu chuỗi
+- kieu chuoi
+- Kieu chuoi
+- Kieu Chuoi
+- kieu Chuoi
+- STRINGS
+- CHUỖI KÍ TỰ
+- CHUOI KI TU
+- Chuoi ki tu
+- Chuoi Ki Tu
+- Strings
+- strings
+- str
+- strs
+- chuoi ki tu
+
+## synonym:structure
+- STRUCTURE
+- CẤU TRÚC
+- STRUCT
+- Structure
+- cấu trúc
+- Struct
+- struct
+- Cấu trúc
+- Cấu Trúc
+- cau truc
+- Cau truc
+- Cau Truc
+- STRUCTURES
+- CAU TRUC
+- Struc
+- Structures
+- structures
+- structs
+
+## synonym:switch
+- SWITCH
+- Switch
+- SWTICHS
+- Switchs
+- switchs
+- switchcase
+- switchcases
+- Switch case
+- switch case
+
+## synonym:ternary-operator
+- toán tử ba ngôi
+- TOÁN TỬ BA NGÔI
+- toan tu ba ngoi
+- Toán tử ba ngôi
+- Toan tu ba ngoi
+- ternary operator
+- Ternary operator
+- TOÁN TỬ 3 NGÔI
+- toán tử 3 ngôi
+- Toan Tu Ba Ngoi
+- TOAN TU BA NGOI
+- TERNARY OPERATOR
+- TERNARY OPERATORS
+- Ternary Operator
+- ternary
+- ternaries
+- ternarys
+
+## synonym:type-modifier
+- TYPE MODIFER
+- type modifer
+- TYPE MODIFIER
+- type modifier
+- TYPE MODIFIERS
+- type modifiers
+- TYPE OF MODIFIERS
+- MODIFERS
+- type modifers
+- typemodifier
+- type of modifers
+- data modifiers
+
+## synonym:typedef
+- TYPEDEF
+- Typedef
+- typedef
+
+## synonym:unary-operator
+- toán tử một ngôi
+- TOÁN TỬ MỘT NGÔI
+- toan tu mot ngoi
+- Toán tử một ngôi
+- Toan tu mot ngoi
+- unary operator
+- Unary
+- Toan Tu Mot Ngoi
+- UNARY OPERATOR
+- UNARY
+- UNARY OPERATORS
+- TOAN TU MOT NGOI
+- Unary Operator
+- Unary operator
+- Unary Operators
+- unary
+- unaries
+- unarys
+- unary operators
+
+## synonym:union
+- UNION
+- UNIONS
+- Union
+- Unions
+- union
+- unions
+- hợp nhất
+- liên hiệp
+
+## synonym:unsigned
+- Unsigned
+- unsigned variable
+- UNSIGNED
+- UNSINGED
+- unsinged
+- UNSIGNEDS
+- unsigneds
+- unsigned
+- không dấu
+- ko dấu
+- 0 dấu
+
+## synonym:variable
+- biến
+- Variable
+- variables
+- bien
+- BIẾN
+- VARIABLE
+- VARIABLES
+- BIEN
+- vars
+- Biến
+- Bien
+- Variables
+- varaible
+- var
+- Var
+- Vars
+
+## synonym:vector
+- VECTOR
+- Vector
+- VECTORS
+- Vectors
+- vector
+- vectors
+
+## synonym:wchar-t
+- WCHAR-T
+- WCHAR_T
+- wchar-t
+- Wchar-t
+- Wchar_t
+
+## synonym:while
+- While
+- WHILE
+- WHILES
+- while
+- whiles
+
+## regex:flowchart_quest_num
+- [0-9]{3}
